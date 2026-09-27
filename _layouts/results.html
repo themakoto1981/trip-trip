@@ -1,0 +1,79 @@
+---
+layout: default
+---
+<style>
+  #result-list { list-style: none; padding: 0; }
+  #result-list li {
+    background: #FFFFFF; border: 1px solid #E5DDCC; border-radius: 10px;
+    padding: 0.9rem 1.1rem; margin-bottom: 0.6rem;
+    line-height: 1.8;
+  }
+  #result-list a { font-weight: 600; }
+  .no-result { color: #888; }
+  .mini-season { display: inline-block; font-size: 0.75rem; font-weight: 600; padding: 1px 8px; border-radius: 10px; }
+  .mini-season.on { background: #E4F3EC; color: #00704A; }
+  .mini-season.off { background: #F3ECE0; color: #8a6d3b; }
+  .search-summary { color: #6B5A4A; margin-bottom: 1.25rem; }
+  .back-link { display: inline-block; margin-top: 1.5rem; }
+</style>
+
+<h1>検索結果</h1>
+<p class="search-summary" id="search-summary"></p>
+<ul id="result-list"></ul>
+<a class="back-link" href="{{ '/' | relative_url }}">← 条件を変更する</a>
+
+<script>
+  var destinations = {{ site.data.destinations | jsonify }};
+  var params = new URLSearchParams(window.location.search);
+  var nights = parseInt(params.get('nights') || '2', 10);
+  var budget = params.get('budget') || '';
+  var companion = params.get('companion') || '';
+
+  var nightsLabelMap = { 1: '1泊2日', 2: '2泊3日', 3: '3泊4日', 4: '4泊5日', 6: '5泊以上' };
+  var budgetLabelMap = { '80000': '8万円まで', '120000': '12万円まで', '180000': '18万円まで', '250000': '25万円まで', '400000': '40万円まで', '999999999': '上限なし' };
+  var companionLabelMap = { solo: '一人旅', couple: 'カップル・夫婦', family: '家族', friends: '友人グループ' };
+
+  var summaryParts = [nightsLabelMap[nights] || nights + '泊'];
+  if (budget) { summaryParts.push('予算 ' + (budgetLabelMap[budget] || budget + '円')); }
+  if (companion) { summaryParts.push(companionLabelMap[companion] || companion); }
+  document.getElementById('search-summary').textContent = '条件: ' + summaryParts.join('／');
+
+  var currentMonth = new Date().getMonth() + 1;
+
+  var withTotals = destinations.map(function (d) {
+    var totalMin = d.flight_min + d.daily_min * nights;
+    var totalMax = d.flight_max + d.daily_max * nights;
+    var inSeason = !d.best_months || d.best_months.indexOf(currentMonth) !== -1;
+    var matchesCompanion = !companion || (d.suited_for && d.suited_for.indexOf(companion) !== -1);
+    return Object.assign({}, d, { totalMin: totalMin, totalMax: totalMax, inSeason: inSeason, matchesCompanion: matchesCompanion });
+  });
+
+  var filtered = withTotals.filter(function (d) {
+    return !budget || d.totalMin <= parseInt(budget, 10);
+  }).sort(function (a, b) {
+    if (a.matchesCompanion !== b.matchesCompanion) { return a.matchesCompanion ? -1 : 1; }
+    if (a.inSeason !== b.inSeason) { return a.inSeason ? -1 : 1; }
+    return a.totalMin - b.totalMin;
+  });
+
+  var list = document.getElementById('result-list');
+  if (filtered.length === 0) {
+    list.innerHTML = '<li class="no-result">条件に合う島がまだ見つかりませんでした。記事は随時追加中です。</li>';
+  } else {
+    filtered.forEach(function (d) {
+      var li = document.createElement('li');
+      var seasonBadge = d.inSeason
+        ? '<span class="mini-season on">🟢 今がベストシーズン</span>'
+        : '<span class="mini-season off">🌙 オフシーズン</span>';
+      var companionBadge = companion
+        ? (d.matchesCompanion
+            ? '<span class="mini-season on">👍 ' + (companionLabelMap[companion] || companion) + '向き</span>'
+            : '')
+        : '';
+      li.innerHTML = '<a href="{{ site.baseurl }}' + d.url + '">' + d.name + '（' + d.country + '）</a> ' + seasonBadge + ' ' + companionBadge +
+        '<br>目安総額: ' + d.totalMin.toLocaleString() + '〜' + d.totalMax.toLocaleString() + '円' +
+        '　おすすめ月: ' + d.best_months.join(', ') + '月';
+      list.appendChild(li);
+    });
+  }
+</script>

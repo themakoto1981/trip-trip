@@ -63,3 +63,13 @@
   budget_max: 250000
   best_months: [4, 5, 9, 10]
   url: /2026/09/28/waikiki-guide/
+
+- name: プーケット島
+  slug: phuket-guide
+  country: タイ
+  lat: 7.8804
+  lng: 98.3923
+  budget_min: 70000
+  budget_max: 140000
+  best_months: [12, 1, 2]
+  url: /2026/09/28/phuket-guide/

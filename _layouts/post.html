@@ -16,7 +16,7 @@ layout: default
     </p>
   </header>
 
-  <div id="season-badge"></div>
+  <div id="quick-facts"></div>
 
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
@@ -30,15 +30,32 @@ layout: default
     for (var i = 0; i < destinations.length; i++) {
       if (destinations[i].url === pageUrl) { match = destinations[i]; break; }
     }
-    if (!match || !match.best_months) { return; }
+    if (!match) { return; }
+
     var month = new Date().getMonth() + 1;
-    var inSeason = match.best_months.indexOf(month) !== -1;
-    var el = document.getElementById('season-badge');
-    if (inSeason) {
-      el.innerHTML = '<span class="season-pill season-on">🟢 今はベストシーズンです</span>';
-    } else {
-      el.innerHTML = '<span class="season-pill season-off">🌙 今はオフシーズンです（おすすめ: ' + match.best_months.join('・') + '月）</span>';
-    }
+    var inSeason = !match.best_months || match.best_months.indexOf(month) !== -1;
+    var seasonHtml = inSeason
+      ? '<span class="season-pill season-on">🟢 今がベストシーズン</span>'
+      : '<span class="season-pill season-off">🌙 今はオフシーズン</span>';
+
+    var totalMin = match.flight_min + match.daily_min * 2;
+    var totalMax = match.flight_max + match.daily_max * 2;
+
+    var rows = [
+      ['国', match.country],
+      ['目安予算（2泊3日〜）', totalMin.toLocaleString() + '〜' + totalMax.toLocaleString() + '円'],
+      ['現地までの移動時間', match.flight_hours || '-'],
+      ['おすすめ日程', match.recommended_nights || '-'],
+      ['ベストシーズン', (match.best_months ? match.best_months.join('・') + '月　' : '') + seasonHtml]
+    ];
+
+    var html = '<div class="quick-facts-box"><dl>';
+    rows.forEach(function (r) {
+      html += '<dt>' + r[0] + '</dt><dd>' + r[1] + '</dd>';
+    });
+    html += '</dl></div>';
+
+    document.getElementById('quick-facts').innerHTML = html;
   })();
   </script>
 

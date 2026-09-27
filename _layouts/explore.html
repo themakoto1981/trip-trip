@@ -72,7 +72,7 @@ layout: default
 </div>
 
 <div id="trip-map"></div>
-<p class="map-legend"><span>★ 記事あり（クリックで記事へ）</span><span>● 近日公開予定</span></p>
+<p class="map-legend"><span>★ 記事あり（クリックで記事へ）</span><span>● 準備中</span></p>
 
 <h2>検索結果</h2>
 <ul id="result-list"></ul>
@@ -112,7 +112,7 @@ layout: default
   });
   plannedDestinations.forEach(function (d) {
     var marker = L.marker([d.lat, d.lng], { icon: plannedIcon }).addTo(map);
-    marker.bindTooltip(d.name + '（近日公開）', { permanent: true, direction: 'top', offset: [0, -6], className: 'island-label-planned' });
+    marker.bindTooltip(d.name, { permanent: true, direction: 'top', offset: [0, -6], className: 'island-label-planned' });
     markers.push(marker);
   });
 

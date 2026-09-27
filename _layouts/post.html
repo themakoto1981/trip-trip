@@ -112,7 +112,7 @@ layout: default
 
     var rows = [
       ['国', countryDisplay],
-      ['おすすめシーズン', (match.best_months ? match.best_months.join('・') + '月' : '-') + '　' + seasonHtml],
+      ['いつ行く', (match.best_months ? match.best_months.join('・') + '月' : '-') + '　' + seasonHtml],
       ['ビザ要否', match.visa || '要確認'],
       ['必要日数', match.recommended_nights || '-'],
       ['予算（2泊3日〜）', totalMin.toLocaleString() + '〜' + totalMax.toLocaleString() + '円'],

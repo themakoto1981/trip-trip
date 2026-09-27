@@ -24,20 +24,12 @@ layout: default
   .island-label::before { display: none; }
   .island-label a { color: inherit; text-decoration: none; cursor: pointer; pointer-events: auto !important; }
   .island-label a:hover { text-decoration: underline; }
-  #result-list { list-style: none; padding: 0; }
-  #result-list li { padding: 0.75rem 0; border-bottom: 1px solid #eee; }
-  #result-list a { font-weight: 600; }
-  .no-result { color: #888; }
   .page-tagline { font-size: 0.95rem; color: #666; font-weight: normal; margin-top: -0.5rem; }
 
   .island-star {
     font-size: 20px; line-height: 1; color: #00704A;
     text-shadow: 0 1px 2px rgba(0,0,0,0.35), 0 0 1px #fff;
   }
-
-  .mini-season { display: inline-block; font-size: 0.75rem; font-weight: 600; padding: 1px 8px; border-radius: 10px; }
-  .mini-season.on { background: #E4F3EC; color: #00704A; }
-  .mini-season.off { background: #F3ECE0; color: #8a6d3b; }
 </style>
 
 {{ content }}
@@ -66,14 +58,21 @@ layout: default
     </select>
   </div>
   <div>
+    <label for="companion">誰と行く？</label>
+    <select id="companion">
+      <option value="">指定なし</option>
+      <option value="solo">一人旅</option>
+      <option value="couple">カップル・夫婦</option>
+      <option value="family">家族</option>
+      <option value="friends">友人グループ</option>
+    </select>
+  </div>
+  <div>
     <button id="search-btn" type="button">検索</button>
   </div>
 </div>
 
 <div id="trip-map"></div>
-
-<h2>検索結果</h2>
-<ul id="result-list"></ul>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
@@ -110,48 +109,14 @@ layout: default
     map.setView([15, 110], 3);
   }
 
-  function renderResults() {
-    var nights = parseInt(document.getElementById('nights').value, 10);
+  document.getElementById('search-btn').addEventListener('click', function () {
+    var nights = document.getElementById('nights').value;
     var budget = document.getElementById('budget').value;
-    var list = document.getElementById('result-list');
-    list.innerHTML = '';
-
-    var withTotals = destinations.map(function (d) {
-      var totalMin = d.flight_min + d.daily_min * nights;
-      var totalMax = d.flight_max + d.daily_max * nights;
-      return Object.assign({}, d, { totalMin: totalMin, totalMax: totalMax });
-    });
-
-    var currentMonth = new Date().getMonth() + 1;
-
-    var filtered = withTotals.filter(function (d) {
-      var budgetOk = !budget || d.totalMin <= parseInt(budget, 10);
-      return budgetOk;
-    }).map(function (d) {
-      d.inSeason = !d.best_months || d.best_months.indexOf(currentMonth) !== -1;
-      return d;
-    }).sort(function (a, b) {
-      if (a.inSeason !== b.inSeason) { return a.inSeason ? -1 : 1; }
-      return a.totalMin - b.totalMin;
-    });
-
-    if (filtered.length === 0) {
-      list.innerHTML = '<li class="no-result">条件に合う島がまだ見つかりませんでした。記事は随時追加中です。</li>';
-      return;
-    }
-
-    filtered.forEach(function (d) {
-      var li = document.createElement('li');
-      var seasonBadge = d.inSeason
-        ? '<span class="mini-season on">🟢 今がベストシーズン</span>'
-        : '<span class="mini-season off">🌙 オフシーズン</span>';
-      li.innerHTML = '<a href="{{ site.baseurl }}' + d.url + '">' + d.name + '（' + d.country + '）</a> ' + seasonBadge +
-        '<br>目安総額: ' + d.totalMin.toLocaleString() + '〜' + d.totalMax.toLocaleString() + '円' +
-        '　おすすめ月: ' + d.best_months.join(', ') + '月';
-      list.appendChild(li);
-    });
-  }
-
-  document.getElementById('search-btn').addEventListener('click', renderResults);
-  renderResults();
+    var companion = document.getElementById('companion').value;
+    var params = new URLSearchParams();
+    params.set('nights', nights);
+    if (budget) { params.set('budget', budget); }
+    if (companion) { params.set('companion', companion); }
+    window.location.href = '{{ site.baseurl }}/results/?' + params.toString();
+  });
 </script>

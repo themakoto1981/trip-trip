@@ -1,0 +1,21 @@
+title: TRIP×TRIP
+description: "世界の島とビーチだけを集めた旅行ガイド。行き方・ベストシーズン・予算・持ち物までまとめて紹介します。"
+lang: ja
+theme: minima
+minima:
+  skin: auto
+permalink: /:year/:month/:day/:title/
+show_excerpts: true
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+header_pages:
+  - about.md
+  - privacy-policy.md
+  - disclaimer.md
+
+exclude:
+  - README.md

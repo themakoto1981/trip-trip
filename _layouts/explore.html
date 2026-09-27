@@ -6,6 +6,11 @@ layout: default
   #search-panel { display: flex; flex-wrap: wrap; gap: 1rem; align-items: flex-end; margin: 1.5rem 0; padding: 1rem; border: 1px solid #ddd; border-radius: 8px; }
   #search-panel div { display: flex; flex-direction: column; }
   #search-panel label { font-size: 0.85rem; margin-bottom: 0.25rem; color: #555; }
+  #search-btn {
+    background: #00704A; color: #fff; border: none; border-radius: 20px;
+    padding: 0.55rem 1.6rem; font-size: 0.95rem; font-weight: 600; cursor: pointer;
+  }
+  #search-btn:hover { background: #1E3932; }
   #trip-map { height: 480px; width: 100%; border-radius: 8px; margin-bottom: 0.5rem; }
   .map-hint { font-size: 0.85rem; color: #6B5A4A; margin: 0 0 1.5rem; }
   .leaflet-marker-icon { cursor: pointer; }
@@ -59,6 +64,9 @@ layout: default
       <option value="400000">40万円まで</option>
       <option value="999999999">上限なし</option>
     </select>
+  </div>
+  <div>
+    <button id="search-btn" type="button">検索</button>
   </div>
 </div>
 
@@ -143,7 +151,6 @@ layout: default
     });
   }
 
-  document.getElementById('nights').addEventListener('change', renderResults);
-  document.getElementById('budget').addEventListener('change', renderResults);
+  document.getElementById('search-btn').addEventListener('click', renderResults);
   renderResults();
 </script>

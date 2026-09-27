@@ -13,6 +13,8 @@ plugins:
   - jekyll-sitemap
 
 header_pages:
+  - explore.md
+  - submit.md
   - about.md
   - privacy-policy.md
   - disclaimer.md

@@ -58,20 +58,28 @@ layout: default
       ? match.suited_for.map(function (c) { return companionLabelMap[c] || c; }).join('・')
       : '-';
 
-    var tabs = [
-      ['国', match.country],
-      ['おすすめシーズン', (match.best_months ? match.best_months.join('・') + '月' : '-') + '<br>' + seasonHtml],
+    var countryFlagMap = {
+      'タイ': '🇹🇭', 'フィリピン': '🇵🇭', 'インドネシア': '🇮🇩', 'ベトナム': '🇻🇳',
+      'マレーシア': '🇲🇾', 'シンガポール': '🇸🇬', 'カンボジア': '🇰🇭', 'ラオス': '🇱🇦',
+      'ミャンマー': '🇲🇲', 'ブルネイ': '🇧🇳', '日本': '🇯🇵', 'モルディブ': '🇲🇻',
+      'ギリシャ': '🇬🇷', 'アメリカ': '🇺🇸'
+    };
+    var countryDisplay = match.country + (countryFlagMap[match.country] ? ' ' + countryFlagMap[match.country] : '');
+
+    var rows = [
+      ['国', countryDisplay],
+      ['おすすめシーズン', (match.best_months ? match.best_months.join('・') + '月' : '-') + '　' + seasonHtml],
       ['ビザ要否', match.visa || '要確認'],
       ['必要日数', match.recommended_nights || '-'],
-      ['予算（2泊3日〜）', totalMin.toLocaleString() + '〜<br>' + totalMax.toLocaleString() + '円'],
+      ['予算（2泊3日〜）', totalMin.toLocaleString() + '〜' + totalMax.toLocaleString() + '円'],
       ['誰と行く？', companionText]
     ];
 
-    var html = '<div class="quick-facts-tabs">';
-    tabs.forEach(function (t) {
-      html += '<div class="qf-tab"><div class="qf-tab-label">' + t[0] + '</div><div class="qf-tab-value">' + t[1] + '</div></div>';
+    var html = '<table class="quick-facts-table"><tbody>';
+    rows.forEach(function (r) {
+      html += '<tr><th>' + r[0] + '</th><td>' + r[1] + '</td></tr>';
     });
-    html += '</div>';
+    html += '</tbody></table>';
 
     document.getElementById('quick-facts').innerHTML = html;
   })();

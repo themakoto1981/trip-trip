@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   {%- assign other_destinations = site.data.destinations | where_exp: "d", "d.url != page.url" -%}
@@ -34,15 +35,49 @@ layout: default
     {{ content }}
   </div>
 
+  <div id="spot-map-wrap"></div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script>
   (function () {
     var destinations = {{ site.data.destinations | jsonify }};
+    var allSpots = {{ site.data.spots | default: "{}" | jsonify }};
     var pageUrl = "{{ page.url }}";
     var match = null;
     for (var i = 0; i < destinations.length; i++) {
       if (destinations[i].url === pageUrl) { match = destinations[i]; break; }
     }
     if (!match) { return; }
+
+    var mySpots = allSpots[match.slug];
+    if (mySpots && mySpots.length > 0) {
+      var wrap = document.getElementById('spot-map-wrap');
+      wrap.innerHTML = '<h2>スポットの位置</h2><div id="spot-map"></div>';
+
+      var spotMap = L.map('spot-map', { scrollWheelZoom: false });
+      L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+        maxZoom: 19
+      }).addTo(spotMap);
+
+      var spotIcon = L.divIcon({
+        className: 'spot-pin-wrapper',
+        html: '<div class="spot-pin"></div>',
+        iconSize: [14, 14],
+        iconAnchor: [7, 7],
+        popupAnchor: [0, -8]
+      });
+
+      var spotMarkers = mySpots.map(function (s) {
+        var m = L.marker([s.lat, s.lng], { icon: spotIcon }).addTo(spotMap);
+        m.bindTooltip(s.name, { permanent: true, direction: 'top', offset: [0, -8], className: 'spot-label' });
+        if (s.desc) { m.bindPopup('<strong>' + s.name + '</strong><br>' + s.desc); }
+        return m;
+      });
+
+      var spotGroup = L.featureGroup(spotMarkers);
+      spotMap.fitBounds(spotGroup.getBounds().pad(0.4));
+    }
 
     var titleMainEl = document.getElementById('post-title-main');
     if (titleMainEl && match.name && match.country) {
@@ -91,6 +126,40 @@ layout: default
     html += '</tbody></table>';
 
     document.getElementById('quick-facts').innerHTML = html;
+  })();
+
+  (function () {
+    var lists = document.querySelectorAll('.post-content ul');
+    lists.forEach(function (ul) {
+      var checkboxes = ul.querySelectorAll('input[type="checkbox"]');
+      if (checkboxes.length === 0) { return; }
+
+      ul.classList.add('checklist');
+      checkboxes.forEach(function (cb) {
+        cb.disabled = false;
+        cb.addEventListener('change', function () {
+          cb.closest('li').classList.toggle('checked', cb.checked);
+        });
+      });
+
+      var btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'copy-checklist-btn';
+      btn.textContent = '📋 リストをコピー（Googleドキュメント用）';
+      btn.addEventListener('click', function () {
+        var lines = [];
+        ul.querySelectorAll('li').forEach(function (li) {
+          lines.push('☐ ' + li.textContent.trim());
+        });
+        navigator.clipboard.writeText(lines.join('\n')).then(function () {
+          btn.textContent = '✅ コピーしました！Googleドキュメントに貼り付けできます';
+          setTimeout(function () {
+            btn.textContent = '📋 リストをコピー（Googleドキュメント用）';
+          }, 2500);
+        });
+      });
+      ul.parentNode.insertBefore(btn, ul.nextSibling);
+    });
   })();
   </script>
 

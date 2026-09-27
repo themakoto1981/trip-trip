@@ -1,0 +1,15 @@
+# 島・ビーチ情報のマスターデータ
+# 新しい島の記事を追加したら、ここにも1件追加してください（地図ピン・検索用）
+# budget_min/max: 2泊3日1人あたりの目安予算（円）
+# best_months: おすすめの月（1-12の配列）
+# lat/lng: 地図ピン用の緯度経度
+
+- name: 石垣島
+  slug: ishigaki-guide
+  country: 日本
+  lat: 24.3448
+  lng: 124.1572
+  budget_min: 50000
+  budget_max: 100000
+  best_months: [7, 8, 9, 10]
+  url: /2026/09/27/ishigaki-guide/

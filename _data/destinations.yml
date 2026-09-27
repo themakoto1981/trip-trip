@@ -3,6 +3,8 @@
 # 新しい島の記事を追加したら、ここにも1件追加してください（地図ピン・検索用）
 # flight_min/flight_max: 日本からの往復航空券の目安（円）
 # daily_min/daily_max: 現地1泊あたりの目安（宿泊+食費+現地移動、円）
+# flight_hours: 日本からの片道移動時間の目安（テキスト）
+# recommended_nights: おすすめの宿泊日数（テキスト）
 # best_months: おすすめの月（1-12の配列、記事内での参考表示用）
 # lat/lng: 地図ピン用の緯度経度
 
@@ -15,6 +17,9 @@
   flight_max: 80000
   daily_min: 9000
   daily_max: 23000
+  flight_hours: "約9〜12時間（マニラ/セブ経由）"
+  recommended_nights: "2〜4泊"
+  suited_for: [couple, friends, solo]
   best_months: [12, 1, 2]
   url: /2026/09/28/boracay-guide/
 
@@ -27,6 +32,9 @@
   flight_max: 120000
   daily_min: 11000
   daily_max: 33000
+  flight_hours: "約7〜8時間（直行便）"
+  recommended_nights: "3〜5泊"
+  suited_for: [couple, family, friends]
   best_months: [5, 6, 9]
   url: /2026/09/28/bali-guide/
 
@@ -39,6 +47,9 @@
   flight_max: 100000
   daily_min: 8500
   daily_max: 27000
+  flight_hours: "約9〜11時間（バンコク経由）"
+  recommended_nights: "2〜4泊"
+  suited_for: [couple, family, friends, solo]
   best_months: [12, 1, 2]
   url: /2026/09/28/phuket-guide/
 

@@ -14,35 +14,20 @@ layout: default
     padding: 2px 8px; border-radius: 10px; border: 1px solid #E5DDCC;
     box-shadow: 0 1px 4px rgba(0,0,0,0.15);
     white-space: nowrap;
+    pointer-events: auto !important;
   }
   .island-label::before { display: none; }
-  .island-label a { color: inherit; text-decoration: none; }
+  .island-label a { color: inherit; text-decoration: none; cursor: pointer; pointer-events: auto !important; }
   .island-label a:hover { text-decoration: underline; }
-  .island-label-planned {
-    background: #F2EFE9; color: #8a8070; font-weight: 500; font-size: 0.75rem;
-    padding: 1px 7px; border-radius: 10px; border: 1px dashed #cfc6b2;
-    white-space: nowrap;
-  }
-  .island-label-planned::before { display: none; }
   #result-list { list-style: none; padding: 0; }
   #result-list li { padding: 0.75rem 0; border-bottom: 1px solid #eee; }
   #result-list a { font-weight: 600; }
   .no-result { color: #888; }
   .page-tagline { font-size: 0.95rem; color: #666; font-weight: normal; margin-top: -0.5rem; }
-  .map-legend { font-size: 0.8rem; color: #6B5A4A; margin: 0.25rem 0 0.75rem; }
-  .map-legend span { margin-right: 1rem; }
 
   .island-star {
     font-size: 20px; line-height: 1; color: #00704A;
     text-shadow: 0 1px 2px rgba(0,0,0,0.35), 0 0 1px #fff;
-  }
-  .island-pin-planned {
-    width: 10px; height: 10px;
-    border-radius: 50%;
-    background: #B7AE9C;
-    border: 2px solid #fff;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.3);
-    cursor: default;
   }
 
   .mini-season { display: inline-block; font-size: 0.75rem; font-weight: 600; padding: 1px 8px; border-radius: 10px; }
@@ -78,7 +63,6 @@ layout: default
 </div>
 
 <div id="trip-map"></div>
-<p class="map-legend"><span>★ 記事あり（クリックで記事へ）</span><span>● 準備中</span></p>
 
 <h2>検索結果</h2>
 <ul id="result-list"></ul>
@@ -86,7 +70,6 @@ layout: default
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
   var destinations = {{ site.data.destinations | jsonify }};
-  var plannedDestinations = {{ site.data.planned_destinations | default: "[]" | jsonify }};
 
   var map = L.map('trip-map', { scrollWheelZoom: false });
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -100,13 +83,6 @@ layout: default
     iconAnchor: [10, 10],
     popupAnchor: [0, -10]
   });
-  var plannedIcon = L.divIcon({
-    className: 'island-pin-wrapper-planned',
-    html: '<div class="island-pin-planned"></div>',
-    iconSize: [10, 10],
-    iconAnchor: [5, 5],
-    popupAnchor: [0, -6]
-  });
 
   var markers = [];
   destinations.forEach(function (d) {
@@ -114,11 +90,6 @@ layout: default
     var targetUrl = '{{ site.baseurl }}' + d.url;
     marker.bindTooltip('<a href="' + targetUrl + '">' + d.name + '</a>', { permanent: true, direction: 'top', offset: [0, -10], className: 'island-label' });
     marker.on('click', function () { window.location.href = targetUrl; });
-    markers.push(marker);
-  });
-  plannedDestinations.forEach(function (d) {
-    var marker = L.marker([d.lat, d.lng], { icon: plannedIcon }).addTo(map);
-    marker.bindTooltip(d.name, { permanent: true, direction: 'top', offset: [0, -6], className: 'island-label-planned' });
     markers.push(marker);
   });
 

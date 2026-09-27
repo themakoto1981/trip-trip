@@ -1,0 +1,92 @@
+---
+layout: default
+---
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<style>
+  #search-panel { display: flex; flex-wrap: wrap; gap: 1rem; align-items: flex-end; margin: 1.5rem 0; padding: 1rem; border: 1px solid #ddd; border-radius: 8px; }
+  #search-panel div { display: flex; flex-direction: column; }
+  #search-panel label { font-size: 0.85rem; margin-bottom: 0.25rem; color: #555; }
+  #trip-map { height: 420px; width: 100%; border-radius: 8px; margin-bottom: 1.5rem; }
+  #result-list { list-style: none; padding: 0; }
+  #result-list li { padding: 0.75rem 0; border-bottom: 1px solid #eee; }
+  #result-list a { font-weight: 600; }
+  .no-result { color: #888; }
+</style>
+
+<h1>{{ page.title }}</h1>
+<p>{{ content }}</p>
+
+<div id="search-panel">
+  <div>
+    <label for="month">出発したい月</label>
+    <select id="month">
+      <option value="">指定なし</option>
+      {% for m in (1..12) %}
+      <option value="{{ m }}">{{ m }}月</option>
+      {% endfor %}
+    </select>
+  </div>
+  <div>
+    <label for="budget">予算（上限・円）</label>
+    <select id="budget">
+      <option value="">指定なし</option>
+      <option value="50000">5万円まで</option>
+      <option value="80000">8万円まで</option>
+      <option value="100000">10万円まで</option>
+      <option value="150000">15万円まで</option>
+      <option value="999999">上限なし</option>
+    </select>
+  </div>
+</div>
+
+<div id="trip-map"></div>
+
+<h2>検索結果</h2>
+<ul id="result-list"></ul>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+  var destinations = {{ site.data.destinations | jsonify }};
+
+  var map = L.map('trip-map').setView([15, 120], 3);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; OpenStreetMap contributors'
+  }).addTo(map);
+
+  var markers = {};
+  destinations.forEach(function (d) {
+    var marker = L.marker([d.lat, d.lng]).addTo(map);
+    marker.bindPopup('<a href="{{ site.baseurl }}' + d.url + '">' + d.name + '</a>');
+    markers[d.slug] = marker;
+  });
+
+  function renderResults() {
+    var month = document.getElementById('month').value;
+    var budget = document.getElementById('budget').value;
+    var list = document.getElementById('result-list');
+    list.innerHTML = '';
+
+    var filtered = destinations.filter(function (d) {
+      var monthOk = !month || d.best_months.indexOf(parseInt(month, 10)) !== -1;
+      var budgetOk = !budget || d.budget_min <= parseInt(budget, 10);
+      return monthOk && budgetOk;
+    });
+
+    if (filtered.length === 0) {
+      list.innerHTML = '<li class="no-result">条件に合う島がまだ見つかりませんでした。記事は随時追加中です。</li>';
+      return;
+    }
+
+    filtered.forEach(function (d) {
+      var li = document.createElement('li');
+      li.innerHTML = '<a href="{{ site.baseurl }}' + d.url + '">' + d.name + '（' + d.country + '）</a>' +
+        '　目安予算: ' + d.budget_min.toLocaleString() + '〜' + d.budget_max.toLocaleString() + '円' +
+        '　おすすめ月: ' + d.best_months.join(', ') + '月';
+      list.appendChild(li);
+    });
+  }
+
+  document.getElementById('month').addEventListener('change', renderResults);
+  document.getElementById('budget').addEventListener('change', renderResults);
+  renderResults();
+</script>

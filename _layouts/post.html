@@ -38,8 +38,10 @@ layout: default
       ? '<span class="season-pill season-on">🟢 今がベストシーズン</span>'
       : '<span class="season-pill season-off">🌙 今はオフシーズン</span>';
 
-    var totalMin = match.flight_min + match.daily_min * 2;
-    var totalMax = match.flight_max + match.daily_max * 2;
+    var dailyMin = match.hotel_min + match.transport_min + match.food_min;
+    var dailyMax = match.hotel_max + match.transport_max + match.food_max;
+    var totalMin = match.flight_min + dailyMin * 2;
+    var totalMax = match.flight_max + dailyMax * 2;
 
     var rows = [
       ['国', match.country],

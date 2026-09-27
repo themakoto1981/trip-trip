@@ -6,6 +6,7 @@ minima:
   skin: auto
 permalink: /:year/:month/:day/:title/
 show_excerpts: true
+future: true
 
 plugins:
   - jekyll-feed

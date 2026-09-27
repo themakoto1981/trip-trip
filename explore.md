@@ -1,6 +1,16 @@
 ---
-layout: explore
-title: 島をさがす
+layout: null
 permalink: /explore/
+sitemap: false
 ---
-出発したい月と予算を選ぶと、条件に合う島の候補が地図とリストに表示されます。ピンをクリックすると詳細記事に移動できます。
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="refresh" content="0; url={{ '/' | relative_url }}">
+<link rel="canonical" href="{{ '/' | relative_url }}">
+</head>
+<body>
+<p>このページは<a href="{{ '/' | relative_url }}">トップページ</a>に移動しました。</p>
+</body>
+</html>

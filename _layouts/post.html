@@ -13,8 +13,10 @@ layout: default
   </nav>
   {%- endif -%}
 
+  {%- assign title_parts = page.title | split: "｜" -%}
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+    <h1 class="post-title p-name" id="post-title-main" itemprop="name headline">{{ page.title | escape }}</h1>
+    <p class="post-subtitle" id="post-title-sub">{% if title_parts.size > 1 %}{{ title_parts[1] }}{% endif %}</p>
     <p class="post-meta">
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {%- assign date_format = site.minima.date_format | default: "%Y年%-m月%-d日" -%}
@@ -41,6 +43,11 @@ layout: default
       if (destinations[i].url === pageUrl) { match = destinations[i]; break; }
     }
     if (!match) { return; }
+
+    var titleMainEl = document.getElementById('post-title-main');
+    if (titleMainEl && match.name && match.country) {
+      titleMainEl.textContent = match.name + '｜' + match.country;
+    }
 
     var month = new Date().getMonth() + 1;
     var inSeason = !match.best_months || match.best_months.indexOf(month) !== -1;

@@ -44,6 +44,10 @@ layout: default
     box-shadow: 0 1px 3px rgba(0,0,0,0.3);
     cursor: default;
   }
+
+  .mini-season { display: inline-block; font-size: 0.75rem; font-weight: 600; padding: 1px 8px; border-radius: 10px; }
+  .mini-season.on { background: #E4F3EC; color: #00704A; }
+  .mini-season.off { background: #F3ECE0; color: #8a6d3b; }
 </style>
 
 {{ content }}
@@ -138,10 +142,18 @@ layout: default
       return Object.assign({}, d, { totalMin: totalMin, totalMax: totalMax });
     });
 
+    var currentMonth = new Date().getMonth() + 1;
+
     var filtered = withTotals.filter(function (d) {
       var budgetOk = !budget || d.totalMin <= parseInt(budget, 10);
       return budgetOk;
-    }).sort(function (a, b) { return a.totalMin - b.totalMin; });
+    }).map(function (d) {
+      d.inSeason = !d.best_months || d.best_months.indexOf(currentMonth) !== -1;
+      return d;
+    }).sort(function (a, b) {
+      if (a.inSeason !== b.inSeason) { return a.inSeason ? -1 : 1; }
+      return a.totalMin - b.totalMin;
+    });
 
     if (filtered.length === 0) {
       list.innerHTML = '<li class="no-result">条件に合う島がまだ見つかりませんでした。記事は随時追加中です。</li>';
@@ -150,8 +162,11 @@ layout: default
 
     filtered.forEach(function (d) {
       var li = document.createElement('li');
-      li.innerHTML = '<a href="{{ site.baseurl }}' + d.url + '">' + d.name + '（' + d.country + '）</a>' +
-        '　目安総額: ' + d.totalMin.toLocaleString() + '〜' + d.totalMax.toLocaleString() + '円' +
+      var seasonBadge = d.inSeason
+        ? '<span class="mini-season on">🟢 今がベストシーズン</span>'
+        : '<span class="mini-season off">🌙 オフシーズン</span>';
+      li.innerHTML = '<a href="{{ site.baseurl }}' + d.url + '">' + d.name + '（' + d.country + '）</a> ' + seasonBadge +
+        '<br>目安総額: ' + d.totalMin.toLocaleString() + '〜' + d.totalMax.toLocaleString() + '円' +
         '　おすすめ月: ' + d.best_months.join(', ') + '月';
       list.appendChild(li);
     });

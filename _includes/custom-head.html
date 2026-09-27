@@ -195,6 +195,52 @@
     .quick-facts-table td { font-size: 0.85rem; padding: 0.6rem 0.7rem; }
   }
 
+  /* Spot map on post pages */
+  #spot-map-wrap h2 { margin-bottom: 0.75rem; }
+  #spot-map { height: 320px; width: 100%; border-radius: 10px; border: 2px solid var(--sb-green); margin-bottom: 2rem; }
+  .spot-pin {
+    width: 12px; height: 12px; border-radius: 50%;
+    background: var(--sb-gold);
+    border: 2px solid #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+  }
+  .spot-label {
+    background: #fff; color: var(--sb-green-dark); font-weight: 600; font-size: 0.75rem;
+    padding: 1px 7px; border-radius: 10px; border: 1px solid var(--sb-border);
+    box-shadow: 0 1px 4px rgba(0,0,0,0.15);
+    white-space: nowrap;
+  }
+  .spot-label::before { display: none; }
+
+  /* Interactive packing checklist */
+  .post-content ul.checklist { list-style: none; padding-left: 0; }
+  .post-content ul.checklist li {
+    display: flex; align-items: center; gap: 0.65rem;
+    padding: 0.5rem 0.75rem; margin-bottom: 0.4rem;
+    background: var(--sb-card); border: 1px solid var(--sb-border); border-radius: 8px;
+  }
+  .post-content ul.checklist input[type="checkbox"] {
+    width: 19px; height: 19px; accent-color: var(--sb-green);
+    cursor: pointer; flex-shrink: 0;
+  }
+  .post-content ul.checklist li.checked {
+    color: var(--sb-brown-soft);
+    text-decoration: line-through;
+    background: var(--sb-cream);
+  }
+  .copy-checklist-btn {
+    background: var(--sb-cream);
+    color: var(--sb-green-dark);
+    border: 1px solid var(--sb-border);
+    border-radius: 20px;
+    padding: 0.5rem 1.1rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+    cursor: pointer;
+    margin: 0.25rem 0 1.75rem;
+  }
+  .copy-checklist-btn:hover { background: var(--sb-green); color: #fff; border-color: var(--sb-green); }
+
   .tag-chip {
     display: inline-block;
     background: var(--sb-cream);

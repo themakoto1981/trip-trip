@@ -16,9 +16,31 @@ layout: default
     </p>
   </header>
 
+  <div id="season-badge"></div>
+
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
   </div>
+
+  <script>
+  (function () {
+    var destinations = {{ site.data.destinations | jsonify }};
+    var pageUrl = "{{ page.url }}";
+    var match = null;
+    for (var i = 0; i < destinations.length; i++) {
+      if (destinations[i].url === pageUrl) { match = destinations[i]; break; }
+    }
+    if (!match || !match.best_months) { return; }
+    var month = new Date().getMonth() + 1;
+    var inSeason = match.best_months.indexOf(month) !== -1;
+    var el = document.getElementById('season-badge');
+    if (inSeason) {
+      el.innerHTML = '<span class="season-pill season-on">🟢 今はベストシーズンです</span>';
+    } else {
+      el.innerHTML = '<span class="season-pill season-off">🌙 今はオフシーズンです（おすすめ: ' + match.best_months.join('・') + '月）</span>';
+    }
+  })();
+  </script>
 
   {%- include comments.html -%}
 

@@ -1,5 +1,6 @@
 ---
 layout: post
+published: false
 title: "石垣島ビーチ完全ガイド｜行き方・ベストシーズン・予算・持ち物まとめ"
 date: 2026-09-27
 categories: [沖縄, 島]

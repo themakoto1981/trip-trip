@@ -11,10 +11,23 @@ layout: default
   #result-list li { padding: 0.75rem 0; border-bottom: 1px solid #eee; }
   #result-list a { font-weight: 600; }
   .no-result { color: #888; }
+  .page-tagline { font-size: 0.95rem; color: #666; font-weight: normal; margin-top: -0.5rem; }
+
+  .island-pin {
+    width: 30px; height: 30px;
+    display: flex; align-items: center; justify-content: center;
+    background: #1a7a7a;
+    border: 2px solid #fff;
+    border-radius: 50% 50% 50% 0;
+    transform: rotate(-45deg);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.35);
+  }
+  .island-pin span { transform: rotate(45deg); font-size: 14px; line-height: 1; }
 </style>
 
-<h1>{{ page.title }}</h1>
-<p>{{ content }}</p>
+<h1>{{ site.title }}</h1>
+<p class="page-tagline">{{ site.description }}</p>
+{{ content }}
 
 <div id="search-panel">
   <div>
@@ -53,9 +66,17 @@ layout: default
     attribution: '&copy; OpenStreetMap contributors'
   }).addTo(map);
 
+  var islandIcon = L.divIcon({
+    className: 'island-pin-wrapper',
+    html: '<div class="island-pin"><span>🏝️</span></div>',
+    iconSize: [30, 30],
+    iconAnchor: [15, 28],
+    popupAnchor: [0, -26]
+  });
+
   var markers = {};
   destinations.forEach(function (d) {
-    var marker = L.marker([d.lat, d.lng]).addTo(map);
+    var marker = L.marker([d.lat, d.lng], { icon: islandIcon }).addTo(map);
     marker.bindPopup('<a href="{{ site.baseurl }}' + d.url + '">' + d.name + '</a>');
     markers[d.slug] = marker;
   });

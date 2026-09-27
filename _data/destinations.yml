@@ -1,21 +1,10 @@
 # 島・ビーチ情報のマスターデータ
+# 現在は東南アジアの島・ビーチに絞って運用中です（2026年9月28日〜）。
 # 新しい島の記事を追加したら、ここにも1件追加してください（地図ピン・検索用）
 # flight_min/flight_max: 日本からの往復航空券の目安（円）
 # daily_min/daily_max: 現地1泊あたりの目安（宿泊+食費+現地移動、円）
 # best_months: おすすめの月（1-12の配列、記事内での参考表示用）
 # lat/lng: 地図ピン用の緯度経度
-
-- name: 石垣島
-  slug: ishigaki-guide
-  country: 日本
-  lat: 24.3448
-  lng: 124.1572
-  flight_min: 25000
-  flight_max: 45000
-  daily_min: 19000
-  daily_max: 36000
-  best_months: [7, 8, 9, 10]
-  url: /2026/09/27/ishigaki-guide/
 
 - name: ボラカイ島
   slug: boracay-guide
@@ -41,42 +30,6 @@
   best_months: [5, 6, 9]
   url: /2026/09/28/bali-guide/
 
-- name: モルディブ
-  slug: maldives-guide
-  country: モルディブ
-  lat: 3.2028
-  lng: 73.2207
-  flight_min: 130000
-  flight_max: 290000
-  daily_min: 40000
-  daily_max: 170000
-  best_months: [1, 2, 3]
-  url: /2026/09/28/maldives-guide/
-
-- name: サントリーニ島
-  slug: santorini-guide
-  country: ギリシャ
-  lat: 36.3932
-  lng: 25.4615
-  flight_min: 150000
-  flight_max: 300000
-  daily_min: 23000
-  daily_max: 66000
-  best_months: [5, 6, 9, 10]
-  url: /2026/09/28/santorini-guide/
-
-- name: ワイキキビーチ
-  slug: waikiki-guide
-  country: アメリカ
-  lat: 21.2793
-  lng: -157.8292
-  flight_min: 70000
-  flight_max: 150000
-  daily_min: 27000
-  daily_max: 62000
-  best_months: [4, 5, 9, 10]
-  url: /2026/09/28/waikiki-guide/
-
 - name: プーケット島
   slug: phuket-guide
   country: タイ
@@ -88,3 +41,54 @@
   daily_max: 27000
   best_months: [12, 1, 2]
   url: /2026/09/28/phuket-guide/
+
+# --- 以下、東南アジア以外のため一時的に非公開（記事もpublished: falseに設定済み）---
+# 地域を広げる際にコメントを外して復元してください。
+#
+# - name: 石垣島
+#   slug: ishigaki-guide
+#   country: 日本
+#   lat: 24.3448
+#   lng: 124.1572
+#   flight_min: 25000
+#   flight_max: 45000
+#   daily_min: 19000
+#   daily_max: 36000
+#   best_months: [7, 8, 9, 10]
+#   url: /2026/09/27/ishigaki-guide/
+#
+# - name: モルディブ
+#   slug: maldives-guide
+#   country: モルディブ
+#   lat: 3.2028
+#   lng: 73.2207
+#   flight_min: 130000
+#   flight_max: 290000
+#   daily_min: 40000
+#   daily_max: 170000
+#   best_months: [1, 2, 3]
+#   url: /2026/09/28/maldives-guide/
+#
+# - name: サントリーニ島
+#   slug: santorini-guide
+#   country: ギリシャ
+#   lat: 36.3932
+#   lng: 25.4615
+#   flight_min: 150000
+#   flight_max: 300000
+#   daily_min: 23000
+#   daily_max: 66000
+#   best_months: [5, 6, 9, 10]
+#   url: /2026/09/28/santorini-guide/
+#
+# - name: ワイキキビーチ
+#   slug: waikiki-guide
+#   country: アメリカ
+#   lat: 21.2793
+#   lng: -157.8292
+#   flight_min: 70000
+#   flight_max: 150000
+#   daily_min: 27000
+#   daily_max: 62000
+#   best_months: [4, 5, 9, 10]
+#   url: /2026/09/28/waikiki-guide/

@@ -6,7 +6,16 @@ layout: default
   #search-panel { display: flex; flex-wrap: wrap; gap: 1rem; align-items: flex-end; margin: 1.5rem 0; padding: 1rem; border: 1px solid #ddd; border-radius: 8px; }
   #search-panel div { display: flex; flex-direction: column; }
   #search-panel label { font-size: 0.85rem; margin-bottom: 0.25rem; color: #555; }
-  #trip-map { height: 420px; width: 100%; border-radius: 8px; margin-bottom: 1.5rem; }
+  #trip-map { height: 480px; width: 100%; border-radius: 8px; margin-bottom: 0.5rem; }
+  .map-hint { font-size: 0.85rem; color: #6B5A4A; margin: 0 0 1.5rem; }
+  .leaflet-marker-icon { cursor: pointer; }
+  .island-label {
+    background: #fff; color: #1E3932; font-weight: 600; font-size: 0.8rem;
+    padding: 2px 8px; border-radius: 10px; border: 1px solid #E5DDCC;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.15);
+    white-space: nowrap;
+  }
+  .island-label::before { display: none; }
   #result-list { list-style: none; padding: 0; }
   #result-list li { padding: 0.75rem 0; border-bottom: 1px solid #eee; }
   #result-list a { font-weight: 600; }
@@ -55,6 +64,7 @@ layout: default
 </div>
 
 <div id="trip-map"></div>
+<p class="map-hint">📍 島名のラベルをクリックすると、その記事に移動します。</p>
 
 <h2>検索結果</h2>
 <ul id="result-list"></ul>
@@ -63,7 +73,7 @@ layout: default
 <script>
   var destinations = {{ site.data.destinations | jsonify }};
 
-  var map = L.map('trip-map').setView([15, 120], 3);
+  var map = L.map('trip-map', { scrollWheelZoom: false });
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; OpenStreetMap contributors'
   }).addTo(map);
@@ -76,12 +86,22 @@ layout: default
     popupAnchor: [0, -26]
   });
 
-  var markers = {};
+  var markers = [];
   destinations.forEach(function (d) {
     var marker = L.marker([d.lat, d.lng], { icon: islandIcon }).addTo(map);
-    marker.bindPopup('<a href="{{ site.baseurl }}' + d.url + '">' + d.name + '</a>');
-    markers[d.slug] = marker;
+    var targetUrl = '{{ site.baseurl }}' + d.url;
+    marker.bindTooltip(d.name, { permanent: true, direction: 'top', offset: [0, -26], className: 'island-label' });
+    marker.on('click', function () { window.location.href = targetUrl; });
+    markers.push(marker);
   });
+
+  if (markers.length > 0) {
+    var group = L.featureGroup(markers);
+    map.fitBounds(group.getBounds().pad(0.3));
+    if (markers.length === 1) { map.setZoom(6); }
+  } else {
+    map.setView([15, 110], 3);
+  }
 
   function renderResults() {
     var nights = parseInt(document.getElementById('nights').value, 10);

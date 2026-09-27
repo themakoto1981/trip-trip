@@ -92,8 +92,10 @@ layout: default
 
     var dailyMin = match.hotel_min + match.transport_min + match.food_min;
     var dailyMax = match.hotel_max + match.transport_max + match.food_max;
-    var totalMin = match.flight_min + dailyMin * 2;
-    var totalMax = match.flight_max + dailyMax * 2;
+    var budgetTotalMin = match.flight_min + dailyMin * 2;
+    var budgetTotalMax = match.flight_min + dailyMax * 2;
+    var comfortTotalMin = match.flight_max + dailyMin * 2;
+    var comfortTotalMax = match.flight_max + dailyMax * 2;
 
     var companionLabelMap = { solo: '一人旅', couple: 'カップル・夫婦', family: '家族', friends: '友人グループ' };
     var companionText = (match.suited_for && match.suited_for.length)
@@ -115,7 +117,9 @@ layout: default
       ['いつ行く', (match.best_months ? match.best_months.join('・') + '月' : '-') + '　' + seasonHtml],
       ['ビザ要否', match.visa || '要確認'],
       ['必要日数', match.recommended_nights || '-'],
-      ['予算（2泊3日〜）', totalMin.toLocaleString() + '〜' + totalMax.toLocaleString() + '円'],
+      ['予算（2泊3日〜）',
+        '<span class="budget-style">✈️ やす旅（LCC）: ' + budgetTotalMin.toLocaleString() + '〜' + budgetTotalMax.toLocaleString() + '円</span>' +
+        '<span class="budget-style">🛫 ゆる旅（ANA等）: ' + comfortTotalMin.toLocaleString() + '〜' + comfortTotalMax.toLocaleString() + '円</span>'],
       ['誰と行く？', companionText]
     ];
 

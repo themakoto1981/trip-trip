@@ -2,9 +2,12 @@
 # 現在は東南アジアの島・ビーチに絞って運用中です（2026年9月28日〜）。
 # 新しい島の記事を追加したら、ここにも1件追加してください（地図ピン・検索用）
 # flight_min/flight_max: 日本からの往復航空券の目安（円）
-# daily_min/daily_max: 現地1泊あたりの目安（宿泊+食費+現地移動、円）
+# hotel_min/hotel_max: 現地宿泊費（1泊あたり、円）
+# transport_min/transport_max: 現地移動費（1日あたり、円）
+# food_min/food_max: 食費・アクティビティ（1日あたり、円）
 # flight_hours: 日本からの片道移動時間の目安（テキスト）
 # recommended_nights: おすすめの宿泊日数（テキスト）
+# suited_for: 向いている同行者タイプ（solo/couple/family/friends）
 # best_months: おすすめの月（1-12の配列、記事内での参考表示用）
 # lat/lng: 地図ピン用の緯度経度
 
@@ -15,8 +18,12 @@
   lng: 121.9248
   flight_min: 40000
   flight_max: 80000
-  daily_min: 9000
-  daily_max: 23000
+  hotel_min: 5000
+  hotel_max: 15000
+  transport_min: 1000
+  transport_max: 2000
+  food_min: 3000
+  food_max: 6000
   flight_hours: "約9〜12時間（マニラ/セブ経由）"
   recommended_nights: "2〜4泊"
   suited_for: [couple, friends, solo]
@@ -30,8 +37,12 @@
   lng: 115.0920
   flight_min: 60000
   flight_max: 120000
-  daily_min: 11000
-  daily_max: 33000
+  hotel_min: 4000
+  hotel_max: 20000
+  transport_min: 4000
+  transport_max: 6000
+  food_min: 3000
+  food_max: 7000
   flight_hours: "約7〜8時間（直行便）"
   recommended_nights: "3〜5泊"
   suited_for: [couple, family, friends]
@@ -45,8 +56,12 @@
   lng: 98.3923
   flight_min: 50000
   flight_max: 100000
-  daily_min: 8500
-  daily_max: 27000
+  hotel_min: 4000
+  hotel_max: 18000
+  transport_min: 1500
+  transport_max: 3000
+  food_min: 3000
+  food_max: 6000
   flight_hours: "約9〜11時間（バンコク経由）"
   recommended_nights: "2〜4泊"
   suited_for: [couple, family, friends, solo]
@@ -54,7 +69,7 @@
   url: /2026/09/28/phuket-guide/
 
 # --- 以下、東南アジア以外のため一時的に非公開（記事もpublished: falseに設定済み）---
-# 地域を広げる際にコメントを外して復元してください。
+# 地域を広げる際にコメントを外して復元してください（hotel/transport/foodへの分割が必要です）。
 #
 # - name: 石垣島
 #   slug: ishigaki-guide
@@ -63,8 +78,12 @@
 #   lng: 124.1572
 #   flight_min: 25000
 #   flight_max: 45000
-#   daily_min: 19000
-#   daily_max: 36000
+#   hotel_min: 8000
+#   hotel_max: 20000
+#   transport_min: 6000
+#   transport_max: 8000
+#   food_min: 5000
+#   food_max: 8000
 #   best_months: [7, 8, 9, 10]
 #   url: /2026/09/27/ishigaki-guide/
 #
@@ -75,8 +94,12 @@
 #   lng: 73.2207
 #   flight_min: 130000
 #   flight_max: 290000
-#   daily_min: 40000
-#   daily_max: 170000
+#   hotel_min: 30000
+#   hotel_max: 150000
+#   transport_min: 0
+#   transport_max: 0
+#   food_min: 10000
+#   food_max: 20000
 #   best_months: [1, 2, 3]
 #   url: /2026/09/28/maldives-guide/
 #
@@ -87,8 +110,12 @@
 #   lng: 25.4615
 #   flight_min: 150000
 #   flight_max: 300000
-#   daily_min: 23000
-#   daily_max: 66000
+#   hotel_min: 15000
+#   hotel_max: 50000
+#   transport_min: 3000
+#   transport_max: 6000
+#   food_min: 5000
+#   food_max: 10000
 #   best_months: [5, 6, 9, 10]
 #   url: /2026/09/28/santorini-guide/
 #
@@ -99,7 +126,11 @@
 #   lng: -157.8292
 #   flight_min: 70000
 #   flight_max: 150000
-#   daily_min: 27000
-#   daily_max: 62000
+#   hotel_min: 15000
+#   hotel_max: 40000
+#   transport_min: 6000
+#   transport_max: 10000
+#   food_min: 6000
+#   food_max: 12000
 #   best_months: [4, 5, 9, 10]
 #   url: /2026/09/28/waikiki-guide/

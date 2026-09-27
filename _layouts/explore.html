@@ -31,23 +31,25 @@ layout: default
 
 <div id="search-panel">
   <div>
-    <label for="month">出発したい月</label>
-    <select id="month">
-      <option value="">指定なし</option>
-      {% for m in (1..12) %}
-      <option value="{{ m }}">{{ m }}月</option>
-      {% endfor %}
+    <label for="nights">旅行日程</label>
+    <select id="nights">
+      <option value="1">1泊2日</option>
+      <option value="2" selected>2泊3日</option>
+      <option value="3">3泊4日</option>
+      <option value="4">4泊5日</option>
+      <option value="6">5泊以上</option>
     </select>
   </div>
   <div>
-    <label for="budget">予算（上限・円）</label>
+    <label for="budget">予算（総額・上限）</label>
     <select id="budget">
       <option value="">指定なし</option>
-      <option value="50000">5万円まで</option>
       <option value="80000">8万円まで</option>
-      <option value="100000">10万円まで</option>
-      <option value="150000">15万円まで</option>
-      <option value="999999">上限なし</option>
+      <option value="120000">12万円まで</option>
+      <option value="180000">18万円まで</option>
+      <option value="250000">25万円まで</option>
+      <option value="400000">40万円まで</option>
+      <option value="999999999">上限なし</option>
     </select>
   </div>
 </div>
@@ -82,16 +84,21 @@ layout: default
   });
 
   function renderResults() {
-    var month = document.getElementById('month').value;
+    var nights = parseInt(document.getElementById('nights').value, 10);
     var budget = document.getElementById('budget').value;
     var list = document.getElementById('result-list');
     list.innerHTML = '';
 
-    var filtered = destinations.filter(function (d) {
-      var monthOk = !month || d.best_months.indexOf(parseInt(month, 10)) !== -1;
-      var budgetOk = !budget || d.budget_min <= parseInt(budget, 10);
-      return monthOk && budgetOk;
+    var withTotals = destinations.map(function (d) {
+      var totalMin = d.flight_min + d.daily_min * nights;
+      var totalMax = d.flight_max + d.daily_max * nights;
+      return Object.assign({}, d, { totalMin: totalMin, totalMax: totalMax });
     });
+
+    var filtered = withTotals.filter(function (d) {
+      var budgetOk = !budget || d.totalMin <= parseInt(budget, 10);
+      return budgetOk;
+    }).sort(function (a, b) { return a.totalMin - b.totalMin; });
 
     if (filtered.length === 0) {
       list.innerHTML = '<li class="no-result">条件に合う島がまだ見つかりませんでした。記事は随時追加中です。</li>';
@@ -101,13 +108,13 @@ layout: default
     filtered.forEach(function (d) {
       var li = document.createElement('li');
       li.innerHTML = '<a href="{{ site.baseurl }}' + d.url + '">' + d.name + '（' + d.country + '）</a>' +
-        '　目安予算: ' + d.budget_min.toLocaleString() + '〜' + d.budget_max.toLocaleString() + '円' +
+        '　目安総額: ' + d.totalMin.toLocaleString() + '〜' + d.totalMax.toLocaleString() + '円' +
         '　おすすめ月: ' + d.best_months.join(', ') + '月';
       list.appendChild(li);
     });
   }
 
-  document.getElementById('month').addEventListener('change', renderResults);
+  document.getElementById('nights').addEventListener('change', renderResults);
   document.getElementById('budget').addEventListener('change', renderResults);
   renderResults();
 </script>

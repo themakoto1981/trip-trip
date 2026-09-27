@@ -62,7 +62,9 @@ layout: default
 
     var companionLabelMap = { solo: '一人旅', couple: 'カップル・夫婦', family: '家族', friends: '友人グループ' };
     var companionText = (match.suited_for && match.suited_for.length)
-      ? match.suited_for.map(function (c) { return companionLabelMap[c] || c; }).join('・')
+      ? match.suited_for.map(function (c) {
+          return '<span class="tag-chip">' + (companionLabelMap[c] || c) + '</span>';
+        }).join('')
       : '-';
 
     var countryFlagMap = {

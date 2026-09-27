@@ -53,19 +53,25 @@ layout: default
     var totalMin = match.flight_min + dailyMin * 2;
     var totalMax = match.flight_max + dailyMax * 2;
 
-    var rows = [
+    var companionLabelMap = { solo: '一人旅', couple: 'カップル・夫婦', family: '家族', friends: '友人グループ' };
+    var companionText = (match.suited_for && match.suited_for.length)
+      ? match.suited_for.map(function (c) { return companionLabelMap[c] || c; }).join('・')
+      : '-';
+
+    var tabs = [
       ['国', match.country],
-      ['目安予算（2泊3日〜）', totalMin.toLocaleString() + '〜' + totalMax.toLocaleString() + '円'],
-      ['現地までの移動時間', match.flight_hours || '-'],
-      ['おすすめ日程', match.recommended_nights || '-'],
-      ['ベストシーズン', (match.best_months ? match.best_months.join('・') + '月　' : '') + seasonHtml]
+      ['おすすめシーズン', (match.best_months ? match.best_months.join('・') + '月' : '-') + '<br>' + seasonHtml],
+      ['ビザ要否', match.visa || '要確認'],
+      ['必要日数', match.recommended_nights || '-'],
+      ['予算（2泊3日〜）', totalMin.toLocaleString() + '〜<br>' + totalMax.toLocaleString() + '円'],
+      ['誰と行く？', companionText]
     ];
 
-    var html = '<div class="quick-facts-box"><dl>';
-    rows.forEach(function (r) {
-      html += '<dt>' + r[0] + '</dt><dd>' + r[1] + '</dd>';
+    var html = '<div class="quick-facts-tabs">';
+    tabs.forEach(function (t) {
+      html += '<div class="qf-tab"><div class="qf-tab-label">' + t[0] + '</div><div class="qf-tab-value">' + t[1] + '</div></div>';
     });
-    html += '</dl></div>';
+    html += '</div>';
 
     document.getElementById('quick-facts').innerHTML = html;
   })();

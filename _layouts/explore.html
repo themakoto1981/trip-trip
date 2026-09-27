@@ -16,26 +16,34 @@ layout: default
     white-space: nowrap;
   }
   .island-label::before { display: none; }
+  .island-label-planned {
+    background: #F2EFE9; color: #8a8070; font-weight: 500; font-size: 0.75rem;
+    padding: 1px 7px; border-radius: 10px; border: 1px dashed #cfc6b2;
+    white-space: nowrap;
+  }
+  .island-label-planned::before { display: none; }
   #result-list { list-style: none; padding: 0; }
   #result-list li { padding: 0.75rem 0; border-bottom: 1px solid #eee; }
   #result-list a { font-weight: 600; }
   .no-result { color: #888; }
   .page-tagline { font-size: 0.95rem; color: #666; font-weight: normal; margin-top: -0.5rem; }
+  .map-legend { font-size: 0.8rem; color: #6B5A4A; margin: 0.25rem 0 0.75rem; }
+  .map-legend span { margin-right: 1rem; }
 
-  .island-pin {
-    width: 30px; height: 30px;
-    display: flex; align-items: center; justify-content: center;
-    background: #1a7a7a;
-    border: 2px solid #fff;
-    border-radius: 50% 50% 50% 0;
-    transform: rotate(-45deg);
-    box-shadow: 0 2px 5px rgba(0,0,0,0.35);
+  .island-star {
+    font-size: 20px; line-height: 1; color: #00704A;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.35), 0 0 1px #fff;
   }
-  .island-pin span { transform: rotate(45deg); font-size: 14px; line-height: 1; }
+  .island-pin-planned {
+    width: 10px; height: 10px;
+    border-radius: 50%;
+    background: #B7AE9C;
+    border: 2px solid #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+    cursor: default;
+  }
 </style>
 
-<h1>{{ site.title }}</h1>
-<p class="page-tagline">{{ site.description }}</p>
 {{ content }}
 
 <div id="search-panel">
@@ -64,7 +72,7 @@ layout: default
 </div>
 
 <div id="trip-map"></div>
-<p class="map-hint">📍 島名のラベルをクリックすると、その記事に移動します。</p>
+<p class="map-legend"><span>★ 記事あり（クリックで記事へ）</span><span>● 近日公開予定</span></p>
 
 <h2>検索結果</h2>
 <ul id="result-list"></ul>
@@ -72,6 +80,7 @@ layout: default
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
   var destinations = {{ site.data.destinations | jsonify }};
+  var plannedDestinations = {{ site.data.planned_destinations | default: "[]" | jsonify }};
 
   var map = L.map('trip-map', { scrollWheelZoom: false });
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -80,18 +89,30 @@ layout: default
 
   var islandIcon = L.divIcon({
     className: 'island-pin-wrapper',
-    html: '<div class="island-pin"><span>🏝️</span></div>',
-    iconSize: [30, 30],
-    iconAnchor: [15, 28],
-    popupAnchor: [0, -26]
+    html: '<div class="island-star">★</div>',
+    iconSize: [20, 20],
+    iconAnchor: [10, 10],
+    popupAnchor: [0, -10]
+  });
+  var plannedIcon = L.divIcon({
+    className: 'island-pin-wrapper-planned',
+    html: '<div class="island-pin-planned"></div>',
+    iconSize: [10, 10],
+    iconAnchor: [5, 5],
+    popupAnchor: [0, -6]
   });
 
   var markers = [];
   destinations.forEach(function (d) {
     var marker = L.marker([d.lat, d.lng], { icon: islandIcon }).addTo(map);
     var targetUrl = '{{ site.baseurl }}' + d.url;
-    marker.bindTooltip(d.name, { permanent: true, direction: 'top', offset: [0, -26], className: 'island-label' });
+    marker.bindTooltip(d.name, { permanent: true, direction: 'top', offset: [0, -10], className: 'island-label' });
     marker.on('click', function () { window.location.href = targetUrl; });
+    markers.push(marker);
+  });
+  plannedDestinations.forEach(function (d) {
+    var marker = L.marker([d.lat, d.lng], { icon: plannedIcon }).addTo(map);
+    marker.bindTooltip(d.name + '（近日公開）', { permanent: true, direction: 'top', offset: [0, -6], className: 'island-label-planned' });
     markers.push(marker);
   });
 

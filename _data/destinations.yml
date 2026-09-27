@@ -13,3 +13,53 @@
   budget_max: 100000
   best_months: [7, 8, 9, 10]
   url: /2026/09/27/ishigaki-guide/
+
+- name: ボラカイ島
+  slug: boracay-guide
+  country: フィリピン
+  lat: 11.9674
+  lng: 121.9248
+  budget_min: 60000
+  budget_max: 120000
+  best_months: [12, 1, 2]
+  url: /2026/09/28/boracay-guide/
+
+- name: バリ島
+  slug: bali-guide
+  country: インドネシア
+  lat: -8.3405
+  lng: 115.0920
+  budget_min: 80000
+  budget_max: 150000
+  best_months: [5, 6, 9]
+  url: /2026/09/28/bali-guide/
+
+- name: モルディブ
+  slug: maldives-guide
+  country: モルディブ
+  lat: 3.2028
+  lng: 73.2207
+  budget_min: 200000
+  budget_max: 400000
+  best_months: [1, 2, 3]
+  url: /2026/09/28/maldives-guide/
+
+- name: サントリーニ島
+  slug: santorini-guide
+  country: ギリシャ
+  lat: 36.3932
+  lng: 25.4615
+  budget_min: 250000
+  budget_max: 450000
+  best_months: [5, 6, 9, 10]
+  url: /2026/09/28/santorini-guide/
+
+- name: ワイキキビーチ
+  slug: waikiki-guide
+  country: アメリカ
+  lat: 21.2793
+  lng: -157.8292
+  budget_min: 120000
+  budget_max: 250000
+  best_months: [4, 5, 9, 10]
+  url: /2026/09/28/waikiki-guide/

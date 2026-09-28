@@ -41,7 +41,7 @@ layout: default
   <script>
   (function () {
     var destinations = {{ site.data.destinations | jsonify }};
-    var allSpots = {{ site.data.spots | default: "{}" | jsonify }};
+    var allSpots = {{ site.data.spots | jsonify }} || {};
     var pageUrl = "{{ page.url }}";
     var match = null;
     for (var i = 0; i < destinations.length; i++) {

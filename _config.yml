@@ -17,9 +17,6 @@ plugins:
 header_pages:
   - articles.md
   - submit.md
-  - about.md
-  - privacy-policy.md
-  - disclaimer.md
 
 exclude:
   - README.md

@@ -180,13 +180,13 @@ layout: default
 
     var luxuryDaily = Math.round(dailyMax * 1.6);
     var budgetTiers = [
-      ['✈️ やす旅', 'LCC＋安宿',
+      ['やす旅', 'LCC＋安宿',
         budgetTotalMin.toLocaleString() + '〜' + budgetTotalMax.toLocaleString() + '円',
         '航空券' + match.flight_min.toLocaleString() + '円 ＋ 宿泊/移動/食費（1泊）' + dailyMin.toLocaleString() + '〜' + dailyMax.toLocaleString() + '円 ×' + nights + '泊'],
-      ['🛫 ゆる旅', 'ANA等＋リゾートのスタンダードルーム',
+      ['ゆる旅', 'ANA等＋リゾートのスタンダードルーム',
         comfortTotalMin.toLocaleString() + '〜' + comfortTotalMax.toLocaleString() + '円',
         '航空券' + match.flight_max.toLocaleString() + '円 ＋ 宿泊/移動/食費（1泊）' + dailyMin.toLocaleString() + '〜' + dailyMax.toLocaleString() + '円 ×' + nights + '泊'],
-      ['🎁 ごほうび旅', 'リゾートのオーシャンビュー',
+      ['ごほうび旅', 'リゾートのオーシャンビュー',
         luxuryTotal.toLocaleString() + '円〜',
         '航空券' + match.flight_max.toLocaleString() + '円 ＋ 上質な宿泊/食費（1泊）目安' + luxuryDaily.toLocaleString() + '円 ×' + nights + '泊']
     ];

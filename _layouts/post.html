@@ -29,13 +29,19 @@ layout: default
     </p>
   </header>
 
+  {%- assign my_destination = site.data.destinations | where_exp: "d", "d.url == page.url" | first -%}
+  {%- if my_destination and my_destination.photo -%}
+  <figure class="hero-photo">
+    <img src="{{ my_destination.photo }}" alt="{{ my_destination.name }}" loading="lazy">
+    <figcaption><a href="{{ my_destination.photo_credit_url }}" target="_blank" rel="noopener">写真: Wikimedia Commons</a></figcaption>
+  </figure>
+  {%- endif -%}
+
   <div id="quick-facts"></div>
 
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
   </div>
-
-  <div id="spot-map-wrap"></div>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script>
@@ -51,32 +57,67 @@ layout: default
 
     var mySpots = allSpots[match.slug];
     if (mySpots && mySpots.length > 0) {
-      var wrap = document.getElementById('spot-map-wrap');
-      wrap.innerHTML = '<h2>スポットの位置</h2><div id="spot-map"></div>';
-
-      var spotMap = L.map('spot-map', { scrollWheelZoom: false });
-      L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-        maxZoom: 19
-      }).addTo(spotMap);
-
-      var spotIcon = L.divIcon({
-        className: 'spot-pin-wrapper',
-        html: '<div class="spot-pin"></div>',
-        iconSize: [14, 14],
-        iconAnchor: [7, 7],
-        popupAnchor: [0, -8]
+      var spotHeading = null;
+      document.querySelectorAll('.post-content h2').forEach(function (h) {
+        if (h.textContent.indexOf('おすすめ') !== -1) { spotHeading = h; }
       });
 
-      var spotMarkers = mySpots.map(function (s) {
-        var m = L.marker([s.lat, s.lng], { icon: spotIcon }).addTo(spotMap);
-        m.bindTooltip(s.name, { permanent: true, direction: 'top', offset: [0, -8], className: 'spot-label' });
-        if (s.desc) { m.bindPopup('<strong>' + s.name + '</strong><br>' + s.desc); }
-        return m;
-      });
+      if (spotHeading) {
+        var mapWrap = document.createElement('div');
+        mapWrap.id = 'spot-map-wrap';
+        mapWrap.innerHTML = '<div id="spot-map"></div>';
+        spotHeading.parentNode.insertBefore(mapWrap, spotHeading.nextSibling);
 
-      var spotGroup = L.featureGroup(spotMarkers);
-      spotMap.fitBounds(spotGroup.getBounds().pad(0.4));
+        var spotMap = L.map('spot-map', { scrollWheelZoom: false });
+        L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+          attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+          maxZoom: 19
+        }).addTo(spotMap);
+
+        var spotIcon = L.divIcon({
+          className: 'spot-pin-wrapper',
+          html: '<div class="spot-pin"></div>',
+          iconSize: [14, 14],
+          iconAnchor: [7, 7],
+          popupAnchor: [0, -8]
+        });
+
+        var spotMarkersByName = {};
+        var spotMarkers = mySpots.map(function (s) {
+          var m = L.marker([s.lat, s.lng], { icon: spotIcon }).addTo(spotMap);
+          m.bindTooltip(s.name, { permanent: true, direction: 'top', offset: [0, -8], className: 'spot-label' });
+          if (s.desc) { m.bindPopup('<strong>' + s.name + '</strong><br>' + s.desc); }
+          spotMarkersByName[s.name] = { marker: m, lat: s.lat, lng: s.lng };
+          return m;
+        });
+
+        var spotGroup = L.featureGroup(spotMarkers);
+        spotMap.fitBounds(spotGroup.getBounds().pad(0.4));
+
+        // Link the "おすすめ" list items to their map markers
+        var spotList = mapWrap.nextElementSibling;
+        if (spotList && spotList.tagName === 'UL') {
+          spotList.querySelectorAll('li').forEach(function (li) {
+            var strong = li.querySelector('strong');
+            if (!strong) { return; }
+            var matchedName = null;
+            Object.keys(spotMarkersByName).forEach(function (name) {
+              if (strong.textContent.indexOf(name) !== -1 || name.indexOf(strong.textContent) !== -1) {
+                matchedName = name;
+              }
+            });
+            if (matchedName) {
+              strong.classList.add('spot-link');
+              strong.addEventListener('click', function () {
+                var info = spotMarkersByName[matchedName];
+                spotMap.setView([info.lat, info.lng], 15);
+                info.marker.openPopup();
+                document.getElementById('spot-map').scrollIntoView({ behavior: 'smooth', block: 'center' });
+              });
+            }
+          });
+        }
+      }
     }
 
     var titleMainEl = document.getElementById('post-title-main');

@@ -234,8 +234,32 @@
   }
 
   /* Spot map on post pages */
-  #spot-map-wrap h2 { margin-bottom: 0.75rem; }
-  #spot-map { height: 320px; width: 100%; border-radius: 10px; border: 2px solid var(--sb-green); margin-bottom: 2rem; }
+  #spot-map-wrap { margin: 1rem 0 1.5rem; }
+  #spot-map { height: 320px; width: 100%; border-radius: 10px; border: 2px solid var(--sb-green); }
+  .spot-link {
+    cursor: pointer;
+    text-decoration: underline dotted;
+    text-underline-offset: 3px;
+  }
+  .spot-link:hover { color: var(--sb-green); }
+  .spot-link::after { content: " 📍"; font-size: 0.85em; }
+
+  /* Hero photo */
+  .hero-photo { margin: 0 0 1.5rem; }
+  .hero-photo img {
+    width: 100%;
+    max-height: 380px;
+    object-fit: cover;
+    border-radius: 12px;
+    display: block;
+  }
+  .hero-photo figcaption {
+    font-size: 0.75rem;
+    color: var(--sb-brown-soft);
+    text-align: right;
+    margin-top: 0.3rem;
+  }
+  .hero-photo figcaption a { color: inherit; }
   .spot-pin {
     width: 12px; height: 12px; border-radius: 50%;
     background: var(--sb-gold);

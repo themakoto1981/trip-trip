@@ -152,7 +152,10 @@ layout: default
       'ミャンマー': '🇲🇲', 'ブルネイ': '🇧🇳', '日本': '🇯🇵', 'モルディブ': '🇲🇻',
       'ギリシャ': '🇬🇷', 'アメリカ': '🇺🇸'
     };
-    var countryDisplay = match.country + (countryFlagMap[match.country] ? ' ' + countryFlagMap[match.country] : '');
+    var countryText = match.country + (countryFlagMap[match.country] ? ' ' + countryFlagMap[match.country] : '');
+    var countryDisplay = match.country_slug
+      ? '<a href="{{ site.baseurl }}/country/' + match.country_slug + '/">' + countryText + '</a>'
+      : countryText;
 
     var rows = [
       ['国', countryDisplay],

@@ -228,13 +228,23 @@
     color: var(--sb-brown-soft);
     font-size: 0.85rem;
   }
-  .budget-tiers-table tbody td:last-child {
+  .budget-tiers-table tbody td:nth-child(3) {
     font-weight: 700;
     color: var(--sb-brown);
     white-space: nowrap;
   }
+  .budget-tiers-table tbody td:last-child {
+    color: var(--sb-brown-soft);
+    font-size: 0.78rem;
+  }
+  .tier-note {
+    font-size: 0.78rem;
+    color: var(--sb-brown-soft);
+    margin: -1rem 0 1.75rem;
+  }
   @media (max-width: 500px) {
     .budget-tiers-table th, .budget-tiers-table td { padding: 0.5rem 0.6rem; font-size: 0.8rem; }
+    .budget-tiers-table tbody td:last-child { font-size: 0.72rem; }
   }
   @media (max-width: 500px) {
     .quick-facts-table th { width: 42%; font-size: 0.75rem; padding: 0.6rem 0.7rem; }

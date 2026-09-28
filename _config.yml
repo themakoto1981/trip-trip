@@ -9,6 +9,18 @@ permalink: /:year/:month/:day/:title/
 show_excerpts: true
 future: true
 
+collections:
+  countries:
+    output: true
+    permalink: /country/:slug/
+
+defaults:
+  - scope:
+      path: ""
+      type: "countries"
+    values:
+      layout: "country"
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
@@ -16,6 +28,7 @@ plugins:
 
 header_pages:
   - articles.md
+  - countries.md
   - submit.md
 
 exclude:

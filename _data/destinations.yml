@@ -14,6 +14,7 @@
 - name: ボラカイ島
   slug: boracay-guide
   country: フィリピン
+  country_slug: philippines
   lat: 11.9674
   lng: 121.9248
   flight_min: 40000
@@ -36,6 +37,7 @@
 - name: バリ島
   slug: bali-guide
   country: インドネシア
+  country_slug: indonesia
   lat: -8.3405
   lng: 115.0920
   flight_min: 60000
@@ -58,6 +60,7 @@
 - name: プーケット島
   slug: phuket-guide
   country: タイ
+  country_slug: thailand
   lat: 7.8804
   lng: 98.3923
   flight_min: 50000
@@ -80,6 +83,7 @@
 - name: ランカウイ島
   slug: langkawi-guide
   country: マレーシア
+  country_slug: malaysia
   lat: 6.3500
   lng: 99.8000
   flight_min: 60000

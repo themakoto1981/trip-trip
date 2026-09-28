@@ -118,16 +118,24 @@ layout: default
       ['いつ行く', (match.best_months ? match.best_months.join('・') + '月' : '-') + '　' + seasonHtml],
       ['ビザ要否', match.visa || '要確認'],
       ['必要日数', match.recommended_nights || '-'],
-      ['予算（2泊3日〜）',
-        '<span class="budget-style">✈️ やす旅（LCC＋安宿）: ' + budgetTotalMin.toLocaleString() + '〜' + budgetTotalMax.toLocaleString() + '円</span>' +
-        '<span class="budget-style">🛫 ゆる旅（ANA等＋リゾートのスタンダードルーム）: ' + comfortTotalMin.toLocaleString() + '〜' + comfortTotalMax.toLocaleString() + '円</span>' +
-        '<span class="budget-style">🎁 ごほうび旅（リゾートのオーシャンビュー）: ' + luxuryTotal.toLocaleString() + '円〜</span>'],
       ['誰と行く？', companionText]
     ];
 
     var html = '<table class="quick-facts-table"><tbody>';
     rows.forEach(function (r) {
       html += '<tr><th>' + r[0] + '</th><td>' + r[1] + '</td></tr>';
+    });
+    html += '</tbody></table>';
+
+    var budgetTiers = [
+      ['✈️ やす旅', 'LCC＋安宿', budgetTotalMin.toLocaleString() + '〜' + budgetTotalMax.toLocaleString() + '円'],
+      ['🛫 ゆる旅', 'ANA等＋リゾートのスタンダードルーム', comfortTotalMin.toLocaleString() + '〜' + comfortTotalMax.toLocaleString() + '円'],
+      ['🎁 ごほうび旅', 'リゾートのオーシャンビュー', luxuryTotal.toLocaleString() + '円〜']
+    ];
+    html += '<h2>予算プラン（2泊3日〜）</h2>';
+    html += '<table class="budget-tiers-table"><thead><tr><th>プラン</th><th>内容</th><th>目安予算</th></tr></thead><tbody>';
+    budgetTiers.forEach(function (t) {
+      html += '<tr><td>' + t[0] + '</td><td>' + t[1] + '</td><td>' + t[2] + '</td></tr>';
     });
     html += '</tbody></table>';
 

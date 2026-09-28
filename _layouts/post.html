@@ -170,16 +170,24 @@ layout: default
 
     document.getElementById('quick-facts').innerHTML = html;
 
+    var luxuryDaily = Math.round(dailyMax * 1.6);
     var budgetTiers = [
-      ['✈️ やす旅', 'LCC＋安宿', budgetTotalMin.toLocaleString() + '〜' + budgetTotalMax.toLocaleString() + '円'],
-      ['🛫 ゆる旅', 'ANA等＋リゾートのスタンダードルーム', comfortTotalMin.toLocaleString() + '〜' + comfortTotalMax.toLocaleString() + '円'],
-      ['🎁 ごほうび旅', 'リゾートのオーシャンビュー', luxuryTotal.toLocaleString() + '円〜']
+      ['✈️ やす旅', 'LCC＋安宿',
+        budgetTotalMin.toLocaleString() + '〜' + budgetTotalMax.toLocaleString() + '円',
+        '航空券' + match.flight_min.toLocaleString() + '円 ＋ 宿泊/移動/食費（1泊）' + dailyMin.toLocaleString() + '〜' + dailyMax.toLocaleString() + '円 ×2泊'],
+      ['🛫 ゆる旅', 'ANA等＋リゾートのスタンダードルーム',
+        comfortTotalMin.toLocaleString() + '〜' + comfortTotalMax.toLocaleString() + '円',
+        '航空券' + match.flight_max.toLocaleString() + '円 ＋ 宿泊/移動/食費（1泊）' + dailyMin.toLocaleString() + '〜' + dailyMax.toLocaleString() + '円 ×2泊'],
+      ['🎁 ごほうび旅', 'リゾートのオーシャンビュー',
+        luxuryTotal.toLocaleString() + '円〜',
+        '航空券' + match.flight_max.toLocaleString() + '円 ＋ 上質な宿泊/食費（1泊）目安' + luxuryDaily.toLocaleString() + '円 ×2泊']
     ];
-    var tiersHtml = '<table class="budget-tiers-table"><thead><tr><th>プラン</th><th>内容</th><th>目安予算</th></tr></thead><tbody>';
+    var tiersHtml = '<table class="budget-tiers-table"><thead><tr><th>プラン</th><th>内容</th><th>目安予算</th><th>内訳</th></tr></thead><tbody>';
     budgetTiers.forEach(function (t) {
-      tiersHtml += '<tr><td>' + t[0] + '</td><td>' + t[1] + '</td><td>' + t[2] + '</td></tr>';
+      tiersHtml += '<tr><td>' + t[0] + '</td><td>' + t[1] + '</td><td>' + t[2] + '</td><td class="tier-breakdown">' + t[3] + '</td></tr>';
     });
     tiersHtml += '</tbody></table>';
+    tiersHtml += '<p class="tier-note">※すべて2泊3日・1人あたりの目安です。宿泊数を増やす場合は「宿泊/移動/食費」の金額に泊数を掛けて計算してください。</p>';
 
     var budgetHeading = null;
     document.querySelectorAll('.post-content h2').forEach(function (h) {

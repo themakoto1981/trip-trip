@@ -220,12 +220,20 @@
     background: var(--sb-card);
     border: 1px solid var(--sb-border);
     border-radius: 10px;
-    padding: 0.85rem 1.1rem;
+    padding: 0.6rem 0.7rem;
     margin-bottom: 0.75rem;
     font-size: 0.85rem;
   }
-  .tiers-popup-row { padding: 0.25rem 0; color: var(--sb-brown); }
-  .tiers-popup-row strong { color: var(--sb-green-dark); margin-right: 0.4rem; }
+  .tiers-popup-table { width: 100%; border-collapse: collapse; }
+  .tiers-popup-table th, .tiers-popup-table td {
+    padding: 0.4rem 0.6rem;
+    border-bottom: 1px solid var(--sb-border);
+    text-align: left;
+    font-size: 0.8rem;
+  }
+  .tiers-popup-table tr:last-child th, .tiers-popup-table tr:last-child td { border-bottom: none; }
+  .tiers-popup-table thead th { color: var(--sb-brown-soft); font-weight: 700; }
+  .tiers-popup-table tbody td:first-child { color: var(--sb-green-dark); font-weight: 700; white-space: nowrap; }
   .budget-tiers-table {
     width: 100%;
     border-collapse: collapse;

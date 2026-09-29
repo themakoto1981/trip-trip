@@ -198,6 +198,34 @@
     font-size: 0.95rem;
     padding: 0.7rem 1rem;
   }
+  .tiers-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem 0 0.5rem;
+  }
+  .tiers-title { font-weight: 700; color: var(--sb-green-dark); }
+  .tiers-info-btn {
+    background: var(--sb-cream);
+    color: var(--sb-green-dark);
+    border: 1px solid var(--sb-border);
+    border-radius: 14px;
+    padding: 0.3rem 0.8rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .tiers-info-btn:hover { background: var(--sb-green); color: #fff; border-color: var(--sb-green); }
+  .tiers-popup {
+    background: var(--sb-card);
+    border: 1px solid var(--sb-border);
+    border-radius: 10px;
+    padding: 0.85rem 1.1rem;
+    margin-bottom: 0.75rem;
+    font-size: 0.85rem;
+  }
+  .tiers-popup-row { padding: 0.25rem 0; color: var(--sb-brown); }
+  .tiers-popup-row strong { color: var(--sb-green-dark); margin-right: 0.4rem; }
   .budget-tiers-table {
     width: 100%;
     border-collapse: collapse;
@@ -225,10 +253,6 @@
     white-space: nowrap;
   }
   .budget-tiers-table tbody td:nth-child(2) {
-    color: var(--sb-brown-soft);
-    font-size: 0.85rem;
-  }
-  .budget-tiers-table tbody td:nth-child(3) {
     font-weight: 700;
     color: var(--sb-brown);
     white-space: nowrap;

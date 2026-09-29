@@ -79,9 +79,6 @@ layout: default
             ? '<span class="mini-season on">👍 ' + (companionLabelMap[companion] || companion) + '向き</span>'
             : '')
         : '';
-      var shortBadge = d.tooShort
-        ? '<span class="mini-season warn">⚠️ 移動時間を考えると日程が短めです（おすすめ: ' + d.recommended_nights + '）</span>'
-        : '';
       var hotelTotalMin = d.hotel_min * nights, hotelTotalMax = d.hotel_max * nights;
       var transportTotalMin = d.transport_min * nights, transportTotalMax = d.transport_max * nights;
       var foodTotalMin = d.food_min * nights, foodTotalMax = d.food_max * nights;
@@ -91,7 +88,7 @@ layout: default
         '<li>🚗 現地移動（' + nights + '日）: ' + transportTotalMin.toLocaleString() + '〜' + transportTotalMax.toLocaleString() + '円</li>' +
         '<li>🍽️ 食費・アクティビティ（' + nights + '日）: ' + foodTotalMin.toLocaleString() + '〜' + foodTotalMax.toLocaleString() + '円</li>' +
         '</ul>';
-      li.innerHTML = '<a href="{{ site.baseurl }}' + d.url + '">' + d.name + '（' + d.country + '）</a> ' + seasonBadge + ' ' + companionBadge + ' ' + shortBadge +
+      li.innerHTML = '<a href="{{ site.baseurl }}' + d.url + '">' + d.name + '（' + d.country + '）</a> ' + seasonBadge + ' ' + companionBadge +
         '<br><strong>目安総額: ' + d.totalMin.toLocaleString() + '〜' + d.totalMax.toLocaleString() + '円</strong>' +
         '　おすすめ月: ' + d.best_months.join(', ') + '月' +
         breakdown;

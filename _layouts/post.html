@@ -114,20 +114,35 @@ layout: default
     document.getElementById('quick-facts').innerHTML = html;
 
     var luxuryDaily = Math.round(dailyMax * 1.6);
+    var tierDefs = {
+      'やす旅': 'LCC＋安宿',
+      'ゆる旅': 'ANA、JAL＋リゾートのスタンダードルーム',
+      'ラグ旅': 'リゾートのオーシャンビュー'
+    };
     var budgetTiers = [
-      ['やす旅', 'LCC＋安宿',
+      ['やす旅',
         budgetTotalMin.toLocaleString() + '〜' + budgetTotalMax.toLocaleString() + '円',
         '航空券' + match.flight_min.toLocaleString() + '円 ＋ 宿泊/移動/食費（1泊）' + dailyMin.toLocaleString() + '〜' + dailyMax.toLocaleString() + '円 ×' + nights + '泊'],
-      ['ゆる旅', 'ANA等＋リゾートのスタンダードルーム',
+      ['ゆる旅',
         comfortTotalMin.toLocaleString() + '〜' + comfortTotalMax.toLocaleString() + '円',
         '航空券' + match.flight_max.toLocaleString() + '円 ＋ 宿泊/移動/食費（1泊）' + dailyMin.toLocaleString() + '〜' + dailyMax.toLocaleString() + '円 ×' + nights + '泊'],
-      ['ラグ旅', 'リゾートのオーシャンビュー',
+      ['ラグ旅',
         luxuryTotal.toLocaleString() + '円〜',
         '航空券' + match.flight_max.toLocaleString() + '円 ＋ 上質な宿泊/食費（1泊）目安' + luxuryDaily.toLocaleString() + '円 ×' + nights + '泊']
     ];
-    var tiersHtml = '<table class="budget-tiers-table"><thead><tr><th>プラン</th><th>内容</th><th>目安予算</th><th>内訳</th></tr></thead><tbody>';
+
+    var tiersHtml = '<div class="tiers-header">';
+    tiersHtml += '<span class="tiers-title">予算プラン</span>';
+    tiersHtml += '<button type="button" class="tiers-info-btn" aria-label="プランの説明">ⓘ プランの違い</button>';
+    tiersHtml += '</div>';
+    tiersHtml += '<div class="tiers-popup" hidden>';
+    Object.keys(tierDefs).forEach(function (k) {
+      tiersHtml += '<div class="tiers-popup-row"><strong>' + k + '</strong>：' + tierDefs[k] + '</div>';
+    });
+    tiersHtml += '</div>';
+    tiersHtml += '<table class="budget-tiers-table"><thead><tr><th>プラン</th><th>目安予算</th><th>内訳</th></tr></thead><tbody>';
     budgetTiers.forEach(function (t) {
-      tiersHtml += '<tr><td>' + t[0] + '</td><td>' + t[1] + '</td><td>' + t[2] + '</td><td class="tier-breakdown">' + t[3] + '</td></tr>';
+      tiersHtml += '<tr><td>' + t[0] + '</td><td>' + t[1] + '</td><td class="tier-breakdown">' + t[2] + '</td></tr>';
     });
     tiersHtml += '</tbody></table>';
     tiersHtml += '<p class="tier-note">※すべて' + nights + '泊' + (nights + 1) + '日（推奨される最短の滞在）・1人あたりの目安です。さらに宿泊数を増やす場合は「宿泊/移動/食費」の金額に泊数を掛けて計算してください。</p>';
@@ -139,7 +154,22 @@ layout: default
     if (budgetHeading) {
       var tiersWrap = document.createElement('div');
       tiersWrap.innerHTML = tiersHtml;
-      budgetHeading.parentNode.insertBefore(tiersWrap.firstChild, budgetHeading.nextSibling);
+      var insertBeforeNode = budgetHeading.nextSibling;
+      var insertedNodes = [];
+      while (tiersWrap.firstChild) {
+        var node = tiersWrap.firstChild;
+        budgetHeading.parentNode.insertBefore(node, insertBeforeNode);
+        insertedNodes.push(node);
+      }
+      var infoBtn = insertedNodes[0] && insertedNodes[0].querySelector
+        ? insertedNodes[0].querySelector('.tiers-info-btn') : null;
+      var popup = insertedNodes[1] && insertedNodes[1].classList && insertedNodes[1].classList.contains('tiers-popup')
+        ? insertedNodes[1] : null;
+      if (infoBtn && popup) {
+        infoBtn.addEventListener('click', function () {
+          popup.hidden = !popup.hidden;
+        });
+      }
     }
 
     // 地図の描画は他の要素と切り離す（失敗しても早見表・予算表に影響させない）

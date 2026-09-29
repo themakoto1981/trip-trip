@@ -175,22 +175,13 @@ layout: default
     }
 
     // 地図の描画は他の要素と切り離す（失敗しても早見表・予算表に影響させない）
-    // デバッグ用: 原因調査のため一時的に画面上にも状況を出力する
-    var debugBox = document.createElement('div');
-    debugBox.style.cssText = 'background:#fff3cd;border:2px solid #d9a441;padding:10px;margin:10px 0;font-size:12px;white-space:pre-wrap;font-family:monospace;';
-    document.getElementById('quick-facts').insertAdjacentElement('afterend', debugBox);
-    var debugLines = [];
     try {
-      debugLines.push('match.slug = ' + JSON.stringify(match && match.slug));
       var mySpots = allSpots[match.slug];
-      debugLines.push('mySpots found = ' + (mySpots ? mySpots.length + ' items' : 'NONE'));
       if (mySpots && mySpots.length > 0) {
         var spotHeading = null;
         document.querySelectorAll('.post-content h2').forEach(function (h) {
           if (h.textContent.indexOf('おすすめ') !== -1) { spotHeading = h; }
         });
-        debugLines.push('spotHeading found = ' + (spotHeading ? spotHeading.textContent : 'NONE'));
-        debugLines.push('L (Leaflet) defined = ' + (typeof L !== 'undefined'));
 
         if (spotHeading) {
           var mapWrap = document.createElement('div');
@@ -252,13 +243,9 @@ layout: default
           }
         }
       }
-      debugLines.push('OK: reached end without error');
     } catch (e) {
-      debugLines.push('ERROR: ' + (e && e.message ? e.message : e));
-      debugLines.push('STACK: ' + (e && e.stack ? e.stack : 'なし'));
       if (window.console && console.error) { console.error('spot map failed to render:', e); }
     }
-    debugBox.textContent = '[DEBUG] ' + debugLines.join(' / ');
   })();
 
   (function () {

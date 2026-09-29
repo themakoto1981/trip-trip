@@ -48,8 +48,8 @@
   transport_max: 6000
   food_min: 3000
   food_max: 7000
-  flight_hours: "約7〜8時間（直行便）"
-  recommended_nights: "3〜5泊"
+  flight_hours: "約7〜8時間（直行便）、乗継便の場合は12〜14時間"
+  recommended_nights: "4〜6泊"
   visa: "不要"
   photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Kuta_Beach%2C_Bali%2C_20220825_1706_0864.jpg/960px-Kuta_Beach%2C_Bali%2C_20220825_1706_0864.jpg"
   photo_credit_url: "https://commons.wikimedia.org/wiki/File:Kuta_Beach,_Bali,_20220825_1706_0864.jpg"

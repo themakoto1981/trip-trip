@@ -114,11 +114,11 @@ layout: default
     document.getElementById('quick-facts').innerHTML = html;
 
     var luxuryDaily = Math.round(dailyMax * 1.6);
-    var tierDefs = {
-      'やす旅': 'LCC＋安宿',
-      'ゆる旅': 'ANA、JAL＋リゾートのスタンダードルーム',
-      'ラグ旅': 'リゾートのオーシャンビュー'
-    };
+    var tierDefs = [
+      { name: 'やす旅', airline: 'LCC', hotel: '安宿（ゲストハウス等）' },
+      { name: 'ゆる旅', airline: 'ANA・JAL', hotel: 'リゾートのスタンダードルーム' },
+      { name: 'ラグ旅', airline: 'ANA・JAL', hotel: 'リゾートのオーシャンビュー' }
+    ];
     var budgetTiers = [
       ['やす旅',
         budgetTotalMin.toLocaleString() + '〜' + budgetTotalMax.toLocaleString() + '円',
@@ -136,9 +136,11 @@ layout: default
     tiersHtml += '<button type="button" class="tiers-info-btn" aria-label="プランの説明">ⓘ プランの違い</button>';
     tiersHtml += '</div>';
     tiersHtml += '<div class="tiers-popup" hidden>';
-    Object.keys(tierDefs).forEach(function (k) {
-      tiersHtml += '<div class="tiers-popup-row"><strong>' + k + '</strong>：' + tierDefs[k] + '</div>';
+    tiersHtml += '<table class="tiers-popup-table"><thead><tr><th>プラン</th><th>航空会社</th><th>宿泊タイプ</th></tr></thead><tbody>';
+    tierDefs.forEach(function (t) {
+      tiersHtml += '<tr><td>' + t.name + '</td><td>' + t.airline + '</td><td>' + t.hotel + '</td></tr>';
     });
+    tiersHtml += '</tbody></table>';
     tiersHtml += '</div>';
     tiersHtml += '<table class="budget-tiers-table"><thead><tr><th>プラン</th><th>目安予算</th><th>内訳</th></tr></thead><tbody>';
     budgetTiers.forEach(function (t) {

@@ -63,8 +63,8 @@ layout: default
     var month = new Date().getMonth() + 1;
     var inSeason = !match.best_months || match.best_months.indexOf(month) !== -1;
     var seasonHtml = inSeason
-      ? '<span class="season-pill season-on">🟢 今がベストシーズン</span>'
-      : '<span class="season-pill season-off">🌙 今はオフシーズン</span>';
+      ? '<span class="season-pill season-on">☀️ 今がベストシーズン</span>'
+      : '<span class="season-pill season-off">☔️ 今はオフシーズン</span>';
 
     // 現地までの移動が長い島ほど滞在も長くなるため、固定の2泊ではなく
     // recommended_nights（例: "4泊以上" "3〜5泊"）の最短泊数を使って計算する

@@ -2,6 +2,7 @@
 layout: post
 title: "プーケット島ビーチ完全ガイド｜行き方・ベストシーズン・予算・持ち物まとめ"
 date: 2026-09-28
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Patong_Beach_Phuket_November_2012.jpg/960px-Patong_Beach_Phuket_November_2012.jpg"
 categories: [タイ, 島]
 excerpt: "アンダマン海に浮かぶタイ最大の島プーケット。ビーチリゾートと離島ツアーの拠点として人気の基本情報をまとめました。"
 ---

@@ -2,6 +2,7 @@
 layout: post
 title: "パリ島ビーチ完全ガイド｜行き方・ベストシーズン・予算・持ち物まとめ"
 date: 2026-09-30
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Pantai_Perawan_Pulau_Pari_Kepulauan_Seribu.jpg/960px-Pantai_Perawan_Pulau_Pari_Kepulauan_Seribu.jpg"
 categories: [インドネシア, 島]
 excerpt: "ジャカルタから日帰りも可能な離島リゾート、パリ島。プロウスリブ諸島に浮かぶ穴場ビーチの基本情報をまとめました。"
 ---

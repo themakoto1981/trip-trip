@@ -59,6 +59,12 @@ excerpt: "「アジアNo.1リゾート」とも称されるベトナム最大の
 - 車で空港へ移動（出発2.5〜3時間前を目安に）
 - ホーチミン乗継で帰国便へ
 
+## おすすめホテル
+
+- **やす旅**：[Sol by Meliá Phu Quoc](https://www.booking.com/searchresults.html?ss=Sol+by+Melia+Phu+Quoc) — 1泊9,000円前後からの5つ星、手頃さも人気の理由
+- **ゆる旅**：[Seashells Phu Quoc Hotel & Spa](https://www.booking.com/searchresults.html?ss=Seashells+Phu+Quoc+Hotel+%26+Spa) — ズオンドン中心部の便利な立地
+- **ラグ旅**：[InterContinental Phu Quoc Long Beach Resort](https://www.booking.com/searchresults.html?ss=InterContinental+Phu+Quoc+Long+Beach+Resort) — ロングビーチ沿いの高評価な高級リゾート
+
 ## おすすめビーチ・スポット
 
 - **サオビーチ**：「星の砂」で知られる南部の人気ビーチ

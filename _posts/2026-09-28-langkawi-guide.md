@@ -2,6 +2,7 @@
 layout: post
 title: "ランカウイ島ビーチ完全ガイド｜行き方・ベストシーズン・予算・持ち物まとめ"
 date: 2026-09-28
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Pantai_Cenang%2C_Langkawi_01.jpg/960px-Pantai_Cenang%2C_Langkawi_01.jpg"
 categories: [マレーシア, 島]
 excerpt: "マレーシア屈指のリゾートアイランド、ランカウイ島。免税島ならではのお得さと大自然が楽しめる基本情報をまとめました。"
 ---

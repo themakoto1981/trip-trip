@@ -59,6 +59,12 @@ excerpt: "マレーシア屈指のリゾートアイランド、ランカウイ�
 - 車で空港へ移動（出発3時間前を目安に）
 - クアラルンプール乗継で帰国便へ
 
+## おすすめホテル
+
+- **やす旅**：[Casa del Mar Langkawi](https://www.booking.com/searchresults.html?ss=Casa+del+Mar+Langkawi) — 飲食店も多い便利な立地で、総合的にコスパが高いと評判
+- **ゆる旅**：[Holiday Villa Beach Resort & Spa Langkawi](https://www.booking.com/searchresults.html?ss=Holiday+Villa+Beach+Resort+%26+Spa+Langkawi) — ビーチフロント、プールから海を一望できる4つ星
+- **ラグ旅**：[Pelangi Beach Resort & Spa Langkawi](https://www.booking.com/searchresults.html?ss=Pelangi+Beach+Resort+%26+Spa+Langkawi) — パンタイ・チェナンの白い砂浜沿いに立つカジュアル5つ星
+
 ## おすすめビーチ・スポット
 
 - **パンタイ・チェナン**：レストランやバーが並ぶ島いちばんの繁華ビーチ。夕日鑑賞の名所

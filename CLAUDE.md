@@ -43,6 +43,14 @@
 - ラグ旅：ANA・JAL＋オーシャンビュー
 - 各destinations.ymlの `flight_min/flight_max`・`hotel_min/hotel_max` 等から `_layouts/post.html` 内のJSで自動計算される。記事本文にはプラン内訳を書きすぎず、詳細はポップアップに任せる。
 
+### 購買導線（情報提供→判断→比較→予約）
+- 記事は「情報を渡す」だけで終わらせない。読者を **情報提供 → 判断 → 比較 → 予約** の順に導くことを常に意識する。
+  - 情報提供：行き方・ベストシーズン・予算などの記事本文（既存の構成）
+  - 判断：早見表（国・ビザ・必要日数・誰と行く？）と予算3段階で「自分に合うか」を判断させる
+  - 比較：予算プランの下に「条件を変えて他の島と比較する」リンクを設置し、resultsページへ誘導する
+  - 予約：予算プランの直後に「✈️ 航空券を探す」「🏨 ホテルを探す」「🎫 現地ツアーを探す」の3つのCTAボタンを必ず設置する（`_layouts/post.html` の `booking-cta` ブロックとして自動生成される。新しい島を追加する際は `destinations.yml` に `en_name`（検索リンク用の英語表記、例: "Phuket, Thailand"）を必ず設定すること）
+- 現在CTAのリンク先はアフィリエイトIDなしの通常検索リンク（Google Flights／Booking.com／Klook）。アフィリエイト契約が決まったら、この3つのURLにアフィリエイトIDを追加するだけで済む構造にしてある。リンク先サービス自体を変える場合はCLAUDE.mdのこの節も更新すること。
+
 ### 写真
 - 実写・ライセンス確認済みの写真のみ使用（Wikimedia Commons `commons.wikimedia.org/w/api.php` で検索し、直リンクの `upload.wikimedia.org` URLとライセンス・出典ページURLを確認する）。AI生成画像は使わない。
 
@@ -59,7 +67,7 @@
 
 ## 公開前チェックリスト
 
-- [ ] `destinations.yml` に必要フィールドが揃っているか（`visa`・`photo`・`photo_credit_url` 含む）
+- [ ] `destinations.yml` に必要フィールドが揃っているか（`visa`・`photo`・`photo_credit_url`・`en_name` 含む）
 - [ ] 予算見出しの泊数と旅程の泊数が一致しているか
 - [ ] `recommended_nights` が「日程の現実性」ルールに沿っているか
 - [ ] `spots.yml` にこの記事のエントリがあるか（地図が表示されない原因の大半はここの欠落）

@@ -17,8 +17,8 @@
   country_slug: philippines
   lat: 11.9674
   lng: 121.9248
-  flight_min: 40000
-  flight_max: 80000
+  flight_min: 35000
+  flight_max: 90000
   hotel_min: 5000
   hotel_max: 15000
   transport_min: 1000
@@ -40,8 +40,8 @@
   country_slug: indonesia
   lat: -8.3405
   lng: 115.0920
-  flight_min: 60000
-  flight_max: 120000
+  flight_min: 57000
+  flight_max: 165000
   hotel_min: 4000
   hotel_max: 20000
   transport_min: 4000
@@ -63,8 +63,8 @@
   country_slug: thailand
   lat: 7.8804
   lng: 98.3923
-  flight_min: 50000
-  flight_max: 100000
+  flight_min: 45000
+  flight_max: 180000
   hotel_min: 4000
   hotel_max: 18000
   transport_min: 1500
@@ -86,8 +86,8 @@
   country_slug: malaysia
   lat: 6.3500
   lng: 99.8000
-  flight_min: 60000
-  flight_max: 130000
+  flight_min: 50000
+  flight_max: 150000
   hotel_min: 3000
   hotel_max: 20000
   transport_min: 1500

@@ -72,8 +72,8 @@ layout: default
     filtered.forEach(function (d) {
       var li = document.createElement('li');
       var seasonBadge = d.inSeason
-        ? '<span class="mini-season on">🟢 今がベストシーズン</span>'
-        : '<span class="mini-season off">🌙 オフシーズン</span>';
+        ? '<span class="mini-season on">☀️ 今がベストシーズン</span>'
+        : '<span class="mini-season off">☔️ オフシーズン</span>';
       var companionBadge = companion
         ? (d.matchesCompanion
             ? '<span class="mini-season on">👍 ' + (companionLabelMap[companion] || companion) + '向き</span>'

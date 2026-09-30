@@ -19,6 +19,7 @@
 
 ```yaml
 - name: プーケット島
+  en_name: "Phuket, Thailand"
   slug: phuket-guide
   country: タイ
   country_slug: thailand

@@ -60,6 +60,12 @@ excerpt: "「神々の島」バリ島。ビーチリゾートから文化体験�
 
 乗継便を使う場合や、ウブド地区への小旅行も組み込みたい場合は4泊5日にするとゆとりが持てます。
 
+## おすすめホテル
+
+- **やす旅**：[Fave Hotel Kuta Kartika Plaza](https://www.booking.com/searchresults.html?ss=Fave+Hotel+Kuta+Kartika+Plaza) — クタ中心部のカルティカプラザ通り沿い、コスパ重視派に人気
+- **ゆる旅**：[Ramayana Suites & Resort](https://www.booking.com/searchresults.html?ss=Ramayana+Suites+%26+Resort+Bali) — クタビーチ・ショッピングエリアまで徒歩圏内
+- **ラグ旅**：[Sheraton Bali Kuta Resort](https://www.booking.com/searchresults.html?ss=Sheraton+Bali+Kuta+Resort) — ビーチのすぐそばに立つ5つ星、夕日の絶景が人気
+
 ## おすすめビーチ・スポット
 
 - **クタビーチ**：サーフィンで有名な定番ビーチ、サンセットスポットとしても人気

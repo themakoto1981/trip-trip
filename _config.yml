@@ -19,6 +19,10 @@ collections:
 defaults:
   - scope:
       path: ""
+    values:
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Boracay_White_Beach.png/960px-Boracay_White_Beach.png"
+  - scope:
+      path: ""
       type: "countries"
     values:
       layout: "country"

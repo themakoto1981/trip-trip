@@ -65,6 +65,19 @@ layout: default
     return a.totalMin - b.totalMin;
   });
 
+  var allTooShort = filtered.length > 0 && filtered.every(function (d) { return d.tooShort; });
+  if (allTooShort) {
+    var minNightsValues = withTotals.map(function (d) {
+      var m = (d.recommended_nights || '').match(/(\d+)/);
+      return m ? parseInt(m[1], 10) : null;
+    }).filter(function (n) { return n !== null; });
+    var easiestMin = minNightsValues.length ? Math.min.apply(null, minNightsValues) : null;
+    var warnEl = document.createElement('p');
+    warnEl.style.cssText = 'background:#FCEAE6;color:#B54A32;padding:0.75rem 1rem;border-radius:8px;margin-bottom:1.25rem;font-weight:600;';
+    warnEl.textContent = '⚠️ この日数（' + (nightsLabelMap[nights] || nights + '泊') + '）では、移動時間を考えると現実的に行ける島がありません。' + (easiestMin ? '最低' + easiestMin + '泊以上での検索をおすすめします。' : '') + '（以下は参考情報として表示しています）';
+    document.getElementById('search-summary').insertAdjacentElement('afterend', warnEl);
+  }
+
   var list = document.getElementById('result-list');
   if (filtered.length === 0) {
     list.innerHTML = '<li class="no-result">条件に合う島がまだ見つかりませんでした。記事は随時追加中です。</li>';

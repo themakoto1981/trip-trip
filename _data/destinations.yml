@@ -212,14 +212,14 @@
   lng: 106.6172
   flight_min: 57000
   flight_max: 165000
-  hotel_min: 2000
-  hotel_max: 8000
-  transport_min: 2000
-  transport_max: 4000
+  hotel_min: 4000
+  hotel_max: 15000
+  transport_min: 1500
+  transport_max: 3000
   food_min: 2000
   food_max: 4500
-  flight_hours: "約7〜8時間（ジャカルタ直行便）、アンチョール港からフェリーで約1〜1.5時間"
-  recommended_nights: "3泊以上"
+  flight_hours: "約7〜8時間（ジャカルタ直行便）、パリ島へは日帰りでアンチョール港からフェリー約1〜1.5時間"
+  recommended_nights: "2泊以上"
   visa: "不要（観光目的30日以内）"
   photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Pantai_Perawan_Pulau_Pari_Kepulauan_Seribu.jpg/960px-Pantai_Perawan_Pulau_Pari_Kepulauan_Seribu.jpg"
   photo_credit_url: "https://commons.wikimedia.org/wiki/File:Pantai_Perawan_Pulau_Pari_Kepulauan_Seribu.jpg"

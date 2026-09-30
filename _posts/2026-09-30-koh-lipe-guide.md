@@ -2,6 +2,7 @@
 layout: post
 title: "リペ島ビーチ完全ガイド｜行き方・ベストシーズン・予算・持ち物まとめ"
 date: 2026-09-30
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Koh_Lipe_Thailand._Koh_Lipe_Beach_Resort%2C_Koh_Lipe_Island_01.jpg/960px-Koh_Lipe_Thailand._Koh_Lipe_Beach_Resort%2C_Koh_Lipe_Island_01.jpg"
 categories: [タイ, 島]
 excerpt: "「タイ最後の楽園」と呼ばれる透明度抜群の秘境リゾート、リペ島の基本情報をまとめました。"
 ---

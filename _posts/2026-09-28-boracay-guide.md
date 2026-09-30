@@ -38,12 +38,6 @@ excerpt: "真っ白なパウダーサンドで知られるフィリピン屈指�
 
 日本からの移動に9〜12時間（マニラでの乗継、空港からのバン＋船を含む）かかるため、2泊3日では移動だけで終わりがちです。また、マニラ到着後にカリボへ渡る午後便を使うと、そのままボラカイ島まで移動する場合は夜の到着になります。**初日はカリボで1泊し、翌朝の明るい時間帯にボラカイ島へ渡る4泊以上**が無理のない目安。4泊で計算すると合計**8〜25万円程度**が目安です（ANAの往復運賃は実際には11〜14万円程度、LCC利用ならもっと抑えられます。マニラ⇔カリボの国内線は往復1万円前後）。
 
-## おすすめホテル
-
-- **やす旅**：[Boracay Backpackers](https://www.booking.com/searchresults.html?ss=Boracay+Backpackers) — ステーション2近くのホステル、ホワイトビーチまで徒歩10分ほど
-- **ゆる旅**：[Le Soleil de Boracay Hotel](https://www.booking.com/searchresults.html?ss=Le+Soleil+de+Boracay) — ステーション2のビーチフロントに立つ4つ星ホテル、コストパフォーマンスの高さで評判
-- **ラグ旅**：[Shangri-La Boracay Resort](https://www.booking.com/searchresults.html?ss=Shangri-La+Boracay+Resort) — プライベートビーチを持つ島内屈指のラグジュアリーリゾート、オーシャンビューのヴィラが人気
-
 ## おすすめ旅程（4泊5日の例）
 
 **1日目**（※2026年10月時点の一例。ANAの実際の予約画面で確認した時刻ですが、季節・予約状況により変動するため、予約時に必ず最新のスケジュールを確認してください）
@@ -70,6 +64,12 @@ excerpt: "真っ白なパウダーサンドで知られるフィリピン屈指�
 **5日目**
 - 朝はゆっくりホテルを出発（空港まで近いため早起き不要）
 - 14:40　マニラ発（ANA）→ 20:00　羽田着（直行便、所要4時間20分。空港には出発2〜3時間前を目安に）
+
+## おすすめホテル
+
+- **やす旅**：[Boracay Backpackers](https://www.booking.com/searchresults.html?ss=Boracay+Backpackers) — ステーション2近くのホステル、ホワイトビーチまで徒歩10分ほど
+- **ゆる旅**：[Le Soleil de Boracay Hotel](https://www.booking.com/searchresults.html?ss=Le+Soleil+de+Boracay) — ステーション2のビーチフロントに立つ4つ星ホテル、コストパフォーマンスの高さで評判
+- **ラグ旅**：[Shangri-La Boracay Resort](https://www.booking.com/searchresults.html?ss=Shangri-La+Boracay+Resort) — プライベートビーチを持つ島内屈指のラグジュアリーリゾート、オーシャンビューのヴィラが人気
 
 ## おすすめビーチ・スポット
 

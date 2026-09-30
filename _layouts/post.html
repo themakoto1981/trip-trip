@@ -319,24 +319,6 @@ layout: default
           cb.closest('li').classList.toggle('checked', cb.checked);
         });
       });
-
-      var btn = document.createElement('button');
-      btn.type = 'button';
-      btn.className = 'copy-checklist-btn';
-      btn.textContent = '📋 リストをコピー（Googleドキュメント用）';
-      btn.addEventListener('click', function () {
-        var lines = [];
-        ul.querySelectorAll('li').forEach(function (li) {
-          lines.push('☐ ' + li.textContent.trim());
-        });
-        navigator.clipboard.writeText(lines.join('\n')).then(function () {
-          btn.textContent = '✅ コピーしました！Googleドキュメントに貼り付けできます';
-          setTimeout(function () {
-            btn.textContent = '📋 リストをコピー（Googleドキュメント用）';
-          }, 2500);
-        });
-      });
-      ul.parentNode.insertBefore(btn, ul.nextSibling);
     });
   })();
   </script>

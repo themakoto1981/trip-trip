@@ -59,6 +59,12 @@ excerpt: "「タイ最後の楽園」と呼ばれる透明度抜群の秘境リ�
 - ボート＋車での空港移動は、帰りの便に余裕を持って間に合うよう早めに出発
 - ハジャイ空港からバンコク乗継で帰国便へ
 
+## おすすめホテル
+
+- **やす旅**：[Forra Dive Resort Pattaya Beach](https://www.booking.com/searchresults.html?ss=Forra+Dive+Resort+Koh+Lipe) — パッタヤビーチの格安バンガロー、1泊2,000円前後から
+- **ゆる旅**：[Sita Beach Resort & Spa](https://www.booking.com/searchresults.html?ss=Sita+Beach+Resort+%26+Spa+Koh+Lipe) — パッタヤビーチ沿いの4つ星、シービューの部屋も選べる
+- **ラグ旅**：[Idyllic Resort Koh Lipe](https://www.booking.com/searchresults.html?ss=Idyllic+Resort+Koh+Lipe) — 口コミ評価トップクラスの高級リゾート
+
 ## おすすめビーチ・スポット
 
 - **パッタヤビーチ**：島いちばんの繁華ビーチ。レストランやバーが並ぶ

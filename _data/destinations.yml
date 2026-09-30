@@ -12,6 +12,7 @@
 # lat/lng: 地図ピン用の緯度経度
 
 - name: ボラカイ島
+  en_name: "Boracay, Philippines"
   slug: boracay-guide
   country: フィリピン
   country_slug: philippines
@@ -35,6 +36,7 @@
   url: /2026/09/28/boracay-guide/
 
 - name: バリ島
+  en_name: "Bali, Indonesia"
   slug: bali-guide
   country: インドネシア
   country_slug: indonesia
@@ -58,6 +60,7 @@
   url: /2026/09/28/bali-guide/
 
 - name: プーケット島
+  en_name: "Phuket, Thailand"
   slug: phuket-guide
   country: タイ
   country_slug: thailand
@@ -81,6 +84,7 @@
   url: /2026/09/28/phuket-guide/
 
 - name: ランカウイ島
+  en_name: "Langkawi, Malaysia"
   slug: langkawi-guide
   country: マレーシア
   country_slug: malaysia
@@ -104,6 +108,7 @@
   url: /2026/09/28/langkawi-guide/
 
 - name: リペ島
+  en_name: "Koh Lipe, Thailand"
   slug: koh-lipe-guide
   country: タイ
   country_slug: thailand
@@ -127,6 +132,7 @@
   url: /2026/09/30/koh-lipe-guide/
 
 - name: レダン島
+  en_name: "Redang Island, Malaysia"
   slug: redang-guide
   country: マレーシア
   country_slug: malaysia
@@ -150,6 +156,7 @@
   url: /2026/09/30/redang-guide/
 
 - name: ピピ島
+  en_name: "Koh Phi Phi, Thailand"
   slug: koh-phiphi-guide
   country: タイ
   country_slug: thailand
@@ -173,6 +180,7 @@
   url: /2026/09/30/koh-phiphi-guide/
 
 - name: チャン島
+  en_name: "Koh Chang, Thailand"
   slug: koh-chang-guide
   country: タイ
   country_slug: thailand
@@ -196,6 +204,7 @@
   url: /2026/09/30/koh-chang-guide/
 
 - name: パリ島
+  en_name: "Pulau Pari, Indonesia"
   slug: pulau-pari-guide
   country: インドネシア
   country_slug: indonesia
@@ -219,6 +228,7 @@
   url: /2026/09/30/pulau-pari-guide/
 
 - name: フーコック島
+  en_name: "Phu Quoc, Vietnam"
   slug: phuquoc-guide
   country: ベトナム
   country_slug: vietnam

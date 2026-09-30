@@ -2,6 +2,7 @@
 layout: post
 title: "チャン島ビーチ完全ガイド｜行き方・ベストシーズン・予算・持ち物まとめ"
 date: 2026-09-30
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Klong_Prao_Beach%2C_west_coast_of_Ko_Chang_Island%2C_Thailand.jpg/960px-Klong_Prao_Beach%2C_west_coast_of_Ko_Chang_Island%2C_Thailand.jpg"
 categories: [タイ, 島]
 excerpt: "プーケットに次ぐタイ第2の広さを誇るチャン島。ジャングルとビーチが共存する穴場リゾートの基本情報をまとめました。"
 ---

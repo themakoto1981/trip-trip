@@ -2,6 +2,7 @@
 layout: post
 title: "ボラカイ島ビーチ完全ガイド｜行き方・ベストシーズン・予算・持ち物まとめ"
 date: 2026-09-28
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Boracay_White_Beach.png/960px-Boracay_White_Beach.png"
 categories: [フィリピン, 島]
 excerpt: "真っ白なパウダーサンドで知られるフィリピン屈指のリゾートアイランド、ボラカイ島の基本情報をまとめました。"
 ---

@@ -2,6 +2,7 @@
 layout: post
 title: "フーコック島ビーチ完全ガイド｜行き方・ベストシーズン・予算・持ち物まとめ"
 date: 2026-09-30
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Phu_Quoc_beach_01.jpg/960px-Phu_Quoc_beach_01.jpg"
 categories: [ベトナム, 島]
 excerpt: "「アジアNo.1リゾート」とも称されるベトナム最大の島、フーコック島。免税エリアとしても知られる南部リゾートの基本情報をまとめました。"
 ---

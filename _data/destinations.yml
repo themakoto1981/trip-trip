@@ -18,8 +18,8 @@
   country_slug: philippines
   lat: 11.9674
   lng: 121.9248
-  flight_min: 35000
-  flight_max: 90000
+  flight_min: 45000
+  flight_max: 155000
   hotel_min: 5000
   hotel_max: 15000
   transport_min: 1000

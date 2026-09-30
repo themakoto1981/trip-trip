@@ -2,6 +2,7 @@
 layout: post
 title: "ピピ島ビーチ完全ガイド｜行き方・ベストシーズン・予算・持ち物まとめ"
 date: 2026-09-30
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Isla_Ko_Phi_Phi_Don%2C_Tailandia%2C_2013-08-19%2C_DD_01.JPG/960px-Isla_Ko_Phi_Phi_Don%2C_Tailandia%2C_2013-08-19%2C_DD_01.JPG"
 categories: [タイ, 島]
 excerpt: "映画の舞台にもなった絶景ビーチ、マヤベイで知られるピピ島。プーケットとクラビの間に浮かぶ人気リゾートの基本情報をまとめました。"
 ---

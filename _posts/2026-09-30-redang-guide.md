@@ -2,6 +2,7 @@
 layout: post
 title: "レダン島ビーチ完全ガイド｜行き方・ベストシーズン・予算・持ち物まとめ"
 date: 2026-09-30
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Pulau_Redang_-_White_sandy_beach.jpg/960px-Pulau_Redang_-_White_sandy_beach.jpg"
 categories: [マレーシア, 島]
 excerpt: "「マレーシアで一番美しい海」とも称される透明度抜群のレダン島。乾季限定でアクセスできる秘境リゾートの基本情報をまとめました。"
 ---

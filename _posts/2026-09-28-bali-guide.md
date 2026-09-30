@@ -2,6 +2,7 @@
 layout: post
 title: "バリ島ビーチ完全ガイド｜行き方・ベストシーズン・予算・持ち物まとめ"
 date: 2026-09-28
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Kuta_Beach%2C_Bali%2C_20220825_1706_0864.jpg/960px-Kuta_Beach%2C_Bali%2C_20220825_1706_0864.jpg"
 categories: [インドネシア, 島]
 excerpt: "「神々の島」バリ島。ビーチリゾートから文化体験まで楽しめる人気デスティネーションの基本情報をまとめました。"
 ---

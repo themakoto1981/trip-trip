@@ -96,6 +96,9 @@
   food_max: 6000
   flight_hours: "約10〜12時間（クアラルンプール経由）"
   recommended_nights: "3〜5泊"
+  visa: "不要（90日以内の観光滞在。事前にMDAC［デジタル入国カード］の登録が必要）"
+  photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Pantai_Cenang%2C_Langkawi_01.jpg/960px-Pantai_Cenang%2C_Langkawi_01.jpg"
+  photo_credit_url: "https://commons.wikimedia.org/wiki/File:Pantai_Cenang,_Langkawi_01.jpg"
   suited_for: [couple, family, friends]
   best_months: [12, 1, 2, 3]
   url: /2026/09/28/langkawi-guide/

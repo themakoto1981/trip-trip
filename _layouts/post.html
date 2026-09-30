@@ -4,16 +4,6 @@ layout: default
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
-  {%- assign other_destinations = site.data.destinations | where_exp: "d", "d.url != page.url" -%}
-  {%- if other_destinations.size > 0 -%}
-  <nav class="other-islands">
-    <span class="other-islands-label">🏝 他の島も見る：</span>
-    {%- for d in other_destinations -%}
-      <a href="{{ d.url | relative_url }}">{{ d.name }}</a>{% unless forloop.last %}<span class="sep">・</span>{% endunless %}
-    {%- endfor -%}
-  </nav>
-  {%- endif -%}
-
   {%- assign title_parts = page.title | split: "｜" -%}
   <header class="post-header">
     <h1 class="post-title p-name" id="post-title-main" itemprop="name headline">{{ page.title | escape }}</h1>

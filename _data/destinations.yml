@@ -103,6 +103,144 @@
   best_months: [12, 1, 2, 3]
   url: /2026/09/28/langkawi-guide/
 
+- name: リペ島
+  slug: koh-lipe-guide
+  country: タイ
+  country_slug: thailand
+  lat: 6.4939
+  lng: 99.3020
+  flight_min: 50000
+  flight_max: 190000
+  hotel_min: 3000
+  hotel_max: 15000
+  transport_min: 1500
+  transport_max: 3000
+  food_min: 2500
+  food_max: 5500
+  flight_hours: "約11〜13時間（バンコク経由、ハジャイ空港からは車＋スピードボートで対岸へ約3時間）"
+  recommended_nights: "3泊以上"
+  visa: "不要（観光目的30日以内）"
+  photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Koh_Lipe_Thailand._Koh_Lipe_Beach_Resort%2C_Koh_Lipe_Island_01.jpg/960px-Koh_Lipe_Thailand._Koh_Lipe_Beach_Resort%2C_Koh_Lipe_Island_01.jpg"
+  photo_credit_url: "https://commons.wikimedia.org/wiki/File:Koh_Lipe_Thailand._Koh_Lipe_Beach_Resort,_Koh_Lipe_Island_01.jpg"
+  suited_for: [couple, friends, solo]
+  best_months: [12, 1, 2]
+  url: /2026/09/30/koh-lipe-guide/
+
+- name: レダン島
+  slug: redang-guide
+  country: マレーシア
+  country_slug: malaysia
+  lat: 5.7700
+  lng: 103.0170
+  flight_min: 50000
+  flight_max: 150000
+  hotel_min: 4000
+  hotel_max: 22000
+  transport_min: 1500
+  transport_max: 3000
+  food_min: 3000
+  food_max: 6000
+  flight_hours: "約9〜11時間（クアラルンプール経由、クアラトレンガヌからフェリーで約1時間）"
+  recommended_nights: "3泊以上"
+  visa: "不要（90日以内の観光滞在。事前にMDAC［デジタル入国カード］の登録が必要）"
+  photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Pulau_Redang_-_White_sandy_beach.jpg/960px-Pulau_Redang_-_White_sandy_beach.jpg"
+  photo_credit_url: "https://commons.wikimedia.org/wiki/File:Pulau_Redang_-_White_sandy_beach.jpg"
+  suited_for: [couple, family, friends]
+  best_months: [6, 7, 8]
+  url: /2026/09/30/redang-guide/
+
+- name: ピピ島
+  slug: koh-phiphi-guide
+  country: タイ
+  country_slug: thailand
+  lat: 7.7407
+  lng: 98.7784
+  flight_min: 45000
+  flight_max: 180000
+  hotel_min: 4000
+  hotel_max: 20000
+  transport_min: 1500
+  transport_max: 3000
+  food_min: 3000
+  food_max: 6000
+  flight_hours: "約9〜11時間（プーケットまたはクラビ経由、フェリーで1〜2時間）"
+  recommended_nights: "3泊以上"
+  visa: "不要（観光目的30日以内）"
+  photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Isla_Ko_Phi_Phi_Don%2C_Tailandia%2C_2013-08-19%2C_DD_01.JPG/960px-Isla_Ko_Phi_Phi_Don%2C_Tailandia%2C_2013-08-19%2C_DD_01.JPG"
+  photo_credit_url: "https://commons.wikimedia.org/wiki/File:Isla_Ko_Phi_Phi_Don,_Tailandia,_2013-08-19,_DD_01.JPG"
+  suited_for: [couple, friends, solo]
+  best_months: [12, 1, 2]
+  url: /2026/09/30/koh-phiphi-guide/
+
+- name: チャン島
+  slug: koh-chang-guide
+  country: タイ
+  country_slug: thailand
+  lat: 12.0708
+  lng: 102.3183
+  flight_min: 40000
+  flight_max: 150000
+  hotel_min: 3000
+  hotel_max: 15000
+  transport_min: 1000
+  transport_max: 2500
+  food_min: 2500
+  food_max: 5500
+  flight_hours: "約10〜12時間（バンコク経由、トラート空港からフェリーで約40分）"
+  recommended_nights: "3泊以上"
+  visa: "不要（観光目的30日以内）"
+  photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Klong_Prao_Beach%2C_west_coast_of_Ko_Chang_Island%2C_Thailand.jpg/960px-Klong_Prao_Beach%2C_west_coast_of_Ko_Chang_Island%2C_Thailand.jpg"
+  photo_credit_url: "https://commons.wikimedia.org/wiki/File:Klong_Prao_Beach,_west_coast_of_Ko_Chang_Island,_Thailand.jpg"
+  suited_for: [couple, family, friends]
+  best_months: [12, 1, 2, 3, 4]
+  url: /2026/09/30/koh-chang-guide/
+
+- name: パリ島
+  slug: pulau-pari-guide
+  country: インドネシア
+  country_slug: indonesia
+  lat: -5.8617
+  lng: 106.6172
+  flight_min: 57000
+  flight_max: 165000
+  hotel_min: 2000
+  hotel_max: 8000
+  transport_min: 2000
+  transport_max: 4000
+  food_min: 2000
+  food_max: 4500
+  flight_hours: "約7〜8時間（ジャカルタ直行便）、アンチョール港からフェリーで約1〜1.5時間"
+  recommended_nights: "3泊以上"
+  visa: "不要（観光目的30日以内）"
+  photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Pantai_Perawan_Pulau_Pari_Kepulauan_Seribu.jpg/960px-Pantai_Perawan_Pulau_Pari_Kepulauan_Seribu.jpg"
+  photo_credit_url: "https://commons.wikimedia.org/wiki/File:Pantai_Perawan_Pulau_Pari_Kepulauan_Seribu.jpg"
+  suited_for: [couple, friends, solo]
+  best_months: [6, 7, 8, 9]
+  url: /2026/09/30/pulau-pari-guide/
+
+- name: フーコック島
+  slug: phuquoc-guide
+  country: ベトナム
+  country_slug: vietnam
+  lat: 10.2270
+  lng: 103.9670
+  flight_min: 40000
+  flight_max: 150000
+  hotel_min: 2500
+  hotel_max: 15000
+  transport_min: 1000
+  transport_max: 2500
+  food_min: 2000
+  food_max: 5000
+  flight_hours: "約9〜10時間（ホーチミン経由、国内線で約1時間）"
+  recommended_nights: "3泊以上"
+  visa: "不要（45日以内の観光滞在。2028年3月14日まで実施中の措置）"
+  photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Phu_Quoc_beach_01.jpg/960px-Phu_Quoc_beach_01.jpg"
+  photo_credit_url: "https://commons.wikimedia.org/wiki/File:Phu_Quoc_beach_01.jpg"
+  suited_for: [couple, family, friends]
+  best_months: [12, 1, 2, 3]
+  url: /2026/09/30/phuquoc-guide/
+
 # --- 以下、東南アジア以外のため一時的に非公開（記事もpublished: falseに設定済み）---
 # 地域を広げる際にコメントを外して復元してください（hotel/transport/foodへの分割が必要です）。
 #

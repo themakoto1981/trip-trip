@@ -86,6 +86,12 @@ excerpt: "プーケットに次ぐタイ第2の広さを誇るチャン島。ジ
 - フェリー＋バンでバンコク方面へ戻り、出発便に余裕を持って間に合うよう早めに出発
 - バンコクから帰国便へ
 
+## おすすめホテル
+
+- **やす旅**：[Elephant Bay Resort](https://www.booking.com/searchresults.html?ss=Elephant+Bay+Resort+Koh+Chang) — 手頃な価格のリゾート、1泊2,000円台から
+- **ゆる旅**：[White Sand Beach Resort](https://www.booking.com/searchresults.html?ss=White+Sand+Beach+Resort+Koh+Chang) — ホワイトサンドビーチ沿いの定番リゾート
+- **ラグ旅**：[KC Grande Resort & Spa](https://www.booking.com/searchresults.html?ss=KC+Grande+Resort+%26+Spa+Koh+Chang) — ホワイトサンドビーチで評判No.1の高級リゾート
+
 ## おすすめビーチ・スポット
 
 - **ホワイトサンドビーチ**：島いちばんの繁華ビーチ、レストランやバーが集まる

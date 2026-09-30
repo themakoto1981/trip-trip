@@ -59,6 +59,12 @@ excerpt: "アンダマン海に浮かぶタイ最大の島プーケット。ビ�
 - 車で空港へ移動（出発3時間前を目安に）
 - バンコク乗継で帰国便へ
 
+## おすすめホテル
+
+- **やす旅**：[C&N Hotel Patong](https://www.booking.com/searchresults.html?ss=C%26N+Hotel+Patong) — 街歩きに便利な好立地、1部屋約6,000円台から
+- **ゆる旅**：[The Crib Patong](https://www.booking.com/searchresults.html?ss=The+Crib+Patong) — おしゃれなブティックホテル、価格以上の満足感と評判
+- **ラグ旅**：[Diamond Cliff Resort and Spa](https://www.booking.com/searchresults.html?ss=Diamond+Cliff+Resort+and+Spa+Phuket) — パトンビーチまで徒歩10分、プーケット初心者にも安心の好立地
+
 ## おすすめビーチ・スポット
 
 - **パトンビーチ**：ナイトライフも充実するプーケット随一の繁華ビーチ

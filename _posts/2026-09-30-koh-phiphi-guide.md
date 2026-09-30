@@ -58,6 +58,12 @@ excerpt: "映画の舞台にもなった絶景ビーチ、マヤベイで知ら�
 - フェリーでの空港移動は、帰りの便に余裕を持って間に合うよう早めに出発
 - プーケット乗継で帰国便へ
 
+## おすすめホテル
+
+- **やす旅**：[Harmony House Koh Phi Phi](https://www.booking.com/searchresults.html?ss=Harmony+House+Koh+Phi+Phi) — トンサイエリアの格安宿、1泊2,500円ほどから
+- **ゆる旅**：[Cabana Hotel Phi Phi](https://www.booking.com/searchresults.html?ss=Cabana+Hotel+Phi+Phi) — 島内最大級の3つ星、トンサイ湾を見下ろすレストランが人気
+- **ラグ旅**：[Saii Phi Phi Island Village](https://www.booking.com/searchresults.html?ss=Saii+Phi+Phi+Island+Village) — プライベートビーチを持つ高級リゾート
+
 ## おすすめビーチ・スポット
 
 - **マヤベイ**：映画の舞台にもなった絶景の入り江（ピピレ島）

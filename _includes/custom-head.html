@@ -328,6 +328,57 @@
     .quick-facts-table td { font-size: 0.85rem; padding: 0.6rem 0.7rem; }
   }
 
+  /* Itinerary timeline (試作) */
+  .itinerary-timeline { margin: 1rem 0 1.75rem; }
+  .itinerary-day { margin-bottom: 1.6rem; }
+  .itinerary-day:last-child { margin-bottom: 0; }
+  .itinerary-day-title {
+    font-family: "Noto Serif JP", serif;
+    color: var(--sb-green-dark);
+    font-weight: 700;
+    font-size: 1.05rem;
+    margin-bottom: 0.8rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 1px solid var(--sb-border);
+  }
+  .itinerary-list { list-style: none; padding: 0; margin: 0; position: relative; }
+  .itinerary-item {
+    position: relative;
+    padding-left: 1.9rem;
+    padding-bottom: 1.1rem;
+  }
+  .itinerary-item:last-child { padding-bottom: 0; }
+  .itinerary-item::before {
+    content: '';
+    position: absolute;
+    left: 4px;
+    top: 6px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--sb-green);
+    border: 2px solid #fff;
+    box-shadow: 0 0 0 1px var(--sb-border);
+    z-index: 1;
+  }
+  .itinerary-item:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    left: 8px;
+    top: 16px;
+    bottom: -1.1rem;
+    width: 2px;
+    background: var(--sb-border);
+  }
+  .itinerary-time {
+    display: block;
+    font-weight: 700;
+    color: var(--sb-green);
+    font-size: 0.85rem;
+    margin-bottom: 0.15rem;
+  }
+  .itinerary-desc { color: var(--sb-brown); line-height: 1.7; }
+
   /* Spot map on post pages */
   #spot-map-wrap { margin: 1rem 0 1.5rem; }
   #spot-map { height: 320px; width: 100%; border-radius: 10px; border: 2px solid var(--sb-green); }

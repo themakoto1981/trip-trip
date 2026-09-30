@@ -59,6 +59,12 @@ excerpt: "「マレーシアで一番美しい海」とも称される透明度�
 - フェリー＋車での空港移動は、帰りの便に余裕を持って間に合うよう早めに出発
 - クアラルンプール乗継で帰国便へ
 
+## おすすめホテル
+
+- **やす旅**：[Redang De' Rimba Resort](https://www.booking.com/searchresults.html?ss=Redang+De+Rimba+Resort) — レダン島の中では手頃な価格帯の宿
+- **ゆる旅**：[Laguna Redang Island Resort](https://www.booking.com/searchresults.html?ss=Laguna+Redang+Island+Resort) — ガーデンビュールームから選べる定番リゾート
+- **ラグ旅**：[The Taaras Beach & Spa Resort](https://www.booking.com/searchresults.html?ss=The+Taaras+Beach+%26+Spa+Resort+Redang) — レダン島屈指の高級5つ星リゾート
+
 ## おすすめビーチ・スポット
 
 - **パシール・パンジャン（ロングビーチ）**：レダン島最大のビーチ、白砂が続く

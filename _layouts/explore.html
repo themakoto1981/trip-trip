@@ -3,21 +3,25 @@ layout: default
 ---
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 <style>
-  #search-panel { display: flex; flex-wrap: wrap; gap: 1rem; align-items: flex-end; margin: 1.5rem 0; padding: 1rem; border: 1px solid #ddd; border-radius: 8px; }
+  #search-panel {
+    display: flex; flex-wrap: wrap; gap: 1rem 1.5rem; align-items: flex-end;
+    margin: 1.5rem 0; padding: 1.25rem 0;
+    border-top: 1px solid var(--sb-border); border-bottom: 1px solid var(--sb-border);
+  }
   #search-panel div { display: flex; flex-direction: column; }
-  #search-panel label { font-size: 0.85rem; margin-bottom: 0.25rem; color: #555; }
+  #search-panel label { font-size: 0.85rem; margin-bottom: 0.25rem; color: var(--sb-brown-soft); }
   #search-btn {
-    background: #00704A; color: #fff; border: none; border-radius: 20px;
+    background: var(--sb-green); color: #fff; border: none; border-radius: 20px;
     padding: 0.55rem 1.6rem; font-size: 0.95rem; font-weight: 600; cursor: pointer;
   }
-  #search-btn:hover { background: #1E3932; }
-  #trip-map { height: 480px; width: 100%; border-radius: 8px; margin-bottom: 0.5rem; }
-  .map-hint { font-size: 0.85rem; color: #6B5A4A; margin: 0 0 1.5rem; }
+  #search-btn:hover { background: var(--sb-green-dark); }
+  #trip-map { height: 480px; width: 100%; border: 2px solid var(--sb-green); margin-bottom: 0.5rem; }
+  .map-hint { font-size: 0.85rem; color: var(--sb-brown-soft); margin: 0 0 1.5rem; }
   .leaflet-marker-icon { cursor: pointer; }
   .island-label {
-    background: #fff; color: #1E3932; font-weight: 600; font-size: 0.8rem;
-    padding: 2px 8px; border-radius: 10px; border: 1px solid #E5DDCC;
-    box-shadow: 0 1px 4px rgba(0,0,0,0.15);
+    background: #fff; color: var(--sb-green-dark); font-weight: 600; font-size: 0.8rem;
+    padding: 2px 8px; border-radius: 6px; border: 1px solid var(--sb-border);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
     white-space: nowrap;
     pointer-events: auto !important;
   }

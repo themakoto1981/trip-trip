@@ -72,7 +72,7 @@
   .site-header {
     background-color: var(--sb-green-dark);
     border-top: none;
-    border-bottom: 4px solid var(--sb-gold);
+    border-bottom: 2px solid var(--sb-gold);
   }
   .site-header .site-title,
   .site-header .site-title:visited {
@@ -112,117 +112,96 @@
   .footer-links a { font-size: 0.8rem; opacity: 0.85; }
   .footer-sep { margin: 0 0.5rem; opacity: 0.5; }
 
-  /* Post list / article cards */
+  /* Post list (homepage article list) — hairline rows, no cards */
   .post-list { list-style: none; padding: 0; }
   .post-list > li {
-    background: var(--sb-card);
-    border-radius: 12px;
-    padding: 1.25rem 1.5rem;
-    margin-bottom: 1rem;
-    box-shadow: 0 2px 10px rgba(30, 57, 50, 0.08);
-    border: 1px solid var(--sb-border);
+    padding: 1.25rem 0;
+    border-bottom: 1px solid var(--sb-border);
   }
+  .post-list > li:first-child { padding-top: 0; }
   .post-meta { color: var(--sb-brown-soft); }
 
   /* Explore page (search + map) */
   .page-tagline { color: var(--sb-brown-soft); }
 
   #search-panel {
-    background: var(--sb-card);
-    border: 1px solid var(--sb-border) !important;
-    border-radius: 16px;
+    padding: 1.25rem 0;
+    border-bottom: 1px solid var(--sb-border);
   }
   #search-panel label { color: var(--sb-brown-soft); }
   #search-panel select {
-    border-radius: 8px;
-    border: 1px solid var(--sb-border);
-    padding: 0.45rem 0.7rem;
-    background: #fff;
+    border: none;
+    border-bottom: 1px solid var(--sb-border);
+    border-radius: 0;
+    padding: 0.45rem 0.1rem;
+    background: transparent;
     color: var(--sb-brown);
   }
 
   #trip-map {
-    border: 3px solid var(--sb-green);
+    border: 2px solid var(--sb-green);
   }
 
   #result-list { list-style: none; padding: 0; }
   #result-list li {
-    background: var(--sb-card);
-    border: 1px solid var(--sb-border) !important;
-    border-radius: 10px;
-    padding: 0.9rem 1.1rem !important;
-    margin-bottom: 0.6rem;
+    padding: 1.1rem 0;
+    border-bottom: 1px solid var(--sb-border);
   }
+  #result-list li:first-child { padding-top: 0; }
 
   .island-pin {
     background: var(--sb-green) !important;
   }
 
-  /* Season badge on post pages */
+  /* Season badge (inline, text-weight only — no pill) */
   .season-pill {
-    display: inline-block;
-    padding: 0.15rem 0.65rem;
-    border-radius: 6px;
+    display: inline;
     font-size: 0.82rem;
-    font-weight: 600;
-    margin: 0.5rem 0 1.25rem;
+    font-weight: 700;
   }
-  .season-on {
-    background: #E4F3EC; color: var(--sb-green);
-    border: 1px solid rgba(0,112,74,0.25);
-  }
-  .season-off {
-    background: #F3ECE0; color: #8a6d3b;
-    border: 1px solid rgba(201,166,107,0.45);
-  }
-  .season-pill.season-on, .season-pill.season-off { margin: 0; vertical-align: middle; }
+  .season-on { color: var(--sb-green); }
+  .season-off { color: var(--sb-brown-soft); font-weight: 500; }
 
   /* Other-islands list at top of post pages */
   .other-islands {
-    background: var(--sb-cream);
-    border: 1px solid var(--sb-border);
-    border-radius: 20px;
-    padding: 0.5rem 1rem;
-    margin: 0 0 1.25rem;
+    padding: 0.5rem 0 1.25rem;
     font-size: 0.85rem;
     line-height: 1.8;
+    border-bottom: 1px solid var(--sb-border);
+    margin: 0 0 1.25rem;
   }
   .other-islands-label { color: var(--sb-brown-soft); font-weight: 600; margin-right: 0.25rem; }
   .other-islands a { color: var(--sb-green); font-weight: 600; }
   .other-islands .sep { color: var(--sb-border); margin: 0 0.4rem; }
 
-  /* Quick-facts table on post pages */
-  .quick-facts-table {
-    width: 100%;
-    border-collapse: collapse;
+  /* Quick facts — label/value rows, no table box */
+  .quick-facts-list {
+    display: flex;
+    flex-direction: column;
     margin: 1rem 0 1.75rem;
-    border: 1px solid var(--sb-border);
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 2px 10px rgba(30, 57, 50, 0.06);
   }
-  .quick-facts-table tr:not(:last-child) th,
-  .quick-facts-table tr:not(:last-child) td {
-    border-bottom: 1px solid var(--sb-border);
+  .quick-facts-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 1rem;
+    padding: 0.75rem 0;
   }
-  .quick-facts-table th {
-    background: var(--sb-cream);
+  .quick-facts-row + .quick-facts-row { border-top: 1px solid var(--sb-border); }
+  .quick-facts-row:first-child { padding-top: 0; }
+  .quick-facts-label {
     color: var(--sb-brown-soft);
-    text-align: left;
-    font-size: 0.8rem;
+    font-size: 0.82rem;
     font-weight: 700;
-    padding: 0.7rem 1rem;
-    width: 38%;
     white-space: nowrap;
-    vertical-align: top;
   }
-  .quick-facts-table td {
-    background: var(--sb-cream);
+  .quick-facts-value {
     color: var(--sb-green-dark);
     font-weight: 700;
     font-size: 0.95rem;
-    padding: 0.7rem 1rem;
+    text-align: right;
   }
+
   .tiers-header {
     display: flex;
     align-items: center;
@@ -231,27 +210,25 @@
   }
   .tiers-title { font-weight: 700; color: var(--sb-green-dark); }
   .tiers-info-btn {
-    background: var(--sb-cream);
+    background: none;
     color: var(--sb-green-dark);
-    border: 1px solid var(--sb-border);
-    border-radius: 14px;
-    padding: 0.3rem 0.8rem;
+    border: none;
+    border-bottom: 1px solid var(--sb-border);
+    padding: 0.2rem 0;
     font-size: 0.8rem;
     font-weight: 700;
     cursor: pointer;
   }
-  .tiers-info-btn:hover { background: var(--sb-green); color: #fff; border-color: var(--sb-green); }
+  .tiers-info-btn:hover { color: var(--sb-green); border-color: var(--sb-green); }
   .tiers-popup {
-    background: var(--sb-card);
-    border: 1px solid var(--sb-border);
-    border-radius: 10px;
-    padding: 0.6rem 0.7rem;
+    padding: 0.6rem 0;
     margin-bottom: 0.75rem;
     font-size: 0.85rem;
+    border-bottom: 1px solid var(--sb-border);
   }
   .tiers-popup-table { width: 100%; border-collapse: collapse; }
   .tiers-popup-table th, .tiers-popup-table td {
-    padding: 0.4rem 0.6rem;
+    padding: 0.4rem 0;
     border-bottom: 1px solid var(--sb-border);
     text-align: left;
     font-size: 0.8rem;
@@ -259,41 +236,56 @@
   .tiers-popup-table tr:last-child th, .tiers-popup-table tr:last-child td { border-bottom: none; }
   .tiers-popup-table thead th { color: var(--sb-brown-soft); font-weight: 700; }
   .tiers-popup-table tbody td:first-child { color: var(--sb-green-dark); font-weight: 700; white-space: nowrap; }
-  .budget-tiers-table {
-    width: 100%;
-    border-collapse: collapse;
+
+  /* Budget tiers — rows, no table box. Middle tier (ゆる旅) carries the one accent. */
+  .budget-tiers-list {
+    display: flex;
+    flex-direction: column;
     margin: 0.5rem 0 1.75rem;
-    border: 1px solid var(--sb-border);
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 2px 10px rgba(30, 57, 50, 0.06);
   }
-  .budget-tiers-table th, .budget-tiers-table td {
-    padding: 0.65rem 0.9rem;
+  .budget-tier-row { padding: 1rem 0; }
+  .budget-tier-row + .budget-tier-row { border-top: 1px solid var(--sb-border); }
+  .budget-tier-row:first-child { padding-top: 0; }
+  .budget-tier-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 0.35rem;
+  }
+  .budget-tier-name {
+    font-weight: 700;
+    font-size: 0.9rem;
+    color: var(--sb-green-dark);
+  }
+  .budget-tier-amount {
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: var(--sb-green-dark);
+  }
+  .budget-tier-row.is-recommended .budget-tier-name,
+  .budget-tier-row.is-recommended .budget-tier-amount {
+    color: var(--sb-green);
+  }
+  .budget-tier-breakdown {
+    font-size: 0.82rem;
+    color: var(--sb-brown-soft);
+    line-height: 1.6;
+  }
+  .budget-tier-itinerary-toggle {
+    display: inline-block;
+    background: none;
+    color: var(--sb-green-dark);
+    border: none;
     border-bottom: 1px solid var(--sb-border);
-    text-align: left;
-  }
-  .budget-tiers-table tr:last-child th, .budget-tiers-table tr:last-child td { border-bottom: none; }
-  .budget-tiers-table thead th {
-    background: var(--sb-green-dark);
-    color: #fff;
+    cursor: pointer;
+    font-family: inherit;
     font-size: 0.8rem;
     font-weight: 700;
+    padding: 0.2rem 0;
+    margin-top: 0.7rem;
   }
-  .budget-tiers-table tbody td:first-child {
-    font-weight: 700;
-    color: var(--sb-green-dark);
-    white-space: nowrap;
-  }
-  .budget-tiers-table tbody td:nth-child(2) {
-    font-weight: 700;
-    color: var(--sb-brown);
-    white-space: nowrap;
-  }
-  .budget-tiers-table tbody td:last-child {
-    color: var(--sb-brown-soft);
-    font-size: 0.82rem;
-  }
+  .budget-tier-itinerary-toggle:hover { color: var(--sb-green); border-color: var(--sb-green); }
+  .budget-tier-row .itinerary-timeline { margin: 1rem 0 0; }
   .tier-note {
     font-size: 0.82rem;
     color: var(--sb-brown-soft);
@@ -301,10 +293,9 @@
   }
   .booking-cta {
     margin: 0 0 1.75rem;
-    padding: 1rem 1.1rem;
-    background: var(--sb-cream);
-    border: 1px solid var(--sb-border);
-    border-radius: 12px;
+    padding: 1rem 0;
+    border-top: 1px solid var(--sb-border);
+    border-bottom: 1px solid var(--sb-border);
   }
   .booking-cta-label {
     font-size: 0.8rem;
@@ -319,39 +310,27 @@
   }
   .booking-cta-btn {
     display: inline-block;
-    background: var(--sb-green);
-    color: #fff;
-    border-radius: 20px;
-    padding: 0.55rem 1.1rem;
+    color: var(--sb-green);
     font-size: 0.85rem;
     font-weight: 700;
-    text-decoration: none;
+    text-decoration: underline;
   }
-  .booking-cta-btn:hover { background: var(--sb-green-dark); color: #fff; }
+  .booking-cta-btn:hover { color: var(--sb-green-dark); }
   .booking-cta-compare {
     margin: 0.75rem 0 0;
     font-size: 0.8rem;
   }
   .booking-cta-compare a { color: var(--sb-green); text-decoration: underline; }
-  @media (max-width: 500px) {
-    .budget-tiers-table th, .budget-tiers-table td { padding: 0.5rem 0.6rem; font-size: 0.82rem; }
-    .budget-tiers-table tbody td:last-child { font-size: 0.76rem; }
-  }
-  @media (max-width: 500px) {
-    .quick-facts-table th { width: 42%; font-size: 0.78rem; padding: 0.6rem 0.7rem; }
-    .quick-facts-table td { font-size: 0.85rem; padding: 0.6rem 0.7rem; }
-  }
 
   /* 著者メモ（個人的な感想・補足を挿入するための吹き出し） */
   .author-note {
     display: flex;
     gap: 0.8rem;
     align-items: flex-start;
-    background: var(--sb-card);
-    border: 1px solid var(--sb-border);
-    border-radius: 12px;
-    padding: 0.9rem 1.1rem;
+    padding: 0.9rem 0;
     margin: 1rem 0 1.75rem;
+    border-top: 1px solid var(--sb-border);
+    border-bottom: 1px solid var(--sb-border);
   }
   .author-note-avatar {
     flex-shrink: 0;
@@ -384,13 +363,21 @@
     object-fit: cover;
   }
 
-  /* Itinerary timeline (試作) */
+  /* Itinerary — bold time + hairline between legs, no dot/line */
   .itinerary-plan-toggle {
     display: inline-block;
+    background: none;
+    color: var(--sb-green-dark);
+    border: none;
+    border-bottom: 1px solid var(--sb-border);
     cursor: pointer;
     font-family: inherit;
+    font-size: 0.85rem;
+    font-weight: 700;
+    padding: 0.2rem 0;
     margin: 0.5rem 0 0.5rem;
   }
+  .itinerary-plan-toggle:hover { color: var(--sb-green); border-color: var(--sb-green); }
   .itinerary-timeline { margin: 1rem 0 1.75rem; }
   .itinerary-day { margin-bottom: 1.6rem; }
   .itinerary-day:last-child { margin-bottom: 0; }
@@ -403,47 +390,27 @@
     padding-bottom: 0.4rem;
     border-bottom: 1px solid var(--sb-border);
   }
-  .itinerary-list { list-style: none; padding: 0; margin: 0; position: relative; }
+  .itinerary-list { list-style: none; padding: 0; margin: 0; }
   .itinerary-item {
-    position: relative;
-    padding-left: 1.9rem;
-    padding-bottom: 1.1rem;
+    display: flex;
+    gap: 1.1rem;
+    align-items: flex-start;
+    padding: 0.9rem 0;
   }
-  .itinerary-item:last-child { padding-bottom: 0; }
-  .itinerary-item::before {
-    content: '';
-    position: absolute;
-    left: 4px;
-    top: 6px;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background: var(--sb-green);
-    border: 2px solid #fff;
-    box-shadow: 0 0 0 1px var(--sb-border);
-    z-index: 1;
-  }
-  .itinerary-item:not(:last-child)::after {
-    content: '';
-    position: absolute;
-    left: 8px;
-    top: 16px;
-    bottom: -1.1rem;
-    width: 2px;
-    background: var(--sb-border);
-  }
+  .itinerary-item + .itinerary-item { border-top: 1px solid var(--sb-border); }
+  .itinerary-item:first-child { padding-top: 0; }
   .itinerary-time {
-    display: block;
+    flex-shrink: 0;
+    width: 3.4rem;
     font-weight: 700;
-    color: var(--sb-green);
-    font-size: 0.85rem;
-    margin-bottom: 0.15rem;
+    color: var(--sb-green-dark);
+    font-size: 1.05rem;
   }
-  .itinerary-desc { color: var(--sb-brown); line-height: 1.7; }
+  .itinerary-desc { flex: 1; color: var(--sb-brown); line-height: 1.7; }
 
   /* Spot map on post pages */
   #spot-map-wrap { margin: 1rem 0 1.5rem; }
-  #spot-map { height: 320px; width: 100%; border-radius: 10px; border: 2px solid var(--sb-green); }
+  #spot-map { height: 320px; width: 100%; border: 2px solid var(--sb-green); }
   .spot-link {
     cursor: pointer;
     text-decoration: underline dotted;
@@ -458,7 +425,6 @@
     width: 100%;
     max-height: 380px;
     object-fit: cover;
-    border-radius: 12px;
     display: block;
   }
   .hero-photo figcaption {
@@ -482,12 +448,12 @@
   }
   .spot-label::before { display: none; }
 
-  /* Interactive packing checklist */
+  /* Interactive packing checklist — hairline rows, no cards */
   .post-content ul.checklist { list-style: none; padding-left: 0; }
   .post-content ul.checklist li {
     display: flex; align-items: center; gap: 0.65rem;
-    padding: 0.5rem 0.75rem; margin-bottom: 0.4rem;
-    background: var(--sb-card); border: 1px solid var(--sb-border); border-radius: 8px;
+    padding: 0.6rem 0;
+    border-bottom: 1px solid var(--sb-border);
   }
   .post-content ul.checklist input[type="checkbox"] {
     width: 19px; height: 19px; accent-color: var(--sb-green);
@@ -496,42 +462,26 @@
   .post-content ul.checklist li.checked {
     color: var(--sb-brown-soft);
     text-decoration: line-through;
-    background: var(--sb-cream);
   }
-  .copy-checklist-btn {
-    background: var(--sb-cream);
-    color: var(--sb-green-dark);
-    border: 1px solid var(--sb-border);
-    border-radius: 20px;
-    padding: 0.5rem 1.1rem;
-    font-size: 0.85rem;
-    font-weight: 700;
-    cursor: pointer;
-    margin: 0.25rem 0 1.75rem;
-  }
-  .copy-checklist-btn:hover { background: var(--sb-green); color: #fff; border-color: var(--sb-green); }
 
   .tag-chip {
     display: inline-block;
-    background: var(--sb-cream);
     color: var(--sb-green);
-    border: 1px solid rgba(0,112,74,0.3);
-    border-radius: 6px;
-    padding: 0.15rem 0.65rem;
     font-size: 0.82rem;
     font-weight: 700;
-    margin: 0.15rem 0.3rem 0.15rem 0;
+    margin: 0.15rem 0.8rem 0.15rem 0;
   }
 
   /* Post content links / body */
   .post-content a { text-decoration: underline; }
   .post-content table { border-collapse: collapse; width: 100%; }
   .post-content table th, .post-content table td {
-    border: 1px solid var(--sb-border);
-    padding: 0.5rem 0.75rem;
+    border-bottom: 1px solid var(--sb-border);
+    padding: 0.6rem 0.75rem;
+    text-align: left;
   }
-  .post-content table th { background: var(--sb-cream); color: var(--sb-green-dark); }
-  .post-content table td { background: var(--sb-cream); }
+  .post-content table thead th { color: var(--sb-green-dark); font-weight: 700; }
+  .post-content table tr:last-child td { border-bottom: none; }
   .post-content table th:nth-child(1),
   .post-content table th:nth-child(2),
   .post-content table td:nth-child(1),
@@ -539,25 +489,19 @@
     text-align: center;
   }
 
-  /* Country hub + country pages */
+  /* Country hub + country pages — hairline rows, no cards */
   .country-hub-list { list-style: none; padding: 0; }
   .country-hub-list li {
-    background: var(--sb-card);
-    border: 1px solid var(--sb-border);
-    border-radius: 10px;
-    padding: 1rem 1.25rem;
-    margin-bottom: 0.75rem;
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--sb-border);
   }
   .country-hub-list a { font-size: 1.1rem; font-weight: 700; }
   .country-flag { margin-right: 0.4rem; }
   .country-excerpt { color: var(--sb-brown-soft); font-size: 0.85rem; margin: 0.35rem 0 0; }
   .country-island-list { list-style: none; padding: 0; margin: 0.5rem 0 1.5rem; }
   .country-island-list li {
-    background: var(--sb-card);
-    border: 1px solid var(--sb-border);
-    border-radius: 8px;
-    padding: 0.6rem 1rem;
-    margin-bottom: 0.4rem;
+    padding: 0.7rem 0;
+    border-bottom: 1px solid var(--sb-border);
   }
   .country-island-list a { font-weight: 600; }
 

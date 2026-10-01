@@ -196,8 +196,8 @@
     white-space: nowrap;
   }
   .quick-facts-value {
-    color: var(--sb-green-dark);
-    font-weight: 700;
+    color: var(--sb-brown);
+    font-weight: 500;
     font-size: 0.95rem;
     text-align: right;
   }
@@ -390,12 +390,22 @@
     padding-bottom: 0.4rem;
     border-bottom: 1px solid var(--sb-border);
   }
-  .itinerary-list { list-style: none; padding: 0; margin: 0; }
+  .itinerary-list { list-style: none; padding: 0; margin: 0; position: relative; }
+  .itinerary-list::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: calc(3.4rem + 0.55rem);
+    width: 1px;
+    background: var(--sb-border);
+  }
   .itinerary-item {
     display: flex;
     gap: 1.1rem;
     align-items: flex-start;
     padding: 0.9rem 0;
+    position: relative;
   }
   .itinerary-item + .itinerary-item { border-top: 1px solid var(--sb-border); }
   .itinerary-item:first-child { padding-top: 0; }
@@ -476,11 +486,12 @@
   .post-content a { text-decoration: underline; }
   .post-content table { border-collapse: collapse; width: 100%; }
   .post-content table th, .post-content table td {
+    background: transparent;
     border-bottom: 1px solid var(--sb-border);
     padding: 0.6rem 0.75rem;
     text-align: left;
   }
-  .post-content table thead th { color: var(--sb-green-dark); font-weight: 700; }
+  .post-content table thead th { background: transparent; color: var(--sb-green-dark); font-weight: 700; }
   .post-content table tr:last-child td { border-bottom: none; }
   .post-content table th:nth-child(1),
   .post-content table th:nth-child(2),

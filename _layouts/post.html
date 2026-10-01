@@ -239,68 +239,66 @@ layout: default
       if (window.console && console.error) { console.error('spot map failed to render:', e); }
     }
 
-    // 旅程タイムライン表示（試作：ボラカイ島のみ）
+    // 旅程タイムライン表示（全記事共通。1記事に複数の旅程見出しがある場合はそれぞれ処理）
     try {
-      if (match && match.slug === 'boracay-guide') {
-        var itineraryHeading = null;
-        document.querySelectorAll('.post-content h2').forEach(function (h) {
-          if (h.textContent.indexOf('おすすめ旅程') !== -1) { itineraryHeading = h; }
-        });
-        if (itineraryHeading) {
-          var node = itineraryHeading.nextElementSibling;
-          var dayBlocks = [];
-          while (node && node.tagName !== 'H2') {
-            if (node.tagName === 'P' && node.querySelector('strong')) {
-              var strongEl = node.querySelector('strong');
-              var listNode = node.nextElementSibling;
-              if (listNode && listNode.tagName === 'UL') {
-                dayBlocks.push({ label: strongEl.textContent, pNode: node, ulNode: listNode });
-              }
+      var itineraryHeadings = [];
+      document.querySelectorAll('.post-content h2').forEach(function (h) {
+        if (h.textContent.indexOf('おすすめ旅程') !== -1) { itineraryHeadings.push(h); }
+      });
+      itineraryHeadings.forEach(function (itineraryHeading) {
+        var node = itineraryHeading.nextElementSibling;
+        var dayBlocks = [];
+        while (node && node.tagName !== 'H2') {
+          if (node.tagName === 'P' && node.querySelector('strong')) {
+            var strongEl = node.querySelector('strong');
+            var listNode = node.nextElementSibling;
+            if (listNode && listNode.tagName === 'UL') {
+              dayBlocks.push({ label: strongEl.textContent, pNode: node, ulNode: listNode });
             }
-            node = node.nextElementSibling;
           }
-          if (dayBlocks.length > 0) {
-            var timelineWrap = document.createElement('div');
-            timelineWrap.className = 'itinerary-timeline';
-            dayBlocks.forEach(function (block) {
-              var dayDiv = document.createElement('div');
-              dayDiv.className = 'itinerary-day';
-              var titleDiv = document.createElement('div');
-              titleDiv.className = 'itinerary-day-title';
-              titleDiv.textContent = block.label;
-              dayDiv.appendChild(titleDiv);
-              var listUl = document.createElement('ul');
-              listUl.className = 'itinerary-list';
-              block.ulNode.querySelectorAll('li').forEach(function (li) {
-                var html = li.innerHTML;
-                var idx = html.indexOf('　');
-                var timeLabel = idx > -1 ? html.slice(0, idx) : '';
-                var desc = idx > -1 ? html.slice(idx + 1) : html;
-                var itemLi = document.createElement('li');
-                itemLi.className = 'itinerary-item';
-                if (timeLabel) {
-                  var timeSpan = document.createElement('span');
-                  timeSpan.className = 'itinerary-time';
-                  timeSpan.textContent = timeLabel;
-                  itemLi.appendChild(timeSpan);
-                }
-                var descSpan = document.createElement('span');
-                descSpan.className = 'itinerary-desc';
-                descSpan.innerHTML = desc;
-                itemLi.appendChild(descSpan);
-                listUl.appendChild(itemLi);
-              });
-              dayDiv.appendChild(listUl);
-              timelineWrap.appendChild(dayDiv);
-            });
-            itineraryHeading.parentNode.insertBefore(timelineWrap, itineraryHeading.nextSibling);
-            dayBlocks.forEach(function (block) {
-              block.pNode.remove();
-              block.ulNode.remove();
-            });
-          }
+          node = node.nextElementSibling;
         }
-      }
+        if (dayBlocks.length > 0) {
+          var timelineWrap = document.createElement('div');
+          timelineWrap.className = 'itinerary-timeline';
+          dayBlocks.forEach(function (block) {
+            var dayDiv = document.createElement('div');
+            dayDiv.className = 'itinerary-day';
+            var titleDiv = document.createElement('div');
+            titleDiv.className = 'itinerary-day-title';
+            titleDiv.textContent = block.label;
+            dayDiv.appendChild(titleDiv);
+            var listUl = document.createElement('ul');
+            listUl.className = 'itinerary-list';
+            block.ulNode.querySelectorAll('li').forEach(function (li) {
+              var html = li.innerHTML;
+              var idx = html.indexOf('　');
+              var timeLabel = idx > -1 ? html.slice(0, idx) : '';
+              var desc = idx > -1 ? html.slice(idx + 1) : html;
+              var itemLi = document.createElement('li');
+              itemLi.className = 'itinerary-item';
+              if (timeLabel) {
+                var timeSpan = document.createElement('span');
+                timeSpan.className = 'itinerary-time';
+                timeSpan.textContent = timeLabel;
+                itemLi.appendChild(timeSpan);
+              }
+              var descSpan = document.createElement('span');
+              descSpan.className = 'itinerary-desc';
+              descSpan.innerHTML = desc;
+              itemLi.appendChild(descSpan);
+              listUl.appendChild(itemLi);
+            });
+            dayDiv.appendChild(listUl);
+            timelineWrap.appendChild(dayDiv);
+          });
+          itineraryHeading.parentNode.insertBefore(timelineWrap, itineraryHeading.nextSibling);
+          dayBlocks.forEach(function (block) {
+            block.pNode.remove();
+            block.ulNode.remove();
+          });
+        }
+      });
     } catch (e) {
       if (window.console && console.error) { console.error('itinerary timeline failed:', e); }
     }

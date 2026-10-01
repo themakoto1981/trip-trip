@@ -106,6 +106,13 @@
     padding: 6px !important;
   }
   .site-nav label[for="nav-trigger"]:hover { opacity: 0.8; }
+  @media screen and (max-width: 600px) {
+    .site-nav {
+      background-color: var(--sb-green-dark);
+      border: none;
+      border-radius: 0;
+    }
+  }
 
   /* Footer */
   .site-footer {
@@ -478,8 +485,30 @@
     border-bottom: 1px solid var(--sb-border);
   }
   .post-content ul.checklist input[type="checkbox"] {
-    width: 19px; height: 19px; accent-color: var(--sb-green);
-    cursor: pointer; flex-shrink: 0;
+    appearance: none;
+    -webkit-appearance: none;
+    width: 17px; height: 17px;
+    margin: 0;
+    border: 1.5px solid var(--sb-border);
+    border-radius: 3px;
+    cursor: pointer;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .post-content ul.checklist input[type="checkbox"]:checked {
+    background: var(--sb-green);
+    border-color: var(--sb-green);
+  }
+  .post-content ul.checklist input[type="checkbox"]:checked::after {
+    content: '';
+    position: absolute;
+    left: 5px;
+    top: 1px;
+    width: 4px;
+    height: 8px;
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
   }
   .post-content ul.checklist li.checked {
     color: var(--sb-brown-soft);

@@ -308,6 +308,7 @@ layout: default
             tagBtn.className = 'tag-chip itinerary-plan-toggle';
             tagBtn.textContent = tagLabel + ' ▶ タップして開く';
             itineraryHeading.parentNode.insertBefore(tagBtn, timelineWrap);
+            itineraryHeading.textContent = headingText.replace(/（[^）]*）\s*$/, '').trim();
 
             timelineWrap.hidden = true;
             tagBtn.addEventListener('click', function () {

@@ -56,16 +56,16 @@ layout: default
     return Object.assign({}, d, { totalMin: totalMin, totalMax: totalMax, inSeason: inSeason, matchesCompanion: matchesCompanion, tooShort: tooShort });
   });
 
-  var filtered = withTotals.filter(function (d) {
+  var budgetFiltered = withTotals.filter(function (d) {
     return !budget || d.totalMin <= parseInt(budget, 10);
-  }).sort(function (a, b) {
-    if (a.tooShort !== b.tooShort) { return a.tooShort ? 1 : -1; }
+  });
+  var feasible = budgetFiltered.filter(function (d) { return !d.tooShort; });
+  var allTooShort = budgetFiltered.length > 0 && feasible.length === 0;
+  var filtered = (allTooShort ? budgetFiltered : feasible).sort(function (a, b) {
     if (a.matchesCompanion !== b.matchesCompanion) { return a.matchesCompanion ? -1 : 1; }
     if (a.inSeason !== b.inSeason) { return a.inSeason ? -1 : 1; }
     return a.totalMin - b.totalMin;
   });
-
-  var allTooShort = filtered.length > 0 && filtered.every(function (d) { return d.tooShort; });
   if (allTooShort) {
     var minNightsValues = withTotals.map(function (d) {
       var m = (d.recommended_nights || '').match(/(\d+)/);

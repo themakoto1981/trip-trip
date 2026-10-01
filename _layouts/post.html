@@ -300,7 +300,7 @@ layout: default
 
           if (itineraryHeadings.length > 1) {
             var headingText = itineraryHeading.textContent;
-            var tagMatch = headingText.match(/(やす旅・ゆる旅|やす旅|ゆる旅|ラグ旅)/);
+            var tagMatch = headingText.match(/(やす旅.ゆる旅|やす旅|ゆる旅|ラグ旅)/);
             var tagLabel = tagMatch ? tagMatch[1] + '向け' : 'このプラン';
 
             var tagBtn = document.createElement('button');

@@ -4,19 +4,20 @@ layout: default
 <style>
   #result-list { list-style: none; padding: 0; }
   #result-list li {
-    background: #FFFFFF; border: 1px solid #E5DDCC; border-radius: 10px;
-    padding: 0.9rem 1.1rem; margin-bottom: 0.6rem;
+    padding: 1.1rem 0;
+    border-bottom: 1px solid var(--sb-border);
     line-height: 1.8;
   }
+  #result-list li:first-child { padding-top: 0; }
   #result-list a { font-weight: 600; }
   .no-result { color: #888; }
-  .mini-season { display: inline-block; font-size: 0.75rem; font-weight: 600; padding: 1px 8px; border-radius: 10px; }
-  .mini-season.on { background: #E4F3EC; color: #00704A; }
-  .mini-season.off { background: #F3ECE0; color: #8a6d3b; }
-  .mini-season.warn { background: #FCEAE6; color: #B54A32; }
-  .search-summary { color: #6B5A4A; margin-bottom: 1.25rem; }
+  .mini-season { display: inline; font-size: 0.8rem; font-weight: 700; }
+  .mini-season.on { color: var(--sb-green); }
+  .mini-season.off { color: var(--sb-brown-soft); font-weight: 500; }
+  .mini-season.warn { color: #B54A32; }
+  .search-summary { color: var(--sb-brown-soft); margin-bottom: 1.25rem; }
   .back-link { display: inline-block; margin-top: 1.5rem; }
-  .cost-breakdown { list-style: none; padding: 0; margin: 0.5rem 0 0; font-size: 0.85rem; color: #6B5A4A; line-height: 1.7; }
+  .cost-breakdown { list-style: none; padding: 0; margin: 0.5rem 0 0; font-size: 0.85rem; color: var(--sb-brown-soft); line-height: 1.7; }
 </style>
 
 <h1>検索結果</h1>

@@ -297,6 +297,25 @@ layout: default
             block.pNode.remove();
             block.ulNode.remove();
           });
+
+          if (itineraryHeadings.length > 1) {
+            var headingText = itineraryHeading.textContent;
+            var tagMatch = headingText.match(/(やす旅・ゆる旅|やす旅|ゆる旅|ラグ旅)/);
+            var tagLabel = tagMatch ? tagMatch[1] + '向け' : 'このプラン';
+
+            var tagBtn = document.createElement('button');
+            tagBtn.type = 'button';
+            tagBtn.className = 'tag-chip itinerary-plan-toggle';
+            tagBtn.textContent = tagLabel + ' ▶ タップして開く';
+            itineraryHeading.parentNode.insertBefore(tagBtn, timelineWrap);
+
+            timelineWrap.hidden = true;
+            tagBtn.addEventListener('click', function () {
+              var willOpen = timelineWrap.hidden;
+              timelineWrap.hidden = !willOpen;
+              tagBtn.textContent = willOpen ? (tagLabel + ' ▼ タップして閉じる') : (tagLabel + ' ▶ タップして開く');
+            });
+          }
         }
       });
     } catch (e) {

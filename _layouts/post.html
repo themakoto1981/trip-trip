@@ -319,6 +319,29 @@ layout: default
           }
         }
       });
+
+      if (itineraryHeadings.length > 1) {
+        var firstHeading = itineraryHeadings[0];
+        var afterFirst = firstHeading.nextElementSibling;
+        var insertionPoint = afterFirst && afterFirst.classList.contains('itinerary-plan-toggle')
+          ? (afterFirst.nextElementSibling || afterFirst)
+          : firstHeading;
+        for (var hi = 1; hi < itineraryHeadings.length; hi++) {
+          var dupHeading = itineraryHeadings[hi];
+          var dupTagBtn = dupHeading.nextElementSibling;
+          var dupTimelineWrap = (dupTagBtn && dupTagBtn.classList.contains('itinerary-plan-toggle'))
+            ? dupTagBtn.nextElementSibling : null;
+          if (dupTagBtn) {
+            insertionPoint.parentNode.insertBefore(dupTagBtn, insertionPoint.nextSibling);
+            insertionPoint = dupTagBtn;
+          }
+          if (dupTimelineWrap) {
+            insertionPoint.parentNode.insertBefore(dupTimelineWrap, insertionPoint.nextSibling);
+            insertionPoint = dupTimelineWrap;
+          }
+          dupHeading.remove();
+        }
+      }
     } catch (e) {
       if (window.console && console.error) { console.error('itinerary timeline failed:', e); }
     }

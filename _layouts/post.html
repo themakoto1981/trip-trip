@@ -95,11 +95,11 @@ layout: default
       ['誰と行く？', companionText]
     ];
 
-    var html = '<table class="quick-facts-table"><tbody>';
+    var html = '<div class="quick-facts-list">';
     rows.forEach(function (r) {
-      html += '<tr><th>' + r[0] + '</th><td>' + r[1] + '</td></tr>';
+      html += '<div class="quick-facts-row"><span class="quick-facts-label">' + r[0] + '</span><span class="quick-facts-value">' + r[1] + '</span></div>';
     });
-    html += '</tbody></table>';
+    html += '</div>';
 
     document.getElementById('quick-facts').innerHTML = html;
 
@@ -132,11 +132,15 @@ layout: default
     });
     tiersHtml += '</tbody></table>';
     tiersHtml += '</div>';
-    tiersHtml += '<table class="budget-tiers-table"><thead><tr><th>プラン</th><th>目安予算</th><th>内訳</th></tr></thead><tbody>';
-    budgetTiers.forEach(function (t) {
-      tiersHtml += '<tr><td>' + t[0] + '</td><td>' + t[1] + '</td><td class="tier-breakdown">' + t[2] + '</td></tr>';
+    tiersHtml += '<div class="budget-tiers-list">';
+    budgetTiers.forEach(function (t, i) {
+      var recClass = (i === 1) ? ' is-recommended' : '';
+      tiersHtml += '<div class="budget-tier-row' + recClass + '" data-tier-name="' + t[0] + '">';
+      tiersHtml += '<div class="budget-tier-top"><span class="budget-tier-name">' + t[0] + '</span><span class="budget-tier-amount">' + t[1] + '</span></div>';
+      tiersHtml += '<div class="budget-tier-breakdown">' + t[2] + '</div>';
+      tiersHtml += '</div>';
     });
-    tiersHtml += '</tbody></table>';
+    tiersHtml += '</div>';
 
     var budgetHeading = null;
     document.querySelectorAll('.post-content h2').forEach(function (h) {
@@ -239,12 +243,16 @@ layout: default
       if (window.console && console.error) { console.error('spot map failed to render:', e); }
     }
 
-    // 旅程タイムライン表示（全記事共通。1記事に複数の旅程見出しがある場合はそれぞれ処理）
+    // 旅程タイムライン表示
+    // 単一プランの記事：見出しの直後にそのまま表示（従来通り）
+    // 複数プランの記事：見出しは削除し、該当する予算プラン行の下に展開式で格納する
     try {
       var itineraryHeadings = [];
       document.querySelectorAll('.post-content h2').forEach(function (h) {
         if (h.textContent.indexOf('おすすめ旅程') !== -1) { itineraryHeadings.push(h); }
       });
+      var isMultiPlan = itineraryHeadings.length > 1;
+
       itineraryHeadings.forEach(function (itineraryHeading) {
         var node = itineraryHeading.nextElementSibling;
         var dayBlocks = [];
@@ -258,90 +266,86 @@ layout: default
           }
           node = node.nextElementSibling;
         }
-        if (dayBlocks.length > 0) {
-          var timelineWrap = document.createElement('div');
-          timelineWrap.className = 'itinerary-timeline';
-          dayBlocks.forEach(function (block) {
-            var dayDiv = document.createElement('div');
-            dayDiv.className = 'itinerary-day';
-            var titleDiv = document.createElement('div');
-            titleDiv.className = 'itinerary-day-title';
-            titleDiv.textContent = block.label;
-            dayDiv.appendChild(titleDiv);
-            var listUl = document.createElement('ul');
-            listUl.className = 'itinerary-list';
-            block.ulNode.querySelectorAll('li').forEach(function (li) {
-              var html = li.innerHTML;
-              var idx = html.indexOf('　');
-              var timeLabel = idx > -1 ? html.slice(0, idx) : '';
-              var desc = idx > -1 ? html.slice(idx + 1) : html;
-              var itemLi = document.createElement('li');
-              itemLi.className = 'itinerary-item';
-              if (timeLabel) {
-                var timeSpan = document.createElement('span');
-                timeSpan.className = 'itinerary-time';
-                timeSpan.textContent = timeLabel;
-                itemLi.appendChild(timeSpan);
-              }
-              var descSpan = document.createElement('span');
-              descSpan.className = 'itinerary-desc';
-              descSpan.innerHTML = desc;
-              itemLi.appendChild(descSpan);
-              listUl.appendChild(itemLi);
-            });
-            dayDiv.appendChild(listUl);
-            timelineWrap.appendChild(dayDiv);
+        if (dayBlocks.length === 0) { return; }
+
+        var timelineWrap = document.createElement('div');
+        timelineWrap.className = 'itinerary-timeline';
+        dayBlocks.forEach(function (block) {
+          var dayDiv = document.createElement('div');
+          dayDiv.className = 'itinerary-day';
+          var titleDiv = document.createElement('div');
+          titleDiv.className = 'itinerary-day-title';
+          titleDiv.textContent = block.label;
+          dayDiv.appendChild(titleDiv);
+          var listUl = document.createElement('ul');
+          listUl.className = 'itinerary-list';
+          block.ulNode.querySelectorAll('li').forEach(function (li) {
+            var html = li.innerHTML;
+            var idx = html.indexOf('　');
+            var timeLabel = idx > -1 ? html.slice(0, idx) : '';
+            var desc = idx > -1 ? html.slice(idx + 1) : html;
+            var itemLi = document.createElement('li');
+            itemLi.className = 'itinerary-item';
+            if (timeLabel) {
+              var timeSpan = document.createElement('span');
+              timeSpan.className = 'itinerary-time';
+              timeSpan.textContent = timeLabel;
+              itemLi.appendChild(timeSpan);
+            }
+            var descSpan = document.createElement('span');
+            descSpan.className = 'itinerary-desc';
+            descSpan.innerHTML = desc;
+            itemLi.appendChild(descSpan);
+            listUl.appendChild(itemLi);
           });
+          dayDiv.appendChild(listUl);
+          timelineWrap.appendChild(dayDiv);
+        });
+        dayBlocks.forEach(function (block) {
+          block.pNode.remove();
+          block.ulNode.remove();
+        });
+
+        if (!isMultiPlan) {
           itineraryHeading.parentNode.insertBefore(timelineWrap, itineraryHeading.nextSibling);
-          dayBlocks.forEach(function (block) {
-            block.pNode.remove();
-            block.ulNode.remove();
+          return;
+        }
+
+        var headingText = itineraryHeading.textContent;
+        var tagMatch = headingText.match(/(やす旅.ゆる旅|やす旅|ゆる旅|ラグ旅)/);
+        var targetTiers = [];
+        if (tagMatch) {
+          if (tagMatch[1].indexOf('やす旅') !== -1) { targetTiers.push('やす旅'); }
+          if (tagMatch[1].indexOf('ゆる旅') !== -1) { targetTiers.push('ゆる旅'); }
+          if (tagMatch[1].indexOf('ラグ旅') !== -1) { targetTiers.push('ラグ旅'); }
+        }
+
+        var attached = false;
+        targetTiers.forEach(function (tierName, idx) {
+          var row = document.querySelector('.budget-tier-row[data-tier-name="' + tierName + '"]');
+          if (!row) { return; }
+          var wrap = idx === 0 ? timelineWrap : timelineWrap.cloneNode(true);
+          wrap.hidden = true;
+          var btn = document.createElement('button');
+          btn.type = 'button';
+          btn.className = 'budget-tier-itinerary-toggle';
+          btn.textContent = '旅程を見る ▶';
+          row.appendChild(btn);
+          row.appendChild(wrap);
+          btn.addEventListener('click', function () {
+            var willOpen = wrap.hidden;
+            wrap.hidden = !willOpen;
+            btn.textContent = willOpen ? '旅程を閉じる ▼' : '旅程を見る ▶';
           });
+          attached = true;
+        });
 
-          if (itineraryHeadings.length > 1) {
-            var headingText = itineraryHeading.textContent;
-            var tagMatch = headingText.match(/(やす旅.ゆる旅|やす旅|ゆる旅|ラグ旅)/);
-            var tagLabel = tagMatch ? tagMatch[1] + '向け' : 'このプラン';
-
-            var tagBtn = document.createElement('button');
-            tagBtn.type = 'button';
-            tagBtn.className = 'tag-chip itinerary-plan-toggle';
-            tagBtn.textContent = tagLabel + ' ▶ タップして開く';
-            itineraryHeading.parentNode.insertBefore(tagBtn, timelineWrap);
-            itineraryHeading.textContent = headingText.replace(/（[^）]*）\s*$/, '').trim();
-
-            timelineWrap.hidden = true;
-            tagBtn.addEventListener('click', function () {
-              var willOpen = timelineWrap.hidden;
-              timelineWrap.hidden = !willOpen;
-              tagBtn.textContent = willOpen ? (tagLabel + ' ▼ タップして閉じる') : (tagLabel + ' ▶ タップして開く');
-            });
-          }
+        if (!attached) {
+          itineraryHeading.parentNode.insertBefore(timelineWrap, itineraryHeading.nextSibling);
+          return;
         }
+        itineraryHeading.remove();
       });
-
-      if (itineraryHeadings.length > 1) {
-        var firstHeading = itineraryHeadings[0];
-        var afterFirst = firstHeading.nextElementSibling;
-        var insertionPoint = afterFirst && afterFirst.classList.contains('itinerary-plan-toggle')
-          ? (afterFirst.nextElementSibling || afterFirst)
-          : firstHeading;
-        for (var hi = 1; hi < itineraryHeadings.length; hi++) {
-          var dupHeading = itineraryHeadings[hi];
-          var dupTagBtn = dupHeading.nextElementSibling;
-          var dupTimelineWrap = (dupTagBtn && dupTagBtn.classList.contains('itinerary-plan-toggle'))
-            ? dupTagBtn.nextElementSibling : null;
-          if (dupTagBtn) {
-            insertionPoint.parentNode.insertBefore(dupTagBtn, insertionPoint.nextSibling);
-            insertionPoint = dupTagBtn;
-          }
-          if (dupTimelineWrap) {
-            insertionPoint.parentNode.insertBefore(dupTimelineWrap, insertionPoint.nextSibling);
-            insertionPoint = dupTimelineWrap;
-          }
-          dupHeading.remove();
-        }
-      }
     } catch (e) {
       if (window.console && console.error) { console.error('itinerary timeline failed:', e); }
     }

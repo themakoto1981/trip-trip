@@ -48,8 +48,20 @@
     color: var(--sb-brown-soft);
     margin-top: 0.2em;
   }
-  .post-content ul, .post-content ol { margin-bottom: 1.2em; line-height: 1.9; }
+  .post-content ol { margin-bottom: 1.2em; line-height: 1.9; }
   .post-content li { margin-bottom: 0.3em; }
+  .post-content ul:not(.checklist) {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 1.75rem;
+  }
+  .post-content ul:not(.checklist) li {
+    margin-bottom: 0;
+    padding: 0.7rem 0;
+    line-height: 1.8;
+  }
+  .post-content ul:not(.checklist) li + li { border-top: 1px solid var(--sb-border); }
+  .post-content ul:not(.checklist) li:first-child { padding-top: 0; }
   .post-title { line-height: 1.4; margin-bottom: 0.3rem; }
   .post-subtitle {
     font-size: 0.85rem;

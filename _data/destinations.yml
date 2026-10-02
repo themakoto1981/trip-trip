@@ -251,7 +251,7 @@
   best_months: [12, 1, 2, 3]
   url: /2026/09/30/phuquoc-guide/
 
-- name: コサムイ島
+- name: サムイ島
   en_name: "Koh Samui, Thailand"
   slug: koh-samui-guide
   country: タイ
@@ -268,7 +268,7 @@
   food_max: 5500
   flight_hours: "約9〜12時間（バンコク乗り継ぎ、国内線で約1時間）"
   recommended_nights: "3泊以上"
-  visa: "不要（30日以内の観光滞在。2026年9月15日からビザ免除期間が60日から30日に短縮。入国前にTDAC［タイ入国カード］のオンライン登録が必要）"
+  visa: "不要（30日以内）"
   photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Koh_Samui%2C_Island%2C_Beach%2C_Thailand.jpg/960px-Koh_Samui%2C_Island%2C_Beach%2C_Thailand.jpg"
   photo_credit_url: "https://commons.wikimedia.org/wiki/File:Koh_Samui,_Island,_Beach,_Thailand.jpg"
   suited_for: [couple, family, friends, solo]

@@ -426,6 +426,18 @@
     padding: 0.9rem 0;
     position: relative;
   }
+  .itinerary-item::before {
+    content: '';
+    position: absolute;
+    left: calc(3.4rem + 0.55rem - 4px);
+    top: 1.25rem;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: var(--sb-green);
+    border: 2px solid var(--sb-cream);
+    z-index: 1;
+  }
   .itinerary-item + .itinerary-item { border-top: 1px solid var(--sb-border); }
   .itinerary-item:first-child { padding-top: 0; }
   .itinerary-time {

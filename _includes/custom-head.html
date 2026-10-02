@@ -409,7 +409,16 @@
     padding-bottom: 0.4rem;
     border-bottom: 1px solid var(--sb-border);
   }
-  .itinerary-list { list-style: none; padding: 0; margin: 0; }
+  .itinerary-list { list-style: none; padding: 0; margin: 0; position: relative; }
+  .itinerary-list::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: calc(3.4rem + 0.7rem + 0.5rem);
+    width: 1px;
+    background: var(--sb-border);
+  }
   .itinerary-item {
     display: flex;
     gap: 0.7rem;
@@ -432,16 +441,6 @@
     position: relative;
     display: flex;
     justify-content: center;
-  }
-  .itinerary-rail::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 50%;
-    width: 1px;
-    background: var(--sb-border);
-    transform: translateX(-50%);
   }
   .itinerary-dot {
     position: relative;

@@ -2,6 +2,7 @@
 layout: page
 title: ソンクラン（タイ正月）とは
 permalink: /events/songkran/
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Grand_songkran_%28Thai_New_Year_%29_Water_Festival.jpg/960px-Grand_songkran_%28Thai_New_Year_%29_Water_Festival.jpg"
 ---
 
 <figure class="hero-photo">

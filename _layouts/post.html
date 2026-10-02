@@ -290,6 +290,10 @@ layout: default
             timeSpan.className = 'itinerary-time';
             timeSpan.textContent = timeLabel;
             itemLi.appendChild(timeSpan);
+            var railSpan = document.createElement('span');
+            railSpan.className = 'itinerary-rail';
+            railSpan.innerHTML = '<span class="itinerary-dot"></span>';
+            itemLi.appendChild(railSpan);
             var descSpan = document.createElement('span');
             descSpan.className = 'itinerary-desc';
             descSpan.innerHTML = desc;

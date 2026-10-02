@@ -34,9 +34,27 @@ layout: default
     font-size: 20px; line-height: 1; color: #00704A;
     text-shadow: 0 1px 2px rgba(0,0,0,0.35), 0 0 1px #fff;
   }
+
+  .quick-links { display: flex; flex-wrap: wrap; gap: 0.6rem 1.2rem; margin: 0 0 1.5rem; }
+  .quick-links a { font-size: 0.85rem; font-weight: 700; color: var(--sb-green); }
+  .month-picks-heading { font-weight: 700; font-size: 0.95rem; color: var(--sb-green-dark); margin: 0 0 0.6rem; }
+  .month-picks-list { display: flex; flex-direction: column; margin: 0 0 1.5rem; }
+  .month-picks-list a {
+    display: flex; justify-content: space-between; align-items: baseline;
+    padding: 0.6rem 0; border-bottom: 1px solid var(--sb-border); font-weight: 600;
+  }
+  .month-picks-list a:first-child { padding-top: 0; }
+  .month-picks-country { color: var(--sb-brown-soft); font-weight: 400; font-size: 0.85rem; }
 </style>
 
 {{ content }}
+
+<div id="month-highlights"></div>
+
+<div class="quick-links">
+  <a href="{{ site.baseurl }}/results/?nights=3">短い休みで行ける</a>
+  <a href="{{ site.baseurl }}/results/?budget=80000">予算を抑えたい</a>
+</div>
 
 <div id="search-panel">
   <div>
@@ -99,6 +117,22 @@ layout: default
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
   var destinations = {{ site.data.destinations | jsonify }};
+
+  (function () {
+    var month = new Date().getMonth() + 1;
+    var picks = destinations.filter(function (d) {
+      return d.best_months && d.best_months.indexOf(month) !== -1;
+    }).slice(0, 3);
+    var wrap = document.getElementById('month-highlights');
+    if (picks.length === 0) { return; }
+    var html = '<div class="month-picks-heading">' + month + '月のおすすめ</div>';
+    html += '<div class="month-picks-list">';
+    picks.forEach(function (d) {
+      html += '<a href="{{ site.baseurl }}' + d.url + '">' + d.name + '<span class="month-picks-country">' + d.country + '</span></a>';
+    });
+    html += '</div>';
+    wrap.innerHTML = html;
+  })();
 
   var map = L.map('trip-map', { scrollWheelZoom: false });
   L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {

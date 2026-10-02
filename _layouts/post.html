@@ -314,13 +314,7 @@ layout: default
         }
 
         var headingText = itineraryHeading.textContent;
-        var tagMatch = headingText.match(/(やす旅.ゆる旅|やす旅|ゆる旅|ラグ旅)/);
-        var targetTiers = [];
-        if (tagMatch) {
-          if (tagMatch[1].indexOf('やす旅') !== -1) { targetTiers.push('やす旅'); }
-          if (tagMatch[1].indexOf('ゆる旅') !== -1) { targetTiers.push('ゆる旅'); }
-          if (tagMatch[1].indexOf('ラグ旅') !== -1) { targetTiers.push('ラグ旅'); }
-        }
+        var targetTiers = headingText.match(/やす旅|ゆる旅|ラグ旅/g) || [];
 
         var attached = false;
         targetTiers.forEach(function (tierName, idx) {

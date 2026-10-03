@@ -17,19 +17,33 @@ layout: default
     display: flex;
     align-items: flex-end;
   }
+  .hero-link {
+    position: absolute; inset: 0; z-index: 0; display: block;
+  }
   .hero-bg {
     position: absolute; inset: 0; width: 100%; height: 100%;
     object-fit: cover; object-position: center 60%;
+    opacity: 0; transition: opacity 1.2s ease;
   }
+  .hero-bg.active { opacity: 1; }
   .hero-scrim {
-    position: absolute; inset: 0;
+    position: absolute; inset: 0; z-index: 0;
     background: linear-gradient(180deg, rgba(30,57,50,0.15) 0%, rgba(30,57,50,0.15) 40%, rgba(17,32,27,0.88) 100%);
+    pointer-events: none;
   }
   .hero-inner {
     position: relative; z-index: 1;
     width: 100%; max-width: 800px; margin: 0 auto;
     padding: 0 30px 2.5rem;
     color: #fff;
+    pointer-events: none;
+  }
+  .hero-slide-label {
+    display: inline-block;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    color: rgba(255,255,255,0.85);
   }
   .hero-title {
     font-family: "Noto Serif JP", serif;
@@ -93,11 +107,15 @@ layout: default
 </style>
 
 <section class="hero">
-  <img class="hero-bg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Klong_Prao_Beach%2C_west_coast_of_Ko_Chang_Island%2C_Thailand.jpg/960px-Klong_Prao_Beach%2C_west_coast_of_Ko_Chang_Island%2C_Thailand.jpg" alt="タイ・チャン島のビーチ">
+  <a class="hero-link" id="hero-link" href="{{ site.baseurl }}/articles/" aria-label="おすすめの島へ">
+    <img class="hero-bg active" id="hero-bg-a" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Klong_Prao_Beach%2C_west_coast_of_Ko_Chang_Island%2C_Thailand.jpg/960px-Klong_Prao_Beach%2C_west_coast_of_Ko_Chang_Island%2C_Thailand.jpg" alt="">
+    <img class="hero-bg" id="hero-bg-b" src="" alt="">
+  </a>
   <div class="hero-scrim"></div>
   <div class="hero-inner">
     <h1 class="hero-title">予算で選ぶ、アジアの楽園へ</h1>
     <p class="hero-sub">やす旅・ゆる旅・ラグ旅。3つの予算プランでまとめました。</p>
+    <span class="hero-slide-label" id="hero-slide-label"></span>
   </div>
 </section>
 
@@ -166,6 +184,44 @@ layout: default
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
   var destinations = {{ site.data.destinations | jsonify }};
+
+  (function () {
+    var slides = destinations.filter(function (d) { return d.photo; }).map(function (d) {
+      return { photo: d.photo, name: d.name, url: '{{ site.baseurl }}' + d.url };
+    });
+    if (slides.length === 0) { return; }
+
+    var imgA = document.getElementById('hero-bg-a');
+    var imgB = document.getElementById('hero-bg-b');
+    var link = document.getElementById('hero-link');
+    var label = document.getElementById('hero-slide-label');
+    var idx = 0;
+    var showingA = true;
+
+    function applySlide(el, slide) {
+      el.src = slide.photo;
+      el.alt = slide.name;
+    }
+
+    applySlide(imgA, slides[0]);
+    link.href = slides[0].url;
+    label.textContent = slides[0].name;
+
+    if (slides.length > 1) {
+      setInterval(function () {
+        idx = (idx + 1) % slides.length;
+        var next = slides[idx];
+        var incoming = showingA ? imgB : imgA;
+        var outgoing = showingA ? imgA : imgB;
+        applySlide(incoming, next);
+        incoming.classList.add('active');
+        outgoing.classList.remove('active');
+        link.href = next.url;
+        label.textContent = next.name;
+        showingA = !showingA;
+      }, 4500);
+    }
+  })();
 
   (function () {
     var month = new Date().getMonth() + 1;

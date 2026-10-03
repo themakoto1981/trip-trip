@@ -625,4 +625,27 @@
     transform: translateY(0);
   }
   #back-to-top:hover { background: var(--sb-green-dark); }
+
+  /* Related posts */
+  .related-posts { margin: 2.5rem 0; }
+  .related-posts h3 { font-family: "Noto Serif JP", serif; color: var(--sb-green-dark); font-size: 1.1rem; margin: 0 0 1rem; }
+  .related-list { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; }
+  .related-card { display: block; text-decoration: none; color: inherit; }
+  .related-card img { width: 100%; aspect-ratio: 4/3; object-fit: cover; border-radius: 6px; margin-bottom: 0.5rem; }
+  .related-card-title { display: block; font-size: 0.85rem; font-weight: 600; color: var(--sb-brown); line-height: 1.5; }
+  @media screen and (max-width: 600px) { .related-list { grid-template-columns: 1fr; } }
+
+  /* Prev/next nav */
+  .post-adjacent { display: flex; gap: 1rem; margin: 2rem 0; border-top: 1px solid var(--sb-border); border-bottom: 1px solid var(--sb-border); padding: 1rem 0; }
+  .post-adjacent-link { flex: 1; text-decoration: none; color: inherit; }
+  .post-adjacent-link.next { text-align: right; }
+  .post-adjacent-label { display: block; font-size: 0.75rem; color: var(--sb-brown-soft); margin-bottom: 0.25rem; }
+  .post-adjacent-title { display: block; font-weight: 600; font-size: 0.9rem; color: var(--sb-green-dark); }
+  @media screen and (max-width: 600px) { .post-adjacent { flex-direction: column; } .post-adjacent-link.next { text-align: left; } }
+
+  /* Author card */
+  .author-card { display: flex; align-items: center; gap: 1rem; margin: 2rem 0; padding: 1.25rem; background: var(--sb-cream); border-radius: 10px; }
+  .author-card-avatar { width: 56px; height: 56px; border-radius: 50%; object-fit: cover; flex-shrink: 0; }
+  .author-card-name { font-weight: 700; color: var(--sb-green-dark); margin: 0 0 0.25rem; }
+  .author-card-bio { font-size: 0.85rem; color: var(--sb-brown-soft); margin: 0; }
 </style>

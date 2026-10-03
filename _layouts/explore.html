@@ -42,6 +42,19 @@ layout: default
     pointer-events: none;
   }
   .hero-slide-label::after { content: "›"; font-size: 1rem; line-height: 1; }
+  .hero-season-badge {
+    position: absolute; right: 1.25rem; top: 1rem; z-index: 1;
+    display: none;
+    align-items: center; gap: 0.3rem;
+    background: var(--sb-gold);
+    color: var(--sb-green-dark);
+    padding: 0.35rem 0.8rem;
+    border-radius: 999px;
+    font-size: 0.78rem;
+    font-weight: 700;
+    pointer-events: none;
+  }
+  .hero-season-badge.show { display: inline-flex; }
   .hero-caption {
     background: var(--sb-cream);
     padding: 1.75rem 30px 1.5rem;
@@ -135,14 +148,6 @@ layout: default
     text-shadow: 0 1px 2px rgba(0,0,0,0.35), 0 0 1px #fff;
   }
 
-  .month-picks-heading { font-weight: 700; font-size: 0.95rem; color: var(--sb-green-dark); margin: 0 0 0.6rem; }
-  .month-picks-list { display: flex; flex-direction: column; margin: 0 0 1.5rem; }
-  .month-picks-list a {
-    display: flex; justify-content: space-between; align-items: baseline;
-    padding: 0.6rem 0; border-bottom: 1px solid var(--sb-border); font-weight: 600;
-  }
-  .month-picks-list a:first-child { padding-top: 0; }
-  .month-picks-country { color: var(--sb-brown-soft); font-weight: 400; font-size: 0.85rem; }
 </style>
 
 <section class="hero">
@@ -152,6 +157,7 @@ layout: default
       <img class="hero-bg" id="hero-bg-b" src="" alt="">
     </a>
     <span class="hero-slide-label" id="hero-slide-label"></span>
+    <span class="hero-season-badge" id="hero-season-badge">☀️ 今がベストシーズン</span>
   </div>
   <div class="hero-caption">
     <div class="hero-caption-inner">
@@ -162,8 +168,6 @@ layout: default
 </section>
 
 {{ content }}
-
-<div id="month-highlights"></div>
 
 <div class="search-card">
   <p class="search-card-label">条件から探す</p>
@@ -231,8 +235,12 @@ layout: default
   var destinations = {{ site.data.destinations | jsonify }};
 
   (function () {
+    var currentMonth = new Date().getMonth() + 1;
     var slides = destinations.filter(function (d) { return d.photo; }).map(function (d) {
-      return { photo: d.photo, name: d.name, url: '{{ site.baseurl }}' + d.url };
+      return {
+        photo: d.photo, name: d.name, url: '{{ site.baseurl }}' + d.url,
+        inSeason: !!(d.best_months && d.best_months.indexOf(currentMonth) !== -1)
+      };
     });
     if (slides.length === 0) { return; }
 
@@ -240,6 +248,7 @@ layout: default
     var imgB = document.getElementById('hero-bg-b');
     var link = document.getElementById('hero-link');
     var label = document.getElementById('hero-slide-label');
+    var badge = document.getElementById('hero-season-badge');
     var idx = 0;
     var showingA = true;
 
@@ -248,9 +257,14 @@ layout: default
       el.alt = slide.name;
     }
 
+    function applyMeta(slide) {
+      link.href = slide.url;
+      label.textContent = slide.name + 'の行き方を読む';
+      badge.classList.toggle('show', slide.inSeason);
+    }
+
     applySlide(imgA, slides[0]);
-    link.href = slides[0].url;
-    label.textContent = slides[0].name + 'の行き方を読む';
+    applyMeta(slides[0]);
 
     if (slides.length > 1) {
       setInterval(function () {
@@ -261,27 +275,10 @@ layout: default
         applySlide(incoming, next);
         incoming.classList.add('active');
         outgoing.classList.remove('active');
-        link.href = next.url;
-        label.textContent = next.name + 'の行き方を読む';
+        applyMeta(next);
         showingA = !showingA;
       }, 4500);
     }
-  })();
-
-  (function () {
-    var month = new Date().getMonth() + 1;
-    var picks = destinations.filter(function (d) {
-      return d.best_months && d.best_months.indexOf(month) !== -1;
-    }).slice(0, 3);
-    var wrap = document.getElementById('month-highlights');
-    if (picks.length === 0) { return; }
-    var html = '<div class="month-picks-heading">' + month + '月のおすすめ</div>';
-    html += '<div class="month-picks-list">';
-    picks.forEach(function (d) {
-      html += '<a href="{{ site.baseurl }}' + d.url + '">' + d.name + '<span class="month-picks-country">' + d.country + '</span></a>';
-    });
-    html += '</div>';
-    wrap.innerHTML = html;
   })();
 
   var map = L.map('trip-map', { scrollWheelZoom: false });

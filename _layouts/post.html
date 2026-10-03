@@ -243,6 +243,24 @@ layout: default
                   info.marker.openPopup();
                   document.getElementById('spot-map').scrollIntoView({ behavior: 'smooth', block: 'center' });
                 });
+
+                // 名前と説明文を別の行に分ける（：以降をspanでまとめる）
+                var descSpan = document.createElement('span');
+                descSpan.className = 'spot-desc';
+                var node = strong.nextSibling;
+                while (node) {
+                  var next = node.nextSibling;
+                  descSpan.appendChild(node);
+                  node = next;
+                }
+                descSpan.textContent = descSpan.textContent.replace(/^：/, '');
+
+                var textWrap = document.createElement('div');
+                textWrap.className = 'spot-text';
+                li.insertBefore(textWrap, strong);
+                textWrap.appendChild(strong);
+                textWrap.appendChild(descSpan);
+
                 if (info.image) {
                   li.classList.add('spot-list-item');
                   var thumb = document.createElement('img');

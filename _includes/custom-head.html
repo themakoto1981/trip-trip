@@ -649,4 +649,22 @@
   .author-card-avatar { width: 56px; height: 56px; border-radius: 50%; object-fit: cover; object-position: 50% 12%; flex-shrink: 0; }
   .author-card-name { font-weight: 700; color: var(--sb-green-dark); margin: 0 0 0.25rem; }
   .author-card-bio { font-size: 0.85rem; color: var(--sb-brown-soft); margin: 0; }
+
+  /* Schedule tag */
+  .schedule-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    background: var(--sb-cream);
+    color: var(--sb-green-dark);
+    border: 1px solid var(--sb-gold);
+    border-radius: 999px;
+    padding: 0.25rem 0.8rem;
+    font-size: 0.78rem;
+    font-weight: 700;
+    text-decoration: none;
+    margin-top: 0.4rem;
+  }
+  .schedule-tag::before { content: "📅"; font-size: 0.8rem; }
+  .schedule-tag:hover { background: var(--sb-gold); color: var(--sb-green-dark); }
 </style>

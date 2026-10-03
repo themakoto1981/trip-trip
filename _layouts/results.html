@@ -108,7 +108,7 @@ layout: default
   if (allOffSeason) {
     var warnEl2 = document.createElement('p');
     warnEl2.style.cssText = 'background:#F3ECE0;color:#8a6d3b;padding:0.75rem 1rem;border-radius:8px;margin-bottom:1.25rem;font-weight:600;';
-    warnEl2.textContent = '☔️ ' + currentMonth + '月はベストシーズンの島がありません。（以下はオフシーズンの参考情報として表示しています）';
+    warnEl2.textContent = currentMonth + '月はベストシーズンの島がありません。（以下はオフシーズンの参考情報として表示しています）';
     document.getElementById('search-summary').insertAdjacentElement('afterend', warnEl2);
   }
   if (allTooShort) {
@@ -119,7 +119,7 @@ layout: default
     var easiestMin = minNightsValues.length ? Math.min.apply(null, minNightsValues) : null;
     var warnEl = document.createElement('p');
     warnEl.style.cssText = 'background:#FCEAE6;color:#B54A32;padding:0.75rem 1rem;border-radius:8px;margin-bottom:1.25rem;font-weight:600;';
-    warnEl.textContent = '⚠️ この日数（' + (nightsLabelMap[nights] || nights + '泊') + '）では、移動時間を考えると現実的に行ける島がありません。' + (easiestMin ? '最低' + easiestMin + '泊以上での検索をおすすめします。' : '') + '（以下は参考情報として表示しています）';
+    warnEl.textContent = 'この日数（' + (nightsLabelMap[nights] || nights + '泊') + '）では、移動時間を考えると現実的に行ける島がありません。' + (easiestMin ? '最低' + easiestMin + '泊以上での検索をおすすめします。' : '') + '（以下は参考情報として表示しています）';
     document.getElementById('search-summary').insertAdjacentElement('afterend', warnEl);
   }
 
@@ -132,21 +132,21 @@ layout: default
       li.className = 'result-card';
       var targetUrl = '{{ site.baseurl }}' + d.url;
       var seasonBadge = d.inSeason
-        ? '<span class="mini-season on">☀️ 今がベストシーズン</span>'
-        : '<span class="mini-season off">☔️ オフシーズン</span>';
+        ? '<span class="mini-season on">今がベストシーズン</span>'
+        : '<span class="mini-season off">オフシーズン</span>';
       var companionBadge = companion
         ? (d.matchesCompanion
-            ? '<span class="mini-season on">👍 ' + (companionLabelMap[companion] || companion) + '向き</span>'
+            ? '<span class="mini-season on">' + (companionLabelMap[companion] || companion) + '向き</span>'
             : '')
         : '';
       var hotelTotalMin = d.hotel_min * nights, hotelTotalMax = d.hotel_max * nights;
       var transportTotalMin = d.transport_min * nights, transportTotalMax = d.transport_max * nights;
       var foodTotalMin = d.food_min * nights, foodTotalMax = d.food_max * nights;
       var breakdown = '<ul class="cost-breakdown">' +
-        '<li>✈️ 航空券（往復）: ' + d.flight_min.toLocaleString() + '〜' + d.flight_max.toLocaleString() + '円</li>' +
-        '<li>🏨 宿泊（' + nights + '泊）: ' + hotelTotalMin.toLocaleString() + '〜' + hotelTotalMax.toLocaleString() + '円</li>' +
-        '<li>🚗 現地移動（' + nights + '日）: ' + transportTotalMin.toLocaleString() + '〜' + transportTotalMax.toLocaleString() + '円</li>' +
-        '<li>🍽️ 食費・アクティビティ（' + nights + '日）: ' + foodTotalMin.toLocaleString() + '〜' + foodTotalMax.toLocaleString() + '円</li>' +
+        '<li>航空券（往復）: ' + d.flight_min.toLocaleString() + '〜' + d.flight_max.toLocaleString() + '円</li>' +
+        '<li>宿泊（' + nights + '泊）: ' + hotelTotalMin.toLocaleString() + '〜' + hotelTotalMax.toLocaleString() + '円</li>' +
+        '<li>現地移動（' + nights + '日）: ' + transportTotalMin.toLocaleString() + '〜' + transportTotalMax.toLocaleString() + '円</li>' +
+        '<li>食費・アクティビティ（' + nights + '日）: ' + foodTotalMin.toLocaleString() + '〜' + foodTotalMax.toLocaleString() + '円</li>' +
         '</ul>';
       li.innerHTML =
         (d.photo ? '<a class="result-banner-link" href="' + targetUrl + '"><img class="result-banner" src="' + d.photo + '" alt="' + d.name + '" loading="lazy"></a>' : '') +

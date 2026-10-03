@@ -500,10 +500,13 @@
   }
   .spot-thumb {
     flex: 0 0 auto;
-    width: 84px;
-    height: 84px;
+    width: 130px;
+    height: 90px;
     object-fit: cover;
     border-radius: 6px;
+  }
+  @media screen and (max-width: 420px) {
+    .spot-thumb { width: 104px; height: 80px; }
   }
 
   /* Hero photo */

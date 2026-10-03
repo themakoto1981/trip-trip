@@ -4,11 +4,21 @@ layout: default
 <style>
   #result-list { list-style: none; padding: 0; }
   #result-list li {
+    display: flex;
+    gap: 1rem;
     padding: 1.1rem 0;
     border-bottom: 1px solid var(--sb-border);
     line-height: 1.8;
   }
   #result-list li:first-child { padding-top: 0; }
+  #result-list .result-thumb {
+    flex: 0 0 auto;
+    width: 108px;
+    height: 108px;
+    object-fit: cover;
+    border-radius: 2px;
+  }
+  #result-list .result-body { flex: 1 1 auto; min-width: 0; }
   #result-list a { font-weight: 600; }
   .no-result { color: #888; }
   .mini-season { display: inline; font-size: 0.8rem; font-weight: 700; }
@@ -112,10 +122,13 @@ layout: default
         '<li>🚗 現地移動（' + nights + '日）: ' + transportTotalMin.toLocaleString() + '〜' + transportTotalMax.toLocaleString() + '円</li>' +
         '<li>🍽️ 食費・アクティビティ（' + nights + '日）: ' + foodTotalMin.toLocaleString() + '〜' + foodTotalMax.toLocaleString() + '円</li>' +
         '</ul>';
-      li.innerHTML = '<a href="{{ site.baseurl }}' + d.url + '">' + d.name + '（' + d.country + '）</a> ' + seasonBadge + ' ' + companionBadge +
+      li.innerHTML = (d.photo ? '<img class="result-thumb" src="' + d.photo + '" alt="' + d.name + '" loading="lazy">' : '') +
+        '<div class="result-body">' +
+        '<a href="{{ site.baseurl }}' + d.url + '">' + d.name + '（' + d.country + '）</a> ' + seasonBadge + ' ' + companionBadge +
         '<br><strong>目安総額: ' + d.totalMin.toLocaleString() + '〜' + d.totalMax.toLocaleString() + '円</strong>' +
         '　おすすめ月: ' + d.best_months.join(', ') + '月' +
-        breakdown;
+        breakdown +
+        '</div>';
       list.appendChild(li);
     });
   }

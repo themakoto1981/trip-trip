@@ -120,18 +120,22 @@ koh-chang-guide:
     lat: 12.1181
     lng: 102.2642
     desc: 島いちばんの繁華ビーチ、レストランやバーが集まる
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Ko_Chang_White_Sand_Beach.jpg/960px-Ko_Chang_White_Sand_Beach.jpg"
   - name: クロンプルー滝
     lat: 12.0658
     lng: 102.3141
     desc: ジャングルの中の滝、トレッキングで訪れる
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Klong_Plu_waterfall_-_panoramio_%281%29.jpg/960px-Klong_Plu_waterfall_-_panoramio_%281%29.jpg"
   - name: バンバオ漁村
     lat: 11.9704
     lng: 102.3133
     desc: 水上の桟橋に建つ漁村、シーフードレストランが並ぶ
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Ko_Chang_Ban_Bang_Bao_Trat_Thailand.jpg/960px-Ko_Chang_Ban_Bang_Bao_Trat_Thailand.jpg"
   - name: ロンリービーチ
     lat: 12.0070
     lng: 102.2933
     desc: バックパッカーに人気のナイトライフエリア、南西部の人気ビーチ
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Koh_Chang%2C_Thailand%2C_Sunset_at_Lonely_Beach.jpg/960px-Koh_Chang%2C_Thailand%2C_Sunset_at_Lonely_Beach.jpg"
 
 pulau-pari-guide:
   - name: パシール・プラワンビーチ

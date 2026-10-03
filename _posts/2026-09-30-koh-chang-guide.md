@@ -41,11 +41,11 @@ excerpt: "プーケットに次ぐタイ第2の広さを誇るチャン島。ジ
 
 移動に時間がかかるので、現地で2日しっかり楽しむには**3泊以上**がおすすめです。
 
-- **やす旅**：陸路（パタヤ経由）＋LCCのZipair。時間はかかるが一番安い<br><a class="schedule-tag" href="https://www.zipair.net/ja">Zipairの最新スケジュール</a> <a class="itinerary-jump" href="#itinerary-yasu">旅程を見る ▶</a>
-- **ゆる旅**：陸路（パタヤ経由、パタヤ観光もできる）＋ANA。復路はバンコク22:25発の夜行便を使うことで、前泊・後泊なしで島を4泊満喫できます<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a> <a class="itinerary-jump" href="#itinerary-yuru">旅程を見る ▶</a>
-- **ラグ旅**：飛行機で直接トラートへ＋ANA。移動時間を最小限に。深夜発の便でバンコク到着後すぐトラート便に乗り継げ、復路も夜行便を使うことで、前泊・後泊なしの3泊4日で組めます<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a> <a class="itinerary-jump" href="#itinerary-ragu">旅程を見る ▶</a>
+- **やす旅**：陸路（パタヤ経由）＋LCCのZipair。時間はかかるが一番安い<br><a class="schedule-tag" href="https://www.zipair.net/ja">Zipairの最新スケジュール</a>
+- **ゆる旅**：陸路（パタヤ経由、パタヤ観光もできる）＋ANA。復路はバンコク22:25発の夜行便を使うことで、前泊・後泊なしで島を4泊満喫できます<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
+- **ラグ旅**：飛行機で直接トラートへ＋ANA。移動時間を最小限に。深夜発の便でバンコク到着後すぐトラート便に乗り継げ、復路も夜行便を使うことで、前泊・後泊なしの3泊4日で組めます<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
 
-## おすすめ旅程（やす旅向け／陸路ルート・パタヤ経由・LCC利用・4泊5日の例） {: #itinerary-yasu}
+## おすすめ旅程（やす旅向け／陸路ルート・パタヤ経由・LCC利用・4泊5日の例）
 
 **1日目**
 - 17:00　成田発（Zipair直行便ZG51）
@@ -72,7 +72,7 @@ excerpt: "プーケットに次ぐタイ第2の広さを誇るチャン島。ジ
 - 14:00頃　バンコク着
 - 23:10　バンコク発（Zipair直行便ZG52）→ 翌07:30　成田着
 
-## おすすめ旅程（ゆる旅向け／陸路ルート・パタヤ経由・4泊5日の例） {: #itinerary-yuru}
+## おすすめ旅程（ゆる旅向け／陸路ルート・パタヤ経由・4泊5日の例）
 
 **1日目**
 - 11:05　羽田発（ANA直行便NH847）
@@ -99,7 +99,7 @@ excerpt: "プーケットに次ぐタイ第2の広さを誇るチャン島。ジ
 - 16:00頃　バンコク着。市内で夕食や休憩をとりながら出発まで待機
 - 22:25　バンコク発（ANA夜行直行便NH850）→ 翌06:05　羽田着
 
-## おすすめ旅程（ラグ旅向け／飛行機ルート・3泊4日の例） {: #itinerary-ragu}
+## おすすめ旅程（ラグ旅向け／飛行機ルート・3泊4日の例）
 
 **1日目**
 - 0:05　羽田発（ANA深夜直行便NH849、前日22:00頃までに空港へ）

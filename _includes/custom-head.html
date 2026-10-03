@@ -626,13 +626,13 @@
   #back-to-top {
     position: fixed;
     right: 1rem;
-    bottom: 1rem;
+    bottom: calc(1.5rem + env(safe-area-inset-bottom));
     z-index: 500;
     background: var(--sb-green);
     color: #fff;
     border: none;
     border-radius: 20px;
-    padding: 0.5rem 0.9rem;
+    padding: 0.65rem 1.1rem;
     font-size: 0.8rem;
     font-weight: 700;
     box-shadow: 0 2px 8px rgba(30, 57, 50, 0.25);

@@ -95,9 +95,9 @@
 
   /* Header */
   .site-header {
-    background-color: var(--sb-green-dark);
+    background-color: var(--sb-cream);
     border-top: none;
-    border-bottom: 2px solid var(--sb-gold);
+    border-bottom: 1px solid var(--sb-border);
   }
   .site-header .site-title,
   .site-header .site-title:visited {
@@ -110,11 +110,11 @@
   }
   .site-nav .page-link,
   .site-nav .page-link:visited {
-    color: #F7F3EA !important;
+    color: var(--sb-green-dark) !important;
     font-weight: 500;
   }
-  .site-nav .page-link:hover { color: var(--sb-gold) !important; }
-  .site-nav .menu-icon > svg path { fill: #F7F3EA; }
+  .site-nav .page-link:hover { color: var(--sb-green) !important; }
+  .site-nav .menu-icon > svg path { fill: var(--sb-green-dark); }
   .site-nav label[for="nav-trigger"] {
     background: transparent !important;
     border: none !important;
@@ -124,8 +124,8 @@
   .site-nav label[for="nav-trigger"]:hover { opacity: 0.8; }
   @media screen and (max-width: 600px) {
     .site-nav {
-      background-color: var(--sb-green-dark);
-      border: none;
+      background-color: var(--sb-cream);
+      border: 1px solid var(--sb-border);
       border-radius: 0;
     }
   }

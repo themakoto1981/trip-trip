@@ -8,7 +8,7 @@ permalink: /grab/
 
 ## 使い方
 
-1. App StoreまたはGoogle Playで「Grab」をダウンロードし、電話番号で認証する
+1. [App Store](https://apps.apple.com/app/grab-taxi-food-delivery/id647268330)または[Google Play](https://play.google.com/store/apps/details?id=com.grabtaxi.passenger)で「Grab」をダウンロードし、電話番号で認証する
 2. クレジットカードを登録しておくとキャッシュレスで乗車できる（現金払いも選択可）
 3. 地図上に現在地と行き先のピンを立てて配車をリクエスト
 4. ドライバーの顔写真・車種・ナンバープレート・到着予想時間が表示されるので、その車を待つだけ

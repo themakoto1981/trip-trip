@@ -1,4 +1,21 @@
 <hr>
+<h3>コメント</h3>
+<div id="disqus_thread"></div>
+<script>
+  var disqus_config = function () {
+    this.page.url = "{{ page.url | absolute_url }}";
+    this.page.identifier = "{{ page.url }}";
+  };
+  (function() {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://tripxtrip.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+</script>
+<noscript>コメントの表示にはJavaScriptを有効にしてください。<a href="https://disqus.com/?ref_noscript">Disqus</a></noscript>
+
+<hr>
 <h3>この島の情報を投稿する</h3>
 <p class="post-meta">行ったことがある、情報の間違いを見つけた、など気軽に教えてください。</p>
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeLIH3XkSRcJEEoiouK91buR09CeUPCiJzzV01EHE5FnERhsQ/viewform?embedded=true" width="100%" height="900" frameborder="0" marginheight="0" marginwidth="0" style="max-width: 640px; border: 1px solid var(--sb-border); border-radius: 8px;">読み込んでいます…</iframe>

@@ -386,6 +386,47 @@ layout: default
   })();
   </script>
 
+  {%- assign country = page.categories[0] -%}
+  {%- assign related = site.categories[country] | where_exp: "p", "p.url != page.url" | slice: 0, 3 -%}
+  {%- if related.size > 0 -%}
+  <section class="related-posts">
+    <h3>{{ country }}の記事</h3>
+    <div class="related-list">
+      {%- for p in related -%}
+      <a class="related-card" href="{{ p.url | relative_url }}">
+        {%- if p.image -%}<img src="{{ p.image }}" alt="" loading="lazy">{%- endif -%}
+        <span class="related-card-title">{{ p.title | split: "｜" | first }}</span>
+      </a>
+      {%- endfor -%}
+    </div>
+  </section>
+  {%- endif -%}
+
+  {%- if page.previous or page.next -%}
+  <nav class="post-adjacent">
+    {%- if page.previous -%}
+    <a class="post-adjacent-link prev" href="{{ page.previous.url | relative_url }}">
+      <span class="post-adjacent-label">前の記事</span>
+      <span class="post-adjacent-title">{{ page.previous.title | split: "｜" | first }}</span>
+    </a>
+    {%- endif -%}
+    {%- if page.next -%}
+    <a class="post-adjacent-link next" href="{{ page.next.url | relative_url }}">
+      <span class="post-adjacent-label">次の記事</span>
+      <span class="post-adjacent-title">{{ page.next.title | split: "｜" | first }}</span>
+    </a>
+    {%- endif -%}
+  </nav>
+  {%- endif -%}
+
+  <div class="author-card">
+    <img class="author-card-avatar" src="{{ '/assets/images/author-avatar.jpg' | relative_url }}" alt="MAKOTO">
+    <div class="author-card-body">
+      <p class="author-card-name">MAKOTO</p>
+      <p class="author-card-bio">日本から行けるアジアの島・ビーチの情報を発信しています。</p>
+    </div>
+  </div>
+
   {%- include comments.html -%}
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>

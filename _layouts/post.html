@@ -213,7 +213,7 @@ layout: default
             var popupHtml = '<strong>' + s.name + '</strong>' + (s.desc ? '<br>' + s.desc : '') +
               '<br><a href="' + gmapsUrl + '" target="_blank" rel="noopener">Googleマップで開く ↗</a>';
             m.bindPopup(popupHtml);
-            spotMarkersByName[s.name] = { marker: m, lat: s.lat, lng: s.lng };
+            spotMarkersByName[s.name] = { marker: m, lat: s.lat, lng: s.lng, image: s.image };
             return m;
           });
 
@@ -237,12 +237,21 @@ layout: default
               });
               if (matchedName) {
                 strong.classList.add('spot-link');
+                var info = spotMarkersByName[matchedName];
                 strong.addEventListener('click', function () {
-                  var info = spotMarkersByName[matchedName];
                   spotMap.setView([info.lat, info.lng], 15);
                   info.marker.openPopup();
                   document.getElementById('spot-map').scrollIntoView({ behavior: 'smooth', block: 'center' });
                 });
+                if (info.image) {
+                  li.classList.add('spot-list-item');
+                  var thumb = document.createElement('img');
+                  thumb.className = 'spot-thumb';
+                  thumb.src = info.image;
+                  thumb.alt = matchedName;
+                  thumb.loading = 'lazy';
+                  li.insertBefore(thumb, li.firstChild);
+                }
               }
             });
           }

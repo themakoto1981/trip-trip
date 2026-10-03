@@ -2,24 +2,48 @@
 layout: default
 ---
 <style>
-  #result-list { list-style: none; padding: 0; }
-  #result-list li {
-    display: flex;
-    gap: 1rem;
-    padding: 1.1rem 0;
+  #result-list { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 1.5rem; }
+  #result-list li.result-card {
+    padding-bottom: 1.5rem;
     border-bottom: 1px solid var(--sb-border);
-    line-height: 1.8;
   }
-  #result-list li:first-child { padding-top: 0; }
-  #result-list .result-thumb {
-    flex: 0 0 auto;
-    width: 108px;
-    height: 108px;
+  #result-list li.result-card:last-child { border-bottom: none; padding-bottom: 0; }
+  .result-banner-link { display: block; }
+  .result-banner {
+    width: 100%;
+    height: 44vw;
+    max-height: 220px;
+    min-height: 140px;
     object-fit: cover;
     border-radius: 2px;
+    margin-bottom: 0.75rem;
   }
-  #result-list .result-body { flex: 1 1 auto; min-width: 0; }
-  #result-list a { font-weight: 600; }
+  .result-card-head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.6rem;
+    margin-bottom: 0.3rem;
+  }
+  .result-name { font-weight: 700; font-size: 1.1rem; }
+  .result-card-price {
+    font-family: "Noto Serif JP", serif;
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: var(--sb-green-dark);
+    margin-bottom: 0.2rem;
+  }
+  .result-card-meta { color: var(--sb-brown-soft); font-size: 0.9rem; margin-bottom: 0.5rem; }
+  .result-breakdown summary {
+    cursor: pointer;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--sb-green);
+    list-style: none;
+  }
+  .result-breakdown summary::-webkit-details-marker { display: none; }
+  .result-breakdown summary::before { content: "内訳を見る ▾"; }
+  .result-breakdown[open] summary::before { content: "内訳を閉じる ▴"; }
   .no-result { color: #888; }
   .mini-season { display: inline; font-size: 0.8rem; font-weight: 700; }
   .mini-season.on { color: var(--sb-green); }
@@ -27,7 +51,7 @@ layout: default
   .mini-season.warn { color: #B54A32; }
   .search-summary { color: var(--sb-brown-soft); margin-bottom: 1.25rem; }
   .back-link { display: inline-block; margin-top: 1.5rem; }
-  .cost-breakdown { list-style: none; padding: 0; margin: 0.5rem 0 0; font-size: 0.85rem; color: var(--sb-brown-soft); line-height: 1.7; }
+  .cost-breakdown { list-style: none; padding: 0; margin: 0.6rem 0 0; font-size: 0.85rem; color: var(--sb-brown-soft); line-height: 1.7; }
 </style>
 
 <h1>検索結果</h1>
@@ -105,6 +129,8 @@ layout: default
   } else {
     filtered.forEach(function (d) {
       var li = document.createElement('li');
+      li.className = 'result-card';
+      var targetUrl = '{{ site.baseurl }}' + d.url;
       var seasonBadge = d.inSeason
         ? '<span class="mini-season on">☀️ 今がベストシーズン</span>'
         : '<span class="mini-season off">☔️ オフシーズン</span>';
@@ -122,13 +148,14 @@ layout: default
         '<li>🚗 現地移動（' + nights + '日）: ' + transportTotalMin.toLocaleString() + '〜' + transportTotalMax.toLocaleString() + '円</li>' +
         '<li>🍽️ 食費・アクティビティ（' + nights + '日）: ' + foodTotalMin.toLocaleString() + '〜' + foodTotalMax.toLocaleString() + '円</li>' +
         '</ul>';
-      li.innerHTML = (d.photo ? '<img class="result-thumb" src="' + d.photo + '" alt="' + d.name + '" loading="lazy">' : '') +
-        '<div class="result-body">' +
-        '<a href="{{ site.baseurl }}' + d.url + '">' + d.name + '（' + d.country + '）</a> ' + seasonBadge + ' ' + companionBadge +
-        '<br><strong>目安総額: ' + d.totalMin.toLocaleString() + '〜' + d.totalMax.toLocaleString() + '円</strong>' +
-        '　おすすめ月: ' + d.best_months.join(', ') + '月' +
-        breakdown +
-        '</div>';
+      li.innerHTML =
+        (d.photo ? '<a class="result-banner-link" href="' + targetUrl + '"><img class="result-banner" src="' + d.photo + '" alt="' + d.name + '" loading="lazy"></a>' : '') +
+        '<div class="result-card-head">' +
+        '<a class="result-name" href="' + targetUrl + '">' + d.name + '（' + d.country + '）</a> ' + seasonBadge + ' ' + companionBadge +
+        '</div>' +
+        '<div class="result-card-price">目安総額 ' + d.totalMin.toLocaleString() + '〜' + d.totalMax.toLocaleString() + '円</div>' +
+        '<div class="result-card-meta">おすすめ月: ' + d.best_months.join(', ') + '月</div>' +
+        '<details class="result-breakdown"><summary></summary>' + breakdown + '</details>';
       list.appendChild(li);
     });
   }

@@ -64,18 +64,52 @@ layout: default
     .hero-title { font-size: 1.9rem; }
   }
 
-  #search-panel {
-    display: flex; flex-wrap: wrap; gap: 1rem 1.5rem; align-items: flex-end;
-    margin: 1.5rem 0; padding: 1.25rem 0;
-    border-top: 1px solid var(--sb-border); border-bottom: 1px solid var(--sb-border);
+  .search-card {
+    position: relative;
+    z-index: 1;
+    max-width: 800px;
+    margin: -2.25rem auto 2rem;
+    padding: 1.5rem 1.5rem 1.25rem;
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 0 8px 28px rgba(30,57,50,0.12);
   }
-  #search-panel div { display: flex; flex-direction: column; }
-  #search-panel label { font-size: 0.85rem; margin-bottom: 0.25rem; color: var(--sb-brown-soft); }
+  .search-card-label {
+    font-size: 0.8rem; font-weight: 700; letter-spacing: 0.02em;
+    color: var(--sb-green-dark); margin: 0 0 1rem;
+  }
+  #search-panel {
+    display: flex; flex-wrap: wrap; gap: 1rem 1.25rem; align-items: flex-end;
+    margin: 0; padding: 0; border: none;
+  }
+  #search-panel div { display: flex; flex-direction: column; flex: 1 1 140px; min-width: 120px; }
+  #search-panel label { font-size: 0.78rem; margin-bottom: 0.4rem; color: var(--sb-brown-soft); font-weight: 500; }
+  #search-panel select {
+    appearance: none; -webkit-appearance: none;
+    background-color: var(--sb-cream);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%2356463A' stroke-width='1.5' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 0.75rem center;
+    background-size: 10px;
+    border: 1px solid var(--sb-border);
+    border-radius: 8px;
+    padding: 0.55rem 1.9rem 0.55rem 0.8rem;
+    font-size: 0.9rem;
+    font-family: inherit;
+    color: var(--sb-brown);
+    cursor: pointer;
+  }
+  #search-panel select:focus { outline: none; border-color: var(--sb-green); }
   #search-btn {
-    background: var(--sb-green); color: #fff; border: none; border-radius: 20px;
-    padding: 0.55rem 1.6rem; font-size: 0.95rem; font-weight: 600; cursor: pointer;
+    background: var(--sb-green); color: #fff; border: none; border-radius: 8px;
+    padding: 0.6rem 1.8rem; font-size: 0.95rem; font-weight: 700; cursor: pointer;
   }
   #search-btn:hover { background: var(--sb-green-dark); }
+  @media screen and (max-width: 480px) {
+    .search-card { margin: -1.5rem 15px 1.75rem; padding: 1.25rem; }
+    #search-panel div { flex: 1 1 100%; }
+    #search-btn { width: 100%; }
+  }
   #trip-map { height: 480px; width: 100%; border: 2px solid var(--sb-green); margin-bottom: 0.5rem; }
   .map-hint { font-size: 0.85rem; color: var(--sb-brown-soft); margin: 0 0 1.5rem; }
   .leaflet-marker-icon { cursor: pointer; }
@@ -124,7 +158,9 @@ layout: default
 
 <div id="month-highlights"></div>
 
-<div id="search-panel">
+<div class="search-card">
+  <p class="search-card-label">条件から探す</p>
+  <div id="search-panel">
   <div>
     <label for="month">いつ行く？</label>
     <select id="month">
@@ -177,6 +213,7 @@ layout: default
   </div>
   <div>
     <button id="search-btn" type="button">検索</button>
+  </div>
   </div>
 </div>
 

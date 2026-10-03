@@ -303,7 +303,7 @@ layout: default
   destinations.forEach(function (d) {
     var marker = L.marker([d.lat, d.lng], { icon: islandIcon }).addTo(map);
     var targetUrl = '{{ site.baseurl }}' + d.url;
-    marker.bindTooltip('<a href="' + targetUrl + '">' + d.name + '</a>', { direction: 'top', offset: [0, -10], className: 'island-label' });
+    marker.bindTooltip('<a href="' + targetUrl + '">' + d.name + '</a>', { direction: 'top', offset: [0, -10], className: 'island-label', interactive: true });
     marker.on('click', function () { window.location.href = targetUrl; });
     markers.push(marker);
   });

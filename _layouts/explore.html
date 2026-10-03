@@ -10,12 +10,14 @@ layout: default
     margin-right: calc(50% - 50vw);
     margin-top: -30px;
     margin-bottom: 2rem;
-    height: 38vh;
-    min-height: 260px;
-    max-height: 420px;
     overflow: hidden;
-    display: flex;
-    align-items: flex-end;
+  }
+  .hero-photo {
+    position: relative;
+    height: 34vh;
+    min-height: 220px;
+    max-height: 380px;
+    overflow: hidden;
   }
   .hero-link {
     position: absolute; inset: 0; z-index: 0; display: block;
@@ -26,44 +28,40 @@ layout: default
     opacity: 0; transition: opacity 1.2s ease;
   }
   .hero-bg.active { opacity: 1; }
-  .hero-scrim {
-    position: absolute; inset: 0; z-index: 0;
-    background: linear-gradient(180deg, rgba(30,57,50,0.15) 0%, rgba(30,57,50,0.15) 40%, rgba(17,32,27,0.88) 100%);
-    pointer-events: none;
-  }
-  .hero-inner {
-    position: relative; z-index: 1;
-    width: 100%; max-width: 800px; margin: 0 auto;
-    padding: 0 30px 2.5rem;
-    color: #fff;
-    pointer-events: none;
-  }
   .hero-slide-label {
-    display: inline-block;
-    font-size: 0.8rem;
+    position: absolute; left: 1.5rem; bottom: 0.9rem; z-index: 1;
+    font-size: 0.78rem;
     font-weight: 600;
     letter-spacing: 0.02em;
-    color: rgba(255,255,255,0.85);
+    color: #fff;
+    text-shadow: 0 1px 4px rgba(0,0,0,0.55);
+    pointer-events: none;
   }
+  .hero-caption {
+    background: var(--sb-cream);
+    padding: 1.75rem 30px 1.5rem;
+  }
+  .hero-caption-inner { max-width: 800px; margin: 0 auto; }
   .hero-title {
     font-family: "Noto Serif JP", serif;
     font-weight: 700;
-    font-size: clamp(1.8rem, 4.5vw, 2.6rem);
-    line-height: 1.35;
-    margin: 0 0 0.75rem;
-    color: #fff;
+    font-size: clamp(2rem, 5.2vw, 3rem);
+    line-height: 1.3;
+    margin: 0 0 0.6rem;
+    color: var(--sb-green-dark);
   }
   .hero-sub {
     font-size: clamp(0.95rem, 2vw, 1.05rem);
     line-height: 1.7;
-    color: rgba(255,255,255,0.92);
-    margin: 0 0 1.4rem;
+    color: var(--sb-brown-soft);
+    margin: 0;
     max-width: 34rem;
   }
   @media screen and (max-width: 600px) {
-    .hero { height: 34vh; min-height: 220px; margin-top: -15px; }
-    .hero-title { font-size: 1.6rem; }
-    .hero-sub { font-size: 0.9rem; margin-bottom: 0; }
+    .hero { margin-top: -15px; }
+    .hero-photo { height: 30vh; min-height: 180px; }
+    .hero-caption { padding: 1.4rem 15px 1.25rem; }
+    .hero-title { font-size: 1.9rem; }
   }
 
   #search-panel {
@@ -107,15 +105,18 @@ layout: default
 </style>
 
 <section class="hero">
-  <a class="hero-link" id="hero-link" href="{{ site.baseurl }}/articles/" aria-label="おすすめの島へ">
-    <img class="hero-bg active" id="hero-bg-a" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Klong_Prao_Beach%2C_west_coast_of_Ko_Chang_Island%2C_Thailand.jpg/960px-Klong_Prao_Beach%2C_west_coast_of_Ko_Chang_Island%2C_Thailand.jpg" alt="">
-    <img class="hero-bg" id="hero-bg-b" src="" alt="">
-  </a>
-  <div class="hero-scrim"></div>
-  <div class="hero-inner">
-    <h1 class="hero-title">予算で選ぶ、アジアの楽園へ</h1>
-    <p class="hero-sub">やす旅・ゆる旅・ラグ旅。3つの予算プランでまとめました。</p>
+  <div class="hero-photo">
+    <a class="hero-link" id="hero-link" href="{{ site.baseurl }}/articles/" aria-label="おすすめの島へ">
+      <img class="hero-bg active" id="hero-bg-a" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Klong_Prao_Beach%2C_west_coast_of_Ko_Chang_Island%2C_Thailand.jpg/960px-Klong_Prao_Beach%2C_west_coast_of_Ko_Chang_Island%2C_Thailand.jpg" alt="">
+      <img class="hero-bg" id="hero-bg-b" src="" alt="">
+    </a>
     <span class="hero-slide-label" id="hero-slide-label"></span>
+  </div>
+  <div class="hero-caption">
+    <div class="hero-caption-inner">
+      <h1 class="hero-title">予算で選ぶ、アジアの楽園へ</h1>
+      <p class="hero-sub">やす旅・ゆる旅・ラグ旅。3つの予算プランでまとめました。</p>
+    </div>
   </div>
 </section>
 

@@ -111,6 +111,7 @@ redang-guide:
     lat: 5.7847
     lng: 103.0138
     desc: レダン島最大のビーチ、白砂が続く
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Pasir_Panjang%2C_Pulau_Redang%2C_Malaysia_%28192498782%29.jpg/960px-Pasir_Panjang%2C_Pulau_Redang%2C_Malaysia_%28192498782%29.jpg"
   - name: マリンパーク（コーラルガーデン）
     lat: 5.7900
     lng: 103.0250
@@ -125,14 +126,17 @@ koh-phiphi-guide:
     lat: 7.6790
     lng: 98.7639
     desc: 映画の舞台にもなった絶景の入り江（ピピレ島）
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Playa_Maya%2C_Ko_Phi_Phi%2C_Tailandia%2C_2013-08-19%2C_DD_13.JPG/960px-Playa_Maya%2C_Ko_Phi_Phi%2C_Tailandia%2C_2013-08-19%2C_DD_13.JPG"
   - name: ビューポイント
     lat: 7.7350
     lng: 98.7770
     desc: 島を一望できる展望スポット（ピピドン島）
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Koh_Phi_Phi_viewpoint_panorama_%284463472771%29.jpg/960px-Koh_Phi_Phi_viewpoint_panorama_%284463472771%29.jpg"
   - name: モンキービーチ
     lat: 7.7480
     lng: 98.7680
     desc: 野生の猿が生息するビーチ
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Monkey_Beach_at_Phi_Phi_Don_Island_-_panoramio.jpg/960px-Monkey_Beach_at_Phi_Phi_Don_Island_-_panoramio.jpg"
 
 koh-chang-guide:
   - name: ホワイトサンドビーチ
@@ -161,43 +165,53 @@ pulau-pari-guide:
     lat: -5.8580
     lng: 106.6150
     desc: 透明度の高い遠浅のビーチ、島のシンボル的存在
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Pantai_Perawan_Pulau_Pari_Kepulauan_Seribu.jpg/960px-Pantai_Perawan_Pulau_Pari_Kepulauan_Seribu.jpg"
   - name: マングローブエリア
     lat: -5.8650
     lng: 106.6100
     desc: マングローブ林の散策路、干潮時は歩いて渡れる
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/East_side_of_Pari_Island%2C_Kepulauan_Seribu_National_Park.jpg/960px-East_side_of_Pari_Island%2C_Kepulauan_Seribu_National_Park.jpg"
 
 phuquoc-guide:
   - name: サオビーチ
     lat: 10.0450
     lng: 104.0170
     desc: 「星の砂」で知られる南部の人気ビーチ
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Bai_Sao_Beach.jpg/960px-Bai_Sao_Beach.jpg"
   - name: ロングビーチ
     lat: 10.1980
     lng: 103.9550
     desc: サンセットの名所、島いちばんの繁華エリア
+    image: "https://upload.wikimedia.org/wikipedia/commons/a/af/Phu-Quoc-Long-Beach.jpg"
   - name: ハムニン漁村
     lat: 10.1650
     lng: 104.0180
     desc: 水上家屋が並ぶ伝統的な漁村
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Ham_Ninh_Phuquoc_Vietnam_-_panoramio.jpg/960px-Ham_Ninh_Phuquoc_Vietnam_-_panoramio.jpg"
 
 koh-samui-guide:
   - name: チャウエンビーチ
     lat: 9.5339
     lng: 100.0681
     desc: 全長5km超、コサムイ島いちばんの繁華ビーチ
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Chaweng_Beach.jpg/960px-Chaweng_Beach.jpg"
   - name: ラマイビーチ
     lat: 9.4646
     lng: 100.0462
     desc: チャウエンに次ぐ賑わいを見せる、やや落ち着いたビーチ
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Lamai_Beach.jpg/960px-Lamai_Beach.jpg"
   - name: フィッシャーマンズビレッジ（ボープット）
     lat: 9.5583
     lng: 100.0313
     desc: 石造りの旧市場通りが残るエリア、金曜夜市が人気
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Bo_Phut_Beach_Ko_Samui.jpg/960px-Bo_Phut_Beach_Ko_Samui.jpg"
   - name: アントン諸島国立海洋公園
     lat: 9.6565
     lng: 99.6660
     desc: 日帰りボートツアーの定番、透明度の高い海でシュノーケリング
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Ang_Thong_National_Marine_Park.jpg/960px-Ang_Thong_National_Marine_Park.jpg"
   - name: ビッグブッダ（ワット・プラ・ヤイ）
     lat: 9.5707
     lng: 100.0601
     desc: 高さ12mの黄金の仏像が鎮座する島のランドマーク
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Wat_Phra_Yai_Samui_1.jpg/960px-Wat_Phra_Yai_Samui_1.jpg"

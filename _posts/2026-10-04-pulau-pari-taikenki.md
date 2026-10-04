@@ -7,7 +7,17 @@ categories: [インドネシア, 島, 体験記]
 excerpt: "ジャカルタ駐在時代の友人に誘われて、パリ島へ弾丸日帰り旅行。道中まさかの野生イルカとの遭遇、大量の魚に出会えたシュノーケリングまで、リアルな記録です。"
 ---
 
-インドネシア滞在中、駐在時代の友人から「ご飯でも行こう」と誘われたのをきっかけに、パリ島へ連れて行ってもらうことになりました。実用情報は[パリ島ビーチ完全ガイド](/2026/09/30/pulau-pari-guide/)にまとめているので、ここでは実際の旅の記録を残しておきます。
+インドネシア滞在中、駐在時代の友人から「ご飯でも行こう」と誘われたのをきっかけに、パリ島へ連れて行ってもらうことになりました。実用情報はこちらにまとめているので、ここでは実際の旅の記録を残しておきます。
+
+<div>
+<a class="experience-card" href="/2026/09/30/pulau-pari-guide/">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Pantai_Perawan_Pulau_Pari_Kepulauan_Seribu.jpg/960px-Pantai_Perawan_Pulau_Pari_Kepulauan_Seribu.jpg" alt="パリ島ビーチ完全ガイド">
+  <div class="experience-card-body">
+    <span class="experience-card-label">行き方・予算まとめ</span>
+    <span class="experience-card-title">パリ島ビーチ完全ガイド｜行き方・ベストシーズン・予算・持ち物まとめ</span>
+  </div>
+</a>
+</div>
 
 ## 前日の夜に決まった弾丸日帰り
 

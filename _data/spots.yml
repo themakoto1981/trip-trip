@@ -39,6 +39,11 @@ phuket-guide:
     lng: 98.5058
     desc: 奇岩が連なる絶景をカヤックやロングテールボートで巡る
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Ko_Tapu_%28James_Bond%29_Island_in_Phang_Nga_Bay%2C_Thailand.jpg/960px-Ko_Tapu_%28James_Bond%29_Island_in_Phang_Nga_Bay%2C_Thailand.jpg"
+  - name: プーケットタウン
+    lat: 7.8804
+    lng: 98.3923
+    desc: 中国様式の古い街並みが残るエリア。土日開催のナイトマーケット（サンデーマーケット）が人気
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Sino-Portugese_Buildings_in_Phuket_Town_%28III%29.jpg/960px-Sino-Portugese_Buildings_in_Phuket_Town_%28III%29.jpg"
 
 langkawi-guide:
   - name: パンタイ・チェナン

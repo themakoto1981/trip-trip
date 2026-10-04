@@ -649,6 +649,20 @@
   }
   #back-to-top:hover { background: var(--sb-green-dark); }
 
+  /* Experience (体験記) cross-link card */
+  .experience-card {
+    display: flex; align-items: center; gap: 1rem;
+    background: #fff; border: 1px solid var(--sb-border); border-radius: 10px;
+    padding: 0.75rem; margin: 1rem 0 1.5rem; text-decoration: none;
+    transition: box-shadow 0.2s ease;
+  }
+  .experience-card:hover { box-shadow: 0 4px 14px rgba(30,57,50,0.12); }
+  .experience-card img { width: 72px; height: 72px; object-fit: cover; border-radius: 8px; flex-shrink: 0; }
+  .experience-card-body { display: flex; flex-direction: column; gap: 0.2rem; min-width: 0; }
+  .experience-card-label { font-size: 0.72rem; font-weight: 700; color: var(--sb-green); }
+  .experience-card-title { font-size: 0.95rem; font-weight: 600; color: var(--sb-green-dark); line-height: 1.4; }
+  .experience-card-title::after { content: " ›"; color: var(--sb-green); }
+
   /* Related posts */
   .related-posts { margin: 2.5rem 0; }
   .related-posts h3 { font-family: "Noto Serif JP", serif; color: var(--sb-green-dark); font-size: 1.1rem; margin: 0 0 1rem; }

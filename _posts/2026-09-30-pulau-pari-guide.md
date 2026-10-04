@@ -7,7 +7,17 @@ categories: [インドネシア, 島]
 excerpt: "ジャカルタから日帰りも可能な離島リゾート、パリ島。プロウスリブ諸島に浮かぶ穴場ビーチの基本情報をまとめました。"
 ---
 
-インドネシアの首都ジャカルタ沖に広がる「プロウスリブ（千島）諸島」の一つ、**パリ島**は、都会から驚くほど近い場所にある透明度の高いビーチリゾートです。島に大型ホテルはなく、**ジャカルタを拠点に日帰りで訪れるのが定番のスタイル**。バリ島のような大規模開発がない、素朴な離島の雰囲気が魅力です。パリ島単体での旅行というより、**ジャカルタ観光にあわせて組み込む1日プランとしておすすめ**です。実際に訪れたときの様子は[パリ島体験記](/2026/10/04/pulau-pari-taikenki/)にまとめています。
+インドネシアの首都ジャカルタ沖に広がる「プロウスリブ（千島）諸島」の一つ、**パリ島**は、都会から驚くほど近い場所にある透明度の高いビーチリゾートです。島に大型ホテルはなく、**ジャカルタを拠点に日帰りで訪れるのが定番のスタイル**。バリ島のような大規模開発がない、素朴な離島の雰囲気が魅力です。パリ島単体での旅行というより、**ジャカルタ観光にあわせて組み込む1日プランとしておすすめ**です。
+
+<div>
+<a class="experience-card" href="/2026/10/04/pulau-pari-taikenki/">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Pantai_Perawan_Pulau_Pari_Kepulauan_Seribu.jpg/960px-Pantai_Perawan_Pulau_Pari_Kepulauan_Seribu.jpg" alt="パリ島の体験記">
+  <div class="experience-card-body">
+    <span class="experience-card-label">体験記を読む</span>
+    <span class="experience-card-title">パリ島へ行ってきました｜野生のイルカと出会う弾丸日帰り旅行記</span>
+  </div>
+</a>
+</div>
 
 ## 行き方
 

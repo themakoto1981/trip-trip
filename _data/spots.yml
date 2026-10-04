@@ -6,86 +6,105 @@ boracay-guide:
     lat: 11.9660
     lng: 121.9230
     desc: 島のメインビーチ。ステーション1〜3でエリアの雰囲気が異なる
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Boracay_white_beach_in_2014.jpg/960px-Boracay_white_beach_in_2014.jpg"
   - name: プカシェルビーチ
     lat: 11.9990
     lng: 121.9280
     desc: 貝殻が集まってできた静かなビーチ
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Puka_Beach_Boracay_Philippines.jpg/960px-Puka_Beach_Boracay_Philippines.jpg"
   - name: クリスタルコーブ島
     lat: 11.9440
     lng: 121.9020
     desc: アイランドホッピングツアーの定番スポット
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Boracay_Crystal_Cove_Island.jpg/960px-Boracay_Crystal_Cove_Island.jpg"
 
 phuket-guide:
   - name: パトンビーチ
     lat: 7.8965
     lng: 98.2963
     desc: ナイトライフも充実するプーケット随一の繁華ビーチ
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Patong_Beach_in_Phuket.jpg/960px-Patong_Beach_in_Phuket.jpg"
   - name: カタビーチ
     lat: 7.8202
     lng: 98.2967
     desc: 比較的落ち着いた雰囲気で家族連れにも人気
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Phuket_-_Kata_Beach_001.jpg/960px-Phuket_-_Kata_Beach_001.jpg"
   - name: ピピ諸島
     lat: 7.6790
     lng: 98.7639
     desc: 映画の舞台にもなったマヤベイなど、日帰りボートツアーが定番
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Playa_Maya%2C_Ko_Phi_Phi%2C_Tailandia%2C_2013-08-19%2C_DD_13.JPG/960px-Playa_Maya%2C_Ko_Phi_Phi%2C_Tailandia%2C_2013-08-19%2C_DD_13.JPG"
   - name: パンガー湾（ジェームズボンド島）
     lat: 8.2803
     lng: 98.5058
     desc: 奇岩が連なる絶景をカヤックやロングテールボートで巡る
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Ko_Tapu_%28James_Bond%29_Island_in_Phang_Nga_Bay%2C_Thailand.jpg/960px-Ko_Tapu_%28James_Bond%29_Island_in_Phang_Nga_Bay%2C_Thailand.jpg"
 
 langkawi-guide:
   - name: パンタイ・チェナン
     lat: 6.2895
     lng: 99.7268
     desc: レストランやバーが並ぶ島いちばんの繁華ビーチ。夕日鑑賞の名所
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Pantai_Cenang%2C_Langkawi%2C_Malaysia.jpg/960px-Pantai_Cenang%2C_Langkawi%2C_Malaysia.jpg"
   - name: ランカウイ・スカイブリッジ
     lat: 6.3839
     lng: 99.6693
     desc: ケーブルカーで登る山頂に架かる曲線橋。ジャングルと海を一望
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Langkawi_Sky_Bridge_%28November_2016%29.jpg/960px-Langkawi_Sky_Bridge_%28November_2016%29.jpg"
   - name: キリム・カルストジオフォレストパーク
     lat: 6.4283
     lng: 99.8332
     desc: マングローブと石灰岩の奇岩をボートで巡るネイチャーツアー
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Kilim_Geoforest_Park%2C_Langkawi.jpg/960px-Kilim_Geoforest_Park%2C_Langkawi.jpg"
   - name: テラガ・トゥジュ（七段の滝）
     lat: 6.3765
     lng: 99.6675
     desc: ジャングルの中を流れる7段の滝で、天然のプールを泳げる
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Seven_Wells_Waterfall_Langkawi.jpg/960px-Seven_Wells_Waterfall_Langkawi.jpg"
 
 bali-guide:
   - name: クタビーチ
     lat: -8.7184
     lng: 115.1686
     desc: サーフィンで有名な定番ビーチ、サンセットスポットとしても人気
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Kuta_Beach%2C_Bali%2C_20220825_1334_0839.jpg/960px-Kuta_Beach%2C_Bali%2C_20220825_1334_0839.jpg"
   - name: ヌサドゥア
     lat: -8.8008
     lng: 115.2280
     desc: 高級リゾートが立ち並ぶ落ち着いたエリア
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Nusa_Dua_Bali.jpg/960px-Nusa_Dua_Bali.jpg"
   - name: ウルワツ寺院周辺のビーチ
     lat: -8.8290
     lng: 115.0857
     desc: 断崖絶壁の絶景とケチャダンスが楽しめる
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Luhur_Uluwatu_Temple%2C_Bali%2C_20220826_0953_1016.jpg/960px-Luhur_Uluwatu_Temple%2C_Bali%2C_20220826_0953_1016.jpg"
   - name: ヌサペニダ島
     lat: -8.7278
     lng: 115.5444
     desc: 日帰りボートツアーで行ける絶景の離島
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Kelingking_Beach_%28T-Rex_Bay%29_of_Nusa_Penida%2C_Bali_%282025%29_-_img_02.jpg/960px-Kelingking_Beach_%28T-Rex_Bay%29_of_Nusa_Penida%2C_Bali_%282025%29_-_img_02.jpg"
 
 koh-lipe-guide:
   - name: パッタヤビーチ
     lat: 6.4939
     lng: 99.3020
     desc: 島いちばんの繁華ビーチ。レストランやバーが並ぶ
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Koh_Lipe_Beach_viewed_from_Walking_Street_-_panoramio.jpg/960px-Koh_Lipe_Beach_viewed_from_Walking_Street_-_panoramio.jpg"
   - name: サンライズビーチ
     lat: 6.4960
     lng: 99.3060
     desc: 静かな朝日鑑賞スポット
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Koh_Lipe_Sunrise_%2836192202034%29.jpg/960px-Koh_Lipe_Sunrise_%2836192202034%29.jpg"
   - name: サンセットビーチ
     lat: 6.4980
     lng: 99.2960
     desc: 夕日が美しい西側のビーチ
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Ao_Sunset%2C_Koh_Lipe_%282007-03-321%29.jpg/960px-Ao_Sunset%2C_Koh_Lipe_%282007-03-321%29.jpg"
   - name: アダン島
     lat: 6.5390
     lng: 99.2740
     desc: 国立公園の島でシュノーケリングが人気
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Koh_Adang_%28island%29%2C_Lagoon%2C_Colors%2C_Thailand.jpg/960px-Koh_Adang_%28island%29%2C_Lagoon%2C_Colors%2C_Thailand.jpg"
 
 redang-guide:
   - name: パシール・パンジャン（ロングビーチ）

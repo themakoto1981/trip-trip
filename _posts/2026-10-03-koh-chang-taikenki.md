@@ -7,7 +7,17 @@ categories: [タイ, 島, 体験記]
 excerpt: "雨季のチャン島に実際に行ってきました。まさかの客室アップグレード、人のいないビーチ、謎のフルーツ事件まで、2泊3日のリアルな記録です。"
 ---
 
-６月の雨季のタイミングでチャン島へ行ってきました。パタヤ経由の陸路ルートで、ホテルからホテルまで送迎してもらえるプランです。実用情報は[チャン島ビーチ完全ガイド](/2026/09/30/koh-chang-guide/)にまとめているので、ここでは実際の旅の記録を残しておきます。
+６月の雨季のタイミングでチャン島へ行ってきました。パタヤ経由の陸路ルートで、ホテルからホテルまで送迎してもらえるプランです。実用情報はこちらにまとめているので、ここでは実際の旅の記録を残しておきます。
+
+<div>
+<a class="experience-card" href="/2026/09/30/koh-chang-guide/">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Klong_Prao_Beach%2C_west_coast_of_Ko_Chang_Island%2C_Thailand.jpg/960px-Klong_Prao_Beach%2C_west_coast_of_Ko_Chang_Island%2C_Thailand.jpg" alt="チャン島ビーチ完全ガイド">
+  <div class="experience-card-body">
+    <span class="experience-card-label">行き方・予算まとめ</span>
+    <span class="experience-card-title">チャン島ビーチ完全ガイド｜行き方・ベストシーズン・予算・持ち物まとめ</span>
+  </div>
+</a>
+</div>
 
 ホテル予約も現地の通信用eSIM（Truemove H、5G・TikTok対応プラン）もAgodaでまとめて手配しました。空港到着後すぐネットが使えるので、毎回重宝しています。
 

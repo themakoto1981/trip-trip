@@ -9,6 +9,7 @@ excerpt: "プーケットに次ぐタイ第2の広さを誇るチャン島。ジ
 
 タイ東部、カンボジア国境に近い海に浮かぶ**チャン島**は、プーケットに次いでタイで2番目に大きな島です。「象の島」の意味を持つ名の通り、ジャングルと象の形に似た地形が特徴で、プーケット方面に比べて素朴な雰囲気が残っています。
 
+<div>
 <a class="experience-card" href="/2026/10/03/koh-chang-taikenki/">
   <img src="https://tripxtrip.com/assets/images/koh-chang-taikenki/villa-view.jpg" alt="チャン島の体験記">
   <div class="experience-card-body">
@@ -16,6 +17,7 @@ excerpt: "プーケットに次ぐタイ第2の広さを誇るチャン島。ジ
     <span class="experience-card-title">チャン島へ行ってきました｜雨季のパタヤ経由弾丸旅行記</span>
   </div>
 </a>
+</div>
 
 ## 行き方
 

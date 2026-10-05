@@ -9,6 +9,16 @@ excerpt: "成田・関西から直行便で約6時間、東南アジアの中で
 
 ベトナム中部、アンダマン海ならぬ南シナ海に面した**ダナン**は、「ミーケービーチ」と称される白砂のビーチと、空港から市内まで車で10〜15分という抜群のアクセスの良さが魅力のリゾートです。日本からの直行便は所要5時間台と東南アジアのビーチリゾートの中でも飛行機時間が短く、2泊3日の週末弾丸でも十分楽しめます。少し足を伸ばせば、世界遺産の古都**ホイアン**のランタン輝く旧市街にも日帰りで行けるのも大きな魅力です。
 
+<div>
+<a class="experience-card" href="/2026/10/05/danang-hoian-taikenki/">
+  <img src="https://tripxtrip.com/assets/images/danang-hoian-taikenki/resort-infinity-pool-day.jpg" alt="ダナン・ホイアンの体験記">
+  <div class="experience-card-body">
+    <span class="experience-card-label">体験記を読む</span>
+    <span class="experience-card-title">ダナン・ホイアンへ行ってきました｜バインミー食べ比べとランタンの夜</span>
+  </div>
+</a>
+</div>
+
 ## 行き方
 
 - **飛行機**：成田からダナンへはベトナム航空の直行便が毎日運航（所要約5時間40分）。関西からも直行便があります。

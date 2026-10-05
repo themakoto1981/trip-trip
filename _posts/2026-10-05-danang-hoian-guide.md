@@ -100,7 +100,7 @@ excerpt: "成田・関西から直行便で約6時間、東南アジアの中で
 **1日目**
 - 09:00　成田発（ベトナム航空直行便VN319、所要約5時間40分）
 - 12:40　ダナン着
-- 13:15頃　[TIA Wellness Resort](https://www.booking.com/searchresults.html?ss=TIA+Wellness+Resort+Danang)にチェックイン（空港から車でわずか15分、ミーケービーチ沿いのラグジュアリーリゾート）
+- 13:15頃　[ナマンリトリート（Naman Retreat）](https://www.booking.com/searchresults.html?ss=Naman+Retreat+Da+Nang)にチェックイン（空港から車で15分、プライベートビーチを備えたウェルネス重視のラグジュアリーリゾート）
 - 17:00頃　[Grabカー](/grab/)でホイアンへ（所要約45分）。ランタンの旧市街を散策し、川沿いのレストランで夕食
 
 **2日目（終日フリー）**

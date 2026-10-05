@@ -49,7 +49,19 @@ excerpt: "ダナンのビーチリゾートを拠点に、ホイアンまで足�
 
 ホイアンで印象に残ったのが**Reaching Out Teahouse**。聴覚障がいのあるスタッフが働いていて、お店のコンセプトは「サイレント」。
 
-音を出さずに静かに一歩お店の外に出れば、煌々とした太陽の下、ホイアンの活気と雑踏に包まれます。でも店内だけは静寂で、緑陰のような空間。オーダーは専用のシートや木板を使って無言で行います。耳が聞こえない、声を発することができないことが障害なのではなく、逆に声を荒げることがここでは障害になる——誰かが苦手としていたことを、コンセプトの力でプラスに変えたお茶屋さんでした。普段の旅行では味わえない、ゆったりした時間が流れていました。
+![Reaching Out Teahouseの店構え](https://tripxtrip.com/assets/images/danang-hoian-taikenki/reachingout-shopfront.jpg)
+
+音を出さずに静かに一歩お店の外に出れば、煌々とした太陽の下、ホイアンの活気と雑踏に包まれます。でも店内だけは静寂で、緑陰のような空間。オーダーは専用のシートや木板を使って無言で行います。「Hot water」「Cool water」「ICE」「Questions」「Whisper」「Thank you」——木片に書かれたこれらの言葉を指さすだけで、会話がすべて完結します。
+
+![無言で注文するための木片と専用ノート](https://tripxtrip.com/assets/images/danang-hoian-taikenki/reachingout-silent-order-blocks.jpg)
+
+耳が聞こえない、声を発することができないことが障害なのではなく、逆に声を荒げることがここでは障害になる——誰かが苦手としていたことを、コンセプトの力でプラスに変えたお茶屋さんでした。普段の旅行では味わえない、ゆったりした時間が流れていました。
+
+ウーロン茶・ジャスミン茶・ハーブティーの3種を少しずつ味わえるセットと、金色に輝くベトナムコーヒーのドリップセットをいただきました。
+
+![ウーロン・ジャスミン・ハーブの3種のお茶セット](https://tripxtrip.com/assets/images/danang-hoian-taikenki/reachingout-tea-set-tray.jpg)
+
+![金色のベトナムコーヒードリップセット](https://tripxtrip.com/assets/images/danang-hoian-taikenki/reachingout-vietnamese-drip-coffee.jpg)
 
 ## ホイアンの夜は別世界
 

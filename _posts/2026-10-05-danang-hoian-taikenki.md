@@ -35,7 +35,7 @@ excerpt: "ダナンのビーチリゾートを拠点に、ホイアンまで足�
 
 ホイアンといえばバインミー。せっかくなので、現地で「1番」「2番」と言われる2軒を食べ比べてみることにしました。
 
-1軒目は**Bánh Mì Phượng**。ホイアンで一番有名な店で、観光客の行列ができています。パテやハムの種類が多く、パンもパリッとしていて食べ応え抜群でした。
+1軒目は[**Bánh Mì Phượng**](https://www.google.com/maps/search/?api=1&query=Banh+Mi+Phuong+Hoi+An)。ホイアンで一番有名な店で、観光客の行列ができています。パテやハムの種類が多く、パンもパリッとしていて食べ応え抜群でした。
 
 ![Bánh Mì Phượngのバインミー断面](https://tripxtrip.com/assets/images/danang-hoian-taikenki/banhmi-closeup.jpg)
 

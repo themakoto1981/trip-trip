@@ -34,7 +34,9 @@ layout: default
   {%- if my_destination and my_destination.photo -%}
   <figure class="hero-photo">
     <img src="{{ my_destination.photo }}" alt="{{ my_destination.name }}" loading="lazy">
+    {%- if my_destination.photo_credit_url and my_destination.photo_credit_url != "" -%}
     <figcaption><a href="{{ my_destination.photo_credit_url }}" target="_blank" rel="noopener">写真: Wikimedia Commons</a></figcaption>
+    {%- endif -%}
   </figure>
   {%- endif -%}
 

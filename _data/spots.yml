@@ -220,3 +220,30 @@ koh-samui-guide:
     lng: 100.0601
     desc: 高さ12mの黄金の仏像が鎮座する島のランドマーク
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Wat_Phra_Yai_Samui_1.jpg/960px-Wat_Phra_Yai_Samui_1.jpg"
+
+danang-hoian-guide:
+  - name: ミーケービーチ
+    lat: 16.0644
+    lng: 108.2468
+    desc: ダナンを代表する白砂のビーチ、ホテルが立ち並ぶリゾートエリア
+    image: "https://tripxtrip.com/assets/images/danang-hoian-taikenki/mykhe-beach-umbrellas-clear-sky.jpg"
+  - name: ホイアン旧市街
+    lat: 15.8801
+    lng: 108.3380
+    desc: 世界遺産の古い町並みにランタンが灯る、夕方から夜がおすすめ
+    image: "https://tripxtrip.com/assets/images/danang-hoian-taikenki/hoian-lantern-street-night.jpg"
+  - name: ドラゴンブリッジ
+    lat: 16.0611
+    lng: 108.2238
+    desc: 週末の夜に火を吹く演出で知られるハン川に架かる橋
+    image: "https://tripxtrip.com/assets/images/danang-hoian-taikenki/han-river-night-skyline.jpg"
+  - name: マーブルマウンテン（五行山）
+    lat: 16.0036
+    lng: 108.2628
+    desc: 5つの大理石の山からなる聖地、洞窟寺院を巡れる
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Da_Nang_Marble_Mountains_2020_IMG_4008.jpg/960px-Da_Nang_Marble_Mountains_2020_IMG_4008.jpg"
+  - name: バーナーヒルズ
+    lat: 15.9977
+    lng: 107.9922
+    desc: フランス統治時代の面影を残すテーマパーク、ゴールデンブリッジが人気
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Golden_Bridge_above_the_clouds_Ba_Na_Hills_Da_Nang_Vietnam.jpg/960px-Golden_Bridge_above_the_clouds_Ba_Na_Hills_Da_Nang_Vietnam.jpg"

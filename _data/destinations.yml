@@ -275,6 +275,30 @@
   best_months: [2, 3, 4, 9]
   url: /2026/10/01/koh-samui-guide/
 
+- name: ダナン・ホイアン
+  en_name: "Da Nang & Hoi An, Vietnam"
+  slug: danang-hoian-guide
+  country: ベトナム
+  country_slug: vietnam
+  lat: 16.0644
+  lng: 108.2468
+  flight_min: 45000
+  flight_max: 140000
+  hotel_min: 3000
+  hotel_max: 20000
+  transport_min: 1000
+  transport_max: 2500
+  food_min: 2000
+  food_max: 5000
+  flight_hours: "約5時間40分（直行便）"
+  recommended_nights: "2泊3日〜"
+  visa: "不要（45日以内）"
+  photo: "https://tripxtrip.com/assets/images/danang-hoian-taikenki/mykhe-beach-umbrellas-clear-sky.jpg"
+  photo_credit_url: ""
+  suited_for: [couple, family, friends, solo]
+  best_months: [3, 4, 5, 6, 7, 8]
+  url: /2026/10/05/danang-hoian-guide/
+
 # --- 以下、東南アジア以外のため一時的に非公開（記事もpublished: falseに設定済み）---
 # 地域を広げる際にコメントを外して復元してください（hotel/transport/foodへの分割が必要です）。
 #

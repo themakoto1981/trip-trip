@@ -129,14 +129,20 @@ layout: default
   #search-btn:hover { background: var(--sb-green-dark); }
   .tag-picker-wrap { flex: 1 1 100%; display: flex; flex-direction: column; }
   .tag-picker-wrap label { font-size: 0.75rem; margin-bottom: 0.3rem; color: var(--sb-brown-soft); font-weight: 500; }
-  .tag-picker { display: flex; flex-wrap: wrap; gap: 0.35rem; }
-  .tag-chip {
-    background-color: var(--sb-cream); border: 1px solid var(--sb-border); border-radius: 999px;
-    padding: 0.22rem 0.6rem; font-size: 0.72rem; font-family: inherit; color: var(--sb-brown);
-    cursor: pointer; transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+  #search-panel #tag-picker {
+    display: grid; grid-template-columns: repeat(4, 1fr); flex: none; min-width: 0; gap: 0.4rem;
   }
-  .tag-chip:hover { border-color: var(--sb-green); }
-  .tag-chip.selected { background-color: var(--sb-green); border-color: var(--sb-green); color: #fff; font-weight: 700; }
+  #search-panel #tag-picker .trip-tag-chip {
+    background-color: var(--sb-cream); border: 1px solid var(--sb-border); border-radius: 999px;
+    margin: 0; padding: 0.3rem 0.4rem; font-size: 0.72rem; font-family: inherit; color: var(--sb-brown);
+    cursor: pointer; text-align: center; white-space: nowrap;
+    transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+  }
+  #search-panel #tag-picker .trip-tag-chip:hover { border-color: var(--sb-green); }
+  #search-panel #tag-picker .trip-tag-chip.selected { background-color: var(--sb-green); border-color: var(--sb-green); color: #fff; font-weight: 700; }
+  @media screen and (max-width: 360px) {
+    #search-panel #tag-picker { grid-template-columns: repeat(2, 1fr); }
+  }
   @media screen and (max-width: 480px) {
     .search-card { margin: -1.25rem 15px 1.5rem; padding: 1rem 1.1rem; }
     #search-panel { display: grid; grid-template-columns: 1fr 1fr; gap: 0.6rem 0.75rem; }
@@ -239,15 +245,15 @@ layout: default
   </div>
   <div class="tag-picker-wrap">
     <label>どんな旅がしたい？（2つ選択）</label>
-    <div id="tag-picker" class="tag-picker">
-      <button type="button" class="tag-chip" data-tag="beach">ビーチ</button>
-      <button type="button" class="tag-chip" data-tag="resort">リゾート</button>
-      <button type="button" class="tag-chip" data-tag="island">島</button>
-      <button type="button" class="tag-chip" data-tag="city_base">街拠点</button>
-      <button type="button" class="tag-chip" data-tag="sightseeing">観光</button>
-      <button type="button" class="tag-chip" data-tag="relax">まったり</button>
-      <button type="button" class="tag-chip" data-tag="party">パーティ</button>
-      <button type="button" class="tag-chip" data-tag="activity">アクティビティ</button>
+    <div id="tag-picker">
+      <button type="button" class="trip-tag-chip" data-tag="beach">ビーチ</button>
+      <button type="button" class="trip-tag-chip" data-tag="resort">リゾート</button>
+      <button type="button" class="trip-tag-chip" data-tag="island">島</button>
+      <button type="button" class="trip-tag-chip" data-tag="city_base">街拠点</button>
+      <button type="button" class="trip-tag-chip" data-tag="sightseeing">観光</button>
+      <button type="button" class="trip-tag-chip" data-tag="relax">まったり</button>
+      <button type="button" class="trip-tag-chip" data-tag="party">パーティ</button>
+      <button type="button" class="trip-tag-chip" data-tag="activity">アクティビティ</button>
     </div>
   </div>
   <div>
@@ -341,7 +347,7 @@ layout: default
   }
 
   var selectedTags = [];
-  document.querySelectorAll('.tag-chip').forEach(function (chip) {
+  document.querySelectorAll('.trip-tag-chip').forEach(function (chip) {
     chip.addEventListener('click', function () {
       var tag = chip.getAttribute('data-tag');
       var idx = selectedTags.indexOf(tag);
@@ -351,7 +357,7 @@ layout: default
       } else {
         if (selectedTags.length >= 2) {
           var removedTag = selectedTags.shift();
-          var removedChip = document.querySelector('.tag-chip[data-tag="' + removedTag + '"]');
+          var removedChip = document.querySelector('.trip-tag-chip[data-tag="' + removedTag + '"]');
           if (removedChip) { removedChip.classList.remove('selected'); }
         }
         selectedTags.push(tag);

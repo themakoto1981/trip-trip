@@ -63,7 +63,7 @@ layout: default
   var destinations = {{ site.data.destinations | jsonify }};
   var params = new URLSearchParams(window.location.search);
   var monthParam = params.get('month') || '';
-  var nights = parseInt(params.get('nights') || '2', 10);
+  var nights = parseInt(params.get('nights') || '3', 10);
   var budget = params.get('budget') || '';
   var companion = params.get('companion') || '';
   var tag1 = params.get('tag1') || '';
@@ -155,9 +155,9 @@ layout: default
       var foodTotalMin = d.food_min * nights, foodTotalMax = d.food_max * nights;
       var breakdown = '<ul class="cost-breakdown">' +
         '<li>航空券（往復）: ' + d.flight_min.toLocaleString() + '〜' + d.flight_max.toLocaleString() + '円</li>' +
-        '<li>宿泊（' + nights + '泊）: ' + hotelTotalMin.toLocaleString() + '〜' + hotelTotalMax.toLocaleString() + '円</li>' +
-        '<li>現地移動（' + nights + '日）: ' + transportTotalMin.toLocaleString() + '〜' + transportTotalMax.toLocaleString() + '円</li>' +
-        '<li>食費・アクティビティ（' + nights + '日）: ' + foodTotalMin.toLocaleString() + '〜' + foodTotalMax.toLocaleString() + '円</li>' +
+        '<li>宿泊（' + (nightsLabelMap[nights] || nights + '泊') + '）: ' + hotelTotalMin.toLocaleString() + '〜' + hotelTotalMax.toLocaleString() + '円</li>' +
+        '<li>現地移動（' + (nightsLabelMap[nights] || nights + '日') + '）: ' + transportTotalMin.toLocaleString() + '〜' + transportTotalMax.toLocaleString() + '円</li>' +
+        '<li>食費・アクティビティ（' + (nightsLabelMap[nights] || nights + '日') + '）: ' + foodTotalMin.toLocaleString() + '〜' + foodTotalMax.toLocaleString() + '円</li>' +
         '</ul>';
       li.innerHTML =
         (d.photo ? '<a class="result-banner-link" href="' + targetUrl + '"><img class="result-banner" src="' + d.photo + '" alt="' + d.name + '" loading="lazy"></a>' : '') +

@@ -127,11 +127,22 @@ layout: default
     padding: 0.48rem 1.8rem; font-size: 0.9rem; font-weight: 700; cursor: pointer;
   }
   #search-btn:hover { background: var(--sb-green-dark); }
+  .tag-picker-wrap { flex: 1 1 100%; display: flex; flex-direction: column; }
+  .tag-picker-wrap label { font-size: 0.75rem; margin-bottom: 0.3rem; color: var(--sb-brown-soft); font-weight: 500; }
+  .tag-picker { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+  .tag-chip {
+    background-color: var(--sb-cream); border: 1px solid var(--sb-border); border-radius: 999px;
+    padding: 0.35rem 0.9rem; font-size: 0.82rem; font-family: inherit; color: var(--sb-brown);
+    cursor: pointer; transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+  }
+  .tag-chip:hover { border-color: var(--sb-green); }
+  .tag-chip.selected { background-color: var(--sb-green); border-color: var(--sb-green); color: #fff; font-weight: 700; }
   @media screen and (max-width: 480px) {
     .search-card { margin: -1.25rem 15px 1.5rem; padding: 1rem 1.1rem; }
     #search-panel { display: grid; grid-template-columns: 1fr 1fr; gap: 0.6rem 0.75rem; }
     #search-panel div { min-width: 0; }
     #search-panel div:last-child { grid-column: 1 / -1; }
+    .tag-picker-wrap { grid-column: 1 / -1; }
     #search-btn { width: 100%; }
   }
   #trip-map { height: 480px; width: 100%; border: 2px solid var(--sb-green); margin-bottom: 0.5rem; }
@@ -226,6 +237,19 @@ layout: default
       <option value="friends">友人グループ</option>
     </select>
   </div>
+  <div class="tag-picker-wrap">
+    <label>どんな旅がしたい？（2つ選択）</label>
+    <div id="tag-picker" class="tag-picker">
+      <button type="button" class="tag-chip" data-tag="beach">ビーチ</button>
+      <button type="button" class="tag-chip" data-tag="resort">リゾート</button>
+      <button type="button" class="tag-chip" data-tag="island">島</button>
+      <button type="button" class="tag-chip" data-tag="city_base">街拠点</button>
+      <button type="button" class="tag-chip" data-tag="sightseeing">観光</button>
+      <button type="button" class="tag-chip" data-tag="relax">まったり</button>
+      <button type="button" class="tag-chip" data-tag="party">パーティ</button>
+      <button type="button" class="tag-chip" data-tag="activity">アクティビティ</button>
+    </div>
+  </div>
   <div>
     <button id="search-btn" type="button">検索</button>
   </div>
@@ -316,6 +340,26 @@ layout: default
     map.setView([15, 110], 3);
   }
 
+  var selectedTags = [];
+  document.querySelectorAll('.tag-chip').forEach(function (chip) {
+    chip.addEventListener('click', function () {
+      var tag = chip.getAttribute('data-tag');
+      var idx = selectedTags.indexOf(tag);
+      if (idx !== -1) {
+        selectedTags.splice(idx, 1);
+        chip.classList.remove('selected');
+      } else {
+        if (selectedTags.length >= 2) {
+          var removedTag = selectedTags.shift();
+          var removedChip = document.querySelector('.tag-chip[data-tag="' + removedTag + '"]');
+          if (removedChip) { removedChip.classList.remove('selected'); }
+        }
+        selectedTags.push(tag);
+        chip.classList.add('selected');
+      }
+    });
+  });
+
   document.getElementById('search-btn').addEventListener('click', function () {
     var month = document.getElementById('month').value;
     var nights = document.getElementById('nights').value;
@@ -326,6 +370,10 @@ layout: default
     params.set('nights', nights);
     if (budget) { params.set('budget', budget); }
     if (companion) { params.set('companion', companion); }
+    if (selectedTags.length === 2) {
+      params.set('tag1', selectedTags[0]);
+      params.set('tag2', selectedTags[1]);
+    }
     window.location.href = '{{ site.baseurl }}/results/?' + params.toString();
   });
 </script>

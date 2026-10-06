@@ -34,6 +34,7 @@
   suited_for: [couple, friends, solo]
   best_months: [12, 1, 2]
   url: /2026/09/28/boracay-guide/
+  tags: { beach: 5, resort: 4, island: 5, city_base: 1, sightseeing: 2, relax: 3, party: 5, activity: 4 }
 
 - name: バリ島
   en_name: "Bali, Indonesia"
@@ -58,6 +59,7 @@
   suited_for: [couple, family, friends]
   best_months: [5, 6, 9]
   url: /2026/09/28/bali-guide/
+  tags: { beach: 4, resort: 4, island: 3, city_base: 5, sightseeing: 5, relax: 3, party: 4, activity: 4 }
 
 - name: プーケット島
   en_name: "Phuket, Thailand"
@@ -82,6 +84,7 @@
   suited_for: [couple, family, friends, solo]
   best_months: [12, 1, 2]
   url: /2026/09/28/phuket-guide/
+  tags: { beach: 5, resort: 4, island: 3, city_base: 4, sightseeing: 4, relax: 3, party: 4, activity: 4 }
 
 - name: ランカウイ島
   en_name: "Langkawi, Malaysia"
@@ -106,6 +109,7 @@
   suited_for: [couple, family, friends]
   best_months: [12, 1, 2, 3]
   url: /2026/09/28/langkawi-guide/
+  tags: { beach: 4, resort: 4, island: 4, city_base: 2, sightseeing: 3, relax: 4, party: 1, activity: 3 }
 
 - name: リペ島
   en_name: "Koh Lipe, Thailand"
@@ -130,6 +134,7 @@
   suited_for: [couple, friends, solo]
   best_months: [12, 1, 2]
   url: /2026/09/30/koh-lipe-guide/
+  tags: { beach: 5, resort: 2, island: 5, city_base: 1, sightseeing: 1, relax: 5, party: 1, activity: 4 }
 
 - name: レダン島
   en_name: "Redang Island, Malaysia"
@@ -154,6 +159,7 @@
   suited_for: [couple, family, friends]
   best_months: [6, 7, 8]
   url: /2026/09/30/redang-guide/
+  tags: { beach: 5, resort: 3, island: 5, city_base: 1, sightseeing: 1, relax: 5, party: 1, activity: 3 }
 
 - name: ピピ島
   en_name: "Koh Phi Phi, Thailand"
@@ -178,6 +184,7 @@
   suited_for: [couple, friends, solo]
   best_months: [12, 1, 2]
   url: /2026/09/30/koh-phiphi-guide/
+  tags: { beach: 5, resort: 3, island: 5, city_base: 2, sightseeing: 3, relax: 2, party: 4, activity: 4 }
 
 - name: チャン島
   en_name: "Koh Chang, Thailand"
@@ -202,6 +209,7 @@
   suited_for: [couple, family, friends]
   best_months: [12, 1, 2, 3, 4]
   url: /2026/09/30/koh-chang-guide/
+  tags: { beach: 4, resort: 3, island: 5, city_base: 1, sightseeing: 3, relax: 4, party: 2, activity: 4 }
 
 - name: パリ島
   en_name: "Pulau Pari, Indonesia"
@@ -226,6 +234,7 @@
   suited_for: [couple, friends, solo]
   best_months: [6, 7, 8, 9]
   url: /2026/09/30/pulau-pari-guide/
+  tags: { beach: 4, resort: 1, island: 5, city_base: 1, sightseeing: 2, relax: 5, party: 1, activity: 2 }
 
 - name: フーコック島
   en_name: "Phu Quoc, Vietnam"
@@ -250,6 +259,7 @@
   suited_for: [couple, family, friends]
   best_months: [12, 1, 2, 3]
   url: /2026/09/30/phuquoc-guide/
+  tags: { beach: 5, resort: 5, island: 4, city_base: 2, sightseeing: 3, relax: 4, party: 2, activity: 3 }
 
 - name: サムイ島
   en_name: "Koh Samui, Thailand"
@@ -274,6 +284,7 @@
   suited_for: [couple, family, friends, solo]
   best_months: [2, 3, 4, 9]
   url: /2026/10/01/koh-samui-guide/
+  tags: { beach: 5, resort: 5, island: 4, city_base: 2, sightseeing: 3, relax: 3, party: 4, activity: 3 }
 
 - name: ダナン・ホイアン
   en_name: "Da Nang & Hoi An, Vietnam"
@@ -298,6 +309,7 @@
   suited_for: [couple, family, friends, solo]
   best_months: [3, 4, 5, 6, 7, 8]
   url: /2026/10/05/danang-hoian-guide/
+  tags: { beach: 4, resort: 4, island: 1, city_base: 5, sightseeing: 5, relax: 3, party: 2, activity: 3 }
 
 # --- 以下、東南アジア以外のため一時的に非公開（記事もpublished: falseに設定済み）---
 # 地域を広げる際にコメントを外して復元してください（hotel/transport/foodへの分割が必要です）。

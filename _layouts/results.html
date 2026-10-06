@@ -66,16 +66,20 @@ layout: default
   var nights = parseInt(params.get('nights') || '2', 10);
   var budget = params.get('budget') || '';
   var companion = params.get('companion') || '';
+  var tag1 = params.get('tag1') || '';
+  var tag2 = params.get('tag2') || '';
 
   var nightsLabelMap = { 1: '1泊2日', 2: '2泊3日', 3: '3泊4日', 4: '4泊5日', 6: '5泊以上' };
   var budgetLabelMap = { '80000': '8万円まで', '120000': '12万円まで', '180000': '18万円まで', '250000': '25万円まで', '400000': '40万円まで', '999999999': '上限なし' };
   var companionLabelMap = { solo: '一人旅', couple: 'カップル・夫婦', family: '家族', friends: '友人グループ' };
+  var tagLabelMap = { beach: 'ビーチ', resort: 'リゾート', island: '島', city_base: '街拠点', sightseeing: '観光', relax: 'まったり', party: 'パーティ', activity: 'アクティビティ' };
 
   var currentMonth = monthParam ? parseInt(monthParam, 10) : (new Date().getMonth() + 1);
 
   var summaryParts = [currentMonth + '月', nightsLabelMap[nights] || nights + '泊'];
   if (budget) { summaryParts.push('予算 ' + (budgetLabelMap[budget] || budget + '円')); }
   if (companion) { summaryParts.push(companionLabelMap[companion] || companion); }
+  if (tag1 && tag2) { summaryParts.push((tagLabelMap[tag1] || tag1) + '×' + (tagLabelMap[tag2] || tag2)); }
   document.getElementById('search-summary').textContent = '条件: ' + summaryParts.join('／');
 
   var withTotals = destinations.map(function (d) {
@@ -88,7 +92,10 @@ layout: default
     var minNightsMatch = (d.recommended_nights || '').match(/(\d+)/);
     var minNights = minNightsMatch ? parseInt(minNightsMatch[1], 10) : null;
     var tooShort = minNights !== null && nights < minNights;
-    return Object.assign({}, d, { totalMin: totalMin, totalMax: totalMax, inSeason: inSeason, matchesCompanion: matchesCompanion, tooShort: tooShort });
+    var tagScore = (tag1 && tag2 && d.tags)
+      ? (d.tags[tag1] || 0) + (d.tags[tag2] || 0)
+      : null;
+    return Object.assign({}, d, { totalMin: totalMin, totalMax: totalMax, inSeason: inSeason, matchesCompanion: matchesCompanion, tooShort: tooShort, tagScore: tagScore });
   });
 
   var budgetFiltered = withTotals.filter(function (d) {
@@ -101,6 +108,7 @@ layout: default
   var inSeasonBase = nightsBase.filter(function (d) { return d.inSeason; });
   var allOffSeason = nightsBase.length > 0 && inSeasonBase.length === 0;
   var filtered = (allOffSeason ? nightsBase : inSeasonBase).sort(function (a, b) {
+    if (a.tagScore !== null && b.tagScore !== null && a.tagScore !== b.tagScore) { return b.tagScore - a.tagScore; }
     if (a.matchesCompanion !== b.matchesCompanion) { return a.matchesCompanion ? -1 : 1; }
     if (a.inSeason !== b.inSeason) { return a.inSeason ? -1 : 1; }
     return a.totalMin - b.totalMin;
@@ -139,6 +147,9 @@ layout: default
             ? '<span class="mini-season on">' + (companionLabelMap[companion] || companion) + '向き</span>'
             : '')
         : '';
+      var tagBadge = (d.tagScore !== null)
+        ? '<span class="mini-season on">相性スコア ' + d.tagScore + '/10</span>'
+        : '';
       var hotelTotalMin = d.hotel_min * nights, hotelTotalMax = d.hotel_max * nights;
       var transportTotalMin = d.transport_min * nights, transportTotalMax = d.transport_max * nights;
       var foodTotalMin = d.food_min * nights, foodTotalMax = d.food_max * nights;
@@ -151,7 +162,7 @@ layout: default
       li.innerHTML =
         (d.photo ? '<a class="result-banner-link" href="' + targetUrl + '"><img class="result-banner" src="' + d.photo + '" alt="' + d.name + '" loading="lazy"></a>' : '') +
         '<div class="result-card-head">' +
-        '<a class="result-name" href="' + targetUrl + '">' + d.name + '（' + d.country + '）</a> ' + seasonBadge + ' ' + companionBadge +
+        '<a class="result-name" href="' + targetUrl + '">' + d.name + '（' + d.country + '）</a> ' + seasonBadge + ' ' + companionBadge + ' ' + tagBadge +
         '</div>' +
         '<div class="result-card-price">目安総額 ' + d.totalMin.toLocaleString() + '〜' + d.totalMax.toLocaleString() + '円</div>' +
         '<div class="result-card-meta">おすすめ月: ' + d.best_months.join(', ') + '月</div>' +

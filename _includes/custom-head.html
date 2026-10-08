@@ -290,7 +290,7 @@
     flex-wrap: wrap;
     align-items: flex-start;
     gap: 0.6rem 1rem;
-    padding: 1rem 6.5rem 1rem 1.1rem;
+    padding: 1rem 8rem 1rem 1.1rem;
     background: var(--sb-cream);
     border: 1px solid var(--sb-border);
     border-radius: 10px;
@@ -299,12 +299,16 @@
     background: #fff;
     border-color: var(--sb-green);
   }
+  .budget-tier-name-row {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+  }
   .budget-tier-dot {
-    width: 0.65rem;
-    height: 0.65rem;
+    width: 0.6rem;
+    height: 0.6rem;
     border-radius: 50%;
-    background: var(--sb-border);
-    margin-top: 0.4rem;
+    background: var(--sb-brown-soft);
     flex-shrink: 0;
   }
   .budget-tier-row.is-recommended .budget-tier-dot { background: var(--sb-green); }
@@ -312,8 +316,8 @@
     display: flex;
     flex-direction: column;
     gap: 0.2rem;
-    flex: 1 1 160px;
-    min-width: 140px;
+    flex: 1 1 190px;
+    min-width: 170px;
   }
   .budget-tier-name {
     font-weight: 700;
@@ -356,7 +360,7 @@
     display: inline-flex;
     align-items: center;
     gap: 0.25rem;
-    background: var(--sb-green-dark);
+    background: var(--sb-green);
     color: #fff;
     border: none;
     border-radius: 999px;
@@ -366,10 +370,11 @@
     font-weight: 700;
     padding: 0.4rem 0.9rem;
   }
-  .budget-tier-itinerary-toggle:hover { background: var(--sb-green); }
+  .budget-tier-itinerary-toggle:hover { background: var(--sb-green-dark); }
   .budget-tier-row .itinerary-timeline { flex: 1 1 100%; margin: 1rem 0 0; }
   @media screen and (max-width: 480px) {
     .budget-tier-row { padding: 1rem; flex-direction: column; }
+    .budget-tier-row > * { flex: 0 0 auto; width: 100%; }
     .budget-tier-itinerary-toggle { position: static; width: 100%; justify-content: center; margin-top: 0.5rem; }
   }
   .tier-note {

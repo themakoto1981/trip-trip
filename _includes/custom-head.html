@@ -281,57 +281,97 @@
   .budget-tiers-list {
     display: flex;
     flex-direction: column;
+    gap: 0.75rem;
     margin: 0.5rem 0 1.75rem;
   }
-  .budget-tier-row { padding: 1rem 0; }
-  .budget-tier-row + .budget-tier-row { border-top: 1px solid var(--sb-border); }
-  .budget-tier-row:first-child { padding-top: 0; }
-  .budget-tier-top {
+  .budget-tier-row {
+    position: relative;
     display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    margin-bottom: 0.35rem;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 0.6rem 1rem;
+    padding: 1rem 6.5rem 1rem 1.1rem;
+    background: var(--sb-cream);
+    border: 1px solid var(--sb-border);
+    border-radius: 10px;
+  }
+  .budget-tier-row.is-recommended {
+    background: #fff;
+    border-color: var(--sb-green);
+  }
+  .budget-tier-dot {
+    width: 0.65rem;
+    height: 0.65rem;
+    border-radius: 50%;
+    background: var(--sb-border);
+    margin-top: 0.4rem;
+    flex-shrink: 0;
+  }
+  .budget-tier-row.is-recommended .budget-tier-dot { background: var(--sb-green); }
+  .budget-tier-head {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    flex: 1 1 160px;
+    min-width: 140px;
   }
   .budget-tier-name {
     font-weight: 700;
-    font-size: 0.9rem;
+    font-size: 0.95rem;
     color: var(--sb-green-dark);
+  }
+  .budget-tier-desc {
+    font-size: 0.78rem;
+    color: var(--sb-brown-soft);
+    line-height: 1.5;
+  }
+  .budget-tier-price-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    flex: 1 1 200px;
+    min-width: 180px;
   }
   .budget-tier-amount {
     font-weight: 700;
-    font-size: 1.2rem;
+    font-size: 1.15rem;
     color: var(--sb-green-dark);
   }
-  .budget-tier-row.is-recommended .budget-tier-name,
-  .budget-tier-row.is-recommended .budget-tier-amount {
-    color: var(--sb-green);
-  }
+  .budget-tier-row.is-recommended .budget-tier-amount { color: var(--sb-green); }
   .budget-tier-breakdown {
-    font-size: 0.82rem;
+    font-size: 0.78rem;
     color: var(--sb-brown-soft);
     line-height: 1.6;
   }
   .budget-tier-note {
-    font-size: 0.85rem;
+    flex: 1 1 100%;
+    font-size: 0.82rem;
     color: var(--sb-brown);
     line-height: 1.6;
-    margin-top: 0.6rem;
   }
   .budget-tier-itinerary-toggle {
-    display: inline-block;
-    background: none;
-    color: var(--sb-green-dark);
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    background: var(--sb-green-dark);
+    color: #fff;
     border: none;
-    border-bottom: 1px solid var(--sb-border);
+    border-radius: 999px;
     cursor: pointer;
     font-family: inherit;
-    font-size: 0.8rem;
+    font-size: 0.78rem;
     font-weight: 700;
-    padding: 0.2rem 0;
-    margin-top: 0.7rem;
+    padding: 0.4rem 0.9rem;
   }
-  .budget-tier-itinerary-toggle:hover { color: var(--sb-green); border-color: var(--sb-green); }
-  .budget-tier-row .itinerary-timeline { margin: 1rem 0 0; }
+  .budget-tier-itinerary-toggle:hover { background: var(--sb-green); }
+  .budget-tier-row .itinerary-timeline { flex: 1 1 100%; margin: 1rem 0 0; }
+  @media screen and (max-width: 480px) {
+    .budget-tier-row { padding: 1rem; flex-direction: column; }
+    .budget-tier-itinerary-toggle { position: static; width: 100%; justify-content: center; margin-top: 0.5rem; }
+  }
   .tier-note {
     font-size: 0.82rem;
     color: var(--sb-brown-soft);

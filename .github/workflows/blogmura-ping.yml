@@ -1,0 +1,24 @@
+name: Ping blogmura on new post
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '_posts/**'
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send XML-RPC ping to blogmura
+        run: |
+          curl -s -X POST "https://ping.blogmura.com/xmlrpc/3hfzgv6a84vn/" \
+            -H "Content-Type: text/xml" \
+            -d '<?xml version="1.0"?>
+          <methodCall>
+            <methodName>weblogUpdates.ping</methodName>
+            <params>
+              <param><value><string>TRIP&#215;TRIP</string></value></param>
+              <param><value><string>https://tripxtrip.com</string></value></param>
+            </params>
+          </methodCall>'

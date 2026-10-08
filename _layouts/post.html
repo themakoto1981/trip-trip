@@ -125,13 +125,16 @@ layout: default
     var budgetTiers = [
       ['やす旅',
         budgetTotalMin.toLocaleString() + '〜' + budgetTotalMax.toLocaleString() + '円',
-        '航空券' + match.flight_min.toLocaleString() + '円 ＋ 宿泊/移動/食費（1泊）' + dailyMin.toLocaleString() + '〜' + dailyMax.toLocaleString() + '円 ×' + nights + '泊'],
+        '航空券' + match.flight_min.toLocaleString() + '円 ＋ 宿泊/移動/食費（1泊）' + dailyMin.toLocaleString() + '〜' + dailyMax.toLocaleString() + '円 ×' + nights + '泊',
+        'とにかく費用を抑えて、シンプルに楽しみたい方に。'],
       ['ゆる旅',
         comfortTotalMin.toLocaleString() + '〜' + comfortTotalMax.toLocaleString() + '円',
-        '航空券' + match.flight_max.toLocaleString() + '円 ＋ 宿泊/移動/食費（1泊）' + dailyMin.toLocaleString() + '〜' + dailyMax.toLocaleString() + '円 ×' + nights + '泊'],
+        '航空券' + match.flight_max.toLocaleString() + '円 ＋ 宿泊/移動/食費（1泊）' + dailyMin.toLocaleString() + '〜' + dailyMax.toLocaleString() + '円 ×' + nights + '泊',
+        '移動も観光も楽しみながら、バランスよく旅をしたい方に。'],
       ['ラグ旅',
         luxuryTotal.toLocaleString() + '円〜',
-        '航空券' + match.flight_max.toLocaleString() + '円 ＋ 上質な宿泊/食費（1泊）目安' + luxuryDaily.toLocaleString() + '円 ×' + nights + '泊']
+        '航空券' + match.flight_max.toLocaleString() + '円 ＋ 上質な宿泊/食費（1泊）目安' + luxuryDaily.toLocaleString() + '円 ×' + nights + '泊',
+        '上質な滞在で、ゆったり贅沢に過ごしたい方に。']
     ];
 
     var tiersHtml = '<div class="tiers-header">';
@@ -149,8 +152,9 @@ layout: default
     budgetTiers.forEach(function (t, i) {
       var recClass = (i === 1) ? ' is-recommended' : '';
       tiersHtml += '<div class="budget-tier-row' + recClass + '" data-tier-name="' + t[0] + '">';
-      tiersHtml += '<div class="budget-tier-top"><span class="budget-tier-name">' + t[0] + '</span><span class="budget-tier-amount">' + t[1] + '</span></div>';
-      tiersHtml += '<div class="budget-tier-breakdown">' + t[2] + '</div>';
+      tiersHtml += '<span class="budget-tier-dot"></span>';
+      tiersHtml += '<div class="budget-tier-head"><span class="budget-tier-name">' + t[0] + '</span><span class="budget-tier-desc">' + t[3] + '</span></div>';
+      tiersHtml += '<div class="budget-tier-price-wrap"><span class="budget-tier-amount">' + t[1] + '</span><div class="budget-tier-breakdown">' + t[2] + '</div></div>';
       tiersHtml += '</div>';
     });
     tiersHtml += '</div>';

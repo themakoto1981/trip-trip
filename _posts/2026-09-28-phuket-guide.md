@@ -36,9 +36,9 @@ excerpt: "アンダマン海に浮かぶタイ最大の島プーケット。ビ�
 ## 予算の目安
 移動に時間がかかるので、現地を2日しっかり楽しむには**3泊以上**がおすすめです（余裕があれば4泊以上でピピ諸島ツアーなど離島観光もプラスしやすくなります）。
 
-- **やす旅**：空路（バンコクでドンムアン空港へ乗継）＋LCCのVietjet AirとThai AirAsia。国際線・国内線ともLCCでそろえて航空券代を抑えられます<br><a class="schedule-tag" href="https://www.vietjetair.com/">Vietjet Airの最新スケジュール</a>
-- **ゆる旅**：空路（バンコク乗継）＋ANA。空港での乗継も含めてスムーズに移動できます<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
-- **ラグ旅**：空路（バンコク乗継）＋ANA。復路は深夜発の直行便で、後泊なしで羽田に戻れます<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
+- **やす旅**：バンコク乗継+LCC｜国際線国内線ともLCC｜航空券代を抑制<br><a class="schedule-tag" href="https://www.vietjetair.com/">Vietjet Airの最新スケジュール</a>
+- **ゆる旅**：バンコク乗継+ANA｜乗継スムーズ｜快適に移動<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
+- **ラグ旅**：バンコク乗継+ANA｜復路は深夜直行便｜後泊なし<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
 
 ## おすすめ旅程（やす旅向け／LCC利用・3泊4日の例）
 

@@ -130,4 +130,4 @@ excerpt: "マレーシア屈指のリゾートアイランド、ランカウイ�
 
 ランカウイは1島でビーチ・ジャングル・免税ショッピングが楽しめる欲張りな行き先。ペナン島とセットで周遊するプランもおすすめです。
 
-**ビザ**：不要（90日以内の観光滞在）。ただし入国カード（MDAC）の事前登録が必要です<br><a class="schedule-tag" href="https://imigresen-online.imi.gov.my/mdac/main">MDAC登録ページ</a>
+**ビザ**：不要（90日以内）<br><a class="schedule-tag" href="https://imigresen-online.imi.gov.my/mdac/main">MDAC登録ページ</a>

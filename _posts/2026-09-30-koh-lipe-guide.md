@@ -37,9 +37,9 @@ excerpt: "「タイ最後の楽園」と呼ばれる透明度抜群の秘境リ�
 ## 予算の目安
 移動に時間がかかるうえ、パクバラ発の最終ボートが13:30のためハジャイで1泊が必須です。現地を2日しっかり楽しむには**4泊以上**がおすすめです。
 
-- **やす旅**：バンコク経由＋LCCのベトジェットエア。ハジャイまで乗り継いで移動費を抑えられます<br><a class="schedule-tag" href="https://www.vietjetair.com/">ベトジェットエアの最新スケジュール</a>
-- **ゆる旅**：バンコク経由＋ANA・タイ国際航空。フルサービスで快適にハジャイまで移動できます<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
-- **ラグ旅**：バンコク経由＋ANA・タイ国際航空<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
+- **やす旅**：バンコク経由+LCC｜ハジャイ乗継｜移動費を抑制<br><a class="schedule-tag" href="https://www.vietjetair.com/">ベトジェットエアの最新スケジュール</a>
+- **ゆる旅**：バンコク経由+ANA｜フルサービス｜快適に移動<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
+- **ラグ旅**：バンコク経由+ANA｜タイ国際航空｜快適な乗継<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
 
 ## おすすめ旅程（やす旅向け／LCC利用・ハジャイ1泊・4泊5日の例）
 

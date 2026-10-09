@@ -49,9 +49,9 @@ excerpt: "プーケットに次ぐタイ第2の広さを誇るチャン島。ジ
 ## 予算の目安
 移動に時間がかかるので、現地で2日しっかり楽しむには**3泊以上**がおすすめです。
 
-- **やす旅**：空港発着の直行バス＋LCCのZipair。空港近くに1泊してから直行バスでパタヤを経由せず島へ、一番シンプルで安い<br><a class="schedule-tag" href="https://www.zipair.net/ja">Zipairの最新スケジュール</a>
-- **ゆる旅**：陸路（パタヤ経由、パタヤ観光もできる）＋ANA。復路はバンコク22:25発の夜行便を使うことで、前泊・後泊なしで島を4泊満喫できます<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
-- **ラグ旅**：飛行機で直接トラートへ＋ANA。深夜便は使わず、バンコクで空港直結の高級ホテルに1泊してから翌朝ゆったりトラートへ乗り継ぎます<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
+- **やす旅**：直行バス+LCC｜空港近くに1泊｜シンプルで安い<br><a class="schedule-tag" href="https://www.zipair.net/ja">Zipairの最新スケジュール</a>
+- **ゆる旅**：パタヤ経由+ANA｜観光も楽しめる｜4泊満喫できる<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
+- **ラグ旅**：トラート直行+ANA｜空港直結ホテル1泊｜ゆったり乗継<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
 
 ## おすすめ旅程（やす旅向け／空港発着の直行バス利用・4泊5日の例）
 

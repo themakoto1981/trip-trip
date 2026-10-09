@@ -38,9 +38,9 @@ excerpt: "映画の舞台にもなった絶景ビーチ、マヤベイで知ら�
 ## 予算の目安
 移動に時間がかかるので、現地を2日しっかり楽しむには**4泊以上**がおすすめです。ピピ島行きフェリーの最終は13:30〜15:00頃のため、プーケットで1泊してから翌朝のフェリーに乗るのが基本です。
 
-- **やす旅**：バンコク経由（プーケット1泊）＋LCCのベトジェットエア。ピピ島行きの船便にも乗り継ぎやすいルートです<br><a class="schedule-tag" href="https://www.vietjetair.com/">ベトジェットエアの最新スケジュール</a>
-- **ゆる旅**：バンコク経由（プーケット1泊）＋ANA・バンコクエアウェイズ。フルサービスで快適に移動できます<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
-- **ラグ旅**：バンコク経由（プーケット1泊）＋ANA・バンコクエアウェイズ<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
+- **やす旅**：バンコク経由+LCC｜プーケット1泊｜船便に乗継やすい<br><a class="schedule-tag" href="https://www.vietjetair.com/">ベトジェットエアの最新スケジュール</a>
+- **ゆる旅**：バンコク経由+ANA｜プーケット1泊｜快適に移動<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
+- **ラグ旅**：バンコク経由+ANA｜プーケット1泊｜バンコクエアウェイズ<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
 
 ## おすすめ旅程（やす旅向け／LCC利用・プーケット1泊・4泊5日の例）
 

@@ -148,6 +148,8 @@ excerpt: "マレーシア・レダン島とタイ・リペ島、実際に両方�
 ![リペ島で食べたトムヤムクン](/assets/images/koh-lipe-taikenki/koh-lipe-tomyum.jpg)
 ![リペ島で食べたグリーンカレー](/assets/images/koh-lipe-taikenki/koh-lipe-green-curry.jpg)
 
+正直に言うと、個人的に好きなのはリペ島です。理由はシンプルで、タイ料理が好きだから。海の綺麗さで比べるとレダン島に軍配を上げましたが、「また行きたい」と思うのはリペ島の方だったりします。
+
 ## アクセス比較
 
 ### レダン島

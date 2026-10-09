@@ -35,9 +35,9 @@ excerpt: "真っ白なパウダーサンドで知られるフィリピン屈指�
 ## 予算の目安
 マニラ到着後にカリボへ渡る午後便を使うと夜の到着になるため、初日はカリボで1泊し、翌朝の明るい時間帯にボラカイ島へ渡る**4泊以上**がおすすめです。
 
-- **やす旅**：マニラ乗継＋LCCのセブパシフィック航空。到着当日のうちに国内線でカリボまで進めるので、マニラ泊なしで翌朝すぐボラカイ島へ渡れます<br><a class="schedule-tag" href="https://www.cebupacificair.com/">セブパシフィック航空の最新スケジュール</a>
-- **ゆる旅**：マニラ乗継＋ANA。到着当日のうちに国内線でカリボまで進めるので、マニラ泊なしで翌朝すぐボラカイ島へ渡れます<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
-- **ラグ旅**：マニラ乗継＋ANA。同じく当日中にカリボへ進めるため、移動の無駄がありません<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
+- **やす旅**：✈️マニラ乗継＋LCC｜🏨マニラ泊なし｜🌴翌朝すぐ島へ<br><a class="schedule-tag" href="https://www.cebupacificair.com/">セブパシフィック航空の最新スケジュール</a>
+- **ゆる旅**：✈️マニラ乗継＋ANA｜🏨マニラ泊なし｜🌴翌朝すぐ島へ<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
+- **ラグ旅**：✈️マニラ乗継＋ANA｜🏨移動の無駄なし｜✨最短ルート<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
 
 ## おすすめ旅程（やす旅向け／LCC利用・4泊5日の例）
 

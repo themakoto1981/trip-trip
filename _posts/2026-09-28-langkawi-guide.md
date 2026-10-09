@@ -36,9 +36,9 @@ excerpt: "マレーシア屈指のリゾートアイランド、ランカウイ�
 ## 予算の目安
 移動に時間がかかるので、現地を2日しっかり楽しむには**3泊以上**がおすすめです。
 
-- **やす旅**：空路（クアラルンプール乗継）＋LCCのAirAsia。深夜発の便なら、到着当日のうちにランカウイまで行けます<br><a class="schedule-tag" href="https://www.airasia.com/">AirAsiaの最新スケジュール</a>
-- **ゆる旅**：空路（クアラルンプール乗継）＋JAL。直行便で行けて、その日のうちにランカウイへ乗り継げます<br><a class="schedule-tag" href="https://www.jal.co.jp/jp/ja/">JALの最新スケジュール</a>
-- **ラグ旅**：空路（クアラルンプール乗継）＋JAL。ビジネスクラスも選べる快適な直行便です<br><a class="schedule-tag" href="https://www.jal.co.jp/jp/ja/">JALの最新スケジュール</a>
+- **やす旅**：クアラルンプール乗継+LCC｜深夜発｜当日中に到着<br><a class="schedule-tag" href="https://www.airasia.com/">AirAsiaの最新スケジュール</a>
+- **ゆる旅**：クアラルンプール乗継+JAL｜直行便｜当日中に乗継<br><a class="schedule-tag" href="https://www.jal.co.jp/jp/ja/">JALの最新スケジュール</a>
+- **ラグ旅**：クアラルンプール乗継+JAL｜ビジネスクラス可｜快適な直行便<br><a class="schedule-tag" href="https://www.jal.co.jp/jp/ja/">JALの最新スケジュール</a>
 
 ## おすすめ旅程（やす旅向け／LCC利用・4泊5日の例）
 

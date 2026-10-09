@@ -9,6 +9,16 @@ excerpt: "「マレーシアで一番美しい海」とも称される透明度�
 
 マレーシア東海岸、南シナ海に浮かぶ**レダン島**は、「マレーシアで一番美しい海」とも称される透明度抜群のリゾートアイランドです。西海岸のランカウイ島とは季節がまったく逆で、乾季の限られた期間しかアクセスできない特別な島です。
 
+<div>
+<a class="experience-card" href="/2026/10/09/redang-vs-lipe/">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Koh_Lipe_Thailand._Koh_Lipe_Beach_Resort%2C_Koh_Lipe_Island_01.jpg/960px-Koh_Lipe_Thailand._Koh_Lipe_Beach_Resort%2C_Koh_Lipe_Island_01.jpg" alt="レダン島×リペ島 徹底比較">
+  <div class="experience-card-body">
+    <span class="experience-card-label">徹底比較記事</span>
+    <span class="experience-card-title">徹底比較｜一番海が綺麗なのはどこ？レダン島×リペ島</span>
+  </div>
+</a>
+</div>
+
 ## 行き方
 
 - **飛行機**：日本からの直行便はなく、クアラルンプール（KLIA）経由が基本。クアラルンプールからクアラトレンガヌ空港へは国内線で約1時間。

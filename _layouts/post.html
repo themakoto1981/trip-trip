@@ -194,18 +194,37 @@ layout: default
           if (!strongEl) { return; }
           var row = document.querySelector('.budget-tier-row[data-tier-name="' + strongEl.textContent + '"]');
           if (!row) { return; }
-          var noteDiv = document.createElement('div');
-          noteDiv.className = 'budget-tier-note';
+
+          // ：の後ろのテキストは「｜」区切りでチップ化、<a class="schedule-tag">は別扱い
+          var textParts = [];
+          var linkEl = null;
           var node = strongEl.nextSibling;
           while (node) {
-            var next = node.nextSibling;
-            noteDiv.appendChild(node);
-            node = next;
+            if (node.nodeType === 3) {
+              textParts.push(node.textContent);
+            } else if (node.tagName === 'A') {
+              linkEl = node;
+            }
+            node = node.nextSibling;
           }
-          if (noteDiv.firstChild && noteDiv.firstChild.nodeType === 3) {
-            noteDiv.firstChild.textContent = noteDiv.firstChild.textContent.replace(/^：/, '');
+          var fullText = textParts.join('').replace(/^：/, '');
+          var chipTexts = fullText.split('｜').map(function (s) { return s.trim(); }).filter(Boolean);
+
+          if (chipTexts.length) {
+            var chipsDiv = document.createElement('div');
+            chipsDiv.className = 'budget-tier-chips';
+            chipTexts.forEach(function (c) {
+              var chip = document.createElement('span');
+              chip.className = 'budget-tier-chip';
+              chip.textContent = c;
+              chipsDiv.appendChild(chip);
+            });
+            row.appendChild(chipsDiv);
           }
-          row.appendChild(noteDiv);
+
+          if (linkEl) {
+            row.appendChild(linkEl);
+          }
         });
         noteList.remove();
       }

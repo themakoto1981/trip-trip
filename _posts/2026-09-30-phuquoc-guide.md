@@ -38,9 +38,9 @@ excerpt: "「アジアNo.1リゾート」とも称されるベトナム最大の
 ## 予算の目安
 やす旅はホーチミン乗継のみで3泊4日、ゆる旅・ラグ旅はホーチミンで1泊を挟むため4泊5日が目安です。
 
-- **やす旅**：ホーチミン乗継＋LCCのVietjet Air。深夜発の直行便を使えば到着当日中にフーコック島まで入れる<br><a class="schedule-tag" href="https://www.vietjetair.com/ja">Vietjet Airの最新スケジュール</a>
-- **ゆる旅**：ホーチミン乗継＋ANA。ホーチミンで1泊してから翌朝の国内線でフーコックへ<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
-- **ラグ旅**：ホーチミン乗継＋ANA。ホーチミンで1泊し、空港近くの快適なホテルで休んでから翌朝フーコックへ<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
+- **やす旅**：ホーチミン乗継+LCC｜深夜発｜当日中に到着<br><a class="schedule-tag" href="https://www.vietjetair.com/ja">Vietjet Airの最新スケジュール</a>
+- **ゆる旅**：ホーチミン乗継+ANA｜ホーチミン1泊｜翌朝フーコックへ<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
+- **ラグ旅**：ホーチミン乗継+ANA｜空港近く高級ホテル1泊｜翌朝ゆったり移動<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
 
 ## おすすめ旅程（やす旅向け／LCC利用・3泊4日の例）
 

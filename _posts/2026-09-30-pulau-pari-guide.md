@@ -48,9 +48,9 @@ excerpt: "ジャカルタから日帰りも可能な離島リゾート、パリ�
 ## 予算の目安
 ジャカルタ到着後に1泊し、翌日パリ島へ日帰りで渡ってから戻るスタイルのため、2泊以上がおすすめです。
 
-- **やす旅**：空路（シンガポール経由）＋LCCのスクート。直行LCCがない区間を乗り継ぎでカバーできる<br><a class="schedule-tag" href="https://www.flyscoot.com/jp">スクートの最新スケジュール</a>
-- **ゆる旅**：羽田発着のANA直行便。乗り継ぎなしで長時間移動の負担を減らせる<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
-- **ラグ旅**：羽田発着のANA直行便<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
+- **やす旅**：シンガポール経由+LCC｜スクート利用｜乗継でカバー<br><a class="schedule-tag" href="https://www.flyscoot.com/jp">スクートの最新スケジュール</a>
+- **ゆる旅**：羽田発ANA直行｜乗継なし｜移動負担を軽減<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
+- **ラグ旅**：羽田発ANA直行｜乗継なし｜快適な長距離移動<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
 
 ## おすすめ旅程（やす旅向け／LCC利用・2泊3日の例）
 

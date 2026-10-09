@@ -95,9 +95,13 @@ excerpt: "マレーシア・レダン島とタイ・リペ島、実際に両方�
 
 ただ、レダン島と比較すると、海の透明度や海中の見え方はレダン島の方が一段上。一方で、リペ島にはレダン島とは違う楽しさがあります。
 
+![リペ島、透明度の高い海とスピードボート](/assets/images/koh-lipe-taikenki/koh-lipe-speedboats-clear-water.jpg)
+
 ### ホテルに籠もることもできる
 
 今回泊まったのは[アイディリック コンセプト リゾート](https://www.booking.com/searchresults.html?ss=Idyllic+Concept+Resort+Koh+Lipe)。
+
+![リペ島のガーデンリゾート看板](/assets/images/koh-lipe-taikenki/koh-lipe-garden-resort-sign.jpg)
 
 リペ島というと、Walking Streetなどの賑やかなイメージがありますが、ホテルに籠もって過ごすこともできます。
 
@@ -118,6 +122,8 @@ excerpt: "マレーシア・レダン島とタイ・リペ島、実際に両方�
 - スーツケースを持って砂浜を歩く
 - 到着した瞬間からちょっとした秘境感がある
 
+![リペ島、ロングテールボートが並ぶビーチ](/assets/images/koh-lipe-taikenki/koh-lipe-longtail-beach.jpg)
+
 ### リペ島は食事が強い
 
 個人的にリペ島でかなり良かったのが食事。やっぱりタイ料理がうまい。
@@ -129,6 +135,9 @@ excerpt: "マレーシア・レダン島とタイ・リペ島、実際に両方�
 - タイ料理を食べながら過ごせる
 
 このあたりは、ホテルを中心に過ごすレダン島とはかなり違います。
+
+![リペ島で食べたトムヤムクン](/assets/images/koh-lipe-taikenki/koh-lipe-tomyum.jpg)
+![リペ島で食べたグリーンカレー](/assets/images/koh-lipe-taikenki/koh-lipe-green-curry.jpg)
 
 ## アクセス比較
 

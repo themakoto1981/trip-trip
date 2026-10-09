@@ -9,6 +9,16 @@ excerpt: "「タイ最後の楽園」と呼ばれる透明度抜群の秘境リ�
 
 タイ南部、マレーシア国境に近いアンダマン海に浮かぶ**リペ島**は、「タイ最後の楽園」とも呼ばれる小さな島です。プーケットやピピ島に比べてアクセスに手間がかかる分、透明度の高い海と落ち着いた雰囲気が守られています。
 
+<div>
+<a class="experience-card" href="/2026/10/09/redang-vs-lipe/">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Pulau_Redang_-_White_sandy_beach.jpg/960px-Pulau_Redang_-_White_sandy_beach.jpg" alt="レダン島×リペ島 徹底比較">
+  <div class="experience-card-body">
+    <span class="experience-card-label">徹底比較記事</span>
+    <span class="experience-card-title">徹底比較｜一番海が綺麗なのはどこ？レダン島×リペ島</span>
+  </div>
+</a>
+</div>
+
 ## 行き方
 
 - **飛行機**：日本からの直行便はなく、バンコク経由が基本。バンコクからはハジャイ空港まで国内線で約1時間半。

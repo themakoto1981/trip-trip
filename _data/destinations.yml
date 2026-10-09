@@ -103,7 +103,7 @@
   food_max: 6000
   flight_hours: "約10〜12時間（クアラルンプール経由）"
   recommended_nights: "3〜5泊"
-  visa: "不要（90日以内の観光滞在。事前にMDAC［デジタル入国カード］の登録が必要）"
+  visa: "不要（90日以内）"
   photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Pantai_Cenang%2C_Langkawi_01.jpg/960px-Pantai_Cenang%2C_Langkawi_01.jpg"
   photo_credit_url: "https://commons.wikimedia.org/wiki/File:Pantai_Cenang,_Langkawi_01.jpg"
   suited_for: [couple, family, friends]
@@ -128,7 +128,7 @@
   food_max: 5500
   flight_hours: "約11〜13時間（バンコク経由、ハジャイ空港からは車＋スピードボートで対岸へ約3時間）"
   recommended_nights: "3泊以上"
-  visa: "不要（観光目的30日以内）"
+  visa: "不要（30日以内）"
   photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Koh_Lipe_Thailand._Koh_Lipe_Beach_Resort%2C_Koh_Lipe_Island_01.jpg/960px-Koh_Lipe_Thailand._Koh_Lipe_Beach_Resort%2C_Koh_Lipe_Island_01.jpg"
   photo_credit_url: "https://commons.wikimedia.org/wiki/File:Koh_Lipe_Thailand._Koh_Lipe_Beach_Resort,_Koh_Lipe_Island_01.jpg"
   suited_for: [couple, friends, solo]
@@ -153,7 +153,7 @@
   food_max: 6000
   flight_hours: "約9〜11時間（クアラルンプール経由、クアラトレンガヌからフェリーで約1時間）"
   recommended_nights: "3泊以上"
-  visa: "不要（90日以内の観光滞在。事前にMDAC［デジタル入国カード］の登録が必要）"
+  visa: "不要（90日以内）"
   photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Pulau_Redang_-_White_sandy_beach.jpg/960px-Pulau_Redang_-_White_sandy_beach.jpg"
   photo_credit_url: "https://commons.wikimedia.org/wiki/File:Pulau_Redang_-_White_sandy_beach.jpg"
   suited_for: [couple, family, friends]
@@ -178,7 +178,7 @@
   food_max: 6000
   flight_hours: "約9〜11時間（プーケットまたはクラビ経由、フェリーで1〜2時間）"
   recommended_nights: "3泊以上"
-  visa: "不要（観光目的30日以内）"
+  visa: "不要（30日以内）"
   photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Isla_Ko_Phi_Phi_Don%2C_Tailandia%2C_2013-08-19%2C_DD_01.JPG/960px-Isla_Ko_Phi_Phi_Don%2C_Tailandia%2C_2013-08-19%2C_DD_01.JPG"
   photo_credit_url: "https://commons.wikimedia.org/wiki/File:Isla_Ko_Phi_Phi_Don,_Tailandia,_2013-08-19,_DD_01.JPG"
   suited_for: [couple, friends, solo]
@@ -203,7 +203,7 @@
   food_max: 5500
   flight_hours: "約10〜12時間（バンコク経由、トラート空港からフェリーで約40分）"
   recommended_nights: "3泊以上"
-  visa: "不要（観光目的30日以内）"
+  visa: "不要（30日以内）"
   photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Klong_Prao_Beach%2C_west_coast_of_Ko_Chang_Island%2C_Thailand.jpg/960px-Klong_Prao_Beach%2C_west_coast_of_Ko_Chang_Island%2C_Thailand.jpg"
   photo_credit_url: "https://commons.wikimedia.org/wiki/File:Klong_Prao_Beach,_west_coast_of_Ko_Chang_Island,_Thailand.jpg"
   suited_for: [couple, family, friends]
@@ -228,7 +228,7 @@
   food_max: 4500
   flight_hours: "約7〜8時間（ジャカルタ直行便）、パリ島へは日帰りでアンチョール港からフェリー約1〜1.5時間"
   recommended_nights: "2泊以上"
-  visa: "不要（観光目的30日以内）"
+  visa: "不要（30日以内）"
   photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Pantai_Perawan_Pulau_Pari_Kepulauan_Seribu.jpg/960px-Pantai_Perawan_Pulau_Pari_Kepulauan_Seribu.jpg"
   photo_credit_url: "https://commons.wikimedia.org/wiki/File:Pantai_Perawan_Pulau_Pari_Kepulauan_Seribu.jpg"
   suited_for: [couple, friends, solo]
@@ -253,7 +253,7 @@
   food_max: 5000
   flight_hours: "約9〜10時間（ホーチミン経由、国内線で約1時間）"
   recommended_nights: "3泊以上"
-  visa: "不要（45日以内の観光滞在。2028年3月14日まで実施中の措置）"
+  visa: "不要（45日以内）"
   photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Phu_Quoc_beach_01.jpg/960px-Phu_Quoc_beach_01.jpg"
   photo_credit_url: "https://commons.wikimedia.org/wiki/File:Phu_Quoc_beach_01.jpg"
   suited_for: [couple, family, friends]

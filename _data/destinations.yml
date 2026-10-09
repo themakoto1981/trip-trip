@@ -28,7 +28,7 @@
   food_max: 6000
   flight_hours: "約9〜12時間（マニラ経由）"
   recommended_nights: "4〜5泊"
-  visa: "不要"
+  visa: "不要（30日以内）"
   photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Boracay_White_Beach.png/960px-Boracay_White_Beach.png"
   photo_credit_url: "https://commons.wikimedia.org/wiki/File:Boracay_White_Beach.png"
   suited_for: [couple, friends, solo]
@@ -53,7 +53,7 @@
   food_max: 7000
   flight_hours: "約7〜8時間（直行便）、乗継便の場合は12〜14時間"
   recommended_nights: "3〜5泊"
-  visa: "不要"
+  visa: "不要（30日以内）"
   photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Kuta_Beach%2C_Bali%2C_20220825_1706_0864.jpg/960px-Kuta_Beach%2C_Bali%2C_20220825_1706_0864.jpg"
   photo_credit_url: "https://commons.wikimedia.org/wiki/File:Kuta_Beach,_Bali,_20220825_1706_0864.jpg"
   suited_for: [couple, family, friends]
@@ -78,7 +78,7 @@
   food_max: 6000
   flight_hours: "約9〜11時間（バンコク経由）"
   recommended_nights: "3泊以上"
-  visa: "不要"
+  visa: "不要（30日以内）"
   photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Patong_Beach_Phuket_November_2012.jpg/960px-Patong_Beach_Phuket_November_2012.jpg"
   photo_credit_url: "https://commons.wikimedia.org/wiki/File:Patong_Beach_Phuket_November_2012.jpg"
   suited_for: [couple, family, friends, solo]

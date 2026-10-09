@@ -38,9 +38,9 @@ excerpt: "「マレーシアで一番美しい海」とも称される透明度�
 ## 予算の目安
 移動に時間がかかるので、現地を2日しっかり楽しむには**3泊以上**がおすすめです。
 
-- **やす旅**：空路（クアラルンプール経由）＋LCCのAirAsia X。深夜便を使えば乗継泊なしでその日のうちにレダン島まで到着できる<br><a class="schedule-tag" href="https://www.airasia.com/ja/jp/">AirAsiaの最新スケジュール</a>
-- **ゆる旅**：空路（クアラルンプール経由）＋ANA。深夜発の直行便を使えば、クアラルンプールで前泊せずに当日中にレダン島へ渡れます<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
-- **ラグ旅**：空路（クアラルンプール経由）＋ANA。深夜発の直行便とゆとりある乗継で、快適にレダン島へ<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
+- **やす旅**：クアラルンプール経由+LCC｜乗継泊なし｜当日中に到着<br><a class="schedule-tag" href="https://www.airasia.com/ja/jp/">AirAsiaの最新スケジュール</a>
+- **ゆる旅**：クアラルンプール経由+ANA｜前泊なし｜当日中に到着<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
+- **ラグ旅**：クアラルンプール経由+ANA｜ゆとりある乗継｜快適にレダン島へ<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
 
 ## おすすめ旅程（やす旅向け／LCC利用・機内1泊＋島3泊の4泊5日の例）
 

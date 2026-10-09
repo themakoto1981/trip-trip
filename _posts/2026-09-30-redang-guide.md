@@ -152,4 +152,4 @@ excerpt: "「マレーシアで一番美しい海」とも称される透明度�
 
 レダン島は乾季（4〜9月）以外は島自体が閉鎖されるため、他の島以上に訪問時期の確認が重要です。予約前に必ず宿泊施設の営業状況をチェックしましょう。
 
-**ビザ**：不要（90日以内の観光滞在）。ただし入国カード（MDAC）の事前登録が必要です<br><a class="schedule-tag" href="https://imigresen-online.imi.gov.my/mdac/main">MDAC登録ページ</a>
+**ビザ**：不要（90日以内）<br><a class="schedule-tag" href="https://imigresen-online.imi.gov.my/mdac/main">MDAC登録ページ</a>

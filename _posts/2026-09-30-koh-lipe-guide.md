@@ -169,4 +169,4 @@ excerpt: "「タイ最後の楽園」と呼ばれる透明度抜群の秘境リ�
 
 リペ島は道路が舗装されていないエリアも多く、島内はビーチサンダルでの移動が基本です。両替は本土で済ませておくと安心です。
 
-**ビザ**：不要（30日以内）<br><a class="schedule-tag" href="https://tdac.immigration.go.th">TDAC登録ページ</a>
+**入国カード登録**<br><a class="schedule-tag" href="https://tdac.immigration.go.th">TDAC登録ページ</a>

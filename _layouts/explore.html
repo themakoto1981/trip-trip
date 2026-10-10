@@ -2,6 +2,8 @@
 layout: default
 ---
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
 <style>
   .hero {
     position: relative;
@@ -155,19 +157,26 @@ layout: default
   #trip-map { height: 480px; width: 100%; border: 2px solid var(--sb-green); margin-bottom: 0.5rem; }
   .map-hint { font-size: 0.85rem; color: var(--sb-brown-soft); margin: 0 0 1.5rem; }
   .leaflet-marker-icon { cursor: pointer; }
-  .island-label {
-    background: #fff; color: var(--sb-green-dark); font-weight: 600; font-size: 0.8rem;
-    padding: 2px 8px; border-radius: 6px; border: 1px solid var(--sb-border);
-    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-    white-space: nowrap;
+  .island-label .leaflet-popup-content { margin: 0.5rem 0.75rem; }
+  .island-label .leaflet-popup-content a {
+    color: var(--sb-green-dark); font-weight: 700; font-size: 0.9rem;
+    text-decoration: none; white-space: nowrap;
   }
-  .island-label a { color: inherit; text-decoration: none; }
-  .island-label::before { display: none; }
   .page-tagline { font-size: 0.95rem; color: #666; font-weight: normal; margin-top: -0.5rem; }
 
-  .island-star {
-    font-size: 20px; line-height: 1; color: #00704A;
-    text-shadow: 0 1px 2px rgba(0,0,0,0.35), 0 0 1px #fff;
+  .island-dot {
+    width: 12px; height: 12px; border-radius: 50%;
+    background: var(--sb-green);
+    border: 2px solid #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.35);
+  }
+  .island-cluster {
+    display: flex; align-items: center; justify-content: center;
+    width: 36px; height: 36px; border-radius: 50%;
+    background: var(--sb-green);
+    color: #fff; font-weight: 700; font-size: 0.85rem;
+    border: 2px solid #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.35);
   }
 
 </style>
@@ -265,6 +274,7 @@ layout: default
 <div id="trip-map"></div>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
 <script>
   var destinations = {{ site.data.destinations | jsonify }};
 
@@ -323,20 +333,34 @@ layout: default
 
   var islandIcon = L.divIcon({
     className: 'island-pin-wrapper',
-    html: '<div class="island-star">★</div>',
-    iconSize: [20, 20],
-    iconAnchor: [10, 10],
-    popupAnchor: [0, -10]
+    html: '<div class="island-dot"></div>',
+    iconSize: [12, 12],
+    iconAnchor: [6, 6],
+    popupAnchor: [0, -6]
+  });
+
+  var clusterGroup = L.markerClusterGroup({
+    maxClusterRadius: 50,
+    spiderfyOnMaxZoom: true,
+    showCoverageOnHover: false,
+    iconCreateFunction: function (cluster) {
+      return L.divIcon({
+        className: 'island-cluster-wrapper',
+        html: '<div class="island-cluster">' + cluster.getChildCount() + '</div>',
+        iconSize: [36, 36]
+      });
+    }
   });
 
   var markers = [];
   destinations.forEach(function (d) {
-    var marker = L.marker([d.lat, d.lng], { icon: islandIcon }).addTo(map);
+    var marker = L.marker([d.lat, d.lng], { icon: islandIcon });
     var targetUrl = '{{ site.baseurl }}' + d.url;
-    marker.bindTooltip('<a href="' + targetUrl + '">' + d.name + '</a>', { direction: 'top', offset: [0, -10], className: 'island-label', interactive: true });
-    marker.on('click', function () { window.location.href = targetUrl; });
+    marker.bindPopup('<a href="' + targetUrl + '">' + d.name + '</a>', { className: 'island-label' });
+    clusterGroup.addLayer(marker);
     markers.push(marker);
   });
+  map.addLayer(clusterGroup);
 
   if (markers.length > 0) {
     var group = L.featureGroup(markers);

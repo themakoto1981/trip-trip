@@ -57,7 +57,7 @@
   photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Kuta_Beach%2C_Bali%2C_20220825_1706_0864.jpg/960px-Kuta_Beach%2C_Bali%2C_20220825_1706_0864.jpg"
   photo_credit_url: "https://commons.wikimedia.org/wiki/File:Kuta_Beach,_Bali,_20220825_1706_0864.jpg"
   suited_for: [couple, family, friends]
-  best_months: [5, 6, 9]
+  best_months: [5, 6, 9, 10]
   url: /2026/09/28/bali-guide/
   tags: { beach: 4, resort: 4, island: 3, city_base: 5, sightseeing: 5, relax: 3, party: 4, activity: 4 }
 
@@ -257,7 +257,7 @@
   photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Phu_Quoc_beach_01.jpg/960px-Phu_Quoc_beach_01.jpg"
   photo_credit_url: "https://commons.wikimedia.org/wiki/File:Phu_Quoc_beach_01.jpg"
   suited_for: [couple, family, friends]
-  best_months: [12, 1, 2, 3]
+  best_months: [11, 12, 1, 2, 3]
   url: /2026/09/30/phuquoc-guide/
   tags: { beach: 5, resort: 5, island: 4, city_base: 2, sightseeing: 3, relax: 4, party: 2, activity: 3 }
 
@@ -399,6 +399,6 @@
   photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Island_lagoon_in_Bacuit_Bay%2C_El_Nido%2C_Palawan%2C_Philippines.jpg/960px-Island_lagoon_in_Bacuit_Bay%2C_El_Nido%2C_Palawan%2C_Philippines.jpg"
   photo_credit_url: "https://commons.wikimedia.org/wiki/File:Island_lagoon_in_Bacuit_Bay,_El_Nido,_Palawan,_Philippines.jpg"
   suited_for: [couple, friends, solo]
-  best_months: [12, 1, 2, 3]
+  best_months: [11, 12, 1, 2, 3]
   url: /2026/10/10/el-nido-guide/
   tags: { beach: 5, resort: 3, island: 5, city_base: 2, sightseeing: 4, relax: 4, party: 2, activity: 5 }

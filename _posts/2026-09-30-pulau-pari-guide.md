@@ -123,4 +123,4 @@ excerpt: "ジャカルタから日帰りも可能な離島リゾート、パリ�
 
 パリ島は島に大型ホテルがなく、日帰りで訪れるのが基本のスタイルです。ジャカルタ市内観光と組み合わせて、効率よく楽しみましょう。
 
-**ビザ**：不要（30日以内）<br><a class="schedule-tag" href="https://allindonesia.imigrasi.go.id">入国カード登録ページ</a>
+**入国カード登録**<br><a class="schedule-tag" href="https://allindonesia.imigrasi.go.id">入国カード登録ページ</a>

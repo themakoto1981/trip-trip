@@ -123,4 +123,4 @@ Vietjet Airは火・木・土・日運航。土曜発なら、有休を1日も�
 
 ダナンは空港からビーチまでの近さが際立つ街です。ホイアンへは夕方だけ足を伸ばすだけでも十分雰囲気を味わえるので、無理に1日を使わず、ビーチでのんびりする時間と組み合わせるのがおすすめです。
 
-**ビザ**：不要（45日以内）<br><a class="schedule-tag" href="https://prearrival.immigration.gov.vn">入国カード登録ページ</a>
+**入国カード登録**<br><a class="schedule-tag" href="https://prearrival.immigration.gov.vn">入国カード登録ページ</a>

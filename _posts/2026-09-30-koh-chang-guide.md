@@ -159,4 +159,4 @@ excerpt: "プーケットに次ぐタイ第2の広さを誇るチャン島。ジ
 
 チャン島はジャングルトレッキングと象保護施設が有名です。ビーチだけでなく内陸部のアクティビティも組み合わせると、より島の魅力を楽しめます。
 
-**ビザ**：不要（30日以内）<br><a class="schedule-tag" href="https://tdac.immigration.go.th">TDAC登録ページ</a>
+**入国カード登録**<br><a class="schedule-tag" href="https://tdac.immigration.go.th">TDAC登録ページ</a>

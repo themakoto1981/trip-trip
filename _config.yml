@@ -36,6 +36,7 @@ plugins:
 header_pages:
   - articles.md
   - countries.md
+  - season.md
   - submit.md
 
 exclude:

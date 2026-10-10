@@ -483,18 +483,34 @@ layout: default
   </section>
   {%- endif -%}
 
-  {%- if page.previous or page.next -%}
+  {%- assign adjacent_posts = site.posts | where_exp: "p", "p.exclude_from_adjacent_nav != true" -%}
+  {%- assign adjacent_current_pos = nil -%}
+  {%- for p in adjacent_posts -%}
+    {%- if p.url == page.url -%}
+      {%- assign adjacent_current_pos = forloop.index0 -%}
+    {%- endif -%}
+  {%- endfor -%}
+  {%- if adjacent_current_pos -%}
+    {%- assign adjacent_prev_pos = adjacent_current_pos | plus: 1 -%}
+    {%- assign adjacent_next_pos = adjacent_current_pos | minus: 1 -%}
+    {%- assign filtered_previous = adjacent_posts[adjacent_prev_pos] -%}
+    {%- if adjacent_next_pos >= 0 -%}{%- assign filtered_next = adjacent_posts[adjacent_next_pos] -%}{%- endif -%}
+  {%- else -%}
+    {%- assign filtered_previous = page.previous -%}
+    {%- assign filtered_next = page.next -%}
+  {%- endif -%}
+  {%- if filtered_previous or filtered_next -%}
   <nav class="post-adjacent">
-    {%- if page.previous -%}
-    <a class="post-adjacent-link prev" href="{{ page.previous.url | relative_url }}">
+    {%- if filtered_previous -%}
+    <a class="post-adjacent-link prev" href="{{ filtered_previous.url | relative_url }}">
       <span class="post-adjacent-label">前の記事</span>
-      <span class="post-adjacent-title">{{ page.previous.title | split: "｜" | first }}</span>
+      <span class="post-adjacent-title">{{ filtered_previous.title | split: "｜" | first }}</span>
     </a>
     {%- endif -%}
-    {%- if page.next -%}
-    <a class="post-adjacent-link next" href="{{ page.next.url | relative_url }}">
+    {%- if filtered_next -%}
+    <a class="post-adjacent-link next" href="{{ filtered_next.url | relative_url }}">
       <span class="post-adjacent-label">次の記事</span>
-      <span class="post-adjacent-title">{{ page.next.title | split: "｜" | first }}</span>
+      <span class="post-adjacent-title">{{ filtered_next.title | split: "｜" | first }}</span>
     </a>
     {%- endif -%}
   </nav>

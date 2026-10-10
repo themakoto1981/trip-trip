@@ -135,4 +135,4 @@ excerpt: "アンダマン海に浮かぶタイ最大の島プーケット。ビ�
 
 プーケットは離島ツアーの選択肢が豊富なので、滞在中に1〜2日は周辺の島巡りに充てるのがおすすめです。
 
-**ビザ**：不要（30日以内）<br><a class="schedule-tag" href="https://tdac.immigration.go.th">TDAC登録ページ</a>
+**入国カード登録**<br><a class="schedule-tag" href="https://tdac.immigration.go.th">TDAC登録ページ</a>

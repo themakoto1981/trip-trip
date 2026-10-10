@@ -252,3 +252,23 @@ danang-hoian-guide:
     lng: 107.9922
     desc: フランス統治時代の面影を残すテーマパーク、ゴールデンブリッジが人気
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Golden_Bridge_above_the_clouds_Ba_Na_Hills_Da_Nang_Vietnam.jpg/960px-Golden_Bridge_above_the_clouds_Ba_Na_Hills_Da_Nang_Vietnam.jpg"
+
+el-nido-guide:
+  - name: ナクパンビーチ
+    lat: 11.2790
+    lng: 119.3390
+    desc: 町から北へ約45分、約4kmにわたる白砂のロングビーチ
+  - name: ビッグラグーン
+    lat: 11.1530
+    lng: 119.3320
+    desc: ミニロク島にある、断崖に囲まれたエメラルドグリーンのラグーン
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Limestone_island_in_Bacuit_Bay%2C_El_Nido%2C_Palawan%2C_Philippines.jpg/960px-Limestone_island_in_Bacuit_Bay%2C_El_Nido%2C_Palawan%2C_Philippines.jpg"
+  - name: コロンコロンビーチ
+    lat: 11.1630
+    lng: 119.3950
+    desc: 町の南にある静かなビーチ、サンセットの名所
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Corong_Corong%2C_El_Nido%2C_Palawan_Island%2C_Philippines.jpg/960px-Corong_Corong%2C_El_Nido%2C_Palawan_Island%2C_Philippines.jpg"
+  - name: ラスカバーニャビーチ
+    lat: 11.1530
+    lng: 119.3990
+    desc: 夕日が美しいことで知られる、のんびりした砂浜

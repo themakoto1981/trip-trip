@@ -144,4 +144,4 @@ excerpt: "石灰岩の断崖とエメラルドグリーンの入り江が広が�
 
 エルニドのアイランドホッピングは、ツアーA〜Dでコースが異なります。初めてなら定番のラグーンを巡るツアーAがおすすめです。
 
-**ビザ**：不要（30日以内）<br><a class="schedule-tag" href="https://etravel.gov.ph">eTravel登録ページ</a>
+**入国カード登録**<br><a class="schedule-tag" href="https://etravel.gov.ph">eTravel登録ページ</a>

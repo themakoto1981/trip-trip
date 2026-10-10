@@ -150,4 +150,4 @@ excerpt: "真っ白なパウダーサンドで知られるフィリピン屈指�
 
 ボラカイ島は近年環境保護のため島内でのプラスチック規制なども進んでいます。エコバッグを一つ持参すると便利です。
 
-**ビザ**：不要（30日以内）<br><a class="schedule-tag" href="https://etravel.gov.ph">eTravel登録ページ</a>
+**入国カード登録**<br><a class="schedule-tag" href="https://etravel.gov.ph">eTravel登録ページ</a>

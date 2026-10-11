@@ -1,4 +1,5 @@
 ---
+author: makoto
 layout: post
 title: "徹底比較｜一番海が綺麗なのはどこ？レダン島×リペ島"
 date: 2026-10-09

@@ -193,7 +193,7 @@ permalink: /season/
   var destinations = {{ site.data.destinations | jsonify }};
 
   var tagLabels = {
-    beach: "ビーチ", resort: "リゾート", island: "島", city_base: "街拠点",
+    beach: "海の透明度", resort: "リゾート", island: "島", city_base: "街拠点",
     sightseeing: "観光", relax: "まったり", party: "パーティ", activity: "アクティブ"
   };
   var tagOrder = ["beach","resort","island","city_base","sightseeing","relax","party","activity"];

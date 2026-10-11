@@ -528,13 +528,23 @@ layout: default
     </div>
   </div>
 
+  {%- if page.author == "makoto" -%}
   <div class="author-card">
     <img class="author-card-avatar" src="{{ '/assets/images/author-avatar.jpg' | relative_url }}" alt="MAKOTO">
     <div class="author-card-body">
       <p class="author-card-name">MAKOTO</p>
+      <p class="author-card-bio">お仕事で長らく東南アジアに住んでいた経験から、タイ・マレーシア・インドネシアのリアルを体験。今は年に数回訪れる東南アジアの島・ビーチを中心に、実際に訪れた体験をもとに記事を書いています。趣味はタイ料理を作ることと、透き通った海でのシュノーケルとビール。「美味しいがなきゃ旅じゃない」をモットーに、間違いない旅行記を共有してます。</p>
+    </div>
+  </div>
+  {%- else -%}
+  <div class="author-card">
+    <img class="author-card-avatar" src="{{ '/favicon.svg' | relative_url }}" alt="TRiPxTRiP">
+    <div class="author-card-body">
+      <p class="author-card-name">TRiPxTRiP</p>
       <p class="author-card-bio">日本から行けるアジアの島・ビーチの情報を発信しています。</p>
     </div>
   </div>
+  {%- endif -%}
 
   {%- include comments.html -%}
 

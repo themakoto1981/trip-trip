@@ -80,7 +80,8 @@ excerpt: "石灰岩の断崖とエメラルドグリーンの入り江が広が�
 
 **2日目（2泊目：エルニド泊）**
 - 09:20　セブ発（Cebgo、所要1時間50分）→ 11:10　エルニド・リオ空港着
-- 午後　[Cadlao Resort & Restaurant](https://www.booking.com/searchresults.html?ss=Cadlao+Resort+El+Nido)にチェックイン（プール付きの人気リゾート）、町を散策
+- 11:30頃　空港からトライシクルで約10分、[Cadlao Resort & Restaurant](https://www.booking.com/searchresults.html?ss=Cadlao+Resort+El+Nido)にチェックイン（プール付きの人気リゾート）
+- 午後　町を散策
 
 **3日目（3泊目：エルニド泊・終日フリー）**
 - 09:00　[アイランドホッピングツアーA](https://www.klook.com/search/result/?query=El%20Nido%20Island%20Hopping%20Tour%20A)へ出発（ビッグラグーン、スモールラグーン、シミズ島）

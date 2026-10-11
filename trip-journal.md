@@ -29,6 +29,7 @@ robots: noindex
   /* trip setup */
   .tj-setup { max-width: 480px; margin: 2rem auto; display: flex; flex-direction: column; gap: 0.9rem; }
   .tj-setup label { font-size: 0.82rem; font-weight: 700; color: var(--sb-brown-soft); display: block; margin-bottom: 0.3rem; }
+  .tj-hint { font-size: 0.78rem; color: var(--sb-brown-soft); margin: 0 0 0.4rem; }
   .tj-setup input {
     width: 100%; box-sizing: border-box; padding: 0.6rem 0.8rem; border: 1px solid var(--sb-border);
     border-radius: 8px; font-size: 0.95rem; font-family: inherit;
@@ -155,8 +156,10 @@ robots: noindex
     </div>
     <div>
       <label>参加者</label>
+      <p class="tj-hint">名前を入力して「追加」を押してください。1人ずつ追加できます。</p>
       <div class="tj-row">
-        <input id="tjSetupParticipant" type="text" placeholder="名前を入力してEnter">
+        <input id="tjSetupParticipant" type="text" placeholder="例：まこと">
+        <button type="button" class="tj-btn secondary" id="tjSetupParticipantAdd" style="flex:none;">追加</button>
       </div>
       <div class="tj-chip-list" id="tjSetupParticipantList"></div>
     </div>
@@ -325,14 +328,20 @@ robots: noindex
     });
   }
 
+  function addSetupParticipant() {
+    var input = document.getElementById('tjSetupParticipant');
+    var v = input.value.trim();
+    if (!v) return;
+    setupParticipants.push(v);
+    input.value = '';
+    input.focus();
+    renderSetupParticipants();
+  }
+  document.getElementById('tjSetupParticipantAdd').addEventListener('click', addSetupParticipant);
   document.getElementById('tjSetupParticipant').addEventListener('keydown', function (e) {
     if (e.key !== 'Enter') return;
     e.preventDefault();
-    var v = this.value.trim();
-    if (!v) return;
-    setupParticipants.push(v);
-    this.value = '';
-    renderSetupParticipants();
+    addSetupParticipant();
   });
 
   function renderSetupParticipants() {

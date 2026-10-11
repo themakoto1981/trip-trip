@@ -67,6 +67,24 @@ robots: noindex
   }
   .tj-day-tab.active { background: var(--sb-green); color: #fff; border-color: var(--sb-green); }
 
+  /* week grid (Outlook-style) */
+  .tj-week-card { padding: 0; overflow: hidden; }
+  .tj-week-card .tj-card-title { padding: 1rem 1rem 0; }
+  .tj-week-scroll { overflow: auto; max-height: 420px; border-top: 1px solid var(--sb-border); margin-top: 0.6rem; }
+  .tj-week-table { display: flex; width: max-content; }
+  .tj-week-gutter { position: sticky; left: 0; z-index: 3; background: var(--sb-card); width: 46px; flex-shrink: 0; }
+  .tj-week-gutter-corner { position: sticky; top: 0; z-index: 4; height: 54px; background: var(--sb-card); border-bottom: 1px solid var(--sb-border); border-right: 1px solid var(--sb-border); box-sizing: border-box; }
+  .tj-week-hour-label { font-size: 0.62rem; color: var(--sb-brown-soft); text-align: right; padding-right: 0.3rem; box-sizing: border-box; border-right: 1px solid var(--sb-border); position: relative; top: -0.55em; }
+  .tj-week-day { flex-shrink: 0; width: 112px; border-right: 1px solid var(--sb-border); }
+  .tj-week-day-header { position: sticky; top: 0; z-index: 2; height: 54px; background: var(--sb-card); border-bottom: 1px solid var(--sb-border); padding: 0.4rem; box-sizing: border-box; cursor: pointer; text-align: center; }
+  .tj-week-day-header.active { background: var(--sb-cream); }
+  .tj-week-day-header .tj-wd-date { font-size: 0.7rem; font-weight: 700; color: var(--sb-brown); }
+  .tj-week-day-header .tj-wd-hotel { font-size: 0.58rem; color: var(--sb-green-dark); margin-top: 0.15rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .tj-week-day-body { position: relative; background-image: repeating-linear-gradient(to bottom, var(--sb-border) 0, var(--sb-border) 1px, transparent 1px, transparent 44px); }
+  .tj-week-day-body.active { background-color: rgba(0,112,74,0.05); }
+  .tj-week-item { position: absolute; left: 2px; right: 2px; border-radius: 5px; background: var(--sb-green); color: #fff; font-size: 0.6rem; padding: 0.15rem 0.3rem; overflow: hidden; line-height: 1.25; box-shadow: 0 1px 2px rgba(0,0,0,0.15); }
+  .tj-week-item .tj-wi-time { font-weight: 700; }
+
   .tj-card { background: var(--sb-card); border: 1px solid var(--sb-border); border-radius: 12px; padding: 1rem; margin-bottom: 0.9rem; }
   .tj-card-title { font-weight: 700; color: var(--sb-brown); margin-bottom: 0.5rem; font-size: 0.95rem; }
 
@@ -190,6 +208,13 @@ robots: noindex
     <div id="tjTabSchedule" class="tj-tab-panel">
       <div class="tj-day-tabs" id="tjDayTabs"></div>
 
+      <div class="tj-card tj-week-card">
+        <div class="tj-card-title">今週のスケジュール</div>
+        <div class="tj-week-scroll" id="tjWeekScroll">
+          <div class="tj-week-table" id="tjWeekTable"></div>
+        </div>
+      </div>
+
       <div class="tj-card">
         <div class="tj-card-title">宿泊先</div>
         <div class="tj-hotel-row">
@@ -288,10 +313,18 @@ robots: noindex
 
   var tripData = null;
   var selectedDayIndex = 1;
-  var unsubItems = null;
   var unsubCosts = null;
   var unsubMedia = null;
   var setupParticipants = [];
+  var weekItemsByDay = {};
+  var weekHotelByDay = {};
+  var dayUnsubs = [];
+  var weekGridScrolled = false;
+  var ROW_HEIGHT = 44;
+
+  function escapeHtml(s) {
+    return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+  }
 
   // ---------- AUTH ----------
   document.getElementById('tjLoginBtn').addEventListener('click', function () {
@@ -401,6 +434,7 @@ robots: noindex
     try { localStorage.setItem('tj_as_' + TRIP_ID, asSelect.value); } catch (e) {}
 
     renderDayTabs();
+    setupWeekListeners();
     selectDay(1);
     renderCostPaidBy();
     renderCostParticipantChecks();
@@ -452,7 +486,8 @@ robots: noindex
     selectedDayIndex = idx;
     renderDayTabs();
     loadHotel();
-    watchItems();
+    renderDayItemList(idx);
+    renderWeekGrid();
   }
 
   function dayDocRef() {
@@ -472,31 +507,110 @@ robots: noindex
 
   var typeIcons = { flight: '✈️', train: '🚆', car: '🚗', bus: '🚌', other: '📍' };
 
-  function watchItems() {
-    if (unsubItems) { unsubItems(); }
-    var q = query(collection(db, 'trips', TRIP_ID, 'days', String(selectedDayIndex), 'items'), orderBy('time'));
-    unsubItems = onSnapshot(q, function (snap) {
-      var list = document.getElementById('tjItemList');
-      list.innerHTML = '';
-      if (snap.empty) {
-        list.innerHTML = '<div class="tj-empty">まだ予定がありません</div>';
-        return;
-      }
-      snap.forEach(function (docSnap) {
-        var d = docSnap.data();
-        var row = document.createElement('div');
-        row.className = 'tj-item';
-        row.innerHTML = '<div class="tj-item-icon">' + (typeIcons[d.type] || '📍') + '</div>' +
-          '<div class="tj-item-body"><div class="tj-item-time">' + (d.time || '') + '</div>' +
-          '<div class="tj-item-title"></div><div class="tj-item-detail"></div></div>' +
-          '<button class="tj-item-del">削除</button>';
-        row.querySelector('.tj-item-title').textContent = d.title || '';
-        row.querySelector('.tj-item-detail').textContent = d.detail || '';
-        row.querySelector('.tj-item-del').addEventListener('click', function () {
-          deleteDoc(doc(db, 'trips', TRIP_ID, 'days', String(selectedDayIndex), 'items', docSnap.id));
+  // ---------- WEEK GRID (all days) ----------
+  function setupWeekListeners() {
+    dayUnsubs.forEach(function (u) { u(); });
+    dayUnsubs = [];
+    weekItemsByDay = {};
+    weekHotelByDay = {};
+    var n = dayCount();
+    for (var i = 1; i <= n; i++) {
+      (function (idx) {
+        var qItems = query(collection(db, 'trips', TRIP_ID, 'days', String(idx), 'items'), orderBy('time'));
+        var unsub1 = onSnapshot(qItems, function (snap) {
+          var arr = [];
+          snap.forEach(function (docSnap) {
+            var row = { id: docSnap.id };
+            var data = docSnap.data();
+            for (var k in data) { row[k] = data[k]; }
+            arr.push(row);
+          });
+          weekItemsByDay[idx] = arr;
+          renderWeekGrid();
+          if (idx === selectedDayIndex) { renderDayItemList(idx); }
         });
-        list.appendChild(row);
+        var unsub2 = onSnapshot(doc(db, 'trips', TRIP_ID, 'days', String(idx)), function (snap) {
+          weekHotelByDay[idx] = snap.exists() ? (snap.data().hotel || '') : '';
+          renderWeekGrid();
+        });
+        dayUnsubs.push(unsub1, unsub2);
+      })(i);
+    }
+  }
+
+  function timeToMinutes(t) {
+    if (!t) return null;
+    var parts = t.split(':');
+    return parseInt(parts[0], 10) * 60 + parseInt(parts[1], 10);
+  }
+
+  function renderWeekGrid() {
+    var wrap = document.getElementById('tjWeekTable');
+    if (!wrap || !tripData) return;
+    var n = dayCount();
+    var html = '<div class="tj-week-gutter"><div class="tj-week-gutter-corner"></div>';
+    for (var h = 0; h < 24; h++) {
+      html += '<div class="tj-week-hour-label" style="height:' + ROW_HEIGHT + 'px;">' + (h < 10 ? '0' + h : h) + ':00</div>';
+    }
+    html += '</div>';
+
+    for (var i = 1; i <= n; i++) {
+      var isActive = (i === selectedDayIndex);
+      var hotel = weekHotelByDay[i] || '';
+      html += '<div class="tj-week-day">';
+      html += '<div class="tj-week-day-header' + (isActive ? ' active' : '') + '" data-day="' + i + '">';
+      html += '<div class="tj-wd-date">' + i + '日目 ' + dayDateLabel(i) + '</div>';
+      if (hotel) { html += '<div class="tj-wd-hotel">🏨 ' + escapeHtml(hotel) + '</div>'; }
+      html += '</div>';
+      html += '<div class="tj-week-day-body' + (isActive ? ' active' : '') + '" style="height:' + (24 * ROW_HEIGHT) + 'px;">';
+      var items = weekItemsByDay[i] || [];
+      items.forEach(function (it) {
+        var mins = timeToMinutes(it.time);
+        if (mins === null) return;
+        var top = (mins / 60) * ROW_HEIGHT;
+        html += '<div class="tj-week-item" style="top:' + top + 'px; height:' + (ROW_HEIGHT - 4) + 'px;">';
+        html += '<span class="tj-wi-time">' + (typeIcons[it.type] || '📍') + ' ' + escapeHtml(it.time || '') + '</span><br>' + escapeHtml(it.title || '');
+        html += '</div>';
       });
+      html += '</div></div>';
+    }
+
+    wrap.innerHTML = html;
+    wrap.querySelectorAll('.tj-week-day-header').forEach(function (el) {
+      el.addEventListener('click', function () {
+        selectDay(parseInt(this.getAttribute('data-day'), 10));
+      });
+    });
+
+    if (!weekGridScrolled) {
+      var scrollEl = document.getElementById('tjWeekScroll');
+      if (scrollEl) { scrollEl.scrollTop = 6 * ROW_HEIGHT; }
+      weekGridScrolled = true;
+    }
+  }
+
+  // ---------- SCHEDULE: PER-DAY LIST (from cache) ----------
+  function renderDayItemList(dayIndex) {
+    var list = document.getElementById('tjItemList');
+    var items = weekItemsByDay[dayIndex] || [];
+    list.innerHTML = '';
+    if (items.length === 0) {
+      list.innerHTML = '<div class="tj-empty">まだ予定がありません</div>';
+      return;
+    }
+    items.forEach(function (d) {
+      var row = document.createElement('div');
+      row.className = 'tj-item';
+      row.innerHTML = '<div class="tj-item-icon">' + (typeIcons[d.type] || '📍') + '</div>' +
+        '<div class="tj-item-body"><div class="tj-item-time">' + (d.time || '') + '</div>' +
+        '<div class="tj-item-title"></div><div class="tj-item-detail"></div></div>' +
+        '<button class="tj-item-del">削除</button>';
+      row.querySelector('.tj-item-title').textContent = d.title || '';
+      row.querySelector('.tj-item-detail').textContent = d.detail || '';
+      row.querySelector('.tj-item-del').addEventListener('click', function () {
+        deleteDoc(doc(db, 'trips', TRIP_ID, 'days', String(dayIndex), 'items', d.id));
+      });
+      list.appendChild(row);
     });
   }
 

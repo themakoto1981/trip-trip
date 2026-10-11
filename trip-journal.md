@@ -84,6 +84,8 @@ robots: noindex
   .tj-week-day-body.active { background-color: rgba(0,112,74,0.05); }
   .tj-week-item { position: absolute; left: 2px; right: 2px; border-radius: 5px; background: var(--sb-green); color: #fff; font-size: 0.6rem; padding: 0.15rem 0.3rem; overflow: hidden; line-height: 1.25; box-shadow: 0 1px 2px rgba(0,0,0,0.15); }
   .tj-week-item .tj-wi-time { font-weight: 700; }
+  .tj-week-item-cont-start { border-bottom: 2px dashed rgba(255,255,255,0.7); }
+  .tj-week-item-cont { background: var(--sb-brown-soft); opacity: 0.85; border-top: 2px dashed rgba(255,255,255,0.7); }
 
   .tj-card { background: var(--sb-card); border: 1px solid var(--sb-border); border-radius: 12px; padding: 1rem; margin-bottom: 0.9rem; }
   .tj-card-title { font-weight: 700; color: var(--sb-brown); margin-bottom: 0.5rem; font-size: 0.95rem; }
@@ -247,6 +249,9 @@ robots: noindex
               <input id="tjItemEndTime" type="time">
             </div>
           </div>
+          <label class="tj-check-row">
+            <input type="checkbox" id="tjItemEndNextDay"> 終了は翌日（夜便泊など）
+          </label>
           <input id="tjItemTitle" type="text" placeholder="例：羽田発 ANA123便">
           <input id="tjItemDetail" type="text" placeholder="補足（任意）">
           <button class="tj-btn secondary" id="tjItemAdd">追加</button>
@@ -558,6 +563,17 @@ robots: noindex
     var wrap = document.getElementById('tjWeekTable');
     if (!wrap || !tripData) return;
     var n = dayCount();
+
+    var continuations = {};
+    for (var d = 1; d <= n; d++) {
+      (weekItemsByDay[d] || []).forEach(function (it) {
+        if (it.endNextDay && it.endTime && d + 1 <= n) {
+          if (!continuations[d + 1]) { continuations[d + 1] = []; }
+          continuations[d + 1].push(it);
+        }
+      });
+    }
+
     var html = '<div class="tj-week-gutter"><div class="tj-week-gutter-corner"></div>';
     for (var h = 0; h < 24; h++) {
       html += '<div class="tj-week-hour-label" style="height:' + ROW_HEIGHT + 'px;">' + (h < 10 ? '0' + h : h) + ':00</div>';
@@ -578,12 +594,27 @@ robots: noindex
         var mins = timeToMinutes(it.time);
         if (mins === null) return;
         var top = (mins / 60) * ROW_HEIGHT;
-        var endMins = it.endTime ? timeToMinutes(it.endTime) : null;
-        var height = (endMins !== null && endMins > mins) ? ((endMins - mins) / 60) * ROW_HEIGHT : (ROW_HEIGHT - 4);
+        var height, timeLabel, extraClass = '';
+        if (it.endNextDay && it.endTime) {
+          height = ((1440 - mins) / 60) * ROW_HEIGHT;
+          timeLabel = it.time + '〜翌' + it.endTime;
+          extraClass = ' tj-week-item-cont-start';
+        } else {
+          var endMins = it.endTime ? timeToMinutes(it.endTime) : null;
+          height = (endMins !== null && endMins > mins) ? ((endMins - mins) / 60) * ROW_HEIGHT : (ROW_HEIGHT - 4);
+          timeLabel = it.endTime ? (it.time + '〜' + it.endTime) : it.time;
+        }
         if (height < 18) { height = 18; }
-        var timeLabel = it.endTime ? (it.time + '〜' + it.endTime) : it.time;
-        html += '<div class="tj-week-item" style="top:' + top + 'px; height:' + height + 'px;">';
+        html += '<div class="tj-week-item' + extraClass + '" style="top:' + top + 'px; height:' + height + 'px;">';
         html += '<span class="tj-wi-time">' + (typeIcons[it.type] || '📍') + ' ' + escapeHtml(timeLabel || '') + '</span><br>' + escapeHtml(it.title || '');
+        html += '</div>';
+      });
+      (continuations[i] || []).forEach(function (it) {
+        var endMins = timeToMinutes(it.endTime);
+        var height = (endMins / 60) * ROW_HEIGHT;
+        if (height < 18) { height = 18; }
+        html += '<div class="tj-week-item tj-week-item-cont" style="top:0px; height:' + height + 'px;">';
+        html += '<span class="tj-wi-time">' + (typeIcons[it.type] || '📍') + ' 〜' + escapeHtml(it.endTime) + '</span><br>' + escapeHtml(it.title || '') + '（続き）';
         html += '</div>';
       });
       html += '</div></div>';
@@ -615,7 +646,7 @@ robots: noindex
     items.forEach(function (d) {
       var row = document.createElement('div');
       row.className = 'tj-item';
-      var timeLabel = d.endTime ? (d.time + '〜' + d.endTime) : (d.time || '');
+      var timeLabel = d.endTime ? (d.time + '〜' + (d.endNextDay ? '翌' : '') + d.endTime) : (d.time || '');
       row.innerHTML = '<div class="tj-item-icon">' + (typeIcons[d.type] || '📍') + '</div>' +
         '<div class="tj-item-body"><div class="tj-item-time">' + timeLabel + '</div>' +
         '<div class="tj-item-title"></div><div class="tj-item-detail"></div></div>' +
@@ -633,20 +664,26 @@ robots: noindex
     var type = document.getElementById('tjItemType').value;
     var time = document.getElementById('tjItemTime').value;
     var endTime = document.getElementById('tjItemEndTime').value;
+    var endNextDay = document.getElementById('tjItemEndNextDay').checked;
     var title = document.getElementById('tjItemTitle').value.trim();
     var detail = document.getElementById('tjItemDetail').value.trim();
     if (!title || !time) return;
-    if (endTime && timeToMinutes(endTime) <= timeToMinutes(time)) {
-      alert('終了時刻は開始時刻より後にしてください');
+    if (endTime && !endNextDay && timeToMinutes(endTime) <= timeToMinutes(time)) {
+      alert('終了時刻は開始時刻より後にしてください（日をまたぐ場合は「終了は翌日」にチェック）');
+      return;
+    }
+    if (endNextDay && !endTime) {
+      alert('「終了は翌日」を選ぶ場合は終了時刻も入力してください');
       return;
     }
     addDoc(collection(db, 'trips', TRIP_ID, 'days', String(selectedDayIndex), 'items'), {
-      type: type, time: time, endTime: endTime || null, title: title, detail: detail,
+      type: type, time: time, endTime: endTime || null, endNextDay: !!(endTime && endNextDay), title: title, detail: detail,
       postedBy: document.getElementById('tjAsSelect').value, createdAt: serverTimestamp()
     }).then(function () {
       document.getElementById('tjItemTitle').value = '';
       document.getElementById('tjItemDetail').value = '';
       document.getElementById('tjItemEndTime').value = '';
+      document.getElementById('tjItemEndNextDay').checked = false;
     });
   });
 

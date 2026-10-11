@@ -1,4 +1,5 @@
 ---
+author: makoto
 layout: post
 title: "チャン島へ行ってきました｜雨季のパタヤ経由弾丸旅行記"
 date: 2026-10-03

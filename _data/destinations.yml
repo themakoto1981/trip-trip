@@ -209,7 +209,7 @@
   suited_for: [couple, family, friends]
   best_months: [12, 1, 2, 3, 4]
   url: /2026/09/30/koh-chang-guide/
-  tags: { beach: 4, resort: 3, island: 5, city_base: 1, sightseeing: 3, relax: 4, party: 2, activity: 4 }
+  tags: { beach: 2, resort: 3, island: 5, city_base: 1, sightseeing: 3, relax: 4, party: 2, activity: 4 }
 
 - name: パリ島
   en_name: "Pulau Pari, Indonesia"
@@ -259,7 +259,7 @@
   suited_for: [couple, family, friends]
   best_months: [11, 12, 1, 2, 3]
   url: /2026/09/30/phuquoc-guide/
-  tags: { beach: 5, resort: 5, island: 4, city_base: 2, sightseeing: 3, relax: 4, party: 2, activity: 3 }
+  tags: { beach: 3, resort: 5, island: 4, city_base: 2, sightseeing: 3, relax: 4, party: 2, activity: 3 }
 
 - name: サムイ島
   en_name: "Koh Samui, Thailand"
@@ -309,7 +309,7 @@
   suited_for: [couple, family, friends, solo]
   best_months: [3, 4, 5, 6, 7, 8]
   url: /2026/10/05/danang-hoian-guide/
-  tags: { beach: 4, resort: 4, island: 1, city_base: 5, sightseeing: 5, relax: 3, party: 2, activity: 3 }
+  tags: { beach: 2, resort: 4, island: 1, city_base: 5, sightseeing: 5, relax: 3, party: 2, activity: 3 }
 
 # --- 以下、東南アジア以外のため一時的に非公開（記事もpublished: falseに設定済み）---
 # 地域を広げる際にコメントを外して復元してください（hotel/transport/foodへの分割が必要です）。

@@ -1,4 +1,5 @@
 ---
+author: makoto
 layout: post
 title: "ダナン・ホイアンへ行ってきました｜バインミー食べ比べとランタンの夜"
 date: 2026-10-05

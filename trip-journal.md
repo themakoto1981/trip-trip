@@ -103,6 +103,7 @@ robots: noindex
   .tj-add-form { display: flex; flex-direction: column; gap: 0.5rem; margin-top: 0.7rem; border-top: 1px dashed var(--sb-border); padding-top: 0.7rem; }
   .tj-add-form .tj-row input, .tj-add-form .tj-row select { width: 100%; box-sizing: border-box; padding: 0.5rem 0.6rem; border: 1px solid var(--sb-border); border-radius: 8px; font-family: inherit; font-size: 0.85rem; }
   .tj-add-form input[type="text"] { padding: 0.5rem 0.6rem; border: 1px solid var(--sb-border); border-radius: 8px; font-family: inherit; font-size: 0.85rem; }
+  .tj-time-label { font-size: 0.68rem; color: var(--sb-brown-soft); margin-bottom: 0.15rem; }
 
   /* cost */
   .tj-cost-item { padding: 0.7rem 0; border-top: 1px solid var(--sb-border); }
@@ -235,7 +236,16 @@ robots: noindex
               <option value="bus">🚌 バス</option>
               <option value="other">📍 その他</option>
             </select>
-            <input id="tjItemTime" type="time">
+          </div>
+          <div class="tj-row">
+            <div>
+              <div class="tj-time-label">開始</div>
+              <input id="tjItemTime" type="time">
+            </div>
+            <div>
+              <div class="tj-time-label">終了（任意）</div>
+              <input id="tjItemEndTime" type="time">
+            </div>
           </div>
           <input id="tjItemTitle" type="text" placeholder="例：羽田発 ANA123便">
           <input id="tjItemDetail" type="text" placeholder="補足（任意）">
@@ -568,8 +578,12 @@ robots: noindex
         var mins = timeToMinutes(it.time);
         if (mins === null) return;
         var top = (mins / 60) * ROW_HEIGHT;
-        html += '<div class="tj-week-item" style="top:' + top + 'px; height:' + (ROW_HEIGHT - 4) + 'px;">';
-        html += '<span class="tj-wi-time">' + (typeIcons[it.type] || '📍') + ' ' + escapeHtml(it.time || '') + '</span><br>' + escapeHtml(it.title || '');
+        var endMins = it.endTime ? timeToMinutes(it.endTime) : null;
+        var height = (endMins !== null && endMins > mins) ? ((endMins - mins) / 60) * ROW_HEIGHT : (ROW_HEIGHT - 4);
+        if (height < 18) { height = 18; }
+        var timeLabel = it.endTime ? (it.time + '〜' + it.endTime) : it.time;
+        html += '<div class="tj-week-item" style="top:' + top + 'px; height:' + height + 'px;">';
+        html += '<span class="tj-wi-time">' + (typeIcons[it.type] || '📍') + ' ' + escapeHtml(timeLabel || '') + '</span><br>' + escapeHtml(it.title || '');
         html += '</div>';
       });
       html += '</div></div>';
@@ -601,8 +615,9 @@ robots: noindex
     items.forEach(function (d) {
       var row = document.createElement('div');
       row.className = 'tj-item';
+      var timeLabel = d.endTime ? (d.time + '〜' + d.endTime) : (d.time || '');
       row.innerHTML = '<div class="tj-item-icon">' + (typeIcons[d.type] || '📍') + '</div>' +
-        '<div class="tj-item-body"><div class="tj-item-time">' + (d.time || '') + '</div>' +
+        '<div class="tj-item-body"><div class="tj-item-time">' + timeLabel + '</div>' +
         '<div class="tj-item-title"></div><div class="tj-item-detail"></div></div>' +
         '<button class="tj-item-del">削除</button>';
       row.querySelector('.tj-item-title').textContent = d.title || '';
@@ -617,15 +632,21 @@ robots: noindex
   document.getElementById('tjItemAdd').addEventListener('click', function () {
     var type = document.getElementById('tjItemType').value;
     var time = document.getElementById('tjItemTime').value;
+    var endTime = document.getElementById('tjItemEndTime').value;
     var title = document.getElementById('tjItemTitle').value.trim();
     var detail = document.getElementById('tjItemDetail').value.trim();
-    if (!title) return;
+    if (!title || !time) return;
+    if (endTime && timeToMinutes(endTime) <= timeToMinutes(time)) {
+      alert('終了時刻は開始時刻より後にしてください');
+      return;
+    }
     addDoc(collection(db, 'trips', TRIP_ID, 'days', String(selectedDayIndex), 'items'), {
-      type: type, time: time, title: title, detail: detail,
+      type: type, time: time, endTime: endTime || null, title: title, detail: detail,
       postedBy: document.getElementById('tjAsSelect').value, createdAt: serverTimestamp()
     }).then(function () {
       document.getElementById('tjItemTitle').value = '';
       document.getElementById('tjItemDetail').value = '';
+      document.getElementById('tjItemEndTime').value = '';
     });
   });
 

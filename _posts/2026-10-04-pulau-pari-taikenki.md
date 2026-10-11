@@ -1,4 +1,5 @@
 ---
+author: makoto
 layout: post
 title: "パリ島へ行ってきました｜野生のイルカと出会う弾丸日帰り旅行記"
 date: 2026-10-04

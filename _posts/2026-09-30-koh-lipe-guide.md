@@ -154,6 +154,8 @@ excerpt: "「タイ最後の楽園」と呼ばれる透明度抜群の秘境リ�
 - **サンセットビーチ**：夕日が美しい西側のビーチ
 - **アダン島**：国立公園の島でシュノーケリングが人気
 
+リペ島ののんびりとした空気感が伝わる一枚。夕暮れのロングテールボートと、透明度の高い海で泳ぐ様子です。
+
 ![リペ島、夕暮れのロングテールボート](/assets/images/koh-lipe-taikenki/koh-lipe-sunset-boats.jpg)
 ![リペ島、透明度の高い海で泳ぐ](/assets/images/koh-lipe-taikenki/koh-lipe-small-island-swim.jpg)
 

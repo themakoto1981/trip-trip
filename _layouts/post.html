@@ -267,17 +267,19 @@ layout: default
           var spotMarkersByName = {};
           var spotMarkers = mySpots.map(function (s, idx) {
             var m = L.marker([s.lat, s.lng], { icon: makeSpotIcon(s.type, s.letter) }).addTo(spotMap);
-            // ビーチ（type指定なし）だけ常時ラベル表示、ホテル/空港/港はタップで詳細
-            m.bindTooltip(s.name, { permanent: !s.type, interactive: true, direction: (idx % 2 === 0 ? 'top' : 'bottom'), offset: [0, (idx % 2 === 0 ? -8 : 8)], className: 'spot-label' });
+            // ビーチ（type指定なし）だけ常時ラベル表示。ホテル/空港/港はツールチップ自体をbindせず、タップでポップアップのみ表示（タッチ時の疑似hoverで名前が二重に出るのを防ぐ）
+            if (!s.type) {
+              m.bindTooltip(s.name, { permanent: true, interactive: true, direction: (idx % 2 === 0 ? 'top' : 'bottom'), offset: [0, (idx % 2 === 0 ? -8 : 8)], className: 'spot-label' });
+              m.on('tooltipopen', function (e) {
+                var tipEl = e.tooltip.getElement();
+                if (tipEl) { tipEl.addEventListener('click', function () { m.openPopup(); }); }
+              });
+            }
             var gmapsUrl = 'https://www.google.com/maps/search/?api=1&query=' + s.lat + ',' + s.lng;
             var popupHtml = '<strong>' + s.name + '</strong>' + (s.desc ? '<br>' + s.desc : '') +
               (s.url ? '<br><a href="' + s.url + '" target="_blank" rel="noopener">予約ページを見る ↗</a>' : '') +
               '<br><a href="' + gmapsUrl + '" target="_blank" rel="noopener">Googleマップで開く ↗</a>';
             m.bindPopup(popupHtml);
-            m.on('tooltipopen', function (e) {
-              var tipEl = e.tooltip.getElement();
-              if (tipEl) { tipEl.addEventListener('click', function () { m.openPopup(); }); }
-            });
             spotMarkersByName[s.name] = { marker: m, lat: s.lat, lng: s.lng, image: s.image };
             return m;
           });

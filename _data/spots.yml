@@ -312,27 +312,32 @@ nusa-penida-guide:
     desc: ビーチ沿いのコスパ重視ホテル（やす旅向け）
     type: hotel
     letter: や
+    url: "https://www.booking.com/searchresults.html?ss=Segara+Village+Hotel+Sanur"
   - name: Prime Plaza Hotel Sanur
     lat: -8.684323
     lng: 115.259656
     desc: ボート乗り場に近いビーチサイドのホテル（ゆる旅向け）
     type: hotel
     letter: ゆ
+    url: "https://www.booking.com/searchresults.html?ss=Prime+Plaza+Hotel+Sanur"
   - name: Hyatt Regency Bali
     lat: -8.7022119
     lng: 115.2632459
     desc: サヌールビーチ沿いの大型リゾート（ラグ旅向け）
     type: hotel
     letter: ラ
+    url: "https://www.booking.com/searchresults.html?ss=Hyatt+Regency+Bali"
   - name: Semabu Hills Hotel
     lat: -8.6878799
     lng: 115.4928259
     desc: 海を望む丘の上のインフィニティプールが人気（やす旅・ゆる旅向け）
     type: hotel
     letter: や
+    url: "https://www.booking.com/searchresults.html?ss=Semabu+Hills+Hotel+Nusa+Penida"
   - name: Penida Bambu Green Suites
     lat: -8.6905244
     lng: 115.5041054
     desc: 竹造りのヴィラが並ぶ高級ホテル（ラグ旅向け）
     type: hotel
+    url: "https://www.booking.com/searchresults.html?ss=Penida+Bambu+Green+Suites"
     letter: ラ

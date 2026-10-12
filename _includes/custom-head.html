@@ -541,7 +541,7 @@
 
   /* Spot map on post pages */
   #spot-map-wrap { margin: 1rem 0 1.5rem; }
-  #spot-map { height: 320px; width: 100%; border: 2px solid var(--sb-green); }
+  #spot-map { height: 320px; width: 100%; border-radius: 10px; overflow: hidden; }
   .spot-link {
     cursor: pointer;
     text-decoration: underline dotted;
@@ -588,6 +588,9 @@
     border: 2px solid #fff;
     box-shadow: 0 1px 3px rgba(0,0,0,0.3);
   }
+  .spot-pin-hotel { background: var(--sb-green); }
+  .spot-pin-airport { background: var(--sb-brown-soft); }
+  .spot-pin-port { background: var(--sb-green-dark); }
   .spot-label {
     background: #fff; color: var(--sb-green-dark); font-weight: 600; font-size: 0.75rem;
     padding: 1px 7px; border-radius: 10px; border: 1px solid var(--sb-border);

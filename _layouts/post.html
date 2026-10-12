@@ -282,56 +282,55 @@ layout: default
           // 地図が非表示コンテナに描画された場合のサイズ計算ずれ対策
           setTimeout(function () { spotMap.invalidateSize(); }, 200);
 
-          // 「おすすめ」リストの項目名とピンをリンクさせる
-          var spotList = mapWrap.nextElementSibling;
-          if (spotList && spotList.tagName === 'UL') {
-            spotList.querySelectorAll('li').forEach(function (li) {
-              var strong = li.querySelector('strong');
-              if (!strong) { return; }
-              var matchedName = null;
-              Object.keys(spotMarkersByName).forEach(function (name) {
-                if (strong.textContent.indexOf(name) !== -1 || name.indexOf(strong.textContent) !== -1) {
-                  matchedName = name;
-                }
-              });
-              if (matchedName) {
-                strong.classList.add('spot-link');
-                var info = spotMarkersByName[matchedName];
-                strong.addEventListener('click', function () {
-                  spotMap.setView([info.lat, info.lng], 15);
-                  info.marker.openPopup();
-                  document.getElementById('spot-map').scrollIntoView({ behavior: 'smooth', block: 'center' });
-                });
-
-                // 名前と説明文を別の行に分ける（：以降をspanでまとめる）
-                var descSpan = document.createElement('span');
-                descSpan.className = 'spot-desc';
-                var node = strong.nextSibling;
-                while (node) {
-                  var next = node.nextSibling;
-                  descSpan.appendChild(node);
-                  node = next;
-                }
-                descSpan.textContent = descSpan.textContent.replace(/^：/, '');
-
-                var textWrap = document.createElement('div');
-                textWrap.className = 'spot-text';
-                li.insertBefore(textWrap, strong);
-                textWrap.appendChild(strong);
-                textWrap.appendChild(descSpan);
-
-                if (info.image) {
-                  li.classList.add('spot-list-item');
-                  var thumb = document.createElement('img');
-                  thumb.className = 'spot-thumb';
-                  thumb.src = info.image;
-                  thumb.alt = matchedName;
-                  thumb.loading = 'lazy';
-                  li.insertBefore(thumb, li.firstChild);
-                }
+          // 「おすすめ」リスト（ビーチ・ホテルとも）の項目名とピンをリンクさせる
+          document.querySelectorAll('.post-content li').forEach(function (li) {
+            var strong = li.querySelector('strong');
+            if (!strong) { return; }
+            var matchedName = null;
+            Object.keys(spotMarkersByName).forEach(function (name) {
+              if (strong.textContent.indexOf(name) !== -1 || name.indexOf(strong.textContent) !== -1) {
+                matchedName = name;
               }
             });
-          }
+            if (matchedName) {
+              strong.classList.add('spot-link');
+              li.classList.add('spot-link-row');
+              var info = spotMarkersByName[matchedName];
+              li.addEventListener('click', function (e) {
+                if (e.target.closest('a')) { return; }
+                spotMap.setView([info.lat, info.lng], 15);
+                info.marker.openPopup();
+                document.getElementById('spot-map').scrollIntoView({ behavior: 'smooth', block: 'center' });
+              });
+
+              // 名前と説明文を別の行に分ける（：以降をspanでまとめる）
+              var descSpan = document.createElement('span');
+              descSpan.className = 'spot-desc';
+              var node = strong.nextSibling;
+              while (node) {
+                var next = node.nextSibling;
+                descSpan.appendChild(node);
+                node = next;
+              }
+              descSpan.textContent = descSpan.textContent.replace(/^：/, '');
+
+              var textWrap = document.createElement('div');
+              textWrap.className = 'spot-text';
+              li.insertBefore(textWrap, strong);
+              textWrap.appendChild(strong);
+              textWrap.appendChild(descSpan);
+
+              if (info.image) {
+                li.classList.add('spot-list-item');
+                var thumb = document.createElement('img');
+                thumb.className = 'spot-thumb';
+                thumb.src = info.image;
+                thumb.alt = matchedName;
+                thumb.loading = 'lazy';
+                li.insertBefore(thumb, li.firstChild);
+              }
+            }
+          });
         }
       }
     } catch (e) {

@@ -280,14 +280,54 @@ nusa-penida-guide:
     desc: 恐竜の背中のような岬が海に突き出す、島を象徴する絶景スポット
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Kelingking_Beach_%282022%29.jpg/960px-Kelingking_Beach_%282022%29.jpg"
   - name: クリスタルベイ
-    lat: -8.7196
-    lng: 115.4468
+    lat: -8.7151611
+    lng: 115.4590565
     desc: 西向きの白砂ビーチ、シュノーケリングと夕日の名所
   - name: ダイヤモンドビーチ
-    lat: -8.7390
-    lng: 115.5757
+    lat: -8.7751348
+    lng: 115.6202282
     desc: 断崖の下に白砂が延びる、島の東端のビーチ
   - name: アトゥビーチ
-    lat: -8.7442
-    lng: 115.5741
+    lat: -8.7734116
+    lng: 115.6218187
     desc: ダイヤモンドビーチの隣にある、人が少なめの静かな入り江
+  - name: デンパサール（ングラライ）国際空港
+    lat: -8.7469933
+    lng: 115.1681655
+    desc: 日本からの発着空港
+    type: airport
+  - name: サヌール・ボートハーバー
+    lat: -8.6713871
+    lng: 115.2614475
+    desc: ヌサペニダ行き高速ボートの発着港（バリ本島側）
+    type: port
+  - name: トヤパケ・ハーバー
+    lat: -8.6826391
+    lng: 115.4872512
+    desc: ヌサペニダ島側の高速ボート発着港
+    type: port
+  - name: Segara Village Hotel
+    lat: -8.6827059
+    lng: 115.2629223
+    desc: ビーチ沿いのコスパ重視ホテル（やす旅向け）
+    type: hotel
+  - name: Prime Plaza Hotel Sanur
+    lat: -8.684323
+    lng: 115.259656
+    desc: ボート乗り場に近いビーチサイドのホテル（ゆる旅向け）
+    type: hotel
+  - name: Hyatt Regency Bali
+    lat: -8.7022119
+    lng: 115.2632459
+    desc: サヌールビーチ沿いの大型リゾート（ラグ旅向け）
+    type: hotel
+  - name: Semabu Hills Hotel
+    lat: -8.6878799
+    lng: 115.4928259
+    desc: 海を望む丘の上のインフィニティプールが人気（やす旅・ゆる旅向け）
+    type: hotel
+  - name: Penida Bambu Green Suites
+    lat: -8.6905244
+    lng: 115.5041054
+    desc: 竹造りのヴィラが並ぶ高級ホテル（ラグ旅向け）
+    type: hotel

@@ -253,19 +253,20 @@ layout: default
             maxZoom: 19
           }).addTo(spotMap);
 
-          function makeSpotIcon(type) {
+          function makeSpotIcon(type, letter) {
+            var isHotel = type === 'hotel' && letter;
             return L.divIcon({
               className: 'spot-pin-wrapper',
-              html: '<div class="spot-pin' + (type ? ' spot-pin-' + type : '') + '"></div>',
-              iconSize: [14, 14],
-              iconAnchor: [7, 7],
+              html: '<div class="spot-pin' + (type ? ' spot-pin-' + type : '') + (isHotel ? ' spot-pin-lettered' : '') + '">' + (isHotel ? letter : '') + '</div>',
+              iconSize: isHotel ? [20, 20] : [14, 14],
+              iconAnchor: isHotel ? [10, 10] : [7, 7],
               popupAnchor: [0, -8]
             });
           }
 
           var spotMarkersByName = {};
           var spotMarkers = mySpots.map(function (s, idx) {
-            var m = L.marker([s.lat, s.lng], { icon: makeSpotIcon(s.type) }).addTo(spotMap);
+            var m = L.marker([s.lat, s.lng], { icon: makeSpotIcon(s.type, s.letter) }).addTo(spotMap);
             m.bindTooltip(s.name, { permanent: true, direction: (idx % 2 === 0 ? 'top' : 'bottom'), offset: [0, (idx % 2 === 0 ? -8 : 8)], className: 'spot-label' });
             var gmapsUrl = 'https://www.google.com/maps/search/?api=1&query=' + s.lat + ',' + s.lng;
             var popupHtml = '<strong>' + s.name + '</strong>' + (s.desc ? '<br>' + s.desc : '') +

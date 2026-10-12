@@ -236,7 +236,9 @@ layout: default
       if (mySpots && mySpots.length > 0) {
         var spotHeading = null;
         document.querySelectorAll('.post-content h2').forEach(function (h) {
-          if (h.textContent.indexOf('おすすめ') !== -1) { spotHeading = h; }
+          if (spotHeading) { return; }
+          var t = h.textContent;
+          if (t.indexOf('おすすめ') !== -1 && (t.indexOf('ビーチ') !== -1 || t.indexOf('スポット') !== -1)) { spotHeading = h; }
         });
 
         if (spotHeading) {
@@ -251,18 +253,20 @@ layout: default
             maxZoom: 19
           }).addTo(spotMap);
 
-          var spotIcon = L.divIcon({
-            className: 'spot-pin-wrapper',
-            html: '<div class="spot-pin"></div>',
-            iconSize: [14, 14],
-            iconAnchor: [7, 7],
-            popupAnchor: [0, -8]
-          });
+          function makeSpotIcon(type) {
+            return L.divIcon({
+              className: 'spot-pin-wrapper',
+              html: '<div class="spot-pin' + (type ? ' spot-pin-' + type : '') + '"></div>',
+              iconSize: [14, 14],
+              iconAnchor: [7, 7],
+              popupAnchor: [0, -8]
+            });
+          }
 
           var spotMarkersByName = {};
-          var spotMarkers = mySpots.map(function (s) {
-            var m = L.marker([s.lat, s.lng], { icon: spotIcon }).addTo(spotMap);
-            m.bindTooltip(s.name, { permanent: true, direction: 'top', offset: [0, -8], className: 'spot-label' });
+          var spotMarkers = mySpots.map(function (s, idx) {
+            var m = L.marker([s.lat, s.lng], { icon: makeSpotIcon(s.type) }).addTo(spotMap);
+            m.bindTooltip(s.name, { permanent: true, direction: (idx % 2 === 0 ? 'top' : 'bottom'), offset: [0, (idx % 2 === 0 ? -8 : 8)], className: 'spot-label' });
             var gmapsUrl = 'https://www.google.com/maps/search/?api=1&query=' + s.lat + ',' + s.lng;
             var popupHtml = '<strong>' + s.name + '</strong>' + (s.desc ? '<br>' + s.desc : '') +
               '<br><a href="' + gmapsUrl + '" target="_blank" rel="noopener">Googleマップで開く ↗</a>';

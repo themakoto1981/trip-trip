@@ -402,3 +402,28 @@
   best_months: [11, 12, 1, 2, 3]
   url: /2026/10/10/el-nido-guide/
   tags: { beach: 5, resort: 3, island: 5, city_base: 2, sightseeing: 4, relax: 4, party: 2, activity: 5 }
+
+- name: ヌサペニダ島
+  en_name: "Nusa Penida, Indonesia"
+  slug: nusa-penida-guide
+  country: インドネシア
+  country_slug: indonesia
+  lat: -8.7275
+  lng: 115.5444
+  flight_min: 57000
+  flight_max: 165000
+  hotel_min: 4000
+  hotel_max: 30000
+  transport_min: 5000
+  transport_max: 10000
+  food_min: 2500
+  food_max: 6000
+  flight_hours: "約7〜8時間（デンパサール直行便）、サヌールから高速ボートで約30〜45分"
+  recommended_nights: "3泊以上"
+  visa: "不要（30日以内）"
+  photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Kelingking_Beach_%282022%29.jpg/960px-Kelingking_Beach_%282022%29.jpg"
+  photo_credit_url: "https://commons.wikimedia.org/wiki/File:Kelingking_Beach_(2022).jpg"
+  suited_for: [couple, friends, solo]
+  best_months: [5, 6, 9]
+  url: /2026/10/12/nusa-penida-guide/
+  tags: { beach: 4, resort: 3, island: 5, city_base: 1, sightseeing: 5, relax: 3, party: 2, activity: 5 }

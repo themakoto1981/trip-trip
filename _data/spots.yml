@@ -272,3 +272,22 @@ el-nido-guide:
     lat: 11.1530
     lng: 119.3990
     desc: 夕日が美しいことで知られる、のんびりした砂浜
+
+nusa-penida-guide:
+  - name: ケリンキンビーチ
+    lat: -8.7503
+    lng: 115.4733
+    desc: 恐竜の背中のような岬が海に突き出す、島を象徴する絶景スポット
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Kelingking_Beach_%282022%29.jpg/960px-Kelingking_Beach_%282022%29.jpg"
+  - name: クリスタルベイ
+    lat: -8.7196
+    lng: 115.4468
+    desc: 西向きの白砂ビーチ、シュノーケリングと夕日の名所
+  - name: ダイヤモンドビーチ
+    lat: -8.7390
+    lng: 115.5757
+    desc: 断崖の下に白砂が延びる、島の東端のビーチ
+  - name: アトゥビーチ
+    lat: -8.7442
+    lng: 115.5741
+    desc: ダイヤモンドビーチの隣にある、人が少なめの静かな入り江

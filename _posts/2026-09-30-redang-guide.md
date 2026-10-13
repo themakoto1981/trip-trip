@@ -50,7 +50,7 @@ excerpt: "「マレーシアで一番美しい海」とも称される透明度�
 
 - **やす旅**：クアラルンプール経由+LCC｜乗継泊なし｜当日中に到着<br><a class="schedule-tag" href="https://www.airasia.com/ja/jp/">AirAsiaの最新スケジュール</a>
 - **ゆる旅**：クアラルンプール経由+ANA｜前泊なし｜当日中に到着<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
-- **ラグ旅**：クアラルンプール経由+ANA｜ゆとりある乗継｜快適にレダン島へ<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
+- **らぐ旅**：クアラルンプール経由+ANA｜ゆとりある乗継｜快適にレダン島へ<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
 
 ## おすすめ旅程（やす旅向け／LCC利用・機内1泊＋島3泊の4泊5日の例）
 
@@ -106,7 +106,7 @@ excerpt: "「マレーシアで一番美しい海」とも称される透明度�
 - 09:50　クアラトレンガヌ発（マレーシア航空MH1327）→ 11:00　クアラルンプール着
 - 14:15　クアラルンプール発（ANA直行便NH886）→ 22:15　羽田着
 
-## おすすめ旅程（ラグ旅向け／空路クアラルンプール乗継・4泊5日の例）
+## おすすめ旅程（らぐ旅向け／空路クアラルンプール乗継・4泊5日の例）
 
 **1日目**
 - 00:05　羽田発（ANA直行便NH885）

@@ -120,7 +120,7 @@ layout: default
     var tierDefs = [
       { name: 'やす旅', airline: 'LCC', hotel: '安宿（ゲストハウス等）' },
       { name: 'ゆる旅', airline: 'ANA・JAL', hotel: 'リゾートのスタンダードルーム' },
-      { name: 'ラグ旅', airline: 'ANA・JAL', hotel: 'リゾートのオーシャンビュー' }
+      { name: 'らぐ旅', airline: 'ANA・JAL', hotel: 'リゾートのオーシャンビュー' }
     ];
     var budgetTiers = [
       ['やす旅',
@@ -131,7 +131,7 @@ layout: default
         comfortTotalMin.toLocaleString() + '〜' + comfortTotalMax.toLocaleString() + '円',
         '航空券' + match.flight_max.toLocaleString() + '円 ＋ 宿泊/移動/食費（1泊）' + dailyMin.toLocaleString() + '〜' + dailyMax.toLocaleString() + '円 ×' + nights + '泊',
         '移動も観光も楽しみながら、バランスよく旅をしたい方に。'],
-      ['ラグ旅',
+      ['らぐ旅',
         luxuryTotal.toLocaleString() + '円〜',
         '航空券' + match.flight_max.toLocaleString() + '円 ＋ 上質な宿泊/食費（1泊）目安' + luxuryDaily.toLocaleString() + '円 ×' + nights + '泊',
         '上質な滞在で、ゆったり贅沢に過ごしたい方に。']
@@ -416,7 +416,7 @@ layout: default
         }
 
         var headingText = itineraryHeading.textContent;
-        var targetTiers = headingText.match(/やす旅|ゆる旅|ラグ旅/g) || [];
+        var targetTiers = headingText.match(/やす旅|ゆる旅|らぐ旅/g) || [];
 
         var attached = false;
         targetTiers.forEach(function (tierName, idx) {

@@ -7,7 +7,7 @@ robots: noindex
 ---
 
 <style>
-  .site-header, .page-heading, .site-footer, #back-to-top { display: none !important; }
+  .site-header, .page-heading, .site-footer, #back-to-top, h1 { display: none !important; }
   .tj-hidden { display: none !important; }
   .tj-wrap { max-width: 720px; margin: 0 auto; }
 
@@ -614,7 +614,7 @@ robots: noindex
             arr.push(row);
           });
           weekItemsByDay[idx] = arr;
-          if (idx === selectedDayIndex) { renderHourList(); }
+          if (idx === selectedDayIndex || idx === selectedDayIndex - 1) { renderHourList(); }
         });
         var unsub2 = onSnapshot(doc(db, 'trips', TRIP_ID, 'days', String(idx)), function (snap) {
           var data = snap.exists() ? snap.data() : {};
@@ -690,9 +690,19 @@ robots: noindex
   function renderHourList() {
     var wrap = document.getElementById('tjHourList');
     var items = weekItemsByDay[selectedDayIndex] || [];
+    var prevItems = weekItemsByDay[selectedDayIndex - 1] || [];
+    var carryOver = prevItems.filter(function (it) { return it.endNextDay && it.endTime; });
     var minHour = 9, maxHour = 21;
     items.forEach(function (it) {
       var m = timeToMinutes(it.time);
+      if (m !== null) {
+        var h = Math.floor(m / 60);
+        if (h < minHour) { minHour = h; }
+        if (h > maxHour) { maxHour = h; }
+      }
+    });
+    carryOver.forEach(function (it) {
+      var m = timeToMinutes(it.endTime);
       if (m !== null) {
         var h = Math.floor(m / 60);
         if (h < minHour) { minHour = h; }
@@ -705,17 +715,28 @@ robots: noindex
       if (m === null) { return; }
       var h = Math.floor(m / 60);
       if (!byHour[h]) { byHour[h] = []; }
-      byHour[h].push(it);
+      byHour[h].push({ item: it, carry: false });
+    });
+    carryOver.forEach(function (it) {
+      var m = timeToMinutes(it.endTime);
+      if (m === null) { return; }
+      var h = Math.floor(m / 60);
+      if (!byHour[h]) { byHour[h] = []; }
+      byHour[h].unshift({ item: it, carry: true });
     });
     var html = '';
     for (var h = minHour; h <= maxHour; h++) {
       var hLabel = (h < 10 ? '0' + h : h) + ':00';
       html += '<div class="tj-hour-row"><div class="tj-hour-time">' + hLabel + '</div><div style="flex:1;min-width:0;">';
-      (byHour[h] || []).forEach(function (d) {
-        var timeLabel = d.endTime ? (d.time + '〜' + (d.endNextDay ? '翌' : '') + d.endTime) : (d.time || '');
+      (byHour[h] || []).forEach(function (entry) {
+        var d = entry.item;
+        var timeLabel = entry.carry
+          ? ('前日' + d.time + '〜' + d.endTime + '着')
+          : (d.endTime ? (d.time + '〜' + (d.endNextDay ? '翌' : '') + d.endTime) : (d.time || ''));
+        var delDay = entry.carry ? (selectedDayIndex - 1) : selectedDayIndex;
         html += '<div style="display:flex;align-items:baseline;gap:0.3rem;">';
         html += '<span>' + (typeIcons[d.type] || '📍') + ' ' + escapeHtml(timeLabel) + '　' + escapeHtml(d.title || '') + (d.detail ? '（' + escapeHtml(d.detail) + '）' : '') + '</span>';
-        html += '<button class="tj-item-del" data-item-del-id="' + d.id + '" style="margin-left:auto;flex-shrink:0;">×</button>';
+        html += '<button class="tj-item-del" data-item-del-id="' + d.id + '" data-item-del-day="' + delDay + '" style="margin-left:auto;flex-shrink:0;">×</button>';
         html += '</div>';
       });
       html += '</div></div>';
@@ -725,7 +746,8 @@ robots: noindex
 
   document.getElementById('tjHourList').addEventListener('click', function (e) {
     var delId = e.target.getAttribute('data-item-del-id');
-    if (delId) { deleteDoc(doc(db, 'trips', TRIP_ID, 'days', String(selectedDayIndex), 'items', delId)); }
+    var delDay = e.target.getAttribute('data-item-del-day') || selectedDayIndex;
+    if (delId) { deleteDoc(doc(db, 'trips', TRIP_ID, 'days', String(delDay), 'items', delId)); }
   });
 
   document.getElementById('tjItemAdd').addEventListener('click', function () {

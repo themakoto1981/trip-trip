@@ -37,7 +37,7 @@ excerpt: "真っ白なパウダーサンドで知られるフィリピン屈指�
 
 - **やす旅**：マニラ乗継＋LCC｜マニラ泊なし｜翌朝すぐ島へ<br><a class="schedule-tag" href="https://www.cebupacificair.com/">セブパシフィック航空の最新スケジュール</a>
 - **ゆる旅**：マニラ乗継＋ANA｜マニラ泊なし｜翌朝すぐ島へ<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
-- **ラグ旅**：マニラ乗継＋ANA｜移動の無駄なし｜最短ルート<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
+- **らぐ旅**：マニラ乗継＋ANA｜移動の無駄なし｜最短ルート<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
 
 ## おすすめ旅程（やす旅向け／LCC利用・4泊5日の例）
 
@@ -100,7 +100,7 @@ excerpt: "真っ白なパウダーサンドで知られるフィリピン屈指�
 - 12:30　空港着、チェックイン
 - 14:40　マニラ発（ANA）→ 20:00　羽田着（直行便、所要4時間20分）
 
-## おすすめ旅程（ラグ旅向け／4泊5日の例）
+## おすすめ旅程（らぐ旅向け／4泊5日の例）
 
 **1日目（1泊目：カリボ泊）**
 - 09:45　羽田発（ANA直行便、所要4時間45分）

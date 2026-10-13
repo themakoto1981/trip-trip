@@ -59,33 +59,22 @@ robots: noindex
   }
   .tj-tab.active { color: var(--sb-green-dark); border-bottom-color: var(--sb-green); }
 
-  /* day tabs */
-  .tj-day-tabs { display: flex; gap: 0.4rem; overflow-x: auto; margin-bottom: 1rem; padding-bottom: 0.3rem; }
-  .tj-day-tab {
-    appearance: none; border: 1px solid var(--sb-border); background: var(--sb-card); cursor: pointer;
-    font-family: inherit; border-radius: 10px; padding: 0.5rem 0.8rem; font-size: 0.8rem; white-space: nowrap;
+  /* day cards: horizontal swipe */
+  .tj-days-scroll {
+    display: flex; overflow-x: auto; scroll-snap-type: x mandatory;
+    gap: 0.75rem; padding-bottom: 0.6rem; margin-bottom: 0.3rem;
+    -webkit-overflow-scrolling: touch;
   }
-  .tj-day-tab.active { background: var(--sb-green); color: #fff; border-color: var(--sb-green); }
-
-  /* week grid (Outlook-style) */
-  .tj-week-card { padding: 0; overflow: hidden; }
-  .tj-week-card .tj-card-title { padding: 1rem 1rem 0; }
-  .tj-week-scroll { overflow: auto; max-height: 420px; border-top: 1px solid var(--sb-border); margin-top: 0.6rem; }
-  .tj-week-table { display: flex; width: max-content; }
-  .tj-week-gutter { position: sticky; left: 0; z-index: 3; background: var(--sb-card); width: 46px; flex-shrink: 0; }
-  .tj-week-gutter-corner { position: sticky; top: 0; z-index: 4; height: 54px; background: var(--sb-card); border-bottom: 1px solid var(--sb-border); border-right: 1px solid var(--sb-border); box-sizing: border-box; }
-  .tj-week-hour-label { font-size: 0.62rem; color: var(--sb-brown-soft); text-align: right; padding-right: 0.3rem; box-sizing: border-box; border-right: 1px solid var(--sb-border); position: relative; top: -0.55em; }
-  .tj-week-day { flex-shrink: 0; width: 112px; border-right: 1px solid var(--sb-border); }
-  .tj-week-day-header { position: sticky; top: 0; z-index: 2; height: 54px; background: var(--sb-card); border-bottom: 1px solid var(--sb-border); padding: 0.4rem; box-sizing: border-box; cursor: pointer; text-align: center; }
-  .tj-week-day-header.active { background: var(--sb-cream); }
-  .tj-week-day-header .tj-wd-date { font-size: 0.7rem; font-weight: 700; color: var(--sb-brown); }
-  .tj-week-day-header .tj-wd-hotel { font-size: 0.58rem; color: var(--sb-green-dark); margin-top: 0.15rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-  .tj-week-day-body { position: relative; background-image: repeating-linear-gradient(to bottom, var(--sb-border) 0, var(--sb-border) 1px, transparent 1px, transparent 44px); }
-  .tj-week-day-body.active { background-color: rgba(0,112,74,0.05); }
-  .tj-week-item { position: absolute; left: 2px; right: 2px; border-radius: 5px; background: var(--sb-green); color: #fff; font-size: 0.6rem; padding: 0.15rem 0.3rem; overflow: hidden; line-height: 1.25; box-shadow: 0 1px 2px rgba(0,0,0,0.15); }
-  .tj-week-item .tj-wi-time { font-weight: 700; }
-  .tj-week-item-cont-start { border-bottom: 2px dashed rgba(255,255,255,0.7); }
-  .tj-week-item-cont { background: var(--sb-brown-soft); opacity: 0.85; border-top: 2px dashed rgba(255,255,255,0.7); }
+  .tj-day-block { scroll-snap-align: start; flex: 0 0 100%; max-width: 100%; box-sizing: border-box; }
+  .tj-day-block-title { font-size: 1rem; font-weight: 700; color: var(--sb-green-dark); margin-bottom: 0.7rem; }
+  .tj-hotel-row-display { display: flex; align-items: center; justify-content: space-between; gap: 0.5rem; padding: 0.3rem 0 0.9rem; }
+  .tj-hotel-name { font-size: 0.88rem; color: var(--sb-brown); }
+  .tj-hotel-name a { color: var(--sb-green-dark); font-weight: 700; text-decoration: underline; }
+  .tj-hotel-edit-link { border: none; background: none; color: var(--sb-brown-soft); font-size: 0.76rem; cursor: pointer; text-decoration: underline; flex-shrink: 0; white-space: nowrap; }
+  .tj-hotel-edit-form { display: flex; flex-direction: column; gap: 0.5rem; padding-bottom: 0.9rem; }
+  .tj-hotel-edit-form input { padding: 0.5rem 0.6rem; border: 1px solid var(--sb-border); border-radius: 8px; font-family: inherit; font-size: 0.85rem; }
+  .tj-item-list { border-top: 1px solid var(--sb-border); }
+  .tj-item-list .tj-item:first-child { border-top: none; }
 
   .tj-card { background: var(--sb-card); border: 1px solid var(--sb-border); border-radius: 12px; padding: 1rem; margin-bottom: 0.9rem; }
   .tj-card-title { font-weight: 700; color: var(--sb-brown); margin-bottom: 0.5rem; font-size: 0.95rem; }
@@ -209,54 +198,7 @@ robots: noindex
 
     <!-- SCHEDULE TAB -->
     <div id="tjTabSchedule" class="tj-tab-panel">
-      <div class="tj-day-tabs" id="tjDayTabs"></div>
-
-      <div class="tj-card tj-week-card">
-        <div class="tj-card-title">今週のスケジュール</div>
-        <div class="tj-week-scroll" id="tjWeekScroll">
-          <div class="tj-week-table" id="tjWeekTable"></div>
-        </div>
-      </div>
-
-      <div class="tj-card">
-        <div class="tj-card-title">宿泊先</div>
-        <div class="tj-hotel-row">
-          <input id="tjHotelInput" type="text" placeholder="ホテル名を入力">
-          <button class="tj-btn secondary" id="tjHotelSave">保存</button>
-        </div>
-      </div>
-
-      <div class="tj-card">
-        <div class="tj-card-title">この日の予定</div>
-        <div id="tjItemList"></div>
-        <div class="tj-add-form">
-          <div class="tj-row">
-            <select id="tjItemType">
-              <option value="flight">✈️ フライト</option>
-              <option value="train">🚆 電車</option>
-              <option value="car">🚗 レンタカー</option>
-              <option value="bus">🚌 バス</option>
-              <option value="other">📍 その他</option>
-            </select>
-          </div>
-          <div class="tj-row">
-            <div>
-              <div class="tj-time-label">開始</div>
-              <input id="tjItemTime" type="time">
-            </div>
-            <div>
-              <div class="tj-time-label">終了（任意）</div>
-              <input id="tjItemEndTime" type="time">
-            </div>
-          </div>
-          <label class="tj-check-row">
-            <input type="checkbox" id="tjItemEndNextDay"> 終了は翌日（夜便泊など）
-          </label>
-          <input id="tjItemTitle" type="text" placeholder="例：羽田発 ANA123便">
-          <input id="tjItemDetail" type="text" placeholder="補足（任意）">
-          <button class="tj-btn secondary" id="tjItemAdd">追加</button>
-        </div>
-      </div>
+      <div class="tj-days-scroll" id="tjDaysContainer"></div>
     </div>
 
     <!-- COST TAB -->
@@ -289,6 +231,10 @@ robots: noindex
       <div class="tj-upload-box">
         写真はそのまま、動画は<strong>3秒以内</strong>のみアップロードできます。
         <br>
+        <div style="margin:0.6rem 0;">
+          <div class="tj-time-label" style="display:inline;">何日目の写真？</div>
+          <select id="tjMediaDay"></select>
+        </div>
         <input id="tjMediaFile" type="file" accept="image/*,video/*">
       </div>
       <p id="tjMediaError" class="tj-error"></p>
@@ -327,15 +273,13 @@ robots: noindex
   const storage = getStorage(app);
 
   var tripData = null;
-  var selectedDayIndex = 1;
   var unsubCosts = null;
   var unsubMedia = null;
   var setupParticipants = [];
   var weekItemsByDay = {};
   var weekHotelByDay = {};
   var dayUnsubs = [];
-  var weekGridScrolled = false;
-  var ROW_HEIGHT = 44;
+  var hotelEditOpen = {};
 
   function escapeHtml(s) {
     return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#39;');
@@ -448,9 +392,18 @@ robots: noindex
     });
     try { localStorage.setItem('tj_as_' + TRIP_ID, asSelect.value); } catch (e) {}
 
-    renderDayTabs();
-    setupWeekListeners();
-    selectDay(1);
+    var mediaDaySelect = document.getElementById('tjMediaDay');
+    mediaDaySelect.innerHTML = '';
+    var n = dayCount();
+    var todayDiff = Math.round((new Date(new Date().toDateString()) - new Date(tripData.startDate)) / 86400000) + 1;
+    for (var di = 1; di <= n; di++) {
+      var opt = document.createElement('option');
+      opt.value = di; opt.textContent = di + '日目 ' + dayDateLabel(di);
+      mediaDaySelect.appendChild(opt);
+    }
+    mediaDaySelect.value = (todayDiff >= 1 && todayDiff <= n) ? todayDiff : 1;
+
+    setupDayListeners();
     renderCostPaidBy();
     renderCostParticipantChecks();
     watchCosts();
@@ -470,21 +423,6 @@ robots: noindex
     return (d.getMonth() + 1) + '/' + d.getDate() + '(' + w + ')';
   }
 
-  function renderDayTabs() {
-    var wrap = document.getElementById('tjDayTabs');
-    wrap.innerHTML = '';
-    var n = dayCount();
-    for (var i = 1; i <= n; i++) {
-      (function (idx) {
-        var btn = document.createElement('button');
-        btn.className = 'tj-day-tab' + (idx === selectedDayIndex ? ' active' : '');
-        btn.textContent = idx + '日目 ' + dayDateLabel(idx);
-        btn.addEventListener('click', function () { selectDay(idx); });
-        wrap.appendChild(btn);
-      })(i);
-    }
-  }
-
   // ---------- TABS ----------
   document.querySelectorAll('.tj-tab').forEach(function (tab) {
     tab.addEventListener('click', function () {
@@ -496,34 +434,16 @@ robots: noindex
     });
   });
 
-  // ---------- SCHEDULE: DAY SELECT ----------
-  function selectDay(idx) {
-    selectedDayIndex = idx;
-    renderDayTabs();
-    loadHotel();
-    renderDayItemList(idx);
-    renderWeekGrid();
-  }
-
-  function dayDocRef() {
-    return doc(db, 'trips', TRIP_ID, 'days', String(selectedDayIndex));
-  }
-
-  function loadHotel() {
-    getDoc(dayDocRef()).then(function (snap) {
-      document.getElementById('tjHotelInput').value = snap.exists() ? (snap.data().hotel || '') : '';
-    });
-  }
-
-  document.getElementById('tjHotelSave').addEventListener('click', function () {
-    var hotel = document.getElementById('tjHotelInput').value.trim();
-    setDoc(dayDocRef(), { hotel: hotel, dayIndex: selectedDayIndex }, { merge: true });
-  });
-
   var typeIcons = { flight: '✈️', train: '🚆', car: '🚗', bus: '🚌', other: '📍' };
 
-  // ---------- WEEK GRID (all days) ----------
-  function setupWeekListeners() {
+  function timeToMinutes(t) {
+    if (!t) return null;
+    var parts = t.split(':');
+    return parseInt(parts[0], 10) * 60 + parseInt(parts[1], 10);
+  }
+
+  // ---------- SCHEDULE: per-day Firestore listeners ----------
+  function setupDayListeners() {
     dayUnsubs.forEach(function (u) { u(); });
     dayUnsubs = [];
     weekItemsByDay = {};
@@ -541,150 +461,143 @@ robots: noindex
             arr.push(row);
           });
           weekItemsByDay[idx] = arr;
-          renderWeekGrid();
-          if (idx === selectedDayIndex) { renderDayItemList(idx); }
+          renderAllDays();
         });
         var unsub2 = onSnapshot(doc(db, 'trips', TRIP_ID, 'days', String(idx)), function (snap) {
-          weekHotelByDay[idx] = snap.exists() ? (snap.data().hotel || '') : '';
-          renderWeekGrid();
+          var data = snap.exists() ? snap.data() : {};
+          weekHotelByDay[idx] = { hotel: data.hotel || '', hotelUrl: data.hotelUrl || '' };
+          renderAllDays();
         });
         dayUnsubs.push(unsub1, unsub2);
       })(i);
     }
   }
 
-  function timeToMinutes(t) {
-    if (!t) return null;
-    var parts = t.split(':');
-    return parseInt(parts[0], 10) * 60 + parseInt(parts[1], 10);
-  }
-
-  function renderWeekGrid() {
-    var wrap = document.getElementById('tjWeekTable');
-    if (!wrap || !tripData) return;
+  // ---------- SCHEDULE: render all days as horizontal swipe cards ----------
+  function renderAllDays() {
+    var container = document.getElementById('tjDaysContainer');
+    if (!container || !tripData) return;
     var n = dayCount();
-
-    var continuations = {};
-    for (var d = 1; d <= n; d++) {
-      (weekItemsByDay[d] || []).forEach(function (it) {
-        if (it.endNextDay && it.endTime && d + 1 <= n) {
-          if (!continuations[d + 1]) { continuations[d + 1] = []; }
-          continuations[d + 1].push(it);
-        }
-      });
-    }
-
-    var html = '<div class="tj-week-gutter"><div class="tj-week-gutter-corner"></div>';
-    for (var h = 0; h < 24; h++) {
-      html += '<div class="tj-week-hour-label" style="height:' + ROW_HEIGHT + 'px;">' + (h < 10 ? '0' + h : h) + ':00</div>';
-    }
-    html += '</div>';
+    var html = '';
 
     for (var i = 1; i <= n; i++) {
-      var isActive = (i === selectedDayIndex);
-      var hotel = weekHotelByDay[i] || '';
-      html += '<div class="tj-week-day">';
-      html += '<div class="tj-week-day-header' + (isActive ? ' active' : '') + '" data-day="' + i + '">';
-      html += '<div class="tj-wd-date">' + i + '日目 ' + dayDateLabel(i) + '</div>';
-      if (hotel) { html += '<div class="tj-wd-hotel">🏨 ' + escapeHtml(hotel) + '</div>'; }
-      html += '</div>';
-      html += '<div class="tj-week-day-body' + (isActive ? ' active' : '') + '" style="height:' + (24 * ROW_HEIGHT) + 'px;">';
+      var hotelInfo = weekHotelByDay[i] || {};
+      var hotelName = hotelInfo.hotel || '';
+      var hotelUrl = hotelInfo.hotelUrl || '';
       var items = weekItemsByDay[i] || [];
-      items.forEach(function (it) {
-        var mins = timeToMinutes(it.time);
-        if (mins === null) return;
-        var top = (mins / 60) * ROW_HEIGHT;
-        var height, timeLabel, extraClass = '';
-        if (it.endNextDay && it.endTime) {
-          height = ((1440 - mins) / 60) * ROW_HEIGHT;
-          timeLabel = it.time + '〜翌' + it.endTime;
-          extraClass = ' tj-week-item-cont-start';
-        } else {
-          var endMins = it.endTime ? timeToMinutes(it.endTime) : null;
-          height = (endMins !== null && endMins > mins) ? ((endMins - mins) / 60) * ROW_HEIGHT : (ROW_HEIGHT - 4);
-          timeLabel = it.endTime ? (it.time + '〜' + it.endTime) : it.time;
-        }
-        if (height < 18) { height = 18; }
-        html += '<div class="tj-week-item' + extraClass + '" style="top:' + top + 'px; height:' + height + 'px;">';
-        html += '<span class="tj-wi-time">' + (typeIcons[it.type] || '📍') + ' ' + escapeHtml(timeLabel || '') + '</span><br>' + escapeHtml(it.title || '');
-        html += '</div>';
-      });
-      (continuations[i] || []).forEach(function (it) {
-        var endMins = timeToMinutes(it.endTime);
-        var height = (endMins / 60) * ROW_HEIGHT;
-        if (height < 18) { height = 18; }
-        html += '<div class="tj-week-item tj-week-item-cont" style="top:0px; height:' + height + 'px;">';
-        html += '<span class="tj-wi-time">' + (typeIcons[it.type] || '📍') + ' 〜' + escapeHtml(it.endTime) + '</span><br>' + escapeHtml(it.title || '') + '（続き）';
-        html += '</div>';
-      });
-      html += '</div></div>';
+      var editing = !!hotelEditOpen[i];
+
+      html += '<div class="tj-day-block">';
+      html += '<div class="tj-day-block-title">' + i + '日目 ' + dayDateLabel(i) + '</div>';
+
+      // hotel display
+      html += '<div class="tj-hotel-row-display"' + (editing ? ' style="display:none;"' : '') + '>';
+      html += '<div class="tj-hotel-name">';
+      if (hotelName) {
+        html += '🏨 ' + (hotelUrl
+          ? ('<a href="' + escapeHtml(hotelUrl) + '" target="_blank" rel="noopener">' + escapeHtml(hotelName) + ' ↗</a>')
+          : escapeHtml(hotelName));
+      } else {
+        html += '<span class="tj-empty" style="padding:0;">宿泊先未設定</span>';
+      }
+      html += '</div>';
+      html += '<button type="button" class="tj-hotel-edit-link" data-hotel-edit-toggle="' + i + '">編集</button>';
+      html += '</div>';
+
+      // hotel edit form
+      html += '<div class="tj-hotel-edit-form"' + (editing ? '' : ' style="display:none;"') + '>';
+      html += '<input type="text" placeholder="ホテル名" data-hotel-name-input="' + i + '" value="' + escapeHtml(hotelName) + '">';
+      html += '<input type="text" placeholder="予約サイトのURL（任意）" data-hotel-url-input="' + i + '" value="' + escapeHtml(hotelUrl) + '">';
+      html += '<button type="button" class="tj-btn secondary" data-hotel-save="' + i + '" style="align-self:flex-start;">保存</button>';
+      html += '</div>';
+
+      // item list
+      html += '<div class="tj-item-list">';
+      if (items.length === 0) {
+        html += '<div class="tj-empty">まだ予定がありません</div>';
+      } else {
+        items.forEach(function (d) {
+          var timeLabel = d.endTime ? (d.time + '〜' + (d.endNextDay ? '翌' : '') + d.endTime) : (d.time || '');
+          html += '<div class="tj-item">';
+          html += '<div class="tj-item-icon">' + (typeIcons[d.type] || '📍') + '</div>';
+          html += '<div class="tj-item-body"><div class="tj-item-time">' + escapeHtml(timeLabel) + '</div>';
+          html += '<div class="tj-item-title">' + escapeHtml(d.title || '') + '</div>';
+          if (d.detail) { html += '<div class="tj-item-detail">' + escapeHtml(d.detail) + '</div>'; }
+          html += '</div>';
+          html += '<button class="tj-item-del" data-item-del-day="' + i + '" data-item-del-id="' + d.id + '">削除</button>';
+          html += '</div>';
+        });
+      }
+      html += '</div>';
+
+      // add form
+      html += '<div class="tj-add-form">';
+      html += '<div class="tj-row"><select data-add-type="' + i + '">';
+      html += '<option value="flight">✈️ フライト</option><option value="train">🚆 電車</option><option value="car">🚗 レンタカー</option><option value="bus">🚌 バス</option><option value="other">📍 その他</option>';
+      html += '</select></div>';
+      html += '<div class="tj-row"><div><div class="tj-time-label">開始</div><input type="time" data-add-time="' + i + '"></div>';
+      html += '<div><div class="tj-time-label">終了（任意）</div><input type="time" data-add-endtime="' + i + '"></div></div>';
+      html += '<label class="tj-check-row"><input type="checkbox" data-add-endnextday="' + i + '"> 終了は翌日（夜便泊など）</label>';
+      html += '<input type="text" placeholder="例：羽田発 ANA123便" data-add-title="' + i + '">';
+      html += '<input type="text" placeholder="補足（任意）" data-add-detail="' + i + '">';
+      html += '<button type="button" class="tj-btn secondary" data-add-submit="' + i + '">追加</button>';
+      html += '</div>';
+
+      html += '</div>';
     }
 
-    wrap.innerHTML = html;
-    wrap.querySelectorAll('.tj-week-day-header').forEach(function (el) {
-      el.addEventListener('click', function () {
-        selectDay(parseInt(this.getAttribute('data-day'), 10));
-      });
-    });
-
-    if (!weekGridScrolled) {
-      var scrollEl = document.getElementById('tjWeekScroll');
-      if (scrollEl) { scrollEl.scrollTop = 6 * ROW_HEIGHT; }
-      weekGridScrolled = true;
-    }
+    container.innerHTML = html;
   }
 
-  // ---------- SCHEDULE: PER-DAY LIST (from cache) ----------
-  function renderDayItemList(dayIndex) {
-    var list = document.getElementById('tjItemList');
-    var items = weekItemsByDay[dayIndex] || [];
-    list.innerHTML = '';
-    if (items.length === 0) {
-      list.innerHTML = '<div class="tj-empty">まだ予定がありません</div>';
+  // ---------- SCHEDULE: event delegation ----------
+  document.getElementById('tjDaysContainer').addEventListener('click', function (e) {
+    var toggleIdx = e.target.getAttribute('data-hotel-edit-toggle');
+    if (toggleIdx) {
+      hotelEditOpen[toggleIdx] = !hotelEditOpen[toggleIdx];
+      renderAllDays();
       return;
     }
-    items.forEach(function (d) {
-      var row = document.createElement('div');
-      row.className = 'tj-item';
-      var timeLabel = d.endTime ? (d.time + '〜' + (d.endNextDay ? '翌' : '') + d.endTime) : (d.time || '');
-      row.innerHTML = '<div class="tj-item-icon">' + (typeIcons[d.type] || '📍') + '</div>' +
-        '<div class="tj-item-body"><div class="tj-item-time">' + timeLabel + '</div>' +
-        '<div class="tj-item-title"></div><div class="tj-item-detail"></div></div>' +
-        '<button class="tj-item-del">削除</button>';
-      row.querySelector('.tj-item-title').textContent = d.title || '';
-      row.querySelector('.tj-item-detail').textContent = d.detail || '';
-      row.querySelector('.tj-item-del').addEventListener('click', function () {
-        deleteDoc(doc(db, 'trips', TRIP_ID, 'days', String(dayIndex), 'items', d.id));
-      });
-      list.appendChild(row);
-    });
-  }
 
-  document.getElementById('tjItemAdd').addEventListener('click', function () {
-    var type = document.getElementById('tjItemType').value;
-    var time = document.getElementById('tjItemTime').value;
-    var endTime = document.getElementById('tjItemEndTime').value;
-    var endNextDay = document.getElementById('tjItemEndNextDay').checked;
-    var title = document.getElementById('tjItemTitle').value.trim();
-    var detail = document.getElementById('tjItemDetail').value.trim();
-    if (!title || !time) return;
-    if (endTime && !endNextDay && timeToMinutes(endTime) <= timeToMinutes(time)) {
-      alert('終了時刻は開始時刻より後にしてください（日をまたぐ場合は「終了は翌日」にチェック）');
+    var saveIdx = e.target.getAttribute('data-hotel-save');
+    if (saveIdx) {
+      var nameVal = document.querySelector('[data-hotel-name-input="' + saveIdx + '"]').value.trim();
+      var urlVal = document.querySelector('[data-hotel-url-input="' + saveIdx + '"]').value.trim();
+      setDoc(doc(db, 'trips', TRIP_ID, 'days', saveIdx), { hotel: nameVal, hotelUrl: urlVal, dayIndex: parseInt(saveIdx, 10) }, { merge: true }).then(function () {
+        hotelEditOpen[saveIdx] = false;
+      });
       return;
     }
-    if (endNextDay && !endTime) {
-      alert('「終了は翌日」を選ぶ場合は終了時刻も入力してください');
+
+    var delDay = e.target.getAttribute('data-item-del-day');
+    var delId = e.target.getAttribute('data-item-del-id');
+    if (delDay && delId) {
+      deleteDoc(doc(db, 'trips', TRIP_ID, 'days', delDay, 'items', delId));
       return;
     }
-    addDoc(collection(db, 'trips', TRIP_ID, 'days', String(selectedDayIndex), 'items'), {
-      type: type, time: time, endTime: endTime || null, endNextDay: !!(endTime && endNextDay), title: title, detail: detail,
-      postedBy: document.getElementById('tjAsSelect').value, createdAt: serverTimestamp()
-    }).then(function () {
-      document.getElementById('tjItemTitle').value = '';
-      document.getElementById('tjItemDetail').value = '';
-      document.getElementById('tjItemEndTime').value = '';
-      document.getElementById('tjItemEndNextDay').checked = false;
-    });
+
+    var addIdx = e.target.getAttribute('data-add-submit');
+    if (addIdx) {
+      var type = document.querySelector('[data-add-type="' + addIdx + '"]').value;
+      var time = document.querySelector('[data-add-time="' + addIdx + '"]').value;
+      var endTime = document.querySelector('[data-add-endtime="' + addIdx + '"]').value;
+      var endNextDay = document.querySelector('[data-add-endnextday="' + addIdx + '"]').checked;
+      var title = document.querySelector('[data-add-title="' + addIdx + '"]').value.trim();
+      var detail = document.querySelector('[data-add-detail="' + addIdx + '"]').value.trim();
+      if (!title || !time) return;
+      if (endTime && !endNextDay && timeToMinutes(endTime) <= timeToMinutes(time)) {
+        alert('終了時刻は開始時刻より後にしてください（日をまたぐ場合は「終了は翌日」にチェック）');
+        return;
+      }
+      if (endNextDay && !endTime) {
+        alert('「終了は翌日」を選ぶ場合は終了時刻も入力してください');
+        return;
+      }
+      addDoc(collection(db, 'trips', TRIP_ID, 'days', addIdx, 'items'), {
+        type: type, time: time, endTime: endTime || null, endNextDay: !!(endTime && endNextDay), title: title, detail: detail,
+        postedBy: document.getElementById('tjAsSelect').value, createdAt: serverTimestamp()
+      });
+      return;
+    }
   });
 
   // ---------- COST ----------
@@ -838,15 +751,16 @@ robots: noindex
     var isVideo = file.type.indexOf('video') === 0;
     var proceed = function () {
       var postedBy = document.getElementById('tjAsSelect').value;
+      var mediaDayIndex = parseInt(document.getElementById('tjMediaDay').value, 10) || 1;
       var ext = file.name.split('.').pop();
-      var path = 'trips/' + TRIP_ID + '/media/day' + selectedDayIndex + '_' + postedBy + '_' + Date.now() + '.' + ext;
+      var path = 'trips/' + TRIP_ID + '/media/day' + mediaDayIndex + '_' + postedBy + '_' + Date.now() + '.' + ext;
       var sref = ref(storage, path);
       uploadBytes(sref, file).then(function () {
         return getDownloadURL(sref);
       }).then(function (url) {
         return addDoc(collection(db, 'trips', TRIP_ID, 'media'), {
           type: isVideo ? 'video' : 'photo', url: url, storagePath: path,
-          dayIndex: selectedDayIndex, postedBy: postedBy, noFace: false, uploadedAt: serverTimestamp()
+          dayIndex: mediaDayIndex, postedBy: postedBy, noFace: false, uploadedAt: serverTimestamp()
         });
       }).then(function () {
         document.getElementById('tjMediaFile').value = '';

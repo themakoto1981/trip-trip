@@ -53,7 +53,7 @@ excerpt: "プーケットに次ぐタイ第2の広さを誇るチャン島。ジ
 
 - **やす旅**：直行バス+LCC｜空港近くに1泊｜シンプルで安い<br><a class="schedule-tag" href="https://www.zipair.net/ja">Zipairの最新スケジュール</a>
 - **ゆる旅**：パタヤ経由+ANA｜観光も楽しめる｜4泊満喫できる<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
-- **ラグ旅**：トラート直行+ANA｜空港直結ホテル1泊｜ゆったり乗継<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
+- **らぐ旅**：トラート直行+ANA｜空港直結ホテル1泊｜ゆったり乗継<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
 
 ## おすすめ旅程（やす旅向け／空港発着の直行バス利用・4泊5日の例）
 
@@ -110,7 +110,7 @@ excerpt: "プーケットに次ぐタイ第2の広さを誇るチャン島。ジ
 - 19:00頃　Grabカーまたは空港バスでバンコクへ移動（1.5〜2時間）
 - 22:25　バンコク発（ANA夜行直行便NH850）→ 翌06:05　羽田着
 
-## おすすめ旅程（ラグ旅向け／飛行機ルート・4泊5日の例）
+## おすすめ旅程（らぐ旅向け／飛行機ルート・4泊5日の例）
 
 **1日目**
 - 11:05　羽田発（ANA直行便NH847）

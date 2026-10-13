@@ -50,7 +50,7 @@ excerpt: "ジャカルタから日帰りも可能な離島リゾート、パリ�
 
 - **やす旅**：シンガポール経由+LCC｜スクート利用｜乗継でカバー<br><a class="schedule-tag" href="https://www.flyscoot.com/jp">スクートの最新スケジュール</a>
 - **ゆる旅**：羽田発ANA直行｜乗継なし｜移動負担を軽減<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
-- **ラグ旅**：羽田発ANA直行｜乗継なし｜快適な長距離移動<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
+- **らぐ旅**：羽田発ANA直行｜乗継なし｜快適な長距離移動<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
 
 ## おすすめ旅程（やす旅向け／LCC利用・2泊3日の例）
 
@@ -86,7 +86,7 @@ excerpt: "ジャカルタから日帰りも可能な離島リゾート、パリ�
 - 05:30頃　空港着、チェックイン
 - 7:15　ジャカルタ発（ANA直行便NH872、所要7時間10分）→ 16:25　羽田着
 
-## おすすめ旅程（ラグ旅向け／2泊3日の例）
+## おすすめ旅程（らぐ旅向け／2泊3日の例）
 
 **1日目**
 - 10:25　羽田発（ANA直行便NH855、所要7時間50分）

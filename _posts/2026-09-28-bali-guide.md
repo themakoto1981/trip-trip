@@ -39,7 +39,7 @@ excerpt: "「神々の島」バリ島。ビーチリゾートから文化体験�
 
 - **やす旅**：クアラルンプール経由+LCC｜直行便より2泊増｜運賃重視<br><a class="schedule-tag" href="https://www.airasia.com/">AirAsiaの最新スケジュール</a>
 - **ゆる旅**：直行便｜乗継なし｜到着日からゆっくり<br><a class="schedule-tag" href="https://www.garuda-indonesia.com/jp/ja">ガルーダ・インドネシア航空の最新スケジュール</a>
-- **ラグ旅**：直行便｜乗継なし｜移動時間を最小化<br><a class="schedule-tag" href="https://www.garuda-indonesia.com/jp/ja">ガルーダ・インドネシア航空の最新スケジュール</a>
+- **らぐ旅**：直行便｜乗継なし｜移動時間を最小化<br><a class="schedule-tag" href="https://www.garuda-indonesia.com/jp/ja">ガルーダ・インドネシア航空の最新スケジュール</a>
 
 ## おすすめ旅程（やす旅向け／LCC利用・クアラルンプール経由・5泊6日の例）
 
@@ -91,7 +91,7 @@ excerpt: "「神々の島」バリ島。ビーチリゾートから文化体験�
 - 21:00頃　Grabカーで空港へ移動
 - 00:50　デンパサール発（ガルーダ・インドネシア航空）→ 翌08:20　成田着
 
-## おすすめ旅程（ラグ旅向け／直行便・3泊4日の例）
+## おすすめ旅程（らぐ旅向け／直行便・3泊4日の例）
 
 **1日目**
 - 11:00　成田発（ガルーダ・インドネシア航空直行便、所要7〜8時間）

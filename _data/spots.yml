@@ -326,7 +326,7 @@ nusa-penida-guide:
   - name: Hyatt Regency Bali
     lat: -8.7022119
     lng: 115.2632459
-    desc: サヌールビーチ沿いの大型リゾート（ラグ旅向け）
+    desc: サヌールビーチ沿いの大型リゾート（らぐ旅向け）
     type: hotel
     letter: ら
     url: "https://www.booking.com/searchresults.html?ss=Hyatt+Regency+Bali"
@@ -340,7 +340,7 @@ nusa-penida-guide:
   - name: Penida Bambu Green Suites
     lat: -8.6905244
     lng: 115.5041054
-    desc: 竹造りのヴィラが並ぶ高級ホテル（ラグ旅向け）
+    desc: 竹造りのヴィラが並ぶ高級ホテル（らぐ旅向け）
     type: hotel
     url: "https://www.booking.com/searchresults.html?ss=Penida+Bambu+Green+Suites"
     letter: ら

@@ -296,19 +296,19 @@ nusa-penida-guide:
     lng: 115.1681655
     desc: 日本からの発着空港
     type: airport
-    letter: "✈"
+    letter: "✈︎"
   - name: サヌール・ボートハーバー
     lat: -8.6713871
     lng: 115.2614475
     desc: ヌサペニダ行き高速ボートの発着港（バリ本島側）
     type: port
-    letter: "⛴"
+    letter: "⚓︎"
   - name: トヤパケ・ハーバー
     lat: -8.6826391
     lng: 115.4872512
     desc: ヌサペニダ島側の高速ボート発着港
     type: port
-    letter: "⛴"
+    letter: "⚓︎"
   - name: Segara Village Hotel
     lat: -8.6827059
     lng: 115.2629223
@@ -328,7 +328,7 @@ nusa-penida-guide:
     lng: 115.2632459
     desc: サヌールビーチ沿いの大型リゾート（ラグ旅向け）
     type: hotel
-    letter: ラ
+    letter: ら
     url: "https://www.booking.com/searchresults.html?ss=Hyatt+Regency+Bali"
   - name: Semabu Hills Hotel
     lat: -8.6878799
@@ -343,4 +343,4 @@ nusa-penida-guide:
     desc: 竹造りのヴィラが並ぶ高級ホテル（ラグ旅向け）
     type: hotel
     url: "https://www.booking.com/searchresults.html?ss=Penida+Bambu+Green+Suites"
-    letter: ラ
+    letter: ら

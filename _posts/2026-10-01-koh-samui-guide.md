@@ -40,7 +40,7 @@ excerpt: "タイ湾に浮かぶ南国リゾート、サムイ島の行き方・�
 
 - **やす旅**：バンコク経由+LCC｜フェリー利用｜航空券代を抑制<br><a class="schedule-tag" href="https://www.vietjetair.com/ja">Vietjet Airの最新スケジュール</a>
 - **ゆる旅**：バンコク経由+ANA｜サムイ空港直接アクセス｜乗継スムーズ<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
-- **ラグ旅**：バンコク経由+ANA｜同ルートで最速｜最快適にサムイ島へ<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
+- **らぐ旅**：バンコク経由+ANA｜同ルートで最速｜最快適にサムイ島へ<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
 
 ## おすすめ旅程（やす旅向け／LCC・フェリー利用・バンコク1泊・4泊5日の例）
 
@@ -86,7 +86,7 @@ excerpt: "タイ湾に浮かぶ南国リゾート、サムイ島の行き方・�
 - Grabカーで空港へ移動（出発2〜3時間前を目安に）
 - バンコク乗継で帰国便へ
 
-## おすすめ旅程（ラグ旅向け／3泊4日の例）
+## おすすめ旅程（らぐ旅向け／3泊4日の例）
 
 **1日目**
 - 10:50　羽田発（ANA直行便、所要6〜7時間）

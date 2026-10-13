@@ -49,7 +49,7 @@ excerpt: "「タイ最後の楽園」と呼ばれる透明度抜群の秘境リ�
 
 - **やす旅**：バンコク経由+LCC｜ハジャイ乗継｜移動費を抑制<br><a class="schedule-tag" href="https://www.vietjetair.com/">ベトジェットエアの最新スケジュール</a>
 - **ゆる旅**：バンコク経由+ANA｜フルサービス｜快適に移動<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
-- **ラグ旅**：バンコク経由+ANA｜タイ国際航空｜快適な乗継<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
+- **らぐ旅**：バンコク経由+ANA｜タイ国際航空｜快適な乗継<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
 
 ## おすすめ旅程（やす旅向け／LCC利用・ハジャイ1泊・4泊5日の例）
 
@@ -115,7 +115,7 @@ excerpt: "「タイ最後の楽園」と呼ばれる透明度抜群の秘境リ�
 - 14:40　ハジャイ発（タイ国際航空TG264）→ 16:15　バンコク着。空港内で夕食や休憩をとりながら出発まで待機
 - 22:25　バンコク発（ANA夜行直行便NH850）→ 翌06:05　羽田着
 
-## おすすめ旅程（ラグ旅向け／ハジャイ1泊・4泊5日の例）
+## おすすめ旅程（らぐ旅向け／ハジャイ1泊・4泊5日の例）
 
 **1日目（1泊目：ハジャイ泊）**
 - 10:50　羽田発（ANA直行便NH847、所要6〜7時間）

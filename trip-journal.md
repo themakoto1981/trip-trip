@@ -7,6 +7,7 @@ robots: noindex
 ---
 
 <style>
+  .site-header, .page-heading { display: none !important; }
   .tj-hidden { display: none !important; }
   .tj-wrap { max-width: 720px; margin: 0 auto; }
 
@@ -225,7 +226,7 @@ robots: noindex
           </div>
           <div class="tj-hotel-row-display" id="tjHotelDisplay">
             <div class="tj-hotel-name" id="tjHotelName"></div>
-            <button type="button" class="tj-edit-link" id="tjHotelEditToggle">✏️</button>
+            <button type="button" class="tj-plus-link" id="tjHotelEditToggle">＋</button>
           </div>
           <div class="tj-hotel-edit-form tj-hidden" id="tjHotelEditForm">
             <input type="text" id="tjHotelNameInput" placeholder="ホテル名">
@@ -323,7 +324,10 @@ robots: noindex
 
     <!-- MEDIA GALLERY (always visible, slide) -->
     <div class="tj-card">
-      <div class="tj-card-title">写真・動画</div>
+      <div class="tj-card-title-row">
+        <div class="tj-card-title">写真・動画</div>
+        <button type="button" class="tj-plus-link" id="tjMediaAddToggle">＋</button>
+      </div>
       <div class="tj-media-grid" id="tjMediaGrid"></div>
     </div>
 
@@ -555,7 +559,8 @@ robots: noindex
   }
   function openMediaSection() {
     var el = document.getElementById('tjMediaSection');
-    el.classList.remove('tj-hidden');
+    el.classList.toggle('tj-hidden');
+    if (el.classList.contains('tj-hidden')) { return; }
     el.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
   function openCostManage() {
@@ -568,6 +573,7 @@ robots: noindex
   document.getElementById('tjQuickCost').addEventListener('click', function () { closeQuickMenu(); openCostManage(); });
   document.getElementById('tjItemAddToggle').addEventListener('click', openItemAddForm);
   document.getElementById('tjCostAddToggle').addEventListener('click', openCostManage);
+  document.getElementById('tjMediaAddToggle').addEventListener('click', openMediaSection);
 
   var typeIcons = { flight: '✈️', train: '🚆', car: '🚗', bus: '🚌', other: '📍' };
 
@@ -676,7 +682,7 @@ robots: noindex
         var timeLabel = d.endTime ? (d.time + '〜' + (d.endNextDay ? '翌' : '') + d.endTime) : (d.time || '');
         html += '<div style="display:flex;align-items:baseline;gap:0.3rem;">';
         html += '<span>' + (typeIcons[d.type] || '📍') + ' ' + escapeHtml(timeLabel) + '　' + escapeHtml(d.title || '') + (d.detail ? '（' + escapeHtml(d.detail) + '）' : '') + '</span>';
-        html += '<button class="tj-item-del" data-item-del-id="' + d.id + '" style="margin-left:auto;flex-shrink:0;">削除</button>';
+        html += '<button class="tj-item-del" data-item-del-id="' + d.id + '" style="margin-left:auto;flex-shrink:0;">×</button>';
         html += '</div>';
       });
       html += '</div></div>';
@@ -723,12 +729,12 @@ robots: noindex
     var firstDow = new Date(calViewYear, calViewMonth, 1).getDay();
     var daysInMonth = new Date(calViewYear, calViewMonth + 1, 0).getDate();
     var html = '<div class="tj-cal-dow">日</div><div class="tj-cal-dow">月</div><div class="tj-cal-dow">火</div><div class="tj-cal-dow">水</div><div class="tj-cal-dow">木</div><div class="tj-cal-dow">金</div><div class="tj-cal-dow">土</div>';
-    for (var b = 0; b < firstDow; b++) { html += '<div class="tj-cal-day blank"></div>'; }
+    for (var b = 0; b < firstDow; b++) { html += '<div class="tj-cal-day tj-cal-blank"></div>'; }
     for (var dd = 1; dd <= daysInMonth; dd++) {
       var idx = dayIndexForDate(calViewYear, calViewMonth, dd);
       var cls = 'tj-cal-day';
-      if (idx === selectedDayIndex) { cls += ' sel'; }
-      else if (idx !== null) { cls += ' trip'; }
+      if (idx === selectedDayIndex) { cls += ' tj-cal-sel'; }
+      else if (idx !== null) { cls += ' tj-cal-trip'; }
       html += '<div class="' + cls + '"' + (idx !== null ? ' data-cal-day-idx="' + idx + '"' : '') + '>' + dd + '</div>';
     }
     document.getElementById('tjCalGrid').innerHTML = html;
@@ -763,7 +769,7 @@ robots: noindex
         html += '<div class="tj-mini-check' + (d.done ? ' done' : '') + '">';
         html += '<input type="checkbox" data-check-id="' + docSnap.id + '"' + (d.done ? ' checked' : '') + '>';
         html += '<span>' + escapeHtml(d.text || '') + '</span>';
-        html += '<button class="tj-item-del" data-check-del="' + docSnap.id + '">削除</button>';
+        html += '<button class="tj-item-del" data-check-del="' + docSnap.id + '">×</button>';
         html += '</div>';
       });
       wrap.innerHTML = html;

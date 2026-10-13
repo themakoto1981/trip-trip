@@ -38,7 +38,7 @@ excerpt: "アンダマン海に浮かぶタイ最大の島プーケット。ビ�
 
 - **やす旅**：バンコク乗継+LCC｜国際線国内線ともLCC｜航空券代を抑制<br><a class="schedule-tag" href="https://www.vietjetair.com/">Vietjet Airの最新スケジュール</a>
 - **ゆる旅**：バンコク乗継+ANA｜乗継スムーズ｜快適に移動<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
-- **ラグ旅**：バンコク乗継+ANA｜復路は深夜直行便｜後泊なし<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
+- **らぐ旅**：バンコク乗継+ANA｜復路は深夜直行便｜後泊なし<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
 
 ## おすすめ旅程（やす旅向け／LCC利用・3泊4日の例）
 
@@ -91,7 +91,7 @@ excerpt: "アンダマン海に浮かぶタイ最大の島プーケット。ビ�
 - 14:00頃　プーケット発（バンコクエアウェイズ、所要約1時間20分）→ バンコク着
 - 22:25　バンコク発（ANA夜行直行便NH850）→ 翌06:05　羽田着
 
-## おすすめ旅程（ラグ旅向け／空路ルート・3泊4日の例）
+## おすすめ旅程（らぐ旅向け／空路ルート・3泊4日の例）
 
 **1日目**
 - 11:05　羽田発（ANA直行便NH847、所要6〜7時間）

@@ -305,7 +305,10 @@ robots: noindex
 
     <!-- COST management (hidden by default, opened via +追加) -->
     <div class="tj-card tj-hidden" id="tjCostManageCard">
-      <div class="tj-card-title">コストを追加</div>
+      <div class="tj-card-title-row">
+        <div class="tj-card-title">コストを追加</div>
+        <button type="button" class="tj-plus-link" id="tjCostManageClose">✕</button>
+      </div>
       <div class="tj-add-form" style="margin-top:0;border-top:none;padding-top:0;">
         <input id="tjCostTitle" type="text" placeholder="例：夕食代">
         <div class="tj-row">
@@ -333,7 +336,10 @@ robots: noindex
 
     <!-- MEDIA UPLOAD (hidden, opened via +追加) -->
     <div class="tj-card tj-hidden" id="tjMediaSection">
-      <div class="tj-card-title">写真・動画をアップロード</div>
+      <div class="tj-card-title-row">
+        <div class="tj-card-title">写真・動画をアップロード</div>
+        <button type="button" class="tj-plus-link" id="tjMediaSectionClose">✕</button>
+      </div>
       <div class="tj-upload-box">
         写真はそのまま、動画は<strong>3秒以内</strong>のみアップロードできます。
         <br>
@@ -574,6 +580,12 @@ robots: noindex
   document.getElementById('tjItemAddToggle').addEventListener('click', openItemAddForm);
   document.getElementById('tjCostAddToggle').addEventListener('click', openCostManage);
   document.getElementById('tjMediaAddToggle').addEventListener('click', openMediaSection);
+  document.getElementById('tjCostManageClose').addEventListener('click', function () {
+    document.getElementById('tjCostManageCard').classList.add('tj-hidden');
+  });
+  document.getElementById('tjMediaSectionClose').addEventListener('click', function () {
+    document.getElementById('tjMediaSection').classList.add('tj-hidden');
+  });
 
   var typeIcons = { flight: '✈️', train: '🚆', car: '🚗', bus: '🚌', other: '📍' };
 

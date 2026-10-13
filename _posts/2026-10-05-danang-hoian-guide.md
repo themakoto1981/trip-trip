@@ -50,7 +50,7 @@ excerpt: "成田から直行便で約6時間、東南アジアの中でも飛行
 
 - **やす旅**：関西発LCC直行｜新路線就航｜航空券代を抑制<br><a class="schedule-tag" href="https://www.vietjetair.com/">Vietjet Airの最新スケジュール</a>
 - **ゆる旅**：成田発ベトナム航空直行｜毎日運航｜後泊なしで満喫<br><a class="schedule-tag" href="https://www.vietnamairlines.com/jp/ja/">ベトナム航空の最新スケジュール</a>
-- **ラグ旅**：成田発ベトナム航空直行｜空港から車で15分｜滞在を満喫<br><a class="schedule-tag" href="https://www.vietnamairlines.com/jp/ja/">ベトナム航空の最新スケジュール</a>
+- **らぐ旅**：成田発ベトナム航空直行｜空港から車で15分｜滞在を満喫<br><a class="schedule-tag" href="https://www.vietnamairlines.com/jp/ja/">ベトナム航空の最新スケジュール</a>
 
 ## おすすめ旅程（ゆる旅向け／直行便利用・2泊3日の例）
 
@@ -87,7 +87,7 @@ excerpt: "成田から直行便で約6時間、東南アジアの中でも飛行
 
 Vietjet Airは火・木・土・日運航。土曜発なら、有休を1日も使わずに月曜の朝には日本に戻れます。
 
-## おすすめ旅程（ラグ旅向け／直行便利用・2泊3日の例）
+## おすすめ旅程（らぐ旅向け／直行便利用・2泊3日の例）
 
 **1日目**
 - 09:00　成田発（ベトナム航空直行便VN319、所要約5時間40分）

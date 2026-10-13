@@ -7,7 +7,7 @@ robots: noindex
 ---
 
 <style>
-  .site-header, .page-heading { display: none !important; }
+  .site-header, .page-heading, .site-footer, #back-to-top { display: none !important; }
   .tj-hidden { display: none !important; }
   .tj-wrap { max-width: 720px; margin: 0 auto; }
 
@@ -218,7 +218,7 @@ robots: noindex
     </div>
 
     <div class="tj-grid">
-      <div class="tj-col">
+      <div class="tj-col" id="tjScheduleCol">
         <div class="tj-card" id="tjDayHeadCard">
           <div class="tj-day-head">
             <span class="tj-day-num" id="tjDayNum"></span>
@@ -615,6 +615,8 @@ robots: noindex
   }
 
   function selectDay(idx) {
+    var n = dayCount();
+    if (idx < 1 || idx > n) { return; }
     selectedDayIndex = idx;
     document.getElementById('tjHotelEditForm').classList.add('tj-hidden');
     document.getElementById('tjItemAddForm').classList.add('tj-hidden');
@@ -622,6 +624,25 @@ robots: noindex
     renderHourList();
     renderCalendar();
   }
+
+  // ---------- SCHEDULE: swipe left/right to change day ----------
+  (function () {
+    var startX = null, startY = null;
+    var col = document.getElementById('tjScheduleCol');
+    col.addEventListener('touchstart', function (e) {
+      startX = e.touches[0].clientX;
+      startY = e.touches[0].clientY;
+    }, { passive: true });
+    col.addEventListener('touchend', function (e) {
+      if (startX === null) { return; }
+      var dx = e.changedTouches[0].clientX - startX;
+      var dy = e.changedTouches[0].clientY - startY;
+      startX = null;
+      if (Math.abs(dx) > 60 && Math.abs(dx) > Math.abs(dy) * 1.5) {
+        if (dx < 0) { selectDay(selectedDayIndex + 1); } else { selectDay(selectedDayIndex - 1); }
+      }
+    }, { passive: true });
+  })();
 
   // ---------- SCHEDULE: day head (num/date/hotel) ----------
   function renderDayHead() {

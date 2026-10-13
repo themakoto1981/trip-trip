@@ -50,33 +50,49 @@ robots: noindex
   .tj-as { font-size: 0.82rem; color: var(--sb-brown-soft); display: flex; align-items: center; gap: 0.4rem; }
   .tj-as select { border: 1px solid var(--sb-border); border-radius: 6px; padding: 0.25rem 0.5rem; font-family: inherit; }
 
-  /* tabs */
-  .tj-tabs { display: flex; gap: 0.4rem; margin-bottom: 1.25rem; border-bottom: 1px solid var(--sb-border); }
-  .tj-tab {
-    appearance: none; border: none; background: none; cursor: pointer; font-family: inherit;
-    padding: 0.6rem 0.9rem; font-size: 0.9rem; font-weight: 700; color: var(--sb-brown-soft);
-    border-bottom: 2px solid transparent;
-  }
-  .tj-tab.active { color: var(--sb-green-dark); border-bottom-color: var(--sb-green); }
+  /* 2-col layout */
+  .tj-grid { display: flex; gap: 0.5rem; align-items: flex-start; }
+  .tj-col { min-width: 0; }
+  .tj-col:first-child { flex: 1.6; }
+  .tj-col:last-child { flex: 1; }
 
-  /* day cards: horizontal swipe */
-  .tj-days-scroll {
-    display: flex; overflow-x: auto; scroll-snap-type: x mandatory;
-    gap: 0.75rem; padding-bottom: 0.6rem; margin-bottom: 0.3rem;
-    -webkit-overflow-scrolling: touch;
-  }
-  .tj-day-block { scroll-snap-align: start; flex: 0 0 100%; max-width: 100%; box-sizing: border-box; }
-  .tj-day-block-title { font-size: 1rem; font-weight: 700; color: var(--sb-green-dark); margin-bottom: 0.7rem; }
-  .tj-hotel-row-display { display: flex; align-items: center; justify-content: space-between; gap: 0.5rem; padding: 0.3rem 0 0.9rem; }
-  .tj-hotel-name { font-size: 0.88rem; color: var(--sb-brown); }
+  .tj-day-head { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 0.5rem; padding-bottom: 0.45rem; border-bottom: 1px solid var(--sb-border); }
+  .tj-day-num { font-size: 1.15rem; font-weight: 700; color: var(--sb-green-dark); }
+  .tj-day-date { font-size: 0.78rem; color: var(--sb-brown-soft); }
+  .tj-hotel-row-display { display: flex; align-items: center; justify-content: space-between; gap: 0.5rem; }
+  .tj-hotel-name { font-size: 0.82rem; color: var(--sb-brown); }
   .tj-hotel-name a { color: var(--sb-green-dark); font-weight: 700; text-decoration: underline; }
-  .tj-hotel-edit-link { border: none; background: none; color: var(--sb-brown-soft); font-size: 0.76rem; cursor: pointer; text-decoration: underline; flex-shrink: 0; white-space: nowrap; }
-  .tj-hotel-edit-form { display: flex; flex-direction: column; gap: 0.5rem; padding-bottom: 0.9rem; }
+  .tj-edit-link { border: none; background: none; font-size: 0.9rem; cursor: pointer; flex-shrink: 0; line-height: 1; padding: 0; }
+  .tj-hotel-edit-form { display: flex; flex-direction: column; gap: 0.5rem; }
   .tj-hotel-edit-form input { padding: 0.5rem 0.6rem; border: 1px solid var(--sb-border); border-radius: 8px; font-family: inherit; font-size: 0.85rem; }
-  .tj-item-list { border-top: 1px solid var(--sb-border); }
-  .tj-item-list .tj-item:first-child { border-top: none; }
 
-  .tj-card { background: var(--sb-card); border: 1px solid var(--sb-border); border-radius: 12px; padding: 1rem; margin-bottom: 0.9rem; }
+  .tj-hour-row { display: flex; gap: 0.5rem; padding: 0.3rem 0; border-top: 1px dotted var(--sb-border); font-size: 0.78rem; min-height: 1.2rem; align-items: baseline; }
+  .tj-hour-row:first-child { border-top: none; }
+  .tj-hour-time { font-weight: 700; color: var(--sb-brown-soft); width: 2.8rem; flex-shrink: 0; }
+  .tj-hour-entry { display: flex; align-items: baseline; gap: 0.35rem; flex: 1; min-width: 0; }
+  .tj-hour-entry button { border: none; background: none; color: var(--sb-brown-soft); font-size: 0.72rem; margin-left: auto; flex-shrink: 0; }
+
+  .tj-cal-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.4rem; }
+  .tj-cal-head button { border: none; background: none; color: var(--sb-brown-soft); font-size: 0.9rem; cursor: pointer; font-family: inherit; }
+  .tj-cal-month { font-weight: 700; color: var(--sb-green-dark); font-size: 0.78rem; white-space: nowrap; }
+  .tj-cal-grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 2px; text-align: center; font-size: 0.64rem; }
+  .tj-cal-dow { color: var(--sb-brown-soft); font-weight: 700; padding-bottom: 0.2rem; }
+  .tj-cal-day { padding: 0.28rem 0; border-radius: 6px; color: var(--sb-brown); cursor: default; }
+  .tj-cal-day.tj-cal-blank { visibility: hidden; }
+  .tj-cal-day.tj-cal-trip { background: var(--sb-cream); font-weight: 700; color: var(--sb-green-dark); cursor: pointer; }
+  .tj-cal-day.tj-cal-sel { background: var(--sb-green); color: #fff; cursor: pointer; }
+
+  .tj-mini-check { display: flex; align-items: center; gap: 0.4rem; padding: 0.22rem 0; font-size: 0.78rem; border-top: 1px solid var(--sb-border); }
+  .tj-mini-check:first-child { border-top: none; }
+  .tj-mini-check input[type=checkbox] { width: 15px; height: 15px; accent-color: var(--sb-green); flex-shrink: 0; }
+  .tj-mini-check span { flex: 1; min-width: 0; }
+  .tj-mini-check.tj-done span { text-decoration: line-through; color: var(--sb-brown-soft); }
+  .tj-mini-check-by { font-size: 0.66rem; color: var(--sb-brown-soft); flex-shrink: 0; }
+  .tj-mini-check-del { border: none; background: none; color: var(--sb-brown-soft); font-size: 0.7rem; flex-shrink: 0; }
+  .tj-check-add-row { display: flex; gap: 0.4rem; margin-top: 0.5rem; }
+  .tj-check-add-row input { flex: 1; padding: 0.45rem 0.6rem; border: 1px solid var(--sb-border); border-radius: 8px; font-family: inherit; font-size: 0.8rem; min-width: 0; }
+
+  .tj-card { background: var(--sb-card); border: 1px solid var(--sb-border); border-radius: 12px; padding: 0.7rem; margin-bottom: 0.6rem; }
   .tj-card-title { font-weight: 700; color: var(--sb-brown); margin-bottom: 0.5rem; font-size: 0.95rem; }
 
   .tj-hotel-row { display: flex; gap: 0.5rem; align-items: center; }
@@ -117,8 +133,8 @@ robots: noindex
     color: var(--sb-brown-soft); font-size: 0.85rem; margin-bottom: 1rem;
   }
   .tj-upload-box input[type="file"] { margin-top: 0.6rem; }
-  .tj-media-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(110px, 1fr)); gap: 0.6rem; }
-  .tj-media-cell { position: relative; border-radius: 8px; overflow: hidden; background: var(--sb-cream); aspect-ratio: 1; }
+  .tj-media-grid { display: flex; overflow-x: auto; gap: 0.6rem; padding-bottom: 0.3rem; -webkit-overflow-scrolling: touch; }
+  .tj-media-cell { position: relative; border-radius: 8px; overflow: hidden; background: var(--sb-cream); width: 120px; height: 120px; flex-shrink: 0; }
   .tj-media-cell img, .tj-media-cell video { width: 100%; height: 100%; object-fit: cover; }
   .tj-media-badge {
     position: absolute; bottom: 0.3rem; left: 0.3rem; background: rgba(17,32,27,0.65); color: #fff;
@@ -184,50 +200,129 @@ robots: noindex
         <div class="tj-title" id="tjTripName"></div>
         <div class="tj-subtitle" id="tjTripDates"></div>
       </div>
-      <div class="tj-as">
-        投稿者：
-        <select id="tjAsSelect"></select>
+      <div style="display:flex;flex-direction:column;align-items:flex-end;gap:0.4rem;">
+        <div class="tj-quick-wrap">
+          <button type="button" class="tj-quick-btn" id="tjQuickBtn">＋ 追加 ▾</button>
+          <div class="tj-quick-menu tj-hidden" id="tjQuickMenu">
+            <button type="button" id="tjQuickSchedule">✈️ 旅程を追加</button>
+            <button type="button" id="tjQuickMedia">📷 写真を追加</button>
+            <button type="button" id="tjQuickCost">💰 コストを追加</button>
+          </div>
+        </div>
+        <div class="tj-as">
+          投稿者：
+          <select id="tjAsSelect"></select>
+        </div>
       </div>
     </div>
 
-    <div class="tj-tabs">
-      <button class="tj-tab active" data-tab="schedule">タイムライン</button>
-      <button class="tj-tab" data-tab="cost">コスト</button>
-      <button class="tj-tab" data-tab="media">写真・動画</button>
-    </div>
-
-    <!-- SCHEDULE TAB -->
-    <div id="tjTabSchedule" class="tj-tab-panel">
-      <div class="tj-days-scroll" id="tjDaysContainer"></div>
-    </div>
-
-    <!-- COST TAB -->
-    <div id="tjTabCost" class="tj-tab-panel tj-hidden">
-      <div class="tj-card">
-        <div class="tj-card-title">コスト一覧</div>
-        <div id="tjCostList"></div>
-        <div class="tj-add-form">
-          <input id="tjCostTitle" type="text" placeholder="例：夕食代">
-          <div class="tj-row">
-            <input id="tjCostAmount" type="number" placeholder="金額（円）">
-            <select id="tjCostPaidBy"></select>
+    <div class="tj-grid">
+      <div class="tj-col">
+        <div class="tj-card" id="tjDayHeadCard">
+          <div class="tj-day-head">
+            <span class="tj-day-num" id="tjDayNum"></span>
+            <span class="tj-day-date" id="tjDayDate"></span>
           </div>
-          <div class="tj-check-row">
-            <label><input type="checkbox" id="tjCostSplitAll" checked> 全員で割る</label>
+          <div class="tj-hotel-row-display" id="tjHotelDisplay">
+            <div class="tj-hotel-name" id="tjHotelName"></div>
+            <button type="button" class="tj-edit-link" id="tjHotelEditToggle">✏️</button>
           </div>
-          <div class="tj-participant-checks tj-hidden" id="tjCostParticipantChecks"></div>
-          <button class="tj-btn secondary" id="tjCostAdd">追加</button>
+          <div class="tj-hotel-edit-form tj-hidden" id="tjHotelEditForm">
+            <input type="text" id="tjHotelNameInput" placeholder="ホテル名">
+            <input type="text" id="tjHotelUrlInput" placeholder="予約サイトのURL（任意）">
+            <button type="button" class="tj-btn secondary" id="tjHotelSave" style="align-self:flex-start;">保存</button>
+          </div>
+        </div>
+
+        <div class="tj-card" id="tjHourCard">
+          <div id="tjHourList"></div>
+          <div class="tj-add-form tj-hidden" id="tjItemAddForm">
+            <div class="tj-row">
+              <select id="tjItemType">
+                <option value="flight">✈️ フライト</option>
+                <option value="train">🚆 電車</option>
+                <option value="car">🚗 レンタカー</option>
+                <option value="bus">🚌 バス</option>
+                <option value="other">📍 その他</option>
+              </select>
+            </div>
+            <div class="tj-row">
+              <div>
+                <div class="tj-time-label">開始</div>
+                <input id="tjItemTime" type="time">
+              </div>
+              <div>
+                <div class="tj-time-label">終了（任意）</div>
+                <input id="tjItemEndTime" type="time">
+              </div>
+            </div>
+            <label class="tj-check-row">
+              <input type="checkbox" id="tjItemEndNextDay"> 終了は翌日（夜便泊など）
+            </label>
+            <input id="tjItemTitle" type="text" placeholder="例：羽田発 ANA123便">
+            <input id="tjItemDetail" type="text" placeholder="補足（任意）">
+            <button class="tj-btn secondary" id="tjItemAdd">追加</button>
+          </div>
         </div>
       </div>
 
-      <div class="tj-card">
-        <div class="tj-card-title">精算</div>
-        <div id="tjSettleList"></div>
+      <div class="tj-col">
+        <div class="tj-card">
+          <div class="tj-cal-head">
+            <button type="button" id="tjCalPrev">‹</button>
+            <div class="tj-cal-month" id="tjCalMonth"></div>
+            <button type="button" id="tjCalNext">›</button>
+          </div>
+          <div class="tj-cal-grid" id="tjCalGrid"></div>
+        </div>
+
+        <div class="tj-card">
+          <div class="tj-card-title-row">
+            <div class="tj-card-title">やりたいこと</div>
+            <button type="button" class="tj-plus-link" id="tjChecklistAddToggle">＋</button>
+          </div>
+          <div id="tjChecklist"></div>
+          <div class="tj-check-add-row tj-hidden" id="tjChecklistAddRow">
+            <input type="text" id="tjChecklistInput" placeholder="やりたいことを追加">
+            <button type="button" class="tj-btn secondary" id="tjChecklistAdd">追加</button>
+          </div>
+        </div>
+
+        <div class="tj-card">
+          <div class="tj-card-title">コスト</div>
+          <div id="tjCostList"></div>
+        </div>
       </div>
     </div>
 
-    <!-- MEDIA TAB -->
-    <div id="tjTabMedia" class="tj-tab-panel tj-hidden">
+    <!-- COST management (hidden by default, opened via +追加) -->
+    <div class="tj-card tj-hidden" id="tjCostManageCard">
+      <div class="tj-card-title">コストを追加</div>
+      <div class="tj-add-form" style="margin-top:0;border-top:none;padding-top:0;">
+        <input id="tjCostTitle" type="text" placeholder="例：夕食代">
+        <div class="tj-row">
+          <input id="tjCostAmount" type="number" placeholder="金額（円）">
+          <select id="tjCostPaidBy"></select>
+        </div>
+        <div class="tj-check-row">
+          <label><input type="checkbox" id="tjCostSplitAll" checked> 全員で割る</label>
+        </div>
+        <div class="tj-participant-checks tj-hidden" id="tjCostParticipantChecks"></div>
+        <button class="tj-btn secondary" id="tjCostAdd">追加</button>
+      </div>
+      <div class="tj-card-title" style="margin-top:0.9rem;">精算</div>
+      <div id="tjSettleList"></div>
+    </div>
+
+    <!-- MEDIA GALLERY (always visible, slide) -->
+    <div class="tj-card">
+      <div class="tj-card-title">写真・動画</div>
+      <div class="tj-media-grid" id="tjMediaGrid"></div>
+    </div>
+
+    <!-- MEDIA UPLOAD (hidden, opened via +追加) -->
+    <div class="tj-card tj-hidden" id="tjMediaSection">
+      <div class="tj-card-title">写真・動画をアップロード</div>
       <div class="tj-upload-box">
         写真はそのまま、動画は<strong>3秒以内</strong>のみアップロードできます。
         <br>
@@ -238,7 +333,6 @@ robots: noindex
         <input id="tjMediaFile" type="file" accept="image/*,video/*">
       </div>
       <p id="tjMediaError" class="tj-error"></p>
-      <div class="tj-media-grid" id="tjMediaGrid"></div>
     </div>
   </div>
 </div>
@@ -275,11 +369,14 @@ robots: noindex
   var tripData = null;
   var unsubCosts = null;
   var unsubMedia = null;
+  var unsubChecklist = null;
   var setupParticipants = [];
   var weekItemsByDay = {};
   var weekHotelByDay = {};
   var dayUnsubs = [];
-  var hotelEditOpen = {};
+  var selectedDayIndex = 1;
+  var calViewYear = null;
+  var calViewMonth = null;
 
   function escapeHtml(s) {
     return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#39;');
@@ -392,18 +489,26 @@ robots: noindex
     });
     try { localStorage.setItem('tj_as_' + TRIP_ID, asSelect.value); } catch (e) {}
 
-    var mediaDaySelect = document.getElementById('tjMediaDay');
-    mediaDaySelect.innerHTML = '';
     var n = dayCount();
     var todayDiff = Math.round((new Date(new Date().toDateString()) - new Date(tripData.startDate)) / 86400000) + 1;
+    selectedDayIndex = (todayDiff >= 1 && todayDiff <= n) ? todayDiff : 1;
+
+    var mediaDaySelect = document.getElementById('tjMediaDay');
+    mediaDaySelect.innerHTML = '';
     for (var di = 1; di <= n; di++) {
       var opt = document.createElement('option');
       opt.value = di; opt.textContent = di + '日目 ' + dayDateLabel(di);
       mediaDaySelect.appendChild(opt);
     }
-    mediaDaySelect.value = (todayDiff >= 1 && todayDiff <= n) ? todayDiff : 1;
+    mediaDaySelect.value = selectedDayIndex;
+
+    var startD = new Date(tripData.startDate);
+    calViewYear = startD.getFullYear();
+    calViewMonth = startD.getMonth();
 
     setupDayListeners();
+    watchChecklist();
+    renderCalendar();
     renderCostPaidBy();
     renderCostParticipantChecks();
     watchCosts();
@@ -423,15 +528,33 @@ robots: noindex
     return (d.getMonth() + 1) + '/' + d.getDate() + '(' + w + ')';
   }
 
-  // ---------- TABS ----------
-  document.querySelectorAll('.tj-tab').forEach(function (tab) {
-    tab.addEventListener('click', function () {
-      document.querySelectorAll('.tj-tab').forEach(function (t) { t.classList.remove('active'); });
-      tab.classList.add('active');
-      document.querySelectorAll('.tj-tab-panel').forEach(function (p) { p.classList.add('tj-hidden'); });
-      var name = tab.getAttribute('data-tab');
-      document.getElementById('tjTab' + name.charAt(0).toUpperCase() + name.slice(1)).classList.remove('tj-hidden');
-    });
+  function dayIndexForDate(y, m, dd) {
+    var target = new Date(y, m, dd);
+    var start = new Date(tripData.startDate);
+    var start0 = new Date(start.getFullYear(), start.getMonth(), start.getDate());
+    var diff = Math.round((target - start0) / 86400000) + 1;
+    return (diff >= 1 && diff <= dayCount()) ? diff : null;
+  }
+
+  // ---------- QUICK ADD MENU ----------
+  document.getElementById('tjQuickBtn').addEventListener('click', function () {
+    document.getElementById('tjQuickMenu').classList.toggle('tj-hidden');
+  });
+  function closeQuickMenu() { document.getElementById('tjQuickMenu').classList.add('tj-hidden'); }
+  document.getElementById('tjQuickSchedule').addEventListener('click', function () {
+    closeQuickMenu();
+    document.getElementById('tjItemAddForm').classList.remove('tj-hidden');
+    document.getElementById('tjItemAddForm').scrollIntoView({ behavior: 'smooth', block: 'center' });
+  });
+  document.getElementById('tjQuickMedia').addEventListener('click', function () {
+    closeQuickMenu();
+    document.getElementById('tjMediaSection').classList.remove('tj-hidden');
+    document.getElementById('tjMediaSection').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
+  document.getElementById('tjQuickCost').addEventListener('click', function () {
+    closeQuickMenu();
+    document.getElementById('tjCostManageCard').classList.remove('tj-hidden');
+    document.getElementById('tjCostManageCard').scrollIntoView({ behavior: 'smooth', block: 'start' });
   });
 
   var typeIcons = { flight: '✈️', train: '🚆', car: '🚗', bus: '🚌', other: '📍' };
@@ -461,143 +584,194 @@ robots: noindex
             arr.push(row);
           });
           weekItemsByDay[idx] = arr;
-          renderAllDays();
+          if (idx === selectedDayIndex) { renderHourList(); }
         });
         var unsub2 = onSnapshot(doc(db, 'trips', TRIP_ID, 'days', String(idx)), function (snap) {
           var data = snap.exists() ? snap.data() : {};
           weekHotelByDay[idx] = { hotel: data.hotel || '', hotelUrl: data.hotelUrl || '' };
-          renderAllDays();
+          if (idx === selectedDayIndex) { renderDayHead(); }
         });
         dayUnsubs.push(unsub1, unsub2);
       })(i);
     }
   }
 
-  // ---------- SCHEDULE: render all days as horizontal swipe cards ----------
-  function renderAllDays() {
-    var container = document.getElementById('tjDaysContainer');
-    if (!container || !tripData) return;
-    var n = dayCount();
-    var html = '';
-
-    for (var i = 1; i <= n; i++) {
-      var hotelInfo = weekHotelByDay[i] || {};
-      var hotelName = hotelInfo.hotel || '';
-      var hotelUrl = hotelInfo.hotelUrl || '';
-      var items = weekItemsByDay[i] || [];
-      var editing = !!hotelEditOpen[i];
-
-      html += '<div class="tj-day-block">';
-      html += '<div class="tj-day-block-title">' + i + '日目 ' + dayDateLabel(i) + '</div>';
-
-      // hotel display
-      html += '<div class="tj-hotel-row-display"' + (editing ? ' style="display:none;"' : '') + '>';
-      html += '<div class="tj-hotel-name">';
-      if (hotelName) {
-        html += '🏨 ' + (hotelUrl
-          ? ('<a href="' + escapeHtml(hotelUrl) + '" target="_blank" rel="noopener">' + escapeHtml(hotelName) + ' ↗</a>')
-          : escapeHtml(hotelName));
-      } else {
-        html += '<span class="tj-empty" style="padding:0;">宿泊先未設定</span>';
-      }
-      html += '</div>';
-      html += '<button type="button" class="tj-hotel-edit-link" data-hotel-edit-toggle="' + i + '">編集</button>';
-      html += '</div>';
-
-      // hotel edit form
-      html += '<div class="tj-hotel-edit-form"' + (editing ? '' : ' style="display:none;"') + '>';
-      html += '<input type="text" placeholder="ホテル名" data-hotel-name-input="' + i + '" value="' + escapeHtml(hotelName) + '">';
-      html += '<input type="text" placeholder="予約サイトのURL（任意）" data-hotel-url-input="' + i + '" value="' + escapeHtml(hotelUrl) + '">';
-      html += '<button type="button" class="tj-btn secondary" data-hotel-save="' + i + '" style="align-self:flex-start;">保存</button>';
-      html += '</div>';
-
-      // item list
-      html += '<div class="tj-item-list">';
-      if (items.length === 0) {
-        html += '<div class="tj-empty">まだ予定がありません</div>';
-      } else {
-        items.forEach(function (d) {
-          var timeLabel = d.endTime ? (d.time + '〜' + (d.endNextDay ? '翌' : '') + d.endTime) : (d.time || '');
-          html += '<div class="tj-item">';
-          html += '<div class="tj-item-icon">' + (typeIcons[d.type] || '📍') + '</div>';
-          html += '<div class="tj-item-body"><div class="tj-item-time">' + escapeHtml(timeLabel) + '</div>';
-          html += '<div class="tj-item-title">' + escapeHtml(d.title || '') + '</div>';
-          if (d.detail) { html += '<div class="tj-item-detail">' + escapeHtml(d.detail) + '</div>'; }
-          html += '</div>';
-          html += '<button class="tj-item-del" data-item-del-day="' + i + '" data-item-del-id="' + d.id + '">削除</button>';
-          html += '</div>';
-        });
-      }
-      html += '</div>';
-
-      // add form
-      html += '<div class="tj-add-form">';
-      html += '<div class="tj-row"><select data-add-type="' + i + '">';
-      html += '<option value="flight">✈️ フライト</option><option value="train">🚆 電車</option><option value="car">🚗 レンタカー</option><option value="bus">🚌 バス</option><option value="other">📍 その他</option>';
-      html += '</select></div>';
-      html += '<div class="tj-row"><div><div class="tj-time-label">開始</div><input type="time" data-add-time="' + i + '"></div>';
-      html += '<div><div class="tj-time-label">終了（任意）</div><input type="time" data-add-endtime="' + i + '"></div></div>';
-      html += '<label class="tj-check-row"><input type="checkbox" data-add-endnextday="' + i + '"> 終了は翌日（夜便泊など）</label>';
-      html += '<input type="text" placeholder="例：羽田発 ANA123便" data-add-title="' + i + '">';
-      html += '<input type="text" placeholder="補足（任意）" data-add-detail="' + i + '">';
-      html += '<button type="button" class="tj-btn secondary" data-add-submit="' + i + '">追加</button>';
-      html += '</div>';
-
-      html += '</div>';
-    }
-
-    container.innerHTML = html;
+  function selectDay(idx) {
+    selectedDayIndex = idx;
+    document.getElementById('tjHotelEditForm').classList.add('tj-hidden');
+    document.getElementById('tjItemAddForm').classList.add('tj-hidden');
+    renderDayHead();
+    renderHourList();
+    renderCalendar();
   }
 
-  // ---------- SCHEDULE: event delegation ----------
-  document.getElementById('tjDaysContainer').addEventListener('click', function (e) {
-    var toggleIdx = e.target.getAttribute('data-hotel-edit-toggle');
-    if (toggleIdx) {
-      hotelEditOpen[toggleIdx] = !hotelEditOpen[toggleIdx];
-      renderAllDays();
-      return;
+  // ---------- SCHEDULE: day head (num/date/hotel) ----------
+  function renderDayHead() {
+    document.getElementById('tjDayNum').textContent = selectedDayIndex + '日目';
+    document.getElementById('tjDayDate').textContent = dayDateLabel(selectedDayIndex);
+    var hotelInfo = weekHotelByDay[selectedDayIndex] || {};
+    var hotelName = hotelInfo.hotel || '';
+    var hotelUrl = hotelInfo.hotelUrl || '';
+    var nameEl = document.getElementById('tjHotelName');
+    if (hotelName) {
+      nameEl.innerHTML = (hotelUrl
+        ? ('<a href="' + escapeHtml(hotelUrl) + '" target="_blank" rel="noopener">' + escapeHtml(hotelName) + ' ↗</a>')
+        : escapeHtml(hotelName));
+    } else {
+      nameEl.innerHTML = '<span class="tj-empty" style="padding:0;">宿泊先未設定</span>';
     }
+    document.getElementById('tjHotelNameInput').value = hotelName;
+    document.getElementById('tjHotelUrlInput').value = hotelUrl;
+  }
 
-    var saveIdx = e.target.getAttribute('data-hotel-save');
-    if (saveIdx) {
-      var nameVal = document.querySelector('[data-hotel-name-input="' + saveIdx + '"]').value.trim();
-      var urlVal = document.querySelector('[data-hotel-url-input="' + saveIdx + '"]').value.trim();
-      setDoc(doc(db, 'trips', TRIP_ID, 'days', saveIdx), { hotel: nameVal, hotelUrl: urlVal, dayIndex: parseInt(saveIdx, 10) }, { merge: true }).then(function () {
-        hotelEditOpen[saveIdx] = false;
+  document.getElementById('tjHotelEditToggle').addEventListener('click', function () {
+    document.getElementById('tjHotelEditForm').classList.toggle('tj-hidden');
+  });
+  document.getElementById('tjHotelSave').addEventListener('click', function () {
+    var nameVal = document.getElementById('tjHotelNameInput').value.trim();
+    var urlVal = document.getElementById('tjHotelUrlInput').value.trim();
+    setDoc(doc(db, 'trips', TRIP_ID, 'days', String(selectedDayIndex)), { hotel: nameVal, hotelUrl: urlVal, dayIndex: selectedDayIndex }, { merge: true }).then(function () {
+      document.getElementById('tjHotelEditForm').classList.add('tj-hidden');
+    });
+  });
+
+  // ---------- SCHEDULE: hourly list (09:00-21:00, extended for outlying items) ----------
+  function renderHourList() {
+    var wrap = document.getElementById('tjHourList');
+    var items = weekItemsByDay[selectedDayIndex] || [];
+    var minHour = 9, maxHour = 21;
+    items.forEach(function (it) {
+      var m = timeToMinutes(it.time);
+      if (m !== null) {
+        var h = Math.floor(m / 60);
+        if (h < minHour) { minHour = h; }
+        if (h > maxHour) { maxHour = h; }
+      }
+    });
+    var byHour = {};
+    items.forEach(function (it) {
+      var m = timeToMinutes(it.time);
+      if (m === null) { return; }
+      var h = Math.floor(m / 60);
+      if (!byHour[h]) { byHour[h] = []; }
+      byHour[h].push(it);
+    });
+    var html = '';
+    for (var h = minHour; h <= maxHour; h++) {
+      var hLabel = (h < 10 ? '0' + h : h) + ':00';
+      html += '<div class="tj-hour-row"><div class="tj-hour-time">' + hLabel + '</div><div style="flex:1;min-width:0;">';
+      (byHour[h] || []).forEach(function (d) {
+        var timeLabel = d.endTime ? (d.time + '〜' + (d.endNextDay ? '翌' : '') + d.endTime) : (d.time || '');
+        html += '<div style="display:flex;align-items:baseline;gap:0.3rem;">';
+        html += '<span>' + (typeIcons[d.type] || '📍') + ' ' + escapeHtml(timeLabel) + '　' + escapeHtml(d.title || '') + (d.detail ? '（' + escapeHtml(d.detail) + '）' : '') + '</span>';
+        html += '<button class="tj-item-del" data-item-del-id="' + d.id + '" style="margin-left:auto;flex-shrink:0;">削除</button>';
+        html += '</div>';
       });
-      return;
+      html += '</div></div>';
     }
+    wrap.innerHTML = html;
+  }
 
-    var delDay = e.target.getAttribute('data-item-del-day');
+  document.getElementById('tjHourList').addEventListener('click', function (e) {
     var delId = e.target.getAttribute('data-item-del-id');
-    if (delDay && delId) {
-      deleteDoc(doc(db, 'trips', TRIP_ID, 'days', delDay, 'items', delId));
-      return;
-    }
+    if (delId) { deleteDoc(doc(db, 'trips', TRIP_ID, 'days', String(selectedDayIndex), 'items', delId)); }
+  });
 
-    var addIdx = e.target.getAttribute('data-add-submit');
-    if (addIdx) {
-      var type = document.querySelector('[data-add-type="' + addIdx + '"]').value;
-      var time = document.querySelector('[data-add-time="' + addIdx + '"]').value;
-      var endTime = document.querySelector('[data-add-endtime="' + addIdx + '"]').value;
-      var endNextDay = document.querySelector('[data-add-endnextday="' + addIdx + '"]').checked;
-      var title = document.querySelector('[data-add-title="' + addIdx + '"]').value.trim();
-      var detail = document.querySelector('[data-add-detail="' + addIdx + '"]').value.trim();
-      if (!title || !time) return;
-      if (endTime && !endNextDay && timeToMinutes(endTime) <= timeToMinutes(time)) {
-        alert('終了時刻は開始時刻より後にしてください（日をまたぐ場合は「終了は翌日」にチェック）');
-        return;
-      }
-      if (endNextDay && !endTime) {
-        alert('「終了は翌日」を選ぶ場合は終了時刻も入力してください');
-        return;
-      }
-      addDoc(collection(db, 'trips', TRIP_ID, 'days', addIdx, 'items'), {
-        type: type, time: time, endTime: endTime || null, endNextDay: !!(endTime && endNextDay), title: title, detail: detail,
-        postedBy: document.getElementById('tjAsSelect').value, createdAt: serverTimestamp()
-      });
+  document.getElementById('tjItemAdd').addEventListener('click', function () {
+    var type = document.getElementById('tjItemType').value;
+    var time = document.getElementById('tjItemTime').value;
+    var endTime = document.getElementById('tjItemEndTime').value;
+    var endNextDay = document.getElementById('tjItemEndNextDay').checked;
+    var title = document.getElementById('tjItemTitle').value.trim();
+    var detail = document.getElementById('tjItemDetail').value.trim();
+    if (!title || !time) return;
+    if (endTime && !endNextDay && timeToMinutes(endTime) <= timeToMinutes(time)) {
+      alert('終了時刻は開始時刻より後にしてください（日をまたぐ場合は「終了は翌日」にチェック）');
       return;
     }
+    if (endNextDay && !endTime) {
+      alert('「終了は翌日」を選ぶ場合は終了時刻も入力してください');
+      return;
+    }
+    addDoc(collection(db, 'trips', TRIP_ID, 'days', String(selectedDayIndex), 'items'), {
+      type: type, time: time, endTime: endTime || null, endNextDay: !!(endTime && endNextDay), title: title, detail: detail,
+      postedBy: document.getElementById('tjAsSelect').value, createdAt: serverTimestamp()
+    }).then(function () {
+      document.getElementById('tjItemTitle').value = '';
+      document.getElementById('tjItemDetail').value = '';
+      document.getElementById('tjItemTime').value = '';
+      document.getElementById('tjItemEndTime').value = '';
+      document.getElementById('tjItemEndNextDay').checked = false;
+    });
+  });
+
+  // ---------- CALENDAR ----------
+  function renderCalendar() {
+    document.getElementById('tjCalMonth').textContent = calViewYear + '/' + (calViewMonth + 1);
+    var firstDow = new Date(calViewYear, calViewMonth, 1).getDay();
+    var daysInMonth = new Date(calViewYear, calViewMonth + 1, 0).getDate();
+    var html = '<div class="tj-cal-dow">日</div><div class="tj-cal-dow">月</div><div class="tj-cal-dow">火</div><div class="tj-cal-dow">水</div><div class="tj-cal-dow">木</div><div class="tj-cal-dow">金</div><div class="tj-cal-dow">土</div>';
+    for (var b = 0; b < firstDow; b++) { html += '<div class="tj-cal-day blank"></div>'; }
+    for (var dd = 1; dd <= daysInMonth; dd++) {
+      var idx = dayIndexForDate(calViewYear, calViewMonth, dd);
+      var cls = 'tj-cal-day';
+      if (idx === selectedDayIndex) { cls += ' sel'; }
+      else if (idx !== null) { cls += ' trip'; }
+      html += '<div class="' + cls + '"' + (idx !== null ? ' data-cal-day-idx="' + idx + '"' : '') + '>' + dd + '</div>';
+    }
+    document.getElementById('tjCalGrid').innerHTML = html;
+  }
+  document.getElementById('tjCalPrev').addEventListener('click', function () {
+    calViewMonth--;
+    if (calViewMonth < 0) { calViewMonth = 11; calViewYear--; }
+    renderCalendar();
+  });
+  document.getElementById('tjCalNext').addEventListener('click', function () {
+    calViewMonth++;
+    if (calViewMonth > 11) { calViewMonth = 0; calViewYear++; }
+    renderCalendar();
+  });
+  document.getElementById('tjCalGrid').addEventListener('click', function (e) {
+    var idx = e.target.getAttribute('data-cal-day-idx');
+    if (idx) { selectDay(parseInt(idx, 10)); }
+  });
+
+  // ---------- CHECKLIST (やりたいこと) ----------
+  document.getElementById('tjChecklistAddToggle').addEventListener('click', function () {
+    document.getElementById('tjChecklistAddRow').classList.toggle('tj-hidden');
+  });
+  function watchChecklist() {
+    var q = query(collection(db, 'trips', TRIP_ID, 'checklist'), orderBy('createdAt', 'asc'));
+    unsubChecklist = onSnapshot(q, function (snap) {
+      var wrap = document.getElementById('tjChecklist');
+      if (snap.empty) { wrap.innerHTML = '<div class="tj-empty">まだありません</div>'; return; }
+      var html = '';
+      snap.forEach(function (docSnap) {
+        var d = docSnap.data();
+        html += '<div class="tj-mini-check' + (d.done ? ' done' : '') + '">';
+        html += '<input type="checkbox" data-check-id="' + docSnap.id + '"' + (d.done ? ' checked' : '') + '>';
+        html += '<span>' + escapeHtml(d.text || '') + '</span>';
+        html += '<button class="tj-item-del" data-check-del="' + docSnap.id + '">削除</button>';
+        html += '</div>';
+      });
+      wrap.innerHTML = html;
+    });
+  }
+  document.getElementById('tjChecklist').addEventListener('click', function (e) {
+    var delId = e.target.getAttribute('data-check-del');
+    if (delId) { deleteDoc(doc(db, 'trips', TRIP_ID, 'checklist', delId)); return; }
+  });
+  document.getElementById('tjChecklist').addEventListener('change', function (e) {
+    var checkId = e.target.getAttribute('data-check-id');
+    if (checkId) { setDoc(doc(db, 'trips', TRIP_ID, 'checklist', checkId), { done: e.target.checked }, { merge: true }); }
+  });
+  document.getElementById('tjChecklistAdd').addEventListener('click', function () {
+    var input = document.getElementById('tjChecklistInput');
+    var text = input.value.trim();
+    if (!text) return;
+    addDoc(collection(db, 'trips', TRIP_ID, 'checklist'), {
+      text: text, done: false, postedBy: document.getElementById('tjAsSelect').value, createdAt: serverTimestamp()
+    }).then(function () { input.value = ''; });
   });
 
   // ---------- COST ----------

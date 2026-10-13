@@ -235,6 +235,10 @@ robots: noindex
         </div>
 
         <div class="tj-card" id="tjHourCard">
+          <div class="tj-card-title-row">
+            <div class="tj-card-title">予定</div>
+            <button type="button" class="tj-plus-link" id="tjItemAddToggle">＋</button>
+          </div>
           <div id="tjHourList"></div>
           <div class="tj-add-form tj-hidden" id="tjItemAddForm">
             <div class="tj-row">
@@ -289,7 +293,10 @@ robots: noindex
         </div>
 
         <div class="tj-card">
-          <div class="tj-card-title">コスト</div>
+          <div class="tj-card-title-row">
+            <div class="tj-card-title">コスト</div>
+            <button type="button" class="tj-plus-link" id="tjCostAddToggle">＋</button>
+          </div>
           <div id="tjCostList"></div>
         </div>
       </div>
@@ -541,21 +548,26 @@ robots: noindex
     document.getElementById('tjQuickMenu').classList.toggle('tj-hidden');
   });
   function closeQuickMenu() { document.getElementById('tjQuickMenu').classList.add('tj-hidden'); }
-  document.getElementById('tjQuickSchedule').addEventListener('click', function () {
-    closeQuickMenu();
-    document.getElementById('tjItemAddForm').classList.remove('tj-hidden');
-    document.getElementById('tjItemAddForm').scrollIntoView({ behavior: 'smooth', block: 'center' });
-  });
-  document.getElementById('tjQuickMedia').addEventListener('click', function () {
-    closeQuickMenu();
-    document.getElementById('tjMediaSection').classList.remove('tj-hidden');
-    document.getElementById('tjMediaSection').scrollIntoView({ behavior: 'smooth', block: 'start' });
-  });
-  document.getElementById('tjQuickCost').addEventListener('click', function () {
-    closeQuickMenu();
-    document.getElementById('tjCostManageCard').classList.remove('tj-hidden');
-    document.getElementById('tjCostManageCard').scrollIntoView({ behavior: 'smooth', block: 'start' });
-  });
+  function openItemAddForm() {
+    var el = document.getElementById('tjItemAddForm');
+    el.classList.toggle('tj-hidden');
+    if (!el.classList.contains('tj-hidden')) { el.scrollIntoView({ behavior: 'smooth', block: 'center' }); }
+  }
+  function openMediaSection() {
+    var el = document.getElementById('tjMediaSection');
+    el.classList.remove('tj-hidden');
+    el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+  function openCostManage() {
+    var el = document.getElementById('tjCostManageCard');
+    el.classList.toggle('tj-hidden');
+    if (!el.classList.contains('tj-hidden')) { el.scrollIntoView({ behavior: 'smooth', block: 'start' }); }
+  }
+  document.getElementById('tjQuickSchedule').addEventListener('click', function () { closeQuickMenu(); openItemAddForm(); });
+  document.getElementById('tjQuickMedia').addEventListener('click', function () { closeQuickMenu(); openMediaSection(); });
+  document.getElementById('tjQuickCost').addEventListener('click', function () { closeQuickMenu(); openCostManage(); });
+  document.getElementById('tjItemAddToggle').addEventListener('click', openItemAddForm);
+  document.getElementById('tjCostAddToggle').addEventListener('click', openCostManage);
 
   var typeIcons = { flight: '✈️', train: '🚆', car: '🚗', bus: '🚌', other: '📍' };
 

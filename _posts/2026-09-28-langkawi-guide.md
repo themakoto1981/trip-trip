@@ -38,7 +38,7 @@ excerpt: "マレーシア屈指のリゾートアイランド、ランカウイ�
 
 - **やす旅**：クアラルンプール乗継+LCC｜深夜発｜当日中に到着<br><a class="schedule-tag" href="https://www.airasia.com/">AirAsiaの最新スケジュール</a>
 - **ゆる旅**：クアラルンプール乗継+JAL｜直行便｜当日中に乗継<br><a class="schedule-tag" href="https://www.jal.co.jp/jp/ja/">JALの最新スケジュール</a>
-- **ラグ旅**：クアラルンプール乗継+JAL｜ビジネスクラス可｜快適な直行便<br><a class="schedule-tag" href="https://www.jal.co.jp/jp/ja/">JALの最新スケジュール</a>
+- **らぐ旅**：クアラルンプール乗継+JAL｜ビジネスクラス可｜快適な直行便<br><a class="schedule-tag" href="https://www.jal.co.jp/jp/ja/">JALの最新スケジュール</a>
 
 ## おすすめ旅程（やす旅向け／LCC利用・4泊5日の例）
 
@@ -88,7 +88,7 @@ excerpt: "マレーシア屈指のリゾートアイランド、ランカウイ�
 - 16:00頃　ランカウイ発（マレーシア航空国内線）→ 17:05頃　クアラルンプール着
 - 22:50　クアラルンプール発（JAL直行便JL724）→ 翌06:40　成田着
 
-## おすすめ旅程（ラグ旅向け／空路ルート・3泊4日の例）
+## おすすめ旅程（らぐ旅向け／空路ルート・3泊4日の例）
 
 **1日目**
 - 11:30　成田発（JAL直行便JL723）

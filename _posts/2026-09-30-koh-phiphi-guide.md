@@ -40,7 +40,7 @@ excerpt: "映画の舞台にもなった絶景ビーチ、マヤベイで知ら�
 
 - **やす旅**：バンコク経由+LCC｜プーケット1泊｜船便に乗継やすい<br><a class="schedule-tag" href="https://www.vietjetair.com/">ベトジェットエアの最新スケジュール</a>
 - **ゆる旅**：バンコク経由+ANA｜プーケット1泊｜快適に移動<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
-- **ラグ旅**：バンコク経由+ANA｜プーケット1泊｜バンコクエアウェイズ<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
+- **らぐ旅**：バンコク経由+ANA｜プーケット1泊｜バンコクエアウェイズ<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
 
 ## おすすめ旅程（やす旅向け／LCC利用・プーケット1泊・4泊5日の例）
 
@@ -98,7 +98,7 @@ excerpt: "映画の舞台にもなった絶景ビーチ、マヤベイで知ら�
 - 10:00頃　フェリーでプーケットへ、空港へ移動
 - 23:35　バンコク発（ANA直行便）→ 翌07:45　成田着
 
-## おすすめ旅程（ラグ旅向け／プーケット1泊・4泊5日の例）
+## おすすめ旅程（らぐ旅向け／プーケット1泊・4泊5日の例）
 
 **1日目（1泊目：プーケット泊）**
 - 10:50　羽田発（ANA直行便NH847、所要6〜7時間）

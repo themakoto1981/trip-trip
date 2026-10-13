@@ -41,7 +41,7 @@ excerpt: "バリ島からボートで30〜45分、断崖と青い海が広がる
 
 - **やす旅**：クアラルンプール経由+LCC｜島で2泊｜運賃重視<br><a class="schedule-tag" href="https://www.airasia.com/">AirAsiaの最新スケジュール</a>
 - **ゆる旅**：直行便+JAL｜乗継なし｜到着の翌朝に島へ<br><a class="schedule-tag" href="https://www.jal.co.jp/jp/ja/inter/route/">JALの最新スケジュール</a>
-- **ラグ旅**：直行便+JAL｜乗継なし｜絶景ホテルで過ごす<br><a class="schedule-tag" href="https://www.jal.co.jp/jp/ja/inter/route/">JALの最新スケジュール</a>
+- **らぐ旅**：直行便+JAL｜乗継なし｜絶景ホテルで過ごす<br><a class="schedule-tag" href="https://www.jal.co.jp/jp/ja/inter/route/">JALの最新スケジュール</a>
 
 ## おすすめ旅程（やす旅向け／LCC利用・クアラルンプール経由・5泊6日の例）
 
@@ -96,7 +96,7 @@ excerpt: "バリ島からボートで30〜45分、断崖と青い海が広がる
 - 22:00頃　Grabカーでデンパサール空港へ
 - 00:35　デンパサール発（JAL＝ガルーダ・インドネシア航空運航の直行便、所要7時間15分）→ 08:50　成田着
 
-## おすすめ旅程（ラグ旅向け／直行便・3泊5日の例）
+## おすすめ旅程（らぐ旅向け／直行便・3泊5日の例）
 
 **1日目**
 - 11:00　成田発（JAL＝ガルーダ・インドネシア航空運航の直行便、所要7時間45分）
@@ -133,12 +133,12 @@ excerpt: "バリ島からボートで30〜45分、断崖と青い海が広がる
 
 - **[Segara Village Hotel](https://www.booking.com/searchresults.html?ss=Segara+Village+Hotel+Sanur)**：ビーチ沿いのコスパ重視ホテル（やす旅向け）
 - **[Prime Plaza Hotel Sanur](https://www.booking.com/searchresults.html?ss=Prime+Plaza+Hotel+Sanur)**：ボート乗り場に近いビーチサイドのホテル（ゆる旅向け）
-- **[Hyatt Regency Bali](https://www.booking.com/searchresults.html?ss=Hyatt+Regency+Bali)**：サヌールビーチ沿いの大型リゾート（ラグ旅向け）
+- **[Hyatt Regency Bali](https://www.booking.com/searchresults.html?ss=Hyatt+Regency+Bali)**：サヌールビーチ沿いの大型リゾート（らぐ旅向け）
 
 **ヌサペニダ島**
 
 - **[Semabu Hills Hotel](https://www.booking.com/searchresults.html?ss=Semabu+Hills+Hotel+Nusa+Penida)**：海を望む丘の上のインフィニティプールが人気（やす旅・ゆる旅向け）
-- **[Penida Bambu Green Suites](https://www.booking.com/searchresults.html?ss=Penida+Bambu+Green+Suites)**：竹造りのヴィラが並ぶ高級ホテル（ラグ旅向け）
+- **[Penida Bambu Green Suites](https://www.booking.com/searchresults.html?ss=Penida+Bambu+Green+Suites)**：竹造りのヴィラが並ぶ高級ホテル（らぐ旅向け）
 
 **クアラルンプール（経由地）**
 

@@ -11,9 +11,9 @@ excerpt: "バリ島から高速ボートで約1時間半、車もバイクも走
 
 ## 行き方
 
-- **飛行機**：日本からデンパサール（ングラライ国際空港）へは直行便が約7〜8時間。午前に日本を出て夕方に着く便を選ぶと、初日のうちにバリ東部へ移動できます。
+- **飛行機**：日本からデンパサール（ングラライ国際空港）へは直行便が約7〜8時間。たとえば成田発11:00の直行便（JAL＝ガルーダ・インドネシア航空運航）なら現地17:55着で、初日のうちにバリ東部へ移動できます。
 - **空港からパダンバイへ**：[Grabカー](/grab/)で約1時間半〜2時間。高速ボートの港があるパダンバイで前泊するのが安心です。
-- **高速ボート**：パダンバイからギリ・トラワンガン島へは朝の便で約1時間半。ホテルでの朝食後に乗れます<br><a class="schedule-tag" href="https://12go.asia/en/travel/padang-bai/gili-trawangan?z=17114820">12go.asiaで予約・最新スケジュール</a>
+- **高速ボート**：パダンバイからギリ・トラワンガン島へは8:00発の朝の便で約1時間半、9:30頃到着。ホテルでの朝食後に乗れます<br><a class="schedule-tag" href="https://12go.asia/en/travel/padang-bai/gili-trawangan?z=17114820">12go.asiaで予約・最新スケジュール</a>
 - 総移動時間は日本から島のホテルまで、直行便と車・ボートを合わせて13〜15時間ほどです。
 - **島内の移動**：島を一周しても約7km。自転車のレンタルか、馬車（シドモ）が基本です。
 
@@ -46,16 +46,16 @@ excerpt: "バリ島から高速ボートで約1時間半、車もバイクも走
 ## おすすめ旅程（やす旅向け／LCC利用・クアラルンプール経由・4泊6日の例）
 
 **1日目（機内泊）**
-- 夜　羽田発（AirAsia X、クアラルンプール行き）
+- 23:50　羽田発（AirAsia X D7523、クアラルンプール行き）
 
 **2日目**
-- 早朝　クアラルンプール着。乗継エリアで待機
-- 午前　クアラルンプール発（AirAsia）→ 昼　デンパサール着
-- 午後　[Grabカー](/grab/)でパダンバイへ移動し、[Topi Inn](https://www.booking.com/searchresults.html?ss=Topi+Inn+Padangbai)にチェックイン（港まで徒歩圏の宿）
+- 06:10　クアラルンプール着。乗継エリアで待機
+- 10:50　クアラルンプール発（AirAsia AK371）→ 13:55　デンパサール着
+- 16:00頃　[Grabカー](/grab/)でパダンバイへ移動し、[Topi Inn](https://www.booking.com/searchresults.html?ss=Topi+Inn+Padangbai)にチェックイン（港まで徒歩圏の宿）
 
 **3日目**
-- 朝　パダンバイから高速ボート（[12go.asiaで予約可](https://12go.asia/en/travel/padang-bai/gili-trawangan?z=17114820)）でギリ・トラワンガン島へ（約1時間半）
-- 昼　[Hotel Ombak Sunset](https://www.booking.com/searchresults.html?ss=Hotel+Ombak+Sunset+Gili+Trawangan)にチェックイン（コスパ重視のホテル）
+- 08:00　パダンバイから高速ボート（[12go.asiaで予約可](https://12go.asia/en/travel/padang-bai/gili-trawangan?z=17114820)）でギリ・トラワンガン島へ（約1時間半、9:30頃到着）
+- 午前中　[Hotel Ombak Sunset](https://www.booking.com/searchresults.html?ss=Hotel+Ombak+Sunset+Gili+Trawangan)にチェックイン（コスパ重視のホテル）
 - 夕方　西岸のサンセットポイントで夕日を眺める
 
 **4日目（終日フリー）**
@@ -65,23 +65,23 @@ excerpt: "バリ島から高速ボートで約1時間半、車もバイクも走
 
 **5日目**
 - 午前　ホテルでのんびり朝食
-- 午後　ボートでパダンバイへ戻る
-- 夕方　Grabカーでデンパサール空港へ
-- 夜　デンパサール発（AirAsia）→ クアラルンプール着。空港周辺の[Tune Hotel KLIA2](https://www.booking.com/searchresults.html?ss=Tune+Hotel+KLIA2)に1泊
+- 13:00　ボートでパダンバイへ戻り（約1時間半、14:30頃到着）
+- 15:00頃　Grabカーでデンパサール空港へ
+- 19:45　デンパサール発（AirAsia AK379）→ 22:50　クアラルンプール着。空港周辺の[Tune Hotel KLIA2](https://www.booking.com/searchresults.html?ss=Tune+Hotel+KLIA2)に1泊
 
 **6日目（帰国日）**
-- クアラルンプール発（AirAsia X）→ 羽田着
+- 14:10　クアラルンプール発（AirAsia X D7522）→ 22:00　羽田着
 
 ## おすすめ旅程（ゆる旅向け／直行便・3泊5日の例）
 
 **1日目**
-- 午前　成田発（JAL＝ガルーダ・インドネシア航空運航の直行便）
-- 夕方　デンパサール着。入国審査と荷物受取を終えたら[Grabカー](/grab/)でパダンバイへ
-- 夜　[Bloo Lagoon Eco Village](https://www.booking.com/searchresults.html?ss=Bloo+Lagoon+Eco+Village)にチェックイン（パダンバイの入り江沿いのヴィラ）
+- 11:00　成田発（JAL＝ガルーダ・インドネシア航空運航の直行便／GA881）
+- 18:55（現地17:55）　デンパサール着。入国審査と荷物受取を終えたら[Grabカー](/grab/)でパダンバイへ
+- 21:00頃　[Bloo Lagoon Eco Village](https://www.booking.com/searchresults.html?ss=Bloo+Lagoon+Eco+Village)にチェックイン（パダンバイの入り江沿いのヴィラ）
 
 **2日目**
-- 朝　パダンバイから高速ボート（[12go.asiaで予約可](https://12go.asia/en/travel/padang-bai/gili-trawangan?z=17114820)）でギリ・トラワンガン島へ（約1時間半）
-- 昼　[Vila Ombak](https://www.booking.com/searchresults.html?ss=Vila+Ombak+Gili+Trawangan)にチェックイン（ビーチ目の前でプールが2つあるホテル）
+- 08:00　パダンバイから高速ボート（[12go.asiaで予約可](https://12go.asia/en/travel/padang-bai/gili-trawangan?z=17114820)）でギリ・トラワンガン島へ（約1時間半、9:30頃到着）
+- 午前中　[Vila Ombak](https://www.booking.com/searchresults.html?ss=Vila+Ombak+Gili+Trawangan)にチェックイン（ビーチ目の前でプールが2つあるホテル）
 - 夕方　西岸のサンセットポイントで夕日を眺める
 
 **3日目（終日フリー）**
@@ -91,19 +91,19 @@ excerpt: "バリ島から高速ボートで約1時間半、車もバイクも走
 
 **4日目（帰国日）**
 - 午前　ホテルで朝食をとりのんびり過ごす
-- 午後　ボートでパダンバイへ戻り、Grabカーでデンパサール空港へ
-- 深夜　デンパサール発（JAL＝ガルーダ・インドネシア航空運航の直行便）→ 翌早朝　成田着
+- 13:00　ボートでパダンバイへ戻り（約1時間半、14:30頃到着）、Grabカーでデンパサール空港へ
+- 00:30　デンパサール発（JAL＝ガルーダ・インドネシア航空運航の直行便／GA880）→ 08:40　成田着
 
 ## おすすめ旅程（らぐ旅向け／直行便・3泊5日の例）
 
 **1日目**
-- 午前　成田発（JAL＝ガルーダ・インドネシア航空運航の直行便）
-- 夕方　デンパサール着。入国審査と荷物受取を終えたら[Grabカー](/grab/)でパダンバイへ
-- 夜　[Bloo Lagoon Eco Village](https://www.booking.com/searchresults.html?ss=Bloo+Lagoon+Eco+Village)にチェックイン（パダンバイの入り江沿いのヴィラ）
+- 11:00　成田発（JAL＝ガルーダ・インドネシア航空運航の直行便／GA881）
+- 18:55（現地17:55）　デンパサール着。入国審査と荷物受取を終えたら[Grabカー](/grab/)でパダンバイへ
+- 21:00頃　[Bloo Lagoon Eco Village](https://www.booking.com/searchresults.html?ss=Bloo+Lagoon+Eco+Village)にチェックイン（パダンバイの入り江沿いのヴィラ）
 
 **2日目**
-- 朝　パダンバイから高速ボート（[12go.asiaで予約可](https://12go.asia/en/travel/padang-bai/gili-trawangan?z=17114820)）でギリ・トラワンガン島へ（約1時間半）
-- 昼　[Pondok Santi Estate](https://www.booking.com/searchresults.html?ss=Pondok+Santi+Estate+Gili+Trawangan)にチェックイン（口コミ評価が高いラグジュアリーヴィラ）
+- 08:00　パダンバイから高速ボート（[12go.asiaで予約可](https://12go.asia/en/travel/padang-bai/gili-trawangan?z=17114820)）でギリ・トラワンガン島へ（約1時間半、9:30頃到着）
+- 午前中　[Pondok Santi Estate](https://www.booking.com/searchresults.html?ss=Pondok+Santi+Estate+Gili+Trawangan)にチェックイン（口コミ評価が高いラグジュアリーヴィラ）
 - 夕方　西岸のサンセットポイントで夕日を眺める
 
 **3日目（終日フリー）**
@@ -113,8 +113,8 @@ excerpt: "バリ島から高速ボートで約1時間半、車もバイクも走
 
 **4日目（帰国日）**
 - 午前　ヴィラで朝食をとりのんびり過ごす
-- 午後　ボートでパダンバイへ戻り、Grabカーでデンパサール空港へ
-- 深夜　デンパサール発（JAL＝ガルーダ・インドネシア航空運航の直行便）→ 翌早朝　成田着
+- 13:00　ボートでパダンバイへ戻り（約1時間半、14:30頃到着）、Grabカーでデンパサール空港へ
+- 00:30　デンパサール発（JAL＝ガルーダ・インドネシア航空運航の直行便／GA880）→ 08:40　成田着
 
 ## おすすめビーチ・スポット
 

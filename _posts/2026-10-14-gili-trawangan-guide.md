@@ -76,7 +76,7 @@ excerpt: "バリ島から高速ボートで約1時間半、車もバイクも走
 
 **1日目**
 - 11:00　成田発（JAL＝ガルーダ・インドネシア航空運航の直行便／GA881）
-- 18:55（現地17:55）　デンパサール着。入国審査と荷物受取を終えたら[Grabカー](/grab/)でパダンバイへ
+- 17:55　デンパサール着。入国審査と荷物受取を終えたら[Grabカー](/grab/)でパダンバイへ
 - 21:00頃　[Bloo Lagoon Eco Village](https://www.booking.com/searchresults.html?ss=Bloo+Lagoon+Eco+Village)にチェックイン（パダンバイの入り江沿いのヴィラ）
 
 **2日目**
@@ -98,7 +98,7 @@ excerpt: "バリ島から高速ボートで約1時間半、車もバイクも走
 
 **1日目**
 - 11:00　成田発（JAL＝ガルーダ・インドネシア航空運航の直行便／GA881）
-- 18:55（現地17:55）　デンパサール着。入国審査と荷物受取を終えたら[Grabカー](/grab/)でパダンバイへ
+- 17:55　デンパサール着。入国審査と荷物受取を終えたら[Grabカー](/grab/)でパダンバイへ
 - 21:00頃　[Bloo Lagoon Eco Village](https://www.booking.com/searchresults.html?ss=Bloo+Lagoon+Eco+Village)にチェックイン（パダンバイの入り江沿いのヴィラ）
 
 **2日目**

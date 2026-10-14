@@ -344,3 +344,30 @@ nusa-penida-guide:
     type: hotel
     url: "https://www.booking.com/searchresults.html?ss=Penida+Bambu+Green+Suites"
     letter: ら
+
+gili-trawangan-guide:
+  - name: サンセットポイント
+    lat: -8.3526
+    lng: 116.0288
+    desc: 島の西岸に面した夕日の名所、ブランコやビーチバーが並ぶ
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Sunset_at_Gili_Trawangan_%2816950551546%29.jpg/960px-Sunset_at_Gili_Trawangan_%2816950551546%29.jpg"
+  - name: タートルポイント
+    lat: -8.3523
+    lng: 116.0354
+    desc: 東岸の浅瀬、シュノーケリングでウミガメに出会える
+  - name: ギリ・トラワンガン港周辺
+    lat: -8.3484
+    lng: 116.0385
+    desc: 高速ボートが着くメインビーチ沿いのにぎやかなエリア
+  - name: パダンバイ港
+    lat: -8.5305
+    lng: 115.5105
+    desc: バリ島側の高速ボート乗り場、前泊に便利な小さな港町
+    type: port
+    letter: "⚓︎"
+  - name: デンパサール（ングラライ）国際空港
+    lat: -8.7469933
+    lng: 115.1681655
+    desc: 日本からの発着空港
+    type: airport
+    letter: "✈︎"

@@ -427,3 +427,28 @@
   best_months: [5, 6, 9]
   url: /2026/10/12/nusa-penida-guide/
   tags: { beach: 4, resort: 3, island: 5, city_base: 1, sightseeing: 5, relax: 3, party: 2, activity: 5 }
+
+- name: ギリ・トラワンガン島
+  en_name: "Gili Trawangan, Indonesia"
+  slug: gili-trawangan-guide
+  country: インドネシア
+  country_slug: indonesia
+  lat: -8.3505
+  lng: 116.0390
+  flight_min: 57000
+  flight_max: 165000
+  hotel_min: 3500
+  hotel_max: 35000
+  transport_min: 8000
+  transport_max: 15000
+  food_min: 2500
+  food_max: 7000
+  flight_hours: "約7〜8時間（デンパサール直行便）、パダンバイから高速ボートで約1時間半"
+  recommended_nights: "3泊以上"
+  visa: "不要（30日以内）"
+  photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Sunset_at_Gili_Trawangan_%2816950551546%29.jpg/960px-Sunset_at_Gili_Trawangan_%2816950551546%29.jpg"
+  photo_credit_url: "https://commons.wikimedia.org/wiki/File:Sunset_at_Gili_Trawangan_(16950551546).jpg"
+  suited_for: [couple, friends, solo]
+  best_months: [5, 6, 9]
+  url: /2026/10/14/gili-trawangan-guide/
+  tags: { beach: 4, resort: 3, island: 5, city_base: 2, sightseeing: 2, relax: 5, party: 4, activity: 4 }

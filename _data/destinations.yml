@@ -452,3 +452,53 @@
   best_months: [5, 6, 9]
   url: /2026/10/14/gili-trawangan-guide/
   tags: { beach: 4, resort: 3, island: 5, city_base: 2, sightseeing: 2, relax: 5, party: 4, activity: 4 }
+
+- name: セブ島
+  en_name: "Cebu, Philippines"
+  slug: cebu-guide
+  country: フィリピン
+  country_slug: philippines
+  lat: 10.3157
+  lng: 123.8854
+  flight_min: 40000
+  flight_max: 140000
+  hotel_min: 2000
+  hotel_max: 40000
+  transport_min: 1500
+  transport_max: 4000
+  food_min: 3000
+  food_max: 6000
+  flight_hours: "約5時間（成田・関西直行便）"
+  recommended_nights: "3泊以上"
+  visa: "不要（30日以内）"
+  photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Mactan-beach.jpg/960px-Mactan-beach.jpg"
+  photo_credit_url: "https://commons.wikimedia.org/wiki/File:Mactan-beach.jpg"
+  suited_for: [couple, family, friends, solo]
+  best_months: [1, 2, 3]
+  url: /2026/10/15/cebu-guide/
+  tags: { beach: 5, resort: 4, island: 3, city_base: 3, sightseeing: 3, relax: 4, party: 3, activity: 5 }
+
+- name: コロン島（パラワン州）
+  en_name: "Coron, Palawan, Philippines"
+  slug: coron-guide
+  country: フィリピン
+  country_slug: philippines
+  lat: 11.9951
+  lng: 120.2010
+  flight_min: 50000
+  flight_max: 160000
+  hotel_min: 2000
+  hotel_max: 40000
+  transport_min: 3000
+  transport_max: 8000
+  food_min: 3000
+  food_max: 6000
+  flight_hours: "約5時間（成田-マニラ直行便）、マニラからコロンへ国内線で約1時間（マニラ1泊推奨）"
+  recommended_nights: "4泊以上"
+  visa: "不要（30日以内）"
+  photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Kayangan_Lake%2C_Coron%2C_Palawan.jpg/960px-Kayangan_Lake%2C_Coron%2C_Palawan.jpg"
+  photo_credit_url: "https://commons.wikimedia.org/wiki/File:Kayangan_Lake,_Coron,_Palawan.jpg"
+  suited_for: [couple, friends, solo]
+  best_months: [1, 2, 3]
+  url: /2026/10/15/coron-guide/
+  tags: { beach: 3, resort: 3, island: 5, city_base: 1, sightseeing: 4, relax: 3, party: 1, activity: 5 }

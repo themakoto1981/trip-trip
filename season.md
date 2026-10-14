@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 季節で探す
+title: 月から探す
 permalink: /season/
 ---
 
@@ -169,7 +169,7 @@ permalink: /season/
   .season-dot { color: var(--sb-green); font-weight: 700; }
 </style>
 
-<p class="season-intro">月を選ぶとベストシーズンの行き先が上に表示されます。タグを2つ選べば、その組み合わせに合う順に並び替わります。</p>
+<p class="season-intro">月を選ぶとベストシーズンの行き先が上に表示されます。タグを選べば（1つでも2つでも）、合う順に並び替わります。</p>
 
 <div class="month-picker" id="seasonMonthPicker"></div>
 
@@ -243,7 +243,7 @@ permalink: /season/
   }
 
   function renderCards() {
-    var hasTags = selectedTags.length === 2;
+    var hasTags = selectedTags.length >= 1;
 
     var withScores = destinations.map(function (d) {
       var months = d.best_months || [];
@@ -261,7 +261,8 @@ permalink: /season/
     var matchCount = withScores.filter(function (x) { return x.isMonthMatch; }).length;
     var summary = selectedMonth + '月がベストシーズンの行き先：<strong>' + matchCount + '件</strong>（全' + destinations.length + '件中）';
     if (hasTags) {
-      summary += '　・　条件：<strong>' + tagLabels[selectedTags[0]] + ' × ' + tagLabels[selectedTags[1]] + '</strong>で並び替え';
+      var tagNames = selectedTags.map(function (t) { return tagLabels[t]; });
+      summary += '　・　条件：<strong>' + tagNames.join(' × ') + '</strong>で並び替え';
     }
     resultSummary.innerHTML = summary;
 
@@ -292,7 +293,7 @@ permalink: /season/
       if (hasTags) {
         var scoreBadge = document.createElement('span');
         scoreBadge.className = 'season-card-badge score';
-        scoreBadge.textContent = '相性 ' + item.tagScore + '/10';
+        scoreBadge.textContent = '相性 ' + item.tagScore + '/' + (selectedTags.length * 5);
         badges.appendChild(scoreBadge);
       }
       top.appendChild(badges);

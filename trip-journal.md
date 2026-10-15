@@ -1012,7 +1012,16 @@ robots: noindex
       }).then(function () {
         document.getElementById('tjMediaFile').value = '';
       }).catch(function (e) {
-        errEl.textContent = 'アップロードに失敗しました: ' + e.message;
+        var u = auth.currentUser;
+        var debugInfo = '[debug] auth.currentUser=' + (u ? (u.uid + '/' + u.email) : 'null');
+        errEl.textContent = 'アップロードに失敗しました: ' + e.message + '　' + debugInfo;
+        if (u) {
+          u.getIdToken(true).then(function (token) {
+            errEl.textContent += '　[token取得OK、長さ' + token.length + ']';
+          }).catch(function (tokenErr) {
+            errEl.textContent += '　[token取得エラー: ' + tokenErr.message + ']';
+          });
+        }
       });
     };
     if (isVideo) {

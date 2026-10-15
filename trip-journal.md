@@ -1015,16 +1015,24 @@ robots: noindex
       }).then(function () {
         document.getElementById('tjMediaFile').value = '';
       }).catch(function (e) {
-        var extra = ' [code=' + e.code + ']';
+        var extra = '';
         try {
-          if (e.customData && e.customData.serverResponse) {
-            extra += ' [server=' + e.customData.serverResponse + ']';
-          } else if (e.serverResponse) {
-            extra += ' [server=' + e.serverResponse + ']';
-          }
-          if (e.status_ !== undefined) extra += ' [status=' + e.status_ + ']';
+          var dump = {};
+          Object.getOwnPropertyNames(e).forEach(function (k) {
+            try {
+              var v = e[k];
+              if (typeof v === 'object' && v !== null) {
+                dump[k] = JSON.stringify(v);
+              } else {
+                dump[k] = String(v);
+              }
+            } catch (ie) {
+              dump[k] = '[読取不可]';
+            }
+          });
+          extra = ' [' + JSON.stringify(dump) + ']';
         } catch (x) {
-          extra += ' [extra読取エラー: ' + x.message + ']';
+          extra = ' [dump読取エラー: ' + x.message + ']';
         }
         errEl.textContent = 'アップロードに失敗しました: ' + e.message + extra;
       });

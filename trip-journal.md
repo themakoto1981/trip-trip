@@ -1015,7 +1015,18 @@ robots: noindex
       }).then(function () {
         document.getElementById('tjMediaFile').value = '';
       }).catch(function (e) {
-        errEl.textContent = 'アップロードに失敗しました: ' + e.message;
+        var extra = ' [code=' + e.code + ']';
+        try {
+          if (e.customData && e.customData.serverResponse) {
+            extra += ' [server=' + e.customData.serverResponse + ']';
+          } else if (e.serverResponse) {
+            extra += ' [server=' + e.serverResponse + ']';
+          }
+          if (e.status_ !== undefined) extra += ' [status=' + e.status_ + ']';
+        } catch (x) {
+          extra += ' [extra読取エラー: ' + x.message + ']';
+        }
+        errEl.textContent = 'アップロードに失敗しました: ' + e.message + extra;
       });
     };
     if (isVideo) {

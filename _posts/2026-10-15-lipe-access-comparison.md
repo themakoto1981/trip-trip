@@ -2,7 +2,7 @@
 layout: post
 title: "徹底比較｜結局リペ島はどっちから行くのが楽？タイ経由×マレーシア経由"
 date: 2026-10-15
-image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Koh_Lipe_Thailand._Koh_Lipe_Beach_Resort%2C_Koh_Lipe_Island_01.jpg/960px-Koh_Lipe_Thailand._Koh_Lipe_Beach_Resort%2C_Koh_Lipe_Island_01.jpg"
+image: "/assets/images/koh-lipe-speedboats.jpg"
 categories: [タイ, マレーシア, 徹底比較]
 excerpt: "タイの島なのに、実はマレーシアのランカウイ島からも行けるリペ島。バンコク経由とランカウイ経由、どちらが楽なのかをルートごとに比較しました。"
 exclude_from_adjacent_nav: true

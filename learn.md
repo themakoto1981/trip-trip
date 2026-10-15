@@ -171,3 +171,29 @@
 **直し方**：行き方セクションの説明を残し、ホテル欄の繰り返しは削除。記事末尾の締めの文は、同じ事実を繰り返すのではなく「ボートツアーが天候で欠航しうる」など別の新しい情報に差し替えた。
 
 **教訓**：複数の記事をテンプレート的に量産すると（特に今回のように似た構造の行き先を立て続けに書くと）、同じ注意書きを複数セクションにコピー&ペーストしてしまいやすい。公開前チェックリストに「記事内で同じ事実を複数箇所で説明していないか」の項目を追加した。1本だけでなく、同時期に似た構造で作った記事は横断でもチェックすること。
+
+---
+
+## 2026-10-15: Firebase Storageの`storage/unauthorized`エラー（trip-journal.mdの写真アップロード機能）
+
+このリポジトリ内の別ツール（`/trips/j8k2m9x4qz/`、Firebase Storageを使う私用の旅程共有ページ）の話だが、Firebase Storageルールのデバッグとして汎用的な教訓なので記録する。
+
+**何が起きたか**：写真アップロードが毎回`Firebase Storage: User does not have permission to access ... (storage/unauthorized)`で失敗していた。最初`allow write: if request.auth != null && request.resource.size < 30MB`というルールが原因と判明——`uploadBytes()`はJS SDK内部的にレジューム可能アップロードのプロトコルを使っており、アップロード開始直後の最初のリクエストには`request.resource`にサイズ情報がまだ無く、`request.resource.size`への参照自体がルール評価エラーになり、それが「拒否」として扱われていた。
+
+一度目の修正（`!('size' in request.resource) || ...`）はルールプレイグラウンドのシミュレーターでは成功したが、実際のアップロードでは直らなかった。原因は`request.resource`自体がnull/undefinedの場合、`'size' in request.resource`という式そのものがエラーになっていたため（存在しないオブジェクトのプロパティを`in`で調べようとしていた）。
+
+**直し方**：Firebase公式が推奨する、より安全な書き方に変更した。
+```
+allow read, write: if request.auth != null
+  && (request.resource == null || request.resource.size < 30 * 1024 * 1024);
+```
+`request.resource`自体がnullかどうかを先にチェックしてから`.size`にアクセスする順序にすることで、どのフェーズでもエラーにならない。
+
+**教訓1（ルールの書き方）**：Firebase Storageルールでファイルサイズ条件を書く時は、`'size' in request.resource`ではなく`request.resource == null || request.resource.size < X`の形にすること。前者は`request.resource`自体が存在しない場面でエラーになる。
+
+**教訓2（ブラウザ自動操作）**：FirebaseコンソールのルールエディタはCodeMirror製で、このセッションでは通常のキーボード操作（Cmd+A、Backspace、矢印キーでの選択拡張）が一切効かなかった。一方で以下は機能した：
+- 単純な1回のクリック（`click_at_xy`）でのフォーカス移動は機能する
+- `type_text()`での文字入力（挿入）は機能する
+- 全選択は、JSで直接`Range.selectNodeContents()` + `window.getSelection().addRange()`を使い、その状態で`type_text()`を呼ぶと、選択範囲を正しく上書きしてくれる（キーボードでの選択操作より確実）
+- 複数行のテキストを`type_text()`に渡す際、1回の呼び出しで全文を渡すこと。2回に分けて呼ぶと、2回目の入力がカーソル位置0（先頭）に挿入されてしまうことがあった（原因不明、再現性のある挙動として記録）
+- 「公開」ボタン（MDC Raised Button）は、`click_at_xy`・JSの`.click()`・`dispatchEvent`でのmousedown/mouseup/click・CDPの`Input.dispatchMouseEvent`、どれを試しても反応しなかった。最終的にユーザー本人にボタンを押してもらって解決した。このボタンだけ反応しない原因は特定できていない（未確認）。同じ症状が再発したら、同様に最後の一押しだけユーザーに依頼するのが現実的。

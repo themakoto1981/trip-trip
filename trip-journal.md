@@ -1002,7 +1002,10 @@ robots: noindex
       var ext = file.name.split('.').pop();
       var path = 'trips/' + TRIP_ID + '/media/day' + mediaDayIndex + '_' + postedBy + '_' + Date.now() + '.' + ext;
       var sref = ref(storage, path);
-      uploadBytes(sref, file).then(function () {
+      var tokenRefresh = auth.currentUser ? auth.currentUser.getIdToken(true) : Promise.resolve();
+      tokenRefresh.then(function () {
+        return uploadBytes(sref, file);
+      }).then(function () {
         return getDownloadURL(sref);
       }).then(function (url) {
         return addDoc(collection(db, 'trips', TRIP_ID, 'media'), {
@@ -1012,16 +1015,7 @@ robots: noindex
       }).then(function () {
         document.getElementById('tjMediaFile').value = '';
       }).catch(function (e) {
-        var u = auth.currentUser;
-        var debugInfo = '[debug] auth.currentUser=' + (u ? (u.uid + '/' + u.email) : 'null');
-        errEl.textContent = 'アップロードに失敗しました: ' + e.message + '　' + debugInfo;
-        if (u) {
-          u.getIdToken(true).then(function (token) {
-            errEl.textContent += '　[token取得OK、長さ' + token.length + ']';
-          }).catch(function (tokenErr) {
-            errEl.textContent += '　[token取得エラー: ' + tokenErr.message + ']';
-          });
-        }
+        errEl.textContent = 'アップロードに失敗しました: ' + e.message;
       });
     };
     if (isVideo) {

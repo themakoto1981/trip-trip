@@ -8,7 +8,7 @@ excerpt: "タイの島なのに、実はマレーシアのランカウイ島か�
 exclude_from_adjacent_nav: true
 ---
 
-**リペ島はタイの島ですが、行き方は2通りあります。** 1つはタイ国内を南下するオーソドックスなルート、もう1つは国境を挟んだお隣マレーシアの**ランカウイ島**から船で渡るルートです。どちらが楽なのか、ルートごとに比較しました。
+**リペ島はタイの島ですが、行き方は2通りあります。** 1つはタイ国内を南下するオーソドックスなルート、もう1つは国境を挟んだお隣マレーシアの[**ランカウイ島**](/2026/09/28/langkawi-guide/)から船で渡るルートです。どちらが楽なのか、ルートごとに比較しました。
 
 <div>
 <a class="experience-card" href="/2026/09/30/koh-lipe-guide/">
@@ -16,6 +16,16 @@ exclude_from_adjacent_nav: true
   <div class="experience-card-body">
     <span class="experience-card-label">行き方・予算まとめ</span>
     <span class="experience-card-title">リペ島ビーチ完全ガイド｜行き方・ベストシーズン・予算・持ち物まとめ</span>
+  </div>
+</a>
+</div>
+
+<div>
+<a class="experience-card" href="/2026/09/28/langkawi-guide/">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Pantai_Cenang%2C_Langkawi_01.jpg/960px-Pantai_Cenang%2C_Langkawi_01.jpg" alt="ランカウイ島ビーチ完全ガイド">
+  <div class="experience-card-body">
+    <span class="experience-card-label">行き方・予算まとめ</span>
+    <span class="experience-card-title">ランカウイ島ビーチ完全ガイド｜行き方・ベストシーズン・予算・持ち物まとめ</span>
   </div>
 </a>
 </div>

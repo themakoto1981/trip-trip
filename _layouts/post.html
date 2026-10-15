@@ -486,9 +486,15 @@ layout: default
     <h3>{{ country }}の記事</h3>
     <div class="related-list">
       {%- for p in related -%}
+      {%- assign p_title_parts = p.title | split: "｜" -%}
+      {%- if p_title_parts[0] == "徹底比較" and p_title_parts.size > 1 -%}
+        {%- assign p_card_title = p_title_parts[1] -%}
+      {%- else -%}
+        {%- assign p_card_title = p_title_parts[0] -%}
+      {%- endif -%}
       <a class="related-card" href="{{ p.url | relative_url }}">
-        {%- if p.image -%}<img src="{{ p.image }}" alt="{{ p.title | split: "｜" | first | escape }}" loading="lazy">{%- endif -%}
-        <span class="related-card-title">{{ p.title | split: "｜" | first }}</span>
+        {%- if p.image -%}<img src="{{ p.image }}" alt="{{ p_card_title | escape }}" loading="lazy">{%- endif -%}
+        <span class="related-card-title">{{ p_card_title }}</span>
       </a>
       {%- endfor -%}
     </div>
@@ -514,15 +520,27 @@ layout: default
   {%- if filtered_previous or filtered_next -%}
   <nav class="post-adjacent">
     {%- if filtered_previous -%}
+    {%- assign prev_title_parts = filtered_previous.title | split: "｜" -%}
+    {%- if prev_title_parts[0] == "徹底比較" and prev_title_parts.size > 1 -%}
+      {%- assign prev_card_title = prev_title_parts[1] -%}
+    {%- else -%}
+      {%- assign prev_card_title = prev_title_parts[0] -%}
+    {%- endif -%}
     <a class="post-adjacent-link prev" href="{{ filtered_previous.url | relative_url }}">
       <span class="post-adjacent-label">前の記事</span>
-      <span class="post-adjacent-title">{{ filtered_previous.title | split: "｜" | first }}</span>
+      <span class="post-adjacent-title">{{ prev_card_title }}</span>
     </a>
     {%- endif -%}
     {%- if filtered_next -%}
+    {%- assign next_title_parts = filtered_next.title | split: "｜" -%}
+    {%- if next_title_parts[0] == "徹底比較" and next_title_parts.size > 1 -%}
+      {%- assign next_card_title = next_title_parts[1] -%}
+    {%- else -%}
+      {%- assign next_card_title = next_title_parts[0] -%}
+    {%- endif -%}
     <a class="post-adjacent-link next" href="{{ filtered_next.url | relative_url }}">
       <span class="post-adjacent-label">次の記事</span>
-      <span class="post-adjacent-title">{{ filtered_next.title | split: "｜" | first }}</span>
+      <span class="post-adjacent-title">{{ next_card_title }}</span>
     </a>
     {%- endif -%}
   </nav>

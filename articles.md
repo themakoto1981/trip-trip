@@ -56,6 +56,12 @@ permalink: /articles/
 
 <div class="articles-grid">
   {%- for post in site.posts -%}
+  {%- assign ac_title_parts = post.title | split: "｜" -%}
+  {%- if ac_title_parts[0] == "徹底比較" and ac_title_parts.size > 1 -%}
+    {%- assign ac_card_title = ac_title_parts[1] -%}
+  {%- else -%}
+    {%- assign ac_card_title = ac_title_parts[0] -%}
+  {%- endif -%}
   <a class="article-card" href="{{ post.url | relative_url }}">
     <img class="article-card-img" src="{{ post.image }}" alt="{{ post.title | escape }}" loading="lazy">
     <div class="article-card-body">
@@ -65,7 +71,7 @@ permalink: /articles/
         <span class="article-card-category">{{ post.categories.first }}</span>
         {%- endif -%}
       </div>
-      <div class="article-card-title">{{ post.title | split: "｜" | first }}</div>
+      <div class="article-card-title">{{ ac_card_title }}</div>
       <div class="article-card-excerpt">{{ post.excerpt | strip_html }}</div>
     </div>
   </a>

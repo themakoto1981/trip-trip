@@ -89,6 +89,16 @@ robots: noindex
   .tj-mini-check span { flex: 1; min-width: 0; }
   .tj-mini-check.tj-done span { text-decoration: line-through; color: var(--sb-brown-soft); }
   .tj-mini-check-by { font-size: 0.66rem; color: var(--sb-brown-soft); flex-shrink: 0; }
+
+  /* spots */
+  #tjSpotSearchBox { margin-bottom: 0.5rem; }
+  #tjSpotSearchBox gmp-place-autocomplete { width: 100%; }
+  #tjSpotMap { width: 100%; height: 220px; border-radius: 10px; overflow: hidden; margin-bottom: 0.5rem; background: var(--sb-cream); }
+  .tj-spot-item { position: relative; padding: 0.5rem 1.8rem 0.5rem 0; border-top: 1px solid var(--sb-border); }
+  .tj-spot-item:first-child { border-top: none; }
+  .tj-spot-name a { font-size: 0.85rem; font-weight: 700; color: var(--sb-green-dark); text-decoration: none; }
+  .tj-spot-addr { font-size: 0.72rem; color: var(--sb-brown-soft); margin-top: 0.1rem; }
+  .tj-spot-item .tj-item-del { position: absolute; top: 0.4rem; right: 0; }
   .tj-mini-check-del { border: none; background: none; color: var(--sb-brown-soft); font-size: 0.7rem; flex-shrink: 0; }
   .tj-check-add-row { display: flex; gap: 0.4rem; margin-top: 0.5rem; }
   .tj-check-add-row input { flex: 1; padding: 0.45rem 0.6rem; border: 1px solid var(--sb-border); border-radius: 8px; font-family: inherit; font-size: 0.8rem; min-width: 0; }
@@ -310,6 +320,15 @@ robots: noindex
 
         <div class="tj-card">
           <div class="tj-card-title-row">
+            <div class="tj-card-title">行きたい場所</div>
+          </div>
+          <div id="tjSpotSearchBox"></div>
+          <div id="tjSpotMap"></div>
+          <div id="tjSpotList"></div>
+        </div>
+
+        <div class="tj-card">
+          <div class="tj-card-title-row">
             <div class="tj-card-title">コスト</div>
             <button type="button" class="tj-plus-link" id="tjCostAddToggle">＋</button>
           </div>
@@ -393,6 +412,10 @@ robots: noindex
   var unsubCosts = null;
   var unsubMedia = null;
   var unsubChecklist = null;
+  var unsubSpots = null;
+  var spotMap = null;
+  var spotMarkers = {};
+  var spotsInited = false;
   var setupParticipants = [];
   var weekItemsByDay = {};
   var weekHotelByDay = {};
@@ -536,6 +559,7 @@ robots: noindex
     renderCostParticipantChecks();
     watchCosts();
     watchMedia();
+    initSpots();
   }
 
   function dayCount() {
@@ -848,6 +872,93 @@ robots: noindex
       text: text, done: false, postedBy: document.getElementById('tjAsSelect').value, createdAt: serverTimestamp()
     }).then(function () { input.value = ''; });
   });
+
+  // ---------- SPOTS (行きたい場所, Google Maps) ----------
+  var GOOGLE_MAPS_API_KEY = 'AIzaSyCQd0WmNOB9Xz5Km4xwmAxV3v8Y5pwHIuo';
+  function loadGoogleMaps() {
+    if (window.google && window.google.maps) { return Promise.resolve(); }
+    if (!loadGoogleMaps._p) {
+      loadGoogleMaps._p = new Promise(function (resolve, reject) {
+        var s = document.createElement('script');
+        s.src = 'https://maps.googleapis.com/maps/api/js?key=' + GOOGLE_MAPS_API_KEY + '&libraries=places&loading=async';
+        s.async = true;
+        s.onload = resolve;
+        s.onerror = function () { reject(new Error('Google Mapsの読み込みに失敗しました')); };
+        document.head.appendChild(s);
+      });
+    }
+    return loadGoogleMaps._p;
+  }
+
+  function mountSpotAutocomplete() {
+    var box = document.getElementById('tjSpotSearchBox');
+    box.innerHTML = '';
+    var pae = new google.maps.places.PlaceAutocompleteElement();
+    box.appendChild(pae);
+    pae.addEventListener('gmp-select', function (ev) {
+      var place = ev.placePrediction.toPlace();
+      place.fetchFields({ fields: ['displayName', 'formattedAddress', 'location', 'id'] }).then(function () {
+        addDoc(collection(db, 'trips', TRIP_ID, 'spots'), {
+          name: place.displayName || '',
+          address: place.formattedAddress || '',
+          lat: place.location.lat(),
+          lng: place.location.lng(),
+          placeId: place.id || '',
+          postedBy: document.getElementById('tjAsSelect').value,
+          createdAt: serverTimestamp()
+        }).then(function () { mountSpotAutocomplete(); });
+      });
+    });
+  }
+
+  function watchSpots() {
+    var q = query(collection(db, 'trips', TRIP_ID, 'spots'), orderBy('createdAt', 'desc'));
+    unsubSpots = onSnapshot(q, function (snap) {
+      Object.keys(spotMarkers).forEach(function (id) { spotMarkers[id].setMap(null); });
+      spotMarkers = {};
+      var listEl = document.getElementById('tjSpotList');
+      if (snap.empty) {
+        listEl.innerHTML = '<div class="tj-empty">まだありません</div>';
+        return;
+      }
+      var bounds = new google.maps.LatLngBounds();
+      var html = '';
+      snap.forEach(function (docSnap) {
+        var d = docSnap.data();
+        var pos = { lat: d.lat, lng: d.lng };
+        var marker = new google.maps.Marker({ position: pos, map: spotMap, title: d.name || '' });
+        spotMarkers[docSnap.id] = marker;
+        bounds.extend(pos);
+        var mapsUrl = 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(d.lat + ',' + d.lng) +
+          (d.placeId ? '&query_place_id=' + encodeURIComponent(d.placeId) : '');
+        html += '<div class="tj-spot-item">';
+        html += '<div class="tj-spot-name"><a href="' + mapsUrl + '" target="_blank" rel="noopener">' + escapeHtml(d.name || '') + '</a></div>';
+        html += '<div class="tj-spot-addr">' + escapeHtml(d.address || '') + '</div>';
+        html += '<button class="tj-item-del" data-spot-del="' + docSnap.id + '">×</button>';
+        html += '</div>';
+      });
+      listEl.innerHTML = html;
+      if (!bounds.isEmpty()) { spotMap.fitBounds(bounds); }
+    });
+  }
+  document.getElementById('tjSpotList').addEventListener('click', function (e) {
+    var delId = e.target.getAttribute('data-spot-del');
+    if (delId) { deleteDoc(doc(db, 'trips', TRIP_ID, 'spots', delId)); }
+  });
+
+  function initSpots() {
+    if (spotsInited) return;
+    spotsInited = true;
+    loadGoogleMaps().then(function () {
+      spotMap = new google.maps.Map(document.getElementById('tjSpotMap'), {
+        center: { lat: 35.681236, lng: 139.767125 }, zoom: 10
+      });
+      mountSpotAutocomplete();
+      watchSpots();
+    }).catch(function (e) {
+      document.getElementById('tjSpotList').innerHTML = '<div class="tj-empty">' + escapeHtml(e.message) + '</div>';
+    });
+  }
 
   // ---------- COST ----------
   function renderCostPaidBy() {

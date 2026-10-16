@@ -142,7 +142,7 @@ robots: noindex
   }
   .tj-media-grid .tj-empty { padding: 1rem; }
   .tj-media-grid { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch; }
-  .tj-media-cell { position: relative; flex: 0 0 100%; scroll-snap-align: start; aspect-ratio: 1 / 1; overflow: hidden; }
+  .tj-media-cell { position: relative; flex: 0 0 100%; scroll-snap-align: start; aspect-ratio: 2 / 1; overflow: hidden; }
   .tj-media-cell img, .tj-media-cell video { width: 100%; height: 100%; object-fit: cover; display: block; }
   .tj-media-badge {
     position: absolute; bottom: 0.5rem; left: 0.5rem; background: rgba(17,32,27,0.65); color: #fff;

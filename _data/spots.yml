@@ -17,6 +17,27 @@ boracay-guide:
     lng: 121.9020
     desc: アイランドホッピングツアーの定番スポット
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Boracay_Crystal_Cove_Island.jpg/960px-Boracay_Crystal_Cove_Island.jpg"
+  - name: "Boracay Backpackers"
+    lat: 11.9644251
+    lng: 121.9241533
+    desc: "ステーション2近くのホステル、やす旅向け"
+    type: hotel
+    letter: "や"
+    url: "https://www.booking.com/searchresults.html?ss=Boracay+Backpackers"
+  - name: "Le Soleil de Boracay Hotel"
+    lat: 11.961494
+    lng: 121.924553
+    desc: "ステーション2のビーチフロント、ゆる旅向けの高コスパ4つ星"
+    type: hotel
+    letter: "ゆ"
+    url: "https://www.booking.com/searchresults.html?ss=Le+Soleil+de+Boracay"
+  - name: "Shangri-La Boracay Resort"
+    lat: 11.9870336
+    lng: 121.9072287
+    desc: "プライベートビーチを持つ、らぐ旅向けの島内屈指のラグジュアリーリゾート"
+    type: hotel
+    letter: "ら"
+    url: "https://www.booking.com/searchresults.html?ss=Shangri-La+Boracay+Resort"
 
 phuket-guide:
   - name: パトンビーチ
@@ -44,6 +65,27 @@ phuket-guide:
     lng: 98.3923
     desc: 中国様式の古い街並みが残るエリア。土日開催のナイトマーケット（サンデーマーケット）が人気
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Sino-Portugese_Buildings_in_Phuket_Town_%28III%29.jpg/960px-Sino-Portugese_Buildings_in_Phuket_Town_%28III%29.jpg"
+  - name: "C&N Hotel Patong"
+    lat: 7.8806226
+    lng: 98.2943009
+    desc: "街歩きに便利な好立地、やす旅向けの格安ホテル"
+    type: hotel
+    letter: "や"
+    url: "https://www.booking.com/searchresults.html?ss=C%26N+Hotel+Patong"
+  - name: "The Crib Patong"
+    lat: 7.8920134
+    lng: 98.301573
+    desc: "おしゃれなブティックホテル、ゆる旅向け"
+    type: hotel
+    letter: "ゆ"
+    url: "https://www.booking.com/searchresults.html?ss=The+Crib+Patong"
+  - name: "Diamond Cliff Resort and Spa"
+    lat: 7.9092336
+    lng: 98.2977152
+    desc: "パトンビーチ徒歩10分、らぐ旅向けの好立地リゾート"
+    type: hotel
+    letter: "ら"
+    url: "https://www.booking.com/searchresults.html?ss=Diamond+Cliff+Resort+and+Spa+Phuket"
 
 langkawi-guide:
   - name: パンタイ・チェナン
@@ -66,6 +108,27 @@ langkawi-guide:
     lng: 99.6675
     desc: ジャングルの中を流れる7段の滝で、天然のプールを泳げる
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Seven_Wells_Waterfall_Langkawi.jpg/960px-Seven_Wells_Waterfall_Langkawi.jpg"
+  - name: "Casa del Mar Langkawi"
+    lat: 6.2966781
+    lng: 99.7226666
+    desc: "パンタイ・チェナンの便利な立地、やす旅向けの高コスパホテル"
+    type: hotel
+    letter: "や"
+    url: "https://www.booking.com/searchresults.html?ss=Casa+del+Mar+Langkawi"
+  - name: "Holiday Villa Beach Resort & Spa Langkawi"
+    lat: 6.2738287
+    lng: 99.7329462
+    desc: "ビーチフロント、ゆる旅向けの4つ星リゾート"
+    type: hotel
+    letter: "ゆ"
+    url: "https://www.booking.com/searchresults.html?ss=Holiday+Villa+Beach+Resort+%26+Spa+Langkawi"
+  - name: "Pelangi Beach Resort & Spa Langkawi"
+    lat: 6.2993042
+    lng: 99.7216732
+    desc: "パンタイ・チェナンの白砂に立つ、らぐ旅向けのカジュアル5つ星"
+    type: hotel
+    letter: "ら"
+    url: "https://www.booking.com/searchresults.html?ss=Pelangi+Beach+Resort+%26+Spa+Langkawi"
 
 bali-guide:
   - name: クタビーチ
@@ -88,6 +151,27 @@ bali-guide:
     lng: 115.5444
     desc: 日帰りボートツアーで行ける絶景の離島
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Kelingking_Beach_%28T-Rex_Bay%29_of_Nusa_Penida%2C_Bali_%282025%29_-_img_02.jpg/960px-Kelingking_Beach_%28T-Rex_Bay%29_of_Nusa_Penida%2C_Bali_%282025%29_-_img_02.jpg"
+  - name: "Fave Hotel Kuta Kartika Plaza"
+    lat: -8.7302765
+    lng: 115.1677573
+    desc: "クタ中心部、コスパ重視のやす旅向けホテル"
+    type: hotel
+    letter: "や"
+    url: "https://www.booking.com/searchresults.html?ss=Fave+Hotel+Kuta+Kartika+Plaza"
+  - name: "Ramayana Suites & Resort"
+    lat: -8.7247654
+    lng: 115.171703
+    desc: "クタビーチ徒歩圏内、ゆる旅向けの快適リゾート"
+    type: hotel
+    letter: "ゆ"
+    url: "https://www.booking.com/searchresults.html?ss=Ramayana+Suites+%26+Resort+Bali"
+  - name: "Sheraton Bali Kuta Resort"
+    lat: -8.7185098
+    lng: 115.1691262
+    desc: "ビーチ直結の5つ星、らぐ旅向けの夕日スポット"
+    type: hotel
+    letter: "ら"
+    url: "https://www.booking.com/searchresults.html?ss=Sheraton+Bali+Kuta+Resort"
 
 koh-lipe-guide:
   - name: パッタヤビーチ
@@ -110,6 +194,27 @@ koh-lipe-guide:
     lng: 99.2740
     desc: 国立公園の島でシュノーケリングが人気
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Koh_Adang_%28island%29%2C_Lagoon%2C_Colors%2C_Thailand.jpg/960px-Koh_Adang_%28island%29%2C_Lagoon%2C_Colors%2C_Thailand.jpg"
+  - name: "Forra Dive Resort Pattaya Beach"
+    lat: 6.487745
+    lng: 99.300849
+    desc: "やす旅向け、パッタヤビーチの格安バンガロー"
+    type: hotel
+    letter: "や"
+    url: "https://www.booking.com/searchresults.html?ss=Forra+Dive+Resort+Koh+Lipe"
+  - name: "Sita Beach Resort & Spa"
+    lat: 6.48751
+    lng: 99.299377
+    desc: "ゆる旅向け、パッタヤビーチ沿いの4つ星リゾート"
+    type: hotel
+    letter: "ゆ"
+    url: "https://www.booking.com/searchresults.html?ss=Sita+Beach+Resort+%26+Spa+Koh+Lipe"
+  - name: "Idyllic Resort Koh Lipe"
+    lat: 6.481796
+    lng: 99.310312
+    desc: "らぐ旅向け、口コミ評価トップクラスの高級リゾート"
+    type: hotel
+    letter: "ら"
+    url: "https://www.booking.com/searchresults.html?ss=Idyllic+Resort+Koh+Lipe"
 
 redang-guide:
   - name: パシール・パンジャン（ロングビーチ）
@@ -125,6 +230,27 @@ redang-guide:
     lat: 5.8020
     lng: 103.0080
     desc: ウミガメの産卵が見られる保護区ビーチ
+  - name: "Redang De' Rimba Resort"
+    lat: 5.7819714
+    lng: 103.0115898
+    desc: "やす旅向け、手頃な価格帯のレダン島リゾート"
+    type: hotel
+    letter: "や"
+    url: "https://www.booking.com/searchresults.html?ss=Redang+De+Rimba+Resort"
+  - name: "Laguna Redang Island Resort"
+    lat: 5.7706757
+    lng: 103.0325481
+    desc: "ゆる旅向け、ガーデンビュールームが選べる定番リゾート"
+    type: hotel
+    letter: "ゆ"
+    url: "https://www.booking.com/searchresults.html?ss=Laguna+Redang+Island+Resort"
+  - name: "The Taaras Beach & Spa Resort"
+    lat: 5.7842577
+    lng: 103.0140242
+    desc: "らぐ旅向け、レダン島屈指の高級5つ星リゾート"
+    type: hotel
+    letter: "ら"
+    url: "https://www.booking.com/searchresults.html?ss=The+Taaras+Beach+%26+Spa+Resort+Redang"
 
 koh-phiphi-guide:
   - name: マヤベイ
@@ -142,6 +268,27 @@ koh-phiphi-guide:
     lng: 98.7680
     desc: 野生の猿が生息するビーチ
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Monkey_Beach_at_Phi_Phi_Don_Island_-_panoramio.jpg/960px-Monkey_Beach_at_Phi_Phi_Don_Island_-_panoramio.jpg"
+  - name: "Harmony House Koh Phi Phi"
+    lat: 7.741803
+    lng: 98.775717
+    desc: "やす旅向け、トンサイエリアの格安宿"
+    type: hotel
+    letter: "や"
+    url: "https://www.booking.com/searchresults.html?ss=Harmony+House+Koh+Phi+Phi"
+  - name: "Cabana Hotel Phi Phi"
+    lat: 7.739166
+    lng: 98.769449
+    desc: "ゆる旅向け、トンサイ湾を見下ろす島内最大級の3つ星"
+    type: hotel
+    letter: "ゆ"
+    url: "https://www.booking.com/searchresults.html?ss=Cabana+Hotel+Phi+Phi"
+  - name: "Saii Phi Phi Island Village"
+    lat: 7.761246
+    lng: 98.772595
+    desc: "らぐ旅向け、プライベートビーチを持つ高級リゾート"
+    type: hotel
+    letter: "ら"
+    url: "https://www.booking.com/searchresults.html?ss=Saii+Phi+Phi+Island+Village"
 
 koh-chang-guide:
   - name: ホワイトサンドビーチ
@@ -164,6 +311,27 @@ koh-chang-guide:
     lng: 102.2933
     desc: バックパッカーに人気のナイトライフエリア、南西部の人気ビーチ
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Koh_Chang%2C_Thailand%2C_Sunset_at_Lonely_Beach.jpg/960px-Koh_Chang%2C_Thailand%2C_Sunset_at_Lonely_Beach.jpg"
+  - name: "Elephant Bay Resort"
+    lat: 11.9906
+    lng: 102.2977
+    desc: "やす旅向け、アオバイランにある手頃な価格のリゾート"
+    type: hotel
+    letter: "や"
+    url: "https://www.booking.com/searchresults.html?ss=Elephant+Bay+Resort+Koh+Chang"
+  - name: "White Sand Beach Resort"
+    lat: 12.10936
+    lng: 102.26815
+    desc: "ゆる旅向け、ホワイトサンドビーチ沿いの定番リゾート"
+    type: hotel
+    letter: "ゆ"
+    url: "https://www.booking.com/searchresults.html?ss=White+Sand+Beach+Resort+Koh+Chang"
+  - name: "KC Grande Resort & Spa"
+    lat: 12.110997
+    lng: 102.269325
+    desc: "らぐ旅向け、ホワイトサンドビーチで評判No.1の高級リゾート"
+    type: hotel
+    letter: "ら"
+    url: "https://www.booking.com/searchresults.html?ss=KC+Grande+Resort+%26+Spa+Koh+Chang"
 
 pulau-pari-guide:
   - name: パシール・プラワンビーチ
@@ -193,6 +361,27 @@ phuquoc-guide:
     lng: 104.0180
     desc: 水上家屋が並ぶ伝統的な漁村
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Ham_Ninh_Phuquoc_Vietnam_-_panoramio.jpg/960px-Ham_Ninh_Phuquoc_Vietnam_-_panoramio.jpg"
+  - name: "Sol by Meliá Phu Quoc"
+    lat: 10.146122
+    lng: 103.976639
+    desc: "やす旅向け、手頃な価格の5つ星リゾート"
+    type: hotel
+    letter: "や"
+    url: "https://www.booking.com/searchresults.html?ss=Sol+by+Melia+Phu+Quoc"
+  - name: "Seashells Phu Quoc Hotel & Spa"
+    lat: 10.215395
+    lng: 103.958198
+    desc: "ゆる旅向け、ズオンドン中心部の便利な立地"
+    type: hotel
+    letter: "ゆ"
+    url: "https://www.booking.com/searchresults.html?ss=Seashells+Phu+Quoc+Hotel+%26+Spa"
+  - name: "InterContinental Phu Quoc Long Beach Resort"
+    lat: 10.112635
+    lng: 103.983524
+    desc: "らぐ旅向け、ロングビーチ沿いの高評価な高級リゾート"
+    type: hotel
+    letter: "ら"
+    url: "https://www.booking.com/searchresults.html?ss=InterContinental+Phu+Quoc+Long+Beach+Resort"
 
 koh-samui-guide:
   - name: チャウエンビーチ
@@ -225,6 +414,27 @@ koh-samui-guide:
     lng: 100.0667
     desc: 世界三大パーティの一つ、満月の夜にハートリンビーチで開催。サムイ島からフェリーで渡れる距離
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Koh_Phangan%2C_Haad_Rin_Sunrise_Beach_%286218390654%29.jpg/960px-Koh_Phangan%2C_Haad_Rin_Sunrise_Beach_%286218390654%29.jpg"
+  - name: "Lub d Koh Samui Chaweng Beach"
+    lat: 9.5311235
+    lng: 100.0657952
+    desc: "やす旅向け、チャウエンビーチ沿いのビーチフロントホステル"
+    type: hotel
+    letter: "や"
+    url: "https://www.booking.com/searchresults.html?ss=Lub+d+Koh+Samui+Chaweng+Beach"
+  - name: "Chaweng Garden Beach Resort"
+    lat: 9.5308614
+    lng: 100.0635826
+    desc: "ゆる旅向け、チャウエン中心部のビーチフロントリゾート"
+    type: hotel
+    letter: "ゆ"
+    url: "https://www.booking.com/searchresults.html?ss=Chaweng+Garden+Beach+Resort"
+  - name: "Four Seasons Resort Koh Samui"
+    lat: 9.5735091
+    lng: 99.9222519
+    desc: "らぐ旅向け、島北西の入り江に建つプライベートプール付きヴィラの高級リゾート"
+    type: hotel
+    letter: "ら"
+    url: "https://www.booking.com/searchresults.html?ss=Four+Seasons+Resort+Koh+Samui"
 
 danang-hoian-guide:
   - name: ミーケービーチ
@@ -252,6 +462,27 @@ danang-hoian-guide:
     lng: 107.9922
     desc: フランス統治時代の面影を残すテーマパーク、ゴールデンブリッジが人気
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Golden_Bridge_above_the_clouds_Ba_Na_Hills_Da_Nang_Vietnam.jpg/960px-Golden_Bridge_above_the_clouds_Ba_Na_Hills_Da_Nang_Vietnam.jpg"
+  - name: "Nesta Hotel Danang"
+    lat: 16.0541395
+    lng: 108.2469431
+    desc: "やす旅向け、ミーケービーチまで徒歩圏の手頃なホテル"
+    type: hotel
+    letter: "や"
+    url: "https://www.booking.com/searchresults.html?ss=Nesta+Hotel+Danang"
+  - name: "A La Carte Danang Beach"
+    lat: 16.0687157
+    lng: 108.2446388
+    desc: "ゆる旅向け、ミーケービーチ沿いインフィニティプールの4つ星ホテル"
+    type: hotel
+    letter: "ゆ"
+    url: "https://www.booking.com/searchresults.html?ss=A+La+Carte+Danang+Beach"
+  - name: "Naman Retreat Da Nang"
+    lat: 15.96915
+    lng: 108.2847535
+    desc: "らぐ旅向け、プライベートビーチを備えたウェルネス重視の高級リゾート"
+    type: hotel
+    letter: "ら"
+    url: "https://www.booking.com/searchresults.html?ss=Naman+Retreat+Da+Nang"
 
 el-nido-guide:
   - name: ナクパンビーチ
@@ -272,6 +503,27 @@ el-nido-guide:
     lat: 11.1530
     lng: 119.3990
     desc: 夕日が美しいことで知られる、のんびりした砂浜
+  - name: "Spin Designer Hostel"
+    lat: 11.180367
+    lng: 119.392723
+    desc: "設備の整ったデザイナーズホステル、やす旅向け"
+    type: hotel
+    letter: "や"
+    url: "https://www.booking.com/searchresults.html?ss=Spin+Designer+Hostel+El+Nido"
+  - name: "Cadlao Resort & Restaurant"
+    lat: 11.1858
+    lng: 119.395599
+    desc: "プール付きの人気リゾート、ゆる旅向け"
+    type: hotel
+    letter: "ゆ"
+    url: "https://www.booking.com/searchresults.html?ss=Cadlao+Resort+El+Nido"
+  - name: "Lagen Island Resort"
+    lat: 11.0867
+    lng: 119.3984
+    desc: "ジャングルと入り江に囲まれた島の高級リゾート、らぐ旅向け"
+    type: hotel
+    letter: "ら"
+    url: "https://www.booking.com/searchresults.html?ss=Lagen+Island+Resort"
 
 nusa-penida-guide:
   - name: ケリンキンビーチ
@@ -371,6 +623,27 @@ gili-trawangan-guide:
     desc: 日本からの発着空港
     type: airport
     letter: "✈︎"
+  - name: "Hotel Ombak Sunset"
+    lat: -8.35133
+    lng: 116.02862
+    desc: "西岸サンセットサイドのコスパ重視ホテル、やす旅向け"
+    type: hotel
+    letter: "や"
+    url: "https://www.booking.com/searchresults.html?ss=Hotel+Ombak+Sunset+Gili+Trawangan"
+  - name: "Vila Ombak"
+    lat: -8.358213
+    lng: 116.041083
+    desc: "ビーチ目の前でプールが2つあるホテル、ゆる旅向け"
+    type: hotel
+    letter: "ゆ"
+    url: "https://www.booking.com/searchresults.html?ss=Vila+Ombak+Gili+Trawangan"
+  - name: "Pondok Santi Estate"
+    lat: -8.361188
+    lng: 116.037018
+    desc: "島南部の口コミ評価が高いラグジュアリーヴィラ、らぐ旅向け"
+    type: hotel
+    letter: "ら"
+    url: "https://www.booking.com/searchresults.html?ss=Pondok+Santi+Estate+Gili+Trawangan"
 
 cebu-guide:
   - name: マクタン・ニュータウン・ビーチウォーク
@@ -393,6 +666,27 @@ cebu-guide:
     lat: 10.19056
     lng: 124.00056
     desc: ヒルトゥガン島近くの小さな島、ランチ付きアイランドホッピングの定番
+  - name: "The Stopover Hostel – Mactan"
+    lat: 10.3159333
+    lng: 123.9600902
+    desc: "空港から1kmのドミトリー・個室ホステル、やす旅向け"
+    type: hotel
+    letter: "や"
+    url: "https://www.hostelworld.com/"
+  - name: "Bluewater Maribago Beach Resort"
+    lat: 10.287528
+    lng: 124.00031
+    desc: "マクタン島のビーチフロントリゾート、ゆる旅向け"
+    type: hotel
+    letter: "ゆ"
+    url: "https://www.bluewatermaribago.com.ph/"
+  - name: "Shangri-La's Mactan Resort & Spa"
+    lat: 10.3079
+    lng: 124.0195
+    desc: "敷地内に魚の保護区を持つ高級ビーチリゾート、らぐ旅向け"
+    type: hotel
+    letter: "ら"
+    url: "https://www.shangri-la.com/cebu/mactanresort/"
 
 coron-guide:
   - name: カヤンガン湖
@@ -411,6 +705,27 @@ coron-guide:
     lat: 11.944724
     lng: 120.19347
     desc: アイランドホッピングのランチ休憩で使われる小さなビーチ
+  - name: "RB Transient House"
+    lat: 11.9972762
+    lng: 120.2095739
+    desc: "町なかのシンプルな安宿、やす旅向け"
+    type: hotel
+    letter: "や"
+    url: "https://www.agoda.com/"
+  - name: "Kokosnuss Garden Resort"
+    lat: 12.0079189
+    lng: 120.1996948
+    desc: "プールと庭のある町なかの標準リゾート、ゆる旅向け"
+    type: hotel
+    letter: "ゆ"
+    url: "https://www.booking.com/"
+  - name: "Huma Island Resort & Spa"
+    lat: 12.0534
+    lng: 119.9046
+    desc: "ブスアンガ沖のプライベートアイランドに建つ高級ヴィラリゾート、らぐ旅向け"
+    type: hotel
+    letter: "ら"
+    url: "https://www.humaislandresort.com/"
 
 nusa-lembongan-guide:
   - name: マッシュルームベイ

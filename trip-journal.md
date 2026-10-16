@@ -719,12 +719,15 @@ robots: noindex
       html += '<div class="tj-hour-row"><div class="tj-hour-time">' + hLabel + '</div><div style="flex:1;min-width:0;">';
       (byHour[h] || []).forEach(function (entry) {
         var d = entry.item;
+        var onTheHour = (d.time || '').endsWith(':00');
         var timeLabel = entry.carry
           ? ('前日' + d.time + '〜' + d.endTime + '着')
-          : (d.endTime ? (d.time + '〜' + (d.endNextDay ? '翌' : '') + d.endTime) : (d.time || ''));
+          : (d.endTime
+              ? ((onTheHour ? '' : d.time) + '〜' + (d.endNextDay ? '翌' : '') + d.endTime)
+              : (onTheHour ? '' : (d.time || '')));
         var delDay = entry.carry ? (selectedDayIndex - 1) : selectedDayIndex;
         html += '<div style="display:flex;align-items:baseline;gap:0.3rem;">';
-        html += '<span>' + (typeIcons[d.type] || '📍') + ' ' + escapeHtml(timeLabel) + '　' + escapeHtml(d.title || '') + (d.detail ? '（' + escapeHtml(d.detail) + '）' : '') + '</span>';
+        html += '<span>' + (typeIcons[d.type] || '📍') + ' ' + (timeLabel ? escapeHtml(timeLabel) + '　' : '') + escapeHtml(d.title || '') + (d.detail ? '（' + escapeHtml(d.detail) + '）' : '') + '</span>';
         html += '<button class="tj-item-del" data-item-del-id="' + d.id + '" data-item-del-day="' + delDay + '" style="margin-left:auto;flex-shrink:0;">×</button>';
         html += '</div>';
       });

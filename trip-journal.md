@@ -936,12 +936,32 @@ robots: noindex
   }
 
   // ---------- MEDIA ----------
+  var mediaAutoTimer = null;
+  var mediaAutoPausedUntil = 0;
+  function startMediaAutoSlide(grid, count) {
+    if (mediaAutoTimer) { clearInterval(mediaAutoTimer); mediaAutoTimer = null; }
+    if (count <= 1) return;
+    mediaAutoTimer = setInterval(function () {
+      if (Date.now() < mediaAutoPausedUntil) return;
+      var slideWidth = grid.clientWidth;
+      var maxScroll = slideWidth * (count - 1);
+      var next = grid.scrollLeft + slideWidth;
+      if (next > maxScroll + 5) { next = 0; }
+      grid.scrollTo({ left: next, behavior: 'smooth' });
+    }, 4000);
+  }
+
   function watchMedia() {
+    var grid = document.getElementById('tjMediaGrid');
+    grid.addEventListener('touchstart', function () { mediaAutoPausedUntil = Date.now() + 6000; }, { passive: true });
     var q = query(collection(db, 'trips', TRIP_ID, 'media'), orderBy('uploadedAt', 'desc'));
     unsubMedia = onSnapshot(q, function (snap) {
-      var grid = document.getElementById('tjMediaGrid');
       grid.innerHTML = '';
-      if (snap.empty) { grid.innerHTML = '<div class="tj-empty">まだ写真・動画がありません</div>'; return; }
+      if (snap.empty) {
+        grid.innerHTML = '<div class="tj-empty">まだ写真・動画がありません</div>';
+        if (mediaAutoTimer) { clearInterval(mediaAutoTimer); mediaAutoTimer = null; }
+        return;
+      }
       var total = snap.size;
       var i = 0;
       snap.forEach(function (docSnap) {
@@ -972,6 +992,7 @@ robots: noindex
         }
         grid.appendChild(cell);
       });
+      startMediaAutoSlide(grid, total);
     });
   }
 

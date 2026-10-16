@@ -136,7 +136,8 @@ robots: noindex
   }
   .tj-upload-box input[type="file"] { margin-top: 0.6rem; }
   .tj-media-breakout { position: relative; width: 100vw; left: 50%; right: 50%; margin-left: -50vw; margin-right: -50vw; margin-bottom: 0.6rem; }
-  .tj-media-breakout-top { margin-top: -14px; margin-bottom: 0; }
+  .tj-media-breakout-top { margin-top: 0; margin-bottom: 0; }
+  .tj-top-title-bar { text-align: center; font-weight: 700; font-size: 0.85rem; color: var(--sb-green-dark); padding: 0.4rem 0; margin-top: -14px; }
   .tj-media-add-fab {
     position: absolute; top: 0.6rem; right: 0.6rem; z-index: 2; width: 2.1rem; height: 2.1rem; border-radius: 50%;
     border: none; background: rgba(255,255,255,0.85); color: var(--sb-brown); font-size: 1.1rem;
@@ -214,6 +215,7 @@ robots: noindex
 
   <!-- MAIN APP -->
   <div id="tjApp" class="tj-hidden">
+    <div class="tj-top-title-bar" id="tjTripNameTop"></div>
     <!-- MEDIA GALLERY (always visible, full-bleed slide, acts as page header) -->
     <div class="tj-media-breakout tj-media-breakout-top">
       <button type="button" class="tj-media-add-fab" id="tjMediaAddToggle">＋</button>
@@ -504,6 +506,7 @@ robots: noindex
   function showApp() {
     document.getElementById('tjApp').classList.remove('tj-hidden');
     document.getElementById('tjTripName').textContent = tripData.name;
+    document.getElementById('tjTripNameTop').textContent = tripData.name;
     document.getElementById('tjTripDates').textContent = tripData.destination + '　' + tripData.startDate + ' 〜 ' + tripData.endDate;
 
     var asSelect = document.getElementById('tjAsSelect');

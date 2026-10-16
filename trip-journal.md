@@ -950,7 +950,13 @@ robots: noindex
     if (spotsInited) return;
     spotsInited = true;
     loadGoogleMaps().then(function () {
-      spotMap = new google.maps.Map(document.getElementById('tjSpotMap'), {
+      return Promise.all([
+        google.maps.importLibrary('maps'),
+        google.maps.importLibrary('places')
+      ]);
+    }).then(function (libs) {
+      var MapsLib = libs[0];
+      spotMap = new MapsLib.Map(document.getElementById('tjSpotMap'), {
         center: { lat: 35.681236, lng: 139.767125 }, zoom: 10
       });
       mountSpotAutocomplete();

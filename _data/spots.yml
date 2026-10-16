@@ -411,3 +411,61 @@ coron-guide:
     lat: 11.944724
     lng: 120.19347
     desc: アイランドホッピングのランチ休憩で使われる小さなビーチ
+
+nusa-lembongan-guide:
+  - name: マッシュルームベイ
+    lat: -8.6815
+    lng: 115.4527
+    desc: 三日月形の穏やかな入り江、泳ぎやシュノーケリングに向く
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Nusa_Lembongan_-_aqua_waters_of_Mushroom_Bay.jpg/960px-Nusa_Lembongan_-_aqua_waters_of_Mushroom_Bay.jpg"
+  - name: ドリームビーチ
+    lat: -8.6956
+    lng: 115.4517
+    desc: ビーチカフェが並ぶ、島を代表する白砂のビーチ
+  - name: デビルズティア
+    lat: -8.6987
+    lng: 115.4442
+    desc: 断崖に波が打ち寄せる夕日の名所
+  - name: 黄色い吊り橋
+    lat: -8.6803
+    lng: 115.4568
+    desc: ヌサチェニガン島へ歩いて渡れる、島のシンボル
+  - name: ジャングットバトゥ
+    lat: -8.6717
+    lng: 115.4428
+    desc: 高速ボートが着くメインのビーチ、カフェやダイブショップが集まる
+    type: port
+    letter: "⚓︎"
+  - name: サヌール・ボートハーバー
+    lat: -8.6713871
+    lng: 115.2614475
+    desc: ヌサレンボンガン行き高速ボートの発着港（バリ本島側）
+    type: port
+    letter: "⚓︎"
+  - name: デンパサール（ングラライ）国際空港
+    lat: -8.7469933
+    lng: 115.1681655
+    desc: 日本からの発着空港
+    type: airport
+    letter: "✈︎"
+  - name: Segara Village Hotel
+    lat: -8.6827059
+    lng: 115.2629223
+    desc: ビーチ沿いのコスパ重視ホテル（やす旅向け）
+    type: hotel
+    letter: や
+    url: "https://www.booking.com/searchresults.html?ss=Segara+Village+Hotel+Sanur"
+  - name: Prime Plaza Hotel Sanur
+    lat: -8.684323
+    lng: 115.259656
+    desc: ボート乗り場に近いビーチサイドのホテル（ゆる旅向け）
+    type: hotel
+    letter: ゆ
+    url: "https://www.booking.com/searchresults.html?ss=Prime+Plaza+Hotel+Sanur"
+  - name: Hyatt Regency Bali
+    lat: -8.7022119
+    lng: 115.2632459
+    desc: サヌールビーチ沿いの大型リゾート（らぐ旅向け）
+    type: hotel
+    letter: ら
+    url: "https://www.booking.com/searchresults.html?ss=Hyatt+Regency+Bali"

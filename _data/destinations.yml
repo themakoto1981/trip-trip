@@ -502,3 +502,28 @@
   best_months: [1, 2, 3]
   url: /2026/10/15/coron-guide/
   tags: { beach: 3, resort: 3, island: 5, city_base: 1, sightseeing: 4, relax: 3, party: 1, activity: 5 }
+
+- name: ヌサレンボンガン島
+  en_name: "Nusa Lembongan, Indonesia"
+  slug: nusa-lembongan-guide
+  country: インドネシア
+  country_slug: indonesia
+  lat: -8.6786
+  lng: 115.4510
+  flight_min: 57000
+  flight_max: 165000
+  hotel_min: 4000
+  hotel_max: 30000
+  transport_min: 5000
+  transport_max: 10000
+  food_min: 2500
+  food_max: 6000
+  flight_hours: "約7〜8時間（デンパサール直行便）、サヌールから高速ボートで約30分"
+  recommended_nights: "3泊以上"
+  visa: "不要（30日以内）"
+  photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Nusa_Lembongan_-_aqua_waters_of_Mushroom_Bay.jpg/960px-Nusa_Lembongan_-_aqua_waters_of_Mushroom_Bay.jpg"
+  photo_credit_url: "https://commons.wikimedia.org/wiki/File:Nusa_Lembongan_-_aqua_waters_of_Mushroom_Bay.jpg"
+  suited_for: [couple, friends, solo]
+  best_months: [5, 6, 9]
+  url: /2026/10/16/nusa-lembongan-guide/
+  tags: { beach: 4, resort: 3, island: 5, city_base: 1, sightseeing: 3, relax: 4, party: 2, activity: 4 }

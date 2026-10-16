@@ -134,6 +134,13 @@ robots: noindex
     color: var(--sb-brown-soft); font-size: 0.85rem; margin-bottom: 1rem;
   }
   .tj-upload-box input[type="file"] { margin-top: 0.6rem; }
+  .tj-media-breakout { position: relative; width: 100vw; left: 50%; right: 50%; margin-left: -50vw; margin-right: -50vw; margin-bottom: 0.6rem; }
+  .tj-media-add-fab {
+    position: absolute; top: 0.6rem; right: 0.6rem; z-index: 2; width: 2.1rem; height: 2.1rem; border-radius: 50%;
+    border: none; background: rgba(255,255,255,0.85); color: var(--sb-brown); font-size: 1.1rem;
+    display: flex; align-items: center; justify-content: center; cursor: pointer;
+  }
+  .tj-media-grid .tj-empty { padding: 1rem; }
   .tj-media-grid { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch; }
   .tj-media-cell { position: relative; flex: 0 0 100%; scroll-snap-align: start; aspect-ratio: 1 / 1; overflow: hidden; }
   .tj-media-cell img, .tj-media-cell video { width: 100%; height: 100%; object-fit: cover; display: block; }
@@ -321,12 +328,9 @@ robots: noindex
       <div id="tjSettleList"></div>
     </div>
 
-    <!-- MEDIA GALLERY (always visible, slide) -->
-    <div class="tj-card">
-      <div class="tj-card-title-row">
-        <div class="tj-card-title">写真・動画</div>
-        <button type="button" class="tj-plus-link" id="tjMediaAddToggle">＋</button>
-      </div>
+    <!-- MEDIA GALLERY (always visible, full-bleed slide) -->
+    <div class="tj-media-breakout">
+      <button type="button" class="tj-media-add-fab" id="tjMediaAddToggle">＋</button>
       <div class="tj-media-grid" id="tjMediaGrid"></div>
     </div>
 

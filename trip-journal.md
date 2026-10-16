@@ -156,6 +156,11 @@ robots: noindex
     position: absolute; top: 0.5rem; right: 0.5rem; width: 1.1rem; height: 1.1rem; border-radius: 50%;
     background: var(--sb-green); color: #fff; font-size: 0.7rem; display: flex; align-items: center; justify-content: center;
   }
+  .tj-media-del {
+    position: absolute; bottom: 0.5rem; right: 0.5rem; width: 1.7rem; height: 1.7rem; border-radius: 50%;
+    border: none; background: rgba(17,32,27,0.65); color: #fff; font-size: 1.05rem; line-height: 1;
+    display: flex; align-items: center; justify-content: center; cursor: pointer;
+  }
 
   .tj-empty { color: var(--sb-brown-soft); font-size: 0.85rem; padding: 1rem 0; }
 </style>
@@ -364,7 +369,7 @@ robots: noindex
     onSnapshot, query, orderBy, serverTimestamp
   } from "https://www.gstatic.com/firebasejs/13.0.0/firebase-firestore.js";
   import {
-    getStorage, ref, uploadBytes, getDownloadURL
+    getStorage, ref, uploadBytes, getDownloadURL, deleteObject
   } from "https://www.gstatic.com/firebasejs/13.0.0/firebase-storage.js";
 
   const firebaseConfig = {
@@ -997,6 +1002,18 @@ robots: noindex
           ok.title = 'サイト使用可';
           cell.appendChild(ok);
         }
+        var del = document.createElement('button');
+        del.type = 'button';
+        del.className = 'tj-media-del';
+        del.textContent = '×';
+        del.title = '削除';
+        del.addEventListener('click', function () {
+          if (!window.confirm('この写真・動画を削除しますか？')) return;
+          var tasks = [deleteDoc(doc(db, 'trips', TRIP_ID, 'media', docSnap.id))];
+          if (d.storagePath) { tasks.push(deleteObject(ref(storage, d.storagePath)).catch(function () {})); }
+          Promise.all(tasks).catch(function (e) { alert('削除に失敗しました: ' + e.message); });
+        });
+        cell.appendChild(del);
         grid.appendChild(cell);
       });
       startMediaAutoSlide(grid, total);

@@ -45,9 +45,9 @@ robots: noindex
   .tj-chip button { border: none; background: none; cursor: pointer; color: var(--sb-brown-soft); font-size: 0.9rem; }
 
   /* header */
-  .tj-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; flex-wrap: wrap; gap: 0.5rem; }
-  .tj-title { font-size: 1.4rem; font-weight: 700; color: var(--sb-green-dark); }
-  .tj-subtitle { font-size: 0.85rem; color: var(--sb-brown-soft); }
+  .tj-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap; gap: 0.4rem; }
+  .tj-title { font-size: 1.2rem; font-weight: 700; color: var(--sb-green-dark); line-height: 1.3; }
+  .tj-subtitle { font-size: 0.78rem; color: var(--sb-brown-soft); line-height: 1.3; }
   .tj-as { font-size: 0.82rem; color: var(--sb-brown-soft); display: flex; align-items: center; gap: 0.4rem; }
   .tj-as select { border: 1px solid var(--sb-border); border-radius: 6px; padding: 0.25rem 0.5rem; font-family: inherit; }
 
@@ -73,12 +73,12 @@ robots: noindex
   .tj-hour-entry { display: flex; align-items: baseline; gap: 0.35rem; flex: 1; min-width: 0; }
   .tj-hour-entry button { border: none; background: none; color: var(--sb-brown-soft); font-size: 0.72rem; margin-left: auto; flex-shrink: 0; }
 
-  .tj-cal-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.4rem; }
+  .tj-cal-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.25rem; }
   .tj-cal-head button { border: none; background: none; color: var(--sb-brown-soft); font-size: 0.9rem; cursor: pointer; font-family: inherit; }
   .tj-cal-month { font-weight: 700; color: var(--sb-green-dark); font-size: 0.78rem; white-space: nowrap; }
-  .tj-cal-grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 2px; text-align: center; font-size: 0.64rem; }
-  .tj-cal-dow { color: var(--sb-brown-soft); font-weight: 700; padding-bottom: 0.2rem; }
-  .tj-cal-day { padding: 0.28rem 0; border-radius: 6px; color: var(--sb-brown); cursor: default; }
+  .tj-cal-grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 1px; text-align: center; font-size: 0.62rem; }
+  .tj-cal-dow { color: var(--sb-brown-soft); font-weight: 700; padding-bottom: 0.1rem; }
+  .tj-cal-day { padding: 0.16rem 0; border-radius: 6px; color: var(--sb-brown); cursor: default; }
   .tj-cal-day.tj-cal-blank { visibility: hidden; }
   .tj-cal-day.tj-cal-trip { background: var(--sb-cream); font-weight: 700; color: var(--sb-green-dark); cursor: pointer; }
   .tj-cal-day.tj-cal-sel { background: var(--sb-green); color: #fff; cursor: pointer; }

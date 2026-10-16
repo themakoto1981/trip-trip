@@ -206,14 +206,6 @@ robots: noindex
         <div class="tj-subtitle" id="tjTripDates"></div>
       </div>
       <div style="display:flex;flex-direction:column;align-items:flex-end;gap:0.4rem;">
-        <div class="tj-quick-wrap">
-          <button type="button" class="tj-quick-btn" id="tjQuickBtn">＋ 追加 ▾</button>
-          <div class="tj-quick-menu tj-hidden" id="tjQuickMenu">
-            <button type="button" id="tjQuickSchedule">✈️ 旅程を追加</button>
-            <button type="button" id="tjQuickMedia">📷 写真を追加</button>
-            <button type="button" id="tjQuickCost">💰 コストを追加</button>
-          </div>
-        </div>
         <div class="tj-as">
           投稿者：
           <select id="tjAsSelect"></select>
@@ -558,10 +550,6 @@ robots: noindex
   }
 
   // ---------- QUICK ADD MENU ----------
-  document.getElementById('tjQuickBtn').addEventListener('click', function () {
-    document.getElementById('tjQuickMenu').classList.toggle('tj-hidden');
-  });
-  function closeQuickMenu() { document.getElementById('tjQuickMenu').classList.add('tj-hidden'); }
   function openItemAddForm() {
     var el = document.getElementById('tjItemAddForm');
     el.classList.toggle('tj-hidden');
@@ -578,9 +566,6 @@ robots: noindex
     el.classList.toggle('tj-hidden');
     if (!el.classList.contains('tj-hidden')) { el.scrollIntoView({ behavior: 'smooth', block: 'start' }); }
   }
-  document.getElementById('tjQuickSchedule').addEventListener('click', function () { closeQuickMenu(); openItemAddForm(); });
-  document.getElementById('tjQuickMedia').addEventListener('click', function () { closeQuickMenu(); openMediaSection(); });
-  document.getElementById('tjQuickCost').addEventListener('click', function () { closeQuickMenu(); openCostManage(); });
   document.getElementById('tjItemAddToggle').addEventListener('click', openItemAddForm);
   document.getElementById('tjCostAddToggle').addEventListener('click', openCostManage);
   document.getElementById('tjMediaAddToggle').addEventListener('click', openMediaSection);

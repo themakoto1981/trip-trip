@@ -135,8 +135,8 @@ robots: noindex
   }
   .tj-upload-box input[type="file"] { margin-top: 0.6rem; }
   .tj-media-grid { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch; }
-  .tj-media-cell { position: relative; flex: 0 0 100%; scroll-snap-align: start; }
-  .tj-media-cell img, .tj-media-cell video { width: 100%; height: auto; display: block; }
+  .tj-media-cell { position: relative; flex: 0 0 100%; scroll-snap-align: start; aspect-ratio: 1 / 1; overflow: hidden; }
+  .tj-media-cell img, .tj-media-cell video { width: 100%; height: 100%; object-fit: cover; display: block; }
   .tj-media-badge {
     position: absolute; bottom: 0.5rem; left: 0.5rem; background: rgba(17,32,27,0.65); color: #fff;
     font-size: 0.75rem; padding: 0.15rem 0.55rem; border-radius: 999px;
@@ -988,6 +988,28 @@ robots: noindex
     });
   }
 
+  function resizeImage(file, maxDim, quality) {
+    return new Promise(function (resolve, reject) {
+      var img = new Image();
+      img.onload = function () {
+        var w = img.naturalWidth, h = img.naturalHeight;
+        var scale = Math.min(1, maxDim / Math.max(w, h));
+        var cw = Math.max(1, Math.round(w * scale));
+        var ch = Math.max(1, Math.round(h * scale));
+        var canvas = document.createElement('canvas');
+        canvas.width = cw; canvas.height = ch;
+        canvas.getContext('2d').drawImage(img, 0, 0, cw, ch);
+        URL.revokeObjectURL(img.src);
+        canvas.toBlob(function (blob) {
+          if (!blob) { reject(new Error('画像の変換に失敗しました')); return; }
+          resolve(blob);
+        }, 'image/jpeg', quality);
+      };
+      img.onerror = function () { URL.revokeObjectURL(img.src); reject(new Error('画像を読み込めませんでした')); };
+      img.src = URL.createObjectURL(file);
+    });
+  }
+
   document.getElementById('tjMediaFile').addEventListener('change', function () {
     var file = this.files[0];
     var errEl = document.getElementById('tjMediaError');
@@ -997,12 +1019,13 @@ robots: noindex
     var proceed = function () {
       var postedBy = document.getElementById('tjAsSelect').value;
       var mediaDayIndex = parseInt(document.getElementById('tjMediaDay').value, 10) || 1;
-      var ext = file.name.split('.').pop();
+      var ext = isVideo ? file.name.split('.').pop() : 'jpg';
       var path = 'trips/' + TRIP_ID + '/media/day' + mediaDayIndex + '_' + postedBy + '_' + Date.now() + '.' + ext;
       var sref = ref(storage, path);
       var tokenRefresh = auth.currentUser ? auth.currentUser.getIdToken(true) : Promise.resolve();
-      tokenRefresh.then(function () {
-        return uploadBytes(sref, file);
+      var prep = isVideo ? Promise.resolve(file) : resizeImage(file, 1600, 0.82);
+      Promise.all([tokenRefresh, prep]).then(function (results) {
+        return uploadBytes(sref, results[1]);
       }).then(function () {
         return getDownloadURL(sref);
       }).then(function (url) {
@@ -1013,26 +1036,7 @@ robots: noindex
       }).then(function () {
         document.getElementById('tjMediaFile').value = '';
       }).catch(function (e) {
-        var extra = '';
-        try {
-          var dump = {};
-          Object.getOwnPropertyNames(e).forEach(function (k) {
-            try {
-              var v = e[k];
-              if (typeof v === 'object' && v !== null) {
-                dump[k] = JSON.stringify(v);
-              } else {
-                dump[k] = String(v);
-              }
-            } catch (ie) {
-              dump[k] = '[読取不可]';
-            }
-          });
-          extra = ' [' + JSON.stringify(dump) + ']';
-        } catch (x) {
-          extra = ' [dump読取エラー: ' + x.message + ']';
-        }
-        errEl.textContent = 'アップロードに失敗しました: ' + e.message + extra;
+        errEl.textContent = 'アップロードに失敗しました: ' + e.message;
       });
     };
     if (isVideo) {

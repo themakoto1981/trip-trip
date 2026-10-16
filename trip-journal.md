@@ -727,7 +727,7 @@ robots: noindex
               : (onTheHour ? '' : (d.time || '')));
         var delDay = entry.carry ? (selectedDayIndex - 1) : selectedDayIndex;
         html += '<div style="display:flex;align-items:baseline;gap:0.3rem;">';
-        html += '<span>' + (typeIcons[d.type] || '📍') + ' ' + (timeLabel ? escapeHtml(timeLabel) + '　' : '') + escapeHtml(d.title || '') + (d.detail ? '（' + escapeHtml(d.detail) + '）' : '') + '</span>';
+        html += '<span>' + (typeIcons[d.type] || '📍') + ' ' + escapeHtml(d.title || '') + (d.detail ? '（' + escapeHtml(d.detail) + '）' : '') + (timeLabel ? '　' + escapeHtml(timeLabel) : '') + '</span>';
         html += '<button class="tj-item-del" data-item-del-id="' + d.id + '" data-item-del-day="' + delDay + '" style="margin-left:auto;flex-shrink:0;">×</button>';
         html += '</div>';
       });

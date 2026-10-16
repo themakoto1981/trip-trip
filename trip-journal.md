@@ -134,15 +134,19 @@ robots: noindex
     color: var(--sb-brown-soft); font-size: 0.85rem; margin-bottom: 1rem;
   }
   .tj-upload-box input[type="file"] { margin-top: 0.6rem; }
-  .tj-media-grid { display: flex; overflow-x: auto; gap: 0.6rem; padding-bottom: 0.3rem; -webkit-overflow-scrolling: touch; }
-  .tj-media-cell { position: relative; border-radius: 8px; overflow: hidden; background: var(--sb-cream); width: 120px; height: 120px; flex-shrink: 0; }
-  .tj-media-cell img, .tj-media-cell video { width: 100%; height: 100%; object-fit: cover; }
+  .tj-media-grid { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch; }
+  .tj-media-cell { position: relative; flex: 0 0 100%; scroll-snap-align: start; }
+  .tj-media-cell img, .tj-media-cell video { width: 100%; height: auto; display: block; }
   .tj-media-badge {
-    position: absolute; bottom: 0.3rem; left: 0.3rem; background: rgba(17,32,27,0.65); color: #fff;
-    font-size: 0.65rem; padding: 0.1rem 0.4rem; border-radius: 999px;
+    position: absolute; bottom: 0.5rem; left: 0.5rem; background: rgba(17,32,27,0.65); color: #fff;
+    font-size: 0.75rem; padding: 0.15rem 0.55rem; border-radius: 999px;
+  }
+  .tj-media-count {
+    position: absolute; top: 0.5rem; left: 0.5rem; background: rgba(17,32,27,0.65); color: #fff;
+    font-size: 0.7rem; padding: 0.1rem 0.5rem; border-radius: 999px;
   }
   .tj-media-ok {
-    position: absolute; top: 0.3rem; right: 0.3rem; width: 1.1rem; height: 1.1rem; border-radius: 50%;
+    position: absolute; top: 0.5rem; right: 0.5rem; width: 1.1rem; height: 1.1rem; border-radius: 50%;
     background: var(--sb-green); color: #fff; font-size: 0.7rem; display: flex; align-items: center; justify-content: center;
   }
 
@@ -953,7 +957,10 @@ robots: noindex
       var grid = document.getElementById('tjMediaGrid');
       grid.innerHTML = '';
       if (snap.empty) { grid.innerHTML = '<div class="tj-empty">まだ写真・動画がありません</div>'; return; }
+      var total = snap.size;
+      var i = 0;
       snap.forEach(function (docSnap) {
+        i++;
         var d = docSnap.data();
         var cell = document.createElement('div');
         cell.className = 'tj-media-cell';
@@ -961,6 +968,12 @@ robots: noindex
         media.src = d.url;
         if (d.type === 'video') { media.muted = true; media.playsInline = true; media.loop = true; media.addEventListener('mouseenter', function () { media.play(); }); }
         cell.appendChild(media);
+        if (total > 1) {
+          var count = document.createElement('span');
+          count.className = 'tj-media-count';
+          count.textContent = i + ' / ' + total;
+          cell.appendChild(count);
+        }
         var badge = document.createElement('span');
         badge.className = 'tj-media-badge';
         badge.textContent = d.postedBy || '';

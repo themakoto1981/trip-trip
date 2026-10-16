@@ -135,6 +135,7 @@ robots: noindex
   }
   .tj-upload-box input[type="file"] { margin-top: 0.6rem; }
   .tj-media-breakout { position: relative; width: 100vw; left: 50%; right: 50%; margin-left: -50vw; margin-right: -50vw; margin-bottom: 0.6rem; }
+  .tj-media-breakout-top { margin-top: -14px; }
   .tj-media-add-fab {
     position: absolute; top: 0.6rem; right: 0.6rem; z-index: 2; width: 2.1rem; height: 2.1rem; border-radius: 50%;
     border: none; background: rgba(255,255,255,0.85); color: var(--sb-brown); font-size: 1.1rem;
@@ -212,6 +213,12 @@ robots: noindex
 
   <!-- MAIN APP -->
   <div id="tjApp" class="tj-hidden">
+    <!-- MEDIA GALLERY (always visible, full-bleed slide, acts as page header) -->
+    <div class="tj-media-breakout tj-media-breakout-top">
+      <button type="button" class="tj-media-add-fab" id="tjMediaAddToggle">＋</button>
+      <div class="tj-media-grid" id="tjMediaGrid"></div>
+    </div>
+
     <div class="tj-header">
       <div>
         <div class="tj-title" id="tjTripName"></div>
@@ -331,12 +338,6 @@ robots: noindex
       </div>
       <div class="tj-card-title" style="margin-top:0.9rem;">精算</div>
       <div id="tjSettleList"></div>
-    </div>
-
-    <!-- MEDIA GALLERY (always visible, full-bleed slide) -->
-    <div class="tj-media-breakout">
-      <button type="button" class="tj-media-add-fab" id="tjMediaAddToggle">＋</button>
-      <div class="tj-media-grid" id="tjMediaGrid"></div>
     </div>
 
     <!-- MEDIA UPLOAD (hidden, opened via +追加) -->

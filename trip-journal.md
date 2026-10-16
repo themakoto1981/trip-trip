@@ -145,7 +145,7 @@ robots: noindex
   }
   .tj-upload-box input[type="file"] { margin-top: 0.6rem; }
   .tj-media-breakout { position: relative; width: 100vw; left: 50%; right: 50%; margin-left: -50vw; margin-right: -50vw; margin-bottom: 0.6rem; }
-  .tj-media-breakout-top { margin-top: -14px; }
+  .tj-media-breakout-top { margin-top: -14px; margin-bottom: 0; }
   .tj-media-add-fab {
     position: absolute; top: 0.6rem; right: 0.6rem; z-index: 2; width: 2.1rem; height: 2.1rem; border-radius: 50%;
     border: none; background: rgba(255,255,255,0.85); color: var(--sb-brown); font-size: 1.1rem;

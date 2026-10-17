@@ -57,7 +57,7 @@ excerpt: "成田から直行便で約6時間、東南アジアの中でも飛行
 **1日目**
 - 09:00　成田発（ベトナム航空直行便VN319、所要約5時間40分）
 - 12:40　ダナン着。入国審査・荷物受取を終えても午後からたっぷり時間がある
-- 13:30頃　[A La Carte Danang Beach](https://www.booking.com/searchresults.html?ss=A+La+Carte+Danang+Beach)にチェックイン（ミーケービーチ沿い、インフィニティプールが自慢の4つ星ホテル）
+- 13:30頃　[A La Carte Danang Beach](https://www.booking.com/searchresults.html?ss=A+La+Carte+Danang+Beach)にチェックイン（ミーケービーチ沿い、4つ星ホテル）
 - 17:00頃　[Grabカー](/grab/)でホイアンへ（所要約45分）。旧市街のランタン夜市を散策し、名物バインミーで夕食
 - 21:00頃　ダナンへ戻り就寝
 

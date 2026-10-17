@@ -47,7 +47,7 @@ excerpt: "アンダマン海に浮かぶタイ最大の島プーケット。ビ�
 - 14:30　バンコク（スワンナプーム空港）着。入国審査・荷物受取に1〜1.5時間ほどみておく
 - 16:30頃　空港連絡バスでドンムアン空港へ移動（所要1〜1.5時間）
 - 19:30　ドンムアン空港発（Thai AirAsia）→ 20:55　プーケット着
-- 22:00頃　[C&N Hotel Patong](https://www.booking.com/searchresults.html?ss=C%26N+Hotel+Patong)にチェックイン（街歩きに便利な好立地、1部屋約6,000円台から）
+- 22:00頃　[C&N Hotel Patong](https://www.booking.com/searchresults.html?ss=C%26N+Hotel+Patong)にチェックイン（1部屋約6,000円台から）
 
 **2日目（終日フリー）**
 - 09:00　カタビーチでのんびり、またはパラセーリング・ジェットスキーなどのマリンアクティビティ
@@ -73,7 +73,7 @@ excerpt: "アンダマン海に浮かぶタイ最大の島プーケット。ビ�
 - 11:05　羽田発（ANA直行便NH847、所要6〜7時間）
 - 16:20　バンコク（スワンナプーム空港）着。入国審査・荷物受取に1〜1.5時間ほどみておく
 - 19:45　バンコク発（バンコクエアウェイズPG279）→ 21:15　プーケット着
-- 22:00頃　[The Crib Patong](https://www.booking.com/searchresults.html?ss=The+Crib+Patong)にチェックイン（おしゃれなブティックホテル、価格以上の満足感と評判）
+- 22:00頃　[The Crib Patong](https://www.booking.com/searchresults.html?ss=The+Crib+Patong)にチェックイン
 
 **2日目（終日フリー）**
 - 09:00　カタビーチでのんびり、またはパラセーリング・ジェットスキーなどのマリンアクティビティ
@@ -97,7 +97,7 @@ excerpt: "アンダマン海に浮かぶタイ最大の島プーケット。ビ�
 - 11:05　羽田発（ANA直行便NH847、所要6〜7時間）
 - 16:20　バンコク（スワンナプーム空港）着。入国審査・荷物受取に1〜1.5時間ほどみておく
 - 19:45　バンコク発（バンコクエアウェイズPG279）→ 21:15　プーケット着
-- 22:00頃　[Diamond Cliff Resort and Spa](https://www.booking.com/searchresults.html?ss=Diamond+Cliff+Resort+and+Spa+Phuket)にチェックイン（パトンビーチまで徒歩10分、プーケット初心者にも安心の好立地）
+- 22:00頃　[Diamond Cliff Resort and Spa](https://www.booking.com/searchresults.html?ss=Diamond+Cliff+Resort+and+Spa+Phuket)にチェックイン（パトンビーチまで徒歩10分）
 
 **2日目（終日フリー）**
 - 09:00　カタビーチでのんびり、またはパラセーリング・ジェットスキーなどのマリンアクティビティ

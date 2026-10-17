@@ -51,11 +51,11 @@ excerpt: "バリ島から高速ボートで約1時間半、車もバイクも走
 **2日目**
 - 06:10　クアラルンプール着。乗継エリアで待機
 - 10:50　クアラルンプール発（AirAsia AK371）→ 13:55　デンパサール着
-- 16:00頃　Peramaシャトル（乗合バン）でパダンバイへ移動し（片道Rp 100,000ほど、Grabより割安）、[Topi Inn](https://www.booking.com/searchresults.html?ss=Topi+Inn+Padangbai)にチェックイン（港まで徒歩圏の宿）
+- 16:00頃　Peramaシャトル（乗合バン）でパダンバイへ移動し、[Topi Inn](https://www.booking.com/searchresults.html?ss=Topi+Inn+Padangbai)にチェックイン（港まで徒歩圏の宿）
 
 **3日目**
 - 08:00　パダンバイから高速ボート（[12go.asiaで予約可](https://12go.asia/en/travel/padang-bai/gili-trawangan?z=17114820)）でギリ・トラワンガン島へ（約1時間半、9:30頃到着）
-- 午前中　[Hotel Ombak Sunset](https://www.booking.com/searchresults.html?ss=Hotel+Ombak+Sunset+Gili+Trawangan)にチェックイン（コスパ重視のホテル）
+- 午前中　[Hotel Ombak Sunset](https://www.booking.com/searchresults.html?ss=Hotel+Ombak+Sunset+Gili+Trawangan)にチェックイン
 - 夕方　西岸のサンセットポイントで夕日を眺める
 
 **4日目（終日フリー）**
@@ -103,7 +103,7 @@ excerpt: "バリ島から高速ボートで約1時間半、車もバイクも走
 
 **2日目**
 - 08:00　パダンバイから高速ボート（[12go.asiaで予約可](https://12go.asia/en/travel/padang-bai/gili-trawangan?z=17114820)）でギリ・トラワンガン島へ（約1時間半、9:30頃到着）
-- 午前中　[Pondok Santi Estate](https://www.booking.com/searchresults.html?ss=Pondok+Santi+Estate+Gili+Trawangan)にチェックイン（口コミ評価が高いラグジュアリーヴィラ）
+- 午前中　[Pondok Santi Estate](https://www.booking.com/searchresults.html?ss=Pondok+Santi+Estate+Gili+Trawangan)にチェックイン（ラグジュアリーヴィラ）
 - 夕方　西岸のサンセットポイントで夕日を眺める
 
 **3日目（終日フリー）**

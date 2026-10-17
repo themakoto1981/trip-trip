@@ -264,8 +264,8 @@ koh-phiphi-guide:
     desc: 島を一望できる展望スポット（ピピドン島）
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Koh_Phi_Phi_viewpoint_panorama_%284463472771%29.jpg/960px-Koh_Phi_Phi_viewpoint_panorama_%284463472771%29.jpg"
   - name: モンキービーチ
-    lat: 7.7480
-    lng: 98.7680
+    lat: 7.7428
+    lng: 98.7616
     desc: 野生の猿が生息するビーチ
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Monkey_Beach_at_Phi_Phi_Don_Island_-_panoramio.jpg/960px-Monkey_Beach_at_Phi_Phi_Don_Island_-_panoramio.jpg"
   - name: "Harmony House Koh Phi Phi"

@@ -41,3 +41,7 @@ header_pages:
 
 exclude:
   - README.md
+  - CLAUDE.md
+  - learn.md
+  - persona.md
+  - references.md

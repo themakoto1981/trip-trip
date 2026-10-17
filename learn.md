@@ -196,4 +196,16 @@ allow read, write: if request.auth != null
 - `type_text()`での文字入力（挿入）は機能する
 - 全選択は、JSで直接`Range.selectNodeContents()` + `window.getSelection().addRange()`を使い、その状態で`type_text()`を呼ぶと、選択範囲を正しく上書きしてくれる（キーボードでの選択操作より確実）
 - 複数行のテキストを`type_text()`に渡す際、1回の呼び出しで全文を渡すこと。2回に分けて呼ぶと、2回目の入力がカーソル位置0（先頭）に挿入されてしまうことがあった（原因不明、再現性のある挙動として記録）
+
+---
+
+## インシデント：CLAUDE.md / learn.md / persona.md / references.md が本番サイトで公開されていた（2026-10-17発見）
+
+Search Consoleの「インデックス未登録」理由を確認していたユーザーが「インデックスに登録されていないページがある」と指摘。中身を見ると`https://tripxtrip.com/CLAUDE/`、`/learn/`、`/persona/`、`/references/`が実際に200で公開されていた（幸いまだGoogleにはインデックスされていなかった）。
+
+**原因**：`_config.yml`の`exclude:`にこれらのファイルが入っておらず、Jekyllのデフォルト挙動（ルート直下の`.md`ファイルはfront matterがあれば自動でページとしてビルドされる）によって、運用管理用の内部ドキュメントがそのまま一般公開ページになっていた。
+
+**修正**：`_config.yml`の`exclude:`に`CLAUDE.md`, `learn.md`, `persona.md`, `references.md`を追加し、ビルド対象から完全に除外（404になることを確認済み）。
+
+**教訓**：ルート直下に新しい`.md`ファイルを追加するときは、それが「サイトのページとして公開してよいものか」を必ず確認し、内部用なら即座に`_config.yml`の`exclude:`に追加すること。`robots: noindex`だけでは不十分（noindexはGoogleにインデックスさせないだけで、ページ自体は誰でもアクセスできる状態のまま残る）。公開してはいけないファイルは、ビルドから完全に除外するのが正しい対処。
 - 「公開」ボタン（MDC Raised Button）は、`click_at_xy`・JSの`.click()`・`dispatchEvent`でのmousedown/mouseup/click・CDPの`Input.dispatchMouseEvent`、どれを試しても反応しなかった。最終的にユーザー本人にボタンを押してもらって解決した。このボタンだけ反応しない原因は特定できていない（未確認）。同じ症状が再発したら、同様に最後の一押しだけユーザーに依頼するのが現実的。

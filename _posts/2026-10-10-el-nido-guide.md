@@ -65,7 +65,7 @@ excerpt: "石灰岩の断崖とエメラルドグリーンの入り江が広が�
 
 **4日目（4泊目：セブ泊）**
 - 06:50　エルニド・リオ空港発（Cebgo、所要1時間45分）→ 08:35　セブ着
-- 09:30頃　[The Mins Cebu Boutique Hotel](https://www.booking.com/searchresults.html?ss=The+Mins+Cebu+Boutique+Hotel)に荷物を預けてチェックイン（手頃な価格の街なかホテル）
+- 09:30頃　[The Mins Cebu Boutique Hotel](https://www.booking.com/searchresults.html?ss=The+Mins+Cebu+Boutique+Hotel)に荷物を預けてチェックイン（街なかホテル）
 - 日中　セブ市内観光（サント・ニーニョ教会、マゼラン・クロス、カルボン市場など）
 
 **5日目**
@@ -80,7 +80,7 @@ excerpt: "石灰岩の断崖とエメラルドグリーンの入り江が広が�
 
 **2日目（2泊目：エルニド泊）**
 - 09:20　セブ発（Cebgo、所要1時間50分）→ 11:10　エルニド・リオ空港着
-- 11:30頃　空港からトライシクルで約10分、[Cadlao Resort & Restaurant](https://www.booking.com/searchresults.html?ss=Cadlao+Resort+El+Nido)にチェックイン（プール付きの人気リゾート）
+- 11:30頃　空港からトライシクルで約10分、[Cadlao Resort & Restaurant](https://www.booking.com/searchresults.html?ss=Cadlao+Resort+El+Nido)にチェックイン（プール付きのリゾート）
 - 午後　町を散策
 
 **3日目（3泊目：エルニド泊・終日フリー）**

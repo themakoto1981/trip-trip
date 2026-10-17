@@ -45,7 +45,7 @@ excerpt: "成田・関西から直行便で約5時間、空港から近いリゾ
 
 **1日目**
 - 08:55　成田発（セブパシフィック航空 5J5063）→ 13:35　セブ着
-- Grabでホテルへ移動し、[The Stopover Hostel – Mactan](https://www.hostelworld.com/)にチェックイン（空港から1kmの好立地）
+- Grabでホテルへ移動し、[The Stopover Hostel – Mactan](https://www.hostelworld.com/)にチェックイン（空港から1km）
 - 夕方　近くのビーチでのんびり
 
 **2日目**

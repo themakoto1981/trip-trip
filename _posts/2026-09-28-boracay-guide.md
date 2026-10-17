@@ -81,7 +81,7 @@ excerpt: "真っ白なパウダーサンドで知られるフィリピン屈指�
 **2日目（2泊目：ボラカイ泊）**
 - 09:00　専用バンでカティクラン港へ（約70km、渋滞なければ1.5時間ほど）
 - 10:30　カティクラン港からフェリーでボラカイ島（カグバン港）へ（所要15〜30分、日中は頻発）
-- 11:30　[Le Soleil de Boracay Hotel](https://www.booking.com/searchresults.html?ss=Le+Soleil+de+Boracay)にチェックイン（ステーション2のビーチフロントに立つ4つ星、コストパフォーマンスの高さで評判）。身軽になって島散歩などへ
+- 11:30　[Le Soleil de Boracay Hotel](https://www.booking.com/searchresults.html?ss=Le+Soleil+de+Boracay)にチェックイン（ステーション2のビーチフロントに立つ4つ星）。身軽になって島散歩などへ
 
 **3日目（3泊目：ボラカイ泊・終日フリー）**
 - 09:00　[アイランドホッピングツアー](https://www.klook.com/search/result/?query=Boracay%20Island%20Hopping%20Tour)へ出発（クリスタルコーブなどでシュノーケリング）
@@ -112,7 +112,7 @@ excerpt: "真っ白なパウダーサンドで知られるフィリピン屈指�
 **2日目（2泊目：ボラカイ泊）**
 - 09:00　専用バンでカティクラン港へ（約70km、渋滞なければ1.5時間ほど）
 - 10:30　カティクラン港からフェリーでボラカイ島（カグバン港）へ（所要15〜30分、日中は頻発）
-- 11:30　[Shangri-La Boracay Resort](https://www.booking.com/searchresults.html?ss=Shangri-La+Boracay+Resort)にチェックイン（プライベートビーチを持つ島内屈指のラグジュアリーリゾート、オーシャンビューのヴィラが人気）
+- 11:30　[Shangri-La Boracay Resort](https://www.booking.com/searchresults.html?ss=Shangri-La+Boracay+Resort)にチェックイン
 
 **3日目（3泊目：ボラカイ泊・終日フリー）**
 - 09:00　[アイランドホッピングツアー](https://www.klook.com/search/result/?query=Boracay%20Island%20Hopping%20Tour)へ出発（クリスタルコーブなどでシュノーケリング）

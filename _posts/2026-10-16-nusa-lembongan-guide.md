@@ -51,7 +51,7 @@ excerpt: "バリ島のサヌールから高速ボートで約30分、のんび�
 **2日目**
 - 06:10　クアラルンプール着。乗継エリアで待機
 - 10:50　クアラルンプール発（AirAsia）→ 13:55　デンパサール着
-- 入国審査後、[Kura-Kura Bus](https://www.kura2bus.com/)でサヌールへ移動し、[Segara Village Hotel](https://www.booking.com/searchresults.html?ss=Segara+Village+Hotel+Sanur)にチェックイン
+- 入国審査後、[Kura-Kura Bus](https://www.kura2bus.com/)でサヌールへ移動し（片道450〜750円ほど）、[Segara Village Hotel](https://www.booking.com/searchresults.html?ss=Segara+Village+Hotel+Sanur)にチェックイン
 
 **3日目**
 - 10:00　サヌールから高速ボート（[12go.asiaで予約可](https://12go.asia/en/travel/sanur/nusa-lembongan?z=17114820)）でヌサレンボンガン島へ（約30分）
@@ -66,7 +66,7 @@ excerpt: "バリ島のサヌールから高速ボートで約30分、のんび�
 **5日目**
 - 08:00　ホテルでのんびり朝食
 - 12:00　ボートでサヌールへ戻る
-- 14:00頃　Kura-Kura Busでデンパサール空港へ
+- 14:00頃　Kura-Kura Busでデンパサール空港へ（片道450〜750円ほど）
 - 19:45　デンパサール発（AirAsia）→ 22:50　クアラルンプール着。空港周辺の[Tune Hotel KLIA2](https://www.booking.com/searchresults.html?ss=Tune+Hotel+KLIA2)に1泊
 
 **6日目（帰国日）**

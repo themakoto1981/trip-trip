@@ -64,7 +64,7 @@ excerpt: "プーケットに次ぐタイ第2の広さを誇るチャン島。ジ
 
 **2日目**
 - 11:00　空港発の直行ミニバン＋フェリー（[12go.asiaで予約可](https://12go.asia/en/travel/suvarnabhumi-airport/koh-chang?z=17114820)、ホテル送迎込み・¥4,183〜）でチャン島へ（所要5時間30分、パタヤでの乗り換えなし）
-- 16:30頃　[Elephant Bay Resort](https://www.booking.com/searchresults.html?ss=Elephant+Bay+Resort+Koh+Chang)着。そのままチェックイン（手頃な価格のリゾート、1泊2,000円台から）
+- 16:30頃　[Elephant Bay Resort](https://www.booking.com/searchresults.html?ss=Elephant+Bay+Resort+Koh+Chang)着。そのままチェックイン（1泊2,000円台から）
 
 **3日目（終日フリー）**
 - 09:00　ホワイトサンドビーチでのんびり、または離島ツアー
@@ -91,7 +91,7 @@ excerpt: "プーケットに次ぐタイ第2の広さを誇るチャン島。ジ
 
 **2日目**
 - 08:00　パタヤのホテルから乗合バン＋フェリーでチャン島へ（所要5〜6時間、アオ・タマチャート埠頭でフェリーに乗り換え）
-- 14:00　チャン島着。[White Sand Beach Resort](https://www.booking.com/searchresults.html?ss=White+Sand+Beach+Resort+Koh+Chang)にチェックイン（ホワイトサンドビーチ沿いの定番リゾート）
+- 14:00　チャン島着。[White Sand Beach Resort](https://www.booking.com/searchresults.html?ss=White+Sand+Beach+Resort+Koh+Chang)にチェックイン（ホワイトサンドビーチ沿いのリゾート）
 
 **3日目（終日フリー）**
 - 09:00　ホワイトサンドビーチでのんびり、または離島ツアー
@@ -115,13 +115,13 @@ excerpt: "プーケットに次ぐタイ第2の広さを誇るチャン島。ジ
 **1日目**
 - 11:05　羽田発（ANA直行便NH847）
 - 16:20　バンコク（スワンナプーム空港）着。入国審査後、空港直結のホテルへ
-- 17:00頃　[Novotel Bangkok Suvarnabhumi Airport](https://www.booking.com/searchresults.html?ss=Novotel+Bangkok+Suvarnabhumi+Airport)にチェックイン（空港直結の高級ホテルで移動の疲れをその日のうちに癒せる）
+- 17:00頃　[Novotel Bangkok Suvarnabhumi Airport](https://www.booking.com/searchresults.html?ss=Novotel+Bangkok+Suvarnabhumi+Airport)にチェックイン（空港直結の高級ホテル）
 
 **2日目**
 - 10:30頃　ホテルをチェックアウトし、徒歩で空港へ
 - 11:40　バンコク発（バンコクエアウェイズPG305）→ 12:40　トラート着
 - 13:00頃　車で埠頭へ移動（約20分）
-- 13:40頃　フェリーでチャン島へ（約40分）→ 14:20頃　チャン島着。[KC Grande Resort & Spa](https://www.booking.com/searchresults.html?ss=KC+Grande+Resort+%26+Spa+Koh+Chang)にチェックイン（ホワイトサンドビーチで評判No.1の高級リゾート）
+- 13:40頃　フェリーでチャン島へ（約40分）→ 14:20頃　チャン島着。[KC Grande Resort & Spa](https://www.booking.com/searchresults.html?ss=KC+Grande+Resort+%26+Spa+Koh+Chang)にチェックイン
 
 **3日目（終日フリー）**
 - 09:00　ホワイトサンドビーチでのんびり、または離島ツアー

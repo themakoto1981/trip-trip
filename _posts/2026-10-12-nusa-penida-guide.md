@@ -51,11 +51,11 @@ excerpt: "バリ島からボートで30〜45分、断崖と青い海が広がる
 **2日目**
 - 06:50　クアラルンプール着。乗継エリアで待機
 - 09:15　クアラルンプール発（AirAsia、所要3時間15分）→ 12:30　デンパサール着
-- 13:30頃　[Kura-Kura Bus](https://www.kura2bus.com/)でサヌールへ移動し（片道Rp 50,000〜80,000、Grabより割安）、[Segara Village Hotel](https://www.booking.com/searchresults.html?ss=Segara+Village+Hotel+Sanur)にチェックイン（ビーチ沿いのコスパ重視ホテル）
+- 13:30頃　[Kura-Kura Bus](https://www.kura2bus.com/)でサヌールへ移動し、[Segara Village Hotel](https://www.booking.com/searchresults.html?ss=Segara+Village+Hotel+Sanur)にチェックイン
 
 **3日目**
 - 09:00　サヌールから高速ボート（[12go.asiaで予約可](https://12go.asia/en/travel/sanur/nusa-penida?z=17114820)）でヌサペニダ島へ（約30〜45分）
-- 昼前　[Semabu Hills Hotel](https://www.booking.com/searchresults.html?ss=Semabu+Hills+Hotel+Nusa+Penida)にチェックイン（海を望むインフィニティプールが人気）
+- 昼前　[Semabu Hills Hotel](https://www.booking.com/searchresults.html?ss=Semabu+Hills+Hotel+Nusa+Penida)にチェックイン
 - 15:00　クリスタルベイでシュノーケリング、夕日を眺める
 
 **4日目（終日フリー）**
@@ -66,7 +66,7 @@ excerpt: "バリ島からボートで30〜45分、断崖と青い海が広がる
 **5日目**
 - 08:00　ホテルで朝食をとりのんびり過ごす
 - 12:00　ボートでサヌールへ戻る
-- 14:00頃　Kura-Kura Busでデンパサール空港へ（片道Rp 50,000〜80,000、Grabより割安）
+- 14:00頃　Kura-Kura Busでデンパサール空港へ
 - 19:45　デンパサール発（AirAsia、所要3時間5分）→ 22:50　クアラルンプール着
 - 空港周辺の[Tune Hotel KLIA2](https://www.booking.com/searchresults.html?ss=Tune+Hotel+KLIA2)に1泊
 
@@ -82,7 +82,7 @@ excerpt: "バリ島からボートで30〜45分、断崖と青い海が広がる
 
 **2日目**
 - 09:00　サヌールから高速ボート（[12go.asiaで予約可](https://12go.asia/en/travel/sanur/nusa-penida?z=17114820)）でヌサペニダ島へ（約30〜45分）
-- 昼前　[Semabu Hills Hotel](https://www.booking.com/searchresults.html?ss=Semabu+Hills+Hotel+Nusa+Penida)にチェックイン（海を望む丘の上のホテル）
+- 昼前　[Semabu Hills Hotel](https://www.booking.com/searchresults.html?ss=Semabu+Hills+Hotel+Nusa+Penida)にチェックイン（丘の上のホテル）
 - 15:00　クリスタルベイでシュノーケリング、夕日を眺める
 
 **3日目（終日フリー）**

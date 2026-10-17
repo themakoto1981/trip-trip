@@ -50,8 +50,8 @@ excerpt: "バリ島のサヌールから高速ボートで約30分、のんび�
 
 **2日目**
 - 06:10　クアラルンプール着。乗継エリアで待機
-- 午前発　クアラルンプール発（AirAsia）→ 昼過ぎ　デンパサール着
-- 入国審査後、[Grabカー](/grab/)でサヌールへ移動し、[Segara Village Hotel](https://www.booking.com/searchresults.html?ss=Segara+Village+Hotel+Sanur)にチェックイン（ビーチ沿いのコスパ重視ホテル）
+- 10:50　クアラルンプール発（AirAsia）→ 13:55　デンパサール着
+- 入国審査後、[Kura-Kura Bus](https://www.kura2bus.com/)でサヌールへ移動し（片道Rp 50,000〜80,000、Grabより割安）、[Segara Village Hotel](https://www.booking.com/searchresults.html?ss=Segara+Village+Hotel+Sanur)にチェックイン（ビーチ沿いのコスパ重視ホテル）
 
 **3日目**
 - 10:00　サヌールから高速ボート（[12go.asiaで予約可](https://12go.asia/en/travel/sanur/nusa-lembongan?z=17114820)）でヌサレンボンガン島へ（約30分）
@@ -64,13 +64,13 @@ excerpt: "バリ島のサヌールから高速ボートで約30分、のんび�
 - 17:00　デビルズティアで夕日
 
 **5日目**
-- 午前　ホテルでのんびり朝食
+- 08:00　ホテルでのんびり朝食
 - 12:00　ボートでサヌールへ戻る
-- 午後　Grabカーでデンパサール空港へ
-- 夜発　デンパサール発（AirAsia）→ クアラルンプール着。空港周辺の[Tune Hotel KLIA2](https://www.booking.com/searchresults.html?ss=Tune+Hotel+KLIA2)に1泊
+- 14:00頃　Kura-Kura Busでデンパサール空港へ（片道Rp 50,000〜80,000、Grabより割安）
+- 19:45　デンパサール発（AirAsia）→ 22:50　クアラルンプール着。空港周辺の[Tune Hotel KLIA2](https://www.booking.com/searchresults.html?ss=Tune+Hotel+KLIA2)に1泊
 
 **6日目（帰国日）**
-- 午後発　クアラルンプール発（AirAsia X直行便）→ 夜　羽田着
+- 14:10　クアラルンプール発（AirAsia X直行便D7522）→ 22:00　羽田着
 
 ## おすすめ旅程（ゆる旅向け／直行便・3泊5日の例）
 

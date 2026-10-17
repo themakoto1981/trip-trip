@@ -253,6 +253,11 @@ redang-guide:
     url: "https://www.booking.com/searchresults.html?ss=The+Taaras+Beach+%26+Spa+Resort+Redang"
 
 koh-phiphi-guide:
+  - name: トンサイ港
+    lat: 7.7365
+    lng: 98.7749
+    desc: プーケットからのフェリーが発着する、ピピ島の玄関口
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Tonsai_Pier.jpg/960px-Tonsai_Pier.jpg"
   - name: マヤベイ
     lat: 7.6790
     lng: 98.7639

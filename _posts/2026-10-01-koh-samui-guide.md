@@ -72,7 +72,7 @@ excerpt: "タイ湾に浮かぶ南国リゾート、サムイ島の行き方・�
 - 10:50　羽田発（ANA直行便、所要6〜7時間）
 - 15:30　バンコク（スワンナプーム空港）着。入国審査・荷物受取に1〜1.5時間ほどみておく
 - 17:30頃　バンコク発（バンコクエアウェイズ、所要約1時間）
-- 18:30頃　サムイ島着。空港からGrabカーで15〜20分ほどで[Chaweng Garden Beach Resort](https://www.booking.com/searchresults.html?ss=Chaweng+Garden+Beach+Resort)にチェックイン（チャウエン中心部のビーチフロントリゾート、2つのプールと評判の良い朝食が人気）
+- 18:30頃　サムイ島着。空港からGrabカーで15〜20分ほどで[Chaweng Garden Beach Resort](https://www.booking.com/searchresults.html?ss=Chaweng+Garden+Beach+Resort)にチェックイン（チャウエン中心部のビーチフロントリゾート、2つのプール）
 
 **2日目（終日フリー）**
 - 09:00〜　終日フリー（おすすめ：チャウエンビーチでのんびり過ごす）

@@ -51,7 +51,7 @@ excerpt: "バリ島から高速ボートで約1時間半、車もバイクも走
 **2日目**
 - 06:10　クアラルンプール着。乗継エリアで待機
 - 10:50　クアラルンプール発（AirAsia AK371）→ 13:55　デンパサール着
-- 16:00頃　Peramaシャトル（乗合バン）でパダンバイへ移動し、[Topi Inn](https://www.booking.com/searchresults.html?ss=Topi+Inn+Padangbai)にチェックイン（港まで徒歩圏の宿）
+- 16:00頃　Peramaシャトル（乗合バン）でパダンバイへ移動し（片道900円ほど）、[Topi Inn](https://www.booking.com/searchresults.html?ss=Topi+Inn+Padangbai)にチェックイン（港まで徒歩圏の宿）
 
 **3日目**
 - 08:00　パダンバイから高速ボート（[12go.asiaで予約可](https://12go.asia/en/travel/padang-bai/gili-trawangan?z=17114820)）でギリ・トラワンガン島へ（約1時間半、9:30頃到着）
@@ -66,7 +66,7 @@ excerpt: "バリ島から高速ボートで約1時間半、車もバイクも走
 **5日目**
 - 午前　ホテルでのんびり朝食
 - 13:00　ボートでパダンバイへ戻り（約1時間半、14:30頃到着）
-- 15:00頃　Peramaシャトルでデンパサール空港へ
+- 15:00頃　Peramaシャトルでデンパサール空港へ（片道900円ほど）
 - 19:45　デンパサール発（AirAsia AK379）→ 22:50　クアラルンプール着。空港周辺の[Tune Hotel KLIA2](https://www.booking.com/searchresults.html?ss=Tune+Hotel+KLIA2)に1泊
 
 **6日目（帰国日）**

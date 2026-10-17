@@ -61,7 +61,7 @@ excerpt: "「マレーシアで一番美しい海」とも称される透明度�
 - 06:15　クアラルンプール着。入国審査・荷物受取に1〜1.5時間ほどみておく、国内線へ乗継
 - 07:20　クアラルンプール発（AirAsia）→ 08:20　クアラトレンガヌ着
 - 09:00頃　[Grabカー](/grab/)で船着場へ移動（約30分）、フェリーでレダン島へ（約1時間）
-- 10:30頃　[Redang De' Rimba Resort](https://www.booking.com/searchresults.html?ss=Redang+De+Rimba+Resort)にチェックイン（レダン島の中では手頃な価格帯の宿）
+- 10:30頃　[Redang De' Rimba Resort](https://www.booking.com/searchresults.html?ss=Redang+De+Rimba+Resort)にチェックイン
 
 **3日目（終日フリー）**
 - 09:00　マリンパーク（コーラルガーデン）でシュノーケリングツアー
@@ -85,7 +85,7 @@ excerpt: "「マレーシアで一番美しい海」とも称される透明度�
 - 06:45　クアラルンプール着。入国審査後、国内線カウンターへ（乗継時間に余裕あり）
 - 08:15　クアラルンプール発（マレーシア航空MH1326）→ 09:15　クアラトレンガヌ着
 - 09:45頃　Grabカーで船着場へ移動（約30分）、フェリーでレダン島へ（約1時間）
-- 11:00頃　[Laguna Redang Island Resort](https://www.booking.com/searchresults.html?ss=Laguna+Redang+Island+Resort)にチェックイン（ガーデンビュールームから選べる定番リゾート）
+- 11:00頃　[Laguna Redang Island Resort](https://www.booking.com/searchresults.html?ss=Laguna+Redang+Island+Resort)にチェックイン（ガーデンビュールームから選べるリゾート）
 
 **2日目（終日フリー）**
 - 09:00　マリンパーク（コーラルガーデン）でシュノーケリングツアー
@@ -113,7 +113,7 @@ excerpt: "「マレーシアで一番美しい海」とも称される透明度�
 - 06:45　クアラルンプール着。入国審査後、国内線カウンターへ（乗継時間に余裕あり）
 - 08:15　クアラルンプール発（マレーシア航空MH1326）→ 09:15　クアラトレンガヌ着
 - 09:45頃　Grabカーで船着場へ移動（約30分）、フェリーでレダン島へ（約1時間）
-- 11:00頃　[The Taaras Beach & Spa Resort](https://www.booking.com/searchresults.html?ss=The+Taaras+Beach+%26+Spa+Resort+Redang)にチェックイン（レダン島屈指の高級5つ星リゾート）
+- 11:00頃　[The Taaras Beach & Spa Resort](https://www.booking.com/searchresults.html?ss=The+Taaras+Beach+%26+Spa+Resort+Redang)にチェックイン（高級5つ星リゾート）
 
 **2日目（終日フリー）**
 - 09:00　マリンパーク（コーラルガーデン）でシュノーケリングツアー

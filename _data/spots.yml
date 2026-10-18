@@ -789,3 +789,46 @@ nusa-lembongan-guide:
     type: hotel
     letter: ら
     url: "https://www.booking.com/searchresults.html?ss=Hyatt+Regency+Bali"
+
+koh-tao-guide:
+  - name: サイリービーチ
+    lat: 10.0973
+    lng: 99.8278
+    desc: 島のメインビーチ、カフェ・レストラン・ダイブショップが集まる中心地
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Koh_Tao_Sairee_Beach.jpg/960px-Koh_Tao_Sairee_Beach.jpg"
+  - name: ジョントン・ビューポイント
+    lat: 10.0601
+    lng: 99.8294
+    desc: 島を一望できる展望スポット、サンセットの名所
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Thian_Og_Bay%2C_Koh_Tao_%2848109608833%29.jpg/960px-Thian_Og_Bay%2C_Koh_Tao_%2848109608833%29.jpg"
+  - name: マンゴーベイ
+    lat: 10.1217
+    lng: 99.8338
+    desc: 静かな入り江、シュノーケリングで人気
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Mango_Bay_at_Koh_Tao_-_Thailand.jpg/960px-Mango_Bay_at_Koh_Tao_-_Thailand.jpg"
+  - name: シャークベイ
+    lat: 10.0657
+    lng: 99.8321
+    desc: 名前の由来になったコバンザメに出会えることもあるビーチ
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Koh_Tao%2C_View_from_Shark_Bay%2C_Thailand.jpg/960px-Koh_Tao%2C_View_from_Shark_Bay%2C_Thailand.jpg"
+  - name: "Koh Tao Garden Resort"
+    lat: 10.0829
+    lng: 99.8248
+    desc: "やす旅向け、マハートビーチ近くのバルコニー付き手頃な客室"
+    type: hotel
+    letter: "や"
+    url: "https://www.booking.com/searchresults.html?ss=Koh+Tao+Garden+Resort"
+  - name: "Ban's Diving Resort"
+    lat: 10.0936
+    lng: 99.8278
+    desc: "ゆる旅向け、サイリービーチ中心部の複数プールを持つ大型リゾート"
+    type: hotel
+    letter: "ゆ"
+    url: "https://www.booking.com/searchresults.html?ss=Ban%27s+Diving+Resort+Koh+Tao"
+  - name: "Phandara Luxury Villas"
+    lat: 10.1060
+    lng: 99.8290
+    desc: "らぐ旅向け、サイリービーチを見下ろす丘の上のプール付きヴィラ"
+    type: hotel
+    letter: "ら"
+    url: "https://www.booking.com/searchresults.html?ss=Phandara+Luxury+Villas+Koh+Tao"

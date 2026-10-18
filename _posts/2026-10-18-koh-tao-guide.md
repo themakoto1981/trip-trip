@@ -56,7 +56,9 @@ excerpt: "世界屈指のダイビングスポットとして知られるタイ�
 **2日目**
 - 06:15頃　ホテルを出発、[Grabカー](/grab/)で港へ
 - 07:00　チュンポン発の高速船（Lomprayah）でタオ島へ（所要約1時間45分、08:45着）
-- 09:30頃　[Koh Tao Garden Resort](https://www.booking.com/searchresults.html?ss=Koh+Tao+Garden+Resort)にチェックイン
+- 09:00頃　[Koh Tao Garden Resort](https://www.booking.com/searchresults.html?ss=Koh+Tao+Garden+Resort)に荷物を預け、マハートビーチでのんびり過ごす
+- 14:00　正式にチェックイン
+- 18:00　サイリービーチ周辺で夕食
 
 **3日目（終日フリー）**
 - 09:00　体験ダイビングまたはシュノーケリングツアーへ出発
@@ -91,8 +93,8 @@ excerpt: "世界屈指のダイビングスポットとして知られるタイ�
 
 **2日目**
 - 08:00　サムイ島発の高速船（Lomprayah）でタオ島へ（所要約1時間30分、09:30頃着）
-- 10:00頃　[Ban's Diving Resort](https://www.booking.com/searchresults.html?ss=Ban%27s+Diving+Resort+Koh+Tao)にチェックイン（サイリービーチ中心部、プール複数あり）
-- 15:00　サイリービーチでのんびり過ごす
+- 10:00頃　[Ban's Diving Resort](https://www.booking.com/searchresults.html?ss=Ban%27s+Diving+Resort+Koh+Tao)（サイリービーチ中心部、プール複数あり）に荷物を預け、サイリービーチで早めのランチ
+- 14:00　正式にチェックイン、ホテルのプールでひと休み
 
 **3日目（終日フリー）**
 - 09:00　体験ダイビングまたはシュノーケリングツアーへ出発
@@ -115,8 +117,8 @@ excerpt: "世界屈指のダイビングスポットとして知られるタイ�
 
 **2日目**
 - 08:00　サムイ島発の高速船（Lomprayah）でタオ島へ（所要約1時間30分、09:30頃着）
-- 10:00頃　[Phandara Luxury Villas](https://www.booking.com/searchresults.html?ss=Phandara+Luxury+Villas+Koh+Tao)にチェックイン（サイリービーチを見下ろす丘の上のプール付きヴィラ）
-- 15:00　ヴィラのプールでのんびり過ごす
+- 10:00頃　[Phandara Luxury Villas](https://www.booking.com/searchresults.html?ss=Phandara+Luxury+Villas+Koh+Tao)（サイリービーチを見下ろす丘の上のプール付きヴィラ）に荷物を預け、サイリービーチで早めのランチ
+- 14:00　正式にチェックイン、ヴィラのプールでのんびり過ごす
 
 **3日目（終日フリー）**
 - 09:00　貸切ボートでシュノーケリングツアーへ

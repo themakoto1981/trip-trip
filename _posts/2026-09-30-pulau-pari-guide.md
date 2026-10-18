@@ -52,7 +52,7 @@ excerpt: "ジャカルタから日帰りも可能な離島リゾート、パリ�
 - **ゆる旅**：羽田発ANA直行｜乗継なし｜移動負担を軽減<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
 - **らぐ旅**：羽田発ANA直行｜乗継なし｜快適な長距離移動<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
 
-## おすすめ旅程（やす旅向け／LCC利用・2泊3日の例）
+## おすすめ旅程（やす旅向け／LCC利用・1泊2日の例）
 
 **1日目**
 - 08:15　成田発（スクートTR809）→ 14:25　シンガポール着

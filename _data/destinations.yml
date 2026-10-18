@@ -286,6 +286,31 @@
   url: /2026/10/01/koh-samui-guide/
   tags: { beach: 5, resort: 5, island: 4, city_base: 2, sightseeing: 3, relax: 3, party: 4, activity: 3 }
 
+- name: タオ島
+  en_name: "Koh Tao, Thailand"
+  slug: koh-tao-guide
+  country: タイ
+  country_slug: thailand
+  lat: 10.0922
+  lng: 99.8395
+  flight_min: 50000
+  flight_max: 150000
+  hotel_min: 2000
+  hotel_max: 20000
+  transport_min: 500
+  transport_max: 2000
+  food_min: 2000
+  food_max: 5000
+  flight_hours: "約12〜16時間（バンコク乗り継ぎ、チュンポンまたはサムイ島経由）"
+  recommended_nights: "3泊以上"
+  visa: "不要（30日以内）"
+  photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Koh_Tao_Sairee_Beach.jpg/960px-Koh_Tao_Sairee_Beach.jpg"
+  photo_credit_url: "https://commons.wikimedia.org/wiki/File:Koh_Tao_Sairee_Beach.jpg"
+  suited_for: [solo, friends, couple]
+  best_months: [12, 1, 2]
+  url: /2026/10/18/koh-tao-guide/
+  tags: { beach: 4, resort: 2, island: 5, city_base: 1, sightseeing: 2, relax: 3, party: 3, activity: 5 }
+
 - name: ダナン・ホイアン
   en_name: "Da Nang & Hoi An, Vietnam"
   slug: danang-hoian-guide

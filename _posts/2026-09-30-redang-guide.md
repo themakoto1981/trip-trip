@@ -60,8 +60,9 @@ excerpt: "「マレーシアで一番美しい海」とも称される透明度�
 **2日目**
 - 06:15　クアラルンプール着。入国審査・荷物受取に1〜1.5時間ほどみておく、国内線へ乗継
 - 07:20　クアラルンプール発（AirAsia）→ 08:20　クアラトレンガヌ着
-- 09:00頃　[Grabカー](/grab/)で船着場へ移動（約30分）、フェリーでレダン島へ（約1時間）
-- 10:30頃　[Redang De' Rimba Resort](https://www.booking.com/searchresults.html?ss=Redang+De+Rimba+Resort)に荷物を預け、ビーチでのんびり過ごす
+- 09:00頃　[Grabカー](/grab/)で船着場へ移動（約30分）、10:30発のフェリーまで近くで待機
+- 10:30　船着場発のフェリーでレダン島へ（所要約1時間、船着場の定期便は9:00・10:30・15:00発など1日数便）
+- 11:30頃　[Redang De' Rimba Resort](https://www.booking.com/searchresults.html?ss=Redang+De+Rimba+Resort)に荷物を預け、ビーチで軽く過ごす
 - 14:00　正式にチェックイン
 
 **3日目（終日フリー）**
@@ -85,8 +86,9 @@ excerpt: "「マレーシアで一番美しい海」とも称される透明度�
 - 00:05　羽田発（ANA直行便NH885）
 - 06:45　クアラルンプール着。入国審査後、国内線カウンターへ（乗継時間に余裕あり）
 - 08:15　クアラルンプール発（マレーシア航空MH1326）→ 09:15　クアラトレンガヌ着
-- 09:45頃　Grabカーで船着場へ移動（約30分）、フェリーでレダン島へ（約1時間）
-- 11:00頃　[Laguna Redang Island Resort](https://www.booking.com/searchresults.html?ss=Laguna+Redang+Island+Resort)に荷物を預け、ビーチでのんびり過ごす（ガーデンビュールームから選べるリゾート）
+- 09:45頃　Grabカーで船着場へ移動（約30分）、10:30発のフェリーまで近くで待機
+- 10:30　船着場発のフェリーでレダン島へ（所要約1時間、船着場の定期便は9:00・10:30・15:00発など1日数便）
+- 11:30頃　[Laguna Redang Island Resort](https://www.booking.com/searchresults.html?ss=Laguna+Redang+Island+Resort)に荷物を預け、ビーチで軽く過ごす（ガーデンビュールームから選べるリゾート）
 - 14:00　正式にチェックイン
 
 **2日目（終日フリー）**
@@ -114,8 +116,9 @@ excerpt: "「マレーシアで一番美しい海」とも称される透明度�
 - 00:05　羽田発（ANA直行便NH885）
 - 06:45　クアラルンプール着。入国審査後、国内線カウンターへ（乗継時間に余裕あり）
 - 08:15　クアラルンプール発（マレーシア航空MH1326）→ 09:15　クアラトレンガヌ着
-- 09:45頃　Grabカーで船着場へ移動（約30分）、フェリーでレダン島へ（約1時間）
-- 11:00頃　[The Taaras Beach & Spa Resort](https://www.booking.com/searchresults.html?ss=The+Taaras+Beach+%26+Spa+Resort+Redang)に荷物を預け、ビーチでのんびり過ごす（高級5つ星リゾート）
+- 09:45頃　Grabカーで船着場へ移動（約30分）、10:30発のフェリーまで近くで待機
+- 10:30　船着場発のフェリーでレダン島へ（所要約1時間、船着場の定期便は9:00・10:30・15:00発など1日数便）
+- 11:30頃　[The Taaras Beach & Spa Resort](https://www.booking.com/searchresults.html?ss=The+Taaras+Beach+%26+Spa+Resort+Redang)に荷物を預け、ビーチで軽く過ごす（高級5つ星リゾート）
 - 14:00　正式にチェックイン
 
 **2日目（終日フリー）**

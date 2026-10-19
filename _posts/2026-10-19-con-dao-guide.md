@@ -45,11 +45,13 @@ excerpt: "「ベトナム最後の楽園」と呼ばれる南シナ海の秘島�
 ## おすすめ旅程（やす旅向け／ホーチミン1泊・4泊5日の例）
 
 **1日目**
-- 羽田発（Vietjet Air直行便）→ ホーチミン着。入国審査後、[ibis Saigon Airport](https://www.booking.com/searchresults.html?ss=ibis+Saigon+Airport)の無料シャトルでホテルへ、1泊
+- 12:00　羽田発（Vietjet Air直行便）→ 16:10　ホーチミン着。入国審査後、[ibis Saigon Airport](https://www.booking.com/searchresults.html?ss=ibis+Saigon+Airport)の無料シャトルでホテルへ、1泊
 
 **2日目**
-- 空港で国内線に乗り換え、ホーチミン発（ベトナム航空、約50分）→ コンダオ着
-- 車でコンソンの町へ。[Phi Yen Guest House](https://www.booking.com/searchresults.html?ss=Phi+Yen+Guest+House+Con+Dao)に荷物を預け、海沿いを散歩
+- 06:20　ホーチミン発（ベトナム航空、約50分）→ 07:10　コンダオ着
+- 07:30頃　車でコンソンの町へ。[Phi Yen Guest House](https://www.booking.com/searchresults.html?ss=Phi+Yen+Guest+House+Con+Dao)に荷物を預ける
+- 08:30　町なかの食堂で朝食
+- 10:00　アンハイビーチを散策
 - 14:00　チェックイン
 
 **3日目（終日フリー）**
@@ -61,9 +63,10 @@ excerpt: "「ベトナム最後の楽園」と呼ばれる南シナ海の秘島�
 - 14:00　アンハイビーチでのんびり
 
 **5日目**
-- コンダオ発（ベトナム航空、約50分）→ ホーチミン着
-- ホーチミン市内でランチや買い物を楽しみ、空港へ
-- ホーチミン発（Vietjet Air直行便）→ 日本着
+- 09:25　コンダオ発（ベトナム航空、約1時間5分）→ 10:30　ホーチミン着
+- 12:00　ホーチミン市内でランチや買い物を楽しみ
+- 16:00　空港へ移動
+- 17:00　ホーチミン発（Vietjet Air直行便）→ 翌01:00　羽田着
 
 ## おすすめ旅程（ゆる旅向け／ホーチミン1泊・4泊5日の例）
 
@@ -71,8 +74,10 @@ excerpt: "「ベトナム最後の楽園」と呼ばれる南シナ海の秘島�
 - 17:45　羽田発（ANA直行便NH891）→ 21:55　ホーチミン着。入国審査後、[ibis Saigon Airport](https://www.booking.com/searchresults.html?ss=ibis+Saigon+Airport)の無料シャトルでホテルへ、1泊
 
 **2日目**
-- 空港で国内線に乗り換え、ホーチミン発（ベトナム航空、約50分）→ コンダオ着
-- 車でコンソンの町へ。[Tan Son Nhat Con Dao Resort](https://www.booking.com/searchresults.html?ss=Tan+Son+Nhat+Con+Dao+Resort)に荷物を預け、ビーチで過ごす
+- 06:20　ホーチミン発（ベトナム航空、約50分）→ 07:10　コンダオ着
+- 07:30頃　車でコンソンの町へ。[Tan Son Nhat Con Dao Resort](https://www.booking.com/searchresults.html?ss=Tan+Son+Nhat+Con+Dao+Resort)に荷物を預ける
+- 08:30　町なかの食堂で朝食
+- 10:00　アンハイビーチを散策
 - 14:00　チェックイン
 
 **3日目（終日フリー）**
@@ -84,9 +89,10 @@ excerpt: "「ベトナム最後の楽園」と呼ばれる南シナ海の秘島�
 - 14:00　アンハイビーチでのんびり
 
 **5日目**
-- コンダオ発（ベトナム航空、約50分）→ ホーチミン着
-- ホーチミン市内でランチや買い物を楽しみ、空港へ
-- ホーチミン発（ANA直行便）→ 羽田着
+- 09:25　コンダオ発（ベトナム航空、約1時間5分）→ 10:30　ホーチミン着
+- 12:00　ホーチミン市内でランチや買い物を楽しみ
+- 19:00　空港へ移動
+- 23:05　ホーチミン発（ANA直行便NH892）→ 翌07:00　羽田着
 
 ## おすすめ旅程（らぐ旅向け／ホーチミン1泊・4泊5日の例）
 
@@ -94,8 +100,10 @@ excerpt: "「ベトナム最後の楽園」と呼ばれる南シナ海の秘島�
 - 17:45　羽田発（ANA直行便NH891）→ 21:55　ホーチミン着。入国審査後、[Grabカー](/grab/)で市内の[Novotel Saigon Centre](https://www.booking.com/searchresults.html?ss=Novotel+Saigon+Centre)へ、1泊
 
 **2日目**
-- ホテルから空港へ移動し、ホーチミン発（ベトナム航空、約50分）→ コンダオ着
-- リゾート手配の送迎で[Six Senses Con Dao](https://www.booking.com/searchresults.html?ss=Six+Senses+Con+Dao)へ。荷物を預けてレストランで昼食
+- 05:30頃　ホテルから空港へ移動
+- 06:20　ホーチミン発（ベトナム航空、約50分）→ 07:10　コンダオ着
+- 08:00頃　リゾート手配の送迎で[Six Senses Con Dao](https://www.booking.com/searchresults.html?ss=Six+Senses+Con+Dao)へ、荷物を預ける
+- 12:00　レストランで昼食
 - 14:00　プライベートプールヴィラにチェックイン
 
 **3日目（終日フリー）**
@@ -107,9 +115,10 @@ excerpt: "「ベトナム最後の楽園」と呼ばれる南シナ海の秘島�
 - 14:00　リゾートのビーチ・スパでのんびり
 
 **5日目**
-- コンダオ発（ベトナム航空、約50分）→ ホーチミン着
-- ホーチミン市内でランチやショッピングを楽しみ、空港へ
-- ホーチミン発（ANA直行便）→ 羽田着
+- 09:25　コンダオ発（ベトナム航空、約1時間5分）→ 10:30　ホーチミン着
+- 12:00　ホーチミン市内でランチやショッピングを楽しみ
+- 19:00　空港へ移動
+- 23:05　ホーチミン発（ANA直行便NH892）→ 翌07:00　羽田着
 
 ## おすすめビーチ・スポット
 

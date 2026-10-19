@@ -54,8 +54,8 @@ excerpt: "バリ島のサヌールから高速ボートで約30分、のんび�
 - 入国審査後、[Kura-Kura Bus](https://www.kura2bus.com/)でサヌールへ移動し（片道450〜750円ほど）、[Segara Village Hotel](https://www.booking.com/searchresults.html?ss=Segara+Village+Hotel+Sanur)にチェックイン
 
 **3日目**
-- 10:00　サヌールから高速ボート（[12go.asiaで予約可](https://12go.asia/en/travel/sanur/nusa-lembongan?z=17114820)）でヌサレンボンガン島へ（約30分）
-- 昼前　[Hai Tide Beach Resort](https://www.booking.com/searchresults.html?ss=Hai+Tide+Beach+Resort+Nusa+Lembongan)に荷物を預け、ビーチでのんびり過ごす
+- 11:00　サヌールから高速ボート（[12go.asiaで予約可](https://12go.asia/en/travel/sanur/nusa-lembongan?z=17114820)）でヌサレンボンガン島へ（約30分。サヌール発は午前から午後まで複数便あり、09:00台に慌てて出る必要はない）
+- 11:45頃　[Hai Tide Beach Resort](https://www.booking.com/searchresults.html?ss=Hai+Tide+Beach+Resort+Nusa+Lembongan)に荷物を預け、ビーチで軽く過ごす
 - 14:00　正式にチェックイン
 - 15:00　ジャングットバトゥのビーチで夕日を眺める
 
@@ -83,8 +83,8 @@ excerpt: "バリ島のサヌールから高速ボートで約30分、のんび�
 - 19:30頃　[Prime Plaza Hotel Sanur](https://www.booking.com/searchresults.html?ss=Prime+Plaza+Hotel+Sanur)にチェックイン（ボート乗り場に近いビーチサイドのホテル）
 
 **2日目**
-- 10:00　サヌールから高速ボート（[12go.asiaで予約可](https://12go.asia/en/travel/sanur/nusa-lembongan?z=17114820)）でヌサレンボンガン島へ（約30分）
-- 昼前　[Mahagiri Resort Nusa Lembongan](https://www.booking.com/searchresults.html?ss=Mahagiri+Resort+Nusa+Lembongan)に荷物を預け、ビーチでのんびり過ごす（プールのあるリゾート）
+- 11:00　サヌールから高速ボート（[12go.asiaで予約可](https://12go.asia/en/travel/sanur/nusa-lembongan?z=17114820)）でヌサレンボンガン島へ（約30分。サヌール発は午前から午後まで複数便あり、09:00台に慌てて出る必要はない）
+- 11:45頃　[Mahagiri Resort Nusa Lembongan](https://www.booking.com/searchresults.html?ss=Mahagiri+Resort+Nusa+Lembongan)に荷物を預け、ビーチで軽く過ごす（プールのあるリゾート）
 - 14:00　正式にチェックイン
 - 15:00　マッシュルームベイでシュノーケリング
 
@@ -109,8 +109,8 @@ excerpt: "バリ島のサヌールから高速ボートで約30分、のんび�
 - 19:30頃　[Hyatt Regency Bali](https://www.booking.com/searchresults.html?ss=Hyatt+Regency+Bali)にチェックイン（サヌールビーチ沿いの大型リゾート）
 
 **2日目**
-- 10:00　サヌールから高速ボート（[12go.asiaで予約可](https://12go.asia/en/travel/sanur/nusa-lembongan?z=17114820)）でヌサレンボンガン島へ（約30分）
-- 昼前　[Batu Karang Lembongan Resort & Day Spa](https://www.booking.com/searchresults.html?ss=Batu+Karang+Lembongan+Resort)に荷物を預け、ビーチでのんびり過ごす（プール付きの高級リゾート）
+- 11:00　サヌールから高速ボート（[12go.asiaで予約可](https://12go.asia/en/travel/sanur/nusa-lembongan?z=17114820)）でヌサレンボンガン島へ（約30分。サヌール発は午前から午後まで複数便あり、09:00台に慌てて出る必要はない）
+- 11:45頃　[Batu Karang Lembongan Resort & Day Spa](https://www.booking.com/searchresults.html?ss=Batu+Karang+Lembongan+Resort)に荷物を預け、ビーチで軽く過ごす（プール付きの高級リゾート）
 - 14:00　正式にチェックイン
 - 15:00　マッシュルームベイでシュノーケリング
 

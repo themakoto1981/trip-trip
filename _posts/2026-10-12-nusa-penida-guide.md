@@ -55,7 +55,8 @@ excerpt: "バリ島からボートで30〜45分、断崖と青い海が広がる
 
 **3日目**
 - 09:00　サヌールから高速ボート（[12go.asiaで予約可](https://12go.asia/en/travel/sanur/nusa-penida?z=17114820)）でヌサペニダ島へ（約30〜45分）
-- 昼前　[Semabu Hills Hotel](https://www.booking.com/searchresults.html?ss=Semabu+Hills+Hotel+Nusa+Penida)にチェックイン
+- 昼前　[Semabu Hills Hotel](https://www.booking.com/searchresults.html?ss=Semabu+Hills+Hotel+Nusa+Penida)に荷物を預け、ホテル周辺でのんびり過ごす
+- 14:00　正式にチェックイン
 - 15:00　クリスタルベイでシュノーケリング、夕日を眺める
 
 **4日目（終日フリー）**
@@ -65,12 +66,14 @@ excerpt: "バリ島からボートで30〜45分、断崖と青い海が広がる
 
 **5日目**
 - 08:00　ホテルで朝食をとりのんびり過ごす
+- 11:00　ホテルをチェックアウト
 - 12:00　ボートでサヌールへ戻る
 - 14:00頃　Kura-Kura Busでデンパサール空港へ（片道450〜750円ほど）
 - 19:45　デンパサール発（AirAsia、所要3時間5分）→ 22:50　クアラルンプール着
 - 空港周辺の[Tune Hotel KLIA2](https://www.booking.com/searchresults.html?ss=Tune+Hotel+KLIA2)に1泊
 
 **6日目（帰国日）**
+- 11:00　ホテルをチェックアウト
 - 14:45　クアラルンプール発（AirAsia X直行便、所要6時間55分）→ 22:40　羽田着
 
 ## おすすめ旅程（ゆる旅向け／直行便・3泊4日の例）
@@ -82,7 +85,8 @@ excerpt: "バリ島からボートで30〜45分、断崖と青い海が広がる
 
 **2日目**
 - 09:00　サヌールから高速ボート（[12go.asiaで予約可](https://12go.asia/en/travel/sanur/nusa-penida?z=17114820)）でヌサペニダ島へ（約30〜45分）
-- 昼前　[Semabu Hills Hotel](https://www.booking.com/searchresults.html?ss=Semabu+Hills+Hotel+Nusa+Penida)にチェックイン（丘の上のホテル）
+- 昼前　[Semabu Hills Hotel](https://www.booking.com/searchresults.html?ss=Semabu+Hills+Hotel+Nusa+Penida)に荷物を預け、ホテル周辺でのんびり過ごす（丘の上のホテル）
+- 14:00　正式にチェックイン
 - 15:00　クリスタルベイでシュノーケリング、夕日を眺める
 
 **3日目（終日フリー）**
@@ -92,6 +96,7 @@ excerpt: "バリ島からボートで30〜45分、断崖と青い海が広がる
 
 **4日目（帰国日）**
 - 08:00　ホテルで朝食をとりのんびり過ごす
+- 11:00　ホテルをチェックアウト
 - 13:00　ボートでサヌールへ戻る
 - 18:00　サヌールの海沿いでディナー
 - 22:00頃　Grabカーでデンパサール空港へ
@@ -106,7 +111,8 @@ excerpt: "バリ島からボートで30〜45分、断崖と青い海が広がる
 
 **2日目**
 - 09:00　サヌールから高速ボートでヌサペニダ島へ（約30〜45分）
-- 昼前　[Penida Bambu Green Suites](https://www.booking.com/searchresults.html?ss=Penida+Bambu+Green+Suites)にチェックイン（竹造りのヴィラが並ぶ高級ホテル）
+- 昼前　[Penida Bambu Green Suites](https://www.booking.com/searchresults.html?ss=Penida+Bambu+Green+Suites)に荷物を預け、ヴィラ周辺でのんびり過ごす（竹造りのヴィラが並ぶ高級ホテル）
+- 14:00　正式にチェックイン
 - 15:00　クリスタルベイでシュノーケリング、夕日を眺める
 
 **3日目（終日フリー）**
@@ -116,6 +122,7 @@ excerpt: "バリ島からボートで30〜45分、断崖と青い海が広がる
 
 **4日目（帰国日）**
 - 08:00　ホテルのヴィラでのんびり過ごす
+- 11:00　ヴィラをチェックアウト
 - 13:00　ボートでサヌールへ戻る
 - 18:00　サヌールの海沿いでディナー
 - 22:00頃　Grabカーでデンパサール空港へ

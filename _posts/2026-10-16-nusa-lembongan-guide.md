@@ -55,7 +55,8 @@ excerpt: "バリ島のサヌールから高速ボートで約30分、のんび�
 
 **3日目**
 - 10:00　サヌールから高速ボート（[12go.asiaで予約可](https://12go.asia/en/travel/sanur/nusa-lembongan?z=17114820)）でヌサレンボンガン島へ（約30分）
-- 昼前　[Hai Tide Beach Resort](https://www.booking.com/searchresults.html?ss=Hai+Tide+Beach+Resort+Nusa+Lembongan)にチェックイン
+- 昼前　[Hai Tide Beach Resort](https://www.booking.com/searchresults.html?ss=Hai+Tide+Beach+Resort+Nusa+Lembongan)に荷物を預け、ビーチでのんびり過ごす
+- 14:00　正式にチェックイン
 - 15:00　ジャングットバトゥのビーチで夕日を眺める
 
 **4日目（終日フリー）**
@@ -65,11 +66,13 @@ excerpt: "バリ島のサヌールから高速ボートで約30分、のんび�
 
 **5日目**
 - 08:00　ホテルでのんびり朝食
+- 11:00　ホテルをチェックアウト
 - 12:00　ボートでサヌールへ戻る
 - 14:00頃　Kura-Kura Busでデンパサール空港へ（片道450〜750円ほど）
 - 19:45　デンパサール発（AirAsia）→ 22:50　クアラルンプール着。空港周辺の[Tune Hotel KLIA2](https://www.booking.com/searchresults.html?ss=Tune+Hotel+KLIA2)に1泊
 
 **6日目（帰国日）**
+- 11:00　ホテルをチェックアウト
 - 14:10　クアラルンプール発（AirAsia X直行便D7522）→ 22:00　羽田着
 
 ## おすすめ旅程（ゆる旅向け／直行便・3泊4日の例）
@@ -81,7 +84,8 @@ excerpt: "バリ島のサヌールから高速ボートで約30分、のんび�
 
 **2日目**
 - 10:00　サヌールから高速ボート（[12go.asiaで予約可](https://12go.asia/en/travel/sanur/nusa-lembongan?z=17114820)）でヌサレンボンガン島へ（約30分）
-- 昼前　[Mahagiri Resort Nusa Lembongan](https://www.booking.com/searchresults.html?ss=Mahagiri+Resort+Nusa+Lembongan)にチェックイン（プールのあるリゾート）
+- 昼前　[Mahagiri Resort Nusa Lembongan](https://www.booking.com/searchresults.html?ss=Mahagiri+Resort+Nusa+Lembongan)に荷物を預け、ビーチでのんびり過ごす（プールのあるリゾート）
+- 14:00　正式にチェックイン
 - 15:00　マッシュルームベイでシュノーケリング
 
 **3日目（終日フリー）**
@@ -91,6 +95,7 @@ excerpt: "バリ島のサヌールから高速ボートで約30分、のんび�
 
 **4日目（帰国日）**
 - 午前　ホテルで朝食をとりのんびり過ごす
+- 11:00　ホテルをチェックアウト
 - 12:00　ボートでサヌールへ戻る
 - 午後　サヌールの海沿いでディナー
 - 21:30頃　Grabカーでデンパサール空港へ
@@ -105,7 +110,8 @@ excerpt: "バリ島のサヌールから高速ボートで約30分、のんび�
 
 **2日目**
 - 10:00　サヌールから高速ボート（[12go.asiaで予約可](https://12go.asia/en/travel/sanur/nusa-lembongan?z=17114820)）でヌサレンボンガン島へ（約30分）
-- 昼前　[Batu Karang Lembongan Resort & Day Spa](https://www.booking.com/searchresults.html?ss=Batu+Karang+Lembongan+Resort)にチェックイン（プール付きの高級リゾート）
+- 昼前　[Batu Karang Lembongan Resort & Day Spa](https://www.booking.com/searchresults.html?ss=Batu+Karang+Lembongan+Resort)に荷物を預け、ビーチでのんびり過ごす（プール付きの高級リゾート）
+- 14:00　正式にチェックイン
 - 15:00　マッシュルームベイでシュノーケリング
 
 **3日目（終日フリー）**
@@ -115,6 +121,7 @@ excerpt: "バリ島のサヌールから高速ボートで約30分、のんび�
 
 **4日目（帰国日）**
 - 午前　リゾートで朝食をとりのんびり過ごす
+- 11:00　リゾートをチェックアウト
 - 12:00　ボートでサヌールへ戻る
 - 午後　サヌールの海沿いでディナー
 - 21:30頃　Grabカーでデンパサール空港へ

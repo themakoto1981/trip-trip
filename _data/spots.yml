@@ -854,3 +854,24 @@ con-dao-guide:
     lat: 8.6941
     lng: 106.6146
     desc: ヴォー・ティ・サウら多くの政治犯が眠る墓地
+  - name: "Phi Yen Guest House"
+    lat: 8.6820
+    lng: 106.6063
+    desc: "やす旅向け、アンハイビーチ近くの手頃なゲストハウス"
+    type: hotel
+    letter: "や"
+    url: "https://www.booking.com/searchresults.html?ss=Phi+Yen+Guest+House+Con+Dao"
+  - name: "Tan Son Nhat Con Dao Resort"
+    lat: 8.6779
+    lng: 106.6012
+    desc: "ゆる旅向け、アンハイビーチ沿いのリゾート"
+    type: hotel
+    letter: "ゆ"
+    url: "https://www.booking.com/searchresults.html?ss=Tan+Son+Nhat+Con+Dao+Resort"
+  - name: "Six Senses Con Dao"
+    lat: 8.7010
+    lng: 106.6338
+    desc: "らぐ旅向け、全室プール付きヴィラの名門リゾート"
+    type: hotel
+    letter: "ら"
+    url: "https://www.booking.com/searchresults.html?ss=Six+Senses+Con+Dao"

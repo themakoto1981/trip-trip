@@ -832,3 +832,25 @@ koh-tao-guide:
     type: hotel
     letter: "ら"
     url: "https://www.booking.com/searchresults.html?ss=Phandara+Luxury+Villas+Koh+Tao"
+
+con-dao-guide:
+  - name: プーハイ監獄跡
+    lat: 8.6836
+    lng: 106.6103
+    desc: フランス統治時代に築かれた大規模な収容所、当時のタイガーケージが残る
+  - name: コンダオ博物館
+    lat: 8.6859
+    lng: 106.6084
+    desc: 島の監獄の歴史を伝える町なかの博物館
+  - name: アンハイビーチ
+    lat: 8.6876
+    lng: 106.6153
+    desc: コンソンの町から歩いて行ける静かなビーチ
+  - name: ベイカイン島
+    lat: 8.6300
+    lng: 106.7200
+    desc: ウミガメの産卵地として知られる国立公園内の島、シュノーケリングが楽しめる
+  - name: ハンズオン墓地
+    lat: 8.6941
+    lng: 106.6146
+    desc: ヴォー・ティ・サウら多くの政治犯が眠る墓地

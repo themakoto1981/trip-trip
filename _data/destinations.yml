@@ -485,3 +485,28 @@
   best_months: [5, 6, 9]
   url: /2026/10/16/nusa-lembongan-guide/
   tags: { beach: 4, resort: 3, island: 5, city_base: 1, sightseeing: 3, relax: 4, party: 2, activity: 4 }
+
+- name: コンダオ島
+  en_name: "Con Dao, Vietnam"
+  slug: con-dao-guide
+  country: ベトナム
+  country_slug: vietnam
+  lat: 8.6930
+  lng: 106.6090
+  flight_min: 55000
+  flight_max: 150000
+  hotel_min: 4000
+  hotel_max: 30000
+  transport_min: 1500
+  transport_max: 5000
+  food_min: 2000
+  food_max: 5000
+  flight_hours: "約7〜8時間（ホーチミン直行便＋国内線約50分）"
+  recommended_nights: "3泊以上"
+  visa: "不要（45日以内）"
+  photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/C%C3%B4n_%C4%90%E1%BA%A3o_National_Park.jpg/960px-C%C3%B4n_%C4%90%E1%BA%A3o_National_Park.jpg"
+  photo_credit_url: "https://commons.wikimedia.org/wiki/File:C%C3%B4n_%C4%90%E1%BA%A3o_National_Park.jpg"
+  suited_for: [couple, friends, solo]
+  best_months: [3, 4, 5, 6, 7]
+  url: /2026/10/19/con-dao-guide/
+  tags: { beach: 4, resort: 3, island: 5, city_base: 1, sightseeing: 4, relax: 4, party: 1, activity: 4 }

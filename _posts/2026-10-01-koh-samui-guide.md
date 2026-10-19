@@ -52,7 +52,8 @@ excerpt: "タイ湾に浮かぶ南国リゾート、サムイ島の行き方・�
 - 06:50　バンコク（ドンムアン空港）発（タイ・エアアジア）→ 08:10　スラートターニー着
 - 09:00頃　[Grabカー](/grab/)でドンサック埠頭へ移動
 - 10:00頃　フェリーでサムイ島へ（所要約1時間30分）
-- 12:00頃　[Lub d Koh Samui Chaweng Beach](https://www.booking.com/searchresults.html?ss=Lub+d+Koh+Samui+Chaweng+Beach)にチェックイン（チャウエンビーチ沿いのビーチフロントホステル、ドミトリーから個室まで選べる）
+- 12:00頃　[Lub d Koh Samui Chaweng Beach](https://www.booking.com/searchresults.html?ss=Lub+d+Koh+Samui+Chaweng+Beach)に荷物を預け、チャウエンビーチでのんびり過ごす（ビーチフロントホステル、ドミトリーから個室まで選べる）
+- 14:00　正式にチェックイン
 
 **3日目（3泊目：サムイ島泊・終日フリー）**
 - 09:00〜　終日フリー（おすすめ：チャウエンビーチでのんびり過ごす）

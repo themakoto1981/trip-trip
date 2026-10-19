@@ -49,7 +49,8 @@ excerpt: "マレーシア屈指のリゾートアイランド、ランカウイ�
 **2日目**
 - 06:15　クアラルンプール着。入国審査・荷物受取に1〜1.5時間ほどみておく、国内線へ乗継
 - 08:30　クアラルンプール発（AirAsia）→ 09:35　ランカウイ着
-- 10:30頃　[Casa del Mar Langkawi](https://www.booking.com/searchresults.html?ss=Casa+del+Mar+Langkawi)にチェックイン
+- 10:30頃　[Casa del Mar Langkawi](https://www.booking.com/searchresults.html?ss=Casa+del+Mar+Langkawi)に荷物を預け、ホテルのビーチでのんびり過ごす
+- 14:00　正式にチェックイン
 
 **3日目（終日フリー）**
 - 09:00　ケーブルカーでランカウイ・スカイブリッジへ

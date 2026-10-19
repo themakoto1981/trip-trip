@@ -54,8 +54,8 @@ excerpt: "バリ島からボートで30〜45分、断崖と青い海が広がる
 - 13:30頃　[Kura-Kura Bus](https://www.kura2bus.com/)でサヌールへ移動し（片道450〜750円ほど）、[Segara Village Hotel](https://www.booking.com/searchresults.html?ss=Segara+Village+Hotel+Sanur)にチェックイン
 
 **3日目**
-- 09:00　サヌールから高速ボート（[12go.asiaで予約可](https://12go.asia/en/travel/sanur/nusa-penida?z=17114820)）でヌサペニダ島へ（約30〜45分）
-- 昼前　[Semabu Hills Hotel](https://www.booking.com/searchresults.html?ss=Semabu+Hills+Hotel+Nusa+Penida)に荷物を預け、ホテル周辺でのんびり過ごす
+- 10:30　サヌールから高速ボート（[12go.asiaで予約可](https://12go.asia/en/travel/sanur/nusa-penida?z=17114820)）でヌサペニダ島へ（約30〜45分。サヌール発ヌサペニダ行きは早朝から午後まで複数便あり、09:00台に慌てて出る必要はない）
+- 12:00頃　[Semabu Hills Hotel](https://www.booking.com/searchresults.html?ss=Semabu+Hills+Hotel+Nusa+Penida)に荷物を預け、ホテル周辺で軽く過ごす
 - 14:00　正式にチェックイン
 - 15:00　クリスタルベイでシュノーケリング、夕日を眺める
 
@@ -84,8 +84,8 @@ excerpt: "バリ島からボートで30〜45分、断崖と青い海が広がる
 - 19:00頃　[Prime Plaza Hotel Sanur](https://www.booking.com/searchresults.html?ss=Prime+Plaza+Hotel+Sanur)にチェックイン（ボート乗り場に近いビーチサイドのホテル）
 
 **2日目**
-- 09:00　サヌールから高速ボート（[12go.asiaで予約可](https://12go.asia/en/travel/sanur/nusa-penida?z=17114820)）でヌサペニダ島へ（約30〜45分）
-- 昼前　[Semabu Hills Hotel](https://www.booking.com/searchresults.html?ss=Semabu+Hills+Hotel+Nusa+Penida)に荷物を預け、ホテル周辺でのんびり過ごす（丘の上のホテル）
+- 10:30　サヌールから高速ボート（[12go.asiaで予約可](https://12go.asia/en/travel/sanur/nusa-penida?z=17114820)）でヌサペニダ島へ（約30〜45分。サヌール発ヌサペニダ行きは早朝から午後まで複数便あり、09:00台に慌てて出る必要はない）
+- 12:00頃　[Semabu Hills Hotel](https://www.booking.com/searchresults.html?ss=Semabu+Hills+Hotel+Nusa+Penida)に荷物を預け、ホテル周辺で軽く過ごす（丘の上のホテル）
 - 14:00　正式にチェックイン
 - 15:00　クリスタルベイでシュノーケリング、夕日を眺める
 
@@ -110,8 +110,8 @@ excerpt: "バリ島からボートで30〜45分、断崖と青い海が広がる
 - 19:00頃　[Hyatt Regency Bali](https://www.booking.com/searchresults.html?ss=Hyatt+Regency+Bali)にチェックイン（サヌールビーチ沿いの大型リゾート）
 
 **2日目**
-- 09:00　サヌールから高速ボートでヌサペニダ島へ（約30〜45分）
-- 昼前　[Penida Bambu Green Suites](https://www.booking.com/searchresults.html?ss=Penida+Bambu+Green+Suites)に荷物を預け、ヴィラ周辺でのんびり過ごす（竹造りのヴィラが並ぶ高級ホテル）
+- 10:30　サヌールから高速ボートでヌサペニダ島へ（約30〜45分。サヌール発ヌサペニダ行きは早朝から午後まで複数便あり、09:00台に慌てて出る必要はない）
+- 12:00頃　[Penida Bambu Green Suites](https://www.booking.com/searchresults.html?ss=Penida+Bambu+Green+Suites)に荷物を預け、ヴィラ周辺で軽く過ごす（竹造りのヴィラが並ぶ高級ホテル）
 - 14:00　正式にチェックイン
 - 15:00　クリスタルベイでシュノーケリング、夕日を眺める
 

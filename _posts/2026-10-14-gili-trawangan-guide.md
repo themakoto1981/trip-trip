@@ -13,7 +13,7 @@ excerpt: "バリ島から高速ボートで約1時間半、車もバイクも走
 
 - **飛行機**：日本からバリ島（ングラライ国際空港）へは直行便が約7〜8時間。たとえば成田発11:00の直行便（JAL＝ガルーダ・インドネシア航空運航）なら現地17:55着で、初日のうちにバリ東部へ移動できます。
 - **空港からパダンバイへ**：[Grabカー](/grab/)で約1時間半〜2時間。高速ボートの港があるパダンバイで前泊するのが安心です。
-- **高速ボート**：パダンバイからギリ・トラワンガン島へは8:00発の朝の便で約1時間半、9:30頃到着。ホテルでの朝食後に乗れます<br><a class="schedule-tag" href="https://12go.asia/en/travel/padang-bai/gili-trawangan?z=17114820">12go.asiaで予約・最新スケジュール</a>
+- **高速ボート**：パダンバイからギリ・トラワンガン島へは8:00発の朝イチの便に加えて9:30発の便もあり、約1時間半で11:00頃到着。ホテルでゆっくり朝食をとってから出発できます<br><a class="schedule-tag" href="https://12go.asia/en/travel/padang-bai/gili-trawangan?z=17114820">12go.asiaで予約・最新スケジュール</a>
 - 総移動時間は日本から島のホテルまで、直行便と車・ボートを合わせて13〜15時間ほどです。
 - **島内の移動**：島を一周しても約7km。自転車のレンタルか、馬車（シドモ）が基本です。
 
@@ -54,8 +54,8 @@ excerpt: "バリ島から高速ボートで約1時間半、車もバイクも走
 - 16:00頃　Peramaシャトル（乗合バン）でパダンバイへ移動し（片道900円ほど）、[Topi Inn](https://www.booking.com/searchresults.html?ss=Topi+Inn+Padangbai)にチェックイン（港まで徒歩圏の宿）
 
 **3日目**
-- 08:00　パダンバイから高速ボート（[12go.asiaで予約可](https://12go.asia/en/travel/padang-bai/gili-trawangan?z=17114820)）でギリ・トラワンガン島へ（約1時間半、9:30頃到着）
-- 午前中　[Hotel Ombak Sunset](https://www.booking.com/searchresults.html?ss=Hotel+Ombak+Sunset+Gili+Trawangan)に荷物を預け、ビーチでのんびり過ごす
+- 09:30　パダンバイから高速ボート（[12go.asiaで予約可](https://12go.asia/en/travel/padang-bai/gili-trawangan?z=17114820)）でギリ・トラワンガン島へ（約1時間半、11:00頃到着。パダンバイ発は8:00台だけでなく9:30発の便もあり、朝イチにこだわらなくてよい）
+- 11:15頃　[Hotel Ombak Sunset](https://www.booking.com/searchresults.html?ss=Hotel+Ombak+Sunset+Gili+Trawangan)に荷物を預け、ビーチで軽く過ごす
 - 14:00　正式にチェックイン
 - 夕方　西岸のサンセットポイントで夕日を眺める
 
@@ -83,8 +83,8 @@ excerpt: "バリ島から高速ボートで約1時間半、車もバイクも走
 - 21:00頃　[Bloo Lagoon Eco Village](https://www.booking.com/searchresults.html?ss=Bloo+Lagoon+Eco+Village)にチェックイン（パダンバイの入り江沿いのヴィラ）
 
 **2日目**
-- 08:00　パダンバイから高速ボート（[12go.asiaで予約可](https://12go.asia/en/travel/padang-bai/gili-trawangan?z=17114820)）でギリ・トラワンガン島へ（約1時間半、9:30頃到着）
-- 午前中　[Vila Ombak](https://www.booking.com/searchresults.html?ss=Vila+Ombak+Gili+Trawangan)に荷物を預け、ビーチでのんびり過ごす（ビーチ目の前でプールが2つあるホテル）
+- 09:30　パダンバイから高速ボート（[12go.asiaで予約可](https://12go.asia/en/travel/padang-bai/gili-trawangan?z=17114820)）でギリ・トラワンガン島へ（約1時間半、11:00頃到着。パダンバイ発は8:00台だけでなく9:30発の便もあり、朝イチにこだわらなくてよい）
+- 11:15頃　[Vila Ombak](https://www.booking.com/searchresults.html?ss=Vila+Ombak+Gili+Trawangan)に荷物を預け、ビーチで軽く過ごす（ビーチ目の前でプールが2つあるホテル）
 - 14:00　正式にチェックイン
 - 夕方　西岸のサンセットポイントで夕日を眺める
 
@@ -107,8 +107,8 @@ excerpt: "バリ島から高速ボートで約1時間半、車もバイクも走
 - 21:00頃　[Bloo Lagoon Eco Village](https://www.booking.com/searchresults.html?ss=Bloo+Lagoon+Eco+Village)にチェックイン（パダンバイの入り江沿いのヴィラ）
 
 **2日目**
-- 08:00　パダンバイから高速ボート（[12go.asiaで予約可](https://12go.asia/en/travel/padang-bai/gili-trawangan?z=17114820)）でギリ・トラワンガン島へ（約1時間半、9:30頃到着）
-- 午前中　[Pondok Santi Estate](https://www.booking.com/searchresults.html?ss=Pondok+Santi+Estate+Gili+Trawangan)に荷物を預け、ビーチでのんびり過ごす（ラグジュアリーヴィラ）
+- 09:30　パダンバイから高速ボート（[12go.asiaで予約可](https://12go.asia/en/travel/padang-bai/gili-trawangan?z=17114820)）でギリ・トラワンガン島へ（約1時間半、11:00頃到着。パダンバイ発は8:00台だけでなく9:30発の便もあり、朝イチにこだわらなくてよい）
+- 11:15頃　[Pondok Santi Estate](https://www.booking.com/searchresults.html?ss=Pondok+Santi+Estate+Gili+Trawangan)に荷物を預け、ビーチで軽く過ごす（ラグジュアリーヴィラ）
 - 14:00　正式にチェックイン
 - 夕方　西岸のサンセットポイントで夕日を眺める
 

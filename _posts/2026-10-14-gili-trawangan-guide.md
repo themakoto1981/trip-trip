@@ -55,7 +55,8 @@ excerpt: "バリ島から高速ボートで約1時間半、車もバイクも走
 
 **3日目**
 - 08:00　パダンバイから高速ボート（[12go.asiaで予約可](https://12go.asia/en/travel/padang-bai/gili-trawangan?z=17114820)）でギリ・トラワンガン島へ（約1時間半、9:30頃到着）
-- 午前中　[Hotel Ombak Sunset](https://www.booking.com/searchresults.html?ss=Hotel+Ombak+Sunset+Gili+Trawangan)にチェックイン
+- 午前中　[Hotel Ombak Sunset](https://www.booking.com/searchresults.html?ss=Hotel+Ombak+Sunset+Gili+Trawangan)に荷物を預け、ビーチでのんびり過ごす
+- 14:00　正式にチェックイン
 - 夕方　西岸のサンセットポイントで夕日を眺める
 
 **4日目（終日フリー）**
@@ -65,11 +66,13 @@ excerpt: "バリ島から高速ボートで約1時間半、車もバイクも走
 
 **5日目**
 - 午前　ホテルでのんびり朝食
+- 11:00　ホテルをチェックアウト
 - 13:00　ボートでパダンバイへ戻り（約1時間半、14:30頃到着）
 - 15:00頃　Peramaシャトルでデンパサール空港へ（片道900円ほど）
 - 19:45　デンパサール発（AirAsia AK379）→ 22:50　クアラルンプール着。空港周辺の[Tune Hotel KLIA2](https://www.booking.com/searchresults.html?ss=Tune+Hotel+KLIA2)に1泊
 
 **6日目（帰国日）**
+- 11:00　ホテルをチェックアウト
 - 14:10　クアラルンプール発（AirAsia X D7522）→ 22:00　羽田着
 
 ## おすすめ旅程（ゆる旅向け／直行便・3泊4日の例）
@@ -81,7 +84,8 @@ excerpt: "バリ島から高速ボートで約1時間半、車もバイクも走
 
 **2日目**
 - 08:00　パダンバイから高速ボート（[12go.asiaで予約可](https://12go.asia/en/travel/padang-bai/gili-trawangan?z=17114820)）でギリ・トラワンガン島へ（約1時間半、9:30頃到着）
-- 午前中　[Vila Ombak](https://www.booking.com/searchresults.html?ss=Vila+Ombak+Gili+Trawangan)にチェックイン（ビーチ目の前でプールが2つあるホテル）
+- 午前中　[Vila Ombak](https://www.booking.com/searchresults.html?ss=Vila+Ombak+Gili+Trawangan)に荷物を預け、ビーチでのんびり過ごす（ビーチ目の前でプールが2つあるホテル）
+- 14:00　正式にチェックイン
 - 夕方　西岸のサンセットポイントで夕日を眺める
 
 **3日目（終日フリー）**
@@ -91,6 +95,7 @@ excerpt: "バリ島から高速ボートで約1時間半、車もバイクも走
 
 **4日目（帰国日）**
 - 午前　ホテルで朝食をとりのんびり過ごす
+- 11:00　ホテルをチェックアウト
 - 13:00　ボートでパダンバイへ戻り（約1時間半、14:30頃到着）、Grabカーでデンパサール空港へ
 - 00:30　デンパサール発（JAL＝ガルーダ・インドネシア航空運航の直行便／GA880）→ 08:40　成田着
 
@@ -103,7 +108,8 @@ excerpt: "バリ島から高速ボートで約1時間半、車もバイクも走
 
 **2日目**
 - 08:00　パダンバイから高速ボート（[12go.asiaで予約可](https://12go.asia/en/travel/padang-bai/gili-trawangan?z=17114820)）でギリ・トラワンガン島へ（約1時間半、9:30頃到着）
-- 午前中　[Pondok Santi Estate](https://www.booking.com/searchresults.html?ss=Pondok+Santi+Estate+Gili+Trawangan)にチェックイン（ラグジュアリーヴィラ）
+- 午前中　[Pondok Santi Estate](https://www.booking.com/searchresults.html?ss=Pondok+Santi+Estate+Gili+Trawangan)に荷物を預け、ビーチでのんびり過ごす（ラグジュアリーヴィラ）
+- 14:00　正式にチェックイン
 - 夕方　西岸のサンセットポイントで夕日を眺める
 
 **3日目（終日フリー）**
@@ -113,6 +119,7 @@ excerpt: "バリ島から高速ボートで約1時間半、車もバイクも走
 
 **4日目（帰国日）**
 - 午前　ヴィラで朝食をとりのんびり過ごす
+- 11:00　ヴィラをチェックアウト
 - 13:00　ボートでパダンバイへ戻り（約1時間半、14:30頃到着）、Grabカーでデンパサール空港へ
 - 00:30　デンパサール発（JAL＝ガルーダ・インドネシア航空運航の直行便／GA880）→ 08:40　成田着
 

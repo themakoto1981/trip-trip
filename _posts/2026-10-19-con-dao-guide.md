@@ -49,10 +49,9 @@ excerpt: "「ベトナム最後の楽園」と呼ばれる南シナ海の秘島�
 - 12:00　羽田発（Vietjet Air直行便）→ 16:10　ホーチミン着。入国審査後、[ibis Saigon Airport](https://www.booking.com/searchresults.html?ss=ibis+Saigon+Airport)の無料シャトルでホテルへ、1泊
 
 **2日目**
-- 06:20　ホーチミン発（ベトナム航空、約50分）→ 07:10　コンダオ着
-- 07:30頃　タクシーでコンソンの町へ（約10〜15分）。[Phi Yen Guest House](https://www.booking.com/searchresults.html?ss=Phi+Yen+Guest+House+Con+Dao)に荷物を預ける
-- 08:30　町なかの食堂で朝食
-- 10:00　アンハイビーチを散策
+- 11:05　ホーチミン発（ベトナム航空、約50分）→ 11:55　コンダオ着
+- 12:10頃　タクシーでコンソンの町へ（約10〜15分）。[Phi Yen Guest House](https://www.booking.com/searchresults.html?ss=Phi+Yen+Guest+House+Con+Dao)に荷物を預ける
+- 12:30　町なかの食堂で昼食
 - 14:00　チェックイン
 
 **3日目（終日フリー）**
@@ -75,10 +74,9 @@ excerpt: "「ベトナム最後の楽園」と呼ばれる南シナ海の秘島�
 - 17:45　羽田発（ANA直行便NH891）→ 21:55　ホーチミン着。入国審査後、[ibis Saigon Airport](https://www.booking.com/searchresults.html?ss=ibis+Saigon+Airport)の無料シャトルでホテルへ、1泊
 
 **2日目**
-- 06:20　ホーチミン発（ベトナム航空、約50分）→ 07:10　コンダオ着
-- 07:30頃　タクシーでコンソンの町へ（約10〜15分）。[Tan Son Nhat Con Dao Resort](https://www.booking.com/searchresults.html?ss=Tan+Son+Nhat+Con+Dao+Resort)に荷物を預ける
-- 08:30　町なかの食堂で朝食
-- 10:00　アンハイビーチを散策
+- 11:05　ホーチミン発（ベトナム航空、約50分）→ 11:55　コンダオ着
+- 12:10頃　タクシーでコンソンの町へ（約10〜15分）。[Tan Son Nhat Con Dao Resort](https://www.booking.com/searchresults.html?ss=Tan+Son+Nhat+Con+Dao+Resort)に荷物を預ける
+- 12:30　町なかの食堂で昼食
 - 14:00　チェックイン
 
 **3日目（終日フリー）**
@@ -101,10 +99,10 @@ excerpt: "「ベトナム最後の楽園」と呼ばれる南シナ海の秘島�
 - 17:45　羽田発（ANA直行便NH891）→ 21:55　ホーチミン着。入国審査後、[Grabカー](/grab/)で市内の[Novotel Saigon Centre](https://www.booking.com/searchresults.html?ss=Novotel+Saigon+Centre)へ、1泊
 
 **2日目**
-- 05:30頃　ホテルから空港へ移動
-- 06:20　ホーチミン発（ベトナム航空、約50分）→ 07:10　コンダオ着
-- 08:00頃　リゾート手配の送迎で[Six Senses Con Dao](https://www.booking.com/searchresults.html?ss=Six+Senses+Con+Dao)へ、荷物を預ける
-- 12:00　レストランで昼食
+- 09:30頃　ホテルから空港へ移動
+- 11:05　ホーチミン発（ベトナム航空、約50分）→ 11:55　コンダオ着
+- 12:15頃　リゾート手配の送迎で[Six Senses Con Dao](https://www.booking.com/searchresults.html?ss=Six+Senses+Con+Dao)へ、荷物を預ける
+- 12:45　レストランで昼食
 - 14:00　プライベートプールヴィラにチェックイン
 
 **3日目（終日フリー）**

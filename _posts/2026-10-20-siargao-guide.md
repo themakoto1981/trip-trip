@@ -11,7 +11,7 @@ excerpt: "世界的サーファーが集まる「サーフィンの聖地」シ�
 
 ## 行き方
 
-日本からシアルガオへの直行便はなく、**マニラで国内線に乗り継ぎ、さらにセブで1泊してからシアルガオへ向かう**のが基本ルートです。シアルガオ空港（サヤック空港）へのフライトはセブ発の午前便のみで、セブ〜シアルガオ間の便が午後にしかないため、どのプランでも行き帰り両方でセブに1泊するのが現実的です<br><a class="schedule-tag" href="https://www.philippineairlines.com/en/">フィリピン航空の最新スケジュール</a>
+日本からは成田発セブ直行便（フィリピン航空・セブパシフィック航空）を利用し、**セブで1泊してからシアルガオへ向かう**のが基本ルートです。シアルガオ空港（サヤック空港）へのフライトはセブ発の午前便のみで、セブ〜シアルガオ間の便が午後にしかないため、どのプランでも行き帰り両方でセブに1泊するのが現実的です<br><a class="schedule-tag" href="https://www.philippineairlines.com/en/">フィリピン航空の最新スケジュール</a>
 
 - **島内の移動**：空港（サヤック空港）からホテルまではバンやトライシクルで約40〜60分、島内の移動は基本的にレンタルバイクかトライシクル、離島ツアーはバンカーボートが基本です。
 
@@ -35,16 +35,16 @@ excerpt: "世界的サーファーが集まる「サーフィンの聖地」シ�
 **狙い目は12〜4月**。乾季で海況が安定し、台風の心配も少ない時期です。本格的にサーフィンを楽しみたい場合は波のサイズが上がる8〜11月がおすすめですが、台風による欠航リスクがあることは知っておきましょう。
 
 ## 予算の目安
-マニラ〜セブ〜シアルガオと国内線を2回乗り継ぐため、**5泊6日**がおすすめです。行き帰りともにセブで1泊を挟むことで、乗り継ぎに追われず現地を満喫できます。
+成田からセブへ直行便で入り、セブ〜シアルガオ間は国内線で乗り継ぐため、**5泊6日**がおすすめです。行き帰りともにセブで1泊を挟むことで、乗り継ぎに追われず現地を満喫できます。
 
-- **やす旅**：セブパシフィック航空+国内線乗り継ぎ｜セブは空港近くのホテルで1泊｜島の宿はサーファーに人気のホステル<br><a class="schedule-tag" href="https://www.cebupacificair.com/">セブパシフィック航空の最新スケジュール</a>
-- **ゆる旅**：ANA直行便+国内線乗り継ぎ｜セブはマクタン島のリゾートで1泊｜ビーチ沿いのリゾートで過ごす<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
-- **らぐ旅**：ANA直行便+国内線乗り継ぎ｜セブはマクタン島の上質リゾートで1泊｜プライベートアイランドの名門リゾート<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
+- **やす旅**：セブパシフィック航空直行便｜セブは空港近くのホテルで1泊｜島の宿はサーファーに人気のホステル<br><a class="schedule-tag" href="https://www.cebupacificair.com/">セブパシフィック航空の最新スケジュール</a>
+- **ゆる旅**：フィリピン航空直行便｜セブはマクタン島のリゾートで1泊｜ビーチ沿いのリゾートで過ごす<br><a class="schedule-tag" href="https://www.philippineairlines.com/en/">フィリピン航空の最新スケジュール</a>
+- **らぐ旅**：フィリピン航空直行便｜セブはマクタン島の上質リゾートで1泊｜プライベートアイランドの名門リゾート<br><a class="schedule-tag" href="https://www.philippineairlines.com/en/">フィリピン航空の最新スケジュール</a>
 
 ## おすすめ旅程（やす旅向け／セブ往復2泊・5泊6日の例）
 
 **1日目**
-- 09:45　羽田発（ANA直行便NH869）→ 13:30　マニラ着。入国審査後、国内線ターミナルへ移動し、15:30　マニラ発（セブパシフィック航空）→ 16:50　セブ着。[Cebu Waterfront Airport Hotel](https://www.booking.com/searchresults.html?ss=Cebu+Waterfront+Airport+Hotel)に1泊
+- 11:25　成田発（セブパシフィック航空）→ 16:00　セブ着。[Cebu Waterfront Airport Hotel](https://www.booking.com/searchresults.html?ss=Cebu+Waterfront+Airport+Hotel)に1泊
 
 **2日目**
 - 09:15　セブ発（フィリピン航空、約50分）→ 10:05　シアルガオ着
@@ -67,15 +67,13 @@ excerpt: "世界的サーファーが集まる「サーフィンの聖地」シ�
 - 14:05　シアルガオ発（フィリピン航空、約50分）→ 14:50　セブ着。[Cebu Waterfront Airport Hotel](https://www.booking.com/searchresults.html?ss=Cebu+Waterfront+Airport+Hotel)に1泊
 
 **6日目**
-- 08:00　セブ発（セブパシフィック航空、約1時間40分）→ 09:40　マニラ着
-- 12:00　マニラ市内でランチや買い物を楽しみ
-- 15:00　空港へ移動
-- 17:30　マニラ発（ANA直行便NH949）→ 21:30　羽田着
+- 02:30頃　ホテルを出発、空港へ
+- 04:15　セブ発（セブパシフィック航空）→ 10:25　成田着
 
 ## おすすめ旅程（ゆる旅向け／セブ往復2泊・5泊6日の例）
 
 **1日目**
-- 09:45　羽田発（ANA直行便NH869）→ 13:30　マニラ着。入国審査後、国内線ターミナルへ移動し、15:30　マニラ発（フィリピン航空）→ 16:50　セブ着。[Mövenpick Hotel Mactan Island Cebu](https://www.booking.com/searchresults.html?ss=Movenpick+Hotel+Mactan+Island+Cebu)に1泊
+- 15:20　成田発（フィリピン航空）→ 19:35　セブ着。[Mövenpick Hotel Mactan Island Cebu](https://www.booking.com/searchresults.html?ss=Movenpick+Hotel+Mactan+Island+Cebu)に1泊
 
 **2日目**
 - 09:15　セブ発（フィリピン航空、約50分）→ 10:05　シアルガオ着
@@ -98,15 +96,12 @@ excerpt: "世界的サーファーが集まる「サーフィンの聖地」シ�
 - 14:05　シアルガオ発（フィリピン航空、約50分）→ 14:50　セブ着。[Mövenpick Hotel Mactan Island Cebu](https://www.booking.com/searchresults.html?ss=Movenpick+Hotel+Mactan+Island+Cebu)に1泊
 
 **6日目**
-- 09:00　セブ発（フィリピン航空、約1時間40分）→ 10:40　マニラ着
-- 12:00　マニラ市内でランチや買い物を楽しみ
-- 15:00　空港へ移動
-- 17:30　マニラ発（ANA直行便NH949）→ 21:30　羽田着
+- 08:05　セブ発（フィリピン航空）→ 13:35　成田着
 
 ## おすすめ旅程（らぐ旅向け／セブ往復2泊・5泊6日の例）
 
 **1日目**
-- 09:45　羽田発（ANA直行便NH869）→ 13:30　マニラ着。入国審査後、国内線ターミナルへ移動し、15:30　マニラ発（フィリピン航空）→ 16:50　セブ着。[Mövenpick Hotel Mactan Island Cebu](https://www.booking.com/searchresults.html?ss=Movenpick+Hotel+Mactan+Island+Cebu)に1泊
+- 15:20　成田発（フィリピン航空）→ 19:35　セブ着。[Mövenpick Hotel Mactan Island Cebu](https://www.booking.com/searchresults.html?ss=Movenpick+Hotel+Mactan+Island+Cebu)に1泊
 
 **2日目**
 - 09:15　セブ発（フィリピン航空、約50分）→ 10:05　シアルガオ着
@@ -129,10 +124,7 @@ excerpt: "世界的サーファーが集まる「サーフィンの聖地」シ�
 - 14:05　シアルガオ発（フィリピン航空、約50分）→ 14:50　セブ着。[Mövenpick Hotel Mactan Island Cebu](https://www.booking.com/searchresults.html?ss=Movenpick+Hotel+Mactan+Island+Cebu)に1泊
 
 **6日目**
-- 09:00　セブ発（フィリピン航空、約1時間40分）→ 10:40　マニラ着
-- 12:00　マニラ市内でディナーやショッピングを楽しみ
-- 15:00　空港へ移動
-- 17:30　マニラ発（ANA直行便NH949）→ 21:30　羽田着
+- 08:05　セブ発（フィリピン航空）→ 13:35　成田着
 
 ## おすすめビーチ・スポット
 

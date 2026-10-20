@@ -74,11 +74,13 @@ excerpt: "世界的サーファーが集まる「サーフィンの聖地」シ�
 
 | 項目 | 金額 |
 |---|---|
-| 往復航空券（成田⇄セブ、セブ⇄シアルガオ） | 約55,000円 |
-| ホテル（セブ2泊＋シアルガオ3泊） | 約17,000円 |
-| 現地交通・離島ツアー | 約6,000円 |
-| 食事（5日分） | 約7,500円 |
-| **合計** | **約85,500円** |
+| 往復航空券（国際線：成田⇄セブ） | <span style="white-space:nowrap">約40,000円</span> |
+| 往復航空券（国内線：セブ⇄シアルガオ） | <span style="white-space:nowrap">約15,000円</span> |
+| ホテル（セブ2泊） | <span style="white-space:nowrap">約8,000円</span> |
+| ホテル（シアルガオ3泊） | <span style="white-space:nowrap">約9,000円</span> |
+| 現地交通・離島ツアー | <span style="white-space:nowrap">約6,000円</span> |
+| 食事（5日分） | <span style="white-space:nowrap">約7,500円</span> |
+| **合計** | <span style="white-space:nowrap">**約85,500円**</span> |
 
 ## おすすめ旅程（ゆる旅向け／セブ往復2泊・5泊6日の例）
 
@@ -112,11 +114,13 @@ excerpt: "世界的サーファーが集まる「サーフィンの聖地」シ�
 
 | 項目 | 金額 |
 |---|---|
-| 往復航空券（成田⇄セブ、セブ⇄シアルガオ） | 約118,000円 |
-| ホテル（セブ2泊＋シアルガオ3泊） | 約66,000円 |
-| 現地交通・離島ツアー | 約12,000円 |
-| 食事（5日分） | 約20,000円 |
-| **合計** | **約216,000円** |
+| 往復航空券（国際線：成田⇄セブ） | <span style="white-space:nowrap">約100,000円</span> |
+| 往復航空券（国内線：セブ⇄シアルガオ） | <span style="white-space:nowrap">約18,000円</span> |
+| ホテル（セブ2泊） | <span style="white-space:nowrap">約30,000円</span> |
+| ホテル（シアルガオ3泊） | <span style="white-space:nowrap">約36,000円</span> |
+| 現地交通・離島ツアー | <span style="white-space:nowrap">約12,000円</span> |
+| 食事（5日分） | <span style="white-space:nowrap">約20,000円</span> |
+| **合計** | <span style="white-space:nowrap">**約216,000円**</span> |
 
 ## おすすめ旅程（らぐ旅向け／セブ往復2泊・5泊6日の例）
 
@@ -150,11 +154,13 @@ excerpt: "世界的サーファーが集まる「サーフィンの聖地」シ�
 
 | 項目 | 金額 |
 |---|---|
-| 往復航空券（成田⇄セブ、セブ⇄シアルガオ） | 約130,000円 |
-| ホテル（セブ上質リゾート2泊＋Dedon Island Resort 3泊） | 約155,000円 |
-| 現地交通・プライベート送迎 | 約20,000円 |
-| 食事（5日分） | 約30,000円 |
-| **合計** | **約335,000円** |
+| 往復航空券（国際線：成田⇄セブ） | <span style="white-space:nowrap">約110,000円</span> |
+| 往復航空券（国内線：セブ⇄シアルガオ） | <span style="white-space:nowrap">約20,000円</span> |
+| ホテル（セブ上質リゾート2泊） | <span style="white-space:nowrap">約50,000円</span> |
+| ホテル（Dedon Island Resort 3泊） | <span style="white-space:nowrap">約105,000円</span> |
+| 現地交通・プライベート送迎 | <span style="white-space:nowrap">約20,000円</span> |
+| 食事（5日分） | <span style="white-space:nowrap">約30,000円</span> |
+| **合計** | <span style="white-space:nowrap">**約335,000円**</span> |
 
 ## おすすめビーチ・スポット
 

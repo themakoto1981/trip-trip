@@ -70,17 +70,7 @@ excerpt: "世界的サーファーが集まる「サーフィンの聖地」シ�
 - 02:30頃　ホテルを出発、空港へ
 - 04:15　セブ発（セブパシフィック航空）→ 10:25　成田着
 
-**費用の内訳（1人あたり目安）**
-
-| 項目 | 金額 |
-|---|---|
-| 国際線：成田⇄セブ | <span style="white-space:nowrap">約40,000円</span> |
-| 国内線：セブ⇄シアルガオ | <span style="white-space:nowrap">約15,000円</span> |
-| ホテル（セブ2泊） | <span style="white-space:nowrap">約8,000円</span> |
-| ホテル（シアルガオ3泊） | <span style="white-space:nowrap">約9,000円</span> |
-| 現地交通・離島ツアー | <span style="white-space:nowrap">約6,000円</span> |
-| 食事（5日分） | <span style="white-space:nowrap">約7,500円</span> |
-| **合計** | <span style="white-space:nowrap">**約85,500円**</span> |
+**費用の内訳（1人あたり目安）**：国際線約40,000円／国内線約15,000円／ホテル（セブ2泊）約8,000円／ホテル（シアルガオ3泊）約9,000円／現地交通約6,000円／食事約7,500円／**合計 約85,500円**
 
 ## おすすめ旅程（ゆる旅向け／セブ往復2泊・5泊6日の例）
 
@@ -110,17 +100,7 @@ excerpt: "世界的サーファーが集まる「サーフィンの聖地」シ�
 **6日目**
 - 08:05　セブ発（フィリピン航空）→ 13:35　成田着
 
-**費用の内訳（1人あたり目安）**
-
-| 項目 | 金額 |
-|---|---|
-| 国際線：成田⇄セブ | <span style="white-space:nowrap">約100,000円</span> |
-| 国内線：セブ⇄シアルガオ | <span style="white-space:nowrap">約18,000円</span> |
-| ホテル（セブ2泊） | <span style="white-space:nowrap">約30,000円</span> |
-| ホテル（シアルガオ3泊） | <span style="white-space:nowrap">約36,000円</span> |
-| 現地交通・離島ツアー | <span style="white-space:nowrap">約12,000円</span> |
-| 食事（5日分） | <span style="white-space:nowrap">約20,000円</span> |
-| **合計** | <span style="white-space:nowrap">**約216,000円**</span> |
+**費用の内訳（1人あたり目安）**：国際線約100,000円／国内線約18,000円／ホテル（セブ2泊）約30,000円／ホテル（シアルガオ3泊）約36,000円／現地交通約12,000円／食事約20,000円／**合計 約216,000円**
 
 ## おすすめ旅程（らぐ旅向け／セブ往復2泊・5泊6日の例）
 
@@ -150,17 +130,7 @@ excerpt: "世界的サーファーが集まる「サーフィンの聖地」シ�
 **6日目**
 - 08:05　セブ発（フィリピン航空）→ 13:35　成田着
 
-**費用の内訳（1人あたり目安）**
-
-| 項目 | 金額 |
-|---|---|
-| 国際線：成田⇄セブ | <span style="white-space:nowrap">約110,000円</span> |
-| 国内線：セブ⇄シアルガオ | <span style="white-space:nowrap">約20,000円</span> |
-| ホテル（セブ上質リゾート2泊） | <span style="white-space:nowrap">約50,000円</span> |
-| ホテル（Dedon Island Resort 3泊） | <span style="white-space:nowrap">約105,000円</span> |
-| 現地交通・プライベート送迎 | <span style="white-space:nowrap">約20,000円</span> |
-| 食事（5日分） | <span style="white-space:nowrap">約30,000円</span> |
-| **合計** | <span style="white-space:nowrap">**約335,000円**</span> |
+**費用の内訳（1人あたり目安）**：国際線約110,000円／国内線約20,000円／ホテル（セブ上質リゾート2泊）約50,000円／ホテル（Dedon Island Resort 3泊）約105,000円／現地交通約20,000円／食事約30,000円／**合計 約335,000円**
 
 ## おすすめビーチ・スポット
 

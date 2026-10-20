@@ -74,8 +74,8 @@ excerpt: "世界的サーファーが集まる「サーフィンの聖地」シ�
 
 | 項目 | 金額 |
 |---|---|
-| 往復航空券（国際線：成田⇄セブ） | <span style="white-space:nowrap">約40,000円</span> |
-| 往復航空券（国内線：セブ⇄シアルガオ） | <span style="white-space:nowrap">約15,000円</span> |
+| 国際線：成田⇄セブ | <span style="white-space:nowrap">約40,000円</span> |
+| 国内線：セブ⇄シアルガオ | <span style="white-space:nowrap">約15,000円</span> |
 | ホテル（セブ2泊） | <span style="white-space:nowrap">約8,000円</span> |
 | ホテル（シアルガオ3泊） | <span style="white-space:nowrap">約9,000円</span> |
 | 現地交通・離島ツアー | <span style="white-space:nowrap">約6,000円</span> |
@@ -114,8 +114,8 @@ excerpt: "世界的サーファーが集まる「サーフィンの聖地」シ�
 
 | 項目 | 金額 |
 |---|---|
-| 往復航空券（国際線：成田⇄セブ） | <span style="white-space:nowrap">約100,000円</span> |
-| 往復航空券（国内線：セブ⇄シアルガオ） | <span style="white-space:nowrap">約18,000円</span> |
+| 国際線：成田⇄セブ | <span style="white-space:nowrap">約100,000円</span> |
+| 国内線：セブ⇄シアルガオ | <span style="white-space:nowrap">約18,000円</span> |
 | ホテル（セブ2泊） | <span style="white-space:nowrap">約30,000円</span> |
 | ホテル（シアルガオ3泊） | <span style="white-space:nowrap">約36,000円</span> |
 | 現地交通・離島ツアー | <span style="white-space:nowrap">約12,000円</span> |
@@ -154,8 +154,8 @@ excerpt: "世界的サーファーが集まる「サーフィンの聖地」シ�
 
 | 項目 | 金額 |
 |---|---|
-| 往復航空券（国際線：成田⇄セブ） | <span style="white-space:nowrap">約110,000円</span> |
-| 往復航空券（国内線：セブ⇄シアルガオ） | <span style="white-space:nowrap">約20,000円</span> |
+| 国際線：成田⇄セブ | <span style="white-space:nowrap">約110,000円</span> |
+| 国内線：セブ⇄シアルガオ | <span style="white-space:nowrap">約20,000円</span> |
 | ホテル（セブ上質リゾート2泊） | <span style="white-space:nowrap">約50,000円</span> |
 | ホテル（Dedon Island Resort 3泊） | <span style="white-space:nowrap">約105,000円</span> |
 | 現地交通・プライベート送迎 | <span style="white-space:nowrap">約20,000円</span> |

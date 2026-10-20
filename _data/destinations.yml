@@ -521,13 +521,13 @@
   flight_min: 60000
   flight_max: 160000
   hotel_min: 3000
-  hotel_max: 70000
+  hotel_max: 40000
   transport_min: 1000
   transport_max: 4000
   food_min: 1500
   food_max: 7000
-  flight_hours: "約12〜15時間（マニラ乗り継ぎ＋セブ経由、国内線2回）"
-  recommended_nights: "5泊以上"
+  flight_hours: "約5時間（成田直行便）＋国内線約50分（セブ経由）"
+  recommended_nights: "3泊以上"
   visa: "不要（30日以内）"
   photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Surfing_%40_Siargao.jpg/960px-Surfing_%40_Siargao.jpg"
   photo_credit_url: "https://commons.wikimedia.org/wiki/File:Surfing_@_Siargao.jpg"

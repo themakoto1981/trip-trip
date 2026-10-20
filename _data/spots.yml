@@ -875,3 +875,42 @@ con-dao-guide:
     type: hotel
     letter: "ら"
     url: "https://www.booking.com/searchresults.html?ss=Six+Senses+Con+Dao"
+
+siargao-guide:
+  - name: Cloud 9
+    lat: 9.8071
+    lng: 126.1651
+    desc: 世界的に有名なサーフポイント、ボードウォークから波を見るだけでも楽しめる
+  - name: スグバ・ラグーン
+    lat: 9.9063
+    lng: 125.9003
+    desc: 石灰岩の崖に囲まれたエメラルドグリーンのラグーン、離島ツアーの定番
+  - name: マグププンコ・タイダルプール
+    lat: 9.8757
+    lng: 126.1202
+    desc: 引き潮の時間だけ現れる天然プール
+  - name: ネイキッドアイランド
+    lat: 9.7349
+    lng: 126.1259
+    desc: 真っ白な砂州だけの小島、離島ツアーのランチ休憩地点
+  - name: "Isla Cabana"
+    lat: 9.7901
+    lng: 126.1630
+    desc: "やす旅向け、サーファーに人気のホステル"
+    type: hotel
+    letter: "や"
+    url: "https://www.booking.com/searchresults.html?ss=Isla+Cabana+Siargao"
+  - name: "La Isla Resort"
+    lat: 9.7962
+    lng: 126.1602
+    desc: "ゆる旅向け、ビーチ沿いのリゾート"
+    type: hotel
+    letter: "ゆ"
+    url: "https://www.booking.com/searchresults.html?ss=La+Isla+Resort+Siargao"
+  - name: "Dedon Island Resort"
+    lat: 9.7577
+    lng: 126.1227
+    desc: "らぐ旅向け、プライベートアイランドの名門リゾート"
+    type: hotel
+    letter: "ら"
+    url: "https://www.booking.com/searchresults.html?ss=Dedon+Island+Resort+Siargao"

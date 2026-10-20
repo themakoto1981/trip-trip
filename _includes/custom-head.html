@@ -665,7 +665,7 @@
   .post-content table th, .post-content table td {
     background: transparent;
     border-bottom: 1px solid var(--sb-border);
-    padding: 0.6rem 0.75rem;
+    padding: 0.4rem 0.6rem;
     text-align: left;
   }
   .post-content table thead th { background: transparent; color: var(--sb-green-dark); font-weight: 700; }
@@ -676,6 +676,10 @@
   .post-content table td:nth-child(1),
   .post-content table td:nth-child(2) {
     text-align: center;
+  }
+  .post-content table th:nth-child(1),
+  .post-content table td:nth-child(1) {
+    white-space: nowrap;
   }
 
   /* Country hub + country pages — hairline rows, no cards */

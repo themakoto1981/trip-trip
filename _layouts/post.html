@@ -364,12 +364,15 @@ layout: default
       itineraryHeadings.forEach(function (itineraryHeading) {
         var node = itineraryHeading.nextElementSibling;
         var dayBlocks = [];
+        var costNode = null;
         while (node && node.tagName !== 'H2') {
           if (node.tagName === 'P' && node.querySelector('strong')) {
             var strongEl = node.querySelector('strong');
             var listNode = node.nextElementSibling;
             if (listNode && listNode.tagName === 'UL') {
               dayBlocks.push({ label: strongEl.textContent, pNode: node, ulNode: listNode });
+            } else if (node.textContent.indexOf('費用の内訳') !== -1) {
+              costNode = node;
             }
           }
           node = node.nextElementSibling;
@@ -411,10 +414,17 @@ layout: default
           dayDiv.appendChild(listUl);
           timelineWrap.appendChild(dayDiv);
         });
+        if (costNode) {
+          var costDiv = document.createElement('div');
+          costDiv.className = 'itinerary-cost-breakdown';
+          costDiv.innerHTML = costNode.innerHTML;
+          timelineWrap.appendChild(costDiv);
+        }
         dayBlocks.forEach(function (block) {
           block.pNode.remove();
           block.ulNode.remove();
         });
+        if (costNode) { costNode.remove(); }
 
         if (!isMultiPlan) {
           itineraryHeading.parentNode.insertBefore(timelineWrap, itineraryHeading.nextSibling);

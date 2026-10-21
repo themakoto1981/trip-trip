@@ -5,8 +5,6 @@ permalink: /dice/
 hide_header: true
 ---
 
-<p class="dice-intro">どこへ行くか決められない時は、20面体のサイコロに任せてみませんか。このサイトで紹介している全20の行き先からランダムに1つを選びます。</p>
-
 <div id="dice-stage">
   <canvas id="dice-canvas"></canvas>
   <div id="dice-shadow"></div>
@@ -29,12 +27,6 @@ hide_header: true
 </div>
 
 <style>
-  .dice-intro {
-    color: var(--sb-brown-soft);
-    font-size: 0.95rem;
-    line-height: 1.7;
-    margin-bottom: 1.5rem;
-  }
   #dice-stage {
     width: 100%;
     max-width: 400px;

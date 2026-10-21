@@ -8,6 +8,7 @@ hide_header: true
 <div id="dice-stage">
   <canvas id="dice-canvas"></canvas>
   <div id="dice-shadow"></div>
+  <div id="dice-impact-flash"></div>
 </div>
 
 <div id="dice-controls">
@@ -113,15 +114,39 @@ hide_header: true
     transform: scale(0.82) translateY(14px);
   }
   .dice-result.show {
-    animation: diceResultPop 0.55s cubic-bezier(.22, 1, .36, 1) forwards;
+    animation: diceResultPop 0.5s cubic-bezier(.22, 1, .36, 1) forwards;
   }
   @keyframes diceResultPop {
-    0% { opacity: 0; transform: scale(0.8) translateY(18px); }
-    65% { opacity: 1; transform: scale(1.05) translateY(-3px); }
+    0% { opacity: 0; transform: scale(0.7) translateY(22px); }
+    55% { opacity: 1; transform: scale(1.08) translateY(-4px); }
     100% { opacity: 1; transform: scale(1) translateY(0); }
+  }
+  .dice-result.show .dice-result-name {
+    display: inline-block;
+    animation: diceNamePunch 0.55s cubic-bezier(.17,.89,.32,1.49) both;
+  }
+  @keyframes diceNamePunch {
+    0% { transform: scale(2.6); opacity: 0; }
+    55% { transform: scale(0.88); opacity: 1; }
+    100% { transform: scale(1); opacity: 1; }
+  }
+  #dice-impact-flash {
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle, rgba(255,255,255,0.95) 0%, rgba(255,255,255,0) 68%);
+    opacity: 0;
+    pointer-events: none;
+    z-index: 3;
+  }
+  #dice-impact-flash.flash { animation: diceFlash 0.4s ease-out; }
+  @keyframes diceFlash {
+    0% { opacity: 0.95; }
+    100% { opacity: 0; }
   }
   @media (prefers-reduced-motion: reduce) {
     .dice-result.show { animation: none; opacity: 1; transform: none; }
+    .dice-result.show .dice-result-name { animation: none; }
+    #dice-impact-flash.flash { animation: none; }
   }
   .dice-result-photo {
     width: 88px;
@@ -170,6 +195,7 @@ hide_header: true
   var resultLink = document.getElementById('dice-result-link');
   var diceShadow = document.getElementById('dice-shadow');
   var confettiContainer = document.getElementById('dice-confetti');
+  var impactFlash = document.getElementById('dice-impact-flash');
 
   if (!destinations || !destinations.length || typeof THREE === 'undefined') {
     if (stage) stage.hidden = true;
@@ -291,6 +317,7 @@ hide_header: true
   var rolling = false;
   var bounceY = 0;
   var bounceVelY = 0;
+  var posXVel = 0;
   var gravity = -0.013;
   var restitution = 0.5;
   var velocity = { x: 0, y: 0, z: 0 };
@@ -338,9 +365,12 @@ hide_header: true
       dice.rotation.x += velocity.x;
       dice.rotation.y += velocity.y;
       dice.rotation.z += velocity.z;
-      velocity.x *= 0.965;
-      velocity.y *= 0.965;
-      velocity.z *= 0.965;
+      velocity.x *= 0.978;
+      velocity.y *= 0.978;
+      velocity.z *= 0.978;
+
+      posXVel *= 0.952;
+      dice.position.x += posXVel;
 
       bounceVelY += gravity;
       bounceY += bounceVelY;
@@ -395,6 +425,9 @@ hide_header: true
     void resultBox.offsetWidth;
     resultBox.classList.add('show');
     spawnConfetti();
+    impactFlash.classList.remove('flash');
+    void impactFlash.offsetWidth;
+    impactFlash.classList.add('flash');
   }
 
   function onRollEnd() {
@@ -416,9 +449,11 @@ hide_header: true
       return;
     }
     rolling = true;
-    velocity.x = 0.3 + Math.random() * 0.3;
-    velocity.y = 0.36 + Math.random() * 0.34;
-    velocity.z = 0.18 + Math.random() * 0.24;
+    dice.position.x = 0;
+    velocity.x = 0.42 + Math.random() * 0.4;
+    velocity.y = 0.48 + Math.random() * 0.42;
+    velocity.z = 0.26 + Math.random() * 0.3;
+    posXVel = (Math.random() - 0.5) * 0.16;
     bounceY = 0;
     bounceVelY = 0.3 + Math.random() * 0.1;
   });

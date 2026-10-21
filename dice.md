@@ -262,12 +262,12 @@ hide_header: true
     var canvas = document.createElement('canvas');
     canvas.width = 256; canvas.height = 256;
     var ctx = canvas.getContext('2d');
-    var grad = ctx.createRadialGradient(128, 90, 20, 128, 160, 200);
-    grad.addColorStop(0, '#4a966c');
-    grad.addColorStop(1, '#245438');
+    var grad = ctx.createRadialGradient(128, 90, 20, 128, 160, 220);
+    grad.addColorStop(0, '#ffffff');
+    grad.addColorStop(1, '#e3ddd0');
     ctx.fillStyle = grad;
     ctx.fillRect(0, 0, 256, 256);
-    ctx.fillStyle = '#ffd56a';
+    ctx.fillStyle = '#2a2420';
     ctx.textAlign = 'center';
     ctx.textBaseline = 'middle';
     var fontSize = names.length > 1 ? 22 : 28;
@@ -301,14 +301,14 @@ hide_header: true
   }
 
   var materials = faceGroups.map(function (group) {
-    return new THREE.MeshStandardMaterial({ map: makeFaceTexture(group), flatShading: true, roughness: 0.45, metalness: 0.15 });
+    return new THREE.MeshStandardMaterial({ map: makeFaceTexture(group), flatShading: true, roughness: 0.55, metalness: 0.02 });
   });
 
   var dice = new THREE.Mesh(geometry, materials);
   scene.add(dice);
 
   var edges = new THREE.EdgesGeometry(geometry);
-  var edgeLines = new THREE.LineSegments(edges, new THREE.LineBasicMaterial({ color: 0xffd56a, linewidth: 1 }));
+  var edgeLines = new THREE.LineSegments(edges, new THREE.LineBasicMaterial({ color: 0xbdb5a3, linewidth: 1 }));
   dice.add(edgeLines);
 
   resize();
@@ -393,8 +393,6 @@ hide_header: true
         rolling = false;
         onRollEnd();
       }
-    } else {
-      dice.rotation.y += 0.003;
     }
     render();
     rafId = requestAnimationFrame(tick);
@@ -432,7 +430,6 @@ hide_header: true
 
   function onRollEnd() {
     btn.disabled = false;
-    btn.textContent = 'もう一度振る';
     showResult();
   }
 
@@ -445,7 +442,6 @@ hide_header: true
       render();
       showResult();
       btn.disabled = false;
-      btn.textContent = 'もう一度振る';
       return;
     }
     rolling = true;

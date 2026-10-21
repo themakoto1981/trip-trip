@@ -9,19 +9,23 @@ hide_header: true
 
 <div id="dice-stage">
   <canvas id="dice-canvas"></canvas>
+  <div id="dice-shadow"></div>
 </div>
 
 <div id="dice-controls">
   <button type="button" id="dice-roll-btn" class="dice-roll-btn">サイコロを振る</button>
 </div>
 
-<div id="dice-result" class="dice-result" hidden>
-  <img id="dice-result-photo" class="dice-result-photo" alt="">
-  <div class="dice-result-body">
-    <div class="dice-result-label">次の行き先はここ</div>
-    <div id="dice-result-name" class="dice-result-name"></div>
-    <a id="dice-result-link" class="dice-result-link" href="#">記事を見る ▶</a>
+<div id="dice-result-wrap" style="position: relative; max-width: 420px; margin: 0 auto;">
+  <div id="dice-result" class="dice-result" hidden>
+    <img id="dice-result-photo" class="dice-result-photo" alt="">
+    <div class="dice-result-body">
+      <div class="dice-result-label">次の行き先はここ</div>
+      <div id="dice-result-name" class="dice-result-name"></div>
+      <a id="dice-result-link" class="dice-result-link" href="#">記事を見る ▶</a>
+    </div>
   </div>
+  <div id="dice-confetti"></div>
 </div>
 
 <style>
@@ -33,12 +37,34 @@ hide_header: true
   }
   #dice-stage {
     width: 100%;
-    max-width: 320px;
+    max-width: 400px;
     aspect-ratio: 1 / 1;
     margin: 0 auto 1.25rem;
     touch-action: none;
+    position: relative;
+    background: radial-gradient(circle at 50% 62%, rgba(62,125,92,0.16) 0%, rgba(62,125,92,0) 70%);
   }
-  #dice-canvas { width: 100%; height: 100%; display: block; }
+  #dice-canvas { width: 100%; height: 100%; display: block; position: relative; z-index: 2; }
+  #dice-shadow {
+    position: absolute;
+    left: 50%;
+    bottom: 10%;
+    width: 44%;
+    height: 9%;
+    background: radial-gradient(ellipse at center, rgba(40,60,45,0.38) 0%, rgba(40,60,45,0) 72%);
+    transform: translateX(-50%) scale(1);
+    pointer-events: none;
+    z-index: 1;
+  }
+  #dice-stage.shake { animation: diceShake 0.22s ease-out; }
+  @keyframes diceShake {
+    0% { transform: translate(0, 0); }
+    20% { transform: translate(-6px, 2px); }
+    40% { transform: translate(5px, -3px); }
+    60% { transform: translate(-4px, 1px); }
+    80% { transform: translate(3px, -1px); }
+    100% { transform: translate(0, 0); }
+  }
   #dice-controls { text-align: center; margin-bottom: 1.5rem; }
   .dice-roll-btn {
     display: inline-flex;
@@ -50,12 +76,37 @@ hide_header: true
     border-radius: 999px;
     cursor: pointer;
     font-family: inherit;
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: 700;
-    padding: 0.7rem 1.8rem;
+    padding: 0.85rem 2.4rem;
+    box-shadow: 0 6px 18px rgba(62,125,92,0.4);
+    transition: transform 0.12s ease, box-shadow 0.12s ease;
+    animation: dicePulse 2s ease-in-out infinite;
   }
-  .dice-roll-btn:hover { background: var(--sb-green-dark); }
-  .dice-roll-btn:disabled { opacity: 0.55; cursor: default; }
+  .dice-roll-btn:hover { background: var(--sb-green-dark); transform: translateY(-1px); box-shadow: 0 8px 22px rgba(62,125,92,0.5); }
+  .dice-roll-btn:active { transform: translateY(1px) scale(0.97); }
+  .dice-roll-btn:disabled { opacity: 0.55; cursor: default; animation: none; box-shadow: none; }
+  @keyframes dicePulse {
+    0%, 100% { box-shadow: 0 6px 18px rgba(62,125,92,0.4); }
+    50% { box-shadow: 0 6px 26px rgba(62,125,92,0.75); }
+  }
+  .confetti-piece {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    top: 50%;
+    left: 50%;
+    pointer-events: none;
+    opacity: 0;
+    z-index: 5;
+  }
+  .confetti-piece.fly {
+    animation: confettiFly 0.9s cubic-bezier(.17,.89,.32,1.49) forwards;
+  }
+  @keyframes confettiFly {
+    0% { opacity: 1; transform: translate(-50%, -50%) scale(0.6) rotate(0deg); }
+    100% { opacity: 0; transform: var(--confetti-end) scale(1) rotate(var(--confetti-spin)); }
+  }
   .dice-result {
     display: flex;
     gap: 1rem;
@@ -125,6 +176,8 @@ hide_header: true
   var resultPhoto = document.getElementById('dice-result-photo');
   var resultName = document.getElementById('dice-result-name');
   var resultLink = document.getElementById('dice-result-link');
+  var diceShadow = document.getElementById('dice-shadow');
+  var confettiContainer = document.getElementById('dice-confetti');
 
   if (!destinations || !destinations.length || typeof THREE === 'undefined') {
     if (stage) stage.hidden = true;
@@ -155,6 +208,9 @@ hide_header: true
   var dirLight2 = new THREE.DirectionalLight(0xffffff, 0.35);
   dirLight2.position.set(-4, -2, -3);
   scene.add(dirLight2);
+  var rimLight = new THREE.DirectionalLight(0xffd56a, 0.5);
+  rimLight.position.set(-3, 2, -4);
+  scene.add(rimLight);
 
   var geometry = new THREE.IcosahedronGeometry(1.3, 0).toNonIndexed();
   var posAttr = geometry.attributes.position;
@@ -188,9 +244,12 @@ hide_header: true
     var canvas = document.createElement('canvas');
     canvas.width = 256; canvas.height = 256;
     var ctx = canvas.getContext('2d');
-    ctx.fillStyle = '#3e7d5c';
+    var grad = ctx.createRadialGradient(128, 90, 20, 128, 160, 200);
+    grad.addColorStop(0, '#4a966c');
+    grad.addColorStop(1, '#245438');
+    ctx.fillStyle = grad;
     ctx.fillRect(0, 0, 256, 256);
-    ctx.fillStyle = '#f4efe4';
+    ctx.fillStyle = '#ffd56a';
     ctx.textAlign = 'center';
     ctx.textBaseline = 'middle';
     var fontSize = names.length > 1 ? 22 : 28;
@@ -224,14 +283,14 @@ hide_header: true
   }
 
   var materials = faceGroups.map(function (group) {
-    return new THREE.MeshStandardMaterial({ map: makeFaceTexture(group), flatShading: true, roughness: 0.6, metalness: 0.05 });
+    return new THREE.MeshStandardMaterial({ map: makeFaceTexture(group), flatShading: true, roughness: 0.45, metalness: 0.15 });
   });
 
   var dice = new THREE.Mesh(geometry, materials);
   scene.add(dice);
 
   var edges = new THREE.EdgesGeometry(geometry);
-  var edgeLines = new THREE.LineSegments(edges, new THREE.LineBasicMaterial({ color: 0xf4efe4, linewidth: 1 }));
+  var edgeLines = new THREE.LineSegments(edges, new THREE.LineBasicMaterial({ color: 0xffd56a, linewidth: 1 }));
   dice.add(edgeLines);
 
   resize();
@@ -249,6 +308,39 @@ hide_header: true
     renderer.render(scene, camera);
   }
 
+  var shakeTimeout = null;
+  function triggerShake() {
+    if (reduceMotion) return;
+    stage.classList.remove('shake');
+    void stage.offsetWidth;
+    stage.classList.add('shake');
+    clearTimeout(shakeTimeout);
+    shakeTimeout = setTimeout(function () { stage.classList.remove('shake'); }, 260);
+  }
+
+  var confettiColors = ['#3e7d5c', '#ffd56a', '#f4efe4', '#e07a3f', '#2c6b4a'];
+  function spawnConfetti() {
+    if (reduceMotion) return;
+    for (var i = 0; i < 18; i++) {
+      var piece = document.createElement('div');
+      piece.className = 'confetti-piece';
+      piece.style.background = confettiColors[Math.floor(Math.random() * confettiColors.length)];
+      piece.style.borderRadius = Math.random() > 0.5 ? '50%' : '2px';
+      var angle = Math.random() * Math.PI * 2;
+      var dist = 70 + Math.random() * 90;
+      var ex = Math.cos(angle) * dist;
+      var ey = Math.sin(angle) * dist - 20;
+      piece.style.setProperty('--confetti-end', 'translate(' + ex + 'px, ' + ey + 'px)');
+      piece.style.setProperty('--confetti-spin', (Math.random() * 540 - 270) + 'deg');
+      confettiContainer.appendChild(piece);
+      void piece.offsetWidth;
+      piece.classList.add('fly');
+      (function (el) {
+        setTimeout(function () { el.remove(); }, 1000);
+      })(piece);
+    }
+  }
+
   function tick() {
     if (rolling) {
       dice.rotation.x += velocity.x;
@@ -262,10 +354,16 @@ hide_header: true
       bounceY += bounceVelY;
       if (bounceY <= 0) {
         bounceY = 0;
+        var impactStrength = Math.abs(bounceVelY);
         bounceVelY = -bounceVelY * restitution;
         if (Math.abs(bounceVelY) < 0.01) bounceVelY = 0;
+        if (impactStrength > 0.025) triggerShake(impactStrength);
       }
       dice.position.y = bounceY;
+
+      var shadowT = Math.max(0, 1 - Math.min(bounceY / 2.2, 1));
+      diceShadow.style.transform = 'translateX(-50%) scale(' + (0.55 + 0.45 * shadowT) + ')';
+      diceShadow.style.opacity = (0.25 + 0.75 * shadowT).toFixed(2);
 
       var settled = Math.abs(velocity.x) + Math.abs(velocity.y) + Math.abs(velocity.z) < 0.01;
       var bounced = bounceY === 0 && bounceVelY === 0;
@@ -304,6 +402,7 @@ hide_header: true
     resultBox.classList.remove('show');
     void resultBox.offsetWidth;
     resultBox.classList.add('show');
+    spawnConfetti();
   }
 
   function onRollEnd() {
@@ -325,11 +424,11 @@ hide_header: true
       return;
     }
     rolling = true;
-    velocity.x = 0.25 + Math.random() * 0.25;
-    velocity.y = 0.3 + Math.random() * 0.3;
-    velocity.z = 0.15 + Math.random() * 0.2;
+    velocity.x = 0.3 + Math.random() * 0.3;
+    velocity.y = 0.36 + Math.random() * 0.34;
+    velocity.z = 0.18 + Math.random() * 0.24;
     bounceY = 0;
-    bounceVelY = 0.26 + Math.random() * 0.08;
+    bounceVelY = 0.3 + Math.random() * 0.1;
   });
 })();
 </script>

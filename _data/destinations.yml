@@ -551,7 +551,7 @@
   transport_max: 3000
   food_min: 1500
   food_max: 6000
-  flight_hours: "約5時間（成田直行便）＋国内線約50分（セブ経由）"
+  flight_hours: "約5時間（成田直行便）＋国内線約1時間20分（マニラ経由）"
   recommended_nights: "3泊以上"
   visa: "不要（30日以内）"
   photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Sunken_Cemetery%2C_Camiguin.jpg/960px-Sunken_Cemetery%2C_Camiguin.jpg"

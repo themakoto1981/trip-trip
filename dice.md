@@ -2,6 +2,7 @@
 layout: page
 title: サイコロで行き先を決める
 permalink: /dice/
+hide_header: true
 ---
 
 <p class="dice-intro">どこへ行くか決められない時は、20面体のサイコロに任せてみませんか。このサイトで紹介している全20の行き先からランダムに1つを選びます。</p>
@@ -17,7 +18,7 @@ permalink: /dice/
 <div id="dice-result" class="dice-result" hidden>
   <img id="dice-result-photo" class="dice-result-photo" alt="">
   <div class="dice-result-body">
-    <div class="dice-result-label">今回の行き先は…</div>
+    <div class="dice-result-label">次の行き先はここ</div>
     <div id="dice-result-name" class="dice-result-name"></div>
     <a id="dice-result-link" class="dice-result-link" href="#">記事を見る ▶</a>
   </div>
@@ -65,6 +66,19 @@ permalink: /dice/
     padding: 1rem;
     max-width: 420px;
     margin: 0 auto;
+    opacity: 0;
+    transform: scale(0.82) translateY(14px);
+  }
+  .dice-result.show {
+    animation: diceResultPop 0.55s cubic-bezier(.22, 1, .36, 1) forwards;
+  }
+  @keyframes diceResultPop {
+    0% { opacity: 0; transform: scale(0.8) translateY(18px); }
+    65% { opacity: 1; transform: scale(1.05) translateY(-3px); }
+    100% { opacity: 1; transform: scale(1) translateY(0); }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .dice-result.show { animation: none; opacity: 1; transform: none; }
   }
   .dice-result-photo {
     width: 88px;
@@ -224,6 +238,10 @@ permalink: /dice/
   window.addEventListener('resize', resize);
 
   var rolling = false;
+  var bounceY = 0;
+  var bounceVelY = 0;
+  var gravity = -0.013;
+  var restitution = 0.5;
   var velocity = { x: 0, y: 0, z: 0 };
   var rafId = null;
 
@@ -239,7 +257,19 @@ permalink: /dice/
       velocity.x *= 0.965;
       velocity.y *= 0.965;
       velocity.z *= 0.965;
-      if (Math.abs(velocity.x) + Math.abs(velocity.y) + Math.abs(velocity.z) < 0.01) {
+
+      bounceVelY += gravity;
+      bounceY += bounceVelY;
+      if (bounceY <= 0) {
+        bounceY = 0;
+        bounceVelY = -bounceVelY * restitution;
+        if (Math.abs(bounceVelY) < 0.01) bounceVelY = 0;
+      }
+      dice.position.y = bounceY;
+
+      var settled = Math.abs(velocity.x) + Math.abs(velocity.y) + Math.abs(velocity.z) < 0.01;
+      var bounced = bounceY === 0 && bounceVelY === 0;
+      if (settled && bounced) {
         rolling = false;
         onRollEnd();
       }
@@ -271,6 +301,9 @@ permalink: /dice/
     resultName.textContent = pick.name;
     resultLink.href = pick.url;
     resultBox.hidden = false;
+    resultBox.classList.remove('show');
+    void resultBox.offsetWidth;
+    resultBox.classList.add('show');
   }
 
   function onRollEnd() {
@@ -295,6 +328,8 @@ permalink: /dice/
     velocity.x = 0.25 + Math.random() * 0.25;
     velocity.y = 0.3 + Math.random() * 0.3;
     velocity.z = 0.15 + Math.random() * 0.2;
+    bounceY = 0;
+    bounceVelY = 0.26 + Math.random() * 0.08;
   });
 })();
 </script>

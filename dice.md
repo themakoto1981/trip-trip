@@ -142,9 +142,78 @@ permalink: /dice/
   dirLight2.position.set(-4, -2, -3);
   scene.add(dirLight2);
 
-  var geometry = new THREE.IcosahedronGeometry(1.3, 0);
-  var material = new THREE.MeshStandardMaterial({ color: 0x3e7d5c, flatShading: true, roughness: 0.55, metalness: 0.05 });
-  var dice = new THREE.Mesh(geometry, material);
+  var geometry = new THREE.IcosahedronGeometry(1.3, 0).toNonIndexed();
+  var posAttr = geometry.attributes.position;
+  var faceCount = posAttr.count / 3;
+
+  var faceGroups = [];
+  for (var g = 0; g < faceCount; g++) faceGroups.push([]);
+  destinations.forEach(function (d, i) {
+    faceGroups[i % faceCount].push(d);
+  });
+
+  var faceNormals = [];
+  var uvs = new Float32Array(posAttr.count * 2);
+  for (var f = 0; f < faceCount; f++) {
+    var base = f * 3;
+    uvs[(base + 0) * 2 + 0] = 0.5; uvs[(base + 0) * 2 + 1] = 1.0;
+    uvs[(base + 1) * 2 + 0] = 0.0; uvs[(base + 1) * 2 + 1] = 0.0;
+    uvs[(base + 2) * 2 + 0] = 1.0; uvs[(base + 2) * 2 + 1] = 0.0;
+    geometry.addGroup(base, 3, f);
+
+    var va = new THREE.Vector3().fromBufferAttribute(posAttr, base);
+    var vb = new THREE.Vector3().fromBufferAttribute(posAttr, base + 1);
+    var vc = new THREE.Vector3().fromBufferAttribute(posAttr, base + 2);
+    var normal = new THREE.Vector3().subVectors(vb, va).cross(new THREE.Vector3().subVectors(vc, va)).normalize();
+    faceNormals.push(normal);
+  }
+  geometry.setAttribute('uv', new THREE.BufferAttribute(uvs, 2));
+  geometry.computeVertexNormals();
+
+  function makeFaceTexture(names) {
+    var canvas = document.createElement('canvas');
+    canvas.width = 256; canvas.height = 256;
+    var ctx = canvas.getContext('2d');
+    ctx.fillStyle = '#3e7d5c';
+    ctx.fillRect(0, 0, 256, 256);
+    ctx.fillStyle = '#f4efe4';
+    ctx.textAlign = 'center';
+    ctx.textBaseline = 'middle';
+    var fontSize = names.length > 1 ? 22 : 28;
+    ctx.font = 'bold ' + fontSize + 'px "Noto Serif JP", serif';
+
+    var allLines = [];
+    names.forEach(function (d) {
+      var label = d.name;
+      var line = '';
+      var lines = [];
+      for (var i = 0; i < label.length; i++) {
+        line += label[i];
+        if (line.length >= 6) { lines.push(line); line = ''; }
+      }
+      if (line) lines.push(line);
+      allLines.push(lines);
+    });
+
+    var lineHeight = fontSize + 6;
+    var flatLines = [];
+    allLines.forEach(function (lines, idx) {
+      if (idx > 0) flatLines.push('・');
+      flatLines = flatLines.concat(lines);
+    });
+    var startY = 168 - (flatLines.length - 1) * lineHeight / 2;
+    flatLines.forEach(function (line, i) {
+      ctx.fillText(line, 128, startY + i * lineHeight);
+    });
+
+    return new THREE.CanvasTexture(canvas);
+  }
+
+  var materials = faceGroups.map(function (group) {
+    return new THREE.MeshStandardMaterial({ map: makeFaceTexture(group), flatShading: true, roughness: 0.6, metalness: 0.05 });
+  });
+
+  var dice = new THREE.Mesh(geometry, materials);
   scene.add(dice);
 
   var edges = new THREE.EdgesGeometry(geometry);
@@ -182,8 +251,21 @@ permalink: /dice/
   }
   rafId = requestAnimationFrame(tick);
 
+  function topFaceIndex() {
+    var best = 0;
+    var bestDot = -Infinity;
+    var worldNormal = new THREE.Vector3();
+    for (var f = 0; f < faceNormals.length; f++) {
+      worldNormal.copy(faceNormals[f]).applyQuaternion(dice.quaternion);
+      var dot = worldNormal.z;
+      if (dot > bestDot) { bestDot = dot; best = f; }
+    }
+    return best;
+  }
+
   function showResult() {
-    var pick = destinations[Math.floor(Math.random() * destinations.length)];
+    var group = faceGroups[topFaceIndex()];
+    var pick = group[Math.floor(Math.random() * group.length)];
     resultPhoto.src = pick.photo;
     resultPhoto.alt = pick.name;
     resultName.textContent = pick.name;
@@ -202,6 +284,8 @@ permalink: /dice/
     btn.disabled = true;
     resultBox.hidden = true;
     if (reduceMotion) {
+      dice.rotation.set(Math.random() * Math.PI * 2, Math.random() * Math.PI * 2, Math.random() * Math.PI * 2);
+      render();
       showResult();
       btn.disabled = false;
       btn.textContent = 'もう一度振る';

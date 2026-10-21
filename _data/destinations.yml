@@ -535,3 +535,28 @@
   best_months: [1, 2, 3, 4, 5, 12]
   url: /2026/10/20/siargao-guide/
   tags: { beach: 4, resort: 3, island: 5, city_base: 1, sightseeing: 2, relax: 3, party: 2, activity: 5 }
+
+- name: カミギン島
+  en_name: "Camiguin, Philippines"
+  slug: camiguin-guide
+  country: フィリピン
+  country_slug: philippines
+  lat: 9.1745
+  lng: 124.7186
+  flight_min: 55000
+  flight_max: 135000
+  hotel_min: 2500
+  hotel_max: 20000
+  transport_min: 1000
+  transport_max: 3000
+  food_min: 1500
+  food_max: 6000
+  flight_hours: "約5時間（成田直行便）＋国内線約50分（セブ経由）"
+  recommended_nights: "3泊以上"
+  visa: "不要（30日以内）"
+  photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Sunken_Cemetery%2C_Camiguin.jpg/960px-Sunken_Cemetery%2C_Camiguin.jpg"
+  photo_credit_url: "https://commons.wikimedia.org/wiki/File:Sunken_Cemetery,_Camiguin.jpg"
+  suited_for: [couple, friends, solo]
+  best_months: [2, 3, 4, 5]
+  url: /2026/10/21/camiguin-guide/
+  tags: { beach: 3, resort: 2, island: 5, city_base: 1, sightseeing: 4, relax: 4, party: 1, activity: 3 }

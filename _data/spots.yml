@@ -914,3 +914,32 @@ siargao-guide:
     type: hotel
     letter: "ら"
     url: "https://www.booking.com/searchresults.html?ss=Dedon+Island+Resort+Siargao"
+
+camiguin-guide:
+  - name: ホワイトアイランド
+    lat: 9.2578
+    lng: 124.6558
+    desc: 海に浮かぶ真っ白な砂州、ヤンビンからボートで約10分
+  - name: サンケン・セメタリー
+    lat: 9.2068
+    lng: 124.6330
+    desc: 1871年の火山噴火で海に沈んだ旧墓地、沖の十字架が目印
+  - name: カティバワサン滝
+    lat: 9.2145
+    lng: 124.7166
+    desc: 高さ約70mの滝、滝つぼで泳げる
+  - name: アーデント温泉
+    lat: 9.2260
+    lng: 124.6878
+    desc: ヒボク・ヒボク山のふもとにある温泉
+  - name: マンティグエ島
+    lat: 9.1717
+    lng: 124.8253
+    desc: ウミガメが訪れるシュノーケリングスポットの小島
+  - name: "Bintana Sa Paraiso"
+    lat: 9.2351
+    lng: 124.6492
+    desc: "らぐ旅向け、眺めの良い島屈指の高級リゾート"
+    type: hotel
+    letter: "ら"
+    url: "https://www.booking.com/searchresults.html?ss=Bintana+Sa+Paraiso+Camiguin"

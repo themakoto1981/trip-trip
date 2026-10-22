@@ -323,6 +323,12 @@ hide_header: true
   var velocity = { x: 0, y: 0, z: 0 };
   var rafId = null;
 
+  var settling = false;
+  var settleStartTime = 0;
+  var settleDuration = 480;
+  var settleFromQuat = new THREE.Quaternion();
+  var settleToQuat = new THREE.Quaternion();
+
   function render() {
     renderer.render(scene, camera);
   }
@@ -360,7 +366,34 @@ hide_header: true
     }
   }
 
+  function startSettleAnimation() {
+    var idx = topFaceIndex();
+    var normal = faceNormals[idx].clone().applyQuaternion(dice.quaternion).normalize();
+    var targetCam = new THREE.Vector3(0, 0, 1);
+    var rotQuat = new THREE.Quaternion().setFromUnitVectors(normal, targetCam);
+    settleFromQuat.copy(dice.quaternion);
+    settleToQuat.copy(dice.quaternion).premultiply(rotQuat);
+    settling = true;
+    settleStartTime = performance.now();
+  }
+
   function tick() {
+    if (settling) {
+      var elapsed = performance.now() - settleStartTime;
+      var t = Math.min(elapsed / settleDuration, 1);
+      var te = 1 - Math.pow(1 - t, 3);
+      dice.quaternion.slerpQuaternions(settleFromQuat, settleToQuat, te);
+      var punch = 1 + 0.22 * Math.sin(te * Math.PI);
+      dice.scale.setScalar(punch);
+      if (t >= 1) {
+        settling = false;
+        dice.scale.setScalar(1);
+        onRollEnd();
+      }
+      render();
+      rafId = requestAnimationFrame(tick);
+      return;
+    }
     if (rolling) {
       dice.rotation.x += velocity.x;
       dice.rotation.y += velocity.y;
@@ -391,7 +424,7 @@ hide_header: true
       var bounced = bounceY === 0 && bounceVelY === 0;
       if (settled && bounced) {
         rolling = false;
-        onRollEnd();
+        startSettleAnimation();
       }
     }
     render();

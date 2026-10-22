@@ -982,3 +982,42 @@ nhatrang-guide:
     type: hotel
     letter: "ら"
     url: "https://www.booking.com/searchresults.html?ss=Vinpearl+Resort+Nha+Trang"
+
+krabi-guide:
+  - name: ライレイ・ウェストビーチ
+    lat: 8.0126
+    lng: 98.8372
+    desc: 石灰岩の断崖に囲まれた、夕日が美しいメインビーチ
+  - name: プラナンケーブビーチ
+    lat: 8.0059
+    lng: 98.8381
+    desc: 聖地として祀られる洞窟のあるビーチ、断崖越しに徒歩でも行ける
+  - name: トンサイビーチ
+    lat: 8.0181
+    lng: 98.8322
+    desc: 世界的に知られるロッククライミングのスポット、断崖を登るクライマーが集まる
+  - name: ダイヤモンドケーブ
+    lat: 8.0145
+    lng: 98.8365
+    desc: ライレイ東側から徒歩約10分、鍾乳石が輝く鍾乳洞
+  - name: "Railay Phutawan Resort"
+    lat: 8.0155
+    lng: 98.8350
+    desc: "やす旅向け、手頃な価格のライレイ東側の宿"
+    type: hotel
+    letter: "や"
+    url: "https://www.booking.com/searchresults.html?ss=Railay+Phutawan+Resort"
+  - name: "Anyavee Railay Resort"
+    lat: 8.0140
+    lng: 98.8355
+    desc: "ゆる旅向け、西ライレイビーチ徒歩圏のプール付き3つ星リゾート"
+    type: hotel
+    letter: "ゆ"
+    url: "https://www.booking.com/searchresults.html?ss=Anyavee+Railay+Resort"
+  - name: "Rayavadee"
+    lat: 8.0108
+    lng: 98.8378
+    desc: "らぐ旅向け、ビーチフロントのプール付きヴィラが並ぶ5つ星リゾート"
+    type: hotel
+    letter: "ら"
+    url: "https://www.booking.com/searchresults.html?ss=Rayavadee"

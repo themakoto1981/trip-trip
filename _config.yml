@@ -45,3 +45,6 @@ exclude:
   - learn.md
   - persona.md
   - references.md
+  - scripts/
+  - review-reports/
+  - .env.example

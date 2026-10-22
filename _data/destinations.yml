@@ -585,3 +585,28 @@
   best_months: [1, 2, 3, 4, 5]
   url: /2026/10/22/nhatrang-guide/
   tags: { beach: 4, resort: 4, island: 2, city_base: 4, sightseeing: 4, relax: 3, party: 2, activity: 4 }
+
+- name: クラビ（ライレイビーチ）
+  en_name: "Railay Beach, Krabi, Thailand"
+  slug: krabi-guide
+  country: タイ
+  country_slug: thailand
+  lat: 8.0126
+  lng: 98.8372
+  flight_min: 45000
+  flight_max: 170000
+  hotel_min: 4000
+  hotel_max: 25000
+  transport_min: 1500
+  transport_max: 3500
+  food_min: 2500
+  food_max: 6000
+  flight_hours: "約10〜12時間（バンコク経由、クラビ空港からロングテールボートで約20分）"
+  recommended_nights: "3泊以上"
+  visa: "不要（30日以内）"
+  photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Railay_Beach_5.jpg/960px-Railay_Beach_5.jpg"
+  photo_credit_url: "https://commons.wikimedia.org/wiki/File:Railay_Beach_5.jpg"
+  suited_for: [couple, friends, solo]
+  best_months: [1, 2, 11, 12]
+  url: /2026/10/23/krabi-guide/
+  tags: { beach: 5, resort: 3, island: 2, city_base: 1, sightseeing: 4, relax: 3, party: 2, activity: 5 }

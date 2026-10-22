@@ -268,37 +268,59 @@ hide_header: true
     var canvas = document.createElement('canvas');
     canvas.width = 256; canvas.height = 256;
     var ctx = canvas.getContext('2d');
+    ctx.textAlign = 'center';
+    ctx.textBaseline = 'middle';
+
+    function wrapByChars(label, maxChars) {
+      var line = '';
+      var lines = [];
+      for (var i = 0; i < label.length; i++) {
+        line += label[i];
+        if (line.length >= maxChars) { lines.push(line); line = ''; }
+      }
+      if (line) lines.push(line);
+      return lines;
+    }
+
+    function buildFlatLines(maxChars) {
+      var flat = [];
+      names.forEach(function (d, idx) {
+        if (idx > 0) flat.push('・');
+        flat = flat.concat(wrapByChars(d.name, maxChars));
+      });
+      return flat;
+    }
+
+    var fontSize = names.length > 1 ? 24 : 30;
+    var maxChars = names.length > 1 ? 5 : 6;
+    var flatLines, lineHeight, startY;
+
+    for (var attempt = 0; attempt < 7; attempt++) {
+      ctx.font = 'bold ' + fontSize + 'px "Hiragino Sans", "Noto Sans JP", sans-serif';
+      flatLines = buildFlatLines(maxChars);
+      lineHeight = fontSize + 6;
+      startY = 195 - (flatLines.length - 1) * lineHeight / 2;
+
+      var fits = true;
+      for (var i = 0; i < flatLines.length; i++) {
+        var y = startY + i * lineHeight;
+        var topEdge = y - fontSize / 2;
+        var halfAvail = Math.max(14, topEdge / 2) * 0.82;
+        var w = ctx.measureText(flatLines[i]).width;
+        if (w / 2 > halfAvail) { fits = false; break; }
+      }
+      if (fits || fontSize <= 14) break;
+      fontSize -= 2;
+      if (maxChars > 4) maxChars -= 1;
+    }
+
     var grad = ctx.createRadialGradient(128, 90, 20, 128, 160, 220);
     grad.addColorStop(0, '#ffffff');
     grad.addColorStop(1, '#e3ddd0');
     ctx.fillStyle = grad;
     ctx.fillRect(0, 0, 256, 256);
     ctx.fillStyle = '#2a2420';
-    ctx.textAlign = 'center';
-    ctx.textBaseline = 'middle';
-    var fontSize = names.length > 1 ? 22 : 28;
     ctx.font = 'bold ' + fontSize + 'px "Hiragino Sans", "Noto Sans JP", sans-serif';
-
-    var allLines = [];
-    names.forEach(function (d) {
-      var label = d.name;
-      var line = '';
-      var lines = [];
-      for (var i = 0; i < label.length; i++) {
-        line += label[i];
-        if (line.length >= 6) { lines.push(line); line = ''; }
-      }
-      if (line) lines.push(line);
-      allLines.push(lines);
-    });
-
-    var lineHeight = fontSize + 6;
-    var flatLines = [];
-    allLines.forEach(function (lines, idx) {
-      if (idx > 0) flatLines.push('・');
-      flatLines = flatLines.concat(lines);
-    });
-    var startY = 168 - (flatLines.length - 1) * lineHeight / 2;
     flatLines.forEach(function (line, i) {
       ctx.fillText(line, 128, startY + i * lineHeight);
     });

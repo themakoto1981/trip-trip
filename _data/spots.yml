@@ -841,7 +841,7 @@ con-dao-guide:
   - name: コンダオ博物館
     lat: 8.6859
     lng: 106.6084
-    desc: 島の監獄の歴史を伝える町なかの博物館
+    desc: 島の監獄の歴史を伝える中心地の博物館
   - name: アンハイビーチ
     lat: 8.6876
     lng: 106.6153
@@ -943,3 +943,42 @@ camiguin-guide:
     type: hotel
     letter: "ら"
     url: "https://www.booking.com/searchresults.html?ss=Bintana+Sa+Paraiso+Camiguin"
+
+nhatrang-guide:
+  - name: チャンフービーチ
+    lat: 12.2388
+    lng: 109.1967
+    desc: 市街地沿いに約6km続くニャチャンのメインビーチ
+  - name: ヴィンパールランド
+    lat: 12.3670
+    lng: 109.4000
+    desc: ホンチェ島にある遊園地・水族館・ウォーターパーク、海上ロープウェイで渡る
+  - name: ポーナガル・チャム塔
+    lat: 12.2653
+    lng: 109.1956
+    desc: 8〜13世紀に建てられたチャンパ王国のヒンドゥー教寺院遺跡
+  - name: タップバー温泉
+    lat: 12.2820
+    lng: 109.1680
+    desc: 市街地から車で約15分の泥風呂・温泉施設
+  - name: "Mojzo Inn"
+    lat: 12.2400
+    lng: 109.1950
+    desc: "やす旅向け、ビーチまで徒歩圏の安宿"
+    type: hotel
+    letter: "や"
+    url: "https://www.booking.com/searchresults.html?ss=Mojzo+Inn+Nha+Trang"
+  - name: "Sunrise Nha Trang Beach Hotel & Spa"
+    lat: 12.2367
+    lng: 109.1973
+    desc: "ゆる旅向け、チャンフービーチ沿いの4つ星ホテル"
+    type: hotel
+    letter: "ゆ"
+    url: "https://www.booking.com/searchresults.html?ss=Sunrise+Nha+Trang+Beach+Hotel+Spa"
+  - name: "Vinpearl Resort Nha Trang"
+    lat: 12.3650
+    lng: 109.3980
+    desc: "らぐ旅向け、ホンチェ島のリゾート（ロープウェイでの移動が必要）"
+    type: hotel
+    letter: "ら"
+    url: "https://www.booking.com/searchresults.html?ss=Vinpearl+Resort+Nha+Trang"

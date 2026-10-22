@@ -206,7 +206,9 @@ hide_header: true
 
   var scene = new THREE.Scene();
   var camera = new THREE.PerspectiveCamera(45, 1, 0.1, 100);
-  camera.position.set(0, 0, 4.2);
+  var cameraDefaultZ = 4.2;
+  var cameraZoomZ = 2.65;
+  camera.position.set(0, 0, cameraDefaultZ);
 
   var renderer = new THREE.WebGLRenderer({ canvas: canvas, antialias: true, alpha: true });
   var dpr = Math.min(window.devicePixelRatio || 1, 2);
@@ -385,6 +387,7 @@ hide_header: true
       dice.quaternion.slerpQuaternions(settleFromQuat, settleToQuat, te);
       var punch = 1 + 0.22 * Math.sin(te * Math.PI);
       dice.scale.setScalar(punch);
+      camera.position.z = cameraDefaultZ + (cameraZoomZ - cameraDefaultZ) * te;
       if (t >= 1) {
         settling = false;
         dice.scale.setScalar(1);
@@ -467,9 +470,10 @@ hide_header: true
   }
 
   btn.addEventListener('click', function () {
-    if (rolling) return;
+    if (rolling || settling) return;
     btn.disabled = true;
     resultBox.hidden = true;
+    camera.position.z = cameraDefaultZ;
     if (reduceMotion) {
       dice.rotation.set(Math.random() * Math.PI * 2, Math.random() * Math.PI * 2, Math.random() * Math.PI * 2);
       render();

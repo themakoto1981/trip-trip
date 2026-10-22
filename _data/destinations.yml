@@ -560,3 +560,28 @@
   best_months: [2, 3, 4, 5]
   url: /2026/10/21/camiguin-guide/
   tags: { beach: 3, resort: 2, island: 5, city_base: 1, sightseeing: 4, relax: 4, party: 1, activity: 3 }
+
+- name: ニャチャン
+  en_name: "Nha Trang, Vietnam"
+  slug: nhatrang-guide
+  country: ベトナム
+  country_slug: vietnam
+  lat: 12.2388
+  lng: 109.1967
+  flight_min: 50000
+  flight_max: 140000
+  hotel_min: 3000
+  hotel_max: 35000
+  transport_min: 1500
+  transport_max: 5000
+  food_min: 2000
+  food_max: 5000
+  flight_hours: "約7〜8時間（ホーチミン直行便＋国内線約1時間10分）"
+  recommended_nights: "3泊以上"
+  visa: "不要（45日以内）"
+  photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Nha_Trang_Beach_7.jpg/960px-Nha_Trang_Beach_7.jpg"
+  photo_credit_url: "https://commons.wikimedia.org/wiki/File:Nha_Trang_Beach_7.jpg"
+  suited_for: [couple, friends, solo, family]
+  best_months: [1, 2, 3, 4, 5]
+  url: /2026/10/22/nhatrang-guide/
+  tags: { beach: 4, resort: 4, island: 2, city_base: 4, sightseeing: 4, relax: 3, party: 2, activity: 4 }

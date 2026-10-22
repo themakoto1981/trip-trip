@@ -271,7 +271,7 @@ hide_header: true
     ctx.textAlign = 'center';
     ctx.textBaseline = 'middle';
     var fontSize = names.length > 1 ? 22 : 28;
-    ctx.font = 'bold ' + fontSize + 'px "Noto Serif JP", serif';
+    ctx.font = 'bold ' + fontSize + 'px "Hiragino Sans", "Noto Sans JP", sans-serif';
 
     var allLines = [];
     names.forEach(function (d) {
@@ -301,7 +301,7 @@ hide_header: true
   }
 
   var materials = faceGroups.map(function (group) {
-    return new THREE.MeshStandardMaterial({ map: makeFaceTexture(group), flatShading: true, roughness: 0.55, metalness: 0.02 });
+    return new THREE.MeshStandardMaterial({ map: makeFaceTexture(group), flatShading: true, roughness: 0.22, metalness: 0.06 });
   });
 
   var dice = new THREE.Mesh(geometry, materials);

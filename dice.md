@@ -368,6 +368,8 @@ hide_header: true
     }
   }
 
+  var settleFromPosX = 0;
+
   function startSettleAnimation() {
     var idx = topFaceIndex();
     var normal = faceNormals[idx].clone().applyQuaternion(dice.quaternion).normalize();
@@ -375,6 +377,7 @@ hide_header: true
     var rotQuat = new THREE.Quaternion().setFromUnitVectors(normal, targetCam);
     settleFromQuat.copy(dice.quaternion);
     settleToQuat.copy(dice.quaternion).premultiply(rotQuat);
+    settleFromPosX = dice.position.x;
     settling = true;
     settleStartTime = performance.now();
   }
@@ -385,6 +388,7 @@ hide_header: true
       var t = Math.min(elapsed / settleDuration, 1);
       var te = 1 - Math.pow(1 - t, 3);
       dice.quaternion.slerpQuaternions(settleFromQuat, settleToQuat, te);
+      dice.position.x = settleFromPosX * (1 - te);
       var punch = 1 + 0.22 * Math.sin(te * Math.PI);
       dice.scale.setScalar(punch);
       camera.position.z = cameraDefaultZ + (cameraZoomZ - cameraDefaultZ) * te;

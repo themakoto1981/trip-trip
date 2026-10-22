@@ -206,7 +206,7 @@ hide_header: true
 
   var scene = new THREE.Scene();
   var camera = new THREE.PerspectiveCamera(45, 1, 0.1, 100);
-  var cameraDefaultZ = 4.2;
+  var cameraDefaultZ = 5.6;
   var cameraZoomZ = 2.65;
   camera.position.set(0, 0, cameraDefaultZ);
 
@@ -243,6 +243,7 @@ hide_header: true
   });
 
   var faceNormals = [];
+  var faceUps = [];
   var uvs = new Float32Array(posAttr.count * 2);
   for (var f = 0; f < faceCount; f++) {
     var base = f * 3;
@@ -256,6 +257,9 @@ hide_header: true
     var vc = new THREE.Vector3().fromBufferAttribute(posAttr, base + 2);
     var normal = new THREE.Vector3().subVectors(vb, va).cross(new THREE.Vector3().subVectors(vc, va)).normalize();
     faceNormals.push(normal);
+    var baseMid = vb.clone().add(vc).multiplyScalar(0.5);
+    var upLocal = va.clone().sub(baseMid).normalize();
+    faceUps.push(upLocal);
   }
   geometry.setAttribute('uv', new THREE.BufferAttribute(uvs, 2));
   geometry.computeVertexNormals();
@@ -377,6 +381,15 @@ hide_header: true
     var rotQuat = new THREE.Quaternion().setFromUnitVectors(normal, targetCam);
     settleFromQuat.copy(dice.quaternion);
     settleToQuat.copy(dice.quaternion).premultiply(rotQuat);
+
+    var upAfterAlign = faceUps[idx].clone().applyQuaternion(settleToQuat);
+    upAfterAlign.z = 0;
+    if (upAfterAlign.lengthSq() > 0.0001) {
+      upAfterAlign.normalize();
+      var twistQuat = new THREE.Quaternion().setFromUnitVectors(upAfterAlign, new THREE.Vector3(0, 1, 0));
+      settleToQuat.premultiply(twistQuat);
+    }
+
     settleFromPosX = dice.position.x;
     settling = true;
     settleStartTime = performance.now();

@@ -353,6 +353,7 @@ hide_header: true
   }
 
   dice.quaternion.copy(faceAlignQuat(0, new THREE.Quaternion()));
+  camera.position.z = cameraZoomZ;
 
   var edges = new THREE.EdgesGeometry(geometry);
   var edgeLines = new THREE.LineSegments(edges, new THREE.LineBasicMaterial({ color: 0xbdb5a3, linewidth: 1 }));
@@ -520,7 +521,7 @@ hide_header: true
     clearTimeout(autoNavTimeout);
     autoNavTimeout = setTimeout(function () {
       window.location.href = pick.url;
-    }, 2500);
+    }, 1000);
   }
 
   function onRollEnd() {

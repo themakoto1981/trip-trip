@@ -22,7 +22,6 @@ hide_header: true
     <div class="dice-result-body">
       <div class="dice-result-label">次の行き先はここ</div>
       <div id="dice-result-name" class="dice-result-name"></div>
-      <a id="dice-result-link" class="dice-result-link" href="#">記事を見る ▶</a>
     </div>
   </div>
   <div id="dice-confetti"></div>
@@ -164,20 +163,6 @@ hide_header: true
     color: var(--sb-green-dark);
     margin: 0.2rem 0 0.5rem;
   }
-  .dice-result-link {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.3rem;
-    background: transparent;
-    color: var(--sb-green-dark);
-    border: 1px solid var(--sb-border);
-    border-radius: 999px;
-    padding: 0.22rem 0.75rem;
-    font-size: 0.78rem;
-    font-weight: 600;
-    text-decoration: none;
-  }
-  .dice-result-link:hover { background: #fff; border-color: var(--sb-green); }
   @media screen and (max-width: 480px) {
     .dice-result { flex-direction: column; text-align: center; }
   }
@@ -193,7 +178,6 @@ hide_header: true
   var resultBox = document.getElementById('dice-result');
   var resultPhoto = document.getElementById('dice-result-photo');
   var resultName = document.getElementById('dice-result-name');
-  var resultLink = document.getElementById('dice-result-link');
   var diceShadow = document.getElementById('dice-shadow');
   var confettiContainer = document.getElementById('dice-confetti');
   var impactFlash = document.getElementById('dice-impact-flash');
@@ -508,8 +492,6 @@ hide_header: true
     resultPhoto.src = pick.photo;
     resultPhoto.alt = pick.name;
     resultName.textContent = pick.name;
-    resultLink.href = pick.url;
-    resultLink.textContent = 'この記事へ移動します ▶';
     resultBox.hidden = false;
     resultBox.classList.remove('show');
     void resultBox.offsetWidth;

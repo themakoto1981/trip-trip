@@ -11,7 +11,7 @@ excerpt: "マレーシア半島の東海岸沖に浮かぶ、ジャングルと�
 
 ## 行き方
 
-- **空路＋陸路＋フェリー**：日本からの直行便はなく、クアラルンプール（KLIA）まで飛んで、バスでメルシンへ向かうのが基本ルート。クアラルンプールのTBS（バスターミナル）からメルシンまでは長距離バスで約4〜5時間<br><a class="schedule-tag" href="https://12go.asia/en/travel/kuala-lumpur/mersing?z=17114820">12go.asiaで予約・最新スケジュール</a>
+- **空路＋陸路＋フェリー**：日本からの直行便はなく、クアラルンプール（KLIA）まで飛んで、バスでメルシンへ向かうのが基本ルート。クアラルンプールのTBS（バスターミナル）からメルシンまでは長距離バスで約5時間<br><a class="schedule-tag" href="https://12go.asia/en/travel/kuala-lumpur/mersing?z=17114820">12go.asiaで予約・最新スケジュール</a>
 - **メルシンからフェリー**：メルシンの港からティオマン島までフェリーで約1.5〜2時間。公式の時刻表（10月）では、メルシン発は1日1便で出航は8:00〜11:00の間で日によって変わり、島発は7:00〜9:00の朝の便です。運休の日もあるため、メルシンに前泊して、出航日・時刻が決まってから予約するのが安心です<br><a class="schedule-tag" href="https://12go.asia/en/travel/mersing/tioman-island?z=17114820">12go.asiaで予約・最新スケジュール</a>
 - 日本からの総移動時間は、メルシン前泊を挟んで丸1日半ほど。そのぶん島での時間を長く取る日程がおすすめです。
 - **島内の移動**：集落同士は徒歩とボートタクシーで結ばれています。島の東西を横断する山道もあり、ビーチ間は小型のボートが便利です。
@@ -50,8 +50,9 @@ excerpt: "マレーシア半島の東海岸沖に浮かぶ、ジャングルと�
 - 01:00頃　[Grabカー](/grab/)で空港近くの[Tune Hotel KLIA Aeropolis](https://www.booking.com/searchresults.html?ss=Tune+Hotel+KLIA+Aeropolis)へ、1泊
 
 **2日目**
-- 朝　Grabカーで空港からTBSへ移動し、長距離バスでメルシンへ（約4〜5時間、[12go.asiaで予約可](https://12go.asia/en/travel/kuala-lumpur/mersing?z=17114820)）
-- 夜　メルシン着。[メルシンのホテル](https://www.booking.com/searchresults.html?ss=Mersing)に1泊
+- 朝　ホテルでゆっくり休み、Grabカーで空港からTBSへ移動
+- 15:30　TBS発の長距離バスでメルシンへ（約5時間、[12go.asiaで予約可](https://12go.asia/en/travel/kuala-lumpur/mersing?z=17114820)）
+- 20:30　メルシン着。[メルシンのホテル](https://www.booking.com/searchresults.html?ss=Mersing)に1泊
 
 **3日目**
 - メルシンの港からフェリーでティオマン島へ（出航は日によって8:00〜11:00、約1.5〜2時間、[12go.asiaで予約可](https://12go.asia/en/travel/mersing/tioman-island?z=17114820)）
@@ -70,8 +71,8 @@ excerpt: "マレーシア半島の東海岸沖に浮かぶ、ジャングルと�
 
 **6日目**
 - ホテルをチェックアウトし、7:00〜9:00発のフェリーでメルシンへ（島発は朝の便のみ）
-- 昼　メルシンから長距離バスでクアラルンプールへ（約4〜5時間）
-- 夜　クアラルンプール着。Grabカーで空港近くの[Tune Hotel KLIA Aeropolis](https://www.booking.com/searchresults.html?ss=Tune+Hotel+KLIA+Aeropolis)へ、1泊
+- メルシン港に着いたら、15:45発の長距離バスでクアラルンプールのTBSへ（約5時間、[12go.asiaで予約可](https://12go.asia/en/travel/mersing/kuala-lumpur?z=17114820)）
+- 20:45　TBS着。Grabカーで空港近くの[Tune Hotel KLIA Aeropolis](https://www.booking.com/searchresults.html?ss=Tune+Hotel+KLIA+Aeropolis)へ、1泊
 
 **7日目（帰国日）**
 - クアラルンプール発のZipair直行便で成田へ
@@ -83,9 +84,9 @@ excerpt: "マレーシア半島の東海岸沖に浮かぶ、ジャングルと�
 - 00:05　クアラルンプール着。入国審査後、[Grabカー](/grab/)で空港近くの[Concorde Inn KLIA](https://www.booking.com/searchresults.html?ss=Concorde+Inn+KLIA)へ、1泊
 
 **2日目**
-- 朝　Grabカーで空港からTBSへ移動
-- 昼　TBSから長距離バスでメルシンへ（約4〜5時間、[12go.asiaで予約可](https://12go.asia/en/travel/kuala-lumpur/mersing?z=17114820)）
-- 夜　メルシン着。[メルシンのホテル](https://www.booking.com/searchresults.html?ss=Mersing)に1泊
+- 朝　ホテルでゆっくり休み、Grabカーで空港からTBSへ移動
+- 10:00　TBS発の長距離バスでメルシンへ（約5時間、[12go.asiaで予約可](https://12go.asia/en/travel/kuala-lumpur/mersing?z=17114820)）
+- 15:00　メルシン着。[メルシンのホテル](https://www.booking.com/searchresults.html?ss=Mersing)にチェックイン。港周辺を散策して1泊
 
 **3日目**
 - メルシンの港からフェリーでティオマン島へ（出航は日によって8:00〜11:00、約1.5〜2時間、[12go.asiaで予約可](https://12go.asia/en/travel/mersing/tioman-island?z=17114820)）
@@ -104,8 +105,8 @@ excerpt: "マレーシア半島の東海岸沖に浮かぶ、ジャングルと�
 
 **6日目**
 - ホテルをチェックアウトし、7:00〜9:00発のフェリーでメルシンへ（島発は朝の便のみ）
-- 昼　メルシンから長距離バスでクアラルンプールへ（約4〜5時間）
-- 夜　クアラルンプール着。Grabカーで空港近くの[Concorde Inn KLIA](https://www.booking.com/searchresults.html?ss=Concorde+Inn+KLIA)へ、1泊
+- 12:15　メルシン発の長距離バスでクアラルンプールのTBSへ（約5時間、[12go.asiaで予約可](https://12go.asia/en/travel/mersing/kuala-lumpur?z=17114820)）
+- 17:15　TBS着。Grabカーで空港近くの[Concorde Inn KLIA](https://www.booking.com/searchresults.html?ss=Concorde+Inn+KLIA)へ、1泊
 
 **7日目（帰国日）**
 - 08:05　クアラルンプール発（ANA直行便NH816）→ 15:55　成田着
@@ -117,8 +118,8 @@ excerpt: "マレーシア半島の東海岸沖に浮かぶ、ジャングルと�
 
 **2日目**
 - 06:00　クアラルンプール着。入国審査後、[Grabカー](/grab/)でTBSへ向かう
-- 昼　TBSから長距離バスでメルシンへ（約4〜5時間、[12go.asiaで予約可](https://12go.asia/en/travel/kuala-lumpur/mersing?z=17114820)）
-- 夜　メルシン着。[メルシンのホテル](https://www.booking.com/searchresults.html?ss=Mersing)に1泊
+- 10:00　TBS発の長距離バスでメルシンへ（約5時間、[12go.asiaで予約可](https://12go.asia/en/travel/kuala-lumpur/mersing?z=17114820)）
+- 15:00　メルシン着。[メルシンのホテル](https://www.booking.com/searchresults.html?ss=Mersing)にチェックイン。港周辺を散策して1泊
 
 **3日目**
 - メルシンの港からフェリーでティオマン島へ（出航は日によって8:00〜11:00、約1.5〜2時間、[12go.asiaで予約可](https://12go.asia/en/travel/mersing/tioman-island?z=17114820)）
@@ -137,8 +138,8 @@ excerpt: "マレーシア半島の東海岸沖に浮かぶ、ジャングルと�
 
 **6日目**
 - ホテルをチェックアウトし、7:00〜9:00発のフェリーでメルシンへ（島発は朝の便のみ）
-- 昼　メルシンから長距離バスでクアラルンプールへ（約4〜5時間）
-- 夜　クアラルンプール着。空港直結の[Sama-Sama Hotel KLIA](https://www.booking.com/searchresults.html?ss=Sama-Sama+Hotel+KLIA)へ移動し、1泊
+- 12:15　メルシン発の長距離バスでクアラルンプールのTBSへ（約5時間、[12go.asiaで予約可](https://12go.asia/en/travel/mersing/kuala-lumpur?z=17114820)）
+- 17:15　TBS着。空港直結の[Sama-Sama Hotel KLIA](https://www.booking.com/searchresults.html?ss=Sama-Sama+Hotel+KLIA)へ移動し、1泊
 
 **7日目（帰国日）**
 - 14:15　クアラルンプール発（ANA直行便NH886）→ 22:15　羽田着

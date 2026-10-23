@@ -1021,3 +1021,21 @@ krabi-guide:
     type: hotel
     letter: "ら"
     url: "https://www.booking.com/searchresults.html?ss=Rayavadee"
+
+tioman-guide:
+  - name: テケック
+    lat: 2.8170
+    lng: 104.1720
+    desc: 島最大の集落、フェリーが着くメインの港
+  - name: アイールバタン（ABC）
+    lat: 2.7870
+    lng: 104.1820
+    desc: バックパッカーに人気、手頃な宿とダイビングショップが並ぶ
+  - name: サラン
+    lat: 2.8890
+    lng: 104.1930
+    desc: 北西の長いビーチ、宿と食堂が集まりシュノーケリングポイントが近い
+  - name: ジュアラ
+    lat: 2.7790
+    lng: 104.2070
+    desc: 島の東側の穏やかなビーチ、ウミガメの産卵地としても知られる

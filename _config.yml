@@ -37,7 +37,7 @@ header_pages:
   - articles.md
   - countries.md
   - season.md
-  - submit.md
+  - dice.md
 
 exclude:
   - README.md

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 国から探す
+nav_title: 国から決める
 permalink: /countries/
 ---
 

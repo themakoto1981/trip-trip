@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 記事一覧
+nav_title: 記事から決める
 permalink: /articles/
 ---
 

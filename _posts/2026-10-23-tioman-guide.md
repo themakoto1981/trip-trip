@@ -79,8 +79,8 @@ excerpt: "マレーシア半島の東海岸沖に浮かぶ、ジャングルと�
 ## おすすめ旅程（ゆる旅向け／ANA直行便・陸路利用・6泊7日の例）
 
 **1日目**
-- 17:25　成田発（ANA直行便、Air Japan運航）
-- 00:15　クアラルンプール着。入国審査後、[Grabカー](/grab/)で空港近くの[Concorde Inn KLIA](https://www.booking.com/searchresults.html?ss=Concorde+Inn+KLIA)へ、1泊
+- 17:40　成田発（ANA直行便NH815）
+- 00:05　クアラルンプール着。入国審査後、[Grabカー](/grab/)で空港近くの[Concorde Inn KLIA](https://www.booking.com/searchresults.html?ss=Concorde+Inn+KLIA)へ、1泊
 
 **2日目**
 - 朝　Grabカーで空港からTBSへ移動
@@ -108,15 +108,15 @@ excerpt: "マレーシア半島の東海岸沖に浮かぶ、ジャングルと�
 - 夜　クアラルンプール着。Grabカーで空港近くの[Concorde Inn KLIA](https://www.booking.com/searchresults.html?ss=Concorde+Inn+KLIA)へ、1泊
 
 **7日目（帰国日）**
-- クアラルンプール発のANA直行便で帰国
+- 08:05　クアラルンプール発（ANA直行便NH816）→ 15:55　成田着
 
 ## おすすめ旅程（らぐ旅向け／ANA直行便・離島の高級リゾート・6泊7日の例）
 
 **1日目**
-- 夜　羽田空港へ。日付が変わった00:05発のANA直行便NH885で出発し、機内で過ごす
+- 23:30　羽田発（ANA直行便NH885）。機内で1泊
 
 **2日目**
-- 06:45　クアラルンプール着。入国審査後、[Grabカー](/grab/)でTBSへ向かう
+- 06:00　クアラルンプール着。入国審査後、[Grabカー](/grab/)でTBSへ向かう
 - 昼　TBSから長距離バスでメルシンへ（約4〜5時間、[12go.asiaで予約可](https://12go.asia/en/travel/kuala-lumpur/mersing?z=17114820)）
 - 夜　メルシン着。[メルシンのホテル](https://www.booking.com/searchresults.html?ss=Mersing)に1泊
 
@@ -141,7 +141,7 @@ excerpt: "マレーシア半島の東海岸沖に浮かぶ、ジャングルと�
 - 夜　クアラルンプール着。空港直結の[Sama-Sama Hotel KLIA](https://www.booking.com/searchresults.html?ss=Sama-Sama+Hotel+KLIA)へ移動し、1泊
 
 **7日目（帰国日）**
-- クアラルンプール発のANA直行便で帰国
+- 14:15　クアラルンプール発（ANA直行便NH886）→ 22:15　羽田着
 
 ## おすすめビーチ・スポット
 

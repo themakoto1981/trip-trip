@@ -51,6 +51,7 @@ layout: default
   (function () {
     var destinations = {{ site.data.destinations | jsonify }};
     var allSpots = {{ site.data.spots | jsonify }} || {};
+    var planTags = {{ site.data.plan_tags | jsonify }} || [];
     var pageUrl = "{{ page.url }}";
     var match = null;
     for (var i = 0; i < destinations.length; i++) {
@@ -153,12 +154,27 @@ layout: default
     });
     tiersHtml += '</tbody></table>';
     tiersHtml += '</div>';
+    var tierKeyMap = { 'やす旅': 'yasu', 'ゆる旅': 'yuru', 'らぐ旅': 'ragu' };
+    function renderBudgetChips(tierName) {
+      var key = tierKeyMap[tierName];
+      var ids = (match.budget_tags && match.budget_tags[key]) || [];
+      var chipsHtml = ids.map(function (id) {
+        var tag = null;
+        for (var j = 0; j < planTags.length; j++) {
+          if (planTags[j].id === id && planTags[j].active !== false) { tag = planTags[j]; break; }
+        }
+        return tag ? '<span class="budget-tier-chip">' + tag.name + '</span>' : '';
+      }).join('');
+      return chipsHtml ? '<div class="budget-tier-chips">' + chipsHtml + '</div>' : '';
+    }
+
     tiersHtml += '<div class="budget-tiers-list">';
     budgetTiers.forEach(function (t, i) {
       var recClass = (i === 1) ? ' is-recommended' : '';
       tiersHtml += '<div class="budget-tier-row' + recClass + '" data-tier-name="' + t[0] + '">';
       tiersHtml += '<div class="budget-tier-head"><span class="budget-tier-name-row"><span class="budget-tier-dot"></span><span class="budget-tier-name">' + t[0] + '</span></span><span class="budget-tier-desc">' + t[3] + '</span></div>';
       tiersHtml += '<div class="budget-tier-price-wrap"><span class="budget-tier-amount">' + t[1] + '</span><div class="budget-tier-breakdown">' + t[2] + '</div></div>';
+      tiersHtml += renderBudgetChips(t[0]);
       tiersHtml += '</div>';
     });
     tiersHtml += '</div>';
@@ -187,8 +203,8 @@ layout: default
         });
       }
 
-      // 予算の目安の下にある手書きの説明リスト（やす旅：陸路＋Zipair、など）を
-      // 自動生成されたbudget-tier-rowの中に統合する
+      // 予算の目安の下にある手書きの説明リスト（<a class="schedule-tag">の最新スケジュールリンクのみ）を
+      // 自動生成されたbudget-tier-rowの中に統合する。チップはbudget_tagsから直接描画済みのためここでは扱わない
       var noteList = insertBeforeNode;
       while (noteList && noteList.tagName !== 'UL') {
         if (noteList.tagName === 'H2') { noteList = null; break; }
@@ -200,37 +216,8 @@ layout: default
           if (!strongEl) { return; }
           var row = document.querySelector('.budget-tier-row[data-tier-name="' + strongEl.textContent + '"]');
           if (!row) { return; }
-
-          // ：の後ろのテキストは「｜」区切りでチップ化、<a class="schedule-tag">は別扱い
-          var textParts = [];
-          var linkEl = null;
-          var node = strongEl.nextSibling;
-          while (node) {
-            if (node.nodeType === 3) {
-              textParts.push(node.textContent);
-            } else if (node.tagName === 'A') {
-              linkEl = node;
-            }
-            node = node.nextSibling;
-          }
-          var fullText = textParts.join('').replace(/^：/, '');
-          var chipTexts = fullText.split('｜').map(function (s) { return s.trim(); }).filter(Boolean);
-
-          if (chipTexts.length) {
-            var chipsDiv = document.createElement('div');
-            chipsDiv.className = 'budget-tier-chips';
-            chipTexts.forEach(function (c) {
-              var chip = document.createElement('span');
-              chip.className = 'budget-tier-chip';
-              chip.textContent = c;
-              chipsDiv.appendChild(chip);
-            });
-            row.appendChild(chipsDiv);
-          }
-
-          if (linkEl) {
-            row.appendChild(linkEl);
-          }
+          var linkEl = li.querySelector('a.schedule-tag');
+          if (linkEl) { row.appendChild(linkEl); }
         });
         noteList.remove();
       }

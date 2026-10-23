@@ -336,6 +336,24 @@ hide_header: true
   var dice = new THREE.Mesh(geometry, materials);
   scene.add(dice);
 
+  function faceAlignQuat(idx, baseQuat) {
+    var normal = faceNormals[idx].clone().applyQuaternion(baseQuat).normalize();
+    var targetCam = new THREE.Vector3(0, 0, 1);
+    var rotQuat = new THREE.Quaternion().setFromUnitVectors(normal, targetCam);
+    var result = baseQuat.clone().premultiply(rotQuat);
+
+    var upAfterAlign = faceUps[idx].clone().applyQuaternion(result);
+    upAfterAlign.z = 0;
+    if (upAfterAlign.lengthSq() > 0.0001) {
+      upAfterAlign.normalize();
+      var twistQuat = new THREE.Quaternion().setFromUnitVectors(upAfterAlign, new THREE.Vector3(0, 1, 0));
+      result.premultiply(twistQuat);
+    }
+    return result;
+  }
+
+  dice.quaternion.copy(faceAlignQuat(0, new THREE.Quaternion()));
+
   var edges = new THREE.EdgesGeometry(geometry);
   var edgeLines = new THREE.LineSegments(edges, new THREE.LineBasicMaterial({ color: 0xbdb5a3, linewidth: 1 }));
   dice.add(edgeLines);
@@ -363,6 +381,7 @@ hide_header: true
   }
 
   var shakeTimeout = null;
+  var autoNavTimeout = null;
   function triggerShake() {
     if (reduceMotion) return;
     stage.classList.remove('shake');
@@ -399,20 +418,8 @@ hide_header: true
 
   function startSettleAnimation() {
     var idx = topFaceIndex();
-    var normal = faceNormals[idx].clone().applyQuaternion(dice.quaternion).normalize();
-    var targetCam = new THREE.Vector3(0, 0, 1);
-    var rotQuat = new THREE.Quaternion().setFromUnitVectors(normal, targetCam);
     settleFromQuat.copy(dice.quaternion);
-    settleToQuat.copy(dice.quaternion).premultiply(rotQuat);
-
-    var upAfterAlign = faceUps[idx].clone().applyQuaternion(settleToQuat);
-    upAfterAlign.z = 0;
-    if (upAfterAlign.lengthSq() > 0.0001) {
-      upAfterAlign.normalize();
-      var twistQuat = new THREE.Quaternion().setFromUnitVectors(upAfterAlign, new THREE.Vector3(0, 1, 0));
-      settleToQuat.premultiply(twistQuat);
-    }
-
+    settleToQuat.copy(faceAlignQuat(idx, dice.quaternion));
     settleFromPosX = dice.position.x;
     settling = true;
     settleStartTime = performance.now();
@@ -501,6 +508,7 @@ hide_header: true
     resultPhoto.alt = pick.name;
     resultName.textContent = pick.name;
     resultLink.href = pick.url;
+    resultLink.textContent = 'この記事へ移動します ▶';
     resultBox.hidden = false;
     resultBox.classList.remove('show');
     void resultBox.offsetWidth;
@@ -509,6 +517,10 @@ hide_header: true
     impactFlash.classList.remove('flash');
     void impactFlash.offsetWidth;
     impactFlash.classList.add('flash');
+    clearTimeout(autoNavTimeout);
+    autoNavTimeout = setTimeout(function () {
+      window.location.href = pick.url;
+    }, 2500);
   }
 
   function onRollEnd() {
@@ -518,6 +530,7 @@ hide_header: true
 
   btn.addEventListener('click', function () {
     if (rolling || settling) return;
+    clearTimeout(autoNavTimeout);
     btn.disabled = true;
     resultBox.hidden = true;
     camera.position.z = cameraDefaultZ;

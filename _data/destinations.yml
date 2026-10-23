@@ -258,6 +258,10 @@
   photo_credit_url: "https://commons.wikimedia.org/wiki/File:Phu_Quoc_beach_01.jpg"
   suited_for: [couple, family, friends]
   best_months: [11, 12, 1, 2, 3]
+  budget_tags:
+    yasu: [TR02, TR04, TR06, SC01]
+    yuru: [TR01, TR04, SC03, SC05]
+    ragu: [TR01, HT01, HT11, SC07]
   url: /2026/09/30/phuquoc-guide/
   tags: { beach: 3, resort: 5, island: 4, city_base: 2, sightseeing: 3, relax: 4, party: 2, activity: 3 }
 
@@ -283,6 +287,10 @@
   photo_credit_url: "https://commons.wikimedia.org/wiki/File:Koh_Samui,_Island,_Beach,_Thailand.jpg"
   suited_for: [couple, family, friends, solo]
   best_months: [2, 3, 4, 9]
+  budget_tags:
+    yasu: [TR02, TR04, SC03]
+    yuru: [TR01, SC06, HT03]
+    ragu: [TR01, SC06, HT11, HT14]
   url: /2026/10/01/koh-samui-guide/
   tags: { beach: 5, resort: 5, island: 4, city_base: 2, sightseeing: 3, relax: 3, party: 4, activity: 3 }
 
@@ -433,6 +441,10 @@
   photo_credit_url: "https://commons.wikimedia.org/wiki/File:Mactan-beach.jpg"
   suited_for: [couple, family, friends, solo]
   best_months: [1, 2, 3]
+  budget_tags:
+    yasu: [TR02, TR03]
+    yuru: [TR03, HT03]
+    ragu: [TR03, HT11]
   url: /2026/10/15/cebu-guide/
   tags: { beach: 5, resort: 4, island: 3, city_base: 3, sightseeing: 3, relax: 4, party: 3, activity: 5 }
 

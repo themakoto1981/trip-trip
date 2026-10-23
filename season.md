@@ -1,7 +1,6 @@
 ---
 layout: page
-title: 月から探す
-nav_title: 行く月から決める
+title: 行く月から決める
 permalink: /season/
 ---
 

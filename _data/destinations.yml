@@ -618,7 +618,7 @@
   country_slug: malaysia
   lat: 2.8000
   lng: 104.1700
-  flight_min: 50000
+  flight_min: 80000
   flight_max: 150000
   hotel_min: 3000
   hotel_max: 25000

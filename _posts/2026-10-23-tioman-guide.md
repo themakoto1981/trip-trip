@@ -72,10 +72,10 @@ excerpt: "マレーシア半島の東海岸沖に浮かぶ、ジャングルと�
 **6日目**
 - ホテルをチェックアウトし、7:00〜9:00発のフェリーでメルシンへ（島発は朝の便のみ）
 - メルシン港に着いたら、15:45発の長距離バスでクアラルンプールのTBSへ（約5時間、[12go.asiaで予約可](https://12go.asia/en/travel/mersing/kuala-lumpur?z=17114820)）
-- 20:45　TBS着。Grabカーで空港近くの[Tune Hotel KLIA Aeropolis](https://www.booking.com/searchresults.html?ss=Tune+Hotel+KLIA+Aeropolis)へ、1泊
+- 20:45　TBS着。Grabカーで空港へ移動（約1時間）。そのまま出国手続きへ
 
 **7日目（帰国日）**
-- クアラルンプール発のZipair直行便で成田へ
+- 01:10　クアラルンプール発（Zipair直行便）→ 09:00　成田着
 
 ## おすすめ旅程（ゆる旅向け／ANA直行便・陸路利用・6泊7日の例）
 

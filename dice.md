@@ -454,7 +454,14 @@ hide_header: true
         var impactStrength = Math.abs(bounceVelY);
         bounceVelY = -bounceVelY * restitution;
         if (Math.abs(bounceVelY) < 0.01) bounceVelY = 0;
-        if (impactStrength > 0.025) triggerShake(impactStrength);
+        if (impactStrength > 0.025) {
+          triggerShake(impactStrength);
+          var kick = impactStrength * (1.2 + Math.random() * 1.1);
+          velocity.x += (Math.random() - 0.5) * kick;
+          velocity.y += (Math.random() - 0.5) * kick;
+          velocity.z += (Math.random() - 0.5) * kick;
+          posXVel += (Math.random() - 0.5) * impactStrength * 0.7;
+        }
       }
       dice.position.y = bounceY;
 

@@ -1,7 +1,6 @@
 ---
 layout: page
-title: サイコロで行き先を決める
-nav_title: サイコロで決める
+title: サイコロで決める
 permalink: /dice/
 hide_header: true
 ---

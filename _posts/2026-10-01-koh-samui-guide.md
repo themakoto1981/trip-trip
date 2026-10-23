@@ -38,9 +38,9 @@ excerpt: "タイ湾に浮かぶ南国リゾート、サムイ島の行き方・�
 ## 予算の目安
 移動に時間がかかるので、現地を2日しっかり楽しむには**3泊以上**がおすすめです。
 
-- **やす旅**：バンコク経由+LCC｜フェリー利用｜航空券代を抑制<br><a class="schedule-tag" href="https://www.vietjetair.com/ja">Vietjet Airの最新スケジュール</a>
-- **ゆる旅**：バンコク経由+ANA｜サムイ空港直接アクセス｜乗継スムーズ<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
-- **らぐ旅**：バンコク経由+ANA｜同ルートで最速｜最快適にサムイ島へ<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
+- **やす旅**：<br><a class="schedule-tag" href="https://www.vietjetair.com/ja">Vietjet Airの最新スケジュール</a>
+- **ゆる旅**：<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
+- **らぐ旅**：<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
 
 ## おすすめ旅程（やす旅向け／LCC・フェリー利用・バンコク1泊・4泊5日の例）
 

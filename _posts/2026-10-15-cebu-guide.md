@@ -37,9 +37,9 @@ excerpt: "成田・関西から直行便で約5時間、空港から近いリゾ
 
 ## 予算の目安
 
-- **やす旅**：セブパシフィック航空（LCC）直行便｜乗継なし｜運賃重視<br><a class="schedule-tag" href="https://www.cebupacificair.com/">セブパシフィック航空の最新スケジュール</a>
-- **ゆる旅**：フィリピン航空直行便｜乗継なし｜ビーチフロントの標準リゾート<br><a class="schedule-tag" href="https://www.philippineairlines.com/">フィリピン航空の最新スケジュール</a>
-- **らぐ旅**：フィリピン航空直行便｜乗継なし｜オーシャンビューの高級リゾート<br><a class="schedule-tag" href="https://www.philippineairlines.com/">フィリピン航空の最新スケジュール</a>
+- **やす旅**：<br><a class="schedule-tag" href="https://www.cebupacificair.com/">セブパシフィック航空の最新スケジュール</a>
+- **ゆる旅**：<br><a class="schedule-tag" href="https://www.philippineairlines.com/">フィリピン航空の最新スケジュール</a>
+- **らぐ旅**：<br><a class="schedule-tag" href="https://www.philippineairlines.com/">フィリピン航空の最新スケジュール</a>
 
 ## おすすめ旅程（やす旅向け／LCC利用・3泊4日の例）
 

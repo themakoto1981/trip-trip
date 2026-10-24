@@ -39,9 +39,9 @@ excerpt: "バリ島のサヌールから高速ボートで約30分、のんび�
 ## 予算の目安
 バリ本島からボートを挟むため、島で丸2日楽しむには**3泊以上**がおすすめです。
 
-- **やす旅**：クアラルンプール経由+LCC｜島で2泊｜運賃重視<br><a class="schedule-tag" href="https://www.airasia.com/">AirAsiaの最新スケジュール</a>
-- **ゆる旅**：直行便+ガルーダ・インドネシア航空｜乗継なし｜到着の翌朝に島へ<br><a class="schedule-tag" href="https://www.garuda-indonesia.com/jp/ja/index">ガルーダ・インドネシア航空の最新スケジュール</a>
-- **らぐ旅**：直行便+ガルーダ・インドネシア航空｜乗継なし｜プール付きリゾートで過ごす<br><a class="schedule-tag" href="https://www.garuda-indonesia.com/jp/ja/index">ガルーダ・インドネシア航空の最新スケジュール</a>
+- **やす旅**：<br><a class="schedule-tag" href="https://www.airasia.com/">AirAsiaの最新スケジュール</a>
+- **ゆる旅**：<br><a class="schedule-tag" href="https://www.garuda-indonesia.com/jp/ja/index">ガルーダ・インドネシア航空の最新スケジュール</a>
+- **らぐ旅**：<br><a class="schedule-tag" href="https://www.garuda-indonesia.com/jp/ja/index">ガルーダ・インドネシア航空の最新スケジュール</a>
 
 ## おすすめ旅程（やす旅向け／LCC利用・クアラルンプール経由・5泊6日の例）
 

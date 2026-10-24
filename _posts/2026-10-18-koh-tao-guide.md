@@ -40,9 +40,9 @@ excerpt: "世界屈指のダイビングスポットとして知られるタイ�
 ## 予算の目安
 チュンポン経由は寝台列車を使うため移動に時間がかかり、サムイ島経由はバンコクエアウェイズの直行便で移動が楽になる分、運賃が上がります。
 
-- **やす旅**：チュンポン経由・寝台列車+高速船｜運賃重視｜長めの移動も旅の一部に<br><a class="schedule-tag" href="https://www.vietjetair.com/">Vietjet Airの最新スケジュール</a>
-- **ゆる旅**：サムイ島経由・バンコクエアウェイズ｜移動負担を軽減｜ダイビングも観光もバランスよく<br><a class="schedule-tag" href="https://www.bangkokair.com/">バンコクエアウェイズの最新スケジュール</a>
-- **らぐ旅**：サムイ島経由・バンコクエアウェイズ｜快適な移動とリゾートステイ｜プール付きヴィラでゆったり<br><a class="schedule-tag" href="https://www.bangkokair.com/">バンコクエアウェイズの最新スケジュール</a>
+- **やす旅**：<br><a class="schedule-tag" href="https://www.vietjetair.com/">Vietjet Airの最新スケジュール</a>
+- **ゆる旅**：<br><a class="schedule-tag" href="https://www.bangkokair.com/">バンコクエアウェイズの最新スケジュール</a>
+- **らぐ旅**：<br><a class="schedule-tag" href="https://www.bangkokair.com/">バンコクエアウェイズの最新スケジュール</a>
 
 ## おすすめ旅程（やす旅向け／チュンポン経由・寝台列車利用・5泊6日の例）
 

@@ -499,10 +499,6 @@ layout: default
       function showDetail(name) {
         var s = beaches.filter(function (b) { return b.name === name; })[0];
         if (!s) return;
-        var related = beaches.filter(function (b) { return b.name !== name; }).map(function (b) {
-          var common = (b.tags || []).filter(function (t) { return (s.tags || []).indexOf(t) !== -1; });
-          return { s: b, common: common.length };
-        }).sort(function (a, b) { return b.common - a.common; }).slice(0, 3);
 
         var detailWrap = document.getElementById('spot-detail-wrap');
         detailWrap.innerHTML =
@@ -511,14 +507,9 @@ layout: default
           (s.image ? '<img src="' + s.image + '" alt="' + s.name + '">' : '') +
           '<h4>' + s.name + '</h4>' +
           (s.long ? s.long.map(function (p) { return '<p>' + p + '</p>'; }).join('') : (s.short ? '<p>' + s.short + '</p>' : '')) +
-          (s.ways && s.ways.length ? '<div class="spot-related-label">おすすめの過ごし方</div><ul class="spot-ways">' + s.ways.map(function (w) { return '<li>' + w + '</li>'; }).join('') + '</ul>' : '') +
-          (related.length ? '<div class="spot-related-label">あわせて行きたいスポット</div><ul class="spot-related">' + related.map(function (r) { return '<li><button type="button" data-name="' + r.s.name + '">' + r.s.name + '</button></li>'; }).join('') + '</ul>' : '') +
           '</div>';
         detailWrap.hidden = false;
         detailWrap.querySelector('[data-act="close"]').addEventListener('click', function () { detailWrap.hidden = true; });
-        detailWrap.querySelectorAll('.spot-related button').forEach(function (btn) {
-          btn.addEventListener('click', function () { showDetail(btn.dataset.name); });
-        });
         detailWrap.scrollIntoView({ behavior: 'smooth', block: 'center' });
       }
 

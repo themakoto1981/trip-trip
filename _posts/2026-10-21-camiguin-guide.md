@@ -37,9 +37,9 @@ excerpt: "火山が生んだ「火の島」カミギン。海に浮かぶ白い�
 ## 予算の目安
 マニラで1泊してから島に入るので、**4泊5日**がおすすめです。マニラ1泊を挟むことで、乗り継ぎに追われず現地を満喫できます。
 
-- **やす旅**：セブパシフィック航空+国内線乗り継ぎ｜マニラは空港近くのホテルで1泊｜島の宿は庭付きのホームステイ<br><a class="schedule-tag" href="https://www.cebupacificair.com/">セブパシフィック航空の最新スケジュール</a>
-- **ゆる旅**：ANA直行便+国内線乗り継ぎ｜マニラはニューポートエリアのホテルで1泊｜アゴホビーチ沿いのリゾートで過ごす<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
-- **らぐ旅**：ANA直行便+国内線乗り継ぎ｜マニラはニューポートエリアの上質ホテルで1泊｜眺めの良い島屈指の高級リゾート<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
+- **やす旅**：<br><a class="schedule-tag" href="https://www.cebupacificair.com/">セブパシフィック航空の最新スケジュール</a>
+- **ゆる旅**：<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
+- **らぐ旅**：<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
 
 ## おすすめ旅程（やす旅向け／マニラ1泊・4泊5日の例）
 

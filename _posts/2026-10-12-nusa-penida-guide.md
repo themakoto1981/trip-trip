@@ -39,9 +39,9 @@ excerpt: "バリ島からボートで30〜45分、断崖と青い海が広がる
 ## 予算の目安
 バリ本島からボートを挟むため、島で丸2日楽しむには**3泊以上**がおすすめです。
 
-- **やす旅**：クアラルンプール経由+LCC｜島で2泊｜運賃重視<br><a class="schedule-tag" href="https://www.airasia.com/">AirAsiaの最新スケジュール</a>
-- **ゆる旅**：直行便+JAL｜乗継なし｜到着の翌朝に島へ<br><a class="schedule-tag" href="https://www.jal.co.jp/jp/ja/inter/route/">JALの最新スケジュール</a>
-- **らぐ旅**：直行便+JAL｜乗継なし｜絶景ホテルで過ごす<br><a class="schedule-tag" href="https://www.jal.co.jp/jp/ja/inter/route/">JALの最新スケジュール</a>
+- **やす旅**：<br><a class="schedule-tag" href="https://www.airasia.com/">AirAsiaの最新スケジュール</a>
+- **ゆる旅**：<br><a class="schedule-tag" href="https://www.jal.co.jp/jp/ja/inter/route/">JALの最新スケジュール</a>
+- **らぐ旅**：<br><a class="schedule-tag" href="https://www.jal.co.jp/jp/ja/inter/route/">JALの最新スケジュール</a>
 
 ## おすすめ旅程（やす旅向け／LCC利用・クアラルンプール経由・5泊6日の例）
 

@@ -38,9 +38,9 @@ excerpt: "マレーシア半島の東海岸沖に浮かぶ、ジャングルと�
 ## 予算の目安
 メルシンでの前泊と帰りのクアラルンプール泊があるので、島で丸2日たっぷり楽しむには**6泊7日**がおすすめです。
 
-- **やす旅**：クアラルンプール直行+Zipair｜バスとフェリーの陸路｜航空券を安く抑えられる<br><a class="schedule-tag" href="https://www.zipair.net/ja">Zipairの最新スケジュール</a>
-- **ゆる旅**：クアラルンプール経由+ANA｜メルシン前泊で安心｜海沿いリゾートに泊まれる<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
-- **らぐ旅**：クアラルンプール経由+ANA｜空港ホテルで乗継｜離島の高級リゾートで過ごせる<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
+- **やす旅**：<br><a class="schedule-tag" href="https://www.zipair.net/ja">Zipairの最新スケジュール</a>
+- **ゆる旅**：<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
+- **らぐ旅**：<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
 
 ## おすすめ旅程（やす旅向け／Zipair直行・陸路利用・6泊7日の例）
 

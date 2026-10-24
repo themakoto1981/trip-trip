@@ -364,13 +364,9 @@ layout: default
     function renderRichSpotExplorer(spotHeading, mySpots) {
       var beaches = mySpots.filter(function (s) { return !s.type; });
       var hotels = mySpots.filter(function (s) { return s.type === 'hotel'; });
-      var allTags = [];
-      beaches.forEach(function (s) { (s.tags || []).forEach(function (t) { if (allTags.indexOf(t) === -1) allTags.push(t); }); });
 
-      var activeTags = [];
       var activeTiers = {};
       hotels.forEach(function (h) { activeTiers[h.letter] = true; });
-      var currentView = 'map';
       var selectedName = null;
 
       // 実座標を0-100%に正規化（イラスト地図ではなく、無地の背景に実比率で配置する）
@@ -391,46 +387,13 @@ layout: default
       var wrap = document.createElement('div');
       wrap.className = 'spot-explorer';
       wrap.innerHTML =
-        '<div class="spot-explorer-head">' +
-          '<span class="spot-count" id="spot-count"></span>' +
-          '<span class="spot-explorer-tabs">' +
-            '<button type="button" class="spot-tab active" data-view="map">地図</button>' +
-            '<button type="button" class="spot-tab" data-view="list">一覧</button>' +
-          '</span>' +
-        '</div>' +
-        '<div class="spot-chips" id="spot-tag-chips"></div>' +
         '<div id="spot-map-wrap"><div class="spot-schematic" id="spot-schematic"><span class="spot-schematic-caption">位置はおおよそのイメージです</span></div>' +
           '<div class="spot-tier-row" id="spot-tier-row"></div></div>' +
-        '<div id="spot-list-wrap" hidden><ul class="spot-card-list" id="spot-card-list"></ul></div>' +
         '<div id="spot-detail-wrap" hidden></div>' +
-        '<div class="spot-hint">番号のピンや一覧のスポットをタップすると、詳しい情報が表示されます。四角のアイコンはプラン別のホテルです。</div>';
+        '<div class="spot-hint">番号のピンをタップすると、詳しい情報が表示されます。四角のアイコンはプラン別のホテルです。</div>';
       spotHeading.parentNode.insertBefore(wrap, spotHeading.nextSibling);
 
-      function visibleBeaches() {
-        if (!activeTags.length) return beaches;
-        return beaches.filter(function (s) { return activeTags.some(function (t) { return (s.tags || []).indexOf(t) !== -1; }); });
-      }
-
-      function renderCount() {
-        document.getElementById('spot-count').innerHTML = '<strong>' + visibleBeaches().length + '</strong> 件のスポット';
-      }
-
-      function renderChips() {
-        var el = document.getElementById('spot-tag-chips');
-        el.innerHTML = allTags.map(function (t) {
-          return '<button type="button" class="spot-chip' + (activeTags.indexOf(t) !== -1 ? ' active' : '') + '" data-tag="' + t + '">' + t + '</button>';
-        }).join('');
-        el.querySelectorAll('.spot-chip').forEach(function (btn) {
-          btn.addEventListener('click', function () {
-            var t = btn.dataset.tag;
-            var i = activeTags.indexOf(t);
-            if (i === -1) { activeTags.push(t); } else { activeTags.splice(i, 1); }
-            renderChips();
-            renderCount();
-            refreshView();
-          });
-        });
-      }
+      function visibleBeaches() { return beaches; }
 
       function renderTierRow() {
         var el = document.getElementById('spot-tier-row');
@@ -473,22 +436,6 @@ layout: default
         });
       }
 
-      function renderList() {
-        var el = document.getElementById('spot-card-list');
-        var shown = visibleBeaches();
-        el.innerHTML = shown.map(function (s) {
-          return '<li><button type="button" class="spot-card" data-name="' + s.name + '">' +
-            (s.image ? '<img class="spot-card-thumb" src="' + s.image + '" alt="" loading="lazy">' : '<span></span>') +
-            '<span class="spot-card-body"><h4>' + s.name + '</h4>' +
-            '<span class="spot-card-tags">' + (s.tags || []).map(function (t) { return '<span>#' + t + '</span>'; }).join('') + '</span>' +
-            (s.short ? '<p>' + s.short + '</p>' : '') + '</span>' +
-            '<span class="spot-card-chev">›</span></button></li>';
-        }).join('');
-        el.querySelectorAll('.spot-card').forEach(function (btn) {
-          btn.addEventListener('click', function () { showDetail(btn.dataset.name); });
-        });
-      }
-
       function showDetail(name) {
         var s = beaches.filter(function (b) { return b.name === name; })[0];
         if (!s) return;
@@ -515,23 +462,6 @@ layout: default
         detailWrap.scrollIntoView({ behavior: 'smooth', block: 'center' });
       }
 
-      function refreshView() {
-        if (currentView === 'map') { renderMap(); } else { renderList(); }
-      }
-
-      wrap.querySelectorAll('.spot-tab').forEach(function (btn) {
-        btn.addEventListener('click', function () {
-          currentView = btn.dataset.view;
-          wrap.querySelectorAll('.spot-tab').forEach(function (b) { b.classList.toggle('active', b === btn); });
-          document.getElementById('spot-map-wrap').hidden = currentView !== 'map';
-          document.getElementById('spot-list-wrap').hidden = currentView !== 'list';
-          document.getElementById('spot-detail-wrap').hidden = true;
-          refreshView();
-        });
-      });
-
-      renderChips();
-      renderCount();
       renderTierRow();
       renderMap();
     }

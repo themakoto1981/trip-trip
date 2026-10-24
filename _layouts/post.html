@@ -417,7 +417,7 @@ layout: default
         if (!hotels.length) { el.innerHTML = ''; return; }
         el.innerHTML = '<span class="label">ホテル</span>' + hotels.map(function (h) {
           return '<button type="button" class="spot-tier-chip" data-tier="' + h.letter + '" data-name="' + h.name + '" data-active="' + !!activeTiers[h.letter] + '">' +
-            '<span class="spot-schematic-hotel">' + h.letter + '</span>（' + (tierLabels[h.letter] || h.letter) + '）</button>';
+            '<span class="spot-schematic-hotel">' + h.letter + '</span>' + (tierLabels[h.letter] || h.letter) + '</button>';
         }).join('');
         el.querySelectorAll('.spot-tier-chip').forEach(function (btn) {
           btn.addEventListener('click', function () {

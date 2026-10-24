@@ -735,3 +735,32 @@
     ragu: [TR01, TR04, HT08, HT11]
   url: /2026/10/23/tioman-guide/
   tags: { beach: 4, resort: 3, island: 5, city_base: 1, sightseeing: 2, relax: 5, party: 1, activity: 4 }
+
+- name: ギリ・アイール島
+  en_name: "Gili Air, Indonesia"
+  slug: gili-air-guide
+  country: インドネシア
+  country_slug: indonesia
+  lat: -8.3550
+  lng: 116.0800
+  flight_min: 57000
+  flight_max: 165000
+  hotel_min: 3000
+  hotel_max: 30000
+  transport_min: 8000
+  transport_max: 15000
+  food_min: 2500
+  food_max: 6500
+  flight_hours: "約7〜8時間（デンパサール直行便）、パダンバイから高速ボートで約2時間"
+  recommended_nights: "3泊以上"
+  visa: "不要（30日以内）"
+  photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Gili-Air-%D0%93%D0%B8%D0%BB%D0%B8-%D0%90%D0%B8%D1%80.jpg/960px-Gili-Air-%D0%93%D0%B8%D0%BB%D0%B8-%D0%90%D0%B8%D1%80.jpg"
+  photo_credit_url: "https://commons.wikimedia.org/wiki/File:Gili-Air-%D0%93%D0%B8%D0%BB%D0%B8-%D0%90%D0%B8%D1%80.jpg"
+  suited_for: [couple, family, solo]
+  best_months: [6, 7, 8, 9]
+  budget_tags:
+    yasu: [TR02, TR03, HT16]
+    yuru: [TR01, TR03, HT03]
+    ragu: [TR01, TR03, HT11, HT14]
+  url: /2026/10/24/gili-air-guide/
+  tags: { beach: 4, resort: 3, island: 5, city_base: 1, sightseeing: 2, relax: 5, party: 1, activity: 3 }

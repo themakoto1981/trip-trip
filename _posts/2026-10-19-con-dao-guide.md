@@ -39,9 +39,9 @@ excerpt: "「ベトナム最後の楽園」と呼ばれる南シナ海の秘島�
 ## 予算の目安
 ホーチミンで1泊してから島に入るので、**3泊4日**がおすすめです。2日目の昼から4日目の昼までコンダオ島に滞在でき、現地では丸1日半しっかり楽しめます。三連休の前に半休を1つ足せば行ける日程感です。
 
-- **やす旅**：Vietjet Air直行便+ベトナム航空国内線｜ホーチミン空港近くで1泊｜島の宿は海沿いの素朴なゲストハウス<br><a class="schedule-tag" href="https://www.vietjetair.com/">Vietjet Airの最新スケジュール</a>
-- **ゆる旅**：ANA直行便+ベトナム航空国内線｜到着日は空港近くで1泊｜ビーチ沿いのリゾートで過ごす<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
-- **らぐ旅**：ANA直行便+ベトナム航空国内線｜市内の上質ホテルで1泊｜全室プール付きヴィラの名門リゾート<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
+- **やす旅**：<br><a class="schedule-tag" href="https://www.vietjetair.com/">Vietjet Airの最新スケジュール</a>
+- **ゆる旅**：<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
+- **らぐ旅**：<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
 
 ## おすすめ旅程（やす旅向け／ホーチミン1泊・3泊4日の例）
 

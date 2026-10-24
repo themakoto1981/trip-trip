@@ -613,6 +613,56 @@
   }
   .spot-label::before { display: none; }
 
+  /* Rich spot explorer (opt-in: destinations.yml spots with tags/short/long/ways) */
+  .spot-explorer-tabs { display: flex; gap: 0.5rem; margin: 0 0 0.7rem; }
+  .spot-tab {
+    background: transparent; border: 1px solid var(--sb-border); border-radius: 999px;
+    padding: 0.3rem 0.9rem; font-size: 0.85rem; font-weight: 700; color: var(--sb-brown-soft);
+    cursor: pointer;
+  }
+  .spot-tab.active { background: var(--sb-green); border-color: var(--sb-green); color: #fff; }
+  .spot-chips { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 0 0 0.9rem; }
+  .spot-chip {
+    display: inline-flex; align-items: center; background: #fff;
+    border: 1px solid var(--sb-border); border-radius: 999px;
+    padding: 0.22rem 0.7rem; font-size: 0.78rem; font-weight: 600; color: var(--sb-brown);
+    cursor: pointer;
+  }
+  .spot-chip.active { background: var(--sb-green); border-color: var(--sb-green); color: #fff; }
+  .spot-card-list { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 0.6rem; }
+  .spot-card {
+    display: grid; grid-template-columns: 104px 1fr auto; gap: 0.8rem; align-items: center;
+    width: 100%; text-align: left; background: #fff; border: 1px solid var(--sb-border);
+    border-radius: 10px; padding: 0.7rem; cursor: pointer;
+  }
+  .spot-card:hover { border-color: var(--sb-green); }
+  .spot-card-thumb { width: 104px; height: 78px; object-fit: cover; border-radius: 6px; }
+  .spot-card-body { min-width: 0; display: flex; flex-direction: column; gap: 0.2rem; }
+  .spot-card-body h4 { margin: 0; font-size: 1rem; color: var(--sb-green-dark); font-family: "Noto Serif JP", serif; }
+  .spot-card-body p { margin: 0; font-size: 0.82rem; color: var(--sb-brown-soft); line-height: 1.6; }
+  .spot-card-tags { display: flex; flex-wrap: wrap; gap: 0.3rem; }
+  .spot-card-tags span { font-size: 0.72rem; color: var(--sb-green); }
+  .spot-card-chev { color: var(--sb-green); font-size: 1.3rem; }
+  .spot-detail-panel {
+    background: var(--sb-cream); border: 1px solid var(--sb-border); border-radius: 10px;
+    padding: 1rem; margin-top: 0.7rem;
+  }
+  .spot-detail-panel img { width: 100%; max-height: 260px; object-fit: cover; border-radius: 8px; margin-bottom: 0.8rem; }
+  .spot-detail-panel h4 { margin: 0 0 0.4rem; font-family: "Noto Serif JP", serif; color: var(--sb-green-dark); font-size: 1.15rem; }
+  .spot-detail-panel p { font-size: 0.9rem; line-height: 1.75; color: var(--sb-brown); margin: 0 0 0.8rem; }
+  .spot-ways { list-style: none; padding: 0; margin: 0 0 0.8rem; display: flex; flex-direction: column; gap: 0.35rem; }
+  .spot-ways li { display: flex; gap: 0.5rem; align-items: baseline; font-size: 0.88rem; }
+  .spot-ways li::before { content: ""; flex: none; width: 6px; height: 6px; border-radius: 50%; background: var(--sb-gold); transform: translateY(-2px); }
+  .spot-related-label { font-size: 0.78rem; font-weight: 700; color: var(--sb-brown-soft); margin: 0 0 0.4rem; }
+  .spot-related { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 0.4rem; }
+  .spot-related button {
+    display: block; width: 100%; text-align: left; background: #fff; border: 1px solid var(--sb-border);
+    border-radius: 8px; padding: 0.5rem 0.8rem; font-size: 0.85rem; font-weight: 600; color: var(--sb-green-dark);
+    cursor: pointer;
+  }
+  .spot-related button:hover { border-color: var(--sb-green); }
+  .spot-detail-close { background: none; border: none; color: var(--sb-green); font-size: 0.85rem; font-weight: 700; cursor: pointer; padding: 0; margin-bottom: 0.8rem; }
+
   /* Interactive packing checklist — hairline rows, no cards */
   .post-content ul.checklist { list-style: none; padding-left: 0; }
   .post-content ul.checklist li {

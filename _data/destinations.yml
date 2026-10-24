@@ -122,8 +122,8 @@
   best_months: [12, 1, 2, 3]
   budget_tags:
     yasu: [TR02, TR04, TR06, SC01]
-    yuru: [TR04, SC06]
-    ragu: [TR04]
+    yuru: [TR10, TR04, SC06]
+    ragu: [TR10, TR04]
   url: /2026/09/28/langkawi-guide/
   tags: { beach: 4, resort: 4, island: 4, city_base: 2, sightseeing: 3, relax: 4, party: 1, activity: 3 }
 
@@ -441,8 +441,8 @@
   best_months: [5, 6, 9]
   budget_tags:
     yasu: [TR02, TR04]
-    yuru: [TR03, SC05]
-    ragu: [TR03, HT11]
+    yuru: [TR10, TR03, SC05]
+    ragu: [TR10, TR03, HT11]
   url: /2026/10/12/nusa-penida-guide/
   tags: { beach: 4, resort: 3, island: 5, city_base: 1, sightseeing: 5, relax: 3, party: 2, activity: 5 }
 
@@ -470,8 +470,8 @@
   best_months: [5, 6, 9]
   budget_tags:
     yasu: [TR02, TR04, SC03]
-    yuru: [TR03, SC03]
-    ragu: [TR03, HT14, HT11]
+    yuru: [TR10, TR03, SC03]
+    ragu: [TR10, TR03, HT14, HT11]
   url: /2026/10/14/gili-trawangan-guide/
   tags: { beach: 4, resort: 3, island: 5, city_base: 2, sightseeing: 2, relax: 5, party: 4, activity: 4 }
 

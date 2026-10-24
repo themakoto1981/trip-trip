@@ -39,9 +39,9 @@ excerpt: "石灰岩の断崖とエメラルドグリーンの入り江が広が�
 ## 予算の目安
 エルニドは移動に時間がかかるため、アイランドホッピングとナクパンビーチの両方をしっかり楽しむには**4泊以上**がおすすめです。
 
-- **やす旅**：セブ経由+LCC｜全区間フライトで移動｜短い日程で効率よく<br><a class="schedule-tag" href="https://www.cebupacificair.com/">セブパシフィック航空の最新スケジュール</a>
-- **ゆる旅**：セブ経由+フィリピン航空｜セブで1泊して観光も楽しめる｜フルサービスでゆったり<br><a class="schedule-tag" href="https://www.philippineairlines.com/">フィリピン航空の最新スケジュール</a>
-- **らぐ旅**：セブ経由+フィリピン航空｜セブ・エルニドとも上質なホテルに滞在｜移動も宿泊も快適に<br><a class="schedule-tag" href="https://www.philippineairlines.com/">フィリピン航空の最新スケジュール</a>
+- **やす旅**：<br><a class="schedule-tag" href="https://www.cebupacificair.com/">セブパシフィック航空の最新スケジュール</a>
+- **ゆる旅**：<br><a class="schedule-tag" href="https://www.philippineairlines.com/">フィリピン航空の最新スケジュール</a>
+- **らぐ旅**：<br><a class="schedule-tag" href="https://www.philippineairlines.com/">フィリピン航空の最新スケジュール</a>
 
 以下の旅程は実在の便をもとにした一例です。**便名・時刻は搭乗日によって変動する**ため、予約前に上記リンクから必ずご自身の搭乗日のスケジュールをご確認ください。
 

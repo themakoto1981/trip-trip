@@ -97,17 +97,9 @@ excerpt: "パタヤからスピードボートでわずか20分。コーラル�
 
 ## おすすめビーチ・スポット
 
-## おすすめホテル
-
-**パタヤ（経由地）**
+## 経由地のホテル（パタヤ）
 
 - 市内のホテルに1泊（乗り継ぎ用。バリハイ桟橋に近いホテルが便利）
-
-**ラン島**
-
-- **[Island Inn](https://www.booking.com/searchresults.html?ss=Island+Inn+Koh+Larn)**：タワエンビーチ近くの手頃な宿（やす旅向け）
-- **[Montra Resort](https://www.booking.com/searchresults.html?ss=Montra+Resort+Koh+Larn)**：タワエンビーチの標準リゾート（ゆる旅向け）
-- **[The Castello Resort Koh Larn](https://www.booking.com/searchresults.html?ss=The+Castello+Resort+Koh+Larn)**：島内屈指の上質リゾート（らぐ旅向け）
 
 ## 持ち物チェックリスト
 

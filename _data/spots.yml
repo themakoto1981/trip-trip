@@ -1081,6 +1081,7 @@ koh-larn-guide:
     lng: 100.7850
     desc: 島で一番賑やかなビーチ、レストランや売店が集まる
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Tawaen_Beach%2C_Ko_Lan_0001.jpg/960px-Tawaen_Beach%2C_Ko_Lan_0001.jpg"
+    category: beach
     tags: ["ビーチ", "食事", "賑やか"]
     short: "島で一番賑やかなビーチ。白い砂浜にレストランや売店が並び、マリンアクティビティも充実しています。"
     long:
@@ -1100,6 +1101,7 @@ koh-larn-guide:
     lng: 100.7720
     desc: 島の西側、夕日の名所として知られる静かなビーチ
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Samae_Beach%2C_Ko_Lan_0001.jpg/960px-Samae_Beach%2C_Ko_Lan_0001.jpg"
+    category: beach
     tags: ["ビーチ", "夕日", "静か"]
     short: "島の西側に広がる、タワエンビーチより落ち着いた雰囲気のビーチ。夕日の名所としても知られています。"
     long:
@@ -1113,6 +1115,7 @@ koh-larn-guide:
     lng: 100.7900
     desc: 小さく穴場な入江のビーチ、シュノーケリングに向く
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Tong_Lang_Beach%2C_Ko_Lan_0001.jpg/960px-Tong_Lang_Beach%2C_Ko_Lan_0001.jpg"
+    category: beach
     tags: ["ビーチ", "静か", "シュノーケリング"]
     short: "島の北東側にある小さな入江のビーチ。人が少なく、透明度の高い海でシュノーケリングが楽しめます。"
     long:
@@ -1126,12 +1129,24 @@ koh-larn-guide:
     lng: 100.7830
     desc: パタヤ市街と海を見渡せる展望スポット
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Panorama_of_Pattaya_city_from_Sunrise_Viewpoint_on_Ko_Lan_island.jpg/960px-Panorama_of_Pattaya_city_from_Sunrise_Viewpoint_on_Ko_Lan_island.jpg"
+    category: spot
     tags: ["展望", "景色"]
     short: "島の高台にある展望ポイント。対岸のパタヤ市街と海を見渡せます。"
     long:
       - "島の高台に位置する展望スポットで、対岸に広がるパタヤの街並みと海を一望できます。"
     ways:
       - "パタヤ市街を見渡す写真スポットとして立ち寄る"
+  - name: DuLay Koh Larn
+    lat: 12.9283
+    lng: 100.7853
+    desc: タワエンビーチ沿いのレストラン、シーフードが人気
+    category: restaurant
+    tags: ["レストラン", "シーフード"]
+    short: "タワエンビーチ沿いにあるレストラン。シーフードカレーやトムヤムなど、幅広いメニューが評判です。"
+    long:
+      - "タワエンビーチのすぐそばにあるレストラン。パッタイやシーフードサラダ、シーフードカレーなど幅広いメニューが楽しめます。"
+    ways:
+      - "ビーチを眺めながらシーフードランチ"
   - name: "Island Inn"
     lat: 12.9275
     lng: 100.7845

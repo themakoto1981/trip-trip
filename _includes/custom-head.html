@@ -674,8 +674,19 @@
   .spot-count strong { color: var(--sb-green-dark); font-weight: 700; font-size: 1rem; }
   .spot-hint {
     font-size: 0.85rem; color: var(--sb-brown-soft); border: 1px dashed var(--sb-border);
-    border-radius: 10px; padding: 0.7rem 0.9rem; line-height: 1.6; margin: 0 0 0.7rem;
+    border-radius: 10px; padding: 0.7rem 0.9rem; line-height: 1.6; margin: 0.7rem 0 0;
   }
+  .spot-explorer #spot-map { height: 440px; }
+  .spot-explorer .spot-card-list { margin-top: 0; }
+  .spot-summary-card {
+    display: flex; gap: 0.8rem; align-items: center; margin-top: 0.7rem;
+    background: #fff; border: 1px solid var(--sb-border); border-radius: 10px; padding: 0.7rem;
+  }
+  .spot-summary-thumb { flex: none; width: 96px; height: 72px; object-fit: cover; border-radius: 6px; }
+  .spot-summary-body { min-width: 0; display: flex; flex-direction: column; gap: 0.2rem; }
+  .spot-summary-body h4 { margin: 0; font-size: 1rem; color: var(--sb-green-dark); font-family: "Noto Serif JP", serif; }
+  .spot-summary-body p { margin: 0; font-size: 0.82rem; color: var(--sb-brown-soft); line-height: 1.6; }
+  .spot-summary-more { align-self: flex-start; background: none; border: none; padding: 0; color: var(--sb-green); font-size: 0.82rem; font-weight: 700; cursor: pointer; }
   .spot-chip {
     display: inline-flex; align-items: center; background: #fff;
     border: 1px solid var(--sb-border); border-radius: 999px;

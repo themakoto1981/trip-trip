@@ -52,6 +52,8 @@ layout: default
     var destinations = {{ site.data.destinations | jsonify }};
     var allSpots = {{ site.data.spots | jsonify }} || {};
     var planTags = {{ site.data.plan_tags | jsonify }} || [];
+    var productMaster = {{ site.data.products | jsonify }} || [];
+    var articleProducts = {{ site.data.article_products | jsonify }} || {};
     var pageUrl = "{{ page.url }}";
     var match = null;
     for (var i = 0; i < destinations.length; i++) {
@@ -528,6 +530,49 @@ layout: default
       renderCategoryRow();
       renderMap();
       renderSummary();
+    }
+
+    // おすすめ持ち物（商品カード）。article_products.ymlにこの記事のslugのエントリがある場合のみ、
+    // 「持ち物チェックリスト」見出しをそのエントリのheadingに差し替えて、本文のチェックリストを商品カードに置き換える。
+    // エントリが無い記事は、既存のチェックボックス式リストのまま（オプトイン方式）
+    try {
+      var myProducts = match ? articleProducts[match.slug] : null;
+      if (myProducts && myProducts.items && myProducts.items.length) {
+        var packHeading = null;
+        document.querySelectorAll('.post-content h2').forEach(function (h) {
+          if (packHeading) { return; }
+          if (h.textContent.indexOf('持ち物') !== -1) { packHeading = h; }
+        });
+        if (packHeading) {
+          packHeading.textContent = myProducts.heading || '持っていくと便利なもの';
+
+          var oldList = packHeading.nextElementSibling;
+          if (oldList && oldList.tagName === 'UL') { oldList.remove(); }
+
+          var activeItems = myProducts.items.filter(function (it) { return it.status !== 'inactive'; })
+            .sort(function (a, b) { return (a.order || 0) - (b.order || 0); });
+
+          var cardsHtml = '<ul class="product-card-list">' + activeItems.map(function (it) {
+            var p = productMaster.filter(function (pp) { return pp.id === it.product_id && pp.published; })[0];
+            if (!p) { return ''; }
+            var href = p.affiliate_url || p.url;
+            return '<li class="product-card">' +
+              '<span class="product-card-thumb">' + (p.image ? '<img src="' + p.image + '" alt="' + p.name + '">' : '') + '</span>' +
+              '<span class="product-card-body"><span class="product-card-name">' + p.name + '</span>' +
+              (it.reason ? '<span class="product-card-reason">' + it.reason + '</span>' : '') +
+              '<a class="product-card-link" href="' + href + '" target="_blank" rel="noopener sponsored">Amazonで商品を見る ↗</a>' +
+              '</span></li>';
+          }).join('') + '</ul>' +
+          '<p class="product-card-disclosure">※商品リンクには広告（アフィリエイトリンク）を含む場合があります</p>';
+
+          var cardsWrap = document.createElement('div');
+          cardsWrap.innerHTML = cardsHtml;
+          var insertAnchor = packHeading.nextSibling;
+          while (cardsWrap.firstChild) { packHeading.parentNode.insertBefore(cardsWrap.firstChild, insertAnchor); }
+        }
+      }
+    } catch (e) {
+      if (window.console && console.error) { console.error('product cards failed to render:', e); }
     }
 
     // 旅程タイムライン表示

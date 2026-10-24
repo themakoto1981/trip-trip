@@ -37,9 +37,9 @@ excerpt: "世界的サーファーが集まる「サーフィンの聖地」シ�
 ## 予算の目安
 成田からセブへ直行便で入り、セブ〜シアルガオ間は国内線で乗り継ぐため、**5泊6日**がおすすめです。行き帰りともにセブで1泊を挟むことで、乗り継ぎに追われず現地を満喫できます。
 
-- **やす旅**：セブパシフィック航空直行便｜セブは空港近くのホテルで1泊｜島の宿はサーファーに人気のホステル<br><a class="schedule-tag" href="https://www.cebupacificair.com/">セブパシフィック航空の最新スケジュール</a>
-- **ゆる旅**：フィリピン航空直行便｜セブはマクタン島のリゾートで1泊｜ビーチ沿いのリゾートで過ごす<br><a class="schedule-tag" href="https://www.philippineairlines.com/en/">フィリピン航空の最新スケジュール</a>
-- **らぐ旅**：フィリピン航空直行便｜セブはマクタン島の上質リゾートで1泊｜プライベートアイランドの名門リゾート<br><a class="schedule-tag" href="https://www.philippineairlines.com/en/">フィリピン航空の最新スケジュール</a>
+- **やす旅**：<br><a class="schedule-tag" href="https://www.cebupacificair.com/">セブパシフィック航空の最新スケジュール</a>
+- **ゆる旅**：<br><a class="schedule-tag" href="https://www.philippineairlines.com/en/">フィリピン航空の最新スケジュール</a>
+- **らぐ旅**：<br><a class="schedule-tag" href="https://www.philippineairlines.com/en/">フィリピン航空の最新スケジュール</a>
 
 ## おすすめ旅程（やす旅向け／セブ往復2泊・5泊6日の例）
 

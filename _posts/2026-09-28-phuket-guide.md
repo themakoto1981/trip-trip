@@ -36,9 +36,9 @@ excerpt: "アンダマン海に浮かぶタイ最大の島プーケット。ビ�
 ## 予算の目安
 移動に時間がかかるので、現地を2日しっかり楽しむには**3泊以上**がおすすめです（余裕があれば4泊以上でピピ諸島ツアーなど離島観光もプラスしやすくなります）。
 
-- **やす旅**：バンコク乗継+LCC｜国際線国内線ともLCC｜航空券代を抑制<br><a class="schedule-tag" href="https://www.vietjetair.com/">Vietjet Airの最新スケジュール</a>
-- **ゆる旅**：バンコク乗継+ANA｜乗継スムーズ｜快適に移動<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
-- **らぐ旅**：バンコク乗継+ANA｜復路は深夜直行便｜後泊なし<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
+- **やす旅**：<br><a class="schedule-tag" href="https://www.vietjetair.com/">Vietjet Airの最新スケジュール</a>
+- **ゆる旅**：<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
+- **らぐ旅**：<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
 
 ## おすすめ旅程（やす旅向け／LCC利用・3泊4日の例）
 

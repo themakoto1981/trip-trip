@@ -37,9 +37,9 @@ excerpt: "石灰岩の湖と第二次世界大戦の沈没船が眠る海、パ�
 
 ## 予算の目安
 
-- **やす旅**：フィリピン航空＋マニラ1泊｜町なかの安宿｜運賃と宿代重視<br><a class="schedule-tag" href="https://www.philippineairlines.com/">フィリピン航空の最新スケジュール</a>
-- **ゆる旅**：フィリピン航空＋マニラ1泊｜町なかの標準ホテル｜乗継もスムーズ<br><a class="schedule-tag" href="https://www.philippineairlines.com/">フィリピン航空の最新スケジュール</a>
-- **らぐ旅**：フィリピン航空＋マニラ1泊｜ボートで渡るプライベートアイランドリゾート｜移動も宿泊も上質に<br><a class="schedule-tag" href="https://www.philippineairlines.com/">フィリピン航空の最新スケジュール</a>
+- **やす旅**：<br><a class="schedule-tag" href="https://www.philippineairlines.com/">フィリピン航空の最新スケジュール</a>
+- **ゆる旅**：<br><a class="schedule-tag" href="https://www.philippineairlines.com/">フィリピン航空の最新スケジュール</a>
+- **らぐ旅**：<br><a class="schedule-tag" href="https://www.philippineairlines.com/">フィリピン航空の最新スケジュール</a>
 
 ## おすすめ旅程（やす旅向け／マニラ1泊・4泊5日の例）
 

@@ -33,6 +33,10 @@
   photo_credit_url: "https://commons.wikimedia.org/wiki/File:Boracay_White_Beach.png"
   suited_for: [couple, friends, solo]
   best_months: [12, 1, 2]
+  budget_tags:
+    yasu: [TR02, TR04, SC06]
+    yuru: [TR01, TR04, SC06]
+    ragu: [TR01, TR04, SC06]
   url: /2026/09/28/boracay-guide/
   tags: { beach: 5, resort: 4, island: 5, city_base: 1, sightseeing: 2, relax: 3, party: 5, activity: 4 }
 
@@ -58,6 +62,10 @@
   photo_credit_url: "https://commons.wikimedia.org/wiki/File:Kuta_Beach,_Bali,_20220825_1706_0864.jpg"
   suited_for: [couple, family, friends]
   best_months: [5, 6, 9, 10]
+  budget_tags:
+    yasu: [TR02, TR04]
+    yuru: [TR03, SC06]
+    ragu: [TR03, SC06]
   url: /2026/09/28/bali-guide/
   tags: { beach: 4, resort: 4, island: 3, city_base: 5, sightseeing: 5, relax: 3, party: 4, activity: 4 }
 
@@ -83,6 +91,10 @@
   photo_credit_url: "https://commons.wikimedia.org/wiki/File:Patong_Beach_Phuket_November_2012.jpg"
   suited_for: [couple, family, friends, solo]
   best_months: [12, 1, 2]
+  budget_tags:
+    yasu: [TR02, TR04]
+    yuru: [TR01, TR04, SC06]
+    ragu: [TR01, TR04, TR06, SC06]
   url: /2026/09/28/phuket-guide/
   tags: { beach: 5, resort: 4, island: 3, city_base: 4, sightseeing: 4, relax: 3, party: 4, activity: 4 }
 
@@ -108,6 +120,10 @@
   photo_credit_url: "https://commons.wikimedia.org/wiki/File:Pantai_Cenang,_Langkawi_01.jpg"
   suited_for: [couple, family, friends]
   best_months: [12, 1, 2, 3]
+  budget_tags:
+    yasu: [TR02, TR04, TR06, SC01]
+    yuru: [TR04, SC06]
+    ragu: [TR04]
   url: /2026/09/28/langkawi-guide/
   tags: { beach: 4, resort: 4, island: 4, city_base: 2, sightseeing: 3, relax: 4, party: 1, activity: 3 }
 
@@ -133,6 +149,10 @@
   photo_credit_url: "https://commons.wikimedia.org/wiki/File:Koh_Lipe_Thailand._Koh_Lipe_Beach_Resort,_Koh_Lipe_Island_01.jpg"
   suited_for: [couple, friends, solo]
   best_months: [12, 1, 2]
+  budget_tags:
+    yasu: [TR02, TR04, TR05]
+    yuru: [TR01, TR04]
+    ragu: [TR01, TR04, SC07]
   url: /2026/09/30/koh-lipe-guide/
   tags: { beach: 5, resort: 2, island: 5, city_base: 1, sightseeing: 1, relax: 5, party: 1, activity: 4 }
 
@@ -158,6 +178,10 @@
   photo_credit_url: "https://commons.wikimedia.org/wiki/File:Pulau_Redang_-_White_sandy_beach.jpg"
   suited_for: [couple, family, friends]
   best_months: [6, 7, 8]
+  budget_tags:
+    yasu: [TR02, TR04, SC01]
+    yuru: [TR01, TR04, SC01]
+    ragu: [TR01, TR04, SC07]
   url: /2026/09/30/redang-guide/
   tags: { beach: 5, resort: 3, island: 5, city_base: 1, sightseeing: 1, relax: 5, party: 1, activity: 3 }
 
@@ -183,6 +207,10 @@
   photo_credit_url: "https://commons.wikimedia.org/wiki/File:Isla_Ko_Phi_Phi_Don,_Tailandia,_2013-08-19,_DD_01.JPG"
   suited_for: [couple, friends, solo]
   best_months: [12, 1, 2]
+  budget_tags:
+    yasu: [TR02, TR04, SC03]
+    yuru: [TR01, TR04, SC03]
+    ragu: [TR01, TR04, SC03]
   url: /2026/09/30/koh-phiphi-guide/
   tags: { beach: 5, resort: 3, island: 5, city_base: 2, sightseeing: 3, relax: 2, party: 4, activity: 4 }
 
@@ -208,6 +236,10 @@
   photo_credit_url: "https://commons.wikimedia.org/wiki/File:Klong_Prao_Beach,_west_coast_of_Ko_Chang_Island,_Thailand.jpg"
   suited_for: [couple, family, friends]
   best_months: [12, 1, 2, 3, 4]
+  budget_tags:
+    yasu: [TR02, HT01, SC03]
+    yuru: [TR01, TR04]
+    ragu: [TR01, TR03, HT08, SC07]
   url: /2026/09/30/koh-chang-guide/
   tags: { beach: 2, resort: 3, island: 5, city_base: 1, sightseeing: 3, relax: 4, party: 2, activity: 4 }
 
@@ -233,6 +265,10 @@
   photo_credit_url: "https://commons.wikimedia.org/wiki/File:Pantai_Perawan_Pulau_Pari_Kepulauan_Seribu.jpg"
   suited_for: [couple, friends, solo]
   best_months: [6, 7, 8, 9]
+  budget_tags:
+    yasu: [TR02, TR04]
+    yuru: [TR01, TR03, SC06]
+    ragu: [TR01, TR03, SC06]
   url: /2026/09/30/pulau-pari-guide/
   tags: { beach: 4, resort: 1, island: 5, city_base: 1, sightseeing: 2, relax: 5, party: 1, activity: 2 }
 
@@ -316,6 +352,10 @@
   photo_credit_url: "https://commons.wikimedia.org/wiki/File:Koh_Tao_Sairee_Beach.jpg"
   suited_for: [solo, friends, couple]
   best_months: [12, 1, 2, 6, 7, 8]
+  budget_tags:
+    yasu: []
+    yuru: [TR04]
+    ragu: [TR04, HT14, HT11]
   url: /2026/10/18/koh-tao-guide/
   tags: { beach: 4, resort: 2, island: 5, city_base: 1, sightseeing: 2, relax: 3, party: 3, activity: 5 }
 
@@ -341,6 +381,10 @@
   photo_credit_url: ""
   suited_for: [couple, family, friends, solo]
   best_months: [3, 4, 5, 6, 7, 8]
+  budget_tags:
+    yasu: [TR02, TR03]
+    yuru: [TR03, SC06]
+    ragu: [TR03, HT01]
   url: /2026/10/05/danang-hoian-guide/
   tags: { beach: 2, resort: 4, island: 1, city_base: 5, sightseeing: 5, relax: 3, party: 2, activity: 3 }
 
@@ -366,6 +410,10 @@
   photo_credit_url: "https://commons.wikimedia.org/wiki/File:Island_lagoon_in_Bacuit_Bay,_El_Nido,_Palawan,_Philippines.jpg"
   suited_for: [couple, friends, solo]
   best_months: [11, 12, 1, 2, 3]
+  budget_tags:
+    yasu: [TR02, TR04]
+    yuru: [TR04, SC03, SC07]
+    ragu: [TR04, SC03, HT11]
   url: /2026/10/10/el-nido-guide/
   tags: { beach: 5, resort: 3, island: 5, city_base: 2, sightseeing: 4, relax: 4, party: 2, activity: 5 }
 
@@ -391,6 +439,10 @@
   photo_credit_url: "https://commons.wikimedia.org/wiki/File:Kelingking_Beach_(2022).jpg"
   suited_for: [couple, friends, solo]
   best_months: [5, 6, 9]
+  budget_tags:
+    yasu: [TR02, TR04]
+    yuru: [TR03, SC05]
+    ragu: [TR03, HT11]
   url: /2026/10/12/nusa-penida-guide/
   tags: { beach: 4, resort: 3, island: 5, city_base: 1, sightseeing: 5, relax: 3, party: 2, activity: 5 }
 
@@ -416,6 +468,10 @@
   photo_credit_url: "https://commons.wikimedia.org/wiki/File:Sunset_at_Gili_Trawangan_(16950551546).jpg"
   suited_for: [couple, friends, solo]
   best_months: [5, 6, 9]
+  budget_tags:
+    yasu: [TR02, TR04, SC03]
+    yuru: [TR03, SC03]
+    ragu: [TR03, HT14, HT11]
   url: /2026/10/14/gili-trawangan-guide/
   tags: { beach: 4, resort: 3, island: 5, city_base: 2, sightseeing: 2, relax: 5, party: 4, activity: 4 }
 
@@ -470,6 +526,10 @@
   photo_credit_url: "https://commons.wikimedia.org/wiki/File:Kayangan_Lake,_Coron,_Palawan.jpg"
   suited_for: [couple, friends, solo]
   best_months: [1, 2, 3]
+  budget_tags:
+    yasu: [TR04, SC03, HT15]
+    yuru: [TR04, SC03, HT10]
+    ragu: [TR04, SC03, HT11]
   url: /2026/10/15/coron-guide/
   tags: { beach: 3, resort: 3, island: 5, city_base: 1, sightseeing: 4, relax: 3, party: 1, activity: 5 }
 
@@ -495,6 +555,10 @@
   photo_credit_url: "https://commons.wikimedia.org/wiki/File:Nusa_Lembongan_-_aqua_waters_of_Mushroom_Bay.jpg"
   suited_for: [couple, friends, solo]
   best_months: [5, 6, 9]
+  budget_tags:
+    yasu: [TR02, TR04]
+    yuru: [TR03, SC05]
+    ragu: [TR03, HT11]
   url: /2026/10/16/nusa-lembongan-guide/
   tags: { beach: 4, resort: 3, island: 5, city_base: 1, sightseeing: 3, relax: 4, party: 2, activity: 4 }
 
@@ -520,6 +584,10 @@
   photo_credit_url: "https://commons.wikimedia.org/wiki/File:C%C3%B4n_%C4%90%E1%BA%A3o_National_Park.jpg"
   suited_for: [couple, friends, solo]
   best_months: [3, 4, 5, 6, 7]
+  budget_tags:
+    yasu: [TR02, TR04, HT01, HT15]
+    yuru: [TR01, TR04, HT01, HT03]
+    ragu: [TR01, HT11, HT14]
   url: /2026/10/19/con-dao-guide/
   tags: { beach: 4, resort: 3, island: 5, city_base: 1, sightseeing: 4, relax: 4, party: 1, activity: 4 }
 
@@ -545,6 +613,10 @@
   photo_credit_url: "https://commons.wikimedia.org/wiki/File:Surfing_@_Siargao.jpg"
   suited_for: [solo, friends, couple]
   best_months: [1, 2, 3, 4, 5, 12]
+  budget_tags:
+    yasu: [TR02, HT01, HT16]
+    yuru: [TR03, HT03]
+    ragu: [TR03, HT11]
   url: /2026/10/20/siargao-guide/
   tags: { beach: 4, resort: 3, island: 5, city_base: 1, sightseeing: 2, relax: 3, party: 2, activity: 5 }
 
@@ -570,6 +642,10 @@
   photo_credit_url: "https://commons.wikimedia.org/wiki/File:Sunken_Cemetery,_Camiguin.jpg"
   suited_for: [couple, friends, solo]
   best_months: [2, 3, 4, 5]
+  budget_tags:
+    yasu: [TR02, TR04, HT01, HT15]
+    yuru: [TR01, TR04, HT03]
+    ragu: [TR01, TR04, HT11]
   url: /2026/10/21/camiguin-guide/
   tags: { beach: 3, resort: 2, island: 5, city_base: 1, sightseeing: 4, relax: 4, party: 1, activity: 3 }
 
@@ -595,6 +671,10 @@
   photo_credit_url: "https://commons.wikimedia.org/wiki/File:Nha_Trang_Beach_7.jpg"
   suited_for: [couple, friends, solo, family]
   best_months: [1, 2, 3, 4, 5]
+  budget_tags:
+    yasu: [TR02, SC03, HT15]
+    yuru: [SC03, HT03]
+    ragu: [SC03, HT11]
   url: /2026/10/22/nhatrang-guide/
   tags: { beach: 4, resort: 4, island: 2, city_base: 4, sightseeing: 4, relax: 3, party: 2, activity: 4 }
 
@@ -620,6 +700,10 @@
   photo_credit_url: "https://commons.wikimedia.org/wiki/File:Railay_Beach_5.jpg"
   suited_for: [couple, friends, solo]
   best_months: [1, 2, 11, 12]
+  budget_tags:
+    yasu: [TR02, SC03, HT15]
+    yuru: [TR01, SC03, HT03]
+    ragu: [TR01, SC03, HT11]
   url: /2026/10/23/krabi-guide/
   tags: { beach: 5, resort: 3, island: 2, city_base: 1, sightseeing: 4, relax: 3, party: 2, activity: 5 }
 
@@ -645,5 +729,9 @@
   photo_credit_url: "https://commons.wikimedia.org/wiki/File:Tioman_island_(3678622941).jpg"
   suited_for: [couple, friends, solo]
   best_months: [4, 5, 6, 7, 8]
+  budget_tags:
+    yasu: [TR02, TR03]
+    yuru: [TR01, TR04, SC03, HT03]
+    ragu: [TR01, TR04, HT08, HT11]
   url: /2026/10/23/tioman-guide/
   tags: { beach: 4, resort: 3, island: 5, city_base: 1, sightseeing: 2, relax: 5, party: 1, activity: 4 }

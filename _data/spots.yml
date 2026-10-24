@@ -1039,3 +1039,38 @@ tioman-guide:
     lat: 2.7790
     lng: 104.2070
     desc: 島の東側の穏やかなビーチ、ウミガメの産卵地としても知られる
+
+gili-air-guide:
+  - name: サンセットサイドビーチ
+    lat: -8.3560
+    lng: 116.0770
+    desc: 島の西側、夕日の名所として知られるビーチ
+  - name: ハーバーエリア
+    lat: -8.3540
+    lng: 116.0830
+    desc: ボート乗り場周辺、レストランやカフェが集まるエリア
+  - name: シュノーケリングポイント（島東側）
+    lat: -8.3555
+    lng: 116.0860
+    desc: ウミガメに出会えることで知られるリーフ
+  - name: "Captain Coconuts Gili Air"
+    lat: -8.3565
+    lng: 116.0775
+    desc: "やす旅向け、ドミトリー・個室を備えたプール付きホステル"
+    type: hotel
+    letter: "や"
+    url: "https://www.booking.com/searchresults.html?ss=Captain+Coconuts+Gili+Air"
+  - name: "PinkCoco Gili Air"
+    lat: -8.3570
+    lng: 116.0780
+    desc: "ゆる旅向け、サンセットサイドのビーチフロントリゾート"
+    type: hotel
+    letter: "ゆ"
+    url: "https://www.booking.com/searchresults.html?ss=PinkCoco+Gili+Air"
+  - name: "Villa Tokay"
+    lat: -8.3545
+    lng: 116.0790
+    desc: "らぐ旅向け、プール付きの高級ヴィラ"
+    type: hotel
+    letter: "ら"
+    url: "https://www.booking.com/searchresults.html?ss=Villa+Tokay+Gili+Air"

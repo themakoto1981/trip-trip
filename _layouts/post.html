@@ -408,7 +408,7 @@ layout: default
 
       function visibleBeaches() {
         if (!activeTags.length) return beaches;
-        return beaches.filter(function (s) { return activeTags.every(function (t) { return (s.tags || []).indexOf(t) !== -1; }); });
+        return beaches.filter(function (s) { return activeTags.some(function (t) { return (s.tags || []).indexOf(t) !== -1; }); });
       }
 
       function renderCount() {

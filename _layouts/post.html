@@ -378,6 +378,7 @@ layout: default
       var spotMap = null;
       var currentView = 'map';
       var selectedName = null;
+      var markerByName = {};
 
       var wrap = document.createElement('div');
       wrap.className = 'spot-explorer';
@@ -436,7 +437,11 @@ layout: default
       }
 
       function selectSpot(name) {
+        if (markerByName[selectedName] && selectedName !== name) {
+          markerByName[selectedName].closeTooltip();
+        }
         selectedName = name;
+        if (markerByName[name]) { markerByName[name].openTooltip(); }
         renderSummary();
       }
 
@@ -482,6 +487,7 @@ layout: default
         } else {
           spotMap.eachLayer(function (layer) { if (layer instanceof L.Marker) spotMap.removeLayer(layer); });
         }
+        markerByName = {};
         var shown = visibleBeaches().map(function (s, idx) { return { s: s, num: idx + 1 }; })
           .concat(hotels.filter(function (h) { return activeTiers[h.letter]; }).map(function (h) { return { s: h, num: null }; }))
           .concat(others.map(function (o) { return { s: o, num: null }; }));
@@ -489,8 +495,9 @@ layout: default
           var s = item.s;
           var m = L.marker([s.lat, s.lng], { icon: makeIcon(s.type, s.letter, item.num) }).addTo(spotMap);
           if (!s.type) {
-            m.bindTooltip(s.name, { permanent: true, interactive: true, direction: 'top', offset: [0, -8], className: 'spot-label' });
-            m.on('tooltipopen', function (e) { var el = e.tooltip.getElement(); if (el) el.addEventListener('click', function () { selectSpot(s.name); }); });
+            m.bindTooltip(s.name, { permanent: false, direction: 'top', offset: [0, -8], className: 'spot-label' });
+            markerByName[s.name] = m;
+            if (s.name === selectedName) { m.openTooltip(); }
           }
           m.on('click', function () { selectSpot(s.name); });
           return m;

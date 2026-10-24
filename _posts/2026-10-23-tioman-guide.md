@@ -163,5 +163,3 @@ excerpt: "マレーシア半島の東海岸沖に浮かぶ、ジャングルと�
 ---
 
 ティオマン島に入るにはメルシンの港で海洋公園の保護料を別途払うので、小銭ではなくしっかりした現金を準備しておくと安心です。
-
-**入国カード登録**<br><a class="schedule-tag" href="https://imigresen-online.imi.gov.my/mdac/main">MDAC登録ページ</a>

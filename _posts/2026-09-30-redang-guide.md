@@ -48,9 +48,9 @@ excerpt: "「マレーシアで一番美しい海」とも称される透明度�
 ## 予算の目安
 移動に時間がかかるので、現地を2日しっかり楽しむには**3泊以上**がおすすめです。
 
-- **やす旅**：クアラルンプール経由+LCC｜乗継泊なし｜当日中に到着<br><a class="schedule-tag" href="https://www.airasia.com/ja/jp/">AirAsiaの最新スケジュール</a>
-- **ゆる旅**：クアラルンプール経由+ANA｜前泊なし｜当日中に到着<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
-- **らぐ旅**：クアラルンプール経由+ANA｜ゆとりある乗継｜快適にレダン島へ<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
+- **やす旅**：<br><a class="schedule-tag" href="https://www.airasia.com/ja/jp/">AirAsiaの最新スケジュール</a>
+- **ゆる旅**：<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
+- **らぐ旅**：<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
 
 ## おすすめ旅程（やす旅向け／LCC利用・機内1泊＋島3泊の4泊5日の例）
 

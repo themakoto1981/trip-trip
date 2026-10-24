@@ -247,7 +247,20 @@ layout: default
           if (t.indexOf('おすすめ') !== -1 && (t.indexOf('ビーチ') !== -1 || t.indexOf('スポット') !== -1)) { spotHeading = h; }
         });
 
-        if (spotHeading) {
+        var isRichSpots = mySpots.some(function (s) { return s.tags && s.tags.length; });
+
+        if (spotHeading && isRichSpots) {
+          renderRichSpotExplorer(spotHeading, mySpots);
+        } else if (spotHeading) {
+          renderSimpleSpotMap(spotHeading, mySpots);
+        }
+      }
+    } catch (e) {
+      if (window.console && console.error) { console.error('spot map failed to render:', e); }
+    }
+
+    function renderSimpleSpotMap(spotHeading, mySpots) {
+        {
           var mapWrap = document.createElement('div');
           mapWrap.id = 'spot-map-wrap';
           mapWrap.innerHTML = '<div id="spot-map"></div>';
@@ -346,9 +359,157 @@ layout: default
             }
           });
         }
+    }
+
+    function renderRichSpotExplorer(spotHeading, mySpots) {
+      var beaches = mySpots.filter(function (s) { return !s.type; });
+      var hotels = mySpots.filter(function (s) { return s.type === 'hotel'; });
+      var allTags = [];
+      beaches.forEach(function (s) { (s.tags || []).forEach(function (t) { if (allTags.indexOf(t) === -1) allTags.push(t); }); });
+
+      var activeTags = [];
+      var activeTiers = {};
+      hotels.forEach(function (h) { activeTiers[h.letter] = true; });
+      var currentView = 'map';
+      var spotMap = null;
+      var markersByName = {};
+
+      var wrap = document.createElement('div');
+      wrap.className = 'spot-explorer';
+      wrap.innerHTML =
+        '<div class="spot-explorer-tabs">' +
+          '<button type="button" class="spot-tab active" data-view="map">地図</button>' +
+          '<button type="button" class="spot-tab" data-view="list">一覧</button>' +
+        '</div>' +
+        '<div class="spot-chips" id="spot-tag-chips"></div>' +
+        '<div id="spot-map-wrap"><div id="spot-map"></div></div>' +
+        '<div id="spot-list-wrap" hidden><ul class="spot-card-list" id="spot-card-list"></ul></div>' +
+        '<div id="spot-detail-wrap" hidden></div>';
+      spotHeading.parentNode.insertBefore(wrap, spotHeading.nextSibling);
+
+      function visibleBeaches() {
+        if (!activeTags.length) return beaches;
+        return beaches.filter(function (s) { return activeTags.every(function (t) { return (s.tags || []).indexOf(t) !== -1; }); });
       }
-    } catch (e) {
-      if (window.console && console.error) { console.error('spot map failed to render:', e); }
+
+      function renderChips() {
+        var el = document.getElementById('spot-tag-chips');
+        el.innerHTML = allTags.map(function (t) {
+          return '<button type="button" class="spot-chip' + (activeTags.indexOf(t) !== -1 ? ' active' : '') + '" data-tag="' + t + '">' + t + '</button>';
+        }).join('');
+        el.querySelectorAll('.spot-chip').forEach(function (btn) {
+          btn.addEventListener('click', function () {
+            var t = btn.dataset.tag;
+            var i = activeTags.indexOf(t);
+            if (i === -1) { activeTags.push(t); } else { activeTags.splice(i, 1); }
+            renderChips();
+            refreshView();
+          });
+        });
+      }
+
+      function makeIcon(type, letter) {
+        var isLettered = !!(type && letter);
+        return L.divIcon({
+          className: 'spot-pin-wrapper',
+          html: '<div class="spot-pin' + (type ? ' spot-pin-' + type : '') + (isLettered ? ' spot-pin-lettered' : '') + '">' + (isLettered ? letter : '') + '</div>',
+          iconSize: isLettered ? [20, 20] : [14, 14],
+          iconAnchor: isLettered ? [10, 10] : [7, 7],
+          popupAnchor: [0, -8]
+        });
+      }
+
+      function renderMap() {
+        if (!spotMap) {
+          spotMap = L.map('spot-map', { scrollWheelZoom: false });
+          L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+            maxZoom: 19
+          }).addTo(spotMap);
+        } else {
+          spotMap.eachLayer(function (layer) { if (layer instanceof L.Marker) spotMap.removeLayer(layer); });
+        }
+        var shown = visibleBeaches().concat(hotels.filter(function (h) { return activeTiers[h.letter]; }));
+        var markers = shown.map(function (s) {
+          var m = L.marker([s.lat, s.lng], { icon: makeIcon(s.type, s.letter) }).addTo(spotMap);
+          if (!s.type) {
+            m.bindTooltip(s.name, { permanent: true, interactive: true, direction: 'top', offset: [0, -8], className: 'spot-label' });
+            m.on('tooltipopen', function (e) { var el = e.tooltip.getElement(); if (el) el.addEventListener('click', function () { m.openPopup(); }); });
+          }
+          var gmapsUrl = 'https://www.google.com/maps/search/?api=1&query=' + s.lat + ',' + s.lng;
+          var popupHtml = '<strong>' + s.name + '</strong>' + (s.short || s.desc ? '<br>' + (s.short || s.desc) : '') +
+            (s.url ? '<br><a href="' + s.url + '" target="_blank" rel="noopener">予約ページを見る ↗</a>' : '') +
+            '<br><a href="' + gmapsUrl + '" target="_blank" rel="noopener">Googleマップで開く ↗</a>';
+          m.bindPopup(popupHtml);
+          markersByName[s.name] = m;
+          return m;
+        });
+        if (markers.length) {
+          var group = L.featureGroup(markers);
+          spotMap.fitBounds(group.getBounds().pad(0.4));
+        }
+        setTimeout(function () { spotMap.invalidateSize(); }, 200);
+      }
+
+      function renderList() {
+        var el = document.getElementById('spot-card-list');
+        var shown = visibleBeaches();
+        el.innerHTML = shown.map(function (s) {
+          return '<li><button type="button" class="spot-card" data-name="' + s.name + '">' +
+            (s.image ? '<img class="spot-card-thumb" src="' + s.image + '" alt="" loading="lazy">' : '<span></span>') +
+            '<span class="spot-card-body"><h4>' + s.name + '</h4>' +
+            '<span class="spot-card-tags">' + (s.tags || []).map(function (t) { return '<span>#' + t + '</span>'; }).join('') + '</span>' +
+            (s.short ? '<p>' + s.short + '</p>' : '') + '</span>' +
+            '<span class="spot-card-chev">›</span></button></li>';
+        }).join('');
+        el.querySelectorAll('.spot-card').forEach(function (btn) {
+          btn.addEventListener('click', function () { showDetail(btn.dataset.name); });
+        });
+      }
+
+      function showDetail(name) {
+        var s = beaches.filter(function (b) { return b.name === name; })[0];
+        if (!s) return;
+        var related = beaches.filter(function (b) { return b.name !== name; }).map(function (b) {
+          var common = (b.tags || []).filter(function (t) { return (s.tags || []).indexOf(t) !== -1; });
+          return { s: b, common: common.length };
+        }).sort(function (a, b) { return b.common - a.common; }).slice(0, 3);
+
+        var detailWrap = document.getElementById('spot-detail-wrap');
+        detailWrap.innerHTML =
+          '<div class="spot-detail-panel">' +
+          '<button type="button" class="spot-detail-close" data-act="close">‹ 閉じる</button>' +
+          (s.image ? '<img src="' + s.image + '" alt="' + s.name + '">' : '') +
+          '<h4>' + s.name + '</h4>' +
+          (s.long ? s.long.map(function (p) { return '<p>' + p + '</p>'; }).join('') : (s.short ? '<p>' + s.short + '</p>' : '')) +
+          (s.ways && s.ways.length ? '<div class="spot-related-label">おすすめの過ごし方</div><ul class="spot-ways">' + s.ways.map(function (w) { return '<li>' + w + '</li>'; }).join('') + '</ul>' : '') +
+          (related.length ? '<div class="spot-related-label">あわせて行きたいスポット</div><ul class="spot-related">' + related.map(function (r) { return '<li><button type="button" data-name="' + r.s.name + '">' + r.s.name + '</button></li>'; }).join('') + '</ul>' : '') +
+          '</div>';
+        detailWrap.hidden = false;
+        detailWrap.querySelector('[data-act="close"]').addEventListener('click', function () { detailWrap.hidden = true; });
+        detailWrap.querySelectorAll('.spot-related button').forEach(function (btn) {
+          btn.addEventListener('click', function () { showDetail(btn.dataset.name); });
+        });
+        detailWrap.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+
+      function refreshView() {
+        if (currentView === 'map') { renderMap(); } else { renderList(); }
+      }
+
+      wrap.querySelectorAll('.spot-tab').forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          currentView = btn.dataset.view;
+          wrap.querySelectorAll('.spot-tab').forEach(function (b) { b.classList.toggle('active', b === btn); });
+          document.getElementById('spot-map-wrap').hidden = currentView !== 'map';
+          document.getElementById('spot-list-wrap').hidden = currentView !== 'list';
+          document.getElementById('spot-detail-wrap').hidden = true;
+          refreshView();
+        });
+      });
+
+      renderChips();
+      renderMap();
     }
 
     // 旅程タイムライン表示

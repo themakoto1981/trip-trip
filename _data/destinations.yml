@@ -764,3 +764,32 @@
     ragu: [TR01, TR03, HT11, HT14]
   url: /2026/10/24/gili-air-guide/
   tags: { beach: 4, resort: 3, island: 5, city_base: 1, sightseeing: 2, relax: 5, party: 1, activity: 3 }
+
+- name: ラン島
+  en_name: "Koh Larn, Thailand"
+  slug: koh-larn-guide
+  country: タイ
+  country_slug: thailand
+  lat: 12.9158
+  lng: 100.7775
+  flight_min: 35000
+  flight_max: 140000
+  hotel_min: 2000
+  hotel_max: 20000
+  transport_min: 1000
+  transport_max: 3000
+  food_min: 2000
+  food_max: 5000
+  flight_hours: "約7〜8時間（バンコク直行便）、パタヤからスピードボートで約15〜20分"
+  recommended_nights: "2泊以上"
+  visa: "不要（30日以内）"
+  photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Ile_de_Koh_Larn_%28Ile_de_corail%29.jpg/960px-Ile_de_Koh_Larn_%28Ile_de_corail%29.jpg"
+  photo_credit_url: "https://commons.wikimedia.org/wiki/File:Ile_de_Koh_Larn_(Ile_de_corail).jpg"
+  suited_for: [couple, family, friends, solo]
+  best_months: [12, 1, 2]
+  budget_tags:
+    yasu: [TR02, SC03, HT15]
+    yuru: [TR01, SC03, HT03]
+    ragu: [TR01, SC03, HT11]
+  url: /2026/10/24/koh-larn-guide/
+  tags: { beach: 5, resort: 2, island: 4, city_base: 1, sightseeing: 2, relax: 4, party: 2, activity: 4 }

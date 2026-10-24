@@ -12,54 +12,60 @@
   condition: ANA便を利用する
   active: true
   order: 1
+- id: TR10
+  name: JAL利用
+  category: transport
+  condition: JAL便を利用する
+  active: true
+  order: 2
 - id: TR02
   name: LCC利用
   category: transport
   condition: LCCを利用する
   active: true
-  order: 2
+  order: 3
 - id: TR03
   name: 直行便
   category: transport
   condition: 目的地まで直行便を利用する
   active: true
-  order: 3
+  order: 4
 - id: TR04
   name: 乗継あり
   category: transport
   condition: 途中で航空機を乗り継ぐ
   active: true
-  order: 4
+  order: 5
 - id: TR05
   name: 複数回乗継
   category: transport
   condition: 航空機の乗継が2回以上ある
   active: true
-  order: 5
+  order: 6
 - id: TR06
   name: 深夜発
   category: transport
   condition: 深夜帯に出発する
   active: true
-  order: 6
+  order: 7
 - id: TR07
   name: 早朝発
   category: transport
   condition: 早朝帯に出発する
   active: true
-  order: 7
+  order: 8
 - id: TR08
   name: 午前発
   category: transport
   condition: 午前中に出発する
   active: true
-  order: 8
+  order: 9
 - id: TR09
   name: 午後発
   category: transport
   condition: 午後に出発する
   active: true
-  order: 9
+  order: 10
 
 - id: SC01
   name: 当日到着

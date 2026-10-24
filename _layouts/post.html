@@ -107,10 +107,23 @@ layout: default
       ? '<a href="{{ site.baseurl }}/country/' + match.country_slug + '/">' + countryText + '</a>'
       : countryText;
 
+    var entryRegistrationMap = {
+      'タイ': 'https://tdac.immigration.go.th',
+      'フィリピン': 'https://etravel.gov.ph',
+      'インドネシア': 'https://allindonesia.imigrasi.go.id',
+      'ベトナム': 'https://prearrival.immigration.gov.vn',
+      'マレーシア': 'https://imigresen-online.imi.gov.my/mdac/main'
+    };
+    var entryRegUrl = entryRegistrationMap[match.country];
+    var entryRegValue = entryRegUrl
+      ? '必要（<a href="' + entryRegUrl + '" target="_blank" rel="noopener">入国カード登録</a>）'
+      : '不要';
+
     var rows = [
       ['国', countryDisplay],
       ['いつ行く', (match.best_months ? match.best_months.join('・') + '月' : '-') + '　' + seasonHtml],
       ['ビザ要否', match.visa || '要確認'],
+      ['事前登録', entryRegValue],
       ['必要日数', match.recommended_nights || '-'],
       ['誰と行く？', companionText]
     ];

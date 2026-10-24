@@ -37,9 +37,9 @@ excerpt: "韓国やヨーロッパでは急成長中なのに、日本人には�
 
 ## 予算の目安
 
-- **やす旅**：ベトジェットエア（LCC）でホーチミンへ｜ホーチミン1泊｜ビーチ近くの安宿<br><a class="schedule-tag" href="https://www.vietjetair.com/">ベトジェットエアの最新スケジュール</a>
-- **ゆる旅**：ベトナム航空でホーチミンへ｜ホーチミン1泊｜ビーチフロントの標準ホテル<br><a class="schedule-tag" href="https://www.vietnamairlines.com/jp/ja/home">ベトナム航空の最新スケジュール</a>
-- **らぐ旅**：ベトナム航空でホーチミンへ｜ホーチミン1泊｜ロープウェイで渡るリゾート島<br><a class="schedule-tag" href="https://www.vietnamairlines.com/jp/ja/home">ベトナム航空の最新スケジュール</a>
+- **やす旅**：<br><a class="schedule-tag" href="https://www.vietjetair.com/">ベトジェットエアの最新スケジュール</a>
+- **ゆる旅**：<br><a class="schedule-tag" href="https://www.vietnamairlines.com/jp/ja/home">ベトナム航空の最新スケジュール</a>
+- **らぐ旅**：<br><a class="schedule-tag" href="https://www.vietnamairlines.com/jp/ja/home">ベトナム航空の最新スケジュール</a>
 
 ## おすすめ旅程（やす旅向け／ホーチミン1泊・4泊5日の例）
 

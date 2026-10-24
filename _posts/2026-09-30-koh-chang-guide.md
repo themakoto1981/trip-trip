@@ -51,9 +51,9 @@ excerpt: "プーケットに次ぐタイ第2の広さを誇るチャン島。ジ
 ## 予算の目安
 移動に時間がかかるので、現地で2日しっかり楽しむには**3泊以上**がおすすめです。
 
-- **やす旅**：直行バス+LCC｜空港近くに1泊｜シンプルで安い<br><a class="schedule-tag" href="https://www.zipair.net/ja">Zipairの最新スケジュール</a>
-- **ゆる旅**：パタヤ経由+ANA｜観光も楽しめる｜4泊満喫できる<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
-- **らぐ旅**：トラート直行+ANA｜空港直結ホテル1泊｜ゆったり乗継<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
+- **やす旅**：<br><a class="schedule-tag" href="https://www.zipair.net/ja">Zipairの最新スケジュール</a>
+- **ゆる旅**：<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
+- **らぐ旅**：<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
 
 ## おすすめ旅程（やす旅向け／空港発着の直行バス利用・4泊5日の例）
 

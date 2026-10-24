@@ -367,33 +367,16 @@ layout: default
 
       var activeTiers = {};
       hotels.forEach(function (h) { activeTiers[h.letter] = true; });
-      var selectedName = null;
-
-      // 実座標を0-100%に正規化（イラスト地図ではなく、無地の背景に実比率で配置する）
-      var allPts = beaches.concat(hotels);
-      var lats = allPts.map(function (s) { return s.lat; });
-      var lngs = allPts.map(function (s) { return s.lng; });
-      var minLat = Math.min.apply(null, lats), maxLat = Math.max.apply(null, lats);
-      var minLng = Math.min.apply(null, lngs), maxLng = Math.max.apply(null, lngs);
-      var padLat = (maxLat - minLat) * 0.3 || 0.01, padLng = (maxLng - minLng) * 0.3 || 0.01;
-      minLat -= padLat; maxLat += padLat; minLng -= padLng; maxLng += padLng;
-      function posOf(s) {
-        return {
-          x: (s.lng - minLng) / (maxLng - minLng) * 100,
-          y: 100 - (s.lat - minLat) / (maxLat - minLat) * 100
-        };
-      }
+      var spotMap = null;
 
       var wrap = document.createElement('div');
       wrap.className = 'spot-explorer';
       wrap.innerHTML =
-        '<div id="spot-map-wrap"><div class="spot-schematic" id="spot-schematic"><span class="spot-schematic-caption">位置はおおよそのイメージです</span></div>' +
+        '<div id="spot-map-wrap"><div id="spot-map"></div>' +
           '<div class="spot-tier-row" id="spot-tier-row"></div></div>' +
         '<div id="spot-detail-wrap" hidden></div>' +
-        '<div class="spot-hint">番号のピンをタップすると、詳しい情報が表示されます。四角のアイコンはプラン別のホテルです。</div>';
+        '<div class="spot-hint">地図のピンをタップすると、詳しい情報が表示されます。四角のアイコンはプラン別のホテルです。</div>';
       spotHeading.parentNode.insertBefore(wrap, spotHeading.nextSibling);
-
-      function visibleBeaches() { return beaches; }
 
       function renderTierRow() {
         var el = document.getElementById('spot-tier-row');
@@ -412,28 +395,47 @@ layout: default
         });
       }
 
-      function renderMap() {
-        var el = document.getElementById('spot-schematic');
-        var shownBeaches = visibleBeaches();
-        var shownHotels = hotels.filter(function (h) { return activeTiers[h.letter]; });
-        var pins = shownBeaches.map(function (s, idx) {
-          var p = posOf(s);
-          return '<button type="button" class="spot-schematic-pin' + (selectedName === s.name ? ' is-sel' : '') + '" style="left:' + p.x + '%;top:' + p.y + '%" data-name="' + s.name + '">' +
-            '<span class="spot-schematic-num">' + (idx + 1) + '</span><span class="spot-schematic-label">' + s.name + '</span></button>';
-        }).join('') + shownHotels.map(function (h) {
-          var p = posOf(h);
-          return '<button type="button" class="spot-schematic-pin' + (selectedName === h.name ? ' is-sel' : '') + '" style="left:' + p.x + '%;top:' + p.y + '%" data-name="' + h.name + '">' +
-            '<span class="spot-schematic-hotel">' + h.letter + '</span></button>';
-        }).join('');
-        el.innerHTML = pins + '<span class="spot-schematic-caption">位置はおおよそのイメージです</span>';
-        el.querySelectorAll('.spot-schematic-pin').forEach(function (btn) {
-          btn.addEventListener('click', function () {
-            selectedName = (selectedName === btn.dataset.name) ? null : btn.dataset.name;
-            var s = mySpots.filter(function (x) { return x.name === btn.dataset.name; })[0];
-            renderMap();
-            if (s && !s.type) { showDetail(s.name); }
-          });
+      function makeIcon(type, letter) {
+        var isLettered = !!(type && letter);
+        return L.divIcon({
+          className: 'spot-pin-wrapper',
+          html: '<div class="spot-pin' + (type ? ' spot-pin-' + type : '') + (isLettered ? ' spot-pin-lettered' : '') + '">' + (isLettered ? letter : '') + '</div>',
+          iconSize: isLettered ? [20, 20] : [14, 14],
+          iconAnchor: isLettered ? [10, 10] : [7, 7],
+          popupAnchor: [0, -8]
         });
+      }
+
+      function renderMap() {
+        if (!spotMap) {
+          spotMap = L.map('spot-map', { scrollWheelZoom: false });
+          L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+            maxZoom: 19
+          }).addTo(spotMap);
+        } else {
+          spotMap.eachLayer(function (layer) { if (layer instanceof L.Marker) spotMap.removeLayer(layer); });
+        }
+        var shown = beaches.concat(hotels.filter(function (h) { return activeTiers[h.letter]; }));
+        var markers = shown.map(function (s) {
+          var m = L.marker([s.lat, s.lng], { icon: makeIcon(s.type, s.letter) }).addTo(spotMap);
+          if (!s.type) {
+            m.bindTooltip(s.name, { permanent: true, interactive: true, direction: 'top', offset: [0, -8], className: 'spot-label' });
+            m.on('tooltipopen', function (e) { var el = e.tooltip.getElement(); if (el) el.addEventListener('click', function () { showDetail(s.name); }); });
+            m.on('click', function () { showDetail(s.name); });
+          } else {
+            var gmapsUrl = 'https://www.google.com/maps/search/?api=1&query=' + s.lat + ',' + s.lng;
+            m.bindPopup('<strong>' + s.name + '</strong>' + (s.desc ? '<br>' + s.desc : '') +
+              (s.url ? '<br><a href="' + s.url + '" target="_blank" rel="noopener">予約ページを見る ↗</a>' : '') +
+              '<br><a href="' + gmapsUrl + '" target="_blank" rel="noopener">Googleマップで開く ↗</a>');
+          }
+          return m;
+        });
+        if (markers.length) {
+          var group = L.featureGroup(markers);
+          spotMap.fitBounds(group.getBounds().pad(0.4));
+        }
+        setTimeout(function () { spotMap.invalidateSize(); }, 200);
       }
 
       function showDetail(name) {

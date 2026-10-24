@@ -37,9 +37,9 @@ excerpt: "断崖に囲まれ陸路では行けない秘境ビーチ、ライレ�
 
 ## 予算の目安
 
-- **やす旅**：ZIPAIRでバンコクへ｜バンコク1泊｜ライレイ東側の手頃な宿<br><a class="schedule-tag" href="https://www.zipair.net/ja">ZIPAIRの最新スケジュール</a>
-- **ゆる旅**：ANA・JALでバンコクへ｜バンコク1泊｜西ビーチ徒歩圏の3つ星リゾート<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/">ANAの最新スケジュール</a>
-- **らぐ旅**：ANA・JALでバンコクへ｜バンコク1泊｜ライレイを代表する5つ星ビーチフロントリゾート<br><a class="schedule-tag" href="https://www.jal.co.jp/jp/ja/">JALの最新スケジュール</a>
+- **やす旅**：<br><a class="schedule-tag" href="https://www.zipair.net/ja">ZIPAIRの最新スケジュール</a>
+- **ゆる旅**：<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/">ANAの最新スケジュール</a>
+- **らぐ旅**：<br><a class="schedule-tag" href="https://www.jal.co.jp/jp/ja/">JALの最新スケジュール</a>
 
 ## おすすめ旅程（やす旅向け／バンコク1泊・4泊5日の例）
 

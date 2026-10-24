@@ -388,8 +388,7 @@ layout: default
           '<div class="spot-tier-row" id="spot-tier-row"></div>' +
           '<div class="spot-tier-row" id="spot-category-row"></div></div>' +
         '<div id="spot-list-wrap" hidden><ul class="spot-card-list" id="spot-card-list"></ul></div>' +
-        '<div id="spot-summary-wrap"></div>' +
-        '<div id="spot-detail-wrap" hidden></div>';
+        '<div id="spot-summary-wrap"></div>';
       spotHeading.parentNode.insertBefore(wrap, spotHeading.nextSibling);
 
       function visibleBeaches() {
@@ -421,10 +420,10 @@ layout: default
           return;
         }
         var isHotel = s.type === 'hotel';
-        var isPlainSpot = !s.type;
-        var actionHtml = isHotel
-          ? (s.url ? '<a class="spot-summary-more" href="' + s.url + '" target="_blank" rel="noopener">予約ページを見る ›</a>' : '')
-          : (isPlainSpot ? '<button type="button" class="spot-summary-more" data-act="more">詳しく見る ›</button>' : '');
+        var gmapsUrl = 'https://www.google.com/maps/search/?api=1&query=' + s.lat + ',' + s.lng;
+        var actionHtml = isHotel && s.url
+          ? '<a class="spot-summary-more" href="' + s.url + '" target="_blank" rel="noopener">予約ページを見る ›</a>'
+          : '<a class="spot-summary-more" href="' + gmapsUrl + '" target="_blank" rel="noopener">Googleマップで開く ›</a>';
         el.innerHTML =
           '<div class="spot-summary-card">' +
             (s.image ? '<img class="spot-summary-thumb" src="' + s.image + '" alt="' + s.name + '">' : '') +
@@ -432,7 +431,6 @@ layout: default
             (s.short || s.desc ? '<p>' + (s.short || s.desc) + '</p>' : '') +
             actionHtml + '</div>' +
           '</div>';
-        if (isPlainSpot) { el.querySelector('[data-act="more"]').addEventListener('click', function () { showDetail(s.name); }); }
       }
 
       function selectSpot(name) {
@@ -525,23 +523,6 @@ layout: default
           if (currentView === 'list') { renderList(); }
         });
       });
-
-      function showDetail(name) {
-        var s = beaches.filter(function (b) { return b.name === name; })[0];
-        if (!s) return;
-
-        var detailWrap = document.getElementById('spot-detail-wrap');
-        detailWrap.innerHTML =
-          '<div class="spot-detail-panel">' +
-          '<button type="button" class="spot-detail-close" data-act="close">‹ 閉じる</button>' +
-          (s.image ? '<img src="' + s.image + '" alt="' + s.name + '">' : '') +
-          '<h4>' + s.name + '</h4>' +
-          (s.long ? s.long.map(function (p) { return '<p>' + p + '</p>'; }).join('') : (s.short ? '<p>' + s.short + '</p>' : '')) +
-          '</div>';
-        detailWrap.hidden = false;
-        detailWrap.querySelector('[data-act="close"]').addEventListener('click', function () { detailWrap.hidden = true; });
-        detailWrap.scrollIntoView({ behavior: 'smooth', block: 'center' });
-      }
 
       renderTierRow();
       renderCategoryRow();

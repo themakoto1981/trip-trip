@@ -48,9 +48,9 @@ excerpt: "ジャカルタから日帰りも可能な離島リゾート、パリ�
 ## 予算の目安
 パリ島単体ではなく、ジャカルタ観光と組み合わせた旅として計画するのがおすすめです。やす旅はシンガポール経由で片道10〜12時間かかるため、ジャカルタ市内観光の日を足した3泊4日で。ゆる旅・らぐ旅はANA直行便（片道約8時間）のため2泊3日でも組めます。
 
-- **やす旅**：シンガポール経由+LCC｜スクート利用｜乗継でカバー<br><a class="schedule-tag" href="https://www.flyscoot.com/jp">スクートの最新スケジュール</a>
-- **ゆる旅**：羽田発ANA直行｜乗継なし｜移動負担を軽減<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
-- **らぐ旅**：羽田発ANA直行｜乗継なし｜快適な長距離移動<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
+- **やす旅**：<br><a class="schedule-tag" href="https://www.flyscoot.com/jp">スクートの最新スケジュール</a>
+- **ゆる旅**：<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
+- **らぐ旅**：<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
 
 ## おすすめ旅程（やす旅向け／LCC利用・3泊4日の例）
 

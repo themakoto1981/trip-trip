@@ -124,5 +124,3 @@ excerpt: "タイ湾に浮かぶ南国リゾート、サムイ島の行き方・�
 ---
 
 サムイ島は他のタイのビーチリゾートと乾季・雨季が逆になるため、11〜12月の渡航は避けるのがおすすめです。
-
-**入国カード登録**<br><a class="schedule-tag" href="https://tdac.immigration.go.th">TDAC登録ページ</a>

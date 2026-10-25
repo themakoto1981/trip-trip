@@ -501,10 +501,7 @@ layout: default
             markerByName[s.name] = m;
             if (s.name === selectedName) { m.openTooltip(); }
           }
-          m.on('click', function () {
-            selectSpot(s.name);
-            window.open(spotExternalUrl(s), '_blank', 'noopener');
-          });
+          m.on('click', function () { selectSpot(s.name); });
           return m;
         });
         if (markers.length) {

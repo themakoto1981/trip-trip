@@ -49,11 +49,11 @@ excerpt: "バリ島から高速ボートで約1時間半、車もバイクも走
 **2日目**
 - 06:10　クアラルンプール着。乗継エリアで待機
 - 10:50　クアラルンプール発（AirAsia AK371）→ 13:55　デンパサール着
-- 16:00頃　Peramaシャトル（乗合バン）でパダンバイへ移動し（片道900円ほど）、[Topi Inn](https://www.booking.com/searchresults.html?ss=Topi+Inn+Padangbai)にチェックイン（港まで徒歩圏の宿）
+- 16:00頃　Peramaシャトル（乗合バン）でパダンバイへ移動し（片道900円ほど）、[Topi Inn](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D538732)にチェックイン（港まで徒歩圏の宿）
 
 **3日目**
 - 09:30　パダンバイから高速ボート（[12go.asiaで予約可](https://12go.asia/en/travel/padang-bai/gili-trawangan?z=17114820)）でギリ・トラワンガン島へ（約1時間半、11:00頃到着。パダンバイ発は8:00台だけでなく9:30発の便もあり、朝イチにこだわらなくてよい）
-- 11:15頃　[Hotel Ombak Sunset](https://www.booking.com/searchresults.html?ss=Hotel+Ombak+Sunset+Gili+Trawangan)に荷物を預け、ビーチで軽く過ごす
+- 11:15頃　[Hotel Ombak Sunset](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D251612)に荷物を預け、ビーチで軽く過ごす
 - 14:00　正式にチェックイン
 - 夕方　西岸のサンセットポイントで夕日を眺める
 
@@ -67,7 +67,7 @@ excerpt: "バリ島から高速ボートで約1時間半、車もバイクも走
 - 11:00　ホテルをチェックアウト
 - 13:00　ボートでパダンバイへ戻り（約1時間半、14:30頃到着）
 - 15:00頃　Peramaシャトルでデンパサール空港へ（片道900円ほど）
-- 19:45　デンパサール発（AirAsia AK379）→ 22:50　クアラルンプール着。空港周辺の[Tune Hotel KLIA2](https://www.booking.com/searchresults.html?ss=Tune+Hotel+KLIA2)に1泊
+- 19:45　デンパサール発（AirAsia AK379）→ 22:50　クアラルンプール着。空港周辺の[Tune Hotel KLIA2](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D621161)に1泊
 
 **6日目（帰国日）**
 - 11:00　ホテルをチェックアウト
@@ -82,7 +82,7 @@ excerpt: "バリ島から高速ボートで約1時間半、車もバイクも走
 
 **2日目**
 - 09:30　パダンバイから高速ボート（[12go.asiaで予約可](https://12go.asia/en/travel/padang-bai/gili-trawangan?z=17114820)）でギリ・トラワンガン島へ（約1時間半、11:00頃到着。パダンバイ発は8:00台だけでなく9:30発の便もあり、朝イチにこだわらなくてよい）
-- 11:15頃　[Vila Ombak](https://www.booking.com/searchresults.html?ss=Vila+Ombak+Gili+Trawangan)に荷物を預け、ビーチで軽く過ごす（ビーチ目の前でプールが2つあるホテル）
+- 11:15頃　[Vila Ombak](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D4355)に荷物を預け、ビーチで軽く過ごす（ビーチ目の前でプールが2つあるホテル）
 - 14:00　正式にチェックイン
 - 夕方　西岸のサンセットポイントで夕日を眺める
 
@@ -106,7 +106,7 @@ excerpt: "バリ島から高速ボートで約1時間半、車もバイクも走
 
 **2日目**
 - 09:30　パダンバイから高速ボート（[12go.asiaで予約可](https://12go.asia/en/travel/padang-bai/gili-trawangan?z=17114820)）でギリ・トラワンガン島へ（約1時間半、11:00頃到着。パダンバイ発は8:00台だけでなく9:30発の便もあり、朝イチにこだわらなくてよい）
-- 11:15頃　[Pondok Santi Estate](https://www.booking.com/searchresults.html?ss=Pondok+Santi+Estate+Gili+Trawangan)に荷物を預け、ビーチで軽く過ごす（ラグジュアリーヴィラ）
+- 11:15頃　[Pondok Santi Estate](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D306229)に荷物を預け、ビーチで軽く過ごす（ラグジュアリーヴィラ）
 - 14:00　正式にチェックイン
 - 夕方　西岸のサンセットポイントで夕日を眺める
 
@@ -132,18 +132,18 @@ excerpt: "バリ島から高速ボートで約1時間半、車もバイクも走
 
 **パダンバイ（バリ本島）**
 
-- **[Topi Inn](https://www.booking.com/searchresults.html?ss=Topi+Inn+Padangbai)**：港まで徒歩圏の宿（やす旅向け）
+- **[Topi Inn](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D538732)**：港まで徒歩圏の宿（やす旅向け）
 - **[Bloo Lagoon Eco Village](https://www.booking.com/searchresults.html?ss=Bloo+Lagoon+Eco+Village)**：入り江沿いのヴィラ（ゆる旅・らぐ旅向け）
 
 **ギリ・トラワンガン島**
 
-- **[Hotel Ombak Sunset](https://www.booking.com/searchresults.html?ss=Hotel+Ombak+Sunset+Gili+Trawangan)**：コスパ重視のホテル（やす旅向け）
-- **[Vila Ombak](https://www.booking.com/searchresults.html?ss=Vila+Ombak+Gili+Trawangan)**：ビーチ目の前でプールが2つあるホテル（ゆる旅向け）
-- **[Pondok Santi Estate](https://www.booking.com/searchresults.html?ss=Pondok+Santi+Estate+Gili+Trawangan)**：口コミ評価が高いラグジュアリーヴィラ（らぐ旅向け）
+- **[Hotel Ombak Sunset](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D251612)**：コスパ重視のホテル（やす旅向け）
+- **[Vila Ombak](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D4355)**：ビーチ目の前でプールが2つあるホテル（ゆる旅向け）
+- **[Pondok Santi Estate](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D306229)**：口コミ評価が高いラグジュアリーヴィラ（らぐ旅向け）
 
 **クアラルンプール（経由地）**
 
-- **[Tune Hotel KLIA2](https://www.booking.com/searchresults.html?ss=Tune+Hotel+KLIA2)**：空港直結・乗継1泊向けの簡易ホテル（やす旅の帰路で利用）
+- **[Tune Hotel KLIA2](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D621161)**：空港直結・乗継1泊向けの簡易ホテル（やす旅の帰路で利用）
 
 ## 持ち物チェックリスト
 

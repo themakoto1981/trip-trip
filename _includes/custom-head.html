@@ -386,6 +386,22 @@
     .budget-tier-row > * { flex: 0 0 auto; width: 100%; }
     .budget-tier-itinerary-toggle { position: static; width: 100%; justify-content: center; margin-top: 0.3rem; }
   }
+  /* ラン島トライアル：予算プラン・旅程を横スライドで比較できるレイアウト */
+  .budget-tiers-slide {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 0.3rem;
+  }
+  .budget-tiers-slide .budget-tier-row {
+    flex: 0 0 86%;
+    scroll-snap-align: start;
+    flex-direction: column;
+    padding: 0.8rem;
+  }
+  .budget-tiers-slide .budget-tier-row > * { flex: 0 0 auto; width: 100%; }
   .tier-note {
     font-size: 0.82rem;
     color: var(--sb-brown-soft);

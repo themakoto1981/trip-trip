@@ -59,7 +59,7 @@ excerpt: "「マレーシアで一番美しい海」とも称される透明度�
 - 07:20　クアラルンプール発（AirAsia）→ 08:20　クアラトレンガヌ着
 - 09:00頃　[Grabカー](/grab/)で船着場へ移動（約30分）、10:30発のフェリーまで近くで待機
 - 10:30　船着場発のフェリーでレダン島へ（所要約1時間、船着場の定期便は9:00・10:30・15:00発など1日数便）
-- 11:30頃　[Redang De' Rimba Resort](https://www.booking.com/searchresults.html?ss=Redang+De+Rimba+Resort)に荷物を預け、ビーチで軽く過ごす
+- 11:30頃　[Redang De' Rimba Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D869436)に荷物を預け、ビーチで軽く過ごす
 - 14:00　正式にチェックイン
 
 **3日目（終日フリー）**
@@ -115,7 +115,7 @@ excerpt: "「マレーシアで一番美しい海」とも称される透明度�
 - 08:15　クアラルンプール発（マレーシア航空MH1326）→ 09:15　クアラトレンガヌ着
 - 09:45頃　Grabカーで船着場へ移動（約30分）、10:30発のフェリーまで近くで待機
 - 10:30　船着場発のフェリーでレダン島へ（所要約1時間、船着場の定期便は9:00・10:30・15:00発など1日数便）
-- 11:30頃　[The Taaras Beach & Spa Resort](https://www.booking.com/searchresults.html?ss=The+Taaras+Beach+%26+Spa+Resort+Redang)に荷物を預け、ビーチで軽く過ごす（高級5つ星リゾート）
+- 11:30頃　[The Taaras Beach & Spa Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D44569)に荷物を預け、ビーチで軽く過ごす（高級5つ星リゾート）
 - 14:00　正式にチェックイン
 
 **2日目（終日フリー）**

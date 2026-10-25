@@ -512,14 +512,17 @@ layout: default
       function renderList() {
         var el = document.getElementById('spot-card-list');
         el.innerHTML = visibleBeaches().map(function (s) {
-          return '<li><button type="button" class="spot-card" data-name="' + s.name + '">' +
+          return '<li><button type="button" class="spot-card" data-name="' + s.name + '" data-lat="' + s.lat + '" data-lng="' + s.lng + '">' +
             (s.image ? '<img class="spot-card-thumb" src="' + s.image + '" alt="" loading="lazy">' : '<span></span>') +
             '<span class="spot-card-body"><h4>' + s.name + '</h4>' +
-            (s.short ? '<p>' + s.short + '</p>' : '') + '</span>' +
-            '<span class="spot-card-chev">›</span></button></li>';
+            (s.short ? '<p>' + s.short + '</p>' : '') +
+            '<span class="spot-card-cta">Googleマップで開く ›</span></span></button></li>';
         }).join('');
         el.querySelectorAll('.spot-card').forEach(function (btn) {
-          btn.addEventListener('click', function () { selectSpot(btn.dataset.name); });
+          btn.addEventListener('click', function () {
+            selectSpot(btn.dataset.name);
+            window.open('https://www.google.com/maps/search/?api=1&query=' + btn.dataset.lat + ',' + btn.dataset.lng, '_blank', 'noopener');
+          });
         });
       }
 
@@ -529,6 +532,7 @@ layout: default
           wrap.querySelectorAll('.spot-tab').forEach(function (b) { b.classList.toggle('active', b === btn); });
           document.getElementById('spot-map-wrap').hidden = currentView !== 'map';
           document.getElementById('spot-list-wrap').hidden = currentView !== 'list';
+          document.getElementById('spot-summary-wrap').hidden = currentView === 'list';
           if (currentView === 'list') { renderList(); }
         });
       });

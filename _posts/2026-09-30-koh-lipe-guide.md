@@ -60,7 +60,7 @@ excerpt: "「タイ最後の楽園」と呼ばれる透明度抜群の秘境リ�
 **2日目（2泊目：リペ島泊）**
 - 09:30頃　ホテルをチェックアウトし、[Grabカー](/grab/)でパクバラの船着場へ（約1時間半）
 - 11:30　パクバラ発（スピードボート）→ 13:00頃　リペ島着
-- 13:15頃　[Forra Dive Resort Pattaya Beach](https://www.booking.com/searchresults.html?ss=Forra+Dive+Resort+Koh+Lipe)に到着、チェックイン（パッタヤビーチのバンガロー、1泊2,000円前後から）
+- 13:15頃　[Forra Dive Resort Pattaya Beach](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1120731)に到着、チェックイン（パッタヤビーチのバンガロー、1泊2,000円前後から）
 - 15:00　島内散策やカヤック体験
 - 18:00　パッタヤビーチ沿いのビーチバーでのんびり
 
@@ -92,7 +92,7 @@ excerpt: "「タイ最後の楽園」と呼ばれる透明度抜群の秘境リ�
 **2日目（2泊目：リペ島泊）**
 - 09:30頃　ホテルをチェックアウトし、Grabカーでパクバラの船着場へ（約1時間半）
 - 11:30　パクバラ発（スピードボート）→ 13:00頃　リペ島着
-- 13:15頃　[Sita Beach Resort & Spa](https://www.booking.com/searchresults.html?ss=Sita+Beach+Resort+%26+Spa+Koh+Lipe)に到着、チェックイン（パッタヤビーチ沿いの4つ星、シービューの部屋も選べる）
+- 13:15頃　[Sita Beach Resort & Spa](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D129587)に到着、チェックイン（パッタヤビーチ沿いの4つ星、シービューの部屋も選べる）
 - 15:00　島内散策やカヤック体験
 - 18:00　パッタヤビーチ沿いのビーチバーでのんびり
 
@@ -124,7 +124,7 @@ excerpt: "「タイ最後の楽園」と呼ばれる透明度抜群の秘境リ�
 **2日目（2泊目：リペ島泊）**
 - 09:30頃　ホテルをチェックアウトし、Grabカーでパクバラの船着場へ（約1時間半）
 - 11:30　パクバラ発（スピードボート）→ 13:00頃　リペ島着
-- 13:15頃　[Idyllic Resort Koh Lipe](https://www.booking.com/searchresults.html?ss=Idyllic+Resort+Koh+Lipe)に到着、チェックイン
+- 13:15頃　[Idyllic Resort Koh Lipe](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D108588)に到着、チェックイン
 - 15:00　島内散策やカヤック体験
 - 18:00　パッタヤビーチ沿いのビーチバーでのんびり
 

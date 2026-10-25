@@ -50,7 +50,7 @@ excerpt: "マレーシア半島の東海岸沖、南シナ海に浮かぶ2つの
 
 **2日目**
 - 午前　ホテルでゆっくり休み、チェックアウト
-- Grabカーで空港からTBSへ移動（約1時間）
+- KLIA Transitで空港からBandar Tasik Selatan駅へ（約27分）、駅からTBSは徒歩圏内
 - 10:00　TBS発の昼行バスでクアラブスへ（Sani Express、約7時間48分、[12go.asiaで予約可](https://12go.asia/en/travel/kuala-lumpur/kuala-besut?z=16187692)）
 - 17:48　クアラブス着。[Fairfield By Marriott Kuala Besut](https://www.booking.com/searchresults.html?ss=Fairfield+By+Marriott+Kuala+Besut)にチェックイン、港町を散策して1泊
 
@@ -77,7 +77,7 @@ excerpt: "マレーシア半島の東海岸沖、南シナ海に浮かぶ2つの
 
 **2日目**
 - 午前　ホテルでゆっくり休み、チェックアウト
-- Grabカーで空港からTBSへ移動（約1時間）
+- KLIA Transitで空港からBandar Tasik Selatan駅へ（約27分）、駅からTBSは徒歩圏内
 - 10:00　TBS発の昼行バスでクアラブスへ（Sani Express、約7時間48分、[12go.asiaで予約可](https://12go.asia/en/travel/kuala-lumpur/kuala-besut?z=16187692)）
 - 17:48　クアラブス着。[Fairfield By Marriott Kuala Besut](https://www.booking.com/searchresults.html?ss=Fairfield+By+Marriott+Kuala+Besut)にチェックイン、港町を散策して1泊
 
@@ -106,7 +106,7 @@ excerpt: "マレーシア半島の東海岸沖、南シナ海に浮かぶ2つの
 
 **2日目**
 - 午前　ホテルでゆっくり休み、チェックアウト
-- Grabカーで空港からTBSへ移動（約1時間）
+- KLIA Transitで空港からBandar Tasik Selatan駅へ（約27分）、駅からTBSは徒歩圏内
 - 10:00　TBS発の昼行バスでクアラブスへ（Sani Express、約7時間48分、[12go.asiaで予約可](https://12go.asia/en/travel/kuala-lumpur/kuala-besut?z=16187692)）
 - 17:48　クアラブス着。[Fairfield By Marriott Kuala Besut](https://www.booking.com/searchresults.html?ss=Fairfield+By+Marriott+Kuala+Besut)にチェックイン、港町を散策して1泊
 

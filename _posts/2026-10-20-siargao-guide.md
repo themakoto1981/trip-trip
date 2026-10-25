@@ -44,11 +44,11 @@ excerpt: "世界的サーファーが集まる「サーフィンの聖地」シ�
 ## おすすめ旅程（やす旅向け／セブ往復2泊・5泊6日の例）
 
 **1日目**
-- 11:25　成田発（セブパシフィック航空）→ 16:00　セブ着。[Cebu Waterfront Airport Hotel](https://www.booking.com/searchresults.html?ss=Cebu+Waterfront+Airport+Hotel)に1泊
+- 11:25　成田発（セブパシフィック航空）→ 16:00　セブ着。[Cebu Waterfront Airport Hotel](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D10534)に1泊
 
 **2日目**
 - 09:15　セブ発（フィリピン航空、約50分）→ 10:05　シアルガオ着
-- 10:30頃　バンでホテルへ移動（約40分）。[Isla Cabana](https://www.booking.com/searchresults.html?ss=Isla+Cabana+Siargao)に荷物を預ける
+- 10:30頃　バンでホテルへ移動（約40分）。[Isla Cabana](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D479246)に荷物を預ける
 - 11:00　近くの食堂で早めの昼食、ビーチでのんびり
 - 14:00　チェックイン
 
@@ -64,7 +64,7 @@ excerpt: "世界的サーファーが集まる「サーフィンの聖地」シ�
 **5日目**
 - 10:00頃　ホテルをチェックアウト。最後に中心地のカフェでひと息
 - 13:00頃　空港へ移動
-- 14:05　シアルガオ発（フィリピン航空、約50分）→ 14:50　セブ着。[Cebu Waterfront Airport Hotel](https://www.booking.com/searchresults.html?ss=Cebu+Waterfront+Airport+Hotel)に1泊
+- 14:05　シアルガオ発（フィリピン航空、約50分）→ 14:50　セブ着。[Cebu Waterfront Airport Hotel](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D10534)に1泊
 
 **6日目**
 - 02:30頃　ホテルを出発、空港へ
@@ -75,7 +75,7 @@ excerpt: "世界的サーファーが集まる「サーフィンの聖地」シ�
 ## おすすめ旅程（ゆる旅向け／セブ往復2泊・5泊6日の例）
 
 **1日目**
-- 15:20　成田発（フィリピン航空）→ 19:35　セブ着。[Mövenpick Hotel Mactan Island Cebu](https://www.booking.com/searchresults.html?ss=Movenpick+Hotel+Mactan+Island+Cebu)に1泊
+- 15:20　成田発（フィリピン航空）→ 19:35　セブ着。[Mövenpick Hotel Mactan Island Cebu](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D263756)に1泊
 
 **2日目**
 - 09:15　セブ発（フィリピン航空、約50分）→ 10:05　シアルガオ着
@@ -95,7 +95,7 @@ excerpt: "世界的サーファーが集まる「サーフィンの聖地」シ�
 **5日目**
 - 10:00頃　ホテルをチェックアウト。最後に中心地のカフェでひと息
 - 13:00頃　空港へ移動
-- 14:05　シアルガオ発（フィリピン航空、約50分）→ 14:50　セブ着。[Mövenpick Hotel Mactan Island Cebu](https://www.booking.com/searchresults.html?ss=Movenpick+Hotel+Mactan+Island+Cebu)に1泊
+- 14:05　シアルガオ発（フィリピン航空、約50分）→ 14:50　セブ着。[Mövenpick Hotel Mactan Island Cebu](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D263756)に1泊
 
 **6日目**
 - 08:05　セブ発（フィリピン航空）→ 13:35　成田着
@@ -105,11 +105,11 @@ excerpt: "世界的サーファーが集まる「サーフィンの聖地」シ�
 ## おすすめ旅程（らぐ旅向け／セブ往復2泊・5泊6日の例）
 
 **1日目**
-- 15:20　成田発（フィリピン航空）→ 19:35　セブ着。[Mövenpick Hotel Mactan Island Cebu](https://www.booking.com/searchresults.html?ss=Movenpick+Hotel+Mactan+Island+Cebu)に1泊
+- 15:20　成田発（フィリピン航空）→ 19:35　セブ着。[Mövenpick Hotel Mactan Island Cebu](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D263756)に1泊
 
 **2日目**
 - 09:15　セブ発（フィリピン航空、約50分）→ 10:05　シアルガオ着
-- 10:15頃　リゾート手配のプライベート送迎でボート乗り場へ、専用ボートで[Dedon Island Resort](https://www.booking.com/searchresults.html?ss=Dedon+Island+Resort+Siargao)へ
+- 10:15頃　リゾート手配のプライベート送迎でボート乗り場へ、専用ボートで[Dedon Island Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D69718714)へ
 - 11:30　ウェルカムドリンクと軽食
 - 14:00　プライベートプールヴィラにチェックイン
 
@@ -125,7 +125,7 @@ excerpt: "世界的サーファーが集まる「サーフィンの聖地」シ�
 **5日目**
 - 10:00頃　ヴィラをチェックアウト。最後にビーチでひと息
 - 13:00頃　専用ボート＋送迎で空港へ移動
-- 14:05　シアルガオ発（フィリピン航空、約50分）→ 14:50　セブ着。[Mövenpick Hotel Mactan Island Cebu](https://www.booking.com/searchresults.html?ss=Movenpick+Hotel+Mactan+Island+Cebu)に1泊
+- 14:05　シアルガオ発（フィリピン航空、約50分）→ 14:50　セブ着。[Mövenpick Hotel Mactan Island Cebu](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D263756)に1泊
 
 **6日目**
 - 08:05　セブ発（フィリピン航空）→ 13:35　成田着

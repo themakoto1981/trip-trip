@@ -63,7 +63,12 @@ layout: default
 
     // ラン島トライアル記事のみ：spots.ymlにtagsがあるかどうかで判定し、
     // 予算プラン・旅程を横スライド比較レイアウトにする（他記事は従来通り）
-    var isSlideTrial = (allSpots[match.slug] || []).some(function (s) { return s.tags && s.tags.length; });
+    var slideSpots = allSpots[match.slug] || [];
+    var isSlideTrial = slideSpots.some(function (s) { return s.tags && s.tags.length; });
+    function findSpotImage(name) {
+      var s = slideSpots.filter(function (x) { return x.name === name; })[0];
+      return (s && s.image) || '';
+    }
 
     var titleMainEl = document.getElementById('post-title-main');
     if (titleMainEl && match.name && match.country) {
@@ -187,16 +192,35 @@ layout: default
       return chipsHtml ? '<div class="budget-tier-chips">' + chipsHtml + '</div>' : '';
     }
 
+    var tierPhotoMap = { 'やす旅': findSpotImage('タワエンビーチ'), 'ゆる旅': findSpotImage('トンラーンビーチ'), 'らぐ旅': findSpotImage('サンライズビューポイント') };
+
+    if (isSlideTrial) {
+      tiersHtml += '<div class="budget-tier-tabs">' + budgetTiers.map(function (t, i) {
+        return '<button type="button" class="budget-tier-tab' + (i === 1 ? ' active' : '') + '" data-idx="' + i + '">' + t[0] + '</button>';
+      }).join('') + '</div>';
+    }
+
     tiersHtml += '<div class="budget-tiers-list' + (isSlideTrial ? ' budget-tiers-slide' : '') + '">';
     budgetTiers.forEach(function (t, i) {
       var recClass = (i === 1) ? ' is-recommended' : '';
       tiersHtml += '<div class="budget-tier-row' + recClass + '" data-tier-name="' + t[0] + '">';
+      if (isSlideTrial) {
+        if (tierPhotoMap[t[0]]) { tiersHtml += '<img class="budget-tier-photo" src="' + tierPhotoMap[t[0]] + '" alt="' + t[0] + '">'; }
+        tiersHtml += '<div class="budget-tier-body">';
+      }
       tiersHtml += '<div class="budget-tier-head"><span class="budget-tier-name-row"><span class="budget-tier-dot"></span><span class="budget-tier-name">' + t[0] + '</span></span><span class="budget-tier-desc">' + t[3] + '</span></div>';
       tiersHtml += '<div class="budget-tier-price-wrap"><span class="budget-tier-amount">' + t[1] + '</span><div class="budget-tier-breakdown">' + t[2] + '</div></div>';
       tiersHtml += renderBudgetChips(t[0]);
+      if (isSlideTrial) { tiersHtml += '</div>'; }
       tiersHtml += '</div>';
     });
     tiersHtml += '</div>';
+
+    if (isSlideTrial) {
+      tiersHtml += '<div class="budget-tier-dots">' + budgetTiers.map(function (t, i) {
+        return '<button type="button" class="budget-tier-pagedot' + (i === 1 ? ' active' : '') + '" data-idx="' + i + '" aria-label="' + t[0] + '"></button>';
+      }).join('') + '</div>';
+    }
 
     var budgetHeading = null;
     document.querySelectorAll('.post-content h2').forEach(function (h) {
@@ -235,10 +259,58 @@ layout: default
           if (!strongEl) { return; }
           var row = document.querySelector('.budget-tier-row[data-tier-name="' + strongEl.textContent + '"]');
           if (!row) { return; }
+          var target = row.querySelector('.budget-tier-body') || row;
           var linkEl = li.querySelector('a.schedule-tag');
-          if (linkEl) { row.appendChild(linkEl); }
+          if (linkEl) { target.appendChild(linkEl); }
         });
         noteList.remove();
+      }
+
+      if (isSlideTrial) {
+        var slideEl = document.querySelector('.budget-tiers-slide');
+        var tabBtns = document.querySelectorAll('.budget-tier-tab');
+        var dotEls = document.querySelectorAll('.budget-tier-pagedot');
+        var cardEls = slideEl ? slideEl.querySelectorAll('.budget-tier-row') : [];
+        function setActiveTierIdx(idx) {
+          tabBtns.forEach(function (b, i) { b.classList.toggle('active', i === idx); });
+          dotEls.forEach(function (d, i) { d.classList.toggle('active', i === idx); });
+        }
+        function cardOffsetLeft(card) {
+          return card.getBoundingClientRect().left - slideEl.getBoundingClientRect().left + slideEl.scrollLeft;
+        }
+        tabBtns.forEach(function (btn) {
+          btn.addEventListener('click', function () {
+            var idx = parseInt(btn.dataset.idx, 10);
+            var card = cardEls[idx];
+            if (card && slideEl) { slideEl.scrollTo({ left: cardOffsetLeft(card), behavior: 'smooth' }); }
+            setActiveTierIdx(idx);
+          });
+        });
+        dotEls.forEach(function (dot) {
+          dot.addEventListener('click', function () {
+            var idx = parseInt(dot.dataset.idx, 10);
+            var card = cardEls[idx];
+            if (card && slideEl) { slideEl.scrollTo({ left: cardOffsetLeft(card), behavior: 'smooth' }); }
+            setActiveTierIdx(idx);
+          });
+        });
+        if (slideEl && cardEls.length) {
+          var scrollTimer = null;
+          slideEl.addEventListener('scroll', function () {
+            if (scrollTimer) { clearTimeout(scrollTimer); }
+            scrollTimer = setTimeout(function () {
+              var center = slideEl.scrollLeft + slideEl.clientWidth / 2;
+              var closestIdx = 0;
+              var closestDist = Infinity;
+              cardEls.forEach(function (card, i) {
+                var cardCenter = cardOffsetLeft(card) + card.offsetWidth / 2;
+                var dist = Math.abs(cardCenter - center);
+                if (dist < closestDist) { closestDist = dist; closestIdx = i; }
+              });
+              setActiveTierIdx(closestIdx);
+            }, 100);
+          });
+        }
       }
     }
 
@@ -688,17 +760,18 @@ layout: default
         targetTiers.forEach(function (tierName, idx) {
           var row = document.querySelector('.budget-tier-row[data-tier-name="' + tierName + '"]');
           if (!row) { return; }
+          var target = row.querySelector('.budget-tier-body') || row;
           var wrap = idx === 0 ? timelineWrap : timelineWrap.cloneNode(true);
           if (isSlideTrial) {
-            row.appendChild(wrap);
+            target.appendChild(wrap);
           } else {
             wrap.hidden = true;
             var btn = document.createElement('button');
             btn.type = 'button';
             btn.className = 'budget-tier-itinerary-toggle';
             btn.textContent = '旅程を見る ▶';
-            row.appendChild(btn);
-            row.appendChild(wrap);
+            target.appendChild(btn);
+            target.appendChild(wrap);
             btn.addEventListener('click', function () {
               var willOpen = wrap.hidden;
               wrap.hidden = !willOpen;

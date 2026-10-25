@@ -46,17 +46,17 @@ excerpt: "マレーシア半島の東海岸沖、南シナ海に浮かぶ2つの
 
 **1日目**
 - 16:50　成田発（Zipair直行便）→ 23:40　クアラルンプール着
-- 入国審査後、[Grabカー](/grab/)で空港近くの[Tune Hotel KLIA Aeropolis](https://www.booking.com/searchresults.html?ss=Tune+Hotel+KLIA+Aeropolis)へ、1泊
+- 入国審査後、[Grabカー](/grab/)で空港近くの[Tune Hotel KLIA Aeropolis](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1293064)へ、1泊
 
 **2日目**
 - 午前　ホテルでゆっくり休み、チェックアウト
 - KLIA Transitで空港からBandar Tasik Selatan駅へ（約27分）、駅からTBSは徒歩圏内
 - 10:00　TBS発の昼行バスでクアラブスへ（Sani Express、約7時間48分、[12go.asiaで予約可](https://12go.asia/en/travel/kuala-lumpur/kuala-besut?z=16187692)）
-- 17:48　クアラブス着。[Fairfield By Marriott Kuala Besut](https://www.booking.com/searchresults.html?ss=Fairfield+By+Marriott+Kuala+Besut)にチェックイン、港町を散策して1泊
+- 17:48　クアラブス着。[Fairfield By Marriott Kuala Besut](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D56863583)にチェックイン、港町を散策して1泊
 
 **3日目**
 - 午前　ホテルをチェックアウトし、クアラブス桟橋でマリンパーク保護料を支払って朝のスピードボートでペルヘンティアン島へ（約40分）
-- 昼　島着。[Mimpi Perhentian](https://www.booking.com/searchresults.html?ss=Mimpi+Perhentian)にチェックイン（ロングビーチの手頃な宿）
+- 昼　島着。[Mimpi Perhentian](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D4136838)にチェックイン（ロングビーチの手頃な宿）
 - 午後　ロングビーチでのんびり、シュノーケリング
 
 **4日目（終日フリー）**
@@ -79,11 +79,11 @@ excerpt: "マレーシア半島の東海岸沖、南シナ海に浮かぶ2つの
 - 午前　ホテルでゆっくり休み、チェックアウト
 - KLIA Transitで空港からBandar Tasik Selatan駅へ（約27分）、駅からTBSは徒歩圏内
 - 10:00　TBS発の昼行バスでクアラブスへ（Sani Express、約7時間48分、[12go.asiaで予約可](https://12go.asia/en/travel/kuala-lumpur/kuala-besut?z=16187692)）
-- 17:48　クアラブス着。[Fairfield By Marriott Kuala Besut](https://www.booking.com/searchresults.html?ss=Fairfield+By+Marriott+Kuala+Besut)にチェックイン、港町を散策して1泊
+- 17:48　クアラブス着。[Fairfield By Marriott Kuala Besut](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D56863583)にチェックイン、港町を散策して1泊
 
 **3日目**
 - 午前　ホテルをチェックアウトし、クアラブス桟橋でマリンパーク保護料を支払って朝のスピードボートでペルヘンティアン島へ（約40分）
-- 昼　島着。[Senja Bay Resort](https://www.booking.com/searchresults.html?ss=Senja+Bay+Resort+Perhentian)にチェックイン（コーラルベイの快適なリゾート）
+- 昼　島着。[Senja Bay Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D2078644)にチェックイン（コーラルベイの快適なリゾート）
 - 午後　ホテルのビーチでのんびり
 
 **4日目（終日フリー）**
@@ -102,17 +102,17 @@ excerpt: "マレーシア半島の東海岸沖、南シナ海に浮かぶ2つの
 
 **1日目**
 - 17:40　成田発（ANA直行便NH815）→ 00:05　クアラルンプール着
-- 入国審査後、[Grabカー](/grab/)で空港直結の[Sama-Sama Hotel KLIA](https://www.booking.com/searchresults.html?ss=Sama-Sama+Hotel+KLIA)へ、1泊
+- 入国審査後、[Grabカー](/grab/)で空港直結の[Sama-Sama Hotel KLIA](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D61456335)へ、1泊
 
 **2日目**
 - 午前　ホテルでゆっくり休み、チェックアウト
 - KLIA Transitで空港からBandar Tasik Selatan駅へ（約27分）、駅からTBSは徒歩圏内
 - 10:00　TBS発の昼行バスでクアラブスへ（Sani Express、約7時間48分、[12go.asiaで予約可](https://12go.asia/en/travel/kuala-lumpur/kuala-besut?z=16187692)）
-- 17:48　クアラブス着。[Fairfield By Marriott Kuala Besut](https://www.booking.com/searchresults.html?ss=Fairfield+By+Marriott+Kuala+Besut)にチェックイン、港町を散策して1泊
+- 17:48　クアラブス着。[Fairfield By Marriott Kuala Besut](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D56863583)にチェックイン、港町を散策して1泊
 
 **3日目**
 - 午前　ホテルをチェックアウトし、クアラブス桟橋でマリンパーク保護料を支払って朝のスピードボートでペルヘンティアン島へ（約40分）
-- 昼　島着。[Bubu Long Beach Resort](https://www.booking.com/searchresults.html?ss=Bubu+Long+Beach+Resort)にチェックイン（ロングビーチ沿いの上質リゾート）
+- 昼　島着。[Bubu Long Beach Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D94317936)にチェックイン（ロングビーチ沿いの上質リゾート）
 - 午後　ビーチフロントのテラスでのんびり
 
 **4日目（終日フリー）**
@@ -122,7 +122,7 @@ excerpt: "マレーシア半島の東海岸沖、南シナ海に浮かぶ2つの
 - 08:00の始発スピードボートでクアラブス桟橋へ戻る（約40分）
 - Perhentian Trans Holidayのシェアバンでコタバル空港へ（約1時間、¥1,200前後、[12go.asiaで予約可](https://12go.asia/en/travel/kuala-besut-jetty/kota-bharu-airport)）
 - 14:05　コタバル発AirAsia（約1時間10分）→ 15:15　クアラルンプール着
-- Grabカーで空港直結の[Sama-Sama Hotel KLIA](https://www.booking.com/searchresults.html?ss=Sama-Sama+Hotel+KLIA)へ、1泊
+- Grabカーで空港直結の[Sama-Sama Hotel KLIA](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D61456335)へ、1泊
 
 **6日目（帰国日）**
 - 08:05　クアラルンプール発（ANA直行便NH816）→ 15:55　成田着

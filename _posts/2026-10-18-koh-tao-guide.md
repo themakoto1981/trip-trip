@@ -53,7 +53,7 @@ excerpt: "世界屈指のダイビングスポットとして知られるタイ�
 **2日目**
 - 06:15頃　ホテルを出発、[Grabカー](/grab/)で港へ
 - 07:00　チュンポン発の高速船（Lomprayah）でタオ島へ（所要約1時間45分、08:45着）
-- 09:00頃　[Koh Tao Garden Resort](https://www.booking.com/searchresults.html?ss=Koh+Tao+Garden+Resort)に荷物を預け、マハートビーチでのんびり過ごす
+- 09:00頃　[Koh Tao Garden Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D564845)に荷物を預け、マハートビーチでのんびり過ごす
 - 14:00　正式にチェックイン
 - 18:00　サイリービーチ周辺で夕食
 
@@ -92,7 +92,7 @@ excerpt: "世界屈指のダイビングスポットとして知られるタイ�
 
 **2日目**
 - 08:00　サムイ島発の高速船（Lomprayah）でタオ島へ（所要約1時間30分、09:30頃着）
-- 10:00頃　[Ban's Diving Resort](https://www.booking.com/searchresults.html?ss=Ban%27s+Diving+Resort+Koh+Tao)（サイリービーチ中心部、プール複数あり）に荷物を預け、サイリービーチで早めのランチ
+- 10:00頃　[Ban's Diving Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D300564)（サイリービーチ中心部、プール複数あり）に荷物を預け、サイリービーチで早めのランチ
 - 14:00　正式にチェックイン、ホテルのプールでひと休み
 
 **3日目（終日フリー）**
@@ -114,11 +114,11 @@ excerpt: "世界屈指のダイビングスポットとして知られるタイ�
 - 10:50　羽田発（ANA直行便NH847、所要6〜7時間）
 - 15:30　バンコク（スワンナプーム空港）着。入国審査・荷物受取に1〜1.5時間ほどみておく
 - 17:30頃　バンコク発（バンコクエアウェイズPG145、所要約1時間）→ 18:30頃　サムイ島着
-- 19:00頃　[Four Seasons Resort Koh Samui](https://www.booking.com/searchresults.html?ss=Four+Seasons+Resort+Koh+Samui)にチェックイン
+- 19:00頃　[Four Seasons Resort Koh Samui](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D344587)にチェックイン
 
 **2日目**
 - 08:00　サムイ島発の高速船（Lomprayah）でタオ島へ（所要約1時間30分、09:30頃着）
-- 10:00頃　[Phandara Luxury Villas](https://www.booking.com/searchresults.html?ss=Phandara+Luxury+Villas+Koh+Tao)（サイリービーチを見下ろす丘の上のプール付きヴィラ）に荷物を預け、サイリービーチで早めのランチ
+- 10:00頃　[Phandara Luxury Villas](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1163323)（サイリービーチを見下ろす丘の上のプール付きヴィラ）に荷物を預け、サイリービーチで早めのランチ
 - 14:00　正式にチェックイン、ヴィラのプールでのんびり過ごす
 
 **3日目（終日フリー）**
@@ -145,14 +145,14 @@ excerpt: "世界屈指のダイビングスポットとして知られるタイ�
 
 **タオ島**
 
-- **[Koh Tao Garden Resort](https://www.booking.com/searchresults.html?ss=Koh+Tao+Garden+Resort)**：マハートビーチ近く、バルコニー付きの手頃な客室（やす旅向け）
-- **[Ban's Diving Resort](https://www.booking.com/searchresults.html?ss=Ban%27s+Diving+Resort+Koh+Tao)**：サイリービーチ中心部、複数のプールを持つ大型リゾート（ゆる旅向け）
-- **[Phandara Luxury Villas](https://www.booking.com/searchresults.html?ss=Phandara+Luxury+Villas+Koh+Tao)**：サイリービーチを見下ろす丘の上のプール付きヴィラ（らぐ旅向け）
+- **[Koh Tao Garden Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D564845)**：マハートビーチ近く、バルコニー付きの手頃な客室（やす旅向け）
+- **[Ban's Diving Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D300564)**：サイリービーチ中心部、複数のプールを持つ大型リゾート（ゆる旅向け）
+- **[Phandara Luxury Villas](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1163323)**：サイリービーチを見下ろす丘の上のプール付きヴィラ（らぐ旅向け）
 
 **サムイ島（経由地）**
 
 - **[The Louis Residence](https://www.booking.com/searchresults.html?ss=The+Louis+Residence+Samui)**：空港から近いリーズナブルなホテル（ゆる旅の往路で利用）
-- **[Four Seasons Resort Koh Samui](https://www.booking.com/searchresults.html?ss=Four+Seasons+Resort+Koh+Samui)**：島北西の入り江に建つ高級リゾート（らぐ旅の往路で利用）
+- **[Four Seasons Resort Koh Samui](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D344587)**：島北西の入り江に建つ高級リゾート（らぐ旅の往路で利用）
 
 ## 持ち物チェックリスト
 

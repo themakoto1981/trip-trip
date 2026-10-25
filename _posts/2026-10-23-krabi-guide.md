@@ -49,7 +49,7 @@ excerpt: "断崖に囲まれ陸路では行けない秘境ビーチ、ライレ�
 **2日目**
 - 08:30　バンコク発（バンコクエアウェイズPG261）→ 10:00　クラビ空港着
 - タクシーでアオナンマオ船着き場へ（約50分）、ロングテールボートでライレイへ（約20分）
-- [Railay Phutawan Resort](https://www.booking.com/searchresults.html?ss=Railay+Phutawan+Resort)にチェックイン
+- [Railay Phutawan Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D248101)にチェックイン
 - 午後　ライレイ・ウェストビーチでのんびり
 
 **3日目（終日フリー）**
@@ -73,7 +73,7 @@ excerpt: "断崖に囲まれ陸路では行けない秘境ビーチ、ライレ�
 **2日目**
 - 08:30　バンコク発（バンコクエアウェイズPG261）→ 10:00　クラビ空港着
 - タクシーでアオナンマオ船着き場へ（約50分）、ロングテールボートでライレイへ（約20分）
-- [Anyavee Railay Resort](https://www.booking.com/searchresults.html?ss=Anyavee+Railay+Resort)にチェックイン（西ライレイビーチ徒歩圏、プール付き）
+- [Anyavee Railay Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D84514)にチェックイン（西ライレイビーチ徒歩圏、プール付き）
 - 午後　プールサイドでのんびり
 
 **3日目（終日フリー）**
@@ -97,7 +97,7 @@ excerpt: "断崖に囲まれ陸路では行けない秘境ビーチ、ライレ�
 **2日目**
 - 08:30　バンコク発（バンコクエアウェイズPG261）→ 10:00　クラビ空港着
 - ホテルの送迎ボートでライレイへ
-- [Rayavadee](https://www.booking.com/searchresults.html?ss=Rayavadee)にチェックイン（ライレイを代表する5つ星ビーチフロントリゾート、プール付きヴィラ）
+- [Rayavadee](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D10835)にチェックイン（ライレイを代表する5つ星ビーチフロントリゾート、プール付きヴィラ）
 - 午後　リゾート内でのんびり
 
 **3日目（終日フリー）**
@@ -127,9 +127,9 @@ excerpt: "断崖に囲まれ陸路では行けない秘境ビーチ、ライレ�
 
 **ライレイ**
 
-- **[Railay Phutawan Resort](https://www.booking.com/searchresults.html?ss=Railay+Phutawan+Resort)**：手頃な価格のライレイ東側の宿（やす旅向け）
-- **[Anyavee Railay Resort](https://www.booking.com/searchresults.html?ss=Anyavee+Railay+Resort)**：西ライレイビーチから徒歩圏、プール付きの3つ星リゾート（ゆる旅向け）
-- **[Rayavadee](https://www.booking.com/searchresults.html?ss=Rayavadee)**：ビーチフロントのプール付きヴィラが並ぶ5つ星リゾート（らぐ旅向け）
+- **[Railay Phutawan Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D248101)**：手頃な価格のライレイ東側の宿（やす旅向け）
+- **[Anyavee Railay Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D84514)**：西ライレイビーチから徒歩圏、プール付きの3つ星リゾート（ゆる旅向け）
+- **[Rayavadee](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D10835)**：ビーチフロントのプール付きヴィラが並ぶ5つ星リゾート（らぐ旅向け）
 
 ## 持ち物チェックリスト
 

@@ -1162,6 +1162,7 @@ koh-larn-guide:
   - name: Maharak Cafe
     lat: 12.9180
     lng: 100.7860
+    url: "https://maps.app.goo.gl/X54wP1iVfDkNPXcL8?g_st=ic"
     desc: ナバーン桟橋近くの海辺カフェ、手作りスイーツが評判
     category: restaurant
     tags: ["カフェ", "スイーツ", "景色"]

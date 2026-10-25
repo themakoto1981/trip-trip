@@ -23,21 +23,21 @@ boracay-guide:
     desc: "ステーション2近くのホステル、やす旅向け"
     type: hotel
     letter: "や"
-    url: "https://www.booking.com/searchresults.html?ss=Boracay+Backpackers"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1156853"
   - name: "Le Soleil de Boracay Hotel"
     lat: 11.961494
     lng: 121.924553
     desc: "ステーション2のビーチフロント、ゆる旅向けの高コスパ4つ星"
     type: hotel
     letter: "ゆ"
-    url: "https://www.booking.com/searchresults.html?ss=Le+Soleil+de+Boracay"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D65124"
   - name: "Shangri-La Boracay Resort"
     lat: 11.9870336
     lng: 121.9072287
     desc: "プライベートビーチを持つ、らぐ旅向けの島内屈指のラグジュアリーリゾート"
     type: hotel
     letter: "ら"
-    url: "https://www.booking.com/searchresults.html?ss=Shangri-La+Boracay+Resort"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D70401264"
 
 phuket-guide:
   - name: パトンビーチ
@@ -78,14 +78,14 @@ phuket-guide:
     desc: "おしゃれなブティックホテル、ゆる旅向け"
     type: hotel
     letter: "ゆ"
-    url: "https://www.booking.com/searchresults.html?ss=The+Crib+Patong"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D567170"
   - name: "Diamond Cliff Resort and Spa"
     lat: 7.9092336
     lng: 98.2977152
     desc: "パトンビーチ徒歩10分、らぐ旅向けの好立地リゾート"
     type: hotel
     letter: "ら"
-    url: "https://www.booking.com/searchresults.html?ss=Diamond+Cliff+Resort+and+Spa+Phuket"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D10893"
 
 langkawi-guide:
   - name: パンタイ・チェナン
@@ -114,21 +114,21 @@ langkawi-guide:
     desc: "パンタイ・チェナンの便利な立地、やす旅向けの高コスパホテル"
     type: hotel
     letter: "や"
-    url: "https://www.booking.com/searchresults.html?ss=Casa+del+Mar+Langkawi"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D4461"
   - name: "Holiday Villa Beach Resort & Spa Langkawi"
     lat: 6.2738287
     lng: 99.7329462
     desc: "ビーチフロント、ゆる旅向けの4つ星リゾート"
     type: hotel
     letter: "ゆ"
-    url: "https://www.booking.com/searchresults.html?ss=Holiday+Villa+Beach+Resort+%26+Spa+Langkawi"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D43464"
   - name: "Pelangi Beach Resort & Spa Langkawi"
     lat: 6.2993042
     lng: 99.7216732
     desc: "パンタイ・チェナンの白砂に立つ、らぐ旅向けのカジュアル5つ星"
     type: hotel
     letter: "ら"
-    url: "https://www.booking.com/searchresults.html?ss=Pelangi+Beach+Resort+%26+Spa+Langkawi"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D10442"
 
 bali-guide:
   - name: クタビーチ
@@ -157,21 +157,21 @@ bali-guide:
     desc: "クタ中心部、コスパ重視のやす旅向けホテル"
     type: hotel
     letter: "や"
-    url: "https://www.booking.com/searchresults.html?ss=Fave+Hotel+Kuta+Kartika+Plaza"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1235621"
   - name: "Ramayana Suites & Resort"
     lat: -8.7247654
     lng: 115.171703
     desc: "クタビーチ徒歩圏内、ゆる旅向けの快適リゾート"
     type: hotel
     letter: "ゆ"
-    url: "https://www.booking.com/searchresults.html?ss=Ramayana+Suites+%26+Resort+Bali"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D45562"
   - name: "Sheraton Bali Kuta Resort"
     lat: -8.7185098
     lng: 115.1691262
     desc: "ビーチ直結の5つ星、らぐ旅向けの夕日スポット"
     type: hotel
     letter: "ら"
-    url: "https://www.booking.com/searchresults.html?ss=Sheraton+Bali+Kuta+Resort"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D407502"
 
 koh-lipe-guide:
   - name: パッタヤビーチ
@@ -200,21 +200,21 @@ koh-lipe-guide:
     desc: "やす旅向け、パッタヤビーチの格安バンガロー"
     type: hotel
     letter: "や"
-    url: "https://www.booking.com/searchresults.html?ss=Forra+Dive+Resort+Koh+Lipe"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1120731"
   - name: "Sita Beach Resort & Spa"
     lat: 6.48751
     lng: 99.299377
     desc: "ゆる旅向け、パッタヤビーチ沿いの4つ星リゾート"
     type: hotel
     letter: "ゆ"
-    url: "https://www.booking.com/searchresults.html?ss=Sita+Beach+Resort+%26+Spa+Koh+Lipe"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D129587"
   - name: "Idyllic Resort Koh Lipe"
     lat: 6.481796
     lng: 99.310312
     desc: "らぐ旅向け、口コミ評価トップクラスの高級リゾート"
     type: hotel
     letter: "ら"
-    url: "https://www.booking.com/searchresults.html?ss=Idyllic+Resort+Koh+Lipe"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D108588"
 
 redang-guide:
   - name: パシール・パンジャン（ロングビーチ）
@@ -236,7 +236,7 @@ redang-guide:
     desc: "やす旅向け、手頃な価格帯のレダン島リゾート"
     type: hotel
     letter: "や"
-    url: "https://www.booking.com/searchresults.html?ss=Redang+De+Rimba+Resort"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D869436"
   - name: "Laguna Redang Island Resort"
     lat: 5.7706757
     lng: 103.0325481
@@ -250,7 +250,7 @@ redang-guide:
     desc: "らぐ旅向け、レダン島屈指の高級5つ星リゾート"
     type: hotel
     letter: "ら"
-    url: "https://www.booking.com/searchresults.html?ss=The+Taaras+Beach+%26+Spa+Resort+Redang"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D44569"
 
 koh-phiphi-guide:
   - name: トンサイ港
@@ -279,21 +279,21 @@ koh-phiphi-guide:
     desc: "やす旅向け、トンサイエリアの格安宿"
     type: hotel
     letter: "や"
-    url: "https://www.booking.com/searchresults.html?ss=Harmony+House+Koh+Phi+Phi"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D290271"
   - name: "Cabana Hotel Phi Phi"
     lat: 7.739166
     lng: 98.769449
     desc: "ゆる旅向け、トンサイ湾を見下ろす島内最大級の3つ星"
     type: hotel
     letter: "ゆ"
-    url: "https://www.booking.com/searchresults.html?ss=Cabana+Hotel+Phi+Phi"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D10869"
   - name: "Saii Phi Phi Island Village"
     lat: 7.761246
     lng: 98.772595
     desc: "らぐ旅向け、プライベートビーチを持つ高級リゾート"
     type: hotel
     letter: "ら"
-    url: "https://www.booking.com/searchresults.html?ss=Saii+Phi+Phi+Island+Village"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D15725520"
 
 koh-chang-guide:
   - name: ホワイトサンドビーチ
@@ -322,21 +322,21 @@ koh-chang-guide:
     desc: "やす旅向け、アオバイランにある手頃な価格のリゾート"
     type: hotel
     letter: "や"
-    url: "https://www.booking.com/searchresults.html?ss=Elephant+Bay+Resort+Koh+Chang"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D271454"
   - name: "White Sand Beach Resort"
     lat: 12.10936
     lng: 102.26815
     desc: "ゆる旅向け、ホワイトサンドビーチ沿いの定番リゾート"
     type: hotel
     letter: "ゆ"
-    url: "https://www.booking.com/searchresults.html?ss=White+Sand+Beach+Resort+Koh+Chang"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D85648"
   - name: "KC Grande Resort & Spa"
     lat: 12.110997
     lng: 102.269325
     desc: "らぐ旅向け、ホワイトサンドビーチで評判No.1の高級リゾート"
     type: hotel
     letter: "ら"
-    url: "https://www.booking.com/searchresults.html?ss=KC+Grande+Resort+%26+Spa+Koh+Chang"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D63169"
 
 pulau-pari-guide:
   - name: パシール・プラワンビーチ
@@ -372,21 +372,21 @@ phuquoc-guide:
     desc: "やす旅向け、手頃な価格の5つ星リゾート"
     type: hotel
     letter: "や"
-    url: "https://www.booking.com/searchresults.html?ss=Sol+by+Melia+Phu+Quoc"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1266957"
   - name: "Seashells Phu Quoc Hotel & Spa"
     lat: 10.215395
     lng: 103.958198
     desc: "ゆる旅向け、ズオンドン中心部の便利な立地"
     type: hotel
     letter: "ゆ"
-    url: "https://www.booking.com/searchresults.html?ss=Seashells+Phu+Quoc+Hotel+%26+Spa"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D2430159"
   - name: "InterContinental Phu Quoc Long Beach Resort"
     lat: 10.112635
     lng: 103.983524
     desc: "らぐ旅向け、ロングビーチ沿いの高評価な高級リゾート"
     type: hotel
     letter: "ら"
-    url: "https://www.booking.com/searchresults.html?ss=InterContinental+Phu+Quoc+Long+Beach+Resort"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D3648660"
 
 koh-samui-guide:
   - name: チャウエンビーチ
@@ -425,21 +425,21 @@ koh-samui-guide:
     desc: "やす旅向け、チャウエンビーチ沿いのビーチフロントホステル"
     type: hotel
     letter: "や"
-    url: "https://www.booking.com/searchresults.html?ss=Lub+d+Koh+Samui+Chaweng+Beach"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D5828751"
   - name: "Chaweng Garden Beach Resort"
     lat: 9.5308614
     lng: 100.0635826
     desc: "ゆる旅向け、チャウエン中心部のビーチフロントリゾート"
     type: hotel
     letter: "ゆ"
-    url: "https://www.booking.com/searchresults.html?ss=Chaweng+Garden+Beach+Resort"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D108775"
   - name: "Four Seasons Resort Koh Samui"
     lat: 9.5735091
     lng: 99.9222519
     desc: "らぐ旅向け、島北西の入り江に建つプライベートプール付きヴィラの高級リゾート"
     type: hotel
     letter: "ら"
-    url: "https://www.booking.com/searchresults.html?ss=Four+Seasons+Resort+Koh+Samui"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D344587"
 
 danang-hoian-guide:
   - name: ミーケービーチ
@@ -473,21 +473,21 @@ danang-hoian-guide:
     desc: "やす旅向け、ミーケービーチまで徒歩圏の手頃なホテル"
     type: hotel
     letter: "や"
-    url: "https://www.booking.com/searchresults.html?ss=Nesta+Hotel+Danang"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D31559197"
   - name: "A La Carte Danang Beach"
     lat: 16.0687157
     lng: 108.2446388
     desc: "ゆる旅向け、ミーケービーチ沿いインフィニティプールの4つ星ホテル"
     type: hotel
     letter: "ゆ"
-    url: "https://www.booking.com/searchresults.html?ss=A+La+Carte+Danang+Beach"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D569663"
   - name: "Naman Retreat Da Nang"
     lat: 15.96915
     lng: 108.2847535
     desc: "らぐ旅向け、プライベートビーチを備えたウェルネス重視の高級リゾート"
     type: hotel
     letter: "ら"
-    url: "https://www.booking.com/searchresults.html?ss=Naman+Retreat+Da+Nang"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D761550"
 
 el-nido-guide:
   - name: ナクパンビーチ
@@ -514,21 +514,21 @@ el-nido-guide:
     desc: "設備の整ったデザイナーズホステル、やす旅向け"
     type: hotel
     letter: "や"
-    url: "https://www.booking.com/searchresults.html?ss=Spin+Designer+Hostel+El+Nido"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D984523"
   - name: "Cadlao Resort & Restaurant"
     lat: 11.1858
     lng: 119.395599
     desc: "プール付きの人気リゾート、ゆる旅向け"
     type: hotel
     letter: "ゆ"
-    url: "https://www.booking.com/searchresults.html?ss=Cadlao+Resort+El+Nido"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D39409737"
   - name: "Lagen Island Resort"
     lat: 11.0867
     lng: 119.3984
     desc: "ジャングルと入り江に囲まれた島の高級リゾート、らぐ旅向け"
     type: hotel
     letter: "ら"
-    url: "https://www.booking.com/searchresults.html?ss=Lagen+Island+Resort"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D9713"
 
 nusa-penida-guide:
   - name: ケリンキンビーチ
@@ -572,34 +572,34 @@ nusa-penida-guide:
     desc: ビーチ沿いのコスパ重視ホテル（やす旅向け）
     type: hotel
     letter: や
-    url: "https://www.booking.com/searchresults.html?ss=Segara+Village+Hotel+Sanur"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D48703"
   - name: Prime Plaza Hotel Sanur
     lat: -8.684323
     lng: 115.259656
     desc: ボート乗り場に近いビーチサイドのホテル（ゆる旅向け）
     type: hotel
     letter: ゆ
-    url: "https://www.booking.com/searchresults.html?ss=Prime+Plaza+Hotel+Sanur"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1251"
   - name: Hyatt Regency Bali
     lat: -8.7022119
     lng: 115.2632459
     desc: サヌールビーチ沿いの大型リゾート（らぐ旅向け）
     type: hotel
     letter: ら
-    url: "https://www.booking.com/searchresults.html?ss=Hyatt+Regency+Bali"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D5500759"
   - name: Semabu Hills Hotel
     lat: -8.6878799
     lng: 115.4928259
     desc: 海を望む丘の上のインフィニティプールが人気（やす旅・ゆる旅向け）
     type: hotel
     letter: や
-    url: "https://www.booking.com/searchresults.html?ss=Semabu+Hills+Hotel+Nusa+Penida"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D2347321"
   - name: Penida Bambu Green Suites
     lat: -8.6905244
     lng: 115.5041054
     desc: 竹造りのヴィラが並ぶ高級ホテル（らぐ旅向け）
     type: hotel
-    url: "https://www.booking.com/searchresults.html?ss=Penida+Bambu+Green+Suites"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D23125539"
     letter: ら
 
 gili-trawangan-guide:
@@ -634,21 +634,21 @@ gili-trawangan-guide:
     desc: "西岸サンセットサイドのコスパ重視ホテル、やす旅向け"
     type: hotel
     letter: "や"
-    url: "https://www.booking.com/searchresults.html?ss=Hotel+Ombak+Sunset+Gili+Trawangan"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D251612"
   - name: "Vila Ombak"
     lat: -8.358213
     lng: 116.041083
     desc: "ビーチ目の前でプールが2つあるホテル、ゆる旅向け"
     type: hotel
     letter: "ゆ"
-    url: "https://www.booking.com/searchresults.html?ss=Vila+Ombak+Gili+Trawangan"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D4355"
   - name: "Pondok Santi Estate"
     lat: -8.361188
     lng: 116.037018
     desc: "島南部の口コミ評価が高いラグジュアリーヴィラ、らぐ旅向け"
     type: hotel
     letter: "ら"
-    url: "https://www.booking.com/searchresults.html?ss=Pondok+Santi+Estate+Gili+Trawangan"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D306229"
 
 cebu-guide:
   - name: マクタン・ニュータウン・ビーチウォーク
@@ -774,21 +774,21 @@ nusa-lembongan-guide:
     desc: ビーチ沿いのコスパ重視ホテル（やす旅向け）
     type: hotel
     letter: や
-    url: "https://www.booking.com/searchresults.html?ss=Segara+Village+Hotel+Sanur"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D48703"
   - name: Prime Plaza Hotel Sanur
     lat: -8.684323
     lng: 115.259656
     desc: ボート乗り場に近いビーチサイドのホテル（ゆる旅向け）
     type: hotel
     letter: ゆ
-    url: "https://www.booking.com/searchresults.html?ss=Prime+Plaza+Hotel+Sanur"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1251"
   - name: Hyatt Regency Bali
     lat: -8.7022119
     lng: 115.2632459
     desc: サヌールビーチ沿いの大型リゾート（らぐ旅向け）
     type: hotel
     letter: ら
-    url: "https://www.booking.com/searchresults.html?ss=Hyatt+Regency+Bali"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D5500759"
 
 koh-tao-guide:
   - name: サイリービーチ
@@ -817,21 +817,21 @@ koh-tao-guide:
     desc: "やす旅向け、マハートビーチ近くのバルコニー付き手頃な客室"
     type: hotel
     letter: "や"
-    url: "https://www.booking.com/searchresults.html?ss=Koh+Tao+Garden+Resort"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D564845"
   - name: "Ban's Diving Resort"
     lat: 10.0936
     lng: 99.8278
     desc: "ゆる旅向け、サイリービーチ中心部の複数プールを持つ大型リゾート"
     type: hotel
     letter: "ゆ"
-    url: "https://www.booking.com/searchresults.html?ss=Ban%27s+Diving+Resort+Koh+Tao"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D300564"
   - name: "Phandara Luxury Villas"
     lat: 10.1060
     lng: 99.8290
     desc: "らぐ旅向け、サイリービーチを見下ろす丘の上のプール付きヴィラ"
     type: hotel
     letter: "ら"
-    url: "https://www.booking.com/searchresults.html?ss=Phandara+Luxury+Villas+Koh+Tao"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1163323"
 
 con-dao-guide:
   - name: プーハイ監獄跡
@@ -867,14 +867,14 @@ con-dao-guide:
     desc: "ゆる旅向け、アンハイビーチ沿いのリゾート"
     type: hotel
     letter: "ゆ"
-    url: "https://www.booking.com/searchresults.html?ss=Tan+Son+Nhat+Con+Dao+Resort"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D239657"
   - name: "Six Senses Con Dao"
     lat: 8.7010
     lng: 106.6338
     desc: "らぐ旅向け、全室プール付きヴィラの名門リゾート"
     type: hotel
     letter: "ら"
-    url: "https://www.booking.com/searchresults.html?ss=Six+Senses+Con+Dao"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D242025"
 
 siargao-guide:
   - name: Cloud 9
@@ -899,7 +899,7 @@ siargao-guide:
     desc: "やす旅向け、サーファーに人気のホステル"
     type: hotel
     letter: "や"
-    url: "https://www.booking.com/searchresults.html?ss=Isla+Cabana+Siargao"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D479246"
   - name: "La Isla Resort"
     lat: 9.7962
     lng: 126.1602
@@ -913,7 +913,7 @@ siargao-guide:
     desc: "らぐ旅向け、プライベートアイランドの名門リゾート"
     type: hotel
     letter: "ら"
-    url: "https://www.booking.com/searchresults.html?ss=Dedon+Island+Resort+Siargao"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D69718714"
 
 camiguin-guide:
   - name: ホワイトアイランド
@@ -942,7 +942,7 @@ camiguin-guide:
     desc: "らぐ旅向け、眺めの良い島屈指の高級リゾート"
     type: hotel
     letter: "ら"
-    url: "https://www.booking.com/searchresults.html?ss=Bintana+Sa+Paraiso+Camiguin"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D3578515"
 
 nhatrang-guide:
   - name: チャンフービーチ
@@ -967,21 +967,21 @@ nhatrang-guide:
     desc: "やす旅向け、ビーチまで徒歩圏の安宿"
     type: hotel
     letter: "や"
-    url: "https://www.booking.com/searchresults.html?ss=Mojzo+Inn+Nha+Trang"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D5945444"
   - name: "Sunrise Nha Trang Beach Hotel & Spa"
     lat: 12.2367
     lng: 109.1973
     desc: "ゆる旅向け、チャンフービーチ沿いの4つ星ホテル"
     type: hotel
     letter: "ゆ"
-    url: "https://www.booking.com/searchresults.html?ss=Sunrise+Nha+Trang+Beach+Hotel+Spa"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D48363"
   - name: "Vinpearl Resort Nha Trang"
     lat: 12.3650
     lng: 109.3980
     desc: "らぐ旅向け、ホンチェ島のリゾート（ロープウェイでの移動が必要）"
     type: hotel
     letter: "ら"
-    url: "https://www.booking.com/searchresults.html?ss=Vinpearl+Resort+Nha+Trang"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D65153"
 
 krabi-guide:
   - name: ライレイ・ウェストビーチ
@@ -1006,21 +1006,21 @@ krabi-guide:
     desc: "やす旅向け、手頃な価格のライレイ東側の宿"
     type: hotel
     letter: "や"
-    url: "https://www.booking.com/searchresults.html?ss=Railay+Phutawan+Resort"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D248101"
   - name: "Anyavee Railay Resort"
     lat: 8.0140
     lng: 98.8355
     desc: "ゆる旅向け、西ライレイビーチ徒歩圏のプール付き3つ星リゾート"
     type: hotel
     letter: "ゆ"
-    url: "https://www.booking.com/searchresults.html?ss=Anyavee+Railay+Resort"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D84514"
   - name: "Rayavadee"
     lat: 8.0108
     lng: 98.8378
     desc: "らぐ旅向け、ビーチフロントのプール付きヴィラが並ぶ5つ星リゾート"
     type: hotel
     letter: "ら"
-    url: "https://www.booking.com/searchresults.html?ss=Rayavadee"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D10835"
 
 tioman-guide:
   - name: テケック
@@ -1059,21 +1059,21 @@ gili-air-guide:
     desc: "やす旅向け、ドミトリー・個室を備えたプール付きホステル"
     type: hotel
     letter: "や"
-    url: "https://www.booking.com/searchresults.html?ss=Captain+Coconuts+Gili+Air"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D69504338"
   - name: "PinkCoco Gili Air"
     lat: -8.3570
     lng: 116.0780
     desc: "ゆる旅向け、サンセットサイドのビーチフロントリゾート"
     type: hotel
     letter: "ゆ"
-    url: "https://www.booking.com/searchresults.html?ss=PinkCoco+Gili+Air"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D4899287"
   - name: "Villa Tokay"
     lat: -8.3545
     lng: 116.0790
     desc: "らぐ旅向け、プール付きの高級ヴィラ"
     type: hotel
     letter: "ら"
-    url: "https://www.booking.com/searchresults.html?ss=Villa+Tokay+Gili+Air"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D34574642"
 
 koh-larn-guide:
   - name: タワエンビーチ
@@ -1192,7 +1192,7 @@ koh-larn-guide:
     desc: "らぐ旅向け、島内屈指の上質リゾート"
     type: hotel
     letter: "ら"
-    url: "https://www.booking.com/searchresults.html?ss=The+Castello+Resort+Koh+Larn"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D755983"
 
 perhentian-guide:
   - name: ロングビーチ
@@ -1217,18 +1217,18 @@ perhentian-guide:
     desc: "やす旅向け、ロングビーチの手頃な宿"
     type: hotel
     letter: "や"
-    url: "https://www.booking.com/searchresults.html?ss=Mimpi+Perhentian"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D4136838"
   - name: "Senja Bay Resort"
     lat: 5.9123
     lng: 102.7171
     desc: "ゆる旅向け、コーラルベイの快適なリゾート"
     type: hotel
     letter: "ゆ"
-    url: "https://www.booking.com/searchresults.html?ss=Senja+Bay+Resort+Perhentian"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D2078644"
   - name: "Bubu Long Beach Resort"
     lat: 5.9211
     lng: 102.7223
     desc: "らぐ旅向け、ロングビーチ沿いの上質リゾート"
     type: hotel
     letter: "ら"
-    url: "https://www.booking.com/searchresults.html?ss=Bubu+Long+Beach+Resort"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D94317936"

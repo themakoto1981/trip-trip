@@ -49,7 +49,7 @@ excerpt: "タイ湾に浮かぶ南国リゾート、サムイ島の行き方・�
 - 06:50　バンコク（ドンムアン空港）発（タイ・エアアジア）→ 08:10　スラートターニー着
 - 10:00頃　[Grabカー](/grab/)でドンサック埠頭へ移動（周辺で軽い昼食をとりながら待機）
 - 11:00　フェリーでサムイ島へ（所要約1時間30分。ドンサック⇔サムイ間は06:00〜19:00の間1時間おきに運航しているため、空港到着後は早発の便にこだわらず埠頭周辺で過ごしてから乗るのがおすすめ）
-- 12:45頃　[Lub d Koh Samui Chaweng Beach](https://www.booking.com/searchresults.html?ss=Lub+d+Koh+Samui+Chaweng+Beach)に荷物を預け、チャウエンビーチで軽く過ごす（ビーチフロントホステル、ドミトリーから個室まで選べる）
+- 12:45頃　[Lub d Koh Samui Chaweng Beach](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D5828751)に荷物を預け、チャウエンビーチで軽く過ごす（ビーチフロントホステル、ドミトリーから個室まで選べる）
 - 14:00　正式にチェックイン
 
 **3日目（3泊目：サムイ島泊・終日フリー）**
@@ -70,7 +70,7 @@ excerpt: "タイ湾に浮かぶ南国リゾート、サムイ島の行き方・�
 - 10:50　羽田発（ANA直行便、所要6〜7時間）
 - 15:30　バンコク（スワンナプーム空港）着。入国審査・荷物受取に1〜1.5時間ほどみておく
 - 17:30頃　バンコク発（バンコクエアウェイズ、所要約1時間）
-- 18:30頃　サムイ島着。空港からGrabカーで15〜20分ほどで[Chaweng Garden Beach Resort](https://www.booking.com/searchresults.html?ss=Chaweng+Garden+Beach+Resort)にチェックイン（チャウエン中心部のビーチフロントリゾート、2つのプール）
+- 18:30頃　サムイ島着。空港からGrabカーで15〜20分ほどで[Chaweng Garden Beach Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D108775)にチェックイン（チャウエン中心部のビーチフロントリゾート、2つのプール）
 
 **2日目（終日フリー）**
 - 09:00〜　終日フリー（おすすめ：チャウエンビーチでのんびり過ごす）
@@ -90,7 +90,7 @@ excerpt: "タイ湾に浮かぶ南国リゾート、サムイ島の行き方・�
 - 10:50　羽田発（ANA直行便、所要6〜7時間）
 - 15:30　バンコク（スワンナプーム空港）着。入国審査・荷物受取に1〜1.5時間ほどみておく
 - 17:30頃　バンコク発（バンコクエアウェイズ、所要約1時間）
-- 18:30頃　サムイ島着。空港からGrabカーで15〜20分ほどで[Four Seasons Resort Koh Samui](https://www.booking.com/searchresults.html?ss=Four+Seasons+Resort+Koh+Samui)にチェックイン（島北西の入り江に建つプライベートプール付きヴィラの高級リゾート）
+- 18:30頃　サムイ島着。空港からGrabカーで15〜20分ほどで[Four Seasons Resort Koh Samui](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D344587)にチェックイン（島北西の入り江に建つプライベートプール付きヴィラの高級リゾート）
 
 **2日目（終日フリー）**
 - 09:00〜　終日フリー（おすすめ：チャウエンビーチでのんびり過ごす）

@@ -45,7 +45,7 @@ excerpt: "マレーシア屈指のリゾートアイランド、ランカウイ�
 **2日目**
 - 06:15　クアラルンプール着。入国審査・荷物受取に1〜1.5時間ほどみておく、国内線へ乗継
 - 10:30　クアラルンプール発（AirAsia AK6320）→ 11:35　ランカウイ着
-- 12:00頃　[Casa del Mar Langkawi](https://www.booking.com/searchresults.html?ss=Casa+del+Mar+Langkawi)に荷物を預け、ホテルのビーチで軽く過ごす
+- 12:00頃　[Casa del Mar Langkawi](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D4461)に荷物を預け、ホテルのビーチで軽く過ごす
 - 14:00　正式にチェックイン
 
 **3日目（終日フリー）**
@@ -69,7 +69,7 @@ excerpt: "マレーシア屈指のリゾートアイランド、ランカウイ�
 - 11:30　成田発（JAL直行便JL723）
 - 18:20　クアラルンプール着。入国審査・荷物受取に1〜1.5時間ほどみておく
 - 20:15頃　クアラルンプール発（マレーシア航空国内線）→ 21:20頃　ランカウイ着
-- 22:00頃　[Holiday Villa Beach Resort & Spa Langkawi](https://www.booking.com/searchresults.html?ss=Holiday+Villa+Beach+Resort+%26+Spa+Langkawi)にチェックイン（ビーチフロント、4つ星）
+- 22:00頃　[Holiday Villa Beach Resort & Spa Langkawi](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D43464)にチェックイン（ビーチフロント、4つ星）
 
 **2日目（終日フリー）**
 - 09:00　ケーブルカーでランカウイ・スカイブリッジへ
@@ -92,7 +92,7 @@ excerpt: "マレーシア屈指のリゾートアイランド、ランカウイ�
 - 11:30　成田発（JAL直行便JL723）
 - 18:20　クアラルンプール着。入国審査・荷物受取に1〜1.5時間ほどみておく
 - 20:15頃　クアラルンプール発（マレーシア航空国内線）→ 21:20頃　ランカウイ着
-- 22:00頃　[Pelangi Beach Resort & Spa Langkawi](https://www.booking.com/searchresults.html?ss=Pelangi+Beach+Resort+%26+Spa+Langkawi)にチェックイン（パンタイ・チェナンの白い砂浜沿いに立つカジュアル5つ星）
+- 22:00頃　[Pelangi Beach Resort & Spa Langkawi](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D10442)にチェックイン（パンタイ・チェナンの白い砂浜沿いに立つカジュアル5つ星）
 
 **2日目（終日フリー）**
 - 09:00　ケーブルカーでランカウイ・スカイブリッジへ

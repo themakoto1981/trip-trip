@@ -56,7 +56,7 @@ excerpt: "マレーシア半島の東海岸沖、南シナ海に浮かぶ2つの
 
 **3日目**
 - 06:36　クアラブス桟橋着。マリンパーク保護料を支払い、朝のスピードボートでペルヘンティアン島へ（約40分）
-- 昼　島着。[Eco Marine Perhentian Island Resort](https://www.booking.com/searchresults.html?ss=Eco+Marine+Perhentian+Island+Resort)にチェックイン（ロングビーチ近くの手頃なホステル）
+- 昼　島着。[Mimpi Perhentian](https://www.booking.com/searchresults.html?ss=Mimpi+Perhentian)にチェックイン（ロングビーチの手頃な宿）
 - 午後　ロングビーチでのんびり、シュノーケリング
 
 **4日目（終日フリー）**
@@ -82,7 +82,7 @@ excerpt: "マレーシア半島の東海岸沖、南シナ海に浮かぶ2つの
 
 **3日目**
 - 06:36　クアラブス桟橋着。マリンパーク保護料を支払い、朝のスピードボートでペルヘンティアン島へ（約40分）
-- 昼　島着。[Senja Bay Resort](https://www.booking.com/searchresults.html?ss=Senja+Bay+Resort+Perhentian)にチェックイン（ロングビーチの快適なリゾート）
+- 昼　島着。[Senja Bay Resort](https://www.booking.com/searchresults.html?ss=Senja+Bay+Resort+Perhentian)にチェックイン（コーラルベイの快適なリゾート）
 - 午後　ホテルのビーチでのんびり
 
 **4日目（終日フリー）**

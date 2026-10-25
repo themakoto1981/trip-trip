@@ -497,20 +497,14 @@ layout: default
           var s = item.s;
           var m = L.marker([s.lat, s.lng], { icon: makeIcon(s.type, s.letter, item.num) }).addTo(spotMap);
           if (!s.type) {
-            m.bindTooltip(s.name, { permanent: false, interactive: true, direction: 'top', offset: [0, -8], className: 'spot-label' });
+            m.bindTooltip(s.name, { permanent: false, direction: 'top', offset: [0, -8], className: 'spot-label' });
             markerByName[s.name] = m;
             if (s.name === selectedName) { m.openTooltip(); }
-            m.on('tooltipopen', function (e) {
-              var tipEl = e.tooltip.getElement();
-              if (tipEl) {
-                tipEl.addEventListener('click', function (ev) {
-                  ev.stopPropagation();
-                  window.open(spotExternalUrl(s), '_blank', 'noopener');
-                });
-              }
-            });
           }
-          m.on('click', function () { selectSpot(s.name); });
+          m.on('click', function () {
+            selectSpot(s.name);
+            window.open(spotExternalUrl(s), '_blank', 'noopener');
+          });
           return m;
         });
         if (markers.length) {

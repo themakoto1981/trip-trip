@@ -52,7 +52,7 @@ excerpt: "映画の舞台にもなった絶景ビーチ、マヤベイで知ら�
 **2日目（2泊目：ピピ島泊）**
 - 09:00頃　空港から港へ移動
 - 12:30　プーケット発（スピードボート）→ 13:30　ピピ島（トンサイベイ）着
-- 14:00頃　[Harmony House Koh Phi Phi](https://www.booking.com/searchresults.html?ss=Harmony+House+Koh+Phi+Phi)にチェックイン（トンサイエリアの宿、1泊2,500円ほどから）
+- 14:00頃　[Harmony House Koh Phi Phi](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D290271)にチェックイン（トンサイエリアの宿、1泊2,500円ほどから）
 
 **3日目（3泊目：ピピ島泊・終日フリー）**
 - 09:00　マヤベイ＆周辺の島巡りボートツアーへ出発
@@ -81,7 +81,7 @@ excerpt: "映画の舞台にもなった絶景ビーチ、マヤベイで知ら�
 **2日目（2泊目：ピピ島泊）**
 - 09:00頃　空港から港へ移動
 - 12:30　プーケット発（スピードボート）→ 13:30　ピピ島（トンサイベイ）着
-- 14:00頃　[Cabana Hotel Phi Phi](https://www.booking.com/searchresults.html?ss=Cabana+Hotel+Phi+Phi)にチェックイン（島内最大級の3つ星）
+- 14:00頃　[Cabana Hotel Phi Phi](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D10869)にチェックイン（島内最大級の3つ星）
 
 **3日目（3泊目：ピピ島泊・終日フリー）**
 - 09:00　マヤベイ＆周辺の島巡りボートツアーへ出発
@@ -110,7 +110,7 @@ excerpt: "映画の舞台にもなった絶景ビーチ、マヤベイで知ら�
 **2日目（2泊目：ピピ島泊）**
 - 09:00頃　空港から港へ移動
 - 12:30　プーケット発（スピードボート）→ 13:30　ピピ島（トンサイベイ）着
-- 14:00頃　[Saii Phi Phi Island Village](https://www.booking.com/searchresults.html?ss=Saii+Phi+Phi+Island+Village)にチェックイン（プライベートビーチを持つ高級リゾート）
+- 14:00頃　[Saii Phi Phi Island Village](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D15725520)にチェックイン（プライベートビーチを持つ高級リゾート）
 
 **3日目（3泊目：ピピ島泊・終日フリー）**
 - 09:00　マヤベイ＆周辺の島巡りボートツアーへ出発

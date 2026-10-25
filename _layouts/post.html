@@ -415,18 +415,20 @@ layout: default
         });
       }
 
+      function spotExternalUrl(s) {
+        return (s.type === 'hotel' && s.url) ? s.url : ('https://www.google.com/maps/search/?api=1&query=' + s.lat + ',' + s.lng);
+      }
+
       function renderSummary() {
         var el = document.getElementById('spot-summary-wrap');
         var s = mySpots.filter(function (b) { return b.name === selectedName; })[0];
         if (!s) {
-          el.innerHTML = '<div class="spot-hint">地図のピンや一覧のスポットをタップすると、写真と説明が表示されます。四角のアイコンはプラン別のホテルです。</div>';
+          el.innerHTML = '<div class="spot-hint">地図のピンや一覧のスポットをタップすると、写真と説明が表示され、Googleマップやホテルサイトへ移動します。四角のアイコンはプラン別のホテルです。</div>';
           return;
         }
         var isHotel = s.type === 'hotel';
-        var gmapsUrl = 'https://www.google.com/maps/search/?api=1&query=' + s.lat + ',' + s.lng;
-        var actionHtml = isHotel && s.url
-          ? '<a class="spot-summary-more" href="' + s.url + '" target="_blank" rel="noopener">予約ページを見る ›</a>'
-          : '<a class="spot-summary-more" href="' + gmapsUrl + '" target="_blank" rel="noopener">Googleマップで開く ›</a>';
+        var actionHtml = '<a class="spot-summary-more" href="' + spotExternalUrl(s) + '" target="_blank" rel="noopener">' +
+          (isHotel && s.url ? '予約ページを見る ›' : 'Googleマップで開く ›') + '</a>';
         el.innerHTML =
           '<div class="spot-summary-card">' +
             (s.image ? '<img class="spot-summary-thumb" src="' + s.image + '" alt="' + s.name + '">' : '') +
@@ -499,7 +501,10 @@ layout: default
             markerByName[s.name] = m;
             if (s.name === selectedName) { m.openTooltip(); }
           }
-          m.on('click', function () { selectSpot(s.name); });
+          m.on('click', function () {
+            selectSpot(s.name);
+            window.open(spotExternalUrl(s), '_blank', 'noopener');
+          });
           return m;
         });
         if (markers.length) {
@@ -509,19 +514,25 @@ layout: default
         setTimeout(function () { spotMap.invalidateSize(); }, 200);
       }
 
+      function listItems() {
+        return visibleBeaches().concat(hotels.filter(function (h) { return activeTiers[h.letter]; }));
+      }
+
       function renderList() {
         var el = document.getElementById('spot-card-list');
-        el.innerHTML = visibleBeaches().map(function (s) {
-          return '<li><button type="button" class="spot-card" data-name="' + s.name + '" data-lat="' + s.lat + '" data-lng="' + s.lng + '">' +
+        el.innerHTML = listItems().map(function (s) {
+          var ctaLabel = (s.type === 'hotel' && s.url) ? '予約ページを見る ›' : 'Googleマップで開く ›';
+          return '<li><button type="button" class="spot-card" data-name="' + s.name + '">' +
             (s.image ? '<img class="spot-card-thumb" src="' + s.image + '" alt="" loading="lazy">' : '<span></span>') +
             '<span class="spot-card-body"><h4>' + s.name + '</h4>' +
-            (s.short ? '<p>' + s.short + '</p>' : '') +
-            '<span class="spot-card-cta">Googleマップで開く ›</span></span></button></li>';
+            (s.short || s.desc ? '<p>' + (s.short || s.desc) + '</p>' : '') +
+            '<span class="spot-card-cta">' + ctaLabel + '</span></span></button></li>';
         }).join('');
         el.querySelectorAll('.spot-card').forEach(function (btn) {
           btn.addEventListener('click', function () {
+            var s = listItems().filter(function (b) { return b.name === btn.dataset.name; })[0];
             selectSpot(btn.dataset.name);
-            window.open('https://www.google.com/maps/search/?api=1&query=' + btn.dataset.lat + ',' + btn.dataset.lng, '_blank', 'noopener');
+            if (s) { window.open(spotExternalUrl(s), '_blank', 'noopener'); }
           });
         });
       }

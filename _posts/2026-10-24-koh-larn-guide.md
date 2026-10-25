@@ -11,7 +11,9 @@ excerpt: "パタヤからスピードボートでわずか20分。コーラル�
 
 ## 行き方
 
-日本からバンコクへは直行便で約6〜7時間。バンコクからパタヤへは車で約1.5〜2時間、パタヤのバリハイ桟橋からラン島へはスピードボートで約15〜20分です。
+日本からバンコクへは直行便で約6〜7時間。バンコクからパタヤへはタクシーやGrabで約1.5〜2時間、パタヤのバリハイ桟橋からラン島へはスピードボートで約15〜20分です。
+
+- **島内の移動**：ビーチ間の移動はスクーターレンタルが実質必須です（1日200〜350THB／約600〜1,400円、パスポートなどの預け入れが必要）。ソンテウ（乗合タクシー）や単車タクシーもありますが、複数のビーチを回るならスクーターが便利です。
 
 ## ベストシーズン
 
@@ -42,10 +44,10 @@ excerpt: "パタヤからスピードボートでわずか20分。コーラル�
 
 **1日目**
 - 08:55　成田発（Vietjet Air直行便）→ 14:30　バンコク（スワンナプーム空港）着
-- 車でパタヤへ移動し、[Pattaya Inn Hotel](https://www.booking.com/searchresults.html?ss=Pattaya+Inn+Hotel)に1泊
+- Grabタクシーでパタヤへ移動し、[Pattaya Inn Hotel](https://www.booking.com/searchresults.html?ss=Pattaya+Inn+Hotel)に1泊
 
 **2日目**
-- 09:00頃　バリハイ桟橋の窓口でチケットを購入し、スピードボートでラン島へ（予約不要、片道150〜200THB、約15〜20分）
+- 09:00頃　バリハイ桟橋の窓口でチケットを購入し、スピードボートでラン島へ（予約不要、片道150〜200THB／約600〜800円、約15〜20分）
 - [Island Inn](https://www.booking.com/searchresults.html?ss=Island+Inn+Koh+Larn)にチェックイン（タワエンビーチ近くの手頃な宿）
 - 午後　タワエンビーチでのんびり
 
@@ -55,17 +57,17 @@ excerpt: "パタヤからスピードボートでわずか20分。コーラル�
 **4日目（帰国日）**
 - 09:00頃　スピードボートでバリハイ桟橋へ戻る（約15〜20分）
 - パタヤ市内でランチ・買い物（[セントラルフェスティバルパタヤビーチ](https://www.centralfestivalpattayabeach.co.th/)など）
-- 18:00頃　車でバンコク空港へ移動（約1.5〜2時間）
+- 18:00頃　Grabタクシーでバンコク空港へ移動（約1.5〜2時間）
 - 23:55　バンコク発（Vietjet Air直行便）→ 07:55　成田着（翌日）
 
 ## おすすめ旅程（ゆる旅向け／パタヤ1泊・3泊4日の例）
 
 **1日目**
 - 11:05　羽田発（ANA直行便NH847）→ 16:20　バンコク（スワンナプーム空港）着
-- 車でパタヤへ移動し、[Balihai Bay Pattaya](https://www.booking.com/searchresults.html?ss=Balihai+Bay+Pattaya)に1泊
+- Grabタクシーでパタヤへ移動し、[Balihai Bay Pattaya](https://www.booking.com/searchresults.html?ss=Balihai+Bay+Pattaya)に1泊
 
 **2日目**
-- 09:00頃　バリハイ桟橋の窓口でチケットを購入し、スピードボートでラン島へ（予約不要、片道150〜200THB、約15〜20分）
+- 09:00頃　バリハイ桟橋の窓口でチケットを購入し、スピードボートでラン島へ（予約不要、片道150〜200THB／約600〜800円、約15〜20分）
 - [Montra Resort](https://www.booking.com/searchresults.html?ss=Montra+Resort+Koh+Larn)にチェックイン（タワエンビーチの快適なリゾート）
 - 午後　ホテルのプールでのんびり
 
@@ -75,17 +77,17 @@ excerpt: "パタヤからスピードボートでわずか20分。コーラル�
 **4日目（帰国日）**
 - 09:00頃　スピードボートでバリハイ桟橋へ戻る（約15〜20分）
 - パタヤ市内でランチ・買い物（[セントラルフェスティバルパタヤビーチ](https://www.centralfestivalpattayabeach.co.th/)など）
-- 18:00頃　車でバンコク空港へ移動（約1.5〜2時間）
+- 18:00頃　Grabタクシーでバンコク空港へ移動（約1.5〜2時間）
 - 21:35　バンコク発（ANA直行便NH850）→ 06:00　羽田着（翌日）
 
 ## おすすめ旅程（らぐ旅向け／パタヤ1泊・3泊4日の例）
 
 **1日目**
 - 11:05　羽田発（ANA直行便NH847）→ 16:20　バンコク（スワンナプーム空港）着
-- 車でパタヤへ移動し、[InterContinental Pattaya Resort](https://www.booking.com/searchresults.html?ss=InterContinental+Pattaya+Resort)に1泊
+- Grabタクシーでパタヤへ移動し、[InterContinental Pattaya Resort](https://www.booking.com/searchresults.html?ss=InterContinental+Pattaya+Resort)に1泊
 
 **2日目**
-- 09:00頃　バリハイ桟橋の窓口でチケットを購入し、スピードボートでラン島へ（予約不要、片道150〜200THB、約15〜20分）
+- 09:00頃　バリハイ桟橋の窓口でチケットを購入し、スピードボートでラン島へ（予約不要、片道150〜200THB／約600〜800円、約15〜20分）
 - [The Castello Resort Koh Larn](https://www.booking.com/searchresults.html?ss=The+Castello+Resort+Koh+Larn)にチェックイン（島内屈指の上質リゾート）
 - 午後　リゾート内でのんびり
 
@@ -95,7 +97,7 @@ excerpt: "パタヤからスピードボートでわずか20分。コーラル�
 **4日目（帰国日）**
 - 09:00頃　スピードボートでバリハイ桟橋へ戻る（約15〜20分）
 - パタヤ市内でランチ・買い物（[セントラルフェスティバルパタヤビーチ](https://www.centralfestivalpattayabeach.co.th/)など）
-- 18:00頃　車でバンコク空港へ移動（約1.5〜2時間）
+- 18:00頃　Grabタクシーでバンコク空港へ移動（約1.5〜2時間）
 - 21:35　バンコク発（ANA直行便NH850）→ 06:00　羽田着（翌日）
 
 ## おすすめビーチ・スポット

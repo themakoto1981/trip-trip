@@ -46,7 +46,7 @@ excerpt: "車もバイクも走らない、馬車と自転車だけの静かな�
 
 **2日目**
 - 午前　高速ボートでギリ・アイール島へ（約2時間）
-- [Captain Coconuts Gili Air](https://www.booking.com/searchresults.html?ss=Captain+Coconuts+Gili+Air)にチェックイン（ドミトリー・個室を備えたホステル、プール付き）
+- [Captain Coconuts Gili Air](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D69504338)にチェックイン（ドミトリー・個室を備えたホステル、プール付き）
 - 午後　ビーチでのんびり
 
 **3日目（終日フリー）**
@@ -69,7 +69,7 @@ excerpt: "車もバイクも走らない、馬車と自転車だけの静かな�
 
 **2日目**
 - 午前　高速ボートでギリ・アイール島へ（約2時間）
-- [PinkCoco Gili Air](https://www.booking.com/searchresults.html?ss=PinkCoco+Gili+Air)にチェックイン（サンセットサイドのビーチフロントリゾート）
+- [PinkCoco Gili Air](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D4899287)にチェックイン（サンセットサイドのビーチフロントリゾート）
 - 午後　ビーチでのんびり
 
 **3日目（終日フリー）**
@@ -92,7 +92,7 @@ excerpt: "車もバイクも走らない、馬車と自転車だけの静かな�
 
 **2日目**
 - 午前　高速ボートでギリ・アイール島へ（約2時間）
-- [Villa Tokay](https://www.booking.com/searchresults.html?ss=Villa+Tokay+Gili+Air)にチェックイン（プール付きの高級ヴィラ）
+- [Villa Tokay](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D34574642)にチェックイン（プール付きの高級ヴィラ）
 - 午後　ヴィラのプールでのんびり
 
 **3日目（終日フリー）**
@@ -122,9 +122,9 @@ excerpt: "車もバイクも走らない、馬車と自転車だけの静かな�
 
 **ギリ・アイール島**
 
-- **[Captain Coconuts Gili Air](https://www.booking.com/searchresults.html?ss=Captain+Coconuts+Gili+Air)**：ドミトリー・個室を備えたプール付きホステル（やす旅向け）
-- **[PinkCoco Gili Air](https://www.booking.com/searchresults.html?ss=PinkCoco+Gili+Air)**：サンセットサイドのビーチフロントリゾート（ゆる旅向け）
-- **[Villa Tokay](https://www.booking.com/searchresults.html?ss=Villa+Tokay+Gili+Air)**：プール付きの高級ヴィラ（らぐ旅向け）
+- **[Captain Coconuts Gili Air](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D69504338)**：ドミトリー・個室を備えたプール付きホステル（やす旅向け）
+- **[PinkCoco Gili Air](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D4899287)**：サンセットサイドのビーチフロントリゾート（ゆる旅向け）
+- **[Villa Tokay](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D34574642)**：プール付きの高級ヴィラ（らぐ旅向け）
 
 ## 持ち物チェックリスト
 

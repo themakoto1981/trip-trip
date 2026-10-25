@@ -776,8 +776,8 @@
   flight_max: 140000
   hotel_min: 2000
   hotel_max: 20000
-  transport_min: 1000
-  transport_max: 3000
+  transport_min: 1500
+  transport_max: 4000
   food_min: 2000
   food_max: 5000
   flight_hours: "約7〜8時間（バンコク直行便）、パタヤからスピードボートで約15〜20分"

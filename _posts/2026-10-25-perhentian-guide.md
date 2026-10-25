@@ -50,12 +50,12 @@ excerpt: "マレーシア半島の東海岸沖、南シナ海に浮かぶ2つの
 
 **2日目**
 - 午前　ホテルでゆっくり休み、チェックアウト
-- 午後　Grabカーでクアラルンプール市内へ、[ペトロナスツインタワー](https://www.petronastwintowers.com.my/)周辺を散策・ランチ
-- 19:00頃　Grabカーで市内からTBSへ移動（約30〜40分）
-- 21:00　TBS発の夜行バスでクアラブスへ（約9〜10時間、[12go.asiaで予約可](https://12go.asia/en/travel/kuala-lumpur/kuala-besut?z=16187692)）、車内で1泊
+- Grabカーで空港からTBSへ移動（約1時間）
+- 10:00　TBS発の昼行バスでクアラブスへ（Sani Express、約7時間48分、[12go.asiaで予約可](https://12go.asia/en/travel/kuala-lumpur/kuala-besut?z=16187692)）
+- 17:48　クアラブス着。[Fairfield By Marriott Kuala Besut](https://www.booking.com/searchresults.html?ss=Fairfield+By+Marriott+Kuala+Besut)にチェックイン、港町を散策して1泊
 
 **3日目**
-- 06:36　クアラブス桟橋着。マリンパーク保護料を支払い、朝のスピードボートでペルヘンティアン島へ（約40分）
+- 午前　ホテルをチェックアウトし、クアラブス桟橋でマリンパーク保護料を支払って朝のスピードボートでペルヘンティアン島へ（約40分）
 - 昼　島着。[Mimpi Perhentian](https://www.booking.com/searchresults.html?ss=Mimpi+Perhentian)にチェックイン（ロングビーチの手頃な宿）
 - 午後　ロングビーチでのんびり、シュノーケリング
 
@@ -76,12 +76,12 @@ excerpt: "マレーシア半島の東海岸沖、南シナ海に浮かぶ2つの
 
 **2日目**
 - 午前　ホテルでゆっくり休み、チェックアウト
-- 午後　Grabカーでクアラルンプール市内へ、[ペトロナスツインタワー](https://www.petronastwintowers.com.my/)周辺を散策・ランチ
-- 19:00頃　Grabカーで市内からTBSへ移動（約30〜40分）
-- 21:00　TBS発の夜行バスでクアラブスへ（約9〜10時間、[12go.asiaで予約可](https://12go.asia/en/travel/kuala-lumpur/kuala-besut?z=16187692)）、車内で1泊
+- Grabカーで空港からTBSへ移動（約1時間）
+- 10:00　TBS発の昼行バスでクアラブスへ（Sani Express、約7時間48分、[12go.asiaで予約可](https://12go.asia/en/travel/kuala-lumpur/kuala-besut?z=16187692)）
+- 17:48　クアラブス着。[Fairfield By Marriott Kuala Besut](https://www.booking.com/searchresults.html?ss=Fairfield+By+Marriott+Kuala+Besut)にチェックイン、港町を散策して1泊
 
 **3日目**
-- 06:36　クアラブス桟橋着。マリンパーク保護料を支払い、朝のスピードボートでペルヘンティアン島へ（約40分）
+- 午前　ホテルをチェックアウトし、クアラブス桟橋でマリンパーク保護料を支払って朝のスピードボートでペルヘンティアン島へ（約40分）
 - 昼　島着。[Senja Bay Resort](https://www.booking.com/searchresults.html?ss=Senja+Bay+Resort+Perhentian)にチェックイン（コーラルベイの快適なリゾート）
 - 午後　ホテルのビーチでのんびり
 
@@ -102,12 +102,12 @@ excerpt: "マレーシア半島の東海岸沖、南シナ海に浮かぶ2つの
 
 **2日目**
 - 午前　ホテルでゆっくり休み、チェックアウト
-- 午後　Grabカーでクアラルンプール市内へ、[ペトロナスツインタワー](https://www.petronastwintowers.com.my/)周辺を散策・ランチ
-- 19:00頃　Grabカーで市内からTBSへ移動（約30〜40分）
-- 21:00　TBS発の夜行バスでクアラブスへ（約9〜10時間、[12go.asiaで予約可](https://12go.asia/en/travel/kuala-lumpur/kuala-besut?z=16187692)）、車内で1泊
+- Grabカーで空港からTBSへ移動（約1時間）
+- 10:00　TBS発の昼行バスでクアラブスへ（Sani Express、約7時間48分、[12go.asiaで予約可](https://12go.asia/en/travel/kuala-lumpur/kuala-besut?z=16187692)）
+- 17:48　クアラブス着。[Fairfield By Marriott Kuala Besut](https://www.booking.com/searchresults.html?ss=Fairfield+By+Marriott+Kuala+Besut)にチェックイン、港町を散策して1泊
 
 **3日目**
-- 06:36　クアラブス桟橋着。マリンパーク保護料を支払い、朝のスピードボートでペルヘンティアン島へ（約40分）
+- 午前　ホテルをチェックアウトし、クアラブス桟橋でマリンパーク保護料を支払って朝のスピードボートでペルヘンティアン島へ（約40分）
 - 昼　島着。[Bubu Long Beach Resort](https://www.booking.com/searchresults.html?ss=Bubu+Long+Beach+Resort)にチェックイン（ロングビーチ沿いの上質リゾート）
 - 午後　ビーチフロントのテラスでのんびり
 

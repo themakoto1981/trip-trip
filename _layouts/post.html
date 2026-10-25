@@ -61,6 +61,10 @@ layout: default
     }
     if (!match) { return; }
 
+    // ラン島トライアル記事のみ：spots.ymlにtagsがあるかどうかで判定し、
+    // 予算プラン・旅程を横スライド比較レイアウトにする（他記事は従来通り）
+    var isSlideTrial = (allSpots[match.slug] || []).some(function (s) { return s.tags && s.tags.length; });
+
     var titleMainEl = document.getElementById('post-title-main');
     if (titleMainEl && match.name && match.country) {
       titleMainEl.textContent = match.name + '｜' + match.country;
@@ -183,7 +187,7 @@ layout: default
       return chipsHtml ? '<div class="budget-tier-chips">' + chipsHtml + '</div>' : '';
     }
 
-    tiersHtml += '<div class="budget-tiers-list">';
+    tiersHtml += '<div class="budget-tiers-list' + (isSlideTrial ? ' budget-tiers-slide' : '') + '">';
     budgetTiers.forEach(function (t, i) {
       var recClass = (i === 1) ? ' is-recommended' : '';
       tiersHtml += '<div class="budget-tier-row' + recClass + '" data-tier-name="' + t[0] + '">';
@@ -685,18 +689,22 @@ layout: default
           var row = document.querySelector('.budget-tier-row[data-tier-name="' + tierName + '"]');
           if (!row) { return; }
           var wrap = idx === 0 ? timelineWrap : timelineWrap.cloneNode(true);
-          wrap.hidden = true;
-          var btn = document.createElement('button');
-          btn.type = 'button';
-          btn.className = 'budget-tier-itinerary-toggle';
-          btn.textContent = '旅程を見る ▶';
-          row.appendChild(btn);
-          row.appendChild(wrap);
-          btn.addEventListener('click', function () {
-            var willOpen = wrap.hidden;
-            wrap.hidden = !willOpen;
-            btn.textContent = willOpen ? '旅程を閉じる ▼' : '旅程を見る ▶';
-          });
+          if (isSlideTrial) {
+            row.appendChild(wrap);
+          } else {
+            wrap.hidden = true;
+            var btn = document.createElement('button');
+            btn.type = 'button';
+            btn.className = 'budget-tier-itinerary-toggle';
+            btn.textContent = '旅程を見る ▶';
+            row.appendChild(btn);
+            row.appendChild(wrap);
+            btn.addEventListener('click', function () {
+              var willOpen = wrap.hidden;
+              wrap.hidden = !willOpen;
+              btn.textContent = willOpen ? '旅程を閉じる ▼' : '旅程を見る ▶';
+            });
+          }
           attached = true;
         });
 

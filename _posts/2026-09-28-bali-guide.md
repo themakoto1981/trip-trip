@@ -47,7 +47,7 @@ excerpt: "「神々の島」バリ島。ビーチリゾートから文化体験�
 **2日目（2泊目：デンパサール泊）**
 - 07:00頃　クアラルンプール着。乗継エリアで待機（スルーチェックインのため再入国審査は不要）
 - 12:00頃　クアラルンプール発（AirAsia）→ 15:00頃　デンパサール着
-- 17:00頃　[Fave Hotel Kuta Kartika Plaza](https://www.booking.com/searchresults.html?ss=Fave+Hotel+Kuta+Kartika+Plaza)にチェックイン
+- 17:00頃　[Fave Hotel Kuta Kartika Plaza](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1235621)にチェックイン
 
 **3日目（3泊目：デンパサール泊・終日フリー）**
 - 09:00　ウルワツ寺院周辺を観光
@@ -73,7 +73,7 @@ excerpt: "「神々の島」バリ島。ビーチリゾートから文化体験�
 **1日目**
 - 11:00　成田発（ガルーダ・インドネシア航空直行便、所要7〜8時間）
 - 17:25　デンパサール着（現地時間、時差-1時間）。入国審査・荷物受取に1時間程度みておく
-- 19:00頃　Grabカーで20〜40分移動し、[Ramayana Suites & Resort](https://www.booking.com/searchresults.html?ss=Ramayana+Suites+%26+Resort+Bali)にチェックイン（クタビーチ・ショッピングエリアまで徒歩圏内）
+- 19:00頃　Grabカーで20〜40分移動し、[Ramayana Suites & Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D45562)にチェックイン（クタビーチ・ショッピングエリアまで徒歩圏内）
 
 **2日目（終日フリー）**
 - 09:00　ホテルでゆっくり、またはクタビーチでサーフィンレッスン
@@ -95,7 +95,7 @@ excerpt: "「神々の島」バリ島。ビーチリゾートから文化体験�
 **1日目**
 - 11:00　成田発（ガルーダ・インドネシア航空直行便、所要7〜8時間）
 - 17:25　デンパサール着（現地時間、時差-1時間）。入国審査・荷物受取に1時間程度みておく
-- 19:00頃　Grabカーで20〜40分移動し、[Sheraton Bali Kuta Resort](https://www.booking.com/searchresults.html?ss=Sheraton+Bali+Kuta+Resort)にチェックイン
+- 19:00頃　Grabカーで20〜40分移動し、[Sheraton Bali Kuta Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D407502)にチェックイン
 
 **2日目（終日フリー）**
 - 09:00　ホテルでゆっくり、またはクタビーチでサーフィンレッスン

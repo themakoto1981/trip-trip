@@ -1077,8 +1077,8 @@ gili-air-guide:
 
 koh-larn-guide:
   - name: タワエンビーチ
-    lat: 12.9280
-    lng: 100.7850
+    lat: 12.9250
+    lng: 100.7814
     desc: 島で一番賑やかなビーチ、レストランや売店が集まる
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Tawaen_Beach%2C_Ko_Lan_0001.jpg/960px-Tawaen_Beach%2C_Ko_Lan_0001.jpg"
     category: beach
@@ -1092,13 +1092,13 @@ koh-larn-guide:
       - "バナナボートやジェットスキーに挑戦する"
       - "ビーチ沿いの食堂でシーフードランチ"
   - name: タワエン桟橋
-    lat: 12.9278
-    lng: 100.7847
+    lat: 12.9246
+    lng: 100.7810
     desc: パタヤからのスピードボートが発着する桟橋
     type: port
   - name: サメービーチ
-    lat: 12.9190
-    lng: 100.7720
+    lat: 12.9128
+    lng: 100.7688
     desc: 島の西側、夕日の名所として知られる静かなビーチ
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Samae_Beach%2C_Ko_Lan_0001.jpg/960px-Samae_Beach%2C_Ko_Lan_0001.jpg"
     category: beach
@@ -1111,8 +1111,8 @@ koh-larn-guide:
       - "夕方に訪れて夕日を眺める"
       - "静かなビーチでのんびり泳ぐ"
   - name: トンラーンビーチ
-    lat: 12.9230
-    lng: 100.7900
+    lat: 12.9308
+    lng: 100.7841
     desc: 小さく穴場な入江のビーチ、シュノーケリングに向く
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Tong_Lang_Beach%2C_Ko_Lan_0001.jpg/960px-Tong_Lang_Beach%2C_Ko_Lan_0001.jpg"
     category: beach
@@ -1125,8 +1125,8 @@ koh-larn-guide:
       - "シュノーケリングで魚を観察する"
       - "静かなビーチで読書やのんびり"
   - name: サンライズビューポイント
-    lat: 12.9120
-    lng: 100.7830
+    lat: 12.9230
+    lng: 100.7790
     desc: パタヤ市街と海を見渡せる展望スポット
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Panorama_of_Pattaya_city_from_Sunrise_Viewpoint_on_Ko_Lan_island.jpg/960px-Panorama_of_Pattaya_city_from_Sunrise_Viewpoint_on_Ko_Lan_island.jpg"
     category: spot
@@ -1137,8 +1137,8 @@ koh-larn-guide:
     ways:
       - "パタヤ市街を見渡す写真スポットとして立ち寄る"
   - name: DuLay Koh Larn
-    lat: 12.9283
-    lng: 100.7853
+    lat: 12.9252
+    lng: 100.7816
     desc: タワエンビーチ沿いのレストラン、シーフードが人気
     category: restaurant
     tags: ["レストラン", "シーフード"]
@@ -1148,22 +1148,22 @@ koh-larn-guide:
     ways:
       - "ビーチを眺めながらシーフードランチ"
   - name: "Island Inn"
-    lat: 12.9275
-    lng: 100.7845
+    lat: 12.9246
+    lng: 100.7808
     desc: "やす旅向け、タワエンビーチ近くの手頃な宿"
     type: hotel
     letter: "や"
     url: "https://www.booking.com/searchresults.html?ss=Island+Inn+Koh+Larn"
   - name: "Montra Resort"
-    lat: 12.9270
-    lng: 100.7855
+    lat: 12.9255
+    lng: 100.7822
     desc: "ゆる旅向け、タワエンビーチの標準リゾート"
     type: hotel
     letter: "ゆ"
     url: "https://www.booking.com/searchresults.html?ss=Montra+Resort+Koh+Larn"
   - name: "The Castello Resort Koh Larn"
-    lat: 12.9200
-    lng: 100.7760
+    lat: 12.9170
+    lng: 100.7740
     desc: "らぐ旅向け、島内屈指の上質リゾート"
     type: hotel
     letter: "ら"

@@ -45,7 +45,7 @@ excerpt: "「アジアNo.1リゾート」とも称されるベトナム最大の
 - 02:00　羽田発（Vietjet Air直行便）
 - 06:10　ホーチミン着。入国審査・荷物の再チェックインに2.5時間ほどみておく
 - 11:00　ホーチミン発（Vietjet Air国内線）→ 11:55頃　フーコック着
-- 12:30頃　[Sol by Meliá Phu Quoc](https://www.booking.com/searchresults.html?ss=Sol+by+Melia+Phu+Quoc)に荷物を預け、ホテルのビーチで軽く過ごす（5つ星、1泊9,000円前後から）
+- 12:30頃　[Sol by Meliá Phu Quoc](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1266957)に荷物を預け、ホテルのビーチで軽く過ごす（5つ星、1泊9,000円前後から）
 - 14:00　正式にチェックイン
 
 **2日目（終日フリー）**
@@ -73,7 +73,7 @@ excerpt: "「アジアNo.1リゾート」とも称されるベトナム最大の
 
 **2日目（2泊目：フーコック泊）**
 - 11:45　ホーチミン発（ベトナム航空国内線）→ 12:40頃　フーコック着
-- 13:00頃　[Seashells Phu Quoc Hotel & Spa](https://www.booking.com/searchresults.html?ss=Seashells+Phu+Quoc+Hotel+%26+Spa)に到着、チェックイン（ズオンドン中心部）
+- 13:00頃　[Seashells Phu Quoc Hotel & Spa](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D2430159)に到着、チェックイン（ズオンドン中心部）
 
 **3日目（3泊目：フーコック泊・終日フリー）**
 - 09:00　ロングビーチでのんびり
@@ -100,7 +100,7 @@ excerpt: "「アジアNo.1リゾート」とも称されるベトナム最大の
 
 **2日目（2泊目：フーコック泊）**
 - 11:45　ホーチミン発（ベトナム航空国内線）→ 12:40頃　フーコック着
-- 13:00頃　[InterContinental Phu Quoc Long Beach Resort](https://www.booking.com/searchresults.html?ss=InterContinental+Phu+Quoc+Long+Beach+Resort)に到着、チェックイン（ロングビーチ沿いの高級リゾート）
+- 13:00頃　[InterContinental Phu Quoc Long Beach Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D3648660)に到着、チェックイン（ロングビーチ沿いの高級リゾート）
 
 **3日目（3泊目：フーコック泊・終日フリー）**
 - 09:00　ロングビーチでのんびり

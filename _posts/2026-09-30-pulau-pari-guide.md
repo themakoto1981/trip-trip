@@ -80,7 +80,7 @@ excerpt: "ジャカルタから日帰りも可能な離島リゾート、パリ�
 **1日目**
 - 10:25　羽田発（ANA直行便NH855、所要7時間50分）
 - 16:15　ジャカルタ着（時差-2時間）。入国審査・荷物受取に1時間程度みておく
-- 18:00頃　[Mercure Convention Center Ancol Jakarta](https://www.booking.com/searchresults.html?ss=Mercure+Convention+Center+Ancol+Jakarta)にチェックイン（アンチョール地区、4つ星）
+- 18:00頃　[Mercure Convention Center Ancol Jakarta](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D49739)にチェックイン（アンチョール地区、4つ星）
 
 **2日目**
 - 07:00　ホテルを出発、Grabカーで発着港（ベイウォークまたはアンチョール）へ
@@ -99,7 +99,7 @@ excerpt: "ジャカルタから日帰りも可能な離島リゾート、パリ�
 **1日目**
 - 10:25　羽田発（ANA直行便NH855、所要7時間50分）
 - 16:15　ジャカルタ着（時差-2時間）。入国審査・荷物受取に1時間程度みておく
-- 18:00頃　[Mandarin Oriental Jakarta](https://www.booking.com/searchresults.html?ss=Mandarin+Oriental+Jakarta)にチェックイン（5つ星。市内中心部のため港までは車で20〜30分ほど）
+- 18:00頃　[Mandarin Oriental Jakarta](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D461846)にチェックイン（5つ星。市内中心部のため港までは車で20〜30分ほど）
 
 **2日目**
 - 07:00　ホテルを出発、Grabカーで発着港（ベイウォークまたはアンチョール）へ

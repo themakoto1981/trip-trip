@@ -30,7 +30,7 @@ excerpt: "雨季のチャン島に実際に行ってきました。まさかの�
 
 コンディション悪めな中、バスに揺られること2時間。バス酔いもあり、降りてすぐにカフェへ直行して休憩。店内にはガネーシャ像が大量に置いてあって、カフェなのか仏具店なのかよく分からない空間でした。
 
-パタヤのホテルは[Zand Morada Pattaya](https://www.booking.com/searchresults.html?ss=Zand+Morada+Pattaya)。繁華街から少し外れた場所を選んでみたのですが、あの賑やかすぎる雰囲気ではなく、思いのほか快適でした。メールの返信だけ済ませて、あとはホテル前のビーチでビールを飲んで就寝。翌朝からいよいよチャン島への移動です。
+パタヤのホテルは[Zand Morada Pattaya](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D2011272)。繁華街から少し外れた場所を選んでみたのですが、あの賑やかすぎる雰囲気ではなく、思いのほか快適でした。メールの返信だけ済ませて、あとはホテル前のビーチでビールを飲んで就寝。翌朝からいよいよチャン島への移動です。
 
 ![パタヤのビーチで夕日を見ながらチャンビール](/assets/images/koh-chang-taikenki/pattaya-beer-sunset.jpg)
 
@@ -48,7 +48,7 @@ excerpt: "雨季のチャン島に実際に行ってきました。まさかの�
 
 ## まさかの客室アップグレード
 
-泊まったのは[The Aiyapura Koh Chang](https://www.booking.com/searchresults.html?ss=The+Aiyapura+Koh+Chang)。天気はめちゃくちゃ良いのに、雨季のせいかホテルにお客さんがほとんどいません。おかげで、税込1万円の一番安い部屋を予約していたはずが、気づけば3万円くらいしそうな海の前の貸切ヴィラに通されていました。
+泊まったのは[The Aiyapura Koh Chang](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1105)。天気はめちゃくちゃ良いのに、雨季のせいかホテルにお客さんがほとんどいません。おかげで、税込1万円の一番安い部屋を予約していたはずが、気づけば3万円くらいしそうな海の前の貸切ヴィラに通されていました。
 
 ![アップグレードしてもらった客室](/assets/images/koh-chang-taikenki/villa-room.jpg)
 
@@ -86,7 +86,7 @@ excerpt: "雨季のチャン島に実際に行ってきました。まさかの�
 
 ![謎のフルーツの正体、サラック（スネークフルーツ）](/assets/images/koh-chang-taikenki/salak.jpg)
 
-5時間のバス移動は、間に1日休みを挟んでいたとはいえかなり堪えました。パタヤではバスターミナル近くの[Manhattan Pattaya Hotel](https://www.booking.com/searchresults.html?ss=Manhattan+Pattaya+Hotel)を取って、さっさと就寝。こういう旅をずっと続けられるかというと、体力勝負なところがあります。
+5時間のバス移動は、間に1日休みを挟んでいたとはいえかなり堪えました。パタヤではバスターミナル近くの[Manhattan Pattaya Hotel](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D28723339)を取って、さっさと就寝。こういう旅をずっと続けられるかというと、体力勝負なところがあります。
 
 ## 今回の移動まとめ
 

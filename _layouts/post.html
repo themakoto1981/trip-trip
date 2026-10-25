@@ -460,7 +460,7 @@ layout: default
         var el = document.getElementById('spot-summary-wrap');
         var s = mySpots.filter(function (b) { return b.name === selectedName; })[0];
         if (!s) {
-          el.innerHTML = '<div class="spot-hint">地図のピンや一覧のスポットをタップすると、写真と説明が表示され、Googleマップやホテルサイトへ移動します。四角のアイコンはプラン別のホテルです。</div>';
+          el.innerHTML = '';
           return;
         }
         var isHotel = s.type === 'hotel';

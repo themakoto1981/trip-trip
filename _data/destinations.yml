@@ -793,3 +793,32 @@
     ragu: [TR01, SC03, HT11]
   url: /2026/10/24/koh-larn-guide/
   tags: { beach: 5, resort: 2, island: 4, city_base: 1, sightseeing: 2, relax: 4, party: 2, activity: 4 }
+
+- name: ペルヘンティアン諸島
+  en_name: "Perhentian Islands, Malaysia"
+  slug: perhentian-guide
+  country: マレーシア
+  country_slug: malaysia
+  lat: 5.9167
+  lng: 102.7333
+  flight_min: 40000
+  flight_max: 150000
+  hotel_min: 3000
+  hotel_max: 30000
+  transport_min: 1500
+  transport_max: 4000
+  food_min: 2000
+  food_max: 5000
+  flight_hours: "約10〜12時間（クアラルンプール経由、クアラブス桟橋からスピードボートで約40分）"
+  recommended_nights: "3泊以上"
+  visa: "不要（90日以内）"
+  photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Perhentian_Islands%2C_Malaysia%2C_Beach.jpg/960px-Perhentian_Islands%2C_Malaysia%2C_Beach.jpg"
+  photo_credit_url: "https://commons.wikimedia.org/wiki/File:Perhentian_Islands,_Malaysia,_Beach.jpg"
+  suited_for: [couple, friends, solo]
+  best_months: [5, 6, 7, 8, 9]
+  budget_tags:
+    yasu: [TR02, SC03, HT16]
+    yuru: [TR01, SC03, HT03]
+    ragu: [TR01, SC03, HT11]
+  url: /2026/10/25/perhentian-guide/
+  tags: { beach: 5, resort: 2, island: 5, city_base: 1, sightseeing: 2, relax: 4, party: 2, activity: 5 }

@@ -46,7 +46,7 @@ excerpt: "「ベトナム最後の楽園」と呼ばれる南シナ海の秘島�
 ## おすすめ旅程（やす旅向け／ホーチミン1泊・3泊4日の例）
 
 **1日目**
-- 12:00　羽田発（Vietjet Air直行便）→ 16:10　ホーチミン着。入国審査後、[ibis Saigon Airport](https://www.booking.com/searchresults.html?ss=ibis+Saigon+Airport)の無料シャトルでホテルへ、1泊
+- 12:00　羽田発（Vietjet Air直行便）→ 16:10　ホーチミン着。入国審査後、[ibis Saigon Airport](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1602693)の無料シャトルでホテルへ、1泊
 
 **2日目**
 - 11:05　ホーチミン発（ベトナム航空、約50分）→ 11:55　コンダオ着
@@ -69,11 +69,11 @@ excerpt: "「ベトナム最後の楽園」と呼ばれる南シナ海の秘島�
 ## おすすめ旅程（ゆる旅向け／ホーチミン1泊・3泊4日の例）
 
 **1日目**
-- 17:45　羽田発（ANA直行便NH891）→ 21:55　ホーチミン着。入国審査後、[ibis Saigon Airport](https://www.booking.com/searchresults.html?ss=ibis+Saigon+Airport)の無料シャトルでホテルへ、1泊
+- 17:45　羽田発（ANA直行便NH891）→ 21:55　ホーチミン着。入国審査後、[ibis Saigon Airport](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1602693)の無料シャトルでホテルへ、1泊
 
 **2日目**
 - 11:05　ホーチミン発（ベトナム航空、約50分）→ 11:55　コンダオ着
-- 12:10頃　タクシーで中心地へ（約10〜15分）。[Tan Son Nhat Con Dao Resort](https://www.booking.com/searchresults.html?ss=Tan+Son+Nhat+Con+Dao+Resort)に荷物を預ける
+- 12:10頃　タクシーで中心地へ（約10〜15分）。[Tan Son Nhat Con Dao Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D239657)に荷物を預ける
 - 12:30　中心地の食堂で昼食
 - 14:00　チェックイン
 
@@ -95,12 +95,12 @@ excerpt: "「ベトナム最後の楽園」と呼ばれる南シナ海の秘島�
 ## おすすめ旅程（らぐ旅向け／ホーチミン1泊・3泊4日の例）
 
 **1日目**
-- 17:45　羽田発（ANA直行便NH891）→ 21:55　ホーチミン着。入国審査後、[Grabカー](/grab/)で市内の[Novotel Saigon Centre](https://www.booking.com/searchresults.html?ss=Novotel+Saigon+Centre)へ、1泊
+- 17:45　羽田発（ANA直行便NH891）→ 21:55　ホーチミン着。入国審査後、[Grabカー](/grab/)で市内の[Novotel Saigon Centre](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D315667)へ、1泊
 
 **2日目**
 - 09:30頃　ホテルから空港へ移動
 - 11:05　ホーチミン発（ベトナム航空、約50分）→ 11:55　コンダオ着
-- 12:15頃　リゾート手配の送迎で[Six Senses Con Dao](https://www.booking.com/searchresults.html?ss=Six+Senses+Con+Dao)へ、荷物を預ける
+- 12:15頃　リゾート手配の送迎で[Six Senses Con Dao](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D242025)へ、荷物を預ける
 - 12:45　レストランで昼食
 - 14:00　プライベートプールヴィラにチェックイン
 

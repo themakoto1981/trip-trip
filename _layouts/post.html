@@ -168,16 +168,19 @@ layout: default
         '上質な滞在で、ゆったり贅沢に過ごしたい方に。']
     ];
 
-    var tiersHtml = '<div class="tiers-header">';
-    tiersHtml += '<button type="button" class="tiers-info-btn" aria-label="プランの説明">ⓘ プランの違い</button>';
-    tiersHtml += '</div>';
-    tiersHtml += '<div class="tiers-popup" hidden>';
-    tiersHtml += '<table class="tiers-popup-table"><thead><tr><th>プラン</th><th>航空会社</th><th>宿泊タイプ</th></tr></thead><tbody>';
-    tierDefs.forEach(function (t) {
-      tiersHtml += '<tr><td>' + t.name + '</td><td>' + t.airline + '</td><td>' + t.hotel + '</td></tr>';
-    });
-    tiersHtml += '</tbody></table>';
-    tiersHtml += '</div>';
+    var tiersHtml = '';
+    if (!isSlideTrial) {
+      tiersHtml += '<div class="tiers-header">';
+      tiersHtml += '<button type="button" class="tiers-info-btn" aria-label="プランの説明">ⓘ プランの違い</button>';
+      tiersHtml += '</div>';
+      tiersHtml += '<div class="tiers-popup" hidden>';
+      tiersHtml += '<table class="tiers-popup-table"><thead><tr><th>プラン</th><th>航空会社</th><th>宿泊タイプ</th></tr></thead><tbody>';
+      tierDefs.forEach(function (t) {
+        tiersHtml += '<tr><td>' + t.name + '</td><td>' + t.airline + '</td><td>' + t.hotel + '</td></tr>';
+      });
+      tiersHtml += '</tbody></table>';
+      tiersHtml += '</div>';
+    }
     var tierKeyMap = { 'やす旅': 'yasu', 'ゆる旅': 'yuru', 'らぐ旅': 'ragu' };
     function renderBudgetChips(tierName) {
       var key = tierKeyMap[tierName];
@@ -200,6 +203,7 @@ layout: default
       }).join('') + '</div>';
     }
 
+    if (isSlideTrial) { tiersHtml += '<div class="budget-tiers-slide-wrap">'; }
     tiersHtml += '<div class="budget-tiers-list' + (isSlideTrial ? ' budget-tiers-slide' : '') + '">';
     budgetTiers.forEach(function (t, i) {
       var recClass = (i === 1) ? ' is-recommended' : '';
@@ -217,6 +221,9 @@ layout: default
     tiersHtml += '</div>';
 
     if (isSlideTrial) {
+      tiersHtml += '<button type="button" class="budget-tier-nav budget-tier-nav-prev" aria-label="前のプラン">‹</button>';
+      tiersHtml += '<button type="button" class="budget-tier-nav budget-tier-nav-next" aria-label="次のプラン">›</button>';
+      tiersHtml += '</div>';
       tiersHtml += '<div class="budget-tier-dots">' + budgetTiers.map(function (t, i) {
         return '<button type="button" class="budget-tier-pagedot' + (i === 1 ? ' active' : '') + '" data-idx="' + i + '" aria-label="' + t[0] + '"></button>';
       }).join('') + '</div>';
@@ -754,8 +761,12 @@ layout: default
         var tabBtns = document.querySelectorAll('.budget-tier-tab');
         var dotEls = document.querySelectorAll('.budget-tier-pagedot');
         var realCards = slideEl ? Array.prototype.slice.call(slideEl.querySelectorAll('.budget-tier-row')) : [];
+        var navPrev = document.querySelector('.budget-tier-nav-prev');
+        var navNext = document.querySelector('.budget-tier-nav-next');
+        var currentIdx = 1;
 
         function setActiveTierIdx(idx) {
+          currentIdx = idx;
           tabBtns.forEach(function (b, i) { b.classList.toggle('active', i === idx); });
           dotEls.forEach(function (d, i) { d.classList.toggle('active', i === idx); });
         }
@@ -800,6 +811,20 @@ layout: default
           var slots = [{ el: cloneOfLast, idx: realCards.length - 1, clone: true }]
             .concat(realCards.map(function (c, i) { return { el: c, idx: i, clone: false }; }))
             .concat([{ el: cloneOfFirst, idx: 0, clone: true }]);
+
+          // 矢印ボタン：realCards[i]はslots[i+1]にあるので、隣はslots[currentIdx]/slots[currentIdx+2]
+          if (navPrev) {
+            navPrev.addEventListener('click', function () {
+              var target = slots[currentIdx];
+              if (target) { goToCard(target.el, true); }
+            });
+          }
+          if (navNext) {
+            navNext.addEventListener('click', function () {
+              var target = slots[currentIdx + 2];
+              if (target) { goToCard(target.el, true); }
+            });
+          }
 
           var scrollTimer = null;
           slideEl.addEventListener('scroll', function () {

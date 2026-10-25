@@ -266,52 +266,6 @@ layout: default
         noteList.remove();
       }
 
-      if (isSlideTrial) {
-        var slideEl = document.querySelector('.budget-tiers-slide');
-        var tabBtns = document.querySelectorAll('.budget-tier-tab');
-        var dotEls = document.querySelectorAll('.budget-tier-pagedot');
-        var cardEls = slideEl ? slideEl.querySelectorAll('.budget-tier-row') : [];
-        function setActiveTierIdx(idx) {
-          tabBtns.forEach(function (b, i) { b.classList.toggle('active', i === idx); });
-          dotEls.forEach(function (d, i) { d.classList.toggle('active', i === idx); });
-        }
-        function cardOffsetLeft(card) {
-          return card.getBoundingClientRect().left - slideEl.getBoundingClientRect().left + slideEl.scrollLeft;
-        }
-        tabBtns.forEach(function (btn) {
-          btn.addEventListener('click', function () {
-            var idx = parseInt(btn.dataset.idx, 10);
-            var card = cardEls[idx];
-            if (card && slideEl) { slideEl.scrollTo({ left: cardOffsetLeft(card), behavior: 'smooth' }); }
-            setActiveTierIdx(idx);
-          });
-        });
-        dotEls.forEach(function (dot) {
-          dot.addEventListener('click', function () {
-            var idx = parseInt(dot.dataset.idx, 10);
-            var card = cardEls[idx];
-            if (card && slideEl) { slideEl.scrollTo({ left: cardOffsetLeft(card), behavior: 'smooth' }); }
-            setActiveTierIdx(idx);
-          });
-        });
-        if (slideEl && cardEls.length) {
-          var scrollTimer = null;
-          slideEl.addEventListener('scroll', function () {
-            if (scrollTimer) { clearTimeout(scrollTimer); }
-            scrollTimer = setTimeout(function () {
-              var center = slideEl.scrollLeft + slideEl.clientWidth / 2;
-              var closestIdx = 0;
-              var closestDist = Infinity;
-              cardEls.forEach(function (card, i) {
-                var cardCenter = cardOffsetLeft(card) + card.offsetWidth / 2;
-                var dist = Math.abs(cardCenter - center);
-                if (dist < closestDist) { closestDist = dist; closestIdx = i; }
-              });
-              setActiveTierIdx(closestIdx);
-            }, 100);
-          });
-        }
-      }
     }
 
     // 地図の描画は他の要素と切り離す（失敗しても早見表・予算表に影響させない）
@@ -789,6 +743,84 @@ layout: default
       });
     } catch (e) {
       if (window.console && console.error) { console.error('itinerary timeline failed:', e); }
+    }
+
+    // 予算プラン横スライドのタブ/ドット連動＋無限ループ（ラン島トライアルのみ）
+    // 旅程を含むカードの内容が確定した後でないとクローンに旅程が入らないため、
+    // 旅程タイムライン表示より後ろで実行する
+    try {
+      if (isSlideTrial) {
+        var slideEl = document.querySelector('.budget-tiers-slide');
+        var tabBtns = document.querySelectorAll('.budget-tier-tab');
+        var dotEls = document.querySelectorAll('.budget-tier-pagedot');
+        var realCards = slideEl ? Array.prototype.slice.call(slideEl.querySelectorAll('.budget-tier-row')) : [];
+
+        function setActiveTierIdx(idx) {
+          tabBtns.forEach(function (b, i) { b.classList.toggle('active', i === idx); });
+          dotEls.forEach(function (d, i) { d.classList.toggle('active', i === idx); });
+        }
+        function cardOffsetLeft(card) {
+          return card.getBoundingClientRect().left - slideEl.getBoundingClientRect().left + slideEl.scrollLeft;
+        }
+        function goToCard(card, smooth) {
+          if (!card || !slideEl) { return; }
+          slideEl.scrollTo({ left: cardOffsetLeft(card), behavior: smooth ? 'smooth' : 'auto' });
+        }
+
+        tabBtns.forEach(function (btn) {
+          btn.addEventListener('click', function () {
+            var idx = parseInt(btn.dataset.idx, 10);
+            goToCard(realCards[idx], true);
+            setActiveTierIdx(idx);
+          });
+        });
+        dotEls.forEach(function (dot) {
+          dot.addEventListener('click', function () {
+            var idx = parseInt(dot.dataset.idx, 10);
+            goToCard(realCards[idx], true);
+            setActiveTierIdx(idx);
+          });
+        });
+
+        if (slideEl && realCards.length > 1) {
+          // 先頭の前に最後のクローン、末尾の後に先頭のクローンを置いて
+          // スワイプで端まで行っても途切れず、ぐるぐる回り続けられるようにする
+          var cloneOfLast = realCards[realCards.length - 1].cloneNode(true);
+          var cloneOfFirst = realCards[0].cloneNode(true);
+          cloneOfLast.setAttribute('data-clone', 'true');
+          cloneOfFirst.setAttribute('data-clone', 'true');
+          cloneOfLast.removeAttribute('data-tier-name');
+          cloneOfFirst.removeAttribute('data-tier-name');
+          cloneOfLast.setAttribute('aria-hidden', 'true');
+          cloneOfFirst.setAttribute('aria-hidden', 'true');
+          slideEl.insertBefore(cloneOfLast, realCards[0]);
+          slideEl.appendChild(cloneOfFirst);
+          goToCard(realCards[0], false);
+
+          var slots = [{ el: cloneOfLast, idx: realCards.length - 1, clone: true }]
+            .concat(realCards.map(function (c, i) { return { el: c, idx: i, clone: false }; }))
+            .concat([{ el: cloneOfFirst, idx: 0, clone: true }]);
+
+          var scrollTimer = null;
+          slideEl.addEventListener('scroll', function () {
+            if (scrollTimer) { clearTimeout(scrollTimer); }
+            scrollTimer = setTimeout(function () {
+              var center = slideEl.scrollLeft + slideEl.clientWidth / 2;
+              var closest = slots[0];
+              var closestDist = Infinity;
+              slots.forEach(function (s) {
+                var c = cardOffsetLeft(s.el) + s.el.offsetWidth / 2;
+                var d = Math.abs(c - center);
+                if (d < closestDist) { closestDist = d; closest = s; }
+              });
+              setActiveTierIdx(closest.idx);
+              if (closest.clone) { goToCard(realCards[closest.idx], false); }
+            }, 100);
+          });
+        }
+      }
+    } catch (e) {
+      if (window.console && console.error) { console.error('budget slide loop failed:', e); }
     }
   })();
 

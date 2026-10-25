@@ -90,7 +90,7 @@ exclude_from_adjacent_nav: true
 
 ### The Taaras Beach & Spa Resort
 
-私がレダン島で泊まったのは、[The Taaras Beach & Spa Resort](https://www.booking.com/searchresults.html?ss=The+Taaras+Beach+%26+Spa+Resort+Redang)。
+私がレダン島で泊まったのは、[The Taaras Beach & Spa Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D44569)。
 
 - ホテルの目の前がビーチ
 - プライベート感が強い
@@ -110,7 +110,7 @@ exclude_from_adjacent_nav: true
 
 ### ホテルに籠もることもできる
 
-今回泊まったのは[アイディリック コンセプト リゾート](https://www.booking.com/searchresults.html?ss=Idyllic+Concept+Resort+Koh+Lipe)。
+今回泊まったのは[アイディリック コンセプト リゾート](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D108588)。
 
 ![リペ島のガーデンリゾート看板](/assets/images/koh-lipe-taikenki/koh-lipe-garden-resort-sign.jpg)
 

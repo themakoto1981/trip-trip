@@ -44,7 +44,7 @@ excerpt: "パタヤからスピードボートでわずか20分。コーラル�
 
 **1日目**
 - 08:55　成田発（Vietjet Air直行便）→ 14:30　バンコク（スワンナプーム空港）着
-- Grabタクシーでパタヤへ移動し、[Pattaya Inn Hotel](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D64741890)に1泊
+- 16:30頃　Grabタクシーでパタヤへ移動し、[Pattaya Inn Hotel](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D64741890)に1泊
 
 **2日目**
 - 09:00頃　バリハイ桟橋の窓口でチケットを購入し、スピードボートでラン島へ（予約不要、片道150〜200THB／約600〜800円、約15〜20分）
@@ -64,7 +64,7 @@ excerpt: "パタヤからスピードボートでわずか20分。コーラル�
 
 **1日目**
 - 11:05　羽田発（ANA直行便NH847）→ 16:20　バンコク（スワンナプーム空港）着
-- Grabタクシーでパタヤへ移動し、[Balihai Bay Pattaya](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D863180)に1泊
+- 18:00頃　Grabタクシーでパタヤへ移動し、[Balihai Bay Pattaya](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D863180)に1泊
 
 **2日目**
 - 09:00頃　バリハイ桟橋の窓口でチケットを購入し、スピードボートでラン島へ（予約不要、片道150〜200THB／約600〜800円、約15〜20分）
@@ -84,7 +84,7 @@ excerpt: "パタヤからスピードボートでわずか20分。コーラル�
 
 **1日目**
 - 11:05　羽田発（ANA直行便NH847）→ 16:20　バンコク（スワンナプーム空港）着
-- Grabタクシーでパタヤへ移動し、[InterContinental Pattaya Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1192737)に1泊
+- 18:00頃　Grabタクシーでパタヤへ移動し、[InterContinental Pattaya Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1192737)に1泊
 
 **2日目**
 - 09:00頃　バリハイ桟橋の窓口でチケットを購入し、スピードボートでラン島へ（予約不要、片道150〜200THB／約600〜800円、約15〜20分）

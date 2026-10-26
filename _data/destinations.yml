@@ -822,3 +822,32 @@
     ragu: [TR01, SC03, HT11]
   url: /2026/10/25/perhentian-guide/
   tags: { beach: 5, resort: 2, island: 5, city_base: 1, sightseeing: 2, relax: 4, party: 2, activity: 5 }
+
+- name: コクード島
+  en_name: "Koh Kood, Thailand"
+  slug: koh-kood-guide
+  country: タイ
+  country_slug: thailand
+  lat: 11.6500
+  lng: 102.5500
+  flight_min: 50000
+  flight_max: 150000
+  hotel_min: 1500
+  hotel_max: 20000
+  transport_min: 3000
+  transport_max: 8000
+  food_min: 2500
+  food_max: 5500
+  flight_hours: "約10〜12時間（バンコク経由、トラート空港から車＋フェリーで約2時間）"
+  recommended_nights: "3泊以上"
+  visa: "不要（30日以内）"
+  photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Koh_Kut%2C_Thailand%2C_Palms_on_the_beach.jpg/960px-Koh_Kut%2C_Thailand%2C_Palms_on_the_beach.jpg"
+  photo_credit_url: "https://commons.wikimedia.org/wiki/File:Koh_Kut,_Thailand,_Palms_on_the_beach.jpg"
+  suited_for: [couple, solo, friends]
+  best_months: [12, 1, 2, 3]
+  budget_tags:
+    yasu: [TR02, HT01, SC05]
+    yuru: [TR01, TR04, HT03]
+    ragu: [TR01, TR04, HT11]
+  url: /2026/10/26/koh-kood-guide/
+  tags: { beach: 4, resort: 3, island: 5, city_base: 1, sightseeing: 2, relax: 5, party: 1, activity: 3 }

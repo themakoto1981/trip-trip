@@ -1232,3 +1232,92 @@ perhentian-guide:
     type: hotel
     letter: "ら"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D94317936"
+
+koh-kood-guide:
+  - name: クロンチャオビーチ
+    lat: 11.6050
+    lng: 102.5250
+    desc: 島の中心にある一番開けたビーチ、宿やレストランが集まる
+    category: beach
+    tags: ["ビーチ", "食事", "シュノーケリング"]
+    short: "島の中心にあるビーチ。穏やかな海と白砂が続き、宿やレストランも集まっています。"
+    long:
+      - "コクード島で最も開けたビーチで、バックパッカー向けの宿からリゾートまで集まっています。"
+      - "波が穏やかで砂浜はやわらかく、泳ぎやシュノーケリングに向いています。"
+    ways:
+      - "ビーチでのんびり泳ぐ"
+      - "シュノーケリングで魚を探す"
+  - name: クロンチャオ滝
+    lat: 11.6020
+    lng: 102.5530
+    desc: ジャングルの中の大きな滝、自然のプールで泳げる
+    category: spot
+    tags: ["滝", "自然"]
+    short: "島で最も大きな滝。ジャングルの中にあり、滝つぼで泳ぐこともできます。"
+    long:
+      - "クロンチャオビーチから車で数分の、島を代表する滝。"
+      - "滝の下は自然のプールになっていて、暑い日の水浴びにちょうどいい場所です。"
+    ways:
+      - "滝つぼで水浴びする"
+      - "木陰でのんびり過ごす"
+  - name: アオタパオビーチ
+    lat: 11.6300
+    lng: 102.5200
+    desc: 島で最も長いビーチ、人が少なく静か
+    category: beach
+    tags: ["ビーチ", "静か"]
+    short: "島で最も長いビーチ。クロンチャオほど開発されておらず、静かに過ごせます。"
+    long:
+      - "クロンチャオビーチの北に位置する長い砂浜。"
+      - "人が少なく、ゆったりと散歩したい人に向いています。"
+    ways:
+      - "砂浜を散歩する"
+      - "静かなビーチで読書やのんびり"
+  - name: アオプラオビーチ
+    lat: 11.5650
+    lng: 102.5300
+    desc: 西海岸南端の三日月型ビーチ、小さな宿だけで静か
+    category: beach
+    tags: ["ビーチ", "静か", "夕日"]
+    short: "西海岸の南にある三日月型のビーチ。小さな宿しかなく、静かに過ごせます。"
+    long:
+      - "緑に囲まれた三日月型のビーチ。舗装されていない道を進んだ先にあります。"
+      - "宿が少なく人も少ないため、プライベート感のある時間を過ごせます。"
+    ways:
+      - "静かな浜辺でのんびり過ごす"
+      - "夕方に訪れて夕日を眺める"
+  - name: バンバオ漁村
+    lat: 11.5750
+    lng: 102.5900
+    desc: 水上に建つ漁村、シーフードレストランが並ぶ
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Koh_Kut%2C_Thailand%2C_Bang_Bao.jpg/960px-Koh_Kut%2C_Thailand%2C_Bang_Bao.jpg"
+    category: spot
+    tags: ["漁村", "シーフード"]
+    short: "島の南東にある、桟橋沿いに家が並ぶ小さな漁村。シーフードの食堂があります。"
+    long:
+      - "水の上に家や桟橋が連なる、素朴な漁村。"
+      - "地元の食堂で新鮮なシーフードを味わえます。"
+    ways:
+      - "桟橋沿いを散策する"
+      - "漁村の食堂でシーフードランチ"
+  - name: "Mangrove Bungalow and Restaurant"
+    lat: 11.6040
+    lng: 102.5240
+    desc: "やす旅向け、クロンチャオビーチ周辺の素朴なバンガロー"
+    type: hotel
+    letter: "や"
+    url: "https://www.booking.com/searchresults.html?ss=Mangrove+Bungalow+and+Restaurant+Koh+Kood"
+  - name: "Koh Kood Beach Resort"
+    lat: 11.6090
+    lng: 102.5240
+    desc: "ゆる旅向け、ビーチ近くのバンガロー型リゾート"
+    type: hotel
+    letter: "ゆ"
+    url: "https://www.booking.com/searchresults.html?ss=Koh+Kood+Beach+Resort"
+  - name: "Away Koh Kood"
+    lat: 11.6030
+    lng: 102.5230
+    desc: "らぐ旅向け、クロンチャオビーチ対岸の隠れ家リゾート"
+    type: hotel
+    letter: "ら"
+    url: "https://www.booking.com/searchresults.html?ss=Away+Koh+Kood"

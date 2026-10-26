@@ -215,10 +215,14 @@ layout: default
       var recClass = (i === 1) ? ' is-recommended' : '';
       tiersHtml += '<div class="budget-tier-row' + recClass + '" data-tier-name="' + t[0] + '">';
       if (isSlideTrial) {
+        tiersHtml += '<div class="budget-tier-photo-wrap">';
         if (tierPhotoMap[t[0]]) { tiersHtml += '<img class="budget-tier-photo" src="' + tierPhotoMap[t[0]] + '" alt="' + t[0] + '">'; }
+        tiersHtml += '<div class="budget-tier-photo-caption"><span class="budget-tier-photo-name">' + t[0] + '</span><span class="budget-tier-photo-desc">' + t[3] + '</span></div>';
+        tiersHtml += '</div>';
         tiersHtml += '<div class="budget-tier-body">';
+      } else {
+        tiersHtml += '<div class="budget-tier-head"><span class="budget-tier-name-row"><span class="budget-tier-dot"></span><span class="budget-tier-name">' + t[0] + '</span></span><span class="budget-tier-desc">' + t[3] + '</span></div>';
       }
-      tiersHtml += '<div class="budget-tier-head"><span class="budget-tier-name-row"><span class="budget-tier-dot"></span><span class="budget-tier-name">' + t[0] + '</span></span><span class="budget-tier-desc">' + t[3] + '</span></div>';
       tiersHtml += '<div class="budget-tier-price-wrap"><span class="budget-tier-amount">' + t[1] + '</span><div class="budget-tier-breakdown">' + t[2] + '</div></div>';
       tiersHtml += renderBudgetChips(t[0]);
       if (isSlideTrial) { tiersHtml += '</div>'; }

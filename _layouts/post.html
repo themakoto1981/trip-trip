@@ -86,18 +86,24 @@ layout: default
     var nightsMatch = (match.recommended_nights || '').match(/(\d+)/);
     var nights = nightsMatch ? parseInt(nightsMatch[1], 10) : 2;
 
+    // ホテル価格帯（hotel_min〜hotel_max）をプランごとに分けて使う。
+    // 全プランがhotel_minを共通の床にすると、ゆる旅の最安値が「安宿に泊まる想定」になってしまい、
+    // 逆にゆる旅の上限にhotel_maxをそのまま使うと「らぐ旅想定の宿代」と重なってしまうため、
+    // やす旅は価格帯の下位25%、ゆる旅は25〜60%のホテル価格を使う
+    var hotelRange = match.hotel_max - match.hotel_min;
+    var yasuHotelMax = match.hotel_min + hotelRange * 0.25;
+    var yuruHotelMin = yasuHotelMax;
+    var yuruHotelMax = match.hotel_min + hotelRange * 0.6;
+
     var dailyMin = match.hotel_min + match.transport_min + match.food_min;
     var dailyMax = match.hotel_max + match.transport_max + match.food_max;
-    // やす旅の上限にホテル最高値（らぐ旅想定の宿代）がそのまま入ると、
-    // やす旅の「最悪ケース」がゆる旅の「最安ケース」を上回る逆転が起きる
-    // （例: コロン島 hotel_min2,000〜hotel_max40,000円）ため、
-    // やす旅はホテル価格帯の下半分までに制限する
-    var hotelBudgetCap = match.hotel_min + (match.hotel_max - match.hotel_min) / 2;
-    var dailyBudgetMax = hotelBudgetCap + match.transport_max + match.food_max;
+    var dailyBudgetMax = yasuHotelMax + match.transport_max + match.food_max;
+    var comfortDailyMin = yuruHotelMin + match.transport_min + match.food_min;
+    var comfortDailyMax = yuruHotelMax + match.transport_max + match.food_max;
     var budgetTotalMin = match.flight_min + dailyMin * nights;
     var budgetTotalMax = match.flight_min + dailyBudgetMax * nights;
-    var comfortTotalMin = match.flight_max + dailyMin * nights;
-    var comfortTotalMax = match.flight_max + dailyMax * nights;
+    var comfortTotalMin = match.flight_max + comfortDailyMin * nights;
+    var comfortTotalMax = match.flight_max + comfortDailyMax * nights;
     var luxuryTotal = match.flight_max + Math.round(dailyMax * 1.6) * nights;
 
     var companionLabelMap = { solo: '一人旅', couple: 'カップル・夫婦', family: '家族', friends: '友人グループ' };
@@ -160,7 +166,7 @@ layout: default
         'とにかく費用を抑えて、シンプルに楽しみたい方に。'],
       ['ゆる旅',
         comfortTotalMin.toLocaleString() + '〜' + comfortTotalMax.toLocaleString() + '円',
-        '航空券' + match.flight_max.toLocaleString() + '円 ＋ 宿泊/移動/食費（1泊）' + dailyMin.toLocaleString() + '〜' + dailyMax.toLocaleString() + '円 ×' + nights + '泊',
+        '航空券' + match.flight_max.toLocaleString() + '円 ＋ 宿泊/移動/食費（1泊）' + comfortDailyMin.toLocaleString() + '〜' + comfortDailyMax.toLocaleString() + '円 ×' + nights + '泊',
         '移動も観光も楽しみながら、バランスよく旅をしたい方に。'],
       ['らぐ旅',
         luxuryTotal.toLocaleString() + '円〜',

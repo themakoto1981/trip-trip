@@ -653,12 +653,12 @@ layout: default
       // ラン島トライアルのみ：旅程の各項目をキーワードから線画アイコン＋タグで表示する
       var itineraryIconPaths = {
         plane: '<path d="M21 16v-1.5l-8-5V4a1.5 1.5 0 00-3 0v5.5l-8 5V16l8-2.5V19l-2.5 1.5V22l4-1 4 1v-1.5L13 19v-5.5z"/>',
-        boat: '<path d="M4 16l1-5h14l1 5-3 2H7z"/><path d="M11 11V5h2l3 6z"/>',
+        boat: '<path d="M4 19h16l-2-7H6z"/><rect x="11" y="4" width="1.4" height="8"/><polygon points="12.4,4.5 16,7.5 12.4,8.5"/>',
         bed: '<path d="M3 19v-6a2 2 0 012-2h3a2 2 0 012 2v1h4v-1a2 2 0 012-2h3a2 2 0 012 2v6h-2v-2H5v2z"/>',
-        snorkel: '<path d="M2 11c2-2 4-2 6 0s4 2 6 0 4-2 6 0v2c-2 2-4 2-6 0s-4-2-6 0-4 2-6 0z"/><path d="M2 16c2-2 4-2 6 0s4 2 6 0 4-2 6 0v2c-2 2-4 2-6 0s-4-2-6 0-4 2-6 0z"/>',
-        sun: '<circle cx="12" cy="10" r="4"/><path d="M2 18c2-2 4-2 6 0s4 2 6 0 4-2 6 0v2H2z"/>',
+        snorkel: '<polygon points="2,12 8,8 16,12 8,16"/><polygon points="16,12 21,8 21,16"/><circle cx="6" cy="11" r="1" fill="var(--sb-cream)"/>',
+        sun: '<circle cx="12" cy="12" r="4.5"/><polygon points="12,0.5 13.2,5 10.8,5"/><polygon points="12,23.5 13.2,19 10.8,19"/><polygon points="0.5,12 5,10.8 5,13.2"/><polygon points="23.5,12 19,10.8 19,13.2"/>',
         food: '<path d="M6 2v7a1.5 1.5 0 001.5 1.5A1.5 1.5 0 009 9V2H7.7v5.5H7V2H6zm10 0c-1.7 0-3 1.8-3 4v2a2 2 0 002 2v11h2V2z"/>',
-        car: '<path d="M5 11l1.5-4.5a1.5 1.5 0 011.4-1h8.2a1.5 1.5 0 011.4 1L19 11v6a1 1 0 01-1 1h-1a1 1 0 01-1-1v-1H8v1a1 1 0 01-1 1H6a1 1 0 01-1-1z"/><circle cx="7.5" cy="16" r="1.5" fill="var(--sb-cream)"/><circle cx="16.5" cy="16" r="1.5" fill="var(--sb-cream)"/>'
+        car: '<rect x="4" y="12" width="16" height="5" rx="1.5"/><path d="M7 12l2-4h6l2 4z"/><circle cx="7.5" cy="18" r="2.2"/><circle cx="16.5" cy="18" r="2.2"/><circle cx="7.5" cy="18" r="1" fill="var(--sb-cream)"/><circle cx="16.5" cy="18" r="1" fill="var(--sb-cream)"/>'
       };
       function itineraryMeta(text) {
         if (text.indexOf('直行便') !== -1) { return { icon: 'plane', tag: '直行便' }; }

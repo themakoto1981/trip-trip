@@ -617,12 +617,26 @@
   }
   .itinerary-desc { flex: 1; min-width: 0; overflow-wrap: break-word; color: var(--sb-brown); line-height: 1.7; }
   /* ラン島トライアル：旅程をアイコン＋時刻＋本文＋タグの縦積みカード風に */
-  .budget-tiers-slide .itinerary-list::before { display: none; }
+  .budget-tiers-slide .itinerary-day-title {
+    display: inline-block;
+    border: 1px solid var(--sb-border);
+    border-radius: 999px;
+    padding: 0.35rem 1.1rem;
+  }
+  .budget-tiers-slide .itinerary-list::before {
+    left: 18px;
+    background: var(--sb-border);
+  }
+  .budget-tiers-slide .itinerary-item-rich + .itinerary-item-rich {
+    border-top: none;
+  }
   .itinerary-item-rich {
     display: flex;
     align-items: flex-start;
     gap: 0.8rem;
     padding: 0.9rem 0;
+    position: relative;
+    z-index: 1;
   }
   .itinerary-icon {
     flex-shrink: 0;

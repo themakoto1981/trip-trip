@@ -616,6 +616,41 @@
     border: 2px solid var(--sb-cream);
   }
   .itinerary-desc { flex: 1; min-width: 0; overflow-wrap: break-word; color: var(--sb-brown); line-height: 1.7; }
+  /* ラン島トライアル：旅程の線画アイコン＋タグ */
+  .budget-tiers-slide .itinerary-rail { width: 36px; }
+  .budget-tiers-slide .itinerary-list::before { left: calc(3.4rem + 0.7rem + 18px); }
+  .itinerary-icon {
+    flex-shrink: 0;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: var(--sb-cream);
+    border: 1px solid var(--sb-border);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .itinerary-icon svg {
+    width: 18px;
+    height: 18px;
+    fill: none;
+    stroke: var(--sb-green-dark);
+    stroke-width: 1.6;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+  .itinerary-tag {
+    display: inline-block;
+    margin-left: 0.5rem;
+    background: #fff;
+    border: 1px solid var(--sb-border);
+    border-radius: 999px;
+    padding: 0.1rem 0.55rem;
+    font-size: 0.7rem;
+    color: var(--sb-brown-soft);
+    vertical-align: middle;
+    white-space: nowrap;
+  }
   .itinerary-cost-breakdown {
     margin-top: 1rem;
     padding-top: 0.9rem;

@@ -710,24 +710,48 @@ layout: default
             var timeLabel = idx > -1 ? html.slice(0, idx) : '';
             var desc = idx > -1 ? html.slice(idx + 1) : html;
             var itemLi = document.createElement('li');
-            itemLi.className = 'itinerary-item';
-            var timeSpan = document.createElement('span');
-            timeSpan.className = 'itinerary-time';
-            timeSpan.textContent = timeLabel;
-            itemLi.appendChild(timeSpan);
-            var railSpan = document.createElement('span');
-            railSpan.className = 'itinerary-rail';
-            var meta = isSlideTrial ? itineraryMeta(li.textContent) : null;
-            if (meta) {
-              railSpan.innerHTML = '<span class="itinerary-icon"><svg viewBox="0 0 24 24">' + itineraryIconPaths[meta.icon] + '</svg></span>';
+
+            if (isSlideTrial) {
+              itemLi.className = 'itinerary-item itinerary-item-rich';
+              var meta = itineraryMeta(li.textContent);
+              var iconSpan = document.createElement('span');
+              iconSpan.className = 'itinerary-icon';
+              iconSpan.innerHTML = meta ? ('<svg viewBox="0 0 24 24">' + itineraryIconPaths[meta.icon] + '</svg>') : '<span class="itinerary-dot"></span>';
+              itemLi.appendChild(iconSpan);
+              var contentDiv = document.createElement('div');
+              contentDiv.className = 'itinerary-content';
+              if (timeLabel) {
+                var timeDiv = document.createElement('div');
+                timeDiv.className = 'itinerary-time-rich';
+                timeDiv.textContent = timeLabel;
+                contentDiv.appendChild(timeDiv);
+              }
+              var mainDiv = document.createElement('div');
+              mainDiv.className = 'itinerary-main';
+              mainDiv.innerHTML = desc;
+              contentDiv.appendChild(mainDiv);
+              if (meta) {
+                var tagsDiv = document.createElement('div');
+                tagsDiv.className = 'itinerary-tags';
+                tagsDiv.innerHTML = '<span class="itinerary-tag">' + meta.tag + '</span>';
+                contentDiv.appendChild(tagsDiv);
+              }
+              itemLi.appendChild(contentDiv);
             } else {
+              itemLi.className = 'itinerary-item';
+              var timeSpan = document.createElement('span');
+              timeSpan.className = 'itinerary-time';
+              timeSpan.textContent = timeLabel;
+              itemLi.appendChild(timeSpan);
+              var railSpan = document.createElement('span');
+              railSpan.className = 'itinerary-rail';
               railSpan.innerHTML = '<span class="itinerary-dot"></span>';
+              itemLi.appendChild(railSpan);
+              var descSpan = document.createElement('span');
+              descSpan.className = 'itinerary-desc';
+              descSpan.innerHTML = desc;
+              itemLi.appendChild(descSpan);
             }
-            itemLi.appendChild(railSpan);
-            var descSpan = document.createElement('span');
-            descSpan.className = 'itinerary-desc';
-            descSpan.innerHTML = desc + (meta ? '<span class="itinerary-tag">' + meta.tag + '</span>' : '');
-            itemLi.appendChild(descSpan);
             listUl.appendChild(itemLi);
           });
           dayDiv.appendChild(listUl);

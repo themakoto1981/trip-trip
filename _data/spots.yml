@@ -1096,6 +1096,7 @@ koh-larn-guide:
     lng: 100.7810
     desc: パタヤからのスピードボートが発着する桟橋
     type: port
+    letter: "港"
   - name: サメービーチ
     lat: 12.9128
     lng: 100.7688

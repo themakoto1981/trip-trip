@@ -202,6 +202,11 @@ layout: default
     }
 
     var tierPhotoMap = { 'やす旅': findSpotImage('タワエンビーチ'), 'ゆる旅': findSpotImage('トンラーンビーチ'), 'らぐ旅': findSpotImage('サンライズビューポイント') };
+    var tierCaptionImgMap = {
+      'やす旅': '/assets/images/budget-tier-captions/yasu-tabi.png',
+      'ゆる旅': '/assets/images/budget-tier-captions/yuru-tabi.png',
+      'らぐ旅': '/assets/images/budget-tier-captions/ragu-tabi.png'
+    };
 
     if (isSlideTrial) {
       tiersHtml += '<div class="budget-tier-tabs">' + budgetTiers.map(function (t, i) {
@@ -217,7 +222,7 @@ layout: default
       if (isSlideTrial) {
         tiersHtml += '<div class="budget-tier-photo-wrap">';
         if (tierPhotoMap[t[0]]) { tiersHtml += '<img class="budget-tier-photo" src="' + tierPhotoMap[t[0]] + '" alt="' + t[0] + '">'; }
-        tiersHtml += '<div class="budget-tier-photo-caption"><span class="budget-tier-photo-name">' + t[0] + '</span><span class="budget-tier-photo-desc">' + t[3] + '</span></div>';
+        tiersHtml += '<div class="budget-tier-photo-caption"><img class="budget-tier-photo-caption-img" src="' + tierCaptionImgMap[t[0]] + '" alt="' + t[0] + '：' + t[3] + '"></div>';
         tiersHtml += '</div>';
         tiersHtml += '<div class="budget-tier-body">';
       } else {

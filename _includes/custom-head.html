@@ -406,7 +406,33 @@
     border-color: transparent;
   }
   .budget-tiers-slide .budget-tier-row.is-recommended { border-color: transparent; }
-  .budget-tier-photo { width: 100%; height: 160px; object-fit: cover; display: block; }
+  .budget-tier-photo-wrap { position: relative; }
+  .budget-tier-photo { width: 100%; height: 200px; object-fit: cover; display: block; }
+  .budget-tier-photo-caption {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 2.2rem 1rem 1rem;
+    background: linear-gradient(to top, rgba(14, 26, 22, 0.65), rgba(14, 26, 22, 0));
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+  .budget-tier-photo-name {
+    font-family: "Noto Serif JP", serif;
+    font-weight: 700;
+    font-size: 1.7rem;
+    color: #fff;
+    line-height: 1.2;
+    text-shadow: 0 1px 8px rgba(0, 0, 0, 0.35);
+  }
+  .budget-tier-photo-desc {
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.92);
+    line-height: 1.4;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  }
   .budget-tiers-slide-wrap { position: relative; }
   .budget-tier-nav {
     position: absolute;

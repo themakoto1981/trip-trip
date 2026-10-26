@@ -652,22 +652,26 @@ layout: default
 
       // ラン島トライアルのみ：旅程の各項目をキーワードから線画アイコン＋タグで表示する
       var itineraryIconPaths = {
-        plane: '<path d="M21 16v-1.5l-8-5V4a1.5 1.5 0 00-3 0v5.5l-8 5V16l8-2.5V19l-2.5 1.5V22l4-1 4 1v-1.5L13 19v-5.5z"/>',
-        boat: '<path d="M4 19h16l-2-7H6z"/><rect x="11" y="4" width="1.4" height="8"/><polygon points="12.4,4.5 16,7.5 12.4,8.5"/>',
-        bed: '<path d="M3 19v-6a2 2 0 012-2h3a2 2 0 012 2v1h4v-1a2 2 0 012-2h3a2 2 0 012 2v6h-2v-2H5v2z"/>',
-        snorkel: '<polygon points="2,12 8,8 16,12 8,16"/><polygon points="16,12 21,8 21,16"/><circle cx="6" cy="11" r="1" fill="var(--sb-cream)"/>',
-        sun: '<circle cx="12" cy="12" r="4.5"/><polygon points="12,0.5 13.2,5 10.8,5"/><polygon points="12,23.5 13.2,19 10.8,19"/><polygon points="0.5,12 5,10.8 5,13.2"/><polygon points="23.5,12 19,10.8 19,13.2"/>',
-        food: '<path d="M6 2v7a1.5 1.5 0 001.5 1.5A1.5 1.5 0 009 9V2H7.7v5.5H7V2H6zm10 0c-1.7 0-3 1.8-3 4v2a2 2 0 002 2v11h2V2z"/>',
-        car: '<rect x="4" y="12" width="16" height="5" rx="1.5"/><path d="M7 12l2-4h6l2 4z"/><circle cx="7.5" cy="18" r="2.2"/><circle cx="16.5" cy="18" r="2.2"/><circle cx="7.5" cy="18" r="1" fill="var(--sb-cream)"/><circle cx="16.5" cy="18" r="1" fill="var(--sb-cream)"/>'
+        plane: '<path d="M12 2.2c-.9 0-1.5.7-1.5 1.7v6.2L3.2 14v2.2l7.3-2.2v4.2l-2.1 1.5v1.5l3.6-1 3.6 1v-1.5l-2.1-1.5V14l7.3 2.2V14l-7.3-3.9V3.9c0-1-.6-1.7-1.5-1.7z"/>',
+        ferry: '<path d="M4 13h16l-2.2 5H6.2z"/><path d="M7 12V8h10v4zM9 8V5h3v3M14 8V6h2v2"/><path d="M2 20c2-2 4 2 6 0s4 2 6 0 4 2 8 0v2c-2 2-4-2-8 0s-4-2-6 0-4-2-6 0z"/>',
+        checkin: '<path d="M2 11L12 2l10 9h-3v10h-6v-6h-3v6H5V11z"/>',
+        snorkeling: '<path d="M3 8a3 3 0 0 1 3-3h8a3 3 0 0 1 3 3v4a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3z"/><path d="M17 8h3v8a3 3 0 0 1-6 0v-2" fill="none" stroke="#1E3932" stroke-width="2.5"/>',
+        beach: '<circle cx="6" cy="5" r="2"/><path d="M6 1v2M2 5h2M3 2l1.5 1.5"/><path d="M9 13a7 7 0 0 1 14 0z"/><path d="M2 16c2-2 4 2 6 0s4 2 6 0 4 2 8 0M2 20c2-2 4 2 6 0s4 2 6 0 4 2 8 0"/>',
+        restaurant: '<path d="M5 2c-1 0-1.5 1-1.5 2.2v5.3c0 2 1 3 2.5 3v9h3V2H7v5H6V2z"/><path d="M16 2c-2 2-3 5-3 8v3h3v9h3V2z"/>',
+        shopping: '<path d="M6 8h12l2 13H4z"/><path d="M9 8V6a3 3 0 0 1 6 0v2" fill="none" stroke="#1E3932" stroke-width="2.5"/>',
+        taxi: '<path d="M4 10l2-5h12l2 5 1.5 2v6H2.5v-6z"/><rect x="7" y="7" width="10" height="4" rx="1" fill="#EEF4EE"/><circle cx="6" cy="17" r="2"/><circle cx="18" cy="17" r="2"/>',
+        motorbike: '<circle cx="5.5" cy="17" r="3" fill="none" stroke="#1E3932" stroke-width="2.5"/><circle cx="18.5" cy="17" r="3" fill="none" stroke="#1E3932" stroke-width="2.5"/><path d="M5.5 17l4-6h4l3 6h-7l3-4h4l2 4M11 8h3l2 3h-3z"/><circle cx="12" cy="5" r="2"/>'
       };
       function itineraryMeta(text) {
         if (text.indexOf('直行便') !== -1) { return { icon: 'plane', tag: '直行便' }; }
-        if (text.indexOf('スピードボート') !== -1) { return { icon: 'boat', tag: 'スピードボート' }; }
-        if (text.indexOf('チェックイン') !== -1 || text.indexOf('泊') !== -1) { return { icon: 'bed', tag: '1泊' }; }
-        if (text.indexOf('シュノーケリング') !== -1) { return { icon: 'snorkel', tag: 'シュノーケリング' }; }
-        if (text.indexOf('のんびり') !== -1) { return { icon: 'sun', tag: 'ビーチ' }; }
-        if (text.indexOf('ランチ') !== -1 || text.indexOf('買い物') !== -1 || text.indexOf('ディナー') !== -1) { return { icon: 'food', tag: 'グルメ' }; }
-        if (text.indexOf('タクシー') !== -1 || text.indexOf('スクーター') !== -1) { return { icon: 'car', tag: '移動' }; }
+        if (text.indexOf('スピードボート') !== -1) { return { icon: 'ferry', tag: 'スピードボート' }; }
+        if (text.indexOf('チェックイン') !== -1 || text.indexOf('泊') !== -1) { return { icon: 'checkin', tag: '1泊' }; }
+        if (text.indexOf('シュノーケリング') !== -1) { return { icon: 'snorkeling', tag: 'シュノーケリング' }; }
+        if (text.indexOf('のんびり') !== -1) { return { icon: 'beach', tag: 'ビーチ' }; }
+        if (text.indexOf('ランチ') !== -1 || text.indexOf('ディナー') !== -1) { return { icon: 'restaurant', tag: 'グルメ' }; }
+        if (text.indexOf('買い物') !== -1) { return { icon: 'shopping', tag: '買い物' }; }
+        if (text.indexOf('タクシー') !== -1) { return { icon: 'taxi', tag: '移動' }; }
+        if (text.indexOf('スクーター') !== -1) { return { icon: 'motorbike', tag: 'レンタルバイク' }; }
         return null;
       }
 

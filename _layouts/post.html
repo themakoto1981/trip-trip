@@ -675,6 +675,9 @@ layout: default
         if (text.indexOf('直行便') !== -1) { return { icon: 'plane', tag: '直行便' }; }
         if (text.indexOf('スピードボート') !== -1) { return { icon: 'ferry', tag: 'スピードボート' }; }
         if (text.indexOf('チェックイン') !== -1 || text.indexOf('泊') !== -1) { return { icon: 'checkin', tag: '1泊' }; }
+        if (text.indexOf('着') !== -1 && (text.indexOf('空港') !== -1 || text.indexOf('成田') !== -1 || text.indexOf('羽田') !== -1)) { return { icon: 'plane', tag: '到着' }; }
+        if (text.indexOf('着') !== -1 && text.indexOf('パタヤ') !== -1) { return { icon: 'taxi', tag: '到着' }; }
+        if (text.indexOf('着') !== -1 && (text.indexOf('ラン島') !== -1 || text.indexOf('バリハイ') !== -1)) { return { icon: 'ferry', tag: '到着' }; }
         if (text.indexOf('シュノーケリング') !== -1) { return { icon: 'snorkeling', tag: 'シュノーケリング' }; }
         if (text.indexOf('のんびり') !== -1) { return { icon: 'beach', tag: 'ビーチ' }; }
         if (text.indexOf('ランチ') !== -1 || text.indexOf('ディナー') !== -1) { return { icon: 'restaurant', tag: 'グルメ' }; }

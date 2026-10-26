@@ -650,6 +650,27 @@ layout: default
       });
       var isMultiPlan = itineraryHeadings.length > 1;
 
+      // ラン島トライアルのみ：旅程の各項目をキーワードから線画アイコン＋タグで表示する
+      var itineraryIconPaths = {
+        plane: '<path d="M22 2 11 13"/><path d="M22 2 15 22 11 13 2 9z"/>',
+        boat: '<path d="M3 15h18l-2 4H5z"/><path d="M12 15V4l5 6z"/>',
+        bed: '<path d="M3 18v-7a2 2 0 012-2h14a2 2 0 012 2v7"/><path d="M3 18v2"/><path d="M21 18v2"/><path d="M7 11V7a2 2 0 012-2h6a2 2 0 012 2v4"/>',
+        snorkel: '<path d="M2 12c2-2 4-2 6 0s4 2 6 0 4-2 6 0"/><path d="M2 17c2-2 4-2 6 0s4 2 6 0 4-2 6 0"/>',
+        sun: '<circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.2 4.2l1.4 1.4M18.4 18.4l1.4 1.4M2 12h2M20 12h2M4.2 19.8l1.4-1.4M18.4 5.6l1.4-1.4"/>',
+        food: '<path d="M7 2v20"/><path d="M4 2v6a3 3 0 003 3 3 3 0 003-3V2"/><path d="M17 2a3 3 0 00-3 3v4a3 3 0 003 3v10"/>',
+        car: '<path d="M3 13l1.5-4.5A2 2 0 016.4 7h11.2a2 2 0 011.9 1.5L21 13"/><rect x="2" y="13" width="20" height="6" rx="2"/><circle cx="7" cy="19" r="1.5"/><circle cx="17" cy="19" r="1.5"/>'
+      };
+      function itineraryMeta(text) {
+        if (text.indexOf('直行便') !== -1) { return { icon: 'plane', tag: '直行便' }; }
+        if (text.indexOf('スピードボート') !== -1) { return { icon: 'boat', tag: 'スピードボート' }; }
+        if (text.indexOf('チェックイン') !== -1 || text.indexOf('泊') !== -1) { return { icon: 'bed', tag: '1泊' }; }
+        if (text.indexOf('シュノーケリング') !== -1) { return { icon: 'snorkel', tag: 'シュノーケリング' }; }
+        if (text.indexOf('のんびり') !== -1) { return { icon: 'sun', tag: 'ビーチ' }; }
+        if (text.indexOf('ランチ') !== -1 || text.indexOf('買い物') !== -1 || text.indexOf('ディナー') !== -1) { return { icon: 'food', tag: 'グルメ' }; }
+        if (text.indexOf('タクシー') !== -1 || text.indexOf('スクーター') !== -1) { return { icon: 'car', tag: '移動' }; }
+        return null;
+      }
+
       itineraryHeadings.forEach(function (itineraryHeading) {
         var node = itineraryHeading.nextElementSibling;
         var dayBlocks = [];
@@ -692,11 +713,16 @@ layout: default
             itemLi.appendChild(timeSpan);
             var railSpan = document.createElement('span');
             railSpan.className = 'itinerary-rail';
-            railSpan.innerHTML = '<span class="itinerary-dot"></span>';
+            var meta = isSlideTrial ? itineraryMeta(li.textContent) : null;
+            if (meta) {
+              railSpan.innerHTML = '<span class="itinerary-icon"><svg viewBox="0 0 24 24">' + itineraryIconPaths[meta.icon] + '</svg></span>';
+            } else {
+              railSpan.innerHTML = '<span class="itinerary-dot"></span>';
+            }
             itemLi.appendChild(railSpan);
             var descSpan = document.createElement('span');
             descSpan.className = 'itinerary-desc';
-            descSpan.innerHTML = desc;
+            descSpan.innerHTML = desc + (meta ? '<span class="itinerary-tag">' + meta.tag + '</span>' : '');
             itemLi.appendChild(descSpan);
             listUl.appendChild(itemLi);
           });

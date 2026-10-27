@@ -44,11 +44,12 @@ excerpt: "バリ島のサヌールから高速ボートで約30分、のんび�
 ## おすすめ旅程（やす旅向け／LCC利用・クアラルンプール経由・5泊6日の例）
 
 **1日目（機内泊）**
-- 23:50　羽田発（AirAsia X直行便D7523）
+- 23:50　羽田発（AirAsia X D7523）
 
 **2日目**
 - 06:10　クアラルンプール着。乗継エリアで待機
-- 10:50　クアラルンプール発（AirAsia）→ 13:55　デンパサール着
+- 10:50　クアラルンプール発（AirAsia）
+- 13:55　デンパサール着
 - 入国審査後、[Kura-Kura Bus](https://www.kura2bus.com/)でサヌールへ移動し（片道450〜750円ほど）、[Segara Village Hotel](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D48703)にチェックイン
 
 **3日目**
@@ -67,16 +68,18 @@ excerpt: "バリ島のサヌールから高速ボートで約30分、のんび�
 - 11:00　ホテルをチェックアウト
 - 12:00　ボートでサヌールへ戻る
 - 14:00頃　Kura-Kura Busでデンパサール空港へ（片道450〜750円ほど）
-- 19:45　デンパサール発（AirAsia）→ 22:50　クアラルンプール着。空港周辺の[Tune Hotel KLIA2](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D621161)に1泊
+- 19:45　デンパサール発（AirAsia）
+- 22:50　クアラルンプール着。空港周辺の[Tune Hotel KLIA2](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D621161)に1泊
 
 **6日目（帰国日）**
 - 11:00　ホテルをチェックアウト
-- 14:10　クアラルンプール発（AirAsia X直行便D7522）→ 22:00　羽田着
+- 14:10　クアラルンプール発（AirAsia X D7522）
+- 22:00　羽田着
 
 ## おすすめ旅程（ゆる旅向け／直行便・3泊4日の例）
 
 **1日目**
-- 11:00　成田発（ガルーダ・インドネシア航空の直行便GA881）
+- 11:00　成田発（ガルーダ・インドネシア航空GA881）
 - 17:25　デンパサール着。入国審査と荷物受取を終えたら[Grabカー](/grab/)でサヌールへ
 - 19:30頃　[Prime Plaza Hotel Sanur](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1251)にチェックイン（ボート乗り場に近いビーチサイドのホテル）
 
@@ -97,12 +100,13 @@ excerpt: "バリ島のサヌールから高速ボートで約30分、のんび�
 - 12:00　ボートでサヌールへ戻る
 - 午後　サヌールの海沿いでディナー
 - 21:30頃　Grabカーでデンパサール空港へ
-- 00:20　デンパサール発（ガルーダ・インドネシア航空の直行便GA880）→ 08:50　成田着
+- 00:20　デンパサール発（ガルーダ・インドネシア航空GA880）
+- 08:50　成田着
 
 ## おすすめ旅程（らぐ旅向け／直行便・3泊4日の例）
 
 **1日目**
-- 11:00　成田発（ガルーダ・インドネシア航空の直行便GA881）
+- 11:00　成田発（ガルーダ・インドネシア航空GA881）
 - 17:25　デンパサール着。入国審査と荷物受取を終えたら[Grabカー](/grab/)でサヌールへ
 - 19:30頃　[Hyatt Regency Bali](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D5500759)にチェックイン（サヌールビーチ沿いの大型リゾート）
 
@@ -123,7 +127,8 @@ excerpt: "バリ島のサヌールから高速ボートで約30分、のんび�
 - 12:00　ボートでサヌールへ戻る
 - 午後　サヌールの海沿いでディナー
 - 21:30頃　Grabカーでデンパサール空港へ
-- 00:20　デンパサール発（ガルーダ・インドネシア航空の直行便GA880）→ 08:50　成田着
+- 00:20　デンパサール発（ガルーダ・インドネシア航空GA880）
+- 08:50　成田着
 
 ## おすすめビーチ・スポット
 

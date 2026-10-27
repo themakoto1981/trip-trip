@@ -680,9 +680,13 @@ layout: default
       function isDirectFlightLine(text) {
         return text.indexOf('ANA') !== -1 || text.indexOf('JAL') !== -1 || text.indexOf('Vietjet') !== -1 || text.indexOf('Zipair') !== -1;
       }
+      // 国内線・地域便など直行便タグは不要だが、出発がどの航空会社か明記されている行はアイコンだけ付与する
+      function isAnyFlightLine(text) {
+        return isDirectFlightLine(text) || /発（[^）]*(航空|エア)/.test(text);
+      }
       // アイコンは「何で移動・滞在するか」を常に示す（タグの有無に関わらず付与）
       function itineraryIcon(text) {
-        if (isDirectFlightLine(text)) { return 'plane'; }
+        if (isAnyFlightLine(text)) { return 'plane'; }
         if (text.indexOf('スピードボート') !== -1 || text.indexOf('フェリー') !== -1) { return 'ferry'; }
         if (text.indexOf('チェックイン') !== -1 || text.indexOf('チェックアウト') !== -1 || text.indexOf('泊') !== -1) { return 'checkin'; }
         // 「着」が空港・地名のすぐ後ろにある場合のみ到着アイコンとする（離れた場所の「着」との誤マッチを防止）
@@ -693,7 +697,7 @@ layout: default
         if (text.indexOf('買い物') !== -1) { return 'shopping'; }
         if (text.indexOf('ランチ') !== -1 || text.indexOf('ディナー') !== -1 || text.indexOf('昼食') !== -1 || text.indexOf('夕食') !== -1 || text.indexOf('朝食') !== -1) { return 'restaurant'; }
         if (text.indexOf('のんびり') !== -1 || text.indexOf('ゆったり') !== -1 || text.indexOf('ゆっくり') !== -1) { return 'beach'; }
-        if (text.indexOf('タクシー') !== -1) { return 'taxi'; }
+        if (text.indexOf('タクシー') !== -1 || text.indexOf('Grab') !== -1) { return 'taxi'; }
         if (text.indexOf('スクーター') !== -1 || text.indexOf('レンタルバイク') !== -1) { return 'motorbike'; }
         return null;
       }

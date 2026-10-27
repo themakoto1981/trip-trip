@@ -725,6 +725,9 @@ layout: default
         desc = desc.replace(/（\s*）/g, '').replace(/\(\s*\)/g, '');
         return desc;
       }
+      function formatDurationTag(duration) {
+        return duration ? '所要時間' + duration.replace(/^約/, '') : null;
+      }
 
       itineraryHeadings.forEach(function (itineraryHeading) {
         var node = itineraryHeading.nextElementSibling;
@@ -785,7 +788,7 @@ layout: default
               contentDiv.appendChild(mainDiv);
               var tagList = [];
               if (meta && meta.tag) { tagList.push(meta.tag); }
-              if (duration) { tagList.push(duration); }
+              if (duration) { tagList.push(formatDurationTag(duration)); }
               if (tagList.length) {
                 var tagsDiv = document.createElement('div');
                 tagsDiv.className = 'itinerary-tags';

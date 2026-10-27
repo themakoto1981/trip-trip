@@ -684,14 +684,14 @@ layout: default
       function itineraryIcon(text) {
         if (isDirectFlightLine(text)) { return 'plane'; }
         if (text.indexOf('スピードボート') !== -1 || text.indexOf('フェリー') !== -1) { return 'ferry'; }
-        if (text.indexOf('チェックイン') !== -1 || text.indexOf('泊') !== -1) { return 'checkin'; }
+        if (text.indexOf('チェックイン') !== -1 || text.indexOf('チェックアウト') !== -1 || text.indexOf('泊') !== -1) { return 'checkin'; }
         if (text.indexOf('着') !== -1 && (text.indexOf('空港') !== -1 || text.indexOf('成田') !== -1 || text.indexOf('羽田') !== -1)) { return 'plane'; }
         if (text.indexOf('着') !== -1 && text.indexOf('パタヤ') !== -1) { return 'taxi'; }
         if (text.indexOf('着') !== -1 && (text.indexOf('ラン島') !== -1 || text.indexOf('バリハイ') !== -1)) { return 'ferry'; }
-        if (text.indexOf('シュノーケリング') !== -1) { return 'snorkeling'; }
+        if (text.indexOf('シュノーケリング') !== -1 || text.indexOf('ダイビング') !== -1) { return 'snorkeling'; }
         if (text.indexOf('買い物') !== -1) { return 'shopping'; }
         if (text.indexOf('ランチ') !== -1 || text.indexOf('ディナー') !== -1 || text.indexOf('昼食') !== -1 || text.indexOf('夕食') !== -1) { return 'restaurant'; }
-        if (text.indexOf('のんびり') !== -1 || text.indexOf('ゆったり') !== -1) { return 'beach'; }
+        if (text.indexOf('のんびり') !== -1 || text.indexOf('ゆったり') !== -1 || text.indexOf('ゆっくり') !== -1) { return 'beach'; }
         if (text.indexOf('タクシー') !== -1) { return 'taxi'; }
         if (text.indexOf('スクーター') !== -1 || text.indexOf('レンタルバイク') !== -1) { return 'motorbike'; }
         return null;
@@ -702,7 +702,8 @@ layout: default
         if (text.indexOf('シーフード') !== -1 || text.indexOf('名物') !== -1) { return 'EX04'; }
         if (text.indexOf('買い物') !== -1) { return 'EX02'; }
         if (text.indexOf('シュノーケリング') !== -1) { return 'EX01'; }
-        if (text.indexOf('のんびり') !== -1 || text.indexOf('ゆったり') !== -1) { return 'EX03'; }
+        if (text.indexOf('ダイビング') !== -1) { return 'EX05'; }
+        if (text.indexOf('のんびり') !== -1 || text.indexOf('ゆったり') !== -1 || text.indexOf('ゆっくり') !== -1) { return 'EX03'; }
         if (isDirectFlightLine(text)) { return 'CD01'; }
         // 「予約不要」はラン島のバリハイ桟橋発着のスピードボートで確認済みの情報。
         // 他記事のスピードボート/フェリーは予約要否を未確認のため、ここでは一般化しない

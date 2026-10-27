@@ -678,7 +678,7 @@ layout: default
       };
       // 本文に「直行便」と書かなくても、搭乗航空会社名から直行便判定できるようにする
       function isDirectFlightLine(text) {
-        return text.indexOf('ANA') !== -1 || text.indexOf('JAL') !== -1 || text.indexOf('Vietjet') !== -1 || text.indexOf('Zipair') !== -1;
+        return text.indexOf('ANA') !== -1 || text.indexOf('JAL') !== -1 || text.indexOf('Vietjet') !== -1 || text.indexOf('Zipair') !== -1 || text.indexOf('AirAsia') !== -1;
       }
       // 国内線・地域便など直行便タグは不要だが、出発がどの航空会社か明記されている行はアイコンだけ付与する
       function isAnyFlightLine(text) {
@@ -688,7 +688,8 @@ layout: default
       function itineraryIcon(text) {
         if (isAnyFlightLine(text)) { return 'plane'; }
         if (text.indexOf('スピードボート') !== -1 || text.indexOf('フェリー') !== -1) { return 'ferry'; }
-        if (text.indexOf('チェックイン') !== -1 || text.indexOf('チェックアウト') !== -1 || text.indexOf('泊') !== -1) { return 'checkin'; }
+        // 「スルーチェックイン」は空港の乗継用語でホテルとは無関係なので除外する
+        if ((text.indexOf('チェックイン') !== -1 && text.indexOf('スルーチェックイン') === -1) || text.indexOf('チェックアウト') !== -1 || text.indexOf('泊') !== -1) { return 'checkin'; }
         // 「着」が空港・地名のすぐ後ろにある場合のみ到着アイコンとする（離れた場所の「着」との誤マッチを防止）
         if (/空港[）)]?着|成田着|羽田着/.test(text)) { return 'plane'; }
         if (/パタヤ着/.test(text)) { return 'taxi'; }

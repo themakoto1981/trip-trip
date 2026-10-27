@@ -670,9 +670,13 @@ layout: default
         taxi: '<path d="M4 10l2-5h12l2 5 1.5 2v6H2.5v-6z"/><rect x="7" y="7" width="10" height="4" rx="1" fill="#EEF4EE"/><circle cx="6" cy="17" r="2"/><circle cx="18" cy="17" r="2"/>',
         motorbike: '<circle cx="5.5" cy="17" r="3" fill="none" stroke="#1E3932" stroke-width="2.5"/><circle cx="18.5" cy="17" r="3" fill="none" stroke="#1E3932" stroke-width="2.5"/><path d="M5.5 17l4-6h4l3 6h-7l3-4h4l2 4M11 8h3l2 3h-3z"/><circle cx="12" cy="5" r="2"/>'
       };
+      // 本文に「直行便」と書かなくても、搭乗航空会社名から直行便判定できるようにする
+      function isDirectFlightLine(text) {
+        return text.indexOf('ANA') !== -1 || text.indexOf('JAL') !== -1 || text.indexOf('Vietjet') !== -1 || text.indexOf('Zipair') !== -1;
+      }
       // アイコンは「何で移動・滞在するか」を常に示す（タグの有無に関わらず付与）
       function itineraryIcon(text) {
-        if (text.indexOf('直行便') !== -1) { return 'plane'; }
+        if (isDirectFlightLine(text)) { return 'plane'; }
         if (text.indexOf('スピードボート') !== -1 || text.indexOf('フェリー') !== -1) { return 'ferry'; }
         if (text.indexOf('チェックイン') !== -1 || text.indexOf('泊') !== -1) { return 'checkin'; }
         if (text.indexOf('着') !== -1 && (text.indexOf('空港') !== -1 || text.indexOf('成田') !== -1 || text.indexOf('羽田') !== -1)) { return 'plane'; }
@@ -693,8 +697,8 @@ layout: default
         if (text.indexOf('買い物') !== -1) { return 'EX02'; }
         if (text.indexOf('シュノーケリング') !== -1) { return 'EX01'; }
         if (text.indexOf('のんびり') !== -1 || text.indexOf('ゆったり') !== -1) { return 'EX03'; }
-        if (text.indexOf('直行便') !== -1) { return 'CD01'; }
-        if (text.indexOf('予約不要') !== -1) { return 'CD02'; }
+        if (isDirectFlightLine(text)) { return 'CD01'; }
+        if (text.indexOf('スピードボート') !== -1) { return 'CD02'; }
         if (text.indexOf('スクーター') !== -1 || text.indexOf('レンタルバイク') !== -1) { return 'CD03'; }
         return null;
       }
@@ -702,8 +706,24 @@ layout: default
         var icon = itineraryIcon(text);
         var tagId = itineraryTagId(text);
         var tagDef = tagId ? itineraryTags.filter(function (t) { return t.id === tagId && t.active !== false; })[0] : null;
+        // 本文に同じ語がそのまま書かれている場合は、タグが重複表示になるため出さない
+        if (tagDef && text.indexOf(tagDef.name) !== -1) { tagDef = null; }
         if (!icon && !tagDef) { return null; }
         return { icon: icon, tag: tagDef ? tagDef.name : null };
+      }
+      // 所要時間（約○時間/約○分）は辞書に固定値を持たず、本文の記載からタグを生成する。
+      // 本文側からは該当箇所を取り除き、タグと二重表示にならないようにする。
+      var DURATION_RE = /約[0-9０-９.〜～]+(?:時間[0-9０-９]*分?|分)/;
+      var DURATION_STRIP_RE = /(?:、)?(?:所要)?約[0-9０-９.〜～]+(?:時間[0-9０-９]*分?|分)/;
+      function extractDuration(text) {
+        var m = text.match(DURATION_RE);
+        return m ? m[0] : null;
+      }
+      function stripDuration(desc, duration) {
+        if (!duration) { return desc; }
+        desc = desc.replace(DURATION_STRIP_RE, '');
+        desc = desc.replace(/（\s*）/g, '').replace(/\(\s*\)/g, '');
+        return desc;
       }
 
       itineraryHeadings.forEach(function (itineraryHeading) {
@@ -745,6 +765,8 @@ layout: default
             if (isSlideTrial) {
               itemLi.className = 'itinerary-item itinerary-item-rich';
               var meta = itineraryMeta(li.textContent);
+              var duration = extractDuration(li.textContent);
+              desc = stripDuration(desc, duration);
               var iconSpan = document.createElement('span');
               iconSpan.className = 'itinerary-icon';
               iconSpan.innerHTML = (meta && meta.icon) ? ('<svg viewBox="0 0 24 24">' + itineraryIconPaths[meta.icon] + '</svg>') : '<span class="itinerary-dot"></span>';
@@ -761,10 +783,13 @@ layout: default
               mainDiv.className = 'itinerary-main';
               mainDiv.innerHTML = desc;
               contentDiv.appendChild(mainDiv);
-              if (meta && meta.tag) {
+              var tagList = [];
+              if (meta && meta.tag) { tagList.push(meta.tag); }
+              if (duration) { tagList.push(duration); }
+              if (tagList.length) {
                 var tagsDiv = document.createElement('div');
                 tagsDiv.className = 'itinerary-tags';
-                tagsDiv.innerHTML = '<span class="itinerary-tag">' + meta.tag + '</span>';
+                tagsDiv.innerHTML = tagList.map(function (t) { return '<span class="itinerary-tag">' + t + '</span>'; }).join('');
                 contentDiv.appendChild(tagsDiv);
               }
               itemLi.appendChild(contentDiv);

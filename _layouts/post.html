@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   {%- assign title_parts = page.title | split: "｜" -%}
@@ -46,7 +45,7 @@ layout: default
     {{ content }}
   </div>
 
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCQd0WmNOB9Xz5Km4xwmAxV3v8Y5pwHIuo"></script>
   <script>
   (function () {
     var destinations = {{ site.data.destinations | jsonify }};
@@ -320,6 +319,68 @@ layout: default
       if (window.console && console.error) { console.error('spot map failed to render:', e); }
     }
 
+    // Google Maps用のピンアイコン（色付き円＋文字/絵文字）をSVGデータURIで生成する共通ヘルパー
+    var SPOT_PIN_COLORS = { hotel: '#00704A', airport: '#56463A', port: '#1E3932' };
+    var SPOT_PIN_FONT_SIZE = { airport: 22, port: 20 };
+    function buildPinIcon(type, label) {
+      var hasLabel = !!label;
+      var size = hasLabel ? 20 : 14;
+      var color = (type && SPOT_PIN_COLORS[type]) || '#C9A66B';
+      var svg;
+      if (hasLabel) {
+        var fontSize = (type && SPOT_PIN_FONT_SIZE[type]) || 11;
+        svg = '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">' +
+          '<circle cx="10" cy="10" r="8" fill="' + color + '" stroke="#fff" stroke-width="2"/>' +
+          '<text x="10" y="10" dominant-baseline="central" text-anchor="middle" font-family="Arial, sans-serif" font-size="' + fontSize + '" font-weight="700" fill="#fff">' + label + '</text>' +
+          '</svg>';
+      } else {
+        svg = '<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">' +
+          '<circle cx="7" cy="7" r="5" fill="' + color + '" stroke="#fff" stroke-width="2"/>' +
+          '</svg>';
+      }
+      return {
+        url: 'data:image/svg+xml;charset=UTF-8,' + encodeURIComponent(svg),
+        scaledSize: new google.maps.Size(size, size),
+        anchor: new google.maps.Point(size / 2, size / 2)
+      };
+    }
+
+    // ピンの上に名前バッジを表示する軽量オーバーレイ（Leafletのpermanent tooltip相当）
+    function PinLabel(map, position, text) {
+      this.position = position;
+      this.text = text;
+      this.div = null;
+      this.setMap(map);
+    }
+    PinLabel.prototype = new google.maps.OverlayView();
+    PinLabel.prototype.onAdd = function () {
+      var div = document.createElement('div');
+      div.className = 'spot-label-overlay';
+      div.textContent = this.text;
+      this.div = div;
+      this.getPanes().floatPane.appendChild(div);
+    };
+    PinLabel.prototype.draw = function () {
+      if (!this.div) { return; }
+      var pos = this.getProjection().fromLatLngToDivPixel(this.position);
+      this.div.style.left = pos.x + 'px';
+      this.div.style.top = pos.y + 'px';
+    };
+    PinLabel.prototype.onRemove = function () {
+      if (this.div) { this.div.parentNode.removeChild(this.div); this.div = null; }
+    };
+
+    function spotLatLng(s) {
+      return new google.maps.LatLng(s.lat, s.lng);
+    }
+
+    function fitMapToPositions(map, positions) {
+      if (!positions.length) { return; }
+      var bounds = new google.maps.LatLngBounds();
+      positions.forEach(function (p) { bounds.extend(p); });
+      map.fitBounds(bounds, 40);
+    }
+
     function renderSimpleSpotMap(spotHeading, mySpots) {
         {
           var mapWrap = document.createElement('div');
@@ -327,48 +388,43 @@ layout: default
           mapWrap.innerHTML = '<div id="spot-map"></div>';
           spotHeading.parentNode.insertBefore(mapWrap, spotHeading.nextSibling);
 
-          var spotMap = L.map('spot-map', { scrollWheelZoom: false });
-          L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-            maxZoom: 19
-          }).addTo(spotMap);
-
-          function makeSpotIcon(type, letter) {
-            var isLettered = !!(type && letter);
-            return L.divIcon({
-              className: 'spot-pin-wrapper',
-              html: '<div class="spot-pin' + (type ? ' spot-pin-' + type : '') + (isLettered ? ' spot-pin-lettered' : '') + '">' + (isLettered ? letter : '') + '</div>',
-              iconSize: isLettered ? [20, 20] : [14, 14],
-              iconAnchor: isLettered ? [10, 10] : [7, 7],
-              popupAnchor: [0, -8]
-            });
-          }
+          var spotMap = new google.maps.Map(document.getElementById('spot-map'), {
+            center: spotLatLng(mySpots[0]),
+            zoom: 13,
+            gestureHandling: 'cooperative',
+            mapTypeControl: false,
+            streetViewControl: false,
+            fullscreenControl: false
+          });
+          var infoWindow = new google.maps.InfoWindow();
 
           var spotMarkersByName = {};
-          var spotMarkers = mySpots.map(function (s, idx) {
-            var m = L.marker([s.lat, s.lng], { icon: makeSpotIcon(s.type, s.letter) }).addTo(spotMap);
-            // ビーチ（type指定なし）だけ常時ラベル表示。ホテル/空港/港はツールチップ自体をbindせず、タップでポップアップのみ表示（タッチ時の疑似hoverで名前が二重に出るのを防ぐ）
+          var positions = [];
+          mySpots.forEach(function (s, idx) {
+            var pos = spotLatLng(s);
+            positions.push(pos);
+            var m = new google.maps.Marker({
+              position: pos,
+              map: spotMap,
+              icon: buildPinIcon(s.type, s.letter)
+            });
+            // ビーチ（type指定なし）だけ常時ラベル表示。ホテル/空港/港は名前バッジを出さずクリックでポップアップのみ表示
             if (!s.type) {
-              m.bindTooltip(s.name, { permanent: true, interactive: true, direction: (idx % 2 === 0 ? 'top' : 'bottom'), offset: [0, (idx % 2 === 0 ? -8 : 8)], className: 'spot-label' });
-              m.on('tooltipopen', function (e) {
-                var tipEl = e.tooltip.getElement();
-                if (tipEl) { tipEl.addEventListener('click', function () { m.openPopup(); }); }
-              });
+              new PinLabel(spotMap, pos, s.name);
             }
             var gmapsUrl = 'https://www.google.com/maps/search/?api=1&query=' + s.lat + ',' + s.lng;
             var popupHtml = '<strong>' + s.name + '</strong>' + (s.desc ? '<br>' + s.desc : '') +
               (s.url ? '<br><a href="' + s.url + '" target="_blank" rel="noopener">予約ページを見る ↗</a>' : '') +
               '<br><a href="' + gmapsUrl + '" target="_blank" rel="noopener">Googleマップで開く ↗</a>';
-            m.bindPopup(popupHtml);
-            spotMarkersByName[s.name] = { marker: m, lat: s.lat, lng: s.lng, image: s.image };
-            return m;
+            m.addListener('click', function () {
+              infoWindow.setContent(popupHtml);
+              infoWindow.open(spotMap, m);
+            });
+            spotMarkersByName[s.name] = { marker: m, lat: s.lat, lng: s.lng, image: s.image, popupHtml: popupHtml };
           });
 
-          var spotGroup = L.featureGroup(spotMarkers);
-          spotMap.fitBounds(spotGroup.getBounds().pad(0.4));
-
-          // 地図が非表示コンテナに描画された場合のサイズ計算ずれ対策
-          setTimeout(function () { spotMap.invalidateSize(); }, 200);
+          fitMapToPositions(spotMap, positions);
+          google.maps.event.trigger(spotMap, 'resize');
 
           // 「おすすめ」リスト（ビーチ・ホテルとも）の項目名とピンをリンクさせる
           document.querySelectorAll('.post-content li').forEach(function (li) {
@@ -386,8 +442,10 @@ layout: default
               var info = spotMarkersByName[matchedName];
               li.addEventListener('click', function (e) {
                 if (e.target.closest('a')) { return; }
-                spotMap.setView([info.lat, info.lng], 15);
-                info.marker.openPopup();
+                spotMap.panTo({ lat: info.lat, lng: info.lng });
+                spotMap.setZoom(15);
+                infoWindow.setContent(info.popupHtml);
+                infoWindow.open(spotMap, info.marker);
                 document.getElementById('spot-map').scrollIntoView({ behavior: 'smooth', block: 'center' });
               });
 
@@ -498,11 +556,14 @@ layout: default
       }
 
       function selectSpot(name) {
-        if (markerByName[selectedName] && selectedName !== name) {
-          markerByName[selectedName].closeTooltip();
+        if (markerByName[selectedName] && selectedName !== name && markerByName[selectedName].label) {
+          markerByName[selectedName].label.setMap(null);
+          markerByName[selectedName].label = null;
         }
         selectedName = name;
-        if (markerByName[name]) { markerByName[name].openTooltip(); }
+        if (markerByName[name] && !markerByName[name].label) {
+          markerByName[name].label = new PinLabel(spotMap, markerByName[name].marker.getPosition(), name);
+        }
         renderSummary();
       }
 
@@ -525,51 +586,42 @@ layout: default
         });
       }
 
-      function makeIcon(type, letter, num) {
-        var isLettered = !!(type && letter);
-        var isNumbered = !type && num;
-        var label = isLettered ? letter : (isNumbered ? num : '');
-        return L.divIcon({
-          className: 'spot-pin-wrapper',
-          html: '<div class="spot-pin' + (type ? ' spot-pin-' + type : '') + ((isLettered || isNumbered) ? ' spot-pin-lettered' : '') + '">' + label + '</div>',
-          iconSize: (isLettered || isNumbered) ? [20, 20] : [14, 14],
-          iconAnchor: (isLettered || isNumbered) ? [10, 10] : [7, 7],
-          popupAnchor: [0, -8]
-        });
-      }
-
       function renderMap() {
         if (!spotMap) {
-          spotMap = L.map('spot-map', { scrollWheelZoom: false });
-          L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-            maxZoom: 19
-          }).addTo(spotMap);
+          spotMap = new google.maps.Map(document.getElementById('spot-map'), {
+            center: spotLatLng(mySpots[0]),
+            zoom: 13,
+            gestureHandling: 'cooperative',
+            mapTypeControl: false,
+            streetViewControl: false,
+            fullscreenControl: false
+          });
         } else {
-          spotMap.eachLayer(function (layer) { if (layer instanceof L.Marker) spotMap.removeLayer(layer); });
+          Object.keys(markerByName).forEach(function (name) {
+            markerByName[name].marker.setMap(null);
+            if (markerByName[name].label) { markerByName[name].label.setMap(null); }
+          });
         }
         markerByName = {};
         var shown = visibleBeaches().map(function (s, idx) { return { s: s, num: idx + 1 }; })
           .concat(hotels.filter(function (h) { return activeTiers[h.letter]; }).map(function (h) { return { s: h, num: null }; }))
           .concat(others.map(function (o) { return { s: o, num: null }; }));
-        var markers = shown.map(function (item) {
+        var positions = [];
+        shown.forEach(function (item) {
           var s = item.s;
-          var m = L.marker([s.lat, s.lng], { icon: makeIcon(s.type, s.letter, item.num) }).addTo(spotMap);
-          m.bindTooltip(s.name, { permanent: false, interactive: true, direction: 'top', offset: [0, -8], className: 'spot-label' });
-          markerByName[s.name] = m;
-          if (s.name === selectedName) { m.openTooltip(); }
-          m.on('tooltipopen', function (e) {
-            var tipEl = e.tooltip.getElement();
-            if (tipEl) { tipEl.addEventListener('click', function () { selectSpot(s.name); }); }
+          var pos = spotLatLng(s);
+          positions.push(pos);
+          var label = item.num ? String(item.num) : (s.letter || null);
+          var m = new google.maps.Marker({
+            position: pos,
+            map: spotMap,
+            icon: buildPinIcon(s.type, label)
           });
-          m.on('click', function () { selectSpot(s.name); });
-          return m;
+          m.addListener('click', function () { selectSpot(s.name); });
+          markerByName[s.name] = { marker: m, label: (s.name === selectedName) ? new PinLabel(spotMap, pos, s.name) : null };
         });
-        if (markers.length) {
-          var group = L.featureGroup(markers);
-          spotMap.fitBounds(group.getBounds().pad(0.4));
-        }
-        setTimeout(function () { spotMap.invalidateSize(); }, 200);
+        fitMapToPositions(spotMap, positions);
+        google.maps.event.trigger(spotMap, 'resize');
       }
 
       function listItems() {

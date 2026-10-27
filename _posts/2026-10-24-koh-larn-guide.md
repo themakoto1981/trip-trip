@@ -43,7 +43,7 @@ excerpt: "パタヤからスピードボートでわずか20分。コーラル�
 ## おすすめ旅程（やす旅向け／パタヤ1泊・3泊4日の例）
 
 **1日目**
-- 08:55　成田発（Vietjet Air直行便）
+- 08:55　成田発（Vietjet Air、約7時間35分）
 - 14:30　バンコク（スワンナプーム空港）着
 - 16:30頃　Grabタクシーでパタヤへ移動（約1.5〜2時間）
 - 18:00頃　パタヤ着。[Pattaya Inn Hotel](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D64741890)に1泊
@@ -63,13 +63,13 @@ excerpt: "パタヤからスピードボートでわずか20分。コーラル�
 - パタヤ市内でランチ・買い物（[セントラルフェスティバルパタヤビーチ](https://www.centralfestivalpattayabeach.co.th/)など）
 - 18:00頃　Grabタクシーでバンコク空港へ移動（約1.5〜2時間）
 - 19:30頃　バンコク空港着
-- 23:55　バンコク発（Vietjet Air直行便）
+- 23:55　バンコク発（Vietjet Air、約6時間）
 - 07:55　成田着（翌日）
 
 ## おすすめ旅程（ゆる旅向け／パタヤ1泊・3泊4日の例）
 
 **1日目**
-- 11:05　羽田発（ANA直行便NH847）
+- 11:05　羽田発（ANA NH847、約7時間15分）
 - 16:20　バンコク（スワンナプーム空港）着
 - 18:00頃　Grabタクシーでパタヤへ移動（約1.5〜2時間）
 - 19:30頃　パタヤ着。[Balihai Bay Pattaya](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D863180)に1泊
@@ -89,13 +89,13 @@ excerpt: "パタヤからスピードボートでわずか20分。コーラル�
 - パタヤ市内でランチ・買い物（[セントラルフェスティバルパタヤビーチ](https://www.centralfestivalpattayabeach.co.th/)など）
 - 18:00頃　Grabタクシーでバンコク空港へ移動（約1.5〜2時間）
 - 19:30頃　バンコク空港着
-- 21:35　バンコク発（ANA直行便NH850）
+- 21:35　バンコク発（ANA NH850、約6時間25分）
 - 06:00　羽田着（翌日）
 
 ## おすすめ旅程（らぐ旅向け／パタヤ1泊・3泊4日の例）
 
 **1日目**
-- 11:05　羽田発（ANA直行便NH847）
+- 11:05　羽田発（ANA NH847、約7時間15分）
 - 16:20　バンコク（スワンナプーム空港）着
 - 18:00頃　Grabタクシーでパタヤへ移動（約1.5〜2時間）
 - 19:30頃　パタヤ着。[InterContinental Pattaya Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1192737)に1泊
@@ -115,7 +115,7 @@ excerpt: "パタヤからスピードボートでわずか20分。コーラル�
 - パタヤ市内でランチ・買い物（[セントラルフェスティバルパタヤビーチ](https://www.centralfestivalpattayabeach.co.th/)など）
 - 18:00頃　Grabタクシーでバンコク空港へ移動（約1.5〜2時間）
 - 19:30頃　バンコク空港着
-- 21:35　バンコク発（ANA直行便NH850）
+- 21:35　バンコク発（ANA NH850、約6時間25分）
 - 06:00　羽田着（翌日）
 
 ## パタヤ滞在と組み合わせる

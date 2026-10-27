@@ -741,7 +741,7 @@ layout: default
         return desc;
       }
       function formatDurationTag(duration) {
-        return duration ? '所要時間' + duration.replace(/^約/, '') : null;
+        return duration ? '所要時間' + duration.replace(/^(約|所要)/, '') : null;
       }
 
       itineraryHeadings.forEach(function (itineraryHeading) {

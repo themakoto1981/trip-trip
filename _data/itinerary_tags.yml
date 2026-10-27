@@ -1,0 +1,36 @@
+# 旅程カードタグ マスター（TRiPxTRiP 旅程タグ設計仕様書 v1.0 準拠）
+# 本文・アイコンで重複する情報はタグ化しない。付与条件はpost.html側のitineraryTag()で判定する。
+# タグ名の変更・停止はここだけを直せばよい。
+#
+# category: experience（体験・目的） / condition（旅程条件）
+# active: false のタグは表示側で自動的にスキップされる
+
+- id: EX01
+  name: シュノーケリング
+  category: experience
+  active: true
+- id: EX02
+  name: ショッピング
+  category: experience
+  active: true
+- id: EX03
+  name: のんびり
+  category: experience
+  active: true
+- id: EX04
+  name: グルメ
+  category: experience
+  active: true
+
+- id: CD01
+  name: 直行便
+  category: condition
+  active: true
+- id: CD02
+  name: 予約不要
+  category: condition
+  active: true
+- id: CD03
+  name: レンタルバイク
+  category: condition
+  active: true

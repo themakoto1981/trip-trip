@@ -207,22 +207,22 @@ bali-guide:
 
 koh-lipe-guide:
   - name: パッタヤビーチ
-    lat: 6.4939
-    lng: 99.3020
+    lat: 6.4869723
+    lng: 99.3030882
     desc: 島いちばんの繁華ビーチ。レストランやバーが並ぶ
     category: beach
     tags: ["ビーチ", "繁華"]
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Koh_Lipe_Beach_viewed_from_Walking_Street_-_panoramio.jpg/960px-Koh_Lipe_Beach_viewed_from_Walking_Street_-_panoramio.jpg"
   - name: サンライズビーチ
-    lat: 6.4960
-    lng: 99.3060
+    lat: 6.4887474
+    lng: 99.310043
     desc: 静かな朝日鑑賞スポット
     category: beach
     tags: ["ビーチ", "静か"]
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Koh_Lipe_Sunrise_%2836192202034%29.jpg/960px-Koh_Lipe_Sunrise_%2836192202034%29.jpg"
   - name: サンセットビーチ
-    lat: 6.4980
-    lng: 99.2960
+    lat: 6.4922357
+    lng: 99.3004335
     desc: 夕日が美しい西側のビーチ
     category: beach
     tags: ["ビーチ", "夕日"]

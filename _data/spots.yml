@@ -266,10 +266,14 @@ redang-guide:
     lat: 5.7900
     lng: 103.0250
     desc: シュノーケリングの定番スポット
+    category: spot
+    tags: ["シュノーケリング"]
   - name: チャガル・フータン
     lat: 5.8020
     lng: 103.0080
     desc: ウミガメの産卵が見られる保護区ビーチ
+    category: beach
+    tags: ["ビーチ", "ウミガメ"]
   - name: "Redang De' Rimba Resort"
     lat: 5.7819714
     lng: 103.0115898
@@ -582,20 +586,30 @@ el-nido-guide:
     lat: 11.2790
     lng: 119.3390
     desc: 町から北へ約45分、約4kmにわたる白砂のロングビーチ
+    image: "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Nacpan_Beach_in_El_Nido.jpg/960px-Nacpan_Beach_in_El_Nido.jpg"
+    category: beach
+    tags: ["ビーチ"]
   - name: ビッグラグーン
     lat: 11.1530
     lng: 119.3320
     desc: ミニロク島にある、断崖に囲まれたエメラルドグリーンのラグーン
+    category: spot
+    tags: ["絶景", "アイランドホッピング"]
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Limestone_island_in_Bacuit_Bay%2C_El_Nido%2C_Palawan%2C_Philippines.jpg/960px-Limestone_island_in_Bacuit_Bay%2C_El_Nido%2C_Palawan%2C_Philippines.jpg"
   - name: コロンコロンビーチ
     lat: 11.1630
     lng: 119.3950
     desc: 町の南にある静かなビーチ、サンセットの名所
+    category: beach
+    tags: ["ビーチ", "夕日", "静か"]
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Corong_Corong%2C_El_Nido%2C_Palawan_Island%2C_Philippines.jpg/960px-Corong_Corong%2C_El_Nido%2C_Palawan_Island%2C_Philippines.jpg"
   - name: ラスカバーニャビーチ
     lat: 11.1530
     lng: 119.3990
     desc: 夕日が美しいことで知られる、のんびりした砂浜
+    image: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Las_Cabanas_Beach_-_panoramio.jpg/960px-Las_Cabanas_Beach_-_panoramio.jpg"
+    category: beach
+    tags: ["ビーチ", "夕日", "静か"]
   - name: "Spin Designer Hostel"
     lat: 11.180367
     lng: 119.392723
@@ -623,19 +637,29 @@ nusa-penida-guide:
     lat: -8.7503
     lng: 115.4733
     desc: 恐竜の背中のような岬が海に突き出す、島を象徴する絶景スポット
+    category: beach
+    tags: ["絶景"]
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Kelingking_Beach_%282022%29.jpg/960px-Kelingking_Beach_%282022%29.jpg"
   - name: クリスタルベイ
     lat: -8.7151611
     lng: 115.4590565
     desc: 西向きの白砂ビーチ、シュノーケリングと夕日の名所
+    image: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Crystal_Bay%2C_Nusa_Penida_2017-08-20_%289%29.jpg/960px-Crystal_Bay%2C_Nusa_Penida_2017-08-20_%289%29.jpg"
+    category: beach
+    tags: ["ビーチ", "シュノーケリング", "夕日"]
   - name: ダイヤモンドビーチ
     lat: -8.7751348
     lng: 115.6202282
     desc: 断崖の下に白砂が延びる、島の東端のビーチ
+    image: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Diamond_Beach%2C_Nusa_Penida.jpg/960px-Diamond_Beach%2C_Nusa_Penida.jpg"
+    category: beach
+    tags: ["ビーチ", "絶景"]
   - name: アトゥビーチ
     lat: -8.7734116
     lng: 115.6218187
     desc: ダイヤモンドビーチの隣にある、人が少なめの静かな入り江
+    category: beach
+    tags: ["ビーチ", "静か"]
   - name: デンパサール（ングラライ）国際空港
     lat: -8.7469933
     lng: 115.1681655
@@ -695,15 +719,23 @@ gili-trawangan-guide:
     lat: -8.3526
     lng: 116.0288
     desc: 島の西岸に面した夕日の名所、ブランコやビーチバーが並ぶ
+    category: beach
+    tags: ["ビーチ", "夕日"]
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Sunset_at_Gili_Trawangan_%2816950551546%29.jpg/960px-Sunset_at_Gili_Trawangan_%2816950551546%29.jpg"
   - name: タートルポイント
     lat: -8.3523
     lng: 116.0354
     desc: 東岸の浅瀬、シュノーケリングでウミガメに出会える
+    image: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Gili_trawangan_turtle_01.jpg/960px-Gili_trawangan_turtle_01.jpg"
+    category: beach
+    tags: ["ビーチ", "シュノーケリング", "ウミガメ"]
   - name: ギリ・トラワンガン港周辺
     lat: -8.3484
     lng: 116.0385
     desc: 高速ボートが着くメインビーチ沿いのにぎやかなエリア
+    image: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Passenger_station_of_public_harbour%2C_Gili_Trawangan_2017-08-13_%283%29.jpg/960px-Passenger_station_of_public_harbour%2C_Gili_Trawangan_2017-08-13_%283%29.jpg"
+    category: beach
+    tags: ["ビーチ", "賑やか"]
   - name: パダンバイ港
     lat: -8.5305
     lng: 115.5105
@@ -743,22 +775,33 @@ cebu-guide:
     lat: 10.30806
     lng: 124.01111
     desc: マクタン島の遊歩道沿いのビーチエリア、リゾートの多くはこの周辺
+    image: "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Mactan-beach.jpg/960px-Mactan-beach.jpg"
+    category: beach
+    tags: ["ビーチ"]
   - name: オスロブ
     lat: 9.4622
     lng: 123.3785
     desc: ジンベイザメと一緒に泳げる南部の町、早朝ツアーが中心
+    category: spot
+    tags: ["アクティビティ"]
   - name: カワサン滝
     lat: 9.800
     lng: 123.367
     desc: バディアン地区の多段式の滝、青く透き通った滝つぼが名物
+    category: spot
+    tags: ["自然", "滝"]
   - name: ヒルトゥガン島海洋保護区
     lat: 10.20778
     lng: 123.98530
     desc: フィリピン最古級の海洋保護区、サンゴとウミガメに出会える
+    category: spot
+    tags: ["シュノーケリング"]
   - name: ナルスアン島
     lat: 10.19056
     lng: 124.00056
     desc: ヒルトゥガン島近くの小さな島、ランチ付きアイランドホッピングの定番
+    category: beach
+    tags: ["ビーチ", "アイランドホッピング"]
   - name: "The Stopover Hostel – Mactan"
     lat: 10.3159333
     lng: 123.9600902
@@ -786,18 +829,28 @@ coron-guide:
     lat: 11.9541
     lng: 120.2243
     desc: 石灰岩の断崖に囲まれたアジア屈指の透明度を誇る湖
+    image: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Kayangan_Lake%2C_Coron%2C_Palawan.jpg/960px-Kayangan_Lake%2C_Coron%2C_Palawan.jpg"
+    category: beach
+    tags: ["絶景"]
   - name: ツインラグーン
     lat: 11.9476
     lng: 120.20968
     desc: 石灰岩の壁で仕切られた2つのラグーン、満潮時は泳いで行き来できる
+    image: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Twin_Lagoon%2C_Coron%2C_Palawan.jpg/960px-Twin_Lagoon%2C_Coron%2C_Palawan.jpg"
+    category: beach
+    tags: ["絶景", "シュノーケリング"]
   - name: スケルトンレック
     lat: 11.94123
     lng: 120.19182
     desc: 第二次世界大戦で沈んだ日本の輸送船、シュノーケリングでも見える浅さ
+    category: spot
+    tags: ["シュノーケリング"]
   - name: ビーチ91
     lat: 11.944724
     lng: 120.19347
     desc: アイランドホッピングのランチ休憩で使われる小さなビーチ
+    category: beach
+    tags: ["ビーチ"]
   - name: "RB Transient House"
     lat: 11.9972762
     lng: 120.2095739
@@ -825,19 +878,28 @@ nusa-lembongan-guide:
     lat: -8.6815
     lng: 115.4527
     desc: 三日月形の穏やかな入り江、泳ぎやシュノーケリングに向く
+    category: beach
+    tags: ["ビーチ", "シュノーケリング"]
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Nusa_Lembongan_-_aqua_waters_of_Mushroom_Bay.jpg/960px-Nusa_Lembongan_-_aqua_waters_of_Mushroom_Bay.jpg"
   - name: ドリームビーチ
     lat: -8.6956
     lng: 115.4517
     desc: ビーチカフェが並ぶ、島を代表する白砂のビーチ
+    image: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Nusa_Lembongan_Dream_Beach.jpg/960px-Nusa_Lembongan_Dream_Beach.jpg"
+    category: beach
+    tags: ["ビーチ"]
   - name: デビルズティア
     lat: -8.6987
     lng: 115.4442
     desc: 断崖に波が打ち寄せる夕日の名所
+    category: spot
+    tags: ["絶景", "夕日"]
   - name: 黄色い吊り橋
     lat: -8.6803
     lng: 115.4568
     desc: ヌサチェニガン島へ歩いて渡れる、島のシンボル
+    category: spot
+    tags: ["観光"]
   - name: ジャングットバトゥ
     lat: -8.6717
     lng: 115.4428
@@ -934,22 +996,34 @@ con-dao-guide:
     lat: 8.6836
     lng: 106.6103
     desc: フランス統治時代に築かれた大規模な収容所、当時のタイガーケージが残る
+    category: spot
+    tags: ["観光"]
   - name: コンダオ博物館
     lat: 8.6859
     lng: 106.6084
     desc: 島の監獄の歴史を伝える中心地の博物館
+    category: spot
+    tags: ["観光"]
   - name: アンハイビーチ
     lat: 8.6876
     lng: 106.6153
     desc: コンソンの町から歩いて行ける静かなビーチ
+    image: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Beach_view_from_Six_Senses_Resort_in_C%C3%B4n_%C4%90%E1%BA%A3o_%28April_2022%29.jpg/960px-Beach_view_from_Six_Senses_Resort_in_C%C3%B4n_%C4%90%E1%BA%A3o_%28April_2022%29.jpg"
+    category: beach
+    tags: ["ビーチ", "静か"]
   - name: ベイカイン島
     lat: 8.6300
     lng: 106.7200
     desc: ウミガメの産卵地として知られる国立公園内の島、シュノーケリングが楽しめる
+    image: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/H%C3%B2n_B%E1%BA%A3y_C%E1%BA%A1nh_C%C3%B4n_%C4%90%E1%BA%A3o_-_panoramio.jpg/960px-H%C3%B2n_B%E1%BA%A3y_C%E1%BA%A1nh_C%C3%B4n_%C4%90%E1%BA%A3o_-_panoramio.jpg"
+    category: beach
+    tags: ["ビーチ", "ウミガメ", "シュノーケリング"]
   - name: ハンズオン墓地
     lat: 8.6941
     lng: 106.6146
     desc: ヴォー・ティ・サウら多くの政治犯が眠る墓地
+    category: spot
+    tags: ["観光"]
   - name: "Phi Yen Guest House"
     lat: 8.6820
     lng: 106.6063
@@ -977,18 +1051,29 @@ siargao-guide:
     lat: 9.8071
     lng: 126.1651
     desc: 世界的に有名なサーフポイント、ボードウォークから波を見るだけでも楽しめる
+    image: "https://upload.wikimedia.org/wikipedia/commons/8/83/Cloud_9_Siargao_Island_Sunset.jpg"
+    category: beach
+    tags: ["ビーチ", "サーフィン"]
   - name: スグバ・ラグーン
     lat: 9.9063
     lng: 125.9003
     desc: 石灰岩の崖に囲まれたエメラルドグリーンのラグーン、離島ツアーの定番
+    image: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Siargao_Island.jpg/960px-Siargao_Island.jpg"
+    category: beach
+    tags: ["絶景", "アイランドホッピング"]
   - name: マグププンコ・タイダルプール
     lat: 9.8757
     lng: 126.1202
     desc: 引き潮の時間だけ現れる天然プール
+    category: spot
+    tags: ["自然"]
   - name: ネイキッドアイランド
     lat: 9.7349
     lng: 126.1259
     desc: 真っ白な砂州だけの小島、離島ツアーのランチ休憩地点
+    image: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Guyam_Island%2C_Siargao.jpg/960px-Guyam_Island%2C_Siargao.jpg"
+    category: beach
+    tags: ["ビーチ", "アイランドホッピング"]
   - name: "Isla Cabana"
     lat: 9.7901
     lng: 126.1630
@@ -1016,22 +1101,35 @@ camiguin-guide:
     lat: 9.2578
     lng: 124.6558
     desc: 海に浮かぶ真っ白な砂州、ヤンビンからボートで約10分
+    image: "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Camiguin_White_Island.jpg/960px-Camiguin_White_Island.jpg"
+    category: beach
+    tags: ["ビーチ"]
   - name: サンケン・セメタリー
     lat: 9.2068
     lng: 124.6330
     desc: 1871年の火山噴火で海に沈んだ旧墓地、沖の十字架が目印
+    image: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Sunken_Cemetery%2C_Camiguin.jpg/960px-Sunken_Cemetery%2C_Camiguin.jpg"
+    category: beach
+    tags: ["絶景", "観光"]
   - name: カティバワサン滝
     lat: 9.2145
     lng: 124.7166
     desc: 高さ約70mの滝、滝つぼで泳げる
+    category: spot
+    tags: ["自然", "滝"]
   - name: アーデント温泉
     lat: 9.2260
     lng: 124.6878
     desc: ヒボク・ヒボク山のふもとにある温泉
+    category: spot
+    tags: ["アクティビティ"]
   - name: マンティグエ島
     lat: 9.1717
     lng: 124.8253
     desc: ウミガメが訪れるシュノーケリングスポットの小島
+    image: "https://upload.wikimedia.org/wikipedia/commons/9/9f/White_Beach_in_Mantigue_Island%2C_Camiguin.jpg"
+    category: beach
+    tags: ["ビーチ", "シュノーケリング"]
   - name: "Bintana Sa Paraiso"
     lat: 9.2351
     lng: 124.6492
@@ -1045,18 +1143,27 @@ nhatrang-guide:
     lat: 12.2388
     lng: 109.1967
     desc: 市街地沿いに約6km続くニャチャンのメインビーチ
+    image: "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Nha_Trang_Beach_7.jpg/960px-Nha_Trang_Beach_7.jpg"
+    category: beach
+    tags: ["ビーチ"]
   - name: ヴィンパールランド
     lat: 12.3670
     lng: 109.4000
     desc: ホンチェ島にある遊園地・水族館・ウォーターパーク、海上ロープウェイで渡る
+    category: spot
+    tags: ["アクティビティ"]
   - name: ポーナガル・チャム塔
     lat: 12.2653
     lng: 109.1956
     desc: 8〜13世紀に建てられたチャンパ王国のヒンドゥー教寺院遺跡
+    category: spot
+    tags: ["観光"]
   - name: タップバー温泉
     lat: 12.2820
     lng: 109.1680
     desc: 市街地から車で約15分の泥風呂・温泉施設
+    category: spot
+    tags: ["アクティビティ"]
   - name: "Mojzo Inn"
     lat: 12.2400
     lng: 109.1950
@@ -1084,18 +1191,29 @@ krabi-guide:
     lat: 8.0126
     lng: 98.8372
     desc: 石灰岩の断崖に囲まれた、夕日が美しいメインビーチ
+    image: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/West_Rai_Leh_%2811%29.jpg/960px-West_Rai_Leh_%2811%29.jpg"
+    category: beach
+    tags: ["ビーチ", "夕日"]
   - name: プラナンケーブビーチ
     lat: 8.0059
     lng: 98.8381
     desc: 聖地として祀られる洞窟のあるビーチ、断崖越しに徒歩でも行ける
+    image: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Ao_Nang_beach.jpg/960px-Ao_Nang_beach.jpg"
+    category: beach
+    tags: ["ビーチ", "観光"]
   - name: トンサイビーチ
     lat: 8.0181
     lng: 98.8322
     desc: 世界的に知られるロッククライミングのスポット、断崖を登るクライマーが集まる
+    image: "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Railay%2C_Krabi%2C_Palms%2C_Thailand.jpg/960px-Railay%2C_Krabi%2C_Palms%2C_Thailand.jpg"
+    category: beach
+    tags: ["ビーチ", "アクティビティ"]
   - name: ダイヤモンドケーブ
     lat: 8.0145
     lng: 98.8365
     desc: ライレイ東側から徒歩約10分、鍾乳石が輝く鍾乳洞
+    category: spot
+    tags: ["自然"]
   - name: "Railay Phutawan Resort"
     lat: 8.0155
     lng: 98.8350
@@ -1123,32 +1241,48 @@ tioman-guide:
     lat: 2.8170
     lng: 104.1720
     desc: 島最大の集落、フェリーが着くメインの港
+    category: spot
+    tags: ["港"]
   - name: アイールバタン（ABC）
     lat: 2.7870
     lng: 104.1820
     desc: バックパッカーに人気、手頃な宿とダイビングショップが並ぶ
+    image: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Tioman_island_%283678622941%29.jpg/960px-Tioman_island_%283678622941%29.jpg"
+    category: beach
+    tags: ["ビーチ"]
   - name: サラン
     lat: 2.8890
     lng: 104.1930
     desc: 北西の長いビーチ、宿と食堂が集まりシュノーケリングポイントが近い
+    category: beach
+    tags: ["ビーチ", "シュノーケリング"]
   - name: ジュアラ
     lat: 2.7790
     lng: 104.2070
     desc: 島の東側の穏やかなビーチ、ウミガメの産卵地としても知られる
+    category: beach
+    tags: ["ビーチ", "ウミガメ"]
 
 gili-air-guide:
   - name: サンセットサイドビーチ
     lat: -8.3560
     lng: 116.0770
     desc: 島の西側、夕日の名所として知られるビーチ
+    image: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/20160316145630_-_Gili_Air_beach%2C_West_side%2C_towards_Lombok_%2825736339441%29.jpg/960px-20160316145630_-_Gili_Air_beach%2C_West_side%2C_towards_Lombok_%2825736339441%29.jpg"
+    category: beach
+    tags: ["ビーチ", "夕日"]
   - name: ハーバーエリア
     lat: -8.3540
     lng: 116.0830
     desc: ボート乗り場周辺、レストランやカフェが集まるエリア
+    category: spot
+    tags: ["グルメ"]
   - name: シュノーケリングポイント（島東側）
     lat: -8.3555
     lng: 116.0860
     desc: ウミガメに出会えることで知られるリーフ
+    category: spot
+    tags: ["シュノーケリング", "ウミガメ"]
   - name: "Captain Coconuts Gili Air"
     lat: -8.3565
     lng: 116.0775

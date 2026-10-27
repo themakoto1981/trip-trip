@@ -681,7 +681,7 @@ layout: default
         if (text.indexOf('シュノーケリング') !== -1) { return 'snorkeling'; }
         if (text.indexOf('買い物') !== -1) { return 'shopping'; }
         if (text.indexOf('ランチ') !== -1 || text.indexOf('ディナー') !== -1 || text.indexOf('昼食') !== -1 || text.indexOf('夕食') !== -1) { return 'restaurant'; }
-        if (text.indexOf('のんびり') !== -1) { return 'beach'; }
+        if (text.indexOf('のんびり') !== -1 || text.indexOf('ゆったり') !== -1) { return 'beach'; }
         if (text.indexOf('タクシー') !== -1) { return 'taxi'; }
         if (text.indexOf('スクーター') !== -1 || text.indexOf('レンタルバイク') !== -1) { return 'motorbike'; }
         return null;
@@ -692,7 +692,7 @@ layout: default
         if (text.indexOf('シーフード') !== -1 || text.indexOf('名物') !== -1) { return 'EX04'; }
         if (text.indexOf('買い物') !== -1) { return 'EX02'; }
         if (text.indexOf('シュノーケリング') !== -1) { return 'EX01'; }
-        if (text.indexOf('のんびり') !== -1) { return 'EX03'; }
+        if (text.indexOf('のんびり') !== -1 || text.indexOf('ゆったり') !== -1) { return 'EX03'; }
         if (text.indexOf('直行便') !== -1) { return 'CD01'; }
         if (text.indexOf('予約不要') !== -1) { return 'CD02'; }
         if (text.indexOf('スクーター') !== -1 || text.indexOf('レンタルバイク') !== -1) { return 'CD03'; }

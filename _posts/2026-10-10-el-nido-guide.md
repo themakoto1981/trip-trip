@@ -46,9 +46,10 @@ excerpt: "石灰岩の断崖とエメラルドグリーンの入り江が広が�
 ## おすすめ旅程（やす旅向け／セブ経由・4泊5日の例）
 
 **1日目（1泊目：エルニド泊）**
-- 11:25　成田発（セブパシフィック航空直行便、所要5時間25分）
+- 11:25　成田発（セブパシフィック航空、所要5時間25分）
 - 15:50　セブ着。入国審査・荷物受取後、セブ空港で乗り継ぎ待ち
-- 19:05　セブ発（Cebgo、所要1時間45分）→ 20:50　エルニド・リオ空港着
+- 19:05　セブ発（Cebgo、所要1時間45分）
+- 20:50　エルニド・リオ空港着
 - 21:00頃　[Spin Designer Hostel](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D984523)にチェックイン（設備の整ったデザイナーズホステル）
 
 **2日目（2泊目：エルニド泊・終日フリー）**
@@ -62,22 +63,25 @@ excerpt: "石灰岩の断崖とエメラルドグリーンの入り江が広が�
 - 17:30　コロンコロンビーチでサンセットを眺める
 
 **4日目（4泊目：セブ泊）**
-- 06:50　エルニド・リオ空港発（Cebgo、所要1時間45分）→ 08:35　セブ着
+- 06:50　エルニド・リオ空港発（Cebgo、所要1時間45分）
+- 08:35　セブ着
 - 09:30頃　[The Mins Cebu Boutique Hotel](https://www.booking.com/searchresults.html?ss=The+Mins+Cebu+Boutique+Hotel)に荷物を預けてチェックイン（街なかホテル）
 - 日中　セブ市内観光（サント・ニーニョ教会、マゼラン・クロス、カルボン市場など）
 
 **5日目**
-- 04:15　セブ発（セブパシフィック航空直行便、所要5時間10分）→ 10:25　成田着
+- 04:15　セブ発（セブパシフィック航空、所要5時間10分）
+- 10:25　成田着
 
 ## おすすめ旅程（ゆる旅向け／セブ経由・5泊6日の例）
 
 **1日目（1泊目：セブ泊）**
-- 15:20　成田発（フィリピン航空直行便、所要5時間15分）
+- 15:20　成田発（フィリピン航空、所要5時間15分）
 - 19:35　セブ着。入国審査・荷物受取後、ホテルへ
 - 20:30頃　[Belmont Hotel Mactan](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D70065426)にチェックイン（空港から車で5分ほどのリゾートホテル）
 
 **2日目（2泊目：エルニド泊）**
-- 09:20　セブ発（Cebgo、所要1時間50分）→ 11:10　エルニド・リオ空港着
+- 09:20　セブ発（Cebgo、所要1時間50分）
+- 11:10　エルニド・リオ空港着
 - 11:30頃　空港からトライシクルで約10分、[Cadlao Resort & Restaurant](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D39409737)に荷物を預け、プールでのんびり過ごす（プール付きのリゾート）
 - 14:00　正式にチェックイン
 - 午後　町を散策
@@ -93,22 +97,25 @@ excerpt: "石灰岩の断崖とエメラルドグリーンの入り江が広が�
 - 17:30　ラスカバーニャビーチでサンセットを眺める
 
 **5日目（5泊目：セブ泊）**
-- 06:50　エルニド・リオ空港発（Cebgo、所要1時間45分）→ 08:35　セブ着
+- 06:50　エルニド・リオ空港発（Cebgo、所要1時間45分）
+- 08:35　セブ着
 - 09:30頃　[Belmont Hotel Mactan](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D70065426)に荷物を預けてチェックイン
 - 日中　セブ市内観光（サント・ニーニョ教会、マゼラン・クロス、カルボン市場など）
 
 **6日目**
-- 08:25　セブ発（フィリピン航空直行便、所要4時間45分）→ 14:10　成田着
+- 08:25　セブ発（フィリピン航空、所要4時間45分）
+- 14:10　成田着
 
 ## おすすめ旅程（らぐ旅向け／セブ経由・5泊6日の例）
 
 **1日目（1泊目：セブ泊）**
-- 15:20　成田発（フィリピン航空直行便、所要5時間15分）
+- 15:20　成田発（フィリピン航空、所要5時間15分）
 - 19:35　セブ着。入国審査・荷物受取後、ホテルへ
 - 20:30頃　[Crimson Resort & Spa Mactan](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D186597)にチェックイン（空港から車で10分ほどのビーチフロント高級リゾート）
 
 **2日目（2泊目：エルニド泊）**
-- 09:20　セブ発（Cebgo、所要1時間50分）→ 11:10　エルニド・リオ空港着
+- 09:20　セブ発（Cebgo、所要1時間50分）
+- 11:10　エルニド・リオ空港着
 - 午後　リゾートの送迎ボートで島へ。[Lagen Island Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D9713)にチェックイン（ジャングルと入り江に囲まれた島の高級リゾート）
 
 **3日目（3泊目：エルニド泊・終日フリー）**
@@ -123,12 +130,14 @@ excerpt: "石灰岩の断崖とエメラルドグリーンの入り江が広が�
 
 **5日目（5泊目：セブ泊）**
 - 午前　リゾートの送迎ボートでリオ空港へ
-- 06:50　エルニド・リオ空港発（Cebgo、所要1時間45分）→ 08:35　セブ着
+- 06:50　エルニド・リオ空港発（Cebgo、所要1時間45分）
+- 08:35　セブ着
 - 09:30頃　[Crimson Resort & Spa Mactan](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D186597)に荷物を預けてチェックイン
 - 日中　ホテルのビーチやプールでのんびり過ごす、またはセブ市内観光
 
 **6日目**
-- 08:25　セブ発（フィリピン航空直行便、所要4時間45分）→ 14:10　成田着
+- 08:25　セブ発（フィリピン航空、所要4時間45分）
+- 14:10　成田着
 
 ## おすすめビーチ・スポット
 

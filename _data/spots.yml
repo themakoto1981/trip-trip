@@ -1239,6 +1239,7 @@ koh-kood-guide:
     lat: 11.6050
     lng: 102.5250
     desc: 島の中心にある一番開けたビーチ、宿やレストランが集まる
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Ko_Kut%2C_Klong_Chao_-_panoramio.jpg/960px-Ko_Kut%2C_Klong_Chao_-_panoramio.jpg"
     category: beach
     tags: ["ビーチ", "食事", "シュノーケリング"]
     short: "島の中心にあるビーチ。穏やかな海と白砂が続き、宿やレストランも集まっています。"
@@ -1265,6 +1266,7 @@ koh-kood-guide:
     lat: 11.6300
     lng: 102.5200
     desc: 島で最も長いビーチ、人が少なく静か
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Koh_Kut%2C_Thailand%2C_Sand_bank.jpg/960px-Koh_Kut%2C_Thailand%2C_Sand_bank.jpg"
     category: beach
     tags: ["ビーチ", "静か"]
     short: "島で最も長いビーチ。クロンチャオほど開発されておらず、静かに過ごせます。"
@@ -1278,6 +1280,7 @@ koh-kood-guide:
     lat: 11.5650
     lng: 102.5300
     desc: 西海岸南端の三日月型ビーチ、小さな宿だけで静か
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Koh_Kut%2C_Thailand%2C_Palms_on_the_beach_before_sunset.jpg/960px-Koh_Kut%2C_Thailand%2C_Palms_on_the_beach_before_sunset.jpg"
     category: beach
     tags: ["ビーチ", "静か", "夕日"]
     short: "西海岸の南にある三日月型のビーチ。小さな宿しかなく、静かに過ごせます。"

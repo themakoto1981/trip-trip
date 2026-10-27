@@ -52,6 +52,7 @@ layout: default
     var destinations = {{ site.data.destinations | jsonify }};
     var allSpots = {{ site.data.spots | jsonify }} || {};
     var planTags = {{ site.data.plan_tags | jsonify }} || [];
+    var itineraryTags = {{ site.data.itinerary_tags | jsonify }} || [];
     var productMaster = {{ site.data.products | jsonify }} || [];
     var articleProducts = {{ site.data.article_products | jsonify }} || {};
     var pageUrl = "{{ page.url }}";
@@ -669,20 +670,40 @@ layout: default
         taxi: '<path d="M4 10l2-5h12l2 5 1.5 2v6H2.5v-6z"/><rect x="7" y="7" width="10" height="4" rx="1" fill="#EEF4EE"/><circle cx="6" cy="17" r="2"/><circle cx="18" cy="17" r="2"/>',
         motorbike: '<circle cx="5.5" cy="17" r="3" fill="none" stroke="#1E3932" stroke-width="2.5"/><circle cx="18.5" cy="17" r="3" fill="none" stroke="#1E3932" stroke-width="2.5"/><path d="M5.5 17l4-6h4l3 6h-7l3-4h4l2 4M11 8h3l2 3h-3z"/><circle cx="12" cy="5" r="2"/>'
       };
-      function itineraryMeta(text) {
-        if (text.indexOf('直行便') !== -1) { return { icon: 'plane', tag: '直行便' }; }
-        if (text.indexOf('スピードボート') !== -1) { return { icon: 'ferry', tag: 'スピードボート' }; }
-        if (text.indexOf('チェックイン') !== -1 || text.indexOf('泊') !== -1) { return { icon: 'checkin', tag: '1泊' }; }
-        if (text.indexOf('着') !== -1 && (text.indexOf('空港') !== -1 || text.indexOf('成田') !== -1 || text.indexOf('羽田') !== -1)) { return { icon: 'plane', tag: '到着' }; }
-        if (text.indexOf('着') !== -1 && text.indexOf('パタヤ') !== -1) { return { icon: 'taxi', tag: '到着' }; }
-        if (text.indexOf('着') !== -1 && (text.indexOf('ラン島') !== -1 || text.indexOf('バリハイ') !== -1)) { return { icon: 'ferry', tag: '到着' }; }
-        if (text.indexOf('シュノーケリング') !== -1) { return { icon: 'snorkeling', tag: 'シュノーケリング' }; }
-        if (text.indexOf('のんびり') !== -1) { return { icon: 'beach', tag: 'ビーチ' }; }
-        if (text.indexOf('ランチ') !== -1 || text.indexOf('ディナー') !== -1) { return { icon: 'restaurant', tag: 'グルメ' }; }
-        if (text.indexOf('買い物') !== -1) { return { icon: 'shopping', tag: '買い物' }; }
-        if (text.indexOf('タクシー') !== -1) { return { icon: 'taxi', tag: '移動' }; }
-        if (text.indexOf('スクーター') !== -1) { return { icon: 'motorbike', tag: 'レンタルバイク' }; }
+      // アイコンは「何で移動・滞在するか」を常に示す（タグの有無に関わらず付与）
+      function itineraryIcon(text) {
+        if (text.indexOf('直行便') !== -1) { return 'plane'; }
+        if (text.indexOf('スピードボート') !== -1 || text.indexOf('フェリー') !== -1) { return 'ferry'; }
+        if (text.indexOf('チェックイン') !== -1 || text.indexOf('泊') !== -1) { return 'checkin'; }
+        if (text.indexOf('着') !== -1 && (text.indexOf('空港') !== -1 || text.indexOf('成田') !== -1 || text.indexOf('羽田') !== -1)) { return 'plane'; }
+        if (text.indexOf('着') !== -1 && text.indexOf('パタヤ') !== -1) { return 'taxi'; }
+        if (text.indexOf('着') !== -1 && (text.indexOf('ラン島') !== -1 || text.indexOf('バリハイ') !== -1)) { return 'ferry'; }
+        if (text.indexOf('シュノーケリング') !== -1) { return 'snorkeling'; }
+        if (text.indexOf('買い物') !== -1) { return 'shopping'; }
+        if (text.indexOf('ランチ') !== -1 || text.indexOf('ディナー') !== -1 || text.indexOf('昼食') !== -1 || text.indexOf('夕食') !== -1) { return 'restaurant'; }
+        if (text.indexOf('のんびり') !== -1) { return 'beach'; }
+        if (text.indexOf('タクシー') !== -1) { return 'taxi'; }
+        if (text.indexOf('スクーター') !== -1 || text.indexOf('レンタルバイク') !== -1) { return 'motorbike'; }
         return null;
+      }
+      // タグは共通辞書（itinerary_tags.yml）から選択し、本文・アイコンで伝わる情報とは重複させない
+      // 「到着」「移動」「1泊」「スピードボート」等、本文/アイコンで十分な情報は意図的にタグ化しない
+      function itineraryTagId(text) {
+        if (text.indexOf('シーフード') !== -1 || text.indexOf('名物') !== -1) { return 'EX04'; }
+        if (text.indexOf('買い物') !== -1) { return 'EX02'; }
+        if (text.indexOf('シュノーケリング') !== -1) { return 'EX01'; }
+        if (text.indexOf('のんびり') !== -1) { return 'EX03'; }
+        if (text.indexOf('直行便') !== -1) { return 'CD01'; }
+        if (text.indexOf('予約不要') !== -1) { return 'CD02'; }
+        if (text.indexOf('スクーター') !== -1 || text.indexOf('レンタルバイク') !== -1) { return 'CD03'; }
+        return null;
+      }
+      function itineraryMeta(text) {
+        var icon = itineraryIcon(text);
+        var tagId = itineraryTagId(text);
+        var tagDef = tagId ? itineraryTags.filter(function (t) { return t.id === tagId && t.active !== false; })[0] : null;
+        if (!icon && !tagDef) { return null; }
+        return { icon: icon, tag: tagDef ? tagDef.name : null };
       }
 
       itineraryHeadings.forEach(function (itineraryHeading) {
@@ -726,7 +747,7 @@ layout: default
               var meta = itineraryMeta(li.textContent);
               var iconSpan = document.createElement('span');
               iconSpan.className = 'itinerary-icon';
-              iconSpan.innerHTML = meta ? ('<svg viewBox="0 0 24 24">' + itineraryIconPaths[meta.icon] + '</svg>') : '<span class="itinerary-dot"></span>';
+              iconSpan.innerHTML = (meta && meta.icon) ? ('<svg viewBox="0 0 24 24">' + itineraryIconPaths[meta.icon] + '</svg>') : '<span class="itinerary-dot"></span>';
               itemLi.appendChild(iconSpan);
               var contentDiv = document.createElement('div');
               contentDiv.className = 'itinerary-content';
@@ -740,7 +761,7 @@ layout: default
               mainDiv.className = 'itinerary-main';
               mainDiv.innerHTML = desc;
               contentDiv.appendChild(mainDiv);
-              if (meta) {
+              if (meta && meta.tag) {
                 var tagsDiv = document.createElement('div');
                 tagsDiv.className = 'itinerary-tags';
                 tagsDiv.innerHTML = '<span class="itinerary-tag">' + meta.tag + '</span>';

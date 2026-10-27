@@ -1200,18 +1200,29 @@ perhentian-guide:
     lat: 5.9213
     lng: 102.7225
     desc: クチル島で一番賑やかなビーチ、宿と食堂が集まる
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Perhentian_Kecil_Island%2C_Malaysia%2C_Beach.jpg/960px-Perhentian_Kecil_Island%2C_Malaysia%2C_Beach.jpg"
+    category: beach
+    tags: ["ビーチ", "食事", "賑やか"]
   - name: コーラルベイ
     lat: 5.9130
     lng: 102.7165
     desc: ロングビーチより落ち着いた雰囲気、夕日の名所
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Coral_Bay%2C_Perhentian_Kecil.JPG/960px-Coral_Bay%2C_Perhentian_Kecil.JPG"
+    category: beach
+    tags: ["ビーチ", "夕日", "静か"]
   - name: タートルビーチ
     lat: 5.9080
     lng: 102.7420
     desc: ブサール島の静かなビーチ、6〜9月の夜はウミガメの産卵が見られる
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Perhentian_Besar%2C_Malaysia%2C_Tropical_beach.jpg/960px-Perhentian_Besar%2C_Malaysia%2C_Tropical_beach.jpg"
+    category: beach
+    tags: ["ビーチ", "静か", "ウミガメ"]
   - name: テルクパウ
     lat: 5.9046
     lng: 102.7412
     desc: サンゴ礁が広がる無料のシュノーケルスポット
+    category: spot
+    tags: ["シュノーケリング"]
   - name: "Mimpi Perhentian"
     lat: 5.9215
     lng: 102.7227

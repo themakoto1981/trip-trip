@@ -685,12 +685,13 @@ layout: default
         if (isDirectFlightLine(text)) { return 'plane'; }
         if (text.indexOf('スピードボート') !== -1 || text.indexOf('フェリー') !== -1) { return 'ferry'; }
         if (text.indexOf('チェックイン') !== -1 || text.indexOf('チェックアウト') !== -1 || text.indexOf('泊') !== -1) { return 'checkin'; }
-        if (text.indexOf('着') !== -1 && (text.indexOf('空港') !== -1 || text.indexOf('成田') !== -1 || text.indexOf('羽田') !== -1)) { return 'plane'; }
-        if (text.indexOf('着') !== -1 && text.indexOf('パタヤ') !== -1) { return 'taxi'; }
-        if (text.indexOf('着') !== -1 && (text.indexOf('ラン島') !== -1 || text.indexOf('バリハイ') !== -1)) { return 'ferry'; }
+        // 「着」が空港・地名のすぐ後ろにある場合のみ到着アイコンとする（離れた場所の「着」との誤マッチを防止）
+        if (/空港[）)]?着|成田着|羽田着/.test(text)) { return 'plane'; }
+        if (/パタヤ着/.test(text)) { return 'taxi'; }
+        if (/ラン島（[^）]*）?着|バリハイ桟橋着/.test(text)) { return 'ferry'; }
         if (text.indexOf('シュノーケリング') !== -1 || text.indexOf('ダイビング') !== -1) { return 'snorkeling'; }
         if (text.indexOf('買い物') !== -1) { return 'shopping'; }
-        if (text.indexOf('ランチ') !== -1 || text.indexOf('ディナー') !== -1 || text.indexOf('昼食') !== -1 || text.indexOf('夕食') !== -1) { return 'restaurant'; }
+        if (text.indexOf('ランチ') !== -1 || text.indexOf('ディナー') !== -1 || text.indexOf('昼食') !== -1 || text.indexOf('夕食') !== -1 || text.indexOf('朝食') !== -1) { return 'restaurant'; }
         if (text.indexOf('のんびり') !== -1 || text.indexOf('ゆったり') !== -1 || text.indexOf('ゆっくり') !== -1) { return 'beach'; }
         if (text.indexOf('タクシー') !== -1) { return 'taxi'; }
         if (text.indexOf('スクーター') !== -1 || text.indexOf('レンタルバイク') !== -1) { return 'motorbike'; }

@@ -44,10 +44,12 @@ excerpt: "火山が生んだ「火の島」カミギン。海に浮かぶ白い�
 ## おすすめ旅程（やす旅向け／マニラ1泊・4泊5日の例）
 
 **1日目**
-- 19:15　成田発（セブパシフィック航空）→ 23:20　マニラ着。入国審査後、[DG Budget Hotel](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D412710)に1泊
+- 19:15　成田発（セブパシフィック航空）
+- 23:20　マニラ着。入国審査後、[DG Budget Hotel](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D412710)に1泊
 
 **2日目**
-- 09:50　マニラ発（スカイジェット航空、約1時間20分）→ 11:10　カミギン島（マンバジャオ空港）着
+- 09:50　マニラ発（スカイジェット航空、約1時間20分）
+- 11:10　カミギン島（マンバジャオ空港）着
 - 11:30頃　トライシクルでホテルへ移動（約20分）。[Pacos Garden Homestay](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D12425320)に荷物を預ける
 - 12:00　近くの食堂でランチ、庭でひと休み
 - 14:00　チェックイン
@@ -66,19 +68,23 @@ excerpt: "火山が生んだ「火の島」カミギン。海に浮かぶ白い�
 
 **5日目**
 - 10:00頃　ホテルをチェックアウト。最後にマンバジャオの町を散歩
-- 11:40　カミギン発（スカイジェット航空、約1時間20分）→ 13:10　マニラ着
+- 11:40　カミギン発（スカイジェット航空、約1時間20分）
+- 13:10　マニラ着
 - 15:00　マニラ市内でランチや買い物を楽しみ
-- 17:30　マニラ発（ANA直行便NH949）→ 21:30　羽田着
+- 17:30　マニラ発（ANA NH949）
+- 21:30　羽田着
 
 **費用の内訳（1人あたり目安）**：国際線約35,000円／国内線約12,000円／ホテル（マニラ1泊）約4,000円／ホテル（カミギン3泊）約7,500円／現地交通約5,000円／食事約6,500円／**合計 約70,000円**
 
 ## おすすめ旅程（ゆる旅向け／マニラ1泊・4泊5日の例）
 
 **1日目**
-- 09:45　羽田発（ANA直行便NH869）→ 13:30　マニラ着。入国審査後、[Belmont Hotel Manila](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D97603795)に1泊
+- 09:45　羽田発（ANA NH869）
+- 13:30　マニラ着。入国審査後、[Belmont Hotel Manila](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D97603795)に1泊
 
 **2日目**
-- 09:50　マニラ発（スカイジェット航空、約1時間20分）→ 11:10　カミギン島（マンバジャオ空港）着
+- 09:50　マニラ発（スカイジェット航空、約1時間20分）
+- 11:10　カミギン島（マンバジャオ空港）着
 - 11:30頃　トライシクルでホテルへ移動（約20分）。[Agoho Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D33077528)に荷物を預ける
 - 12:00　ビーチ沿いのレストランでランチ
 - 14:00　ビーチフロントの部屋にチェックイン
@@ -97,19 +103,23 @@ excerpt: "火山が生んだ「火の島」カミギン。海に浮かぶ白い�
 
 **5日目**
 - 10:00頃　リゾートをチェックアウト。最後にマンバジャオの町を散歩
-- 11:40　カミギン発（スカイジェット航空、約1時間20分）→ 13:10　マニラ着
+- 11:40　カミギン発（スカイジェット航空、約1時間20分）
+- 13:10　マニラ着
 - 15:00　マニラ市内でランチや買い物を楽しみ
-- 17:30　マニラ発（ANA直行便NH949）→ 21:30　羽田着
+- 17:30　マニラ発（ANA NH949）
+- 21:30　羽田着
 
 **費用の内訳（1人あたり目安）**：国際線約100,000円／国内線約14,000円／ホテル（マニラ1泊）約15,000円／ホテル（カミギン3泊）約30,000円／現地交通約10,000円／食事約17,000円／**合計 約186,000円**
 
 ## おすすめ旅程（らぐ旅向け／マニラ1泊・4泊5日の例）
 
 **1日目**
-- 09:45　羽田発（ANA直行便NH869）→ 13:30　マニラ着。入国審査後、[Hotel Okura Manila](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D28535178)に1泊
+- 09:45　羽田発（ANA NH869）
+- 13:30　マニラ着。入国審査後、[Hotel Okura Manila](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D28535178)に1泊
 
 **2日目**
-- 09:50　マニラ発（スカイジェット航空、約1時間20分）→ 11:10　カミギン島（マンバジャオ空港）着
+- 09:50　マニラ発（スカイジェット航空、約1時間20分）
+- 11:10　カミギン島（マンバジャオ空港）着
 - 11:30頃　リゾート手配の送迎車でホテルへ移動（約20分）。[Bintana Sa Paraiso](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D3578515)に荷物を預ける
 - 12:00　リゾートのレストランでランチ
 - 14:00　ビューの良い部屋にチェックイン
@@ -128,9 +138,11 @@ excerpt: "火山が生んだ「火の島」カミギン。海に浮かぶ白い�
 
 **5日目**
 - 10:00頃　リゾートをチェックアウト。最後にマンバジャオの町を散歩
-- 11:40　カミギン発（スカイジェット航空、約1時間20分）→ 13:10　マニラ着
+- 11:40　カミギン発（スカイジェット航空、約1時間20分）
+- 13:10　マニラ着
 - 15:00　マニラ市内でディナーやショッピングを楽しみ
-- 17:30　マニラ発（ANA直行便NH949）→ 21:30　羽田着
+- 17:30　マニラ発（ANA NH949）
+- 21:30　羽田着
 
 **費用の内訳（1人あたり目安）**：国際線約110,000円／国内線約14,000円／ホテル（マニラ上質ホテル1泊）約25,000円／ホテル（カミギン3泊）約54,000円／現地交通約15,000円／食事約25,000円／**合計 約243,000円**
 

@@ -21,6 +21,10 @@
   name: グルメ
   category: experience
   active: true
+- id: EX05
+  name: ダイビング
+  category: experience
+  active: true
 
 - id: CD01
   name: 直行便

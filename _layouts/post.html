@@ -764,6 +764,7 @@ layout: default
 
         var timelineWrap = document.createElement('div');
         timelineWrap.className = 'itinerary-timeline';
+        var nightCount = 0;
         dayBlocks.forEach(function (block) {
           var dayDiv = document.createElement('div');
           dayDiv.className = 'itinerary-day';
@@ -795,6 +796,13 @@ layout: default
               }
               var duration = extractDuration(li.textContent);
               desc = stripDuration(desc, duration);
+              // ホテルへの実際のチェックイン行だけを数え、「〇泊目」タグを付ける（空港の乗継チェックインは除外）
+              var isHotelCheckin = li.textContent.indexOf('チェックイン') !== -1 && li.textContent.indexOf('スルーチェックイン') === -1;
+              var nightTag = null;
+              if (isHotelCheckin) {
+                nightCount += 1;
+                nightTag = nightCount + '泊目';
+              }
               var iconSpan = document.createElement('span');
               iconSpan.className = 'itinerary-icon';
               iconSpan.innerHTML = (meta && meta.icon) ? ('<svg viewBox="0 0 24 24">' + itineraryIconPaths[meta.icon] + '</svg>') : '<span class="itinerary-dot"></span>';
@@ -814,6 +822,7 @@ layout: default
               var tagList = [];
               if (meta && meta.tag) { tagList.push(meta.tag); }
               if (duration) { tagList.push(formatDurationTag(duration)); }
+              if (nightTag) { tagList.push(nightTag); }
               if (tagList.length) {
                 var tagsDiv = document.createElement('div');
                 tagsDiv.className = 'itinerary-tags';

@@ -66,10 +66,6 @@ layout: default
     // 予算プラン・旅程を横スライド比較レイアウトにする（他記事は従来通り）
     var slideSpots = allSpots[match.slug] || [];
     var isSlideTrial = slideSpots.some(function (s) { return s.tags && s.tags.length; });
-    function findSpotImage(name) {
-      var s = slideSpots.filter(function (x) { return x.name === name; })[0];
-      return (s && s.image) || '';
-    }
 
     var titleMainEl = document.getElementById('post-title-main');
     if (titleMainEl && match.name && match.country) {
@@ -202,7 +198,17 @@ layout: default
       return chipsHtml ? '<div class="budget-tier-chips">' + chipsHtml + '</div>' : '';
     }
 
-    var tierPhotoMap = { 'やす旅': findSpotImage('タワエンビーチ'), 'ゆる旅': findSpotImage('トンラーンビーチ'), 'らぐ旅': findSpotImage('サンライズビューポイント') };
+    // 予算プランの写真は記事固有の地名に依存せず、その記事のビーチ系スポット（type未設定かつcategoryがbeach、
+    // またはcategory自体が未設定）から順番に拾う。3件未満の場合は先頭の画像で埋める
+    var tierPhotoCandidates = slideSpots.filter(function (s) {
+      return !s.type && s.image && (!s.category || s.category === 'beach');
+    });
+    var tierPhotoFallback = tierPhotoCandidates[0] ? tierPhotoCandidates[0].image : '';
+    var tierPhotoMap = {
+      'やす旅': (tierPhotoCandidates[0] && tierPhotoCandidates[0].image) || tierPhotoFallback,
+      'ゆる旅': (tierPhotoCandidates[1] && tierPhotoCandidates[1].image) || tierPhotoFallback,
+      'らぐ旅': (tierPhotoCandidates[2] && tierPhotoCandidates[2].image) || tierPhotoFallback
+    };
     var tierCaptionImgMap = {
       'やす旅': '/assets/images/budget-tier-captions/yasu-tabi.png',
       'ゆる旅': '/assets/images/budget-tier-captions/yuru-tabi.png',

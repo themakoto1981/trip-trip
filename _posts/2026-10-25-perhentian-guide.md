@@ -45,7 +45,8 @@ excerpt: "マレーシア半島の東海岸沖、南シナ海に浮かぶ2つの
 ## おすすめ旅程（やす旅向け／Zipair直行・陸路利用・4泊5日の例）
 
 **1日目**
-- 16:50　成田発（Zipair直行便）→ 23:40　クアラルンプール着
+- 16:50　成田発（Zipair、約7時間50分）
+- 23:40　クアラルンプール着
 - 入国審査後、[Grabカー](/grab/)で空港近くの[Tune Hotel KLIA Aeropolis](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1293064)へ、1泊
 
 **2日目**
@@ -67,12 +68,14 @@ excerpt: "マレーシア半島の東海岸沖、南シナ海に浮かぶ2つの
 - Perhentian Trans Holidayのシェアバンでコタバル空港へ（約1時間、¥1,200前後、[12go.asiaで予約可](https://12go.asia/en/travel/kuala-besut-jetty/kota-bharu-airport)）
 - 14:05　コタバル発AirAsia（約1時間10分）→ 15:15　クアラルンプール着
 - 夕方　クアラルンプール市内で最後の買い物・食事
-- 01:10　クアラルンプール発（Zipair直行便）→ 09:00　成田着（翌日）
+- 01:10　クアラルンプール発（Zipair、約6時間50分）
+- 09:00　成田着（翌日）
 
 ## おすすめ旅程（ゆる旅向け／ANA直行便・陸路利用・5泊6日の例）
 
 **1日目**
-- 17:40　成田発（ANA直行便NH815）→ 00:05　クアラルンプール着
+- 17:40　成田発（ANA NH815、約7時間25分）
+- 00:05　クアラルンプール着
 - 入国審査後、[Grabカー](/grab/)で空港近くの[Concorde Inn KLIA](https://www.booking.com/searchresults.html?ss=Concorde+Inn+KLIA)へ、1泊
 
 **2日目**
@@ -96,12 +99,14 @@ excerpt: "マレーシア半島の東海岸沖、南シナ海に浮かぶ2つの
 - Grabカーで空港近くの[Concorde Inn KLIA](https://www.booking.com/searchresults.html?ss=Concorde+Inn+KLIA)へ、1泊
 
 **6日目（帰国日）**
-- 08:05　クアラルンプール発（ANA直行便NH816）→ 15:55　成田着
+- 08:05　クアラルンプール発（ANA NH816、約6時間50分）
+- 15:55　成田着
 
 ## おすすめ旅程（らぐ旅向け／ANA直行便・ビーチフロントの高級リゾート・5泊6日の例）
 
 **1日目**
-- 17:40　成田発（ANA直行便NH815）→ 00:05　クアラルンプール着
+- 17:40　成田発（ANA NH815、約7時間25分）
+- 00:05　クアラルンプール着
 - 入国審査後、[Grabカー](/grab/)で空港直結の[Sama-Sama Hotel KLIA](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D61456335)へ、1泊
 
 **2日目**
@@ -125,7 +130,8 @@ excerpt: "マレーシア半島の東海岸沖、南シナ海に浮かぶ2つの
 - Grabカーで空港直結の[Sama-Sama Hotel KLIA](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D61456335)へ、1泊
 
 **6日目（帰国日）**
-- 08:05　クアラルンプール発（ANA直行便NH816）→ 15:55　成田着
+- 08:05　クアラルンプール発（ANA NH816、約6時間50分）
+- 15:55　成田着
 
 ## おすすめビーチ・スポット
 

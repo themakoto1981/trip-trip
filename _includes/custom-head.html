@@ -777,6 +777,15 @@
     cursor: pointer;
   }
   .spot-label::before { display: none; }
+  .spot-label-overlay {
+    position: absolute;
+    transform: translate(-50%, -140%);
+    background: #fff; color: var(--sb-green-dark); font-weight: 600; font-size: 0.75rem;
+    padding: 1px 7px; border-radius: 10px; border: 1px solid var(--sb-border);
+    box-shadow: 0 1px 4px rgba(0,0,0,0.15);
+    white-space: nowrap;
+    cursor: pointer;
+  }
 
   /* Rich spot explorer (opt-in: destinations.yml spots with tags/short/long/ways) */
   .spot-explorer-tabs { display: flex; gap: 0.5rem; margin: 0 0 0.7rem; }

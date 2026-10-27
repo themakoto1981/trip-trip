@@ -66,7 +66,8 @@ excerpt: "マレーシア半島の東海岸沖、南シナ海に浮かぶ2つの
 **5日目（帰国日）**
 - 08:00の始発スピードボートでクアラブス桟橋へ戻る（約40分）
 - Perhentian Trans Holidayのシェアバンでコタバル空港へ（約1時間、¥1,200前後、[12go.asiaで予約可](https://12go.asia/en/travel/kuala-besut-jetty/kota-bharu-airport)）
-- 14:05　コタバル発AirAsia（約1時間10分）→ 15:15　クアラルンプール着
+- 14:05　コタバル発AirAsia（約1時間10分）
+- 15:15　クアラルンプール着
 - 夕方　クアラルンプール市内で最後の買い物・食事
 - 01:10　クアラルンプール発（Zipair、約6時間50分）
 - 09:00　成田着（翌日）
@@ -95,7 +96,8 @@ excerpt: "マレーシア半島の東海岸沖、南シナ海に浮かぶ2つの
 **5日目**
 - 08:00の始発スピードボートでクアラブス桟橋へ戻る（約40分）
 - Perhentian Trans Holidayのシェアバンでコタバル空港へ（約1時間、¥1,200前後、[12go.asiaで予約可](https://12go.asia/en/travel/kuala-besut-jetty/kota-bharu-airport)）
-- 14:05　コタバル発AirAsia（約1時間10分）→ 15:15　クアラルンプール着
+- 14:05　コタバル発AirAsia（約1時間10分）
+- 15:15　クアラルンプール着
 - Grabカーで空港近くの[Concorde Inn KLIA](https://www.booking.com/searchresults.html?ss=Concorde+Inn+KLIA)へ、1泊
 
 **6日目（帰国日）**
@@ -126,7 +128,8 @@ excerpt: "マレーシア半島の東海岸沖、南シナ海に浮かぶ2つの
 **5日目**
 - 08:00の始発スピードボートでクアラブス桟橋へ戻る（約40分）
 - Perhentian Trans Holidayのシェアバンでコタバル空港へ（約1時間、¥1,200前後、[12go.asiaで予約可](https://12go.asia/en/travel/kuala-besut-jetty/kota-bharu-airport)）
-- 14:05　コタバル発AirAsia（約1時間10分）→ 15:15　クアラルンプール着
+- 14:05　コタバル発AirAsia（約1時間10分）
+- 15:15　クアラルンプール着
 - Grabカーで空港直結の[Sama-Sama Hotel KLIA](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D61456335)へ、1泊
 
 **6日目（帰国日）**

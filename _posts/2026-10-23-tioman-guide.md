@@ -43,20 +43,20 @@ excerpt: "マレーシア半島の東海岸沖に浮かぶ、ジャングルと�
 
 ## おすすめ旅程（やす旅向け／Zipair直行・陸路利用・6泊7日の例）
 
-**1日目**
-- 16:50　成田発（Zipair）
+**1日目（クアラルンプール泊）**
+- 16:50　成田発（Zipair、約7時間50分）
 - 23:40　クアラルンプール着。入国審査・荷物受取に1〜1.5時間ほどみておく
-- 01:00頃　[Grabカー](/grab/)で空港近くの[Tune Hotel KLIA Aeropolis](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1293064)へ、1泊
+- 01:00頃　Grabカーで空港近くの[Tune Hotel KLIA Aeropolis](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1293064)へ、1泊
 
-**2日目**
+**2日目（メルシン泊）**
 - 朝　ホテルでゆっくり休み、Grabカーで空港からTBSへ移動
 - 15:30　TBS発の長距離バスでメルシンへ（約5時間、[12go.asiaで予約可](https://12go.asia/en/travel/kuala-lumpur/mersing?z=17114820)）
 - 20:30　メルシン着。[メルシンのホテル](https://www.booking.com/searchresults.html?ss=Mersing)に1泊
 
-**3日目**
+**3日目（ティオマン泊）**
 - メルシンの港からフェリーでティオマン島へ（出航は日によって8:00〜11:00、約1.5〜2時間、[12go.asiaで予約可](https://12go.asia/en/travel/mersing/tioman-island?z=17114820)）
-- 昼　ティオマン島着。[Swiss Cottage Tioman](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D18094854)に荷物を預けて、ビーチ沿いのカフェでランチ
-- 14:00　チェックイン後はビーチでシュノーケリング
+- 昼　ティオマン島着。[Swiss Cottage Tioman](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D18094854)にチェックイン
+- ビーチ沿いのカフェでランチ、午後はビーチでシュノーケリング
 
 **4日目（終日フリー）**
 - 09:00　ボートで沖のサンゴ礁へ、シュノーケリングツアー
@@ -68,30 +68,30 @@ excerpt: "マレーシア半島の東海岸沖に浮かぶ、ジャングルと�
 - 13:00　ジュアラビーチでのんびり
 - 18:00　島の星空を眺めながらディナー
 
-**6日目**
+**6日目（空港泊）**
 - ホテルをチェックアウトし、7:00〜9:00発のフェリーでメルシンへ（島発は朝の便のみ）
 - メルシン港に着いたら、15:45発の長距離バスでクアラルンプールのTBSへ（約5時間、[12go.asiaで予約可](https://12go.asia/en/travel/mersing/kuala-lumpur?z=17114820)）
-- 20:45　TBS着。Grabカーで空港へ移動（約1時間）。そのまま出国手続きへ
+- 20:45　TBS着。Grabカーで空港へ移動（約1時間）。深夜発のため空港で夜を明かし、そのまま出国手続きへ
 
 **7日目（帰国日）**
-- 01:10　クアラルンプール発（Zipair）
+- 01:10　クアラルンプール発（Zipair、約6時間50分）
 - 09:00　成田着
 
 ## おすすめ旅程（ゆる旅向け／ANA直行便・陸路利用・6泊7日の例）
 
-**1日目**
-- 17:40　成田発（ANA NH815）
-- 00:05　クアラルンプール着。入国審査後、[Grabカー](/grab/)で空港近くの[Concorde Inn KLIA](https://www.booking.com/searchresults.html?ss=Concorde+Inn+KLIA)へ、1泊
+**1日目（クアラルンプール泊）**
+- 17:40　成田発（ANA NH815、約7時間25分）
+- 00:05　クアラルンプール着。入国審査後、Grabカーで空港近くの[Concorde Inn KLIA](https://www.booking.com/searchresults.html?ss=Concorde+Inn+KLIA)へ、1泊
 
-**2日目**
+**2日目（メルシン泊）**
 - 朝　ホテルでゆっくり休み、Grabカーで空港からTBSへ移動
 - 10:00　TBS発の長距離バスでメルシンへ（約5時間、[12go.asiaで予約可](https://12go.asia/en/travel/kuala-lumpur/mersing?z=17114820)）
 - 15:00　メルシン着。[メルシンのホテル](https://www.booking.com/searchresults.html?ss=Mersing)にチェックイン。港周辺を散策して1泊
 
-**3日目**
+**3日目（ティオマン泊）**
 - メルシンの港からフェリーでティオマン島へ（出航は日によって8:00〜11:00、約1.5〜2時間、[12go.asiaで予約可](https://12go.asia/en/travel/mersing/tioman-island?z=17114820)）
-- 昼　ティオマン島着。[Paya Beach Spa & Dive Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D305851)に荷物を預けて、ビーチでランチ
-- 14:00　チェックイン後はビーチでシュノーケリング（宿の目の前の海にサンゴ礁が広がる海沿いのリゾート）
+- 昼　ティオマン島着。[Paya Beach Spa & Dive Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D305851)にチェックイン（宿の目の前の海にサンゴ礁が広がる海沿いのリゾート）
+- ビーチでランチ、午後はシュノーケリング
 
 **4日目（終日フリー）**
 - 09:00　ボートで沖のサンゴ礁へ、シュノーケリングツアー
@@ -103,29 +103,29 @@ excerpt: "マレーシア半島の東海岸沖に浮かぶ、ジャングルと�
 - 13:00　ジュアラビーチでのんびり
 - 18:00　島の星空を眺めながらディナー
 
-**6日目**
+**6日目（クアラルンプール泊）**
 - ホテルをチェックアウトし、7:00〜9:00発のフェリーでメルシンへ（島発は朝の便のみ）
 - 12:15　メルシン発の長距離バスでクアラルンプールのTBSへ（約5時間、[12go.asiaで予約可](https://12go.asia/en/travel/mersing/kuala-lumpur?z=17114820)）
 - 17:15　TBS着。Grabカーで空港近くの[Concorde Inn KLIA](https://www.booking.com/searchresults.html?ss=Concorde+Inn+KLIA)へ、1泊
 
 **7日目（帰国日）**
-- 08:05　クアラルンプール発（ANA NH816）
+- 08:05　クアラルンプール発（ANA NH816、約6時間50分）
 - 15:55　成田着
 
 ## おすすめ旅程（らぐ旅向け／ANA直行便・離島の高級リゾート・6泊7日の例）
 
-**1日目**
-- 23:30　羽田発（ANA NH885）。機内で1泊
+**1日目（機内泊）**
+- 23:30　羽田発（ANA NH885、約7時間30分）
 
-**2日目**
-- 06:00　クアラルンプール着。入国審査後、[Grabカー](/grab/)でTBSへ向かう
+**2日目（メルシン泊）**
+- 06:00　クアラルンプール着。入国審査後、GrabカーでTBSへ向かう
 - 10:00　TBS発の長距離バスでメルシンへ（約5時間、[12go.asiaで予約可](https://12go.asia/en/travel/kuala-lumpur/mersing?z=17114820)）
 - 15:00　メルシン着。[メルシンのホテル](https://www.booking.com/searchresults.html?ss=Mersing)にチェックイン。港周辺を散策して1泊
 
-**3日目**
+**3日目（ティオマン泊）**
 - メルシンの港からフェリーでティオマン島へ（出航は日によって8:00〜11:00、約1.5〜2時間、[12go.asiaで予約可](https://12go.asia/en/travel/mersing/tioman-island?z=17114820)）
-- 昼　ティオマン島着。[Japamala Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D63313)に荷物を預けて、ビーチでランチ
-- 14:00　チェックイン後はプライベート感のあるビーチでのんびり（高級リゾート）
+- 昼　ティオマン島着。[Japamala Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D63313)にチェックイン（高級リゾート）
+- ビーチでランチ、午後はプライベート感のあるビーチでのんびり
 
 **4日目（終日フリー）**
 - 09:00　ボートで沖のサンゴ礁へ、シュノーケリングツアー
@@ -137,13 +137,13 @@ excerpt: "マレーシア半島の東海岸沖に浮かぶ、ジャングルと�
 - 13:00　ビーチでのんびり
 - 18:00　島の星空を眺めながらディナー
 
-**6日目**
+**6日目（クアラルンプール泊）**
 - ホテルをチェックアウトし、7:00〜9:00発のフェリーでメルシンへ（島発は朝の便のみ）
 - 12:15　メルシン発の長距離バスでクアラルンプールのTBSへ（約5時間、[12go.asiaで予約可](https://12go.asia/en/travel/mersing/kuala-lumpur?z=17114820)）
 - 17:15　TBS着。空港直結の[Sama-Sama Hotel KLIA](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D61456335)へ移動し、1泊
 
 **7日目（帰国日）**
-- 14:15　クアラルンプール発（ANA NH886）
+- 14:15　クアラルンプール発（ANA NH886、約7時間）
 - 22:15　羽田着
 
 ## おすすめビーチ・スポット

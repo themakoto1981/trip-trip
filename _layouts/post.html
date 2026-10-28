@@ -496,6 +496,7 @@ layout: default
       var currentView = 'map';
       var selectedName = null;
       var markerByName = {};
+      var infoWindow = new google.maps.InfoWindow();
 
       var wrap = document.createElement('div');
       wrap.className = 'spot-explorer';
@@ -555,6 +556,14 @@ layout: default
           '</div>';
       }
 
+      function spotPopupHtml(s) {
+        var isHotel = s.type === 'hotel';
+        var desc = s.short || s.desc;
+        return '<strong>' + s.name + '</strong>' + (desc ? '<br>' + desc : '') +
+          '<br><a href="' + spotExternalUrl(s) + '" target="_blank" rel="noopener">' +
+          (isHotel && s.url ? '予約ページを見る ↗' : 'Googleマップで開く ↗') + '</a>';
+      }
+
       function selectSpot(name) {
         if (markerByName[selectedName] && selectedName !== name && markerByName[selectedName].label) {
           markerByName[selectedName].label.setMap(null);
@@ -563,6 +572,11 @@ layout: default
         selectedName = name;
         if (markerByName[name] && !markerByName[name].label) {
           markerByName[name].label = new PinLabel(spotMap, markerByName[name].marker.getPosition(), name);
+        }
+        var s = mySpots.filter(function (b) { return b.name === name; })[0];
+        if (s && markerByName[name]) {
+          infoWindow.setContent(spotPopupHtml(s));
+          infoWindow.open(spotMap, markerByName[name].marker);
         }
         renderSummary();
       }

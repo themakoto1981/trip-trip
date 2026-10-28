@@ -44,18 +44,17 @@ excerpt: "バリ島から高速ボートで約1時間半、車もバイクも走
 ## おすすめ旅程（やす旅向け／LCC利用・クアラルンプール経由・5泊6日の例）
 
 **1日目（機内泊）**
-- 23:50　羽田発（AirAsia X D7523、クアラルンプール行き）
+- 23:50　羽田発（AirAsia X D7523、クアラルンプール行き、約7時間20分）
 
-**2日目**
+**2日目（パダンバイ泊）**
 - 06:10　クアラルンプール着。乗継エリアで待機
-- 10:50　クアラルンプール発（AirAsia AK371）
+- 10:50　クアラルンプール発（AirAsia AK371、約3時間5分）
 - 13:55　デンパサール着
 - 16:00頃　Peramaシャトル（乗合バン）でパダンバイへ移動し（片道900円ほど）、[Topi Inn](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D538732)にチェックイン（港まで徒歩圏の宿）
 
-**3日目**
+**3日目（ギリ・トラワンガン泊）**
 - 09:30　パダンバイから高速ボート（[12go.asiaで予約可](https://12go.asia/en/travel/padang-bai/gili-trawangan?z=17114820)）でギリ・トラワンガン島へ（約1時間半、11:00頃到着。パダンバイ発は8:00台だけでなく9:30発の便もあり、朝イチにこだわらなくてよい）
-- 11:15頃　[Hotel Ombak Sunset](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D251612)に荷物を預け、ビーチで軽く過ごす
-- 14:00　正式にチェックイン
+- 11:15頃　[Hotel Ombak Sunset](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D251612)にチェックイン
 - 夕方　西岸のサンセットポイントで夕日を眺める
 
 **4日目（終日フリー）**
@@ -63,30 +62,29 @@ excerpt: "バリ島から高速ボートで約1時間半、車もバイクも走
 - 午後　自転車で島を一周し、ビーチカフェで休憩
 - 夜　ナイトマーケット周辺で夕食
 
-**5日目**
+**5日目（クアラルンプール泊）**
 - 午前　ホテルでのんびり朝食
 - 11:00　ホテルをチェックアウト
 - 13:00　ボートでパダンバイへ戻り（約1時間半、14:30頃到着）
 - 15:00頃　Peramaシャトルでデンパサール空港へ（片道900円ほど）
-- 19:45　デンパサール発（AirAsia AK379）
+- 19:45　デンパサール発（AirAsia AK379、約3時間5分）
 - 22:50　クアラルンプール着。空港周辺の[Tune Hotel KLIA2](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D621161)に1泊
 
 **6日目（帰国日）**
 - 11:00　ホテルをチェックアウト
-- 14:10　クアラルンプール発（AirAsia X D7522）
+- 14:10　クアラルンプール発（AirAsia X D7522、約6時間50分）
 - 22:00　羽田着
 
 ## おすすめ旅程（ゆる旅向け／直行便・3泊4日の例）
 
-**1日目**
-- 11:00　成田発（JAL＝ガルーダ・インドネシア航空運航／GA881）
-- 17:55　デンパサール着。入国審査と荷物受取を終えたら[Grabカー](/grab/)でパダンバイへ
+**1日目（パダンバイ泊）**
+- 11:00　成田発（JAL＝ガルーダ・インドネシア航空運航／GA881、約7時間55分）
+- 17:55　デンパサール着。入国審査と荷物受取を終えたらGrabカーでパダンバイへ
 - 21:00頃　[Bloo Lagoon Eco Village](https://www.booking.com/searchresults.html?ss=Bloo+Lagoon+Eco+Village)にチェックイン（パダンバイの入り江沿いのヴィラ）
 
-**2日目**
+**2日目（ギリ・トラワンガン泊）**
 - 09:30　パダンバイから高速ボート（[12go.asiaで予約可](https://12go.asia/en/travel/padang-bai/gili-trawangan?z=17114820)）でギリ・トラワンガン島へ（約1時間半、11:00頃到着。パダンバイ発は8:00台だけでなく9:30発の便もあり、朝イチにこだわらなくてよい）
-- 11:15頃　[Vila Ombak](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D4355)に荷物を預け、ビーチで軽く過ごす（ビーチ目の前でプールが2つあるホテル）
-- 14:00　正式にチェックイン
+- 11:15頃　[Vila Ombak](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D4355)にチェックイン（ビーチ目の前でプールが2つあるホテル）
 - 夕方　西岸のサンセットポイントで夕日を眺める
 
 **3日目（終日フリー）**
@@ -98,20 +96,19 @@ excerpt: "バリ島から高速ボートで約1時間半、車もバイクも走
 - 午前　ホテルで朝食をとりのんびり過ごす
 - 11:00　ホテルをチェックアウト
 - 13:00　ボートでパダンバイへ戻り（約1時間半、14:30頃到着）、Grabカーでデンパサール空港へ
-- 00:30　デンパサール発（JAL＝ガルーダ・インドネシア航空運航／GA880）
+- 00:30　デンパサール発（JAL＝ガルーダ・インドネシア航空運航／GA880、約7時間10分）
 - 08:40　成田着
 
 ## おすすめ旅程（らぐ旅向け／直行便・3泊4日の例）
 
-**1日目**
-- 11:00　成田発（JAL＝ガルーダ・インドネシア航空運航／GA881）
-- 17:55　デンパサール着。入国審査と荷物受取を終えたら[Grabカー](/grab/)でパダンバイへ
+**1日目（パダンバイ泊）**
+- 11:00　成田発（JAL＝ガルーダ・インドネシア航空運航／GA881、約7時間55分）
+- 17:55　デンパサール着。入国審査と荷物受取を終えたらGrabカーでパダンバイへ
 - 21:00頃　[Bloo Lagoon Eco Village](https://www.booking.com/searchresults.html?ss=Bloo+Lagoon+Eco+Village)にチェックイン（パダンバイの入り江沿いのヴィラ）
 
-**2日目**
+**2日目（ギリ・トラワンガン泊）**
 - 09:30　パダンバイから高速ボート（[12go.asiaで予約可](https://12go.asia/en/travel/padang-bai/gili-trawangan?z=17114820)）でギリ・トラワンガン島へ（約1時間半、11:00頃到着。パダンバイ発は8:00台だけでなく9:30発の便もあり、朝イチにこだわらなくてよい）
-- 11:15頃　[Pondok Santi Estate](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D306229)に荷物を預け、ビーチで軽く過ごす（ラグジュアリーヴィラ）
-- 14:00　正式にチェックイン
+- 11:15頃　[Pondok Santi Estate](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D306229)にチェックイン（ラグジュアリーヴィラ）
 - 夕方　西岸のサンセットポイントで夕日を眺める
 
 **3日目（終日フリー）**
@@ -123,7 +120,7 @@ excerpt: "バリ島から高速ボートで約1時間半、車もバイクも走
 - 午前　ヴィラで朝食をとりのんびり過ごす
 - 11:00　ヴィラをチェックアウト
 - 13:00　ボートでパダンバイへ戻り（約1時間半、14:30頃到着）、Grabカーでデンパサール空港へ
-- 00:30　デンパサール発（JAL＝ガルーダ・インドネシア航空運航／GA880）
+- 00:30　デンパサール発（JAL＝ガルーダ・インドネシア航空運航／GA880、約7時間10分）
 - 08:40　成田着
 
 ## おすすめビーチ・スポット
@@ -132,23 +129,6 @@ excerpt: "バリ島から高速ボートで約1時間半、車もバイクも走
 - **タートルポイント**：東岸の浅瀬。シュノーケリングでウミガメに出会える
 - **ギリ・トラワンガン港周辺**：高速ボートが着くメインビーチ沿いの賑やかなエリア。カフェ、レストラン、ダイブショップが集まる
 - **パダンバイ港**：バリ島側の高速ボート乗り場。前泊に便利な小さな港町
-
-## おすすめホテル
-
-**パダンバイ（バリ本島）**
-
-- **[Topi Inn](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D538732)**：港まで徒歩圏の宿（やす旅向け）
-- **[Bloo Lagoon Eco Village](https://www.booking.com/searchresults.html?ss=Bloo+Lagoon+Eco+Village)**：入り江沿いのヴィラ（ゆる旅・らぐ旅向け）
-
-**ギリ・トラワンガン島**
-
-- **[Hotel Ombak Sunset](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D251612)**：コスパ重視のホテル（やす旅向け）
-- **[Vila Ombak](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D4355)**：ビーチ目の前でプールが2つあるホテル（ゆる旅向け）
-- **[Pondok Santi Estate](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D306229)**：口コミ評価が高いラグジュアリーヴィラ（らぐ旅向け）
-
-**クアラルンプール（経由地）**
-
-- **[Tune Hotel KLIA2](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D621161)**：空港直結・乗継1泊向けの簡易ホテル（やす旅の帰路で利用）
 
 ## 持ち物チェックリスト
 

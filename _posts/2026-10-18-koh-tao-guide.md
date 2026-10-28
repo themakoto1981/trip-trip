@@ -43,18 +43,17 @@ excerpt: "世界屈指のダイビングスポットとして知られるタイ�
 
 ## おすすめ旅程（やす旅向け／チュンポン経由・寝台列車利用・5泊6日の例）
 
-**1日目**
-- 08:55　成田発（Vietjet Air）
+**1日目（チュンポン泊）**
+- 08:55　成田発（Vietjet Air、約7時間35分）
 - 14:30　バンコク（スワンナプーム空港）着。入国審査・荷物受取を終えたら、空港地下のエアポートレイルリンクへ
 - 15:30頃　エアポートレイルリンクでマッカサン駅へ（約22分）、徒歩でMRTペッチャブリー駅に乗り換えてフアラムポーン駅へ（乗り継ぎ込みで計約1時間、運賃は合計100円未満）。駅構内で軽食を調達
 - 16:50　フアラムポーン駅発の寝台列車（2等寝台・エアコン車）でチュンポンへ<br><a class="schedule-tag" href="https://12go.asia/en/train/bangkok/chumphon">12go.asiaで予約・最新スケジュール</a>
 - 23:55　チュンポン着。駅から徒歩圏の安宿に1泊
 
-**2日目**
-- 06:15頃　ホテルを出発、[Grabカー](/grab/)で港へ
+**2日目（タオ島泊）**
+- 06:15頃　ホテルを出発、Grabカーで港へ
 - 07:00　チュンポン発の高速船（Lomprayah）でタオ島へ（所要約1時間45分、08:45着）
-- 09:00頃　[Koh Tao Garden Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D564845)に荷物を預け、マハートビーチでのんびり過ごす
-- 14:00　正式にチェックイン
+- 09:00頃　[Koh Tao Garden Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D564845)にチェックイン
 - 18:00　サイリービーチ周辺で夕食
 
 **3日目（終日フリー）**
@@ -67,7 +66,7 @@ excerpt: "世界屈指のダイビングスポットとして知られるタイ�
 - 13:00　マンゴーベイなど静かな入り江でシュノーケリング
 - 18:00　タオ島名物のシーフードディナー
 
-**5日目**
+**5日目（バス車内泊）**
 - 11:00　ホテルをチェックアウト
 - 12:30頃　港へ移動
 - 13:15　タオ島発の高速船でチュンポンへ（所要約1時間45分、15:00着）
@@ -79,23 +78,23 @@ excerpt: "世界屈指のダイビングスポットとして知られるタイ�
 - 09:00　ワット・アルンなど市内の寺院観光
 - 12:00　市内でランチ
 - 14:00　チャトゥチャック市場でお土産探し（開催は土日中心、平日は別のマーケットへ）
-- 18:00　[Grabカー](/grab/)で空港へ移動
-- 23:55　バンコク発（Vietjet Air VZ830）
+- 18:00　Grabカーで空港へ移動
+- 23:55　バンコク発（Vietjet Air VZ830、約6時間）
 - 翌07:55　成田着
 
 ## おすすめ旅程（ゆる旅向け／サムイ島経由・3泊4日の例）
 
-**1日目**
+**1日目（サムイ島泊）**
 - 10:50　羽田発（ANA NH847、所要6〜7時間）
 - 15:30　バンコク（スワンナプーム空港）着。入国審査・荷物受取に1〜1.5時間ほどみておく
 - 17:30頃　バンコク発（バンコクエアウェイズPG145、所要約1時間）
 - 18:30頃　サムイ島着
 - 19:00頃　[The Louis Residence](https://www.booking.com/searchresults.html?ss=The+Louis+Residence+Samui)にチェックイン（空港から近いリーズナブルなホテル）
 
-**2日目**
+**2日目（タオ島泊）**
 - 08:00　サムイ島発の高速船（Lomprayah）でタオ島へ（所要約1時間30分、09:30頃着）
-- 10:00頃　[Ban's Diving Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D300564)（サイリービーチ中心部、プール複数あり）に荷物を預け、サイリービーチで早めのランチ
-- 14:00　正式にチェックイン、ホテルのプールでひと休み
+- 10:00頃　[Ban's Diving Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D300564)にチェックイン（サイリービーチ中心部、プール複数あり）
+- 13:00　サイリービーチで早めのランチ
 
 **3日目（終日フリー）**
 - 09:00　体験ダイビングまたはシュノーケリングツアーへ出発
@@ -106,25 +105,25 @@ excerpt: "世界屈指のダイビングスポットとして知られるタイ�
 - 11:00　ホテルをチェックアウト
 - 12:30頃　港へ移動
 - 13:00　タオ島発の高速船でサムイ島へ戻る（所要約1時間30分、14:30頃着）
-- 16:00頃　[Grabカー](/grab/)で空港へ移動
-- 19:15　サムイ島発（バンコクエアウェイズPG146）
+- 16:00頃　Grabカーで空港へ移動
+- 19:15　サムイ島発（バンコクエアウェイズPG146、約1時間）
 - 20:15　バンコク着。空港内で夕食や休憩をとりながら出発まで待機
-- 23:35　バンコク発（ANA夜行 NH850、深夜便のため同日出発・翌朝到着）
+- 22:25　バンコク発（ANA夜行 NH850、約5時間40分）
 - 翌06:05　羽田着
 
 ## おすすめ旅程（らぐ旅向け／サムイ島経由・3泊4日の例）
 
-**1日目**
+**1日目（サムイ島泊）**
 - 10:50　羽田発（ANA NH847、所要6〜7時間）
 - 15:30　バンコク（スワンナプーム空港）着。入国審査・荷物受取に1〜1.5時間ほどみておく
 - 17:30頃　バンコク発（バンコクエアウェイズPG145、所要約1時間）
 - 18:30頃　サムイ島着
 - 19:00頃　[Four Seasons Resort Koh Samui](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D344587)にチェックイン
 
-**2日目**
+**2日目（タオ島泊）**
 - 08:00　サムイ島発の高速船（Lomprayah）でタオ島へ（所要約1時間30分、09:30頃着）
-- 10:00頃　[Phandara Luxury Villas](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1163323)（サイリービーチを見下ろす丘の上のプール付きヴィラ）に荷物を預け、サイリービーチで早めのランチ
-- 14:00　正式にチェックイン、ヴィラのプールでのんびり過ごす
+- 10:00頃　[Phandara Luxury Villas](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1163323)にチェックイン（サイリービーチを見下ろす丘の上のプール付きヴィラ）
+- 13:00　サイリービーチで早めのランチ
 
 **3日目（終日フリー）**
 - 09:00　貸切ボートでシュノーケリングツアーへ
@@ -136,9 +135,9 @@ excerpt: "世界屈指のダイビングスポットとして知られるタイ�
 - 12:30頃　港へ移動
 - 13:00　タオ島発の高速船でサムイ島へ戻る（所要約1時間30分、14:30頃着）
 - 16:00頃　Grabカーで空港へ移動
-- 19:15　サムイ島発（バンコクエアウェイズPG146）
+- 19:15　サムイ島発（バンコクエアウェイズPG146、約1時間）
 - 20:15　バンコク着。空港内で夕食や休憩をとりながら出発まで待機
-- 23:35　バンコク発（ANA夜行 NH850、深夜便のため同日出発・翌朝到着）
+- 22:25　バンコク発（ANA夜行 NH850、約5時間40分）
 - 翌06:05　羽田着
 
 ## おすすめビーチ・スポット
@@ -147,19 +146,6 @@ excerpt: "世界屈指のダイビングスポットとして知られるタイ�
 - **ジョントン・ビューポイント**：島を一望できる展望スポット、サンセットの名所
 - **マンゴーベイ**：静かな入り江、シュノーケリングで人気
 - **シャークベイ**：名前の由来になったコバンザメに出会えることもあるビーチ
-
-## おすすめホテル
-
-**タオ島**
-
-- **[Koh Tao Garden Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D564845)**：マハートビーチ近く、バルコニー付きの手頃な客室（やす旅向け）
-- **[Ban's Diving Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D300564)**：サイリービーチ中心部、複数のプールを持つ大型リゾート（ゆる旅向け）
-- **[Phandara Luxury Villas](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1163323)**：サイリービーチを見下ろす丘の上のプール付きヴィラ（らぐ旅向け）
-
-**サムイ島（経由地）**
-
-- **[The Louis Residence](https://www.booking.com/searchresults.html?ss=The+Louis+Residence+Samui)**：空港から近いリーズナブルなホテル（ゆる旅の往路で利用）
-- **[Four Seasons Resort Koh Samui](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D344587)**：島北西の入り江に建つ高級リゾート（らぐ旅の往路で利用）
 
 ## 持ち物チェックリスト
 

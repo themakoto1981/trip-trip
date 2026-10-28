@@ -45,16 +45,15 @@ excerpt: "「ベトナム最後の楽園」と呼ばれる南シナ海の秘島�
 
 ## おすすめ旅程（やす旅向け／ホーチミン1泊・3泊4日の例）
 
-**1日目**
-- 12:00　羽田発（Vietjet Air）
+**1日目（ホーチミン泊）**
+- 12:00　羽田発（Vietjet Air、約6時間10分）
 - 16:10　ホーチミン着。入国審査後、[ibis Saigon Airport](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1602693)の無料シャトルでホテルへ、1泊
 
-**2日目**
+**2日目（コンダオ泊）**
 - 11:05　ホーチミン発（ベトナム航空、約50分）
 - 11:55　コンダオ着
-- 12:10頃　タクシーで中心地へ（約10〜15分）。[Phi Yen Guest House](https://www.booking.com/searchresults.html?ss=Phi+Yen+Guest+House+Con+Dao)に荷物を預ける
+- 12:10頃　タクシーで中心地へ（約10〜15分）、[Phi Yen Guest House](https://www.booking.com/searchresults.html?ss=Phi+Yen+Guest+House+Con+Dao)にチェックイン
 - 12:30　中心地の食堂で昼食
-- 14:00　チェックイン
 
 **3日目（終日フリー）**
 - 09:00　ベンダム港発のボートツアーでベイカイン島へ（所要15〜20分、シュノーケリングとウミガメ観察）
@@ -62,26 +61,25 @@ excerpt: "「ベトナム最後の楽園」と呼ばれる南シナ海の秘島�
 - 15:00　プーハイ監獄跡とコンダオ博物館をめぐる歴史散策
 - 18:00　夕食
 
-**4日目**
+**4日目（帰国日）**
 - 09:25　コンダオ発（ベトナム航空、約1時間5分）
 - 10:30　ホーチミン着
 - 12:00　ホーチミン市内でランチや買い物を楽しみ
 - 16:00　空港へ移動
-- 17:00　ホーチミン発（Vietjet Air）
+- 17:00　ホーチミン発（Vietjet Air、約6時間）
 - 翌01:00　羽田着
 
 ## おすすめ旅程（ゆる旅向け／ホーチミン1泊・3泊4日の例）
 
-**1日目**
-- 17:45　羽田発（ANA NH891）
+**1日目（ホーチミン泊）**
+- 17:45　羽田発（ANA NH891、約6時間10分）
 - 21:55　ホーチミン着。入国審査後、[ibis Saigon Airport](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1602693)の無料シャトルでホテルへ、1泊
 
-**2日目**
+**2日目（コンダオ泊）**
 - 11:05　ホーチミン発（ベトナム航空、約50分）
 - 11:55　コンダオ着
-- 12:10頃　タクシーで中心地へ（約10〜15分）。[Tan Son Nhat Con Dao Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D239657)に荷物を預ける
+- 12:10頃　タクシーで中心地へ（約10〜15分）、[Tan Son Nhat Con Dao Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D239657)にチェックイン
 - 12:30　中心地の食堂で昼食
-- 14:00　チェックイン
 
 **3日目（終日フリー）**
 - 09:00　ベンダム港発のボートツアーでベイカイン島へ（所要15〜20分、シュノーケリングとウミガメ観察）
@@ -89,7 +87,7 @@ excerpt: "「ベトナム最後の楽園」と呼ばれる南シナ海の秘島�
 - 15:00　プーハイ監獄跡とコンダオ博物館をめぐる歴史散策
 - 18:00　夕食
 
-**4日目**
+**4日目（帰国日）**
 - 10:00頃　ホテルをチェックアウト。アンハイビーチで最後のひと息
 - 12:00　中心地でランチ
 - 14:00頃　空港へ移動
@@ -97,22 +95,21 @@ excerpt: "「ベトナム最後の楽園」と呼ばれる南シナ海の秘島�
 - 16:45　ホーチミン着
 - 18:00　ホーチミン市内でディナーや買い物を楽しみ
 - 21:00　空港へ移動
-- 23:05　ホーチミン発（ANA NH892）
+- 23:05　ホーチミン発（ANA NH892、約5時間55分）
 - 翌07:00　羽田着
 
 ## おすすめ旅程（らぐ旅向け／ホーチミン1泊・3泊4日の例）
 
-**1日目**
-- 17:45　羽田発（ANA NH891）
-- 21:55　ホーチミン着。入国審査後、[Grabカー](/grab/)で市内の[Novotel Saigon Centre](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D315667)へ、1泊
+**1日目（ホーチミン泊）**
+- 17:45　羽田発（ANA NH891、約6時間10分）
+- 21:55　ホーチミン着。入国審査後、Grabカーで市内の[Novotel Saigon Centre](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D315667)へ、1泊
 
-**2日目**
+**2日目（コンダオ泊）**
 - 09:30頃　ホテルから空港へ移動
 - 11:05　ホーチミン発（ベトナム航空、約50分）
 - 11:55　コンダオ着
-- 12:15頃　リゾート手配の送迎で[Six Senses Con Dao](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D242025)へ、荷物を預ける
+- 12:15頃　リゾート手配の送迎で[Six Senses Con Dao](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D242025)へ、プライベートプールヴィラにチェックイン
 - 12:45　レストランで昼食
-- 14:00　プライベートプールヴィラにチェックイン
 
 **3日目（終日フリー）**
 - 09:00　リゾート手配のボートでベイカイン島へ（所要15〜20分、シュノーケリングとウミガメ観察）
@@ -120,7 +117,7 @@ excerpt: "「ベトナム最後の楽園」と呼ばれる南シナ海の秘島�
 - 15:00　リゾート手配の送迎でプーハイ監獄跡とコンダオ博物館をめぐる歴史散策
 - 18:00　リゾートでディナー
 
-**4日目**
+**4日目（帰国日）**
 - 10:00頃　ヴィラをチェックアウト。最後にビーチでひと息
 - 12:00　リゾートでランチ
 - 14:00頃　空港へ移動
@@ -128,7 +125,7 @@ excerpt: "「ベトナム最後の楽園」と呼ばれる南シナ海の秘島�
 - 16:45　ホーチミン着
 - 18:00　ホーチミン市内でディナーやショッピングを楽しみ
 - 21:00　空港へ移動
-- 23:05　ホーチミン発（ANA NH892）
+- 23:05　ホーチミン発（ANA NH892、約5時間55分）
 - 翌07:00　羽田着
 
 ## おすすめビーチ・スポット

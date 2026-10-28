@@ -44,18 +44,17 @@ excerpt: "バリ島のサヌールから高速ボートで約30分、のんび�
 ## おすすめ旅程（やす旅向け／LCC利用・クアラルンプール経由・5泊6日の例）
 
 **1日目（機内泊）**
-- 23:50　羽田発（AirAsia X D7523）
+- 23:50　羽田発（AirAsia X D7523、約7時間20分）
 
-**2日目**
+**2日目（サヌール泊）**
 - 06:10　クアラルンプール着。乗継エリアで待機
-- 10:50　クアラルンプール発（AirAsia）
+- 10:50　クアラルンプール発（AirAsia、約3時間5分）
 - 13:55　デンパサール着
 - 入国審査後、[Kura-Kura Bus](https://www.kura2bus.com/)でサヌールへ移動し（片道450〜750円ほど）、[Segara Village Hotel](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D48703)にチェックイン
 
-**3日目**
+**3日目（ヌサレンボンガン泊）**
 - 11:00　サヌールから高速ボート（[12go.asiaで予約可](https://12go.asia/en/travel/sanur/nusa-lembongan?z=17114820)）でヌサレンボンガン島へ（約30分。サヌール発は午前から午後まで複数便あり、09:00台に慌てて出る必要はない）
-- 11:45頃　[Hai Tide Beach Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D89174811)に荷物を預け、ビーチで軽く過ごす
-- 14:00　正式にチェックイン
+- 11:45頃　[Hai Tide Beach Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D89174811)にチェックイン
 - 15:00　ジャングットバトゥのビーチで夕日を眺める
 
 **4日目（終日フリー）**
@@ -63,30 +62,29 @@ excerpt: "バリ島のサヌールから高速ボートで約30分、のんび�
 - 13:00　マッシュルームベイでシュノーケリング
 - 17:00　デビルズティアで夕日
 
-**5日目**
+**5日目（クアラルンプール泊）**
 - 08:00　ホテルでのんびり朝食
 - 11:00　ホテルをチェックアウト
 - 12:00　ボートでサヌールへ戻る
 - 14:00頃　Kura-Kura Busでデンパサール空港へ（片道450〜750円ほど）
-- 19:45　デンパサール発（AirAsia）
+- 19:45　デンパサール発（AirAsia、約3時間5分）
 - 22:50　クアラルンプール着。空港周辺の[Tune Hotel KLIA2](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D621161)に1泊
 
 **6日目（帰国日）**
 - 11:00　ホテルをチェックアウト
-- 14:10　クアラルンプール発（AirAsia X D7522）
+- 14:10　クアラルンプール発（AirAsia X D7522、約6時間50分）
 - 22:00　羽田着
 
 ## おすすめ旅程（ゆる旅向け／直行便・3泊4日の例）
 
-**1日目**
-- 11:00　成田発（ガルーダ・インドネシア航空GA881）
-- 17:25　デンパサール着。入国審査と荷物受取を終えたら[Grabカー](/grab/)でサヌールへ
+**1日目（サヌール泊）**
+- 11:00　成田発（ガルーダ・インドネシア航空GA881、約7時間25分）
+- 17:25　デンパサール着。入国審査と荷物受取を終えたらGrabカーでサヌールへ
 - 19:30頃　[Prime Plaza Hotel Sanur](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1251)にチェックイン（ボート乗り場に近いビーチサイドのホテル）
 
-**2日目**
+**2日目（ヌサレンボンガン泊）**
 - 11:00　サヌールから高速ボート（[12go.asiaで予約可](https://12go.asia/en/travel/sanur/nusa-lembongan?z=17114820)）でヌサレンボンガン島へ（約30分。サヌール発は午前から午後まで複数便あり、09:00台に慌てて出る必要はない）
-- 11:45頃　[Mahagiri Resort Nusa Lembongan](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1269956)に荷物を預け、ビーチで軽く過ごす（プールのあるリゾート）
-- 14:00　正式にチェックイン
+- 11:45頃　[Mahagiri Resort Nusa Lembongan](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1269956)にチェックイン（プールのあるリゾート）
 - 15:00　マッシュルームベイでシュノーケリング
 
 **3日目（終日フリー）**
@@ -100,20 +98,19 @@ excerpt: "バリ島のサヌールから高速ボートで約30分、のんび�
 - 12:00　ボートでサヌールへ戻る
 - 午後　サヌールの海沿いでディナー
 - 21:30頃　Grabカーでデンパサール空港へ
-- 00:20　デンパサール発（ガルーダ・インドネシア航空GA880）
+- 00:20　デンパサール発（ガルーダ・インドネシア航空GA880、約7時間30分）
 - 08:50　成田着
 
 ## おすすめ旅程（らぐ旅向け／直行便・3泊4日の例）
 
-**1日目**
-- 11:00　成田発（ガルーダ・インドネシア航空GA881）
-- 17:25　デンパサール着。入国審査と荷物受取を終えたら[Grabカー](/grab/)でサヌールへ
+**1日目（サヌール泊）**
+- 11:00　成田発（ガルーダ・インドネシア航空GA881、約7時間25分）
+- 17:25　デンパサール着。入国審査と荷物受取を終えたらGrabカーでサヌールへ
 - 19:30頃　[Hyatt Regency Bali](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D5500759)にチェックイン（サヌールビーチ沿いの大型リゾート）
 
-**2日目**
+**2日目（ヌサレンボンガン泊）**
 - 11:00　サヌールから高速ボート（[12go.asiaで予約可](https://12go.asia/en/travel/sanur/nusa-lembongan?z=17114820)）でヌサレンボンガン島へ（約30分。サヌール発は午前から午後まで複数便あり、09:00台に慌てて出る必要はない）
-- 11:45頃　[Batu Karang Lembongan Resort & Day Spa](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D255257)に荷物を預け、ビーチで軽く過ごす（プール付きの高級リゾート）
-- 14:00　正式にチェックイン
+- 11:45頃　[Batu Karang Lembongan Resort & Day Spa](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D255257)にチェックイン（プール付きの高級リゾート）
 - 15:00　マッシュルームベイでシュノーケリング
 
 **3日目（終日フリー）**
@@ -127,7 +124,7 @@ excerpt: "バリ島のサヌールから高速ボートで約30分、のんび�
 - 12:00　ボートでサヌールへ戻る
 - 午後　サヌールの海沿いでディナー
 - 21:30頃　Grabカーでデンパサール空港へ
-- 00:20　デンパサール発（ガルーダ・インドネシア航空GA880）
+- 00:20　デンパサール発（ガルーダ・インドネシア航空GA880、約7時間30分）
 - 08:50　成田着
 
 ## おすすめビーチ・スポット
@@ -138,24 +135,6 @@ excerpt: "バリ島のサヌールから高速ボートで約30分、のんび�
 - **黄色い吊り橋**：ヌサチェニガン島へ歩いて渡れる、島のシンボル
 - **ジャングットバトゥ**：高速ボートが着くメインのビーチ、カフェやダイブショップが集まる
 - **サヌール・ボートハーバー**：バリ本島側の高速ボート乗り場
-
-## おすすめホテル
-
-**サヌール（バリ本島）**
-
-- **[Segara Village Hotel](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D48703)**：ビーチ沿いのコスパ重視ホテル（やす旅向け）
-- **[Prime Plaza Hotel Sanur](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1251)**：ボート乗り場に近いビーチサイドのホテル（ゆる旅向け）
-- **[Hyatt Regency Bali](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D5500759)**：サヌールビーチ沿いの大型リゾート（らぐ旅向け）
-
-**ヌサレンボンガン島**
-
-- **[Hai Tide Beach Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D89174811)**：ビーチ沿いのコスパ重視ホテル（やす旅向け）
-- **[Mahagiri Resort Nusa Lembongan](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1269956)**：プールが人気のリゾート（ゆる旅向け）
-- **[Batu Karang Lembongan Resort & Day Spa](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D255257)**：プール付きの高級リゾート（らぐ旅向け）
-
-**クアラルンプール（経由地）**
-
-- **[Tune Hotel KLIA2](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D621161)**：空港直結・乗継1泊向けの簡易ホテル（やす旅の帰路で利用）
 
 ## 持ち物チェックリスト
 

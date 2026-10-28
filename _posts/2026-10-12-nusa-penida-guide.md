@@ -46,16 +46,15 @@ excerpt: "バリ島からボートで30〜45分、断崖と青い海が広がる
 **1日目（機内泊）**
 - 23:55　羽田発（AirAsia X、所要7時間55分）
 
-**2日目**
+**2日目（サヌール泊）**
 - 06:50　クアラルンプール着。乗継エリアで待機
 - 09:15　クアラルンプール発（AirAsia、所要3時間15分）
 - 12:30　デンパサール着
 - 13:30頃　[Kura-Kura Bus](https://www.kura2bus.com/)でサヌールへ移動し（片道450〜750円ほど）、[Segara Village Hotel](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D48703)にチェックイン
 
-**3日目**
+**3日目（ヌサペニダ泊）**
 - 10:30　サヌールから高速ボート（[12go.asiaで予約可](https://12go.asia/en/travel/sanur/nusa-penida?z=17114820)）でヌサペニダ島へ（約30〜45分。サヌール発ヌサペニダ行きは早朝から午後まで複数便あり、09:00台に慌てて出る必要はない）
-- 12:00頃　[Semabu Hills Hotel](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D2347321)に荷物を預け、ホテル周辺で軽く過ごす
-- 14:00　正式にチェックイン
+- 12:00頃　[Semabu Hills Hotel](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D2347321)にチェックイン
 - 15:00　クリスタルベイでシュノーケリング、夕日を眺める
 
 **4日目（終日フリー）**
@@ -63,7 +62,7 @@ excerpt: "バリ島からボートで30〜45分、断崖と青い海が広がる
 - 12:00　ダイヤモンドビーチとアトゥビーチを散策
 - 18:00　ホテルのレストランでディナー
 
-**5日目**
+**5日目（クアラルンプール泊）**
 - 08:00　ホテルで朝食をとりのんびり過ごす
 - 11:00　ホテルをチェックアウト
 - 12:00　ボートでサヌールへ戻る
@@ -79,15 +78,14 @@ excerpt: "バリ島からボートで30〜45分、断崖と青い海が広がる
 
 ## おすすめ旅程（ゆる旅向け／直行便・3泊4日の例）
 
-**1日目**
+**1日目（サヌール泊）**
 - 11:00　成田発（JAL＝ガルーダ・インドネシア航空運航、所要7時間45分）
-- 17:45　デンパサール着。入国審査と荷物受取を終えたら[Grabカー](/grab/)でサヌールへ
+- 17:45　デンパサール着。入国審査と荷物受取を終えたらGrabカーでサヌールへ
 - 19:00頃　[Prime Plaza Hotel Sanur](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1251)にチェックイン（ボート乗り場に近いビーチサイドのホテル）
 
-**2日目**
+**2日目（ヌサペニダ泊）**
 - 10:30　サヌールから高速ボート（[12go.asiaで予約可](https://12go.asia/en/travel/sanur/nusa-penida?z=17114820)）でヌサペニダ島へ（約30〜45分。サヌール発ヌサペニダ行きは早朝から午後まで複数便あり、09:00台に慌てて出る必要はない）
-- 12:00頃　[Semabu Hills Hotel](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D2347321)に荷物を預け、ホテル周辺で軽く過ごす（丘の上のホテル）
-- 14:00　正式にチェックイン
+- 12:00頃　[Semabu Hills Hotel](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D2347321)にチェックイン（丘の上のホテル）
 - 15:00　クリスタルベイでシュノーケリング、夕日を眺める
 
 **3日目（終日フリー）**
@@ -106,15 +104,14 @@ excerpt: "バリ島からボートで30〜45分、断崖と青い海が広がる
 
 ## おすすめ旅程（らぐ旅向け／直行便・3泊4日の例）
 
-**1日目**
+**1日目（サヌール泊）**
 - 11:00　成田発（JAL＝ガルーダ・インドネシア航空運航、所要7時間45分）
-- 17:45　デンパサール着。入国審査と荷物受取を終えたら[Grabカー](/grab/)でサヌールへ
+- 17:45　デンパサール着。入国審査と荷物受取を終えたらGrabカーでサヌールへ
 - 19:00頃　[Hyatt Regency Bali](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D5500759)にチェックイン（サヌールビーチ沿いの大型リゾート）
 
-**2日目**
+**2日目（ヌサペニダ泊）**
 - 10:30　サヌールから高速ボートでヌサペニダ島へ（約30〜45分。サヌール発ヌサペニダ行きは早朝から午後まで複数便あり、09:00台に慌てて出る必要はない）
-- 12:00頃　[Penida Bambu Green Suites](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D23125539)に荷物を預け、ヴィラ周辺で軽く過ごす（竹造りのヴィラが並ぶ高級ホテル）
-- 14:00　正式にチェックイン
+- 12:00頃　[Penida Bambu Green Suites](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D23125539)にチェックイン（竹造りのヴィラが並ぶ高級ホテル）
 - 15:00　クリスタルベイでシュノーケリング、夕日を眺める
 
 **3日目（終日フリー）**
@@ -137,23 +134,6 @@ excerpt: "バリ島からボートで30〜45分、断崖と青い海が広がる
 - **クリスタルベイ**：西向きの白砂ビーチ、シュノーケリングと夕日の名所
 - **ダイヤモンドビーチ**：断崖の下に白砂が延びる東端のビーチ、階段で浜まで下りられる
 - **アトゥビーチ**：ダイヤモンドビーチの隣にある、人が少なめの静かな入り江
-
-## おすすめホテル
-
-**サヌール（バリ本島）**
-
-- **[Segara Village Hotel](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D48703)**：ビーチ沿いのコスパ重視ホテル（やす旅向け）
-- **[Prime Plaza Hotel Sanur](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1251)**：ボート乗り場に近いビーチサイドのホテル（ゆる旅向け）
-- **[Hyatt Regency Bali](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D5500759)**：サヌールビーチ沿いの大型リゾート（らぐ旅向け）
-
-**ヌサペニダ島**
-
-- **[Semabu Hills Hotel](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D2347321)**：海を望む丘の上のインフィニティプールが人気（やす旅・ゆる旅向け）
-- **[Penida Bambu Green Suites](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D23125539)**：竹造りのヴィラが並ぶ高級ホテル（らぐ旅向け）
-
-**クアラルンプール（経由地）**
-
-- **[Tune Hotel KLIA2](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D621161)**：空港直結・乗継1泊向けの簡易ホテル（やす旅の帰路で利用）
 
 ## 持ち物チェックリスト
 

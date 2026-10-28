@@ -1,9 +1,6 @@
 ---
 layout: default
 ---
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
-<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
 <style>
   .hero {
     position: relative;
@@ -273,8 +270,8 @@ layout: default
 
 <div id="trip-map"></div>
 
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-<script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCQd0WmNOB9Xz5Km4xwmAxV3v8Y5pwHIuo"></script>
+<script src="https://unpkg.com/@googlemaps/markerclusterer@2.5.3/dist/index.min.js"></script>
 <script>
   var destinations = {{ site.data.destinations | jsonify }};
 
@@ -325,49 +322,72 @@ layout: default
     }
   })();
 
-  var map = L.map('trip-map', { scrollWheelZoom: false });
-  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-    maxZoom: 19
-  }).addTo(map);
-
-  var islandIcon = L.divIcon({
-    className: 'island-pin-wrapper',
-    html: '<div class="island-dot"></div>',
-    iconSize: [12, 12],
-    iconAnchor: [6, 6],
-    popupAnchor: [0, -6]
+  var map = new google.maps.Map(document.getElementById('trip-map'), {
+    zoom: 3,
+    center: { lat: 15, lng: 110 },
+    gestureHandling: 'cooperative',
+    mapTypeControl: false,
+    streetViewControl: false,
+    fullscreenControl: false
   });
 
-  var clusterGroup = L.markerClusterGroup({
-    maxClusterRadius: 50,
-    spiderfyOnMaxZoom: true,
-    showCoverageOnHover: false,
-    iconCreateFunction: function (cluster) {
-      return L.divIcon({
-        className: 'island-cluster-wrapper',
-        html: '<div class="island-cluster">' + cluster.getChildCount() + '</div>',
-        iconSize: [36, 36]
-      });
+  function islandDotIcon() {
+    var svg = '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16">' +
+      '<circle cx="8" cy="8" r="6" fill="#00704A" stroke="#fff" stroke-width="2"/></svg>';
+    return {
+      url: 'data:image/svg+xml;charset=UTF-8,' + encodeURIComponent(svg),
+      scaledSize: new google.maps.Size(16, 16),
+      anchor: new google.maps.Point(8, 8)
+    };
+  }
+
+  function clusterIcon(count) {
+    var svg = '<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36">' +
+      '<circle cx="18" cy="18" r="16" fill="#00704A" stroke="#fff" stroke-width="2"/>' +
+      '<text x="18" y="18" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="13" font-weight="700" fill="#fff">' + count + '</text></svg>';
+    return {
+      url: 'data:image/svg+xml;charset=UTF-8,' + encodeURIComponent(svg),
+      scaledSize: new google.maps.Size(36, 36),
+      anchor: new google.maps.Point(18, 18)
+    };
+  }
+
+  var infoWindow = new google.maps.InfoWindow();
+  var markers = destinations.map(function (d) {
+    var targetUrl = '{{ site.baseurl }}' + d.url;
+    var marker = new google.maps.Marker({
+      position: { lat: d.lat, lng: d.lng },
+      icon: islandDotIcon(),
+      title: d.name
+    });
+    marker.addListener('click', function () {
+      infoWindow.setContent('<a href="' + targetUrl + '" style="color:#1E3932;font-weight:700;font-size:0.9rem;text-decoration:none;white-space:nowrap;">' + d.name + '</a>');
+      infoWindow.open(map, marker);
+    });
+    return marker;
+  });
+
+  new markerClusterer.MarkerClusterer({
+    map: map,
+    markers: markers,
+    renderer: {
+      render: function (cluster) {
+        return new google.maps.Marker({
+          position: cluster.position,
+          icon: clusterIcon(cluster.count),
+          zIndex: Number(google.maps.Marker.MAX_ZINDEX) + cluster.count
+        });
+      }
     }
   });
 
-  var markers = [];
-  destinations.forEach(function (d) {
-    var marker = L.marker([d.lat, d.lng], { icon: islandIcon });
-    var targetUrl = '{{ site.baseurl }}' + d.url;
-    marker.bindPopup('<a href="' + targetUrl + '">' + d.name + '</a>', { className: 'island-label' });
-    clusterGroup.addLayer(marker);
-    markers.push(marker);
-  });
-  map.addLayer(clusterGroup);
-
   if (markers.length > 0) {
-    var group = L.featureGroup(markers);
-    map.fitBounds(group.getBounds().pad(0.3));
-    if (markers.length === 1) { map.setZoom(6); }
-  } else {
-    map.setView([15, 110], 3);
+    var bounds = new google.maps.LatLngBounds();
+    markers.forEach(function (m) { bounds.extend(m.getPosition()); });
+    map.fitBounds(bounds, 40);
+    if (markers.length === 1) {
+      google.maps.event.addListenerOnce(map, 'bounds_changed', function () { map.setZoom(6); });
+    }
   }
 
   var selectedTags = [];

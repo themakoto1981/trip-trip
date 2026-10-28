@@ -742,9 +742,11 @@ layout: default
         taxi: '<path d="M4 10l2-5h12l2 5 1.5 2v6H2.5v-6z"/><rect x="7" y="7" width="10" height="4" rx="1" fill="#EEF4EE"/><circle cx="6" cy="17" r="2"/><circle cx="18" cy="17" r="2"/>',
         motorbike: '<circle cx="5.5" cy="17" r="3" fill="none" stroke="#1E3932" stroke-width="2.5"/><circle cx="18.5" cy="17" r="3" fill="none" stroke="#1E3932" stroke-width="2.5"/><path d="M5.5 17l4-6h4l3 6h-7l3-4h4l2 4M11 8h3l2 3h-3z"/><circle cx="12" cy="5" r="2"/>'
       };
-      // 本文に「直行便」と書かなくても、搭乗航空会社名から直行便判定できるようにする
+      // 本文に「直行便」と書かなくても判定できるようにする。航空会社名を個別に列挙すると
+      // 新しい航空会社が出るたびに漏れるため、「成田発（」「羽田発（」という日本発の記法で判定する
+      // （経由便の旅程ではisTransitItinerary側でタグ自体を抑制する）
       function isDirectFlightLine(text) {
-        return text.indexOf('ANA') !== -1 || text.indexOf('JAL') !== -1 || text.indexOf('Vietjet') !== -1 || text.indexOf('Zipair') !== -1 || text.indexOf('AirAsia') !== -1;
+        return /(成田発|羽田発)（/.test(text);
       }
       // 国内線・地域便など直行便タグは不要だが、出発がどの航空会社か明記されている行はアイコンだけ付与する
       function isAnyFlightLine(text) {
@@ -795,7 +797,7 @@ layout: default
       // 所要時間（約○時間/約○分）は辞書に固定値を持たず、本文の記載からタグを生成する。
       // 本文側からは該当箇所を取り除き、タグと二重表示にならないようにする。
       var DURATION_RE = /(?:約|所要)[0-9０-９.〜～]+(?:時間半|時間[0-9０-９]*分?|分)/;
-      var DURATION_STRIP_RE = /(?:、)?(?:所要)?(?:約|所要)[0-9０-９.〜～]+(?:時間半|時間[0-9０-９]*分?|分)/;
+      var DURATION_STRIP_RE = /(?:、)?(?:所要)?(?:約|所要)[0-9０-９.〜～]+(?:時間半|時間[0-9０-９]*分?|分)(?:、)?/;
       function extractDuration(text) {
         var m = text.match(DURATION_RE);
         return m ? m[0] : null;
@@ -811,6 +813,9 @@ layout: default
       }
 
       itineraryHeadings.forEach(function (itineraryHeading) {
+        // 見出しに「経由」とある旅程（クアラルンプール経由など）は、各区間が個別には直行でも
+        // 旅程全体としては乗継のため「直行便」タグを付けない
+        var isTransitItinerary = itineraryHeading.textContent.indexOf('経由') !== -1;
         var node = itineraryHeading.nextElementSibling;
         var dayBlocks = [];
         var costNode = null;
@@ -852,6 +857,7 @@ layout: default
             if (isSlideTrial) {
               itemLi.className = 'itinerary-item itinerary-item-rich';
               var meta = itineraryMeta(li.textContent);
+              if (isTransitItinerary && meta && meta.tag === '直行便') { meta.tag = null; }
               // 地名が未知の到着行（「〇〇着」）は、直前の移動手段アイコンを引き継ぐ
               if ((!meta || !meta.icon) && li.textContent.indexOf('着') !== -1 && lastTransportIcon) {
                 meta = meta || {};

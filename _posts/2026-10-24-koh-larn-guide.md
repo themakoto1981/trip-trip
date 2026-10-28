@@ -45,7 +45,7 @@ excerpt: "パタヤからスピードボートでわずか20分。コーラル�
 **1日目**
 - 08:55　成田発（Vietjet Air、約7時間35分）
 - 14:30　バンコク（スワンナプーム空港）着
-- 16:30頃　Grabタクシーでパタヤへ移動（約1.5〜2時間）
+- 16:30頃　空港バス（Airport Bus Pattaya、片道150THB／約600円）でパタヤへ移動（所要約2〜2.5時間）
 - 18:00頃　パタヤ着。[Pattaya Inn Hotel](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D64741890)に1泊
 
 **2日目**

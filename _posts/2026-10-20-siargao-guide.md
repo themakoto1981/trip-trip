@@ -43,16 +43,15 @@ excerpt: "世界的サーファーが集まる「サーフィンの聖地」シ�
 
 ## おすすめ旅程（やす旅向け／セブ往復2泊・5泊6日の例）
 
-**1日目**
-- 11:25　成田発（セブパシフィック航空）
+**1日目（セブ泊）**
+- 11:25　成田発（セブパシフィック航空、約5時間35分）
 - 16:00　セブ着。[Cebu Waterfront Airport Hotel](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D10534)に1泊
 
-**2日目**
+**2日目（シアルガオ泊）**
 - 09:15　セブ発（フィリピン航空、約50分）
 - 10:05　シアルガオ着
-- 10:30頃　バンでホテルへ移動（約40分）。[Isla Cabana](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D479246)に荷物を預ける
+- 10:30頃　バンでホテルへ移動（約40分）。[Isla Cabana](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D479246)にチェックイン
 - 11:00　近くの食堂で早めの昼食、ビーチでのんびり
-- 14:00　チェックイン
 
 **3日目（終日フリー）**
 - 09:00　Cloud 9でサーフィンレッスンまたは見学
@@ -63,31 +62,30 @@ excerpt: "世界的サーファーが集まる「サーフィンの聖地」シ�
 - 08:00　バンカーボートでスグバ・ラグーン＆ネイキッドアイランドの離島ツアー（終日、シュノーケリング含む）
 - 18:00　中心地で夕食
 
-**5日目**
+**5日目（セブ泊）**
 - 10:00頃　ホテルをチェックアウト。最後に中心地のカフェでひと息
 - 13:00頃　空港へ移動
 - 14:05　シアルガオ発（フィリピン航空、約50分）
 - 14:50　セブ着。[Cebu Waterfront Airport Hotel](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D10534)に1泊
 
-**6日目**
+**6日目（帰国日）**
 - 02:30頃　ホテルを出発、空港へ
-- 04:15　セブ発（セブパシフィック航空）
+- 04:15　セブ発（セブパシフィック航空、約5時間10分）
 - 10:25　成田着
 
 **費用の内訳（1人あたり目安）**：国際線約40,000円／国内線約15,000円／ホテル（セブ2泊）約8,000円／ホテル（シアルガオ3泊）約9,000円／現地交通約6,000円／食事約7,500円／**合計 約85,500円**
 
 ## おすすめ旅程（ゆる旅向け／セブ往復2泊・5泊6日の例）
 
-**1日目**
-- 15:20　成田発（フィリピン航空）
+**1日目（セブ泊）**
+- 15:20　成田発（フィリピン航空、約5時間15分）
 - 19:35　セブ着。[Mövenpick Hotel Mactan Island Cebu](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D263756)に1泊
 
-**2日目**
+**2日目（シアルガオ泊）**
 - 09:15　セブ発（フィリピン航空、約50分）
 - 10:05　シアルガオ着
-- 10:30頃　リゾート送迎でホテルへ移動（約40分）。[La Isla Resort](https://www.booking.com/searchresults.html?ss=La+Isla+Resort+Siargao)に荷物を預ける
+- 10:30頃　リゾート送迎でホテルへ移動（約40分）。[La Isla Resort](https://www.booking.com/searchresults.html?ss=La+Isla+Resort+Siargao)にチェックイン
 - 11:00　リゾートレストランで昼食、ビーチでのんびり
-- 14:00　チェックイン
 
 **3日目（終日フリー）**
 - 09:00　Cloud 9でサーフィンレッスンまたは見学
@@ -98,25 +96,25 @@ excerpt: "世界的サーファーが集まる「サーフィンの聖地」シ�
 - 08:00　バンカーボートでスグバ・ラグーン＆ネイキッドアイランドの離島ツアー（終日、シュノーケリング含む）
 - 18:00　リゾートで夕食
 
-**5日目**
+**5日目（セブ泊）**
 - 10:00頃　ホテルをチェックアウト。最後に中心地のカフェでひと息
 - 13:00頃　空港へ移動
 - 14:05　シアルガオ発（フィリピン航空、約50分）
 - 14:50　セブ着。[Mövenpick Hotel Mactan Island Cebu](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D263756)に1泊
 
-**6日目**
-- 08:05　セブ発（フィリピン航空）
+**6日目（帰国日）**
+- 08:05　セブ発（フィリピン航空、約4時間30分）
 - 13:35　成田着
 
 **費用の内訳（1人あたり目安）**：国際線約100,000円／国内線約18,000円／ホテル（セブ2泊）約30,000円／ホテル（シアルガオ3泊）約36,000円／現地交通約12,000円／食事約20,000円／**合計 約216,000円**
 
 ## おすすめ旅程（らぐ旅向け／セブ往復2泊・5泊6日の例）
 
-**1日目**
-- 15:20　成田発（フィリピン航空）
+**1日目（セブ泊）**
+- 15:20　成田発（フィリピン航空、約5時間15分）
 - 19:35　セブ着。[Mövenpick Hotel Mactan Island Cebu](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D263756)に1泊
 
-**2日目**
+**2日目（シアルガオ泊）**
 - 09:15　セブ発（フィリピン航空、約50分）
 - 10:05　シアルガオ着
 - 10:15頃　リゾート手配のプライベート送迎でボート乗り場へ、専用ボートで[Dedon Island Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D69718714)へ
@@ -132,14 +130,14 @@ excerpt: "世界的サーファーが集まる「サーフィンの聖地」シ�
 - 09:00　リゾート専用ボートでスグバ・ラグーン＆ネイキッドアイランドをプライベートツアー
 - 18:00　リゾートでディナー
 
-**5日目**
+**5日目（セブ泊）**
 - 10:00頃　ヴィラをチェックアウト。最後にビーチでひと息
 - 13:00頃　専用ボート＋送迎で空港へ移動
 - 14:05　シアルガオ発（フィリピン航空、約50分）
 - 14:50　セブ着。[Mövenpick Hotel Mactan Island Cebu](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D263756)に1泊
 
-**6日目**
-- 08:05　セブ発（フィリピン航空）
+**6日目（帰国日）**
+- 08:05　セブ発（フィリピン航空、約4時間30分）
 - 13:35　成田着
 
 **費用の内訳（1人あたり目安）**：国際線約110,000円／国内線約20,000円／ホテル（セブ上質リゾート2泊）約50,000円／ホテル（Dedon Island Resort 3泊）約105,000円／現地交通約20,000円／食事約30,000円／**合計 約335,000円**

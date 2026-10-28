@@ -46,8 +46,7 @@ excerpt: "マレーシア屈指のリゾートアイランド、ランカウイ�
 - 06:15　クアラルンプール着。入国審査・荷物受取に1〜1.5時間ほどみておく、国内線へ乗継
 - 10:30　クアラルンプール発（AirAsia AK6320）
 - 11:35　ランカウイ着
-- 12:00頃　[Casa del Mar Langkawi](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D4461)に荷物を預け、ホテルのビーチで軽く過ごす
-- 14:00　正式にチェックイン
+- 12:00頃　[Casa del Mar Langkawi](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D4461)にチェックイン
 
 **3日目（終日フリー）**
 - 09:00　ケーブルカーでランカウイ・スカイブリッジへ
@@ -63,7 +62,8 @@ excerpt: "マレーシア屈指のリゾートアイランド、ランカウイ�
 - 09:00　免税店でお土産を購入
 - 10:50　ランカウイ発（AirAsia）
 - 11:50　クアラルンプール着
-- クアラルンプールで乗継、帰国便へ
+- 23:50　クアラルンプール発（AirAsia X、乗継時間が長いため空港内で待機または市内観光）
+- 翌06:50　羽田着
 
 ## おすすめ旅程（ゆる旅向け／空路ルート・3泊4日の例）
 

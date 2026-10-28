@@ -369,6 +369,10 @@ layout: default
     PinLabel.prototype.onRemove = function () {
       if (this.div) { this.div.parentNode.removeChild(this.div); this.div = null; }
     };
+    // 地図カード（InfoWindow）を開いている間、同じ名前が二重に見えないようラベルを一時的に隠す
+    PinLabel.prototype.setHidden = function (hidden) {
+      if (this.div) { this.div.style.display = hidden ? 'none' : ''; }
+    };
 
     function spotLatLng(s) {
       return new google.maps.LatLng(s.lat, s.lng);
@@ -397,6 +401,7 @@ layout: default
             fullscreenControl: false
           });
           var infoWindow = new google.maps.InfoWindow();
+          var openLabelName = null;
 
           var spotMarkersByName = {};
           var positions = [];
@@ -409,18 +414,32 @@ layout: default
               icon: buildPinIcon(s.type, s.letter)
             });
             // ビーチ（type指定なし）だけ常時ラベル表示。ホテル/空港/港は名前バッジを出さずクリックでポップアップのみ表示
-            if (!s.type) {
-              new PinLabel(spotMap, pos, s.name);
-            }
+            var label = !s.type ? new PinLabel(spotMap, pos, s.name) : null;
             var gmapsUrl = 'https://www.google.com/maps/search/?api=1&query=' + s.lat + ',' + s.lng;
             var popupHtml = '<strong>' + s.name + '</strong>' + (s.desc ? '<br>' + s.desc : '') +
               (s.url ? '<br><a href="' + s.url + '" target="_blank" rel="noopener">予約ページを見る ↗</a>' : '') +
               '<br><a href="' + gmapsUrl + '" target="_blank" rel="noopener">Googleマップで開く ↗</a>';
-            m.addListener('click', function () {
-              infoWindow.setContent(popupHtml);
-              infoWindow.open(spotMap, m);
-            });
-            spotMarkersByName[s.name] = { marker: m, lat: s.lat, lng: s.lng, image: s.image, popupHtml: popupHtml };
+            spotMarkersByName[s.name] = { marker: m, label: label, lat: s.lat, lng: s.lng, image: s.image, popupHtml: popupHtml };
+            m.addListener('click', function () { openSpotInfo(s.name); });
+          });
+
+          // 地図カード（InfoWindow）とピンの常時ラベルで同じ名前が二重に見えないよう、
+          // カードを開いている間はそのピンのラベルだけ一時的に隠す
+          function openSpotInfo(name) {
+            if (openLabelName && openLabelName !== name && spotMarkersByName[openLabelName] && spotMarkersByName[openLabelName].label) {
+              spotMarkersByName[openLabelName].label.setHidden(false);
+            }
+            var info = spotMarkersByName[name];
+            if (!info) { return; }
+            if (info.label) { info.label.setHidden(true); openLabelName = name; } else { openLabelName = null; }
+            infoWindow.setContent(info.popupHtml);
+            infoWindow.open(spotMap, info.marker);
+          }
+          infoWindow.addListener('closeclick', function () {
+            if (openLabelName && spotMarkersByName[openLabelName] && spotMarkersByName[openLabelName].label) {
+              spotMarkersByName[openLabelName].label.setHidden(false);
+            }
+            openLabelName = null;
           });
 
           fitMapToPositions(spotMap, positions);
@@ -444,8 +463,7 @@ layout: default
                 if (e.target.closest('a')) { return; }
                 spotMap.panTo({ lat: info.lat, lng: info.lng });
                 spotMap.setZoom(15);
-                infoWindow.setContent(info.popupHtml);
-                infoWindow.open(spotMap, info.marker);
+                openSpotInfo(matchedName);
                 document.getElementById('spot-map').scrollIntoView({ behavior: 'smooth', block: 'center' });
               });
 
@@ -510,6 +528,9 @@ layout: default
           '<div class="spot-tier-row" id="spot-category-row"></div></div>' +
         '<div id="spot-list-wrap" hidden><ul class="spot-card-list" id="spot-card-list"></ul></div>' +
         '<div id="spot-summary-wrap"></div>';
+      // 元のMarkdownの箇条書き（見出し直後のul）は地図UIに置き換えるため削除する（二重表示防止）
+      var originalList = spotHeading.nextElementSibling;
+      if (originalList && originalList.tagName === 'UL') { originalList.remove(); }
       spotHeading.parentNode.insertBefore(wrap, spotHeading.nextSibling);
 
       function visibleBeaches() {
@@ -559,20 +580,16 @@ layout: default
       function spotPopupHtml(s) {
         var isHotel = s.type === 'hotel';
         var desc = s.short || s.desc;
-        return '<strong>' + s.name + '</strong>' + (desc ? '<br>' + desc : '') +
+        var img = s.image ? '<img src="' + s.image + '" alt="' + s.name + '" style="width:100%;max-width:220px;height:110px;object-fit:cover;border-radius:6px;margin-bottom:6px;display:block;">' : '';
+        return img + '<strong>' + s.name + '</strong>' + (desc ? '<br>' + desc : '') +
           '<br><a href="' + spotExternalUrl(s) + '" target="_blank" rel="noopener">' +
           (isHotel && s.url ? '予約ページを見る ↗' : 'Googleマップで開く ↗') + '</a>';
       }
 
       function selectSpot(name) {
-        if (markerByName[selectedName] && selectedName !== name && markerByName[selectedName].label) {
-          markerByName[selectedName].label.setMap(null);
-          markerByName[selectedName].label = null;
-        }
+        // 選択中のピンの名前は地図カード（InfoWindow）が表示するため、
+        // 常時ラベル（PinLabel）は出さない（同じ名前が二重に見えるのを防ぐ）
         selectedName = name;
-        if (markerByName[name] && !markerByName[name].label) {
-          markerByName[name].label = new PinLabel(spotMap, markerByName[name].marker.getPosition(), name);
-        }
         var s = mySpots.filter(function (b) { return b.name === name; })[0];
         if (s && markerByName[name]) {
           infoWindow.setContent(spotPopupHtml(s));
@@ -613,7 +630,6 @@ layout: default
         } else {
           Object.keys(markerByName).forEach(function (name) {
             markerByName[name].marker.setMap(null);
-            if (markerByName[name].label) { markerByName[name].label.setMap(null); }
           });
         }
         markerByName = {};
@@ -748,9 +764,10 @@ layout: default
       function isDirectFlightLine(text) {
         return /(成田発|羽田発)（/.test(text);
       }
-      // 国内線・地域便など直行便タグは不要だが、出発がどの航空会社か明記されている行はアイコンだけ付与する
+      // 国内線・地域便や日本発以外の区間（バンコク発など）は直行便タグは不要だが、
+      // 航空会社名が明記されている行にはアイコンだけ付与する（表記ゆれを広めに吸収）
       function isAnyFlightLine(text) {
-        return isDirectFlightLine(text) || /発（[^）]*(航空|エア)/.test(text);
+        return isDirectFlightLine(text) || /発（[^）]*(航空|エア|Air|ANA|JAL)/.test(text);
       }
       // アイコンは「何で移動・滞在するか」を常に示す（タグの有無に関わらず付与）
       function itineraryIcon(text) {
@@ -813,9 +830,6 @@ layout: default
       }
 
       itineraryHeadings.forEach(function (itineraryHeading) {
-        // 見出しに「経由」とある旅程（クアラルンプール経由など）は、各区間が個別には直行でも
-        // 旅程全体としては乗継のため「直行便」タグを付けない
-        var isTransitItinerary = itineraryHeading.textContent.indexOf('経由') !== -1;
         var node = itineraryHeading.nextElementSibling;
         var dayBlocks = [];
         var costNode = null;
@@ -833,9 +847,14 @@ layout: default
         }
         if (dayBlocks.length === 0) { return; }
 
+        // 見出しに「経由」とある旅程（クアラルンプール経由など）や、本文中に「乗継」が出てくる旅程
+        // （マニラ1泊で翌日乗り継ぐ等）は、各区間が個別には直行でも旅程全体では乗継のため
+        // 「直行便」タグを付けない
+        var isTransitItinerary = itineraryHeading.textContent.indexOf('経由') !== -1 ||
+          dayBlocks.some(function (block) { return block.ulNode.textContent.indexOf('乗継') !== -1; });
+
         var timelineWrap = document.createElement('div');
         timelineWrap.className = 'itinerary-timeline';
-        var nightCount = 0;
         dayBlocks.forEach(function (block) {
           var dayDiv = document.createElement('div');
           dayDiv.className = 'itinerary-day';
@@ -868,13 +887,6 @@ layout: default
               }
               var duration = extractDuration(li.textContent);
               desc = stripDuration(desc, duration);
-              // ホテルへの実際のチェックイン行だけを数え、「〇泊目」タグを付ける（空港の乗継チェックインは除外）
-              var isHotelCheckin = li.textContent.indexOf('チェックイン') !== -1 && li.textContent.indexOf('スルーチェックイン') === -1;
-              var nightTag = null;
-              if (isHotelCheckin) {
-                nightCount += 1;
-                nightTag = nightCount + '泊目';
-              }
               var iconSpan = document.createElement('span');
               iconSpan.className = 'itinerary-icon';
               iconSpan.innerHTML = (meta && meta.icon) ? ('<svg viewBox="0 0 24 24">' + itineraryIconPaths[meta.icon] + '</svg>') : '<span class="itinerary-dot"></span>';
@@ -894,7 +906,6 @@ layout: default
               var tagList = [];
               if (meta && meta.tag) { tagList.push(meta.tag); }
               if (duration) { tagList.push(formatDurationTag(duration)); }
-              if (nightTag) { tagList.push(nightTag); }
               if (tagList.length) {
                 var tagsDiv = document.createElement('div');
                 tagsDiv.className = 'itinerary-tags';

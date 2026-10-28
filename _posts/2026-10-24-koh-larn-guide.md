@@ -42,13 +42,13 @@ excerpt: "パタヤからスピードボートでわずか20分。コーラル�
 
 ## おすすめ旅程（やす旅向け／パタヤ1泊・3泊4日の例）
 
-**1日目**
+**1日目（パタヤ泊）**
 - 08:55　成田発（Vietjet Air、約7時間35分）
 - 14:30　バンコク（スワンナプーム空港）着
 - 16:30頃　空港バス（Airport Bus Pattaya、片道150THB／約600円）でパタヤへ移動（所要約2〜2.5時間）
 - 18:00頃　パタヤ着。[Pattaya Inn Hotel](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D64741890)に1泊
 
-**2日目**
+**2日目（ラン島泊）**
 - 09:00頃　バリハイ桟橋の窓口でチケットを購入し、スピードボートでラン島へ（片道150〜200THB／約600〜800円、約15〜20分）
 - 09:20頃　ラン島（タワエンビーチ）着
 - 09:30頃　[Island Inn](https://www.booking.com/searchresults.html?ss=Island+Inn+Koh+Larn)にチェックイン（タワエンビーチ近くの手頃な宿）
@@ -68,13 +68,13 @@ excerpt: "パタヤからスピードボートでわずか20分。コーラル�
 
 ## おすすめ旅程（ゆる旅向け／パタヤ1泊・3泊4日の例）
 
-**1日目**
+**1日目（パタヤ泊）**
 - 11:05　羽田発（ANA NH847、約7時間15分）
 - 16:20　バンコク（スワンナプーム空港）着
 - 18:00頃　Grabタクシーでパタヤへ移動（約1.5〜2時間）
 - 19:30頃　パタヤ着。[Balihai Bay Pattaya](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D863180)に1泊
 
-**2日目**
+**2日目（ラン島泊）**
 - 09:00頃　バリハイ桟橋の窓口でチケットを購入し、スピードボートでラン島へ（片道150〜200THB／約600〜800円、約15〜20分）
 - 09:20頃　ラン島（タワエンビーチ）着
 - 09:30頃　[Montra Resort](https://www.booking.com/searchresults.html?ss=Montra+Resort+Koh+Larn)にチェックイン（タワエンビーチの快適なリゾート）
@@ -94,13 +94,13 @@ excerpt: "パタヤからスピードボートでわずか20分。コーラル�
 
 ## おすすめ旅程（らぐ旅向け／パタヤ1泊・3泊4日の例）
 
-**1日目**
+**1日目（パタヤ泊）**
 - 11:05　羽田発（ANA NH847、約7時間15分）
 - 16:20　バンコク（スワンナプーム空港）着
 - 18:00頃　Grabタクシーでパタヤへ移動（約1.5〜2時間）
 - 19:30頃　パタヤ着。[InterContinental Pattaya Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1192737)に1泊
 
-**2日目**
+**2日目（ラン島泊）**
 - 09:00頃　バリハイ桟橋の窓口でチケットを購入し、スピードボートでラン島へ（片道150〜200THB／約600〜800円、約15〜20分）
 - 09:20頃　ラン島（タワエンビーチ）着
 - 09:30頃　[The Castello Resort Koh Larn](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D755983)にチェックイン（島内屈指の上質リゾート）

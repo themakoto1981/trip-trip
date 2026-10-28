@@ -54,6 +54,7 @@ excerpt: "成田から直行便で約6時間、東南アジアの中でも飛行
 **1日目（土曜）**
 - 10:10　関西発（Vietjet Air VJ923、所要約5時間30分）
 - 13:45　ダナン着。入国審査を終えてもまだ午後早い時間
+- 14:00頃　Grabカーでホテルへ移動（所要約10〜15分）
 - 15:00頃　[Nesta Hotel Danang](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D31559197)にチェックイン（ミーケービーチまで徒歩圏、1泊6,000円台から）
 - 17:30頃　Grabカーでホイアンへ（所要約45分）。ランタン夜市と名物バインミーを楽しむ
 
@@ -72,7 +73,8 @@ Vietjet Airは火・木・土・日運航。土曜発なら、有休を1日も�
 
 **1日目**
 - 09:00　成田発（ベトナム航空 VN319、所要約5時間40分）
-- 12:40　ダナン着。入国審査・荷物受取を終えても午後からたっぷり時間がある
+- 12:40　ダナン着。入国審査・荷物受取を終えて午後は自由行動
+- 13:00頃　Grabカーでホテルへ移動（所要約10〜15分）
 - 13:30頃　[A La Carte Danang Beach](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D569663)にチェックイン（ミーケービーチ沿い、4つ星ホテル）
 - 17:00頃　Grabカーでホイアンへ（所要約45分）。旧市街のランタン夜市を散策し、名物バインミーで夕食
 - 21:00頃　ダナンへ戻り就寝
@@ -91,6 +93,7 @@ Vietjet Airは火・木・土・日運航。土曜発なら、有休を1日も�
 **1日目**
 - 09:00　成田発（ベトナム航空 VN319、所要約5時間40分）
 - 12:40　ダナン着
+- 13:00頃　Grabカーでホテルへ移動（所要約15分）
 - 13:15頃　[ナマンリトリート（Naman Retreat）](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D761550)にチェックイン（空港から車で15分、プライベートビーチを備えたウェルネス重視のラグジュアリーリゾート）
 - 17:00頃　Grabカーでホイアンへ（所要約45分）。ランタンの旧市街を散策し、川沿いのレストランで夕食
 

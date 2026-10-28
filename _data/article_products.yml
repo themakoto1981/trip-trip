@@ -10,3 +10,27 @@ koh-larn-guide:
       order: 2
       reason: "スピードボートでの移動や水辺の撮影に"
       status: active
+
+bali-guide:
+  heading: "持っていくと便利なもの"
+  items:
+    - product_id: water-shoes
+      order: 1
+      reason: "ビーチもボートの乗り降りもこれ一足で"
+      status: active
+    - product_id: waterproof-phone-case
+      order: 2
+      reason: "ビーチでの撮影や雨季の移動に"
+      status: active
+
+boracay-guide:
+  heading: "持っていくと便利なもの"
+  items:
+    - product_id: water-shoes
+      order: 1
+      reason: "ビーチも船の乗り降りもこれ一足で"
+      status: active
+    - product_id: waterproof-phone-case
+      order: 2
+      reason: "アイランドホッピングやサンセットセーリングの撮影に"
+      status: active

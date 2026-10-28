@@ -43,9 +43,9 @@ excerpt: "成田・関西から直行便で約5時間、空港から近いリゾ
 ## おすすめ旅程（やす旅向け／LCC利用・3泊4日の例）
 
 **1日目**
-- 08:55　成田発（セブパシフィック航空 5J5063）
+- 08:55　成田発（セブパシフィック航空 5J5063、約5時間40分）
 - 13:35　セブ着
-- Grabでホテルへ移動し、[The Stopover Hostel – Mactan](https://www.hostelworld.com/)にチェックイン（空港から1km）
+- Grabでホテルへ移動し、[The Stopover Hostel – Mactan](https://www.booking.com/searchresults.html?ss=The+Stopover+Hostel+Mactan)にチェックイン（空港から1km）
 - 夕方　近くのビーチでのんびり
 
 **2日目**
@@ -61,15 +61,15 @@ excerpt: "成田・関西から直行便で約5時間、空港から近いリゾ
 **4日目（帰国日）**
 - 11:00　ホテルをチェックアウト
 - 13:00頃　Grabで空港へ移動（出発2〜3時間前を目安に）
-- 15:25　セブ発（セブパシフィック航空 5J5064）
+- 15:25　セブ発（セブパシフィック航空 5J5064、約4時間45分）
 - 21:10　成田着
 
 ## おすすめ旅程（ゆる旅向け／直行便・3泊4日の例）
 
 **1日目**
-- 15:20　成田発（フィリピン航空 PR433）
+- 15:20　成田発（フィリピン航空 PR433、約5時間15分）
 - 19:35　セブ着
-- Grabでホテルへ移動し、[Bluewater Maribago Beach Resort](https://www.bluewatermaribago.com.ph/)にチェックイン（マクタン島のビーチフロントリゾート）
+- Grabでホテルへ移動し、[Bluewater Maribago Beach Resort](https://www.booking.com/searchresults.html?ss=Bluewater+Maribago+Beach+Resort)にチェックイン（マクタン島のビーチフロントリゾート）
 
 **2日目**
 - 04:00頃　ホテル発、車でオスロブへ（約3時間）
@@ -83,15 +83,15 @@ excerpt: "成田・関西から直行便で約5時間、空港から近いリゾ
 
 **4日目（帰国日）**
 - 06:00頃　ホテル発、空港へ
-- 08:05　セブ発（フィリピン航空 PR434）
+- 08:05　セブ発（フィリピン航空 PR434、約4時間30分）
 - 13:35　成田着
 
 ## おすすめ旅程（らぐ旅向け／直行便・3泊4日の例）
 
 **1日目**
-- 15:20　成田発（フィリピン航空 PR433）
+- 15:20　成田発（フィリピン航空 PR433、約5時間15分）
 - 19:35　セブ着
-- Grabでホテルへ移動し、[Shangri-La's Mactan Resort & Spa](https://www.shangri-la.com/cebu/mactanresort/)にチェックイン（ビーチフロントの高級リゾート、敷地内に魚の保護区あり）
+- Grabでホテルへ移動し、[Shangri-La's Mactan Resort & Spa](https://www.booking.com/searchresults.html?ss=Shangri-La%27s+Mactan+Resort+%26+Spa)にチェックイン（ビーチフロントの高級リゾート、敷地内に魚の保護区あり）
 
 **2日目**
 - 午前　ホテル目の前の魚保護区でシュノーケリング
@@ -103,7 +103,7 @@ excerpt: "成田・関西から直行便で約5時間、空港から近いリゾ
 
 **4日目（帰国日）**
 - 06:00頃　ホテル発、空港へ
-- 08:05　セブ発（フィリピン航空 PR434）
+- 08:05　セブ発（フィリピン航空 PR434、約4時間30分）
 - 13:35　成田着
 
 ## おすすめビーチ・スポット
@@ -113,12 +113,6 @@ excerpt: "成田・関西から直行便で約5時間、空港から近いリゾ
 - **カワサン滝**：バディアン地区の多段式の滝。青く透き通った滝つぼが名物
 - **ヒルトゥガン島海洋保護区**：マクタン島とオランゴ島の間にある、フィリピン最古級の海洋保護区。サンゴとウミガメに出会える
 - **ナルスアン島**：ヒルトゥガン島近くの小さな島。ランチ付きのアイランドホッピングで立ち寄ることが多い
-
-## おすすめホテル
-
-- **[The Stopover Hostel – Mactan](https://www.hostelworld.com/)**：空港から1kmのドミトリー・個室ホステル、空港送迎・朝食付き（やす旅向け）
-- **[Bluewater Maribago Beach Resort](https://www.bluewatermaribago.com.ph/)**：マクタン島のビーチフロントリゾート、プール3つとウォータースポーツ充実（ゆる旅向け）
-- **[Shangri-La's Mactan Resort & Spa](https://www.shangri-la.com/cebu/mactanresort/)**：敷地内に魚の保護区を持つ高級ビーチリゾート（らぐ旅向け）
 
 ## 持ち物チェックリスト
 

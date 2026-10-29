@@ -879,3 +879,32 @@
     ragu: [TR01, TR04, HT11]
   url: /2026/10/29/koh-phangan-guide/
   tags: { beach: 4, resort: 3, island: 4, city_base: 1, sightseeing: 2, relax: 4, party: 5, activity: 3 }
+
+- name: ロン島
+  en_name: "Koh Rong, Cambodia"
+  slug: koh-rong-guide
+  country: カンボジア
+  country_slug: cambodia
+  lat: 10.6667
+  lng: 103.2333
+  flight_min: 60000
+  flight_max: 170000
+  hotel_min: 1000
+  hotel_max: 50000
+  transport_min: 1500
+  transport_max: 4000
+  food_min: 1500
+  food_max: 4000
+  flight_hours: "約14〜16時間（ホーチミン経由、シアヌークビルから船で約1時間）"
+  recommended_nights: "4泊以上"
+  visa: "必要（eビザ推奨、約36ドル）"
+  photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Long-beach-kog-rong-cambodia.jpg/960px-Long-beach-kog-rong-cambodia.jpg"
+  photo_credit_url: "https://commons.wikimedia.org/wiki/File:Long-beach-kog-rong-cambodia.jpg"
+  suited_for: [solo, friends, couple]
+  best_months: [12, 1, 2]
+  budget_tags:
+    yasu: [TR02, HT04, SC03]
+    yuru: [TR01, HT04, SC03]
+    ragu: [TR01, HT14, HT04]
+  url: /2026/10/29/koh-rong-guide/
+  tags: { beach: 5, resort: 2, island: 5, city_base: 1, sightseeing: 1, relax: 5, party: 1, activity: 2 }

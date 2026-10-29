@@ -413,6 +413,27 @@ pulau-pari-guide:
     category: spot
     tags: ["自然"]
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/East_side_of_Pari_Island%2C_Kepulauan_Seribu_National_Park.jpg/960px-East_side_of_Pari_Island%2C_Kepulauan_Seribu_National_Park.jpg"
+  - name: "Aston Priok Hotel & Residence"
+    lat: -6.1047
+    lng: 106.8656
+    desc: "プルイット地区、やす旅向けホテル"
+    type: hotel
+    letter: "や"
+    url: "https://www.booking.com/searchresults.html?ss=Aston+Priok+Hotel+%26+Residence"
+  - name: "Mercure Convention Center Ancol Jakarta"
+    lat: -6.1226
+    lng: 106.8370
+    desc: "アンチョール地区、ゆる旅向けの4つ星"
+    type: hotel
+    letter: "ゆ"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D49739"
+  - name: "Mandarin Oriental Jakarta"
+    lat: -6.1944
+    lng: 106.8229
+    desc: "市内中心部、らぐ旅向けの5つ星"
+    type: hotel
+    letter: "ら"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D461846"
 
 phuquoc-guide:
   - name: サオビーチ
@@ -1262,6 +1283,34 @@ tioman-guide:
     desc: 島の東側の穏やかなビーチ、ウミガメの産卵地としても知られる
     category: beach
     tags: ["ビーチ", "ウミガメ"]
+  - name: "Timotel Hotel Mersing"
+    lat: 2.4312
+    lng: 103.8396
+    desc: "本土メルシン、乗継用の1泊に便利なホテル"
+    type: hotel
+    letter: "ゆ"
+    url: "https://www.booking.com/searchresults.html?ss=Timotel+Hotel+Mersing"
+  - name: "Swiss Cottage Tioman"
+    lat: 2.8089
+    lng: 104.1583
+    desc: "テケック近く、やす旅向けホテル"
+    type: hotel
+    letter: "や"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D18094854"
+  - name: "Paya Beach Spa & Dive Resort"
+    lat: 2.7311
+    lng: 104.1444
+    desc: "目の前にサンゴ礁が広がる海沿いリゾート、ゆる旅向け"
+    type: hotel
+    letter: "ゆ"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D305851"
+  - name: "Japamala Resort"
+    lat: 2.7206
+    lng: 104.1494
+    desc: "島南端の高級リゾート、らぐ旅向け"
+    type: hotel
+    letter: "ら"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D63313"
 
 gili-air-guide:
   - name: サンセットサイドビーチ

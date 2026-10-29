@@ -94,3 +94,255 @@ krabi-guide:
       order: 2
       reason: "ボート移動やプラナンケーブビーチの撮影に"
       status: active
+
+phuket-guide:
+  heading: "持っていくと便利なもの"
+  items:
+    - product_id: water-shoes
+      order: 1
+      reason: "ビーチもスピードボートの乗り降りもこれ一足で"
+      status: active
+    - product_id: waterproof-phone-case
+      order: 2
+      reason: "アイランドホッピングやビーチの撮影に"
+      status: active
+
+koh-chang-guide:
+  heading: "持っていくと便利なもの"
+  items:
+    - product_id: water-shoes
+      order: 1
+      reason: "ビーチも滝遊びもこれ一足で"
+      status: active
+    - product_id: waterproof-phone-case
+      order: 2
+      reason: "滝つぼ遊びやシュノーケリングの撮影に"
+      status: active
+
+koh-lipe-guide:
+  heading: "持っていくと便利なもの"
+  items:
+    - product_id: water-shoes
+      order: 1
+      reason: "遠浅のビーチもボート乗り降りもこれ一足で"
+      status: active
+    - product_id: waterproof-phone-case
+      order: 2
+      reason: "透明度抜群の海でのシュノーケリング撮影に"
+      status: active
+
+koh-phiphi-guide:
+  heading: "持っていくと便利なもの"
+  items:
+    - product_id: water-shoes
+      order: 1
+      reason: "マヤベイなどのボートツアーの乗り降りもこれ一足で"
+      status: active
+    - product_id: waterproof-phone-case
+      order: 2
+      reason: "アイランドホッピングやシュノーケリングの撮影に"
+      status: active
+
+phuquoc-guide:
+  heading: "持っていくと便利なもの"
+  items:
+    - product_id: water-shoes
+      order: 1
+      reason: "ビーチもボート乗り降りもこれ一足で"
+      status: active
+    - product_id: waterproof-phone-case
+      order: 2
+      reason: "アイランドホッピングやビーチの撮影に"
+      status: active
+
+pulau-pari-guide:
+  heading: "持っていくと便利なもの"
+  items:
+    - product_id: water-shoes
+      order: 1
+      reason: "遠浅のビーチもボート乗り降りもこれ一足で"
+      status: active
+    - product_id: waterproof-phone-case
+      order: 2
+      reason: "シュノーケリングやビーチの撮影に"
+      status: active
+
+redang-guide:
+  heading: "持っていくと便利なもの"
+  items:
+    - product_id: water-shoes
+      order: 1
+      reason: "マリンパークのシュノーケリングやボート乗り降りもこれ一足で"
+      status: active
+    - product_id: waterproof-phone-case
+      order: 2
+      reason: "透明度の高い海でのシュノーケリング撮影に"
+      status: active
+
+koh-samui-guide:
+  heading: "持っていくと便利なもの"
+  items:
+    - product_id: water-shoes
+      order: 1
+      reason: "ビーチも寺院巡りもこれ一足で"
+      status: active
+    - product_id: waterproof-phone-case
+      order: 2
+      reason: "ビーチやアイランドホッピングの撮影に"
+      status: active
+
+nusa-penida-guide:
+  heading: "持っていくと便利なもの"
+  items:
+    - product_id: water-shoes
+      order: 1
+      reason: "岩場の多いビーチやボート乗り降りもこれ一足で"
+      status: active
+    - product_id: waterproof-phone-case
+      order: 2
+      reason: "ケリンキンなどの絶景スポット撮影に"
+      status: active
+
+gili-trawangan-guide:
+  heading: "持っていくと便利なもの"
+  items:
+    - product_id: water-shoes
+      order: 1
+      reason: "ウミガメと泳ぐシュノーケリングやボート乗り降りもこれ一足で"
+      status: active
+    - product_id: waterproof-phone-case
+      order: 2
+      reason: "シュノーケリングやビーチの撮影に"
+      status: active
+
+cebu-guide:
+  heading: "持っていくと便利なもの"
+  items:
+    - product_id: water-shoes
+      order: 1
+      reason: "ジンベエザメツアーやキャニオニングもこれ一足で"
+      status: active
+    - product_id: waterproof-phone-case
+      order: 2
+      reason: "ジンベエザメやカワサン滝の撮影に"
+      status: active
+
+nusa-lembongan-guide:
+  heading: "持っていくと便利なもの"
+  items:
+    - product_id: water-shoes
+      order: 1
+      reason: "マングローブ探検やシュノーケリングもこれ一足で"
+      status: active
+    - product_id: waterproof-phone-case
+      order: 2
+      reason: "シュノーケリングやビーチの撮影に"
+      status: active
+
+koh-tao-guide:
+  heading: "持っていくと便利なもの"
+  items:
+    - product_id: water-shoes
+      order: 1
+      reason: "ダイビングショップ周りやビーチもこれ一足で"
+      status: active
+    - product_id: waterproof-phone-case
+      order: 2
+      reason: "ビーチやシュノーケリングの撮影に"
+      status: active
+
+con-dao-guide:
+  heading: "持っていくと便利なもの"
+  items:
+    - product_id: water-shoes
+      order: 1
+      reason: "手つかずのビーチやボート乗り降りもこれ一足で"
+      status: active
+    - product_id: waterproof-phone-case
+      order: 2
+      reason: "ウミガメ観察やビーチの撮影に"
+      status: active
+
+siargao-guide:
+  heading: "持っていくと便利なもの"
+  items:
+    - product_id: water-shoes
+      order: 1
+      reason: "島巡りのボート乗り降りもこれ一足で"
+      status: active
+    - product_id: waterproof-phone-case
+      order: 2
+      reason: "アイランドホッピングやサーフィン観戦の撮影に"
+      status: active
+
+camiguin-guide:
+  heading: "持っていくと便利なもの"
+  items:
+    - product_id: water-shoes
+      order: 1
+      reason: "ホワイトアイランドへのボート乗り降りもこれ一足で"
+      status: active
+    - product_id: waterproof-phone-case
+      order: 2
+      reason: "シュノーケリングや温泉の撮影に"
+      status: active
+
+nhatrang-guide:
+  heading: "持っていくと便利なもの"
+  items:
+    - product_id: water-shoes
+      order: 1
+      reason: "ビーチもアイランドホッピングのボート乗り降りもこれ一足で"
+      status: active
+    - product_id: waterproof-phone-case
+      order: 2
+      reason: "ビーチやアイランドホッピングの撮影に"
+      status: active
+
+tioman-guide:
+  heading: "持っていくと便利なもの"
+  items:
+    - product_id: water-shoes
+      order: 1
+      reason: "ジャングルトレッキングやシュノーケリングもこれ一足で"
+      status: active
+    - product_id: waterproof-phone-case
+      order: 2
+      reason: "シュノーケリングやビーチの撮影に"
+      status: active
+
+gili-air-guide:
+  heading: "持っていくと便利なもの"
+  items:
+    - product_id: water-shoes
+      order: 1
+      reason: "遠浅のビーチもシュノーケリングもこれ一足で"
+      status: active
+    - product_id: waterproof-phone-case
+      order: 2
+      reason: "シュノーケリングやビーチの撮影に"
+      status: active
+
+perhentian-guide:
+  heading: "持っていくと便利なもの"
+  items:
+    - product_id: water-shoes
+      order: 1
+      reason: "ウミガメと泳ぐシュノーケリングやボート乗り降りもこれ一足で"
+      status: active
+    - product_id: waterproof-phone-case
+      order: 2
+      reason: "シュノーケリングやビーチの撮影に"
+      status: active
+
+koh-kood-guide:
+  heading: "持っていくと便利なもの"
+  items:
+    - product_id: water-shoes
+      order: 1
+      reason: "ビーチも滝つぼ遊びもこれ一足で"
+      status: active
+    - product_id: waterproof-phone-case
+      order: 2
+      reason: "滝やビーチの撮影に"
+      status: active

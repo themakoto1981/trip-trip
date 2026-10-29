@@ -1685,3 +1685,57 @@ koh-phangan-guide:
     type: hotel
     letter: "ら"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D301693"
+
+koh-rong-guide:
+  - name: ロングビーチ
+    lat: 10.6700
+    lng: 103.2100
+    desc: 島のシンボル、約7kmにわたる白砂のビーチ
+    category: beach
+    tags: ["ビーチ", "絶景"]
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Long-beach-kog-rong-cambodia.jpg/960px-Long-beach-kog-rong-cambodia.jpg"
+  - name: コ・トゥーチ村
+    lat: 10.7090
+    lng: 103.2540
+    desc: フェリーが着く桟橋村、食堂やバーが集まる
+    category: spot
+    tags: ["グルメ", "ナイトライフ"]
+  - name: ソクサンビーチ
+    lat: 10.6450
+    lng: 103.1970
+    desc: 西海岸の静かなビーチ、バンガローが点在
+    category: beach
+    tags: ["ビーチ", "静か"]
+  - name: ポリスビーチ
+    lat: 10.7350
+    lng: 103.2480
+    desc: 北部の穏やかなビーチ、人が少なめ
+    category: beach
+    tags: ["ビーチ", "静か"]
+  - name: サラセン湾（コ・ロンサンレム島）
+    lat: 10.5700
+    lng: 103.2500
+    desc: 隣の島の静かな入り江、日帰りツアーで行ける
+    category: spot
+    tags: ["絶景", "アイランドホッピング"]
+  - name: "Sok San Beach Bungalows"
+    lat: 10.6455
+    lng: 103.1975
+    desc: "ソクサンビーチの素朴なバンガロー、やす旅向け"
+    type: hotel
+    letter: "や"
+    url: "https://www.booking.com/searchresults.html?ss=Sok+San+Beach+Bungalows"
+  - name: "Long Beach Resort"
+    lat: 10.6705
+    lng: 103.2105
+    desc: "ロングビーチ沿いの3つ星リゾート、ゆる旅向け"
+    type: hotel
+    letter: "ゆ"
+    url: "https://www.booking.com/searchresults.html?ss=Long+Beach+Resort+Koh+Rong"
+  - name: "Song Saa Private Island"
+    lat: 10.7300
+    lng: 103.2700
+    desc: "ロン島沖の専用島、らぐ旅向けの超高級リゾート"
+    type: hotel
+    letter: "ら"
+    url: "https://www.booking.com/searchresults.html?ss=Song+Saa+Private+Island"

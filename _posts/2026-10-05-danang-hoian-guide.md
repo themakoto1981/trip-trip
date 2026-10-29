@@ -53,7 +53,7 @@ excerpt: "成田から直行便で約6時間、東南アジアの中でも飛行
 
 **1日目（土曜）**
 - 10:10　関西発（Vietjet Air VJ923、所要約5時間30分）
-- 13:45　ダナン着。入国審査を終えてもまだ午後早い時間
+- 13:45　ダナン着。入国審査を終えて午後は自由行動
 - 14:00頃　Grabカーでホテルへ移動（所要約10〜15分）
 - 15:00頃　[Nesta Hotel Danang](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D31559197)にチェックイン（ミーケービーチまで徒歩圏、1泊6,000円台から）
 - 17:30頃　Grabカーでホイアンへ（所要約45分）。ランタン夜市と名物バインミーを楽しむ

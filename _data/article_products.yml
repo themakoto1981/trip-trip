@@ -82,3 +82,15 @@ danang-hoian-guide:
       order: 2
       reason: "ビーチや夜のランタン街の撮影に"
       status: active
+
+krabi-guide:
+  heading: "持っていくと便利なもの"
+  items:
+    - product_id: water-shoes
+      order: 1
+      reason: "ロングテールボートの乗り降りで足元が濡れるのでこれ一足で"
+      status: active
+    - product_id: waterproof-phone-case
+      order: 2
+      reason: "ボート移動やプラナンケーブビーチの撮影に"
+      status: active

@@ -851,3 +851,32 @@
     ragu: [TR01, TR04, HT11]
   url: /2026/10/26/koh-kood-guide/
   tags: { beach: 4, resort: 3, island: 5, city_base: 1, sightseeing: 2, relax: 5, party: 1, activity: 3 }
+
+- name: コ・パンガン島
+  en_name: "Koh Phangan, Thailand"
+  slug: koh-phangan-guide
+  country: タイ
+  country_slug: thailand
+  lat: 9.7384
+  lng: 100.0231
+  flight_min: 50000
+  flight_max: 150000
+  hotel_min: 1500
+  hotel_max: 25000
+  transport_min: 1000
+  transport_max: 3000
+  food_min: 2000
+  food_max: 5000
+  flight_hours: "約10〜12時間（バンコク経由、サムイ島から船で約30分）"
+  recommended_nights: "3泊以上"
+  visa: "不要（30日以内）"
+  photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Haad_Rin_Beach%2C_Koh_Phangan.jpg/960px-Haad_Rin_Beach%2C_Koh_Phangan.jpg"
+  photo_credit_url: "https://commons.wikimedia.org/wiki/File:Haad_Rin_Beach,_Koh_Phangan.jpg"
+  suited_for: [solo, friends, couple]
+  best_months: [12, 1, 2]
+  budget_tags:
+    yasu: [TR02, HT01, SC05]
+    yuru: [TR01, TR04, HT03]
+    ragu: [TR01, TR04, HT11]
+  url: /2026/10/29/koh-phangan-guide/
+  tags: { beach: 4, resort: 3, island: 4, city_base: 1, sightseeing: 2, relax: 4, party: 5, activity: 3 }

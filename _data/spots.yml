@@ -1151,6 +1151,20 @@ camiguin-guide:
     image: "https://upload.wikimedia.org/wikipedia/commons/9/9f/White_Beach_in_Mantigue_Island%2C_Camiguin.jpg"
     category: beach
     tags: ["ビーチ", "シュノーケリング"]
+  - name: "Pacos Garden Homestay"
+    lat: 9.2480
+    lng: 124.7180
+    desc: "マンバハオ近く、やす旅向けの素朴なホームステイ"
+    type: hotel
+    letter: "や"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D12425320"
+  - name: "Agoho Resort"
+    lat: 9.2580
+    lng: 124.6950
+    desc: "アゴホ地区、ゆる旅向けのビーチリゾート"
+    type: hotel
+    letter: "ゆ"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D33077528"
   - name: "Bintana Sa Paraiso"
     lat: 9.2351
     lng: 124.6492
@@ -1615,3 +1629,57 @@ koh-kood-guide:
     type: hotel
     letter: "ら"
     url: "https://www.booking.com/searchresults.html?ss=Away+Koh+Kood"
+
+koh-phangan-guide:
+  - name: ハートリンビーチ
+    lat: 9.6770
+    lng: 100.0680
+    desc: フルムーンパーティーの会場として世界的に有名な島南端のビーチ
+    category: beach
+    tags: ["ビーチ", "パーティー"]
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Haad_Rin_Beach%2C_Koh_Phangan.jpg/960px-Haad_Rin_Beach%2C_Koh_Phangan.jpg"
+  - name: ハートヨービーチ
+    lat: 9.7630
+    lng: 99.9680
+    desc: 西海岸の人気ビーチ、サンセットが美しい
+    category: beach
+    tags: ["ビーチ", "夕日"]
+  - name: メーハート
+    lat: 9.7930
+    lng: 99.9520
+    desc: 干潮時に歩いて渡れる小島コ・マーとの砂州、シュノーケリングスポット
+    category: spot
+    tags: ["シュノーケリング", "絶景"]
+  - name: タンナイパンノイ
+    lat: 9.7810
+    lng: 100.0560
+    desc: 東海岸の穏やかな入り江、リゾートが点在する静かなエリア
+    category: beach
+    tags: ["ビーチ", "のんびり"]
+  - name: ボトルビーチ（ハートクアット）
+    lat: 9.7920
+    lng: 100.0350
+    desc: ボートか山道でしか行けない北部の秘境ビーチ
+    category: beach
+    tags: ["ビーチ", "秘境"]
+  - name: "So Good Haad Rin Hostel"
+    lat: 9.6775
+    lng: 100.0685
+    desc: "ハートリンビーチ沿い、やす旅向けホステル"
+    type: hotel
+    letter: "や"
+    url: "https://www.booking.com/searchresults.html?ss=So+Good+Haad+Rin+Hostel"
+  - name: "Haad Yao Bayview Resort & Spa"
+    lat: 9.7635
+    lng: 99.9685
+    desc: "西海岸ハートヨー、ゆる旅向けの3つ星リゾート"
+    type: hotel
+    letter: "ゆ"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D43987"
+  - name: "Anantara Rasananda Koh Phangan"
+    lat: 9.7815
+    lng: 100.0565
+    desc: "タンナイパンノイの隠れ家、らぐ旅向けの5つ星リゾート"
+    type: hotel
+    letter: "ら"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D301693"

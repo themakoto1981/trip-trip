@@ -46,3 +46,39 @@ langkawi-guide:
       order: 2
       reason: "マングローブツアーや滝巡りの撮影に"
       status: active
+
+el-nido-guide:
+  heading: "持っていくと便利なもの"
+  items:
+    - product_id: water-shoes
+      order: 1
+      reason: "アイランドホッピングのボート乗り降りもこれ一足で"
+      status: active
+    - product_id: waterproof-phone-case
+      order: 2
+      reason: "ラグーン巡りやシュノーケリングの撮影に"
+      status: active
+
+coron-guide:
+  heading: "持っていくと便利なもの"
+  items:
+    - product_id: water-shoes
+      order: 1
+      reason: "沈没船シュノーケリングやボート乗り降りもこれ一足で"
+      status: active
+    - product_id: waterproof-phone-case
+      order: 2
+      reason: "カヤンガン湖やツインラグーンの撮影に"
+      status: active
+
+danang-hoian-guide:
+  heading: "持っていくと便利なもの"
+  items:
+    - product_id: water-shoes
+      order: 1
+      reason: "ミーケービーチもホイアンの街歩きもこれ一足で"
+      status: active
+    - product_id: waterproof-phone-case
+      order: 2
+      reason: "ビーチや夜のランタン街の撮影に"
+      status: active

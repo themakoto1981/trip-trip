@@ -1637,11 +1637,12 @@ koh-phangan-guide:
     desc: フルムーンパーティーの会場として世界的に有名な島南端のビーチ
     category: beach
     tags: ["ビーチ", "パーティー"]
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Haad_Rin_Beach%2C_Koh_Phangan.jpg/960px-Haad_Rin_Beach%2C_Koh_Phangan.jpg"
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Koh_Phangan_Haad_Rin_sunset2.jpg/960px-Koh_Phangan_Haad_Rin_sunset2.jpg"
   - name: ハートヨービーチ
     lat: 9.7630
     lng: 99.9680
     desc: 西海岸の人気ビーチ、サンセットが美しい
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Haad_Yao%2C_Ko_Phangan_in_2023_1.jpg/960px-Haad_Yao%2C_Ko_Phangan_in_2023_1.jpg"
     category: beach
     tags: ["ビーチ", "夕日"]
   - name: メーハート
@@ -1654,6 +1655,7 @@ koh-phangan-guide:
     lat: 9.7810
     lng: 100.0560
     desc: 東海岸の穏やかな入り江、リゾートが点在する静かなエリア
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Koh_Phangan_Hat_Thong_Nai_Pan_Yai.jpg/960px-Koh_Phangan_Hat_Thong_Nai_Pan_Yai.jpg"
     category: beach
     tags: ["ビーチ", "のんびり"]
   - name: ボトルビーチ（ハートクアット）

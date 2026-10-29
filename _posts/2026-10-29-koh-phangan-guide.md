@@ -2,7 +2,7 @@
 layout: post
 title: "パンガン島ビーチ完全ガイド｜行き方・ベストシーズン・予算・持ち物まとめ"
 date: 2026-10-29
-image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Haad_Rin_Beach%2C_Koh_Phangan.jpg/960px-Haad_Rin_Beach%2C_Koh_Phangan.jpg"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Koh_Phangan_Haad_Rin_sunset2.jpg/960px-Koh_Phangan_Haad_Rin_sunset2.jpg"
 categories: [タイ, 島]
 excerpt: "満月の夜に世界中からパーティー好きが集まるフルムーンパーティーで有名な島。離れれば静かなビーチもたっぷりの、サムイ・タオ島と並ぶタイ湾3島の最後の1つの基本情報をまとめました。"
 ---

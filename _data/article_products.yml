@@ -346,3 +346,15 @@ koh-kood-guide:
       order: 2
       reason: "滝やビーチの撮影に"
       status: active
+
+koh-phangan-guide:
+  heading: "持っていくと便利なもの"
+  items:
+    - product_id: water-shoes
+      order: 1
+      reason: "メーハートの砂州歩きやシュノーケリングもこれ一足で"
+      status: active
+    - product_id: waterproof-phone-case
+      order: 2
+      reason: "ビーチや砂州散策の撮影に"
+      status: active

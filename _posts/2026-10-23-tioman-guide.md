@@ -51,7 +51,7 @@ excerpt: "マレーシア半島の東海岸沖に浮かぶ、ジャングルと�
 **2日目（メルシン泊）**
 - 朝　ホテルでゆっくり休み、Grabカーで空港からTBSへ移動
 - 15:30　TBS発の長距離バスでメルシンへ（約5時間、[12go.asiaで予約可](https://12go.asia/en/travel/kuala-lumpur/mersing?z=17114820)）
-- 20:30　メルシン着。[メルシンのホテル](https://www.booking.com/searchresults.html?ss=Mersing)に1泊
+- 20:30　メルシン着。[Timotel Hotel Mersing](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D478364)に1泊
 
 **3日目（ティオマン泊）**
 - メルシンの港からフェリーでティオマン島へ（出航は日によって8:00〜11:00、約1.5〜2時間、[12go.asiaで予約可](https://12go.asia/en/travel/mersing/tioman-island?z=17114820)）
@@ -86,7 +86,7 @@ excerpt: "マレーシア半島の東海岸沖に浮かぶ、ジャングルと�
 **2日目（メルシン泊）**
 - 朝　ホテルでゆっくり休み、Grabカーで空港からTBSへ移動
 - 10:00　TBS発の長距離バスでメルシンへ（約5時間、[12go.asiaで予約可](https://12go.asia/en/travel/kuala-lumpur/mersing?z=17114820)）
-- 15:00　メルシン着。[Timotel Hotel Mersing](https://www.booking.com/searchresults.html?ss=Timotel+Hotel+Mersing)にチェックイン。港周辺を散策して1泊
+- 15:00　メルシン着。[Timotel Hotel Mersing](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D478364)にチェックイン。港周辺を散策して1泊
 
 **3日目（ティオマン泊）**
 - メルシンの港からフェリーでティオマン島へ（出航は日によって8:00〜11:00、約1.5〜2時間、[12go.asiaで予約可](https://12go.asia/en/travel/mersing/tioman-island?z=17114820)）
@@ -120,7 +120,7 @@ excerpt: "マレーシア半島の東海岸沖に浮かぶ、ジャングルと�
 **2日目（メルシン泊）**
 - 06:00　クアラルンプール着。入国審査後、GrabカーでTBSへ向かう
 - 10:00　TBS発の長距離バスでメルシンへ（約5時間、[12go.asiaで予約可](https://12go.asia/en/travel/kuala-lumpur/mersing?z=17114820)）
-- 15:00　メルシン着。[Timotel Hotel Mersing](https://www.booking.com/searchresults.html?ss=Timotel+Hotel+Mersing)にチェックイン。港周辺を散策して1泊
+- 15:00　メルシン着。[Timotel Hotel Mersing](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D478364)にチェックイン。港周辺を散策して1泊
 
 **3日目（ティオマン泊）**
 - メルシンの港からフェリーでティオマン島へ（出航は日によって8:00〜11:00、約1.5〜2時間、[12go.asiaで予約可](https://12go.asia/en/travel/mersing/tioman-island?z=17114820)）

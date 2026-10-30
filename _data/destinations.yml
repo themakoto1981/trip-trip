@@ -10,7 +10,6 @@
 # suited_for: 向いている同行者タイプ（solo/couple/family/friends）
 # best_months: おすすめの月（1-12の配列、記事内での参考表示用）
 # lat/lng: 地図ピン用の緯度経度
-
 - name: ボラカイ島
   en_name: "Boracay, Philippines"
   slug: boracay-guide
@@ -39,7 +38,6 @@
     ragu: [TR01, TR04, SC06]
   url: /2026/09/28/boracay-guide/
   tags: { beach: 5, resort: 4, island: 5, city_base: 1, sightseeing: 2, relax: 3, party: 5, activity: 4 }
-
 - name: バリ島
   en_name: "Bali, Indonesia"
   slug: bali-guide
@@ -68,7 +66,6 @@
     ragu: [TR03, SC06]
   url: /2026/09/28/bali-guide/
   tags: { beach: 4, resort: 4, island: 3, city_base: 5, sightseeing: 5, relax: 3, party: 4, activity: 4 }
-
 - name: プーケット島
   en_name: "Phuket, Thailand"
   slug: phuket-guide
@@ -97,7 +94,6 @@
     ragu: [TR01, TR04, TR06, SC06]
   url: /2026/09/28/phuket-guide/
   tags: { beach: 5, resort: 4, island: 3, city_base: 4, sightseeing: 4, relax: 3, party: 4, activity: 4 }
-
 - name: ランカウイ島
   en_name: "Langkawi, Malaysia"
   slug: langkawi-guide
@@ -126,7 +122,6 @@
     ragu: [TR10, TR04]
   url: /2026/09/28/langkawi-guide/
   tags: { beach: 4, resort: 4, island: 4, city_base: 2, sightseeing: 3, relax: 4, party: 1, activity: 3 }
-
 - name: リペ島
   en_name: "Koh Lipe, Thailand"
   slug: koh-lipe-guide
@@ -143,7 +138,7 @@
   food_min: 2500
   food_max: 5500
   flight_hours: "約11〜13時間（バンコク経由、ハジャイ空港からは車＋スピードボートで対岸へ約3時間）"
-  recommended_nights: "3泊以上"
+  recommended_nights: "4泊以上"
   visa: "不要（30日以内）"
   photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Koh_Lipe_Thailand._Koh_Lipe_Beach_Resort%2C_Koh_Lipe_Island_01.jpg/960px-Koh_Lipe_Thailand._Koh_Lipe_Beach_Resort%2C_Koh_Lipe_Island_01.jpg"
   photo_credit_url: "https://commons.wikimedia.org/wiki/File:Koh_Lipe_Thailand._Koh_Lipe_Beach_Resort,_Koh_Lipe_Island_01.jpg"
@@ -155,7 +150,6 @@
     ragu: [TR01, TR04, SC07]
   url: /2026/09/30/koh-lipe-guide/
   tags: { beach: 5, resort: 2, island: 5, city_base: 1, sightseeing: 1, relax: 5, party: 1, activity: 4 }
-
 - name: レダン島
   en_name: "Redang Island, Malaysia"
   slug: redang-guide
@@ -184,7 +178,6 @@
     ragu: [TR01, TR04, SC07]
   url: /2026/09/30/redang-guide/
   tags: { beach: 5, resort: 3, island: 5, city_base: 1, sightseeing: 1, relax: 5, party: 1, activity: 3 }
-
 - name: ピピ島
   en_name: "Koh Phi Phi, Thailand"
   slug: koh-phiphi-guide
@@ -201,7 +194,7 @@
   food_min: 3000
   food_max: 6000
   flight_hours: "約9〜11時間（プーケットまたはクラビ経由、フェリーで1〜2時間）"
-  recommended_nights: "3泊以上"
+  recommended_nights: "4泊以上"
   visa: "不要（30日以内）"
   photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Isla_Ko_Phi_Phi_Don%2C_Tailandia%2C_2013-08-19%2C_DD_01.JPG/960px-Isla_Ko_Phi_Phi_Don%2C_Tailandia%2C_2013-08-19%2C_DD_01.JPG"
   photo_credit_url: "https://commons.wikimedia.org/wiki/File:Isla_Ko_Phi_Phi_Don,_Tailandia,_2013-08-19,_DD_01.JPG"
@@ -213,7 +206,6 @@
     ragu: [TR01, TR04, SC03]
   url: /2026/09/30/koh-phiphi-guide/
   tags: { beach: 5, resort: 3, island: 5, city_base: 2, sightseeing: 3, relax: 2, party: 4, activity: 4 }
-
 - name: チャン島
   en_name: "Koh Chang, Thailand"
   slug: koh-chang-guide
@@ -230,7 +222,7 @@
   food_min: 2500
   food_max: 5500
   flight_hours: "約10〜12時間（バンコク経由、トラート空港からフェリーで約40分）"
-  recommended_nights: "3泊以上"
+  recommended_nights: "4泊以上"
   visa: "不要（30日以内）"
   photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Klong_Prao_Beach%2C_west_coast_of_Ko_Chang_Island%2C_Thailand.jpg/960px-Klong_Prao_Beach%2C_west_coast_of_Ko_Chang_Island%2C_Thailand.jpg"
   photo_credit_url: "https://commons.wikimedia.org/wiki/File:Klong_Prao_Beach,_west_coast_of_Ko_Chang_Island,_Thailand.jpg"
@@ -242,7 +234,6 @@
     ragu: [TR01, TR03, HT08, SC07]
   url: /2026/09/30/koh-chang-guide/
   tags: { beach: 2, resort: 3, island: 5, city_base: 1, sightseeing: 3, relax: 4, party: 2, activity: 4 }
-
 - name: パリ島
   en_name: "Pulau Pari, Indonesia"
   slug: pulau-pari-guide
@@ -271,7 +262,6 @@
     ragu: [TR01, TR03, SC06]
   url: /2026/09/30/pulau-pari-guide/
   tags: { beach: 4, resort: 1, island: 5, city_base: 1, sightseeing: 2, relax: 5, party: 1, activity: 2 }
-
 - name: フーコック島
   en_name: "Phu Quoc, Vietnam"
   slug: phuquoc-guide
@@ -300,7 +290,6 @@
     ragu: [TR01, HT01, HT11, SC07]
   url: /2026/09/30/phuquoc-guide/
   tags: { beach: 3, resort: 5, island: 4, city_base: 2, sightseeing: 3, relax: 4, party: 2, activity: 3 }
-
 - name: サムイ島
   en_name: "Koh Samui, Thailand"
   slug: koh-samui-guide
@@ -329,7 +318,6 @@
     ragu: [TR01, SC06, HT11, HT14]
   url: /2026/10/01/koh-samui-guide/
   tags: { beach: 5, resort: 5, island: 4, city_base: 2, sightseeing: 3, relax: 3, party: 4, activity: 3 }
-
 - name: タオ島
   en_name: "Koh Tao, Thailand"
   slug: koh-tao-guide
@@ -358,7 +346,6 @@
     ragu: [TR04, HT14, HT11]
   url: /2026/10/18/koh-tao-guide/
   tags: { beach: 4, resort: 2, island: 5, city_base: 1, sightseeing: 2, relax: 3, party: 3, activity: 5 }
-
 - name: ダナン・ホイアン
   en_name: "Da Nang & Hoi An, Vietnam"
   slug: danang-hoian-guide
@@ -387,7 +374,6 @@
     ragu: [TR03, HT01]
   url: /2026/10/05/danang-hoian-guide/
   tags: { beach: 2, resort: 4, island: 1, city_base: 5, sightseeing: 5, relax: 3, party: 2, activity: 3 }
-
 - name: エルニド（パラワン島）
   en_name: "El Nido, Palawan, Philippines"
   slug: el-nido-guide
@@ -416,7 +402,6 @@
     ragu: [TR04, SC03, HT11]
   url: /2026/10/10/el-nido-guide/
   tags: { beach: 5, resort: 3, island: 5, city_base: 2, sightseeing: 4, relax: 4, party: 2, activity: 5 }
-
 - name: ヌサペニダ島
   en_name: "Nusa Penida, Indonesia"
   slug: nusa-penida-guide
@@ -445,7 +430,6 @@
     ragu: [TR10, TR03, HT11]
   url: /2026/10/12/nusa-penida-guide/
   tags: { beach: 4, resort: 3, island: 5, city_base: 1, sightseeing: 5, relax: 3, party: 2, activity: 5 }
-
 - name: ギリ・トラワンガン島
   en_name: "Gili Trawangan, Indonesia"
   slug: gili-trawangan-guide
@@ -474,7 +458,6 @@
     ragu: [TR10, TR03, HT14, HT11]
   url: /2026/10/14/gili-trawangan-guide/
   tags: { beach: 4, resort: 3, island: 5, city_base: 2, sightseeing: 2, relax: 5, party: 4, activity: 4 }
-
 - name: セブ島
   en_name: "Cebu, Philippines"
   slug: cebu-guide
@@ -503,7 +486,6 @@
     ragu: [TR03, HT11]
   url: /2026/10/15/cebu-guide/
   tags: { beach: 5, resort: 4, island: 3, city_base: 3, sightseeing: 3, relax: 4, party: 3, activity: 5 }
-
 - name: コロン島（パラワン州）
   en_name: "Coron, Palawan, Philippines"
   slug: coron-guide
@@ -532,7 +514,6 @@
     ragu: [TR04, SC03, HT11]
   url: /2026/10/15/coron-guide/
   tags: { beach: 3, resort: 3, island: 5, city_base: 1, sightseeing: 4, relax: 3, party: 1, activity: 5 }
-
 - name: ヌサレンボンガン島
   en_name: "Nusa Lembongan, Indonesia"
   slug: nusa-lembongan-guide
@@ -561,7 +542,6 @@
     ragu: [TR03, HT11]
   url: /2026/10/16/nusa-lembongan-guide/
   tags: { beach: 4, resort: 3, island: 5, city_base: 1, sightseeing: 3, relax: 4, party: 2, activity: 4 }
-
 - name: コンダオ島
   en_name: "Con Dao, Vietnam"
   slug: con-dao-guide
@@ -590,7 +570,6 @@
     ragu: [TR01, HT11, HT14]
   url: /2026/10/19/con-dao-guide/
   tags: { beach: 4, resort: 3, island: 5, city_base: 1, sightseeing: 4, relax: 4, party: 1, activity: 4 }
-
 - name: シアルガオ島
   en_name: "Siargao, Philippines"
   slug: siargao-guide
@@ -607,7 +586,7 @@
   food_min: 1500
   food_max: 7000
   flight_hours: "約5時間（成田直行便）＋国内線約50分（セブ経由）"
-  recommended_nights: "3泊以上"
+  recommended_nights: "5泊以上"
   visa: "不要（30日以内）"
   photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Surfing_%40_Siargao.jpg/960px-Surfing_%40_Siargao.jpg"
   photo_credit_url: "https://commons.wikimedia.org/wiki/File:Surfing_@_Siargao.jpg"
@@ -619,7 +598,6 @@
     ragu: [TR03, HT11]
   url: /2026/10/20/siargao-guide/
   tags: { beach: 4, resort: 3, island: 5, city_base: 1, sightseeing: 2, relax: 3, party: 2, activity: 5 }
-
 - name: カミギン島
   en_name: "Camiguin, Philippines"
   slug: camiguin-guide
@@ -636,7 +614,7 @@
   food_min: 1500
   food_max: 6000
   flight_hours: "約5時間（成田直行便）＋国内線約1時間20分（マニラ経由）"
-  recommended_nights: "3泊以上"
+  recommended_nights: "4泊以上"
   visa: "不要（30日以内）"
   photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Sunken_Cemetery%2C_Camiguin.jpg/960px-Sunken_Cemetery%2C_Camiguin.jpg"
   photo_credit_url: "https://commons.wikimedia.org/wiki/File:Sunken_Cemetery,_Camiguin.jpg"
@@ -648,7 +626,6 @@
     ragu: [TR01, TR04, HT11]
   url: /2026/10/21/camiguin-guide/
   tags: { beach: 3, resort: 2, island: 5, city_base: 1, sightseeing: 4, relax: 4, party: 1, activity: 3 }
-
 - name: ニャチャン
   en_name: "Nha Trang, Vietnam"
   slug: nhatrang-guide
@@ -665,7 +642,7 @@
   food_min: 2000
   food_max: 5000
   flight_hours: "約7〜8時間（ホーチミン直行便＋国内線約1時間10分）"
-  recommended_nights: "3泊以上"
+  recommended_nights: "4泊以上"
   visa: "不要（45日以内）"
   photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Nha_Trang_Beach_7.jpg/960px-Nha_Trang_Beach_7.jpg"
   photo_credit_url: "https://commons.wikimedia.org/wiki/File:Nha_Trang_Beach_7.jpg"
@@ -677,7 +654,6 @@
     ragu: [SC03, HT11]
   url: /2026/10/22/nhatrang-guide/
   tags: { beach: 4, resort: 4, island: 2, city_base: 4, sightseeing: 4, relax: 3, party: 2, activity: 4 }
-
 - name: クラビ（ライレイビーチ）
   en_name: "Railay Beach, Krabi, Thailand"
   slug: krabi-guide
@@ -694,7 +670,7 @@
   food_min: 2500
   food_max: 6000
   flight_hours: "約10〜12時間（バンコク経由、クラビ空港からロングテールボートで約20分）"
-  recommended_nights: "3泊以上"
+  recommended_nights: "4泊以上"
   visa: "不要（30日以内）"
   photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Railay_Beach_5.jpg/960px-Railay_Beach_5.jpg"
   photo_credit_url: "https://commons.wikimedia.org/wiki/File:Railay_Beach_5.jpg"
@@ -706,7 +682,6 @@
     ragu: [TR01, SC03, HT11]
   url: /2026/10/23/krabi-guide/
   tags: { beach: 5, resort: 3, island: 2, city_base: 1, sightseeing: 4, relax: 3, party: 2, activity: 5 }
-
 - name: ティオマン島
   en_name: "Tioman Island, Malaysia"
   slug: tioman-guide
@@ -723,7 +698,7 @@
   food_min: 2500
   food_max: 6000
   flight_hours: "約9〜11時間（クアラルンプール経由、メルシンまでバス約4〜5時間＋フェリー約1.5〜2時間）"
-  recommended_nights: "5泊以上"
+  recommended_nights: "6泊以上"
   visa: "不要（90日以内）"
   photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Tioman_island_%283678622941%29.jpg/960px-Tioman_island_%283678622941%29.jpg"
   photo_credit_url: "https://commons.wikimedia.org/wiki/File:Tioman_island_(3678622941).jpg"
@@ -735,7 +710,6 @@
     ragu: [TR01, TR04, HT08, HT11]
   url: /2026/10/23/tioman-guide/
   tags: { beach: 4, resort: 3, island: 5, city_base: 1, sightseeing: 2, relax: 5, party: 1, activity: 4 }
-
 - name: ギリ・アイール島
   en_name: "Gili Air, Indonesia"
   slug: gili-air-guide
@@ -752,7 +726,7 @@
   food_min: 2500
   food_max: 6500
   flight_hours: "約7〜8時間（デンパサール直行便）、パダンバイから高速ボートで約2時間"
-  recommended_nights: "3泊以上"
+  recommended_nights: "4泊以上"
   visa: "不要（30日以内）"
   photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Gili-Air-%D0%93%D0%B8%D0%BB%D0%B8-%D0%90%D0%B8%D1%80.jpg/960px-Gili-Air-%D0%93%D0%B8%D0%BB%D0%B8-%D0%90%D0%B8%D1%80.jpg"
   photo_credit_url: "https://commons.wikimedia.org/wiki/File:Gili-Air-%D0%93%D0%B8%D0%BB%D0%B8-%D0%90%D0%B8%D1%80.jpg"
@@ -764,7 +738,6 @@
     ragu: [TR01, TR03, HT11, HT14]
   url: /2026/10/24/gili-air-guide/
   tags: { beach: 4, resort: 3, island: 5, city_base: 1, sightseeing: 2, relax: 5, party: 1, activity: 3 }
-
 - name: ラン島
   en_name: "Koh Larn, Thailand"
   slug: koh-larn-guide
@@ -781,7 +754,7 @@
   food_min: 2000
   food_max: 5000
   flight_hours: "約7〜8時間（バンコク直行便）、パタヤからスピードボートで約15〜20分"
-  recommended_nights: "2泊以上"
+  recommended_nights: "3泊以上"
   visa: "不要（30日以内）"
   photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Ile_de_Koh_Larn_%28Ile_de_corail%29.jpg/960px-Ile_de_Koh_Larn_%28Ile_de_corail%29.jpg"
   photo_credit_url: "https://commons.wikimedia.org/wiki/File:Ile_de_Koh_Larn_(Ile_de_corail).jpg"
@@ -793,7 +766,6 @@
     ragu: [TR01, SC03, HT11]
   url: /2026/10/24/koh-larn-guide/
   tags: { beach: 5, resort: 2, island: 4, city_base: 1, sightseeing: 2, relax: 4, party: 2, activity: 4 }
-
 - name: ペルヘンティアン諸島
   en_name: "Perhentian Islands, Malaysia"
   slug: perhentian-guide
@@ -810,7 +782,7 @@
   food_min: 2000
   food_max: 5000
   flight_hours: "約10〜12時間（クアラルンプール経由、クアラブス桟橋からスピードボートで約40分）"
-  recommended_nights: "3泊以上"
+  recommended_nights: "4泊以上"
   visa: "不要（90日以内）"
   photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Perhentian_Islands%2C_Malaysia%2C_Beach.jpg/960px-Perhentian_Islands%2C_Malaysia%2C_Beach.jpg"
   photo_credit_url: "https://commons.wikimedia.org/wiki/File:Perhentian_Islands,_Malaysia,_Beach.jpg"
@@ -822,7 +794,6 @@
     ragu: [TR01, SC03, HT11]
   url: /2026/10/25/perhentian-guide/
   tags: { beach: 5, resort: 2, island: 5, city_base: 1, sightseeing: 2, relax: 4, party: 2, activity: 5 }
-
 - name: コクード島
   en_name: "Koh Kood, Thailand"
   slug: koh-kood-guide
@@ -839,7 +810,7 @@
   food_min: 2500
   food_max: 5500
   flight_hours: "約10〜12時間（バンコク経由、トラート空港から車＋フェリーで約2時間）"
-  recommended_nights: "3泊以上"
+  recommended_nights: "4泊以上"
   visa: "不要（30日以内）"
   photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Koh_Kut%2C_Thailand%2C_Palms_on_the_beach.jpg/960px-Koh_Kut%2C_Thailand%2C_Palms_on_the_beach.jpg"
   photo_credit_url: "https://commons.wikimedia.org/wiki/File:Koh_Kut,_Thailand,_Palms_on_the_beach.jpg"
@@ -851,7 +822,6 @@
     ragu: [TR01, TR04, HT11]
   url: /2026/10/26/koh-kood-guide/
   tags: { beach: 4, resort: 3, island: 5, city_base: 1, sightseeing: 2, relax: 5, party: 1, activity: 3 }
-
 - name: パンガン島
   en_name: "Koh Phangan, Thailand"
   slug: koh-phangan-guide
@@ -868,7 +838,7 @@
   food_min: 2000
   food_max: 5000
   flight_hours: "約10〜12時間（バンコク経由、サムイ島から船で約30分）"
-  recommended_nights: "3泊以上"
+  recommended_nights: "4泊以上"
   visa: "不要（30日以内）"
   photo: "https://tripxtrip.com/assets/images/koh-phangan-guide/fullmoon-sign-dusk.jpg"
   suited_for: [solo, friends, couple]
@@ -879,7 +849,6 @@
     ragu: [TR01, TR04, HT11]
   url: /2026/10/29/koh-phangan-guide/
   tags: { beach: 4, resort: 3, island: 4, city_base: 1, sightseeing: 2, relax: 4, party: 5, activity: 3 }
-
 - name: ロン島
   en_name: "Koh Rong, Cambodia"
   slug: koh-rong-guide
@@ -896,7 +865,7 @@
   food_min: 1500
   food_max: 4000
   flight_hours: "約14〜16時間（ホーチミン経由、シアヌークビルから船で約1時間）"
-  recommended_nights: "4泊以上"
+  recommended_nights: "5泊以上"
   visa: "必要（eビザ推奨、約36ドル）"
   photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Long-beach-kog-rong-cambodia.jpg/960px-Long-beach-kog-rong-cambodia.jpg"
   photo_credit_url: "https://commons.wikimedia.org/wiki/File:Long-beach-kog-rong-cambodia.jpg"

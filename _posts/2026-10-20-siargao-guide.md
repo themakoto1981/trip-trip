@@ -84,7 +84,7 @@ excerpt: "世界的サーファーが集まる「サーフィンの聖地」シ�
 **2日目（シアルガオ泊）**
 - 09:15　セブ発（フィリピン航空、約50分）
 - 10:05　シアルガオ着
-- 10:30頃　リゾート送迎でホテルへ移動（約40分）。[La Isla Resort](https://www.booking.com/searchresults.html?ss=La+Isla+Resort+Siargao)にチェックイン
+- 10:30頃　リゾート送迎でホテルへ移動（約40分）。[Tropical Temple Siargao Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D31317941)にチェックイン
 - 11:00　リゾートレストランで昼食、ビーチでのんびり
 
 **3日目（終日フリー）**

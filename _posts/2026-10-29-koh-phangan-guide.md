@@ -49,7 +49,7 @@ excerpt: "満月の夜に世界中からパーティー好きが集まるフル�
 
 **2日目（バンコク泊）**
 - 21:40　バンコク（スワンナプーム空港）着。入国審査に1〜1.5時間ほどみておく
-- 夜遅く　[ibis Budget Bangkok Suvarnabhumi Airport](https://www.booking.com/searchresults.html?ss=ibis+Budget+Bangkok+Suvarnabhumi+Airport)にチェックイン
+- 夜遅く　[Canalis Suvarnabhumi Airport Hotel](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D10561361)にチェックイン
 
 **3日目（パンガン泊）**
 - 06:00　空港発のミニバン＋フェリー通し券（[12go.asiaで予約可](https://12go.asia/en/travel/bangkok/koh-phangan)、スラートターニー経由）でパンガン島へ（所要約9〜10時間）
@@ -108,7 +108,7 @@ excerpt: "満月の夜に世界中からパーティー好きが集まるフル�
 **1日目（バンコク泊）**
 - 11:05　羽田発（ANA NH847、約7時間15分）
 - 16:20　バンコク（スワンナプーム空港）着。入国審査後、空港直結のホテルへ
-- 17:00頃　[Novotel Bangkok Suvarnabhumi Airport](https://www.booking.com/searchresults.html?ss=Novotel+Bangkok+Suvarnabhumi+Airport)にチェックイン（空港直結の高級ホテル）
+- 17:00頃　[Hyatt Regency Bangkok Suvarnabhumi Airport](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D70837)にチェックイン（空港直結の高級ホテル）
 
 **2日目（パンガン泊）**
 - 06:00頃　ホテルをチェックアウトし、徒歩で空港へ

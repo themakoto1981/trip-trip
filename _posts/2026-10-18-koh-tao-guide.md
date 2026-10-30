@@ -89,7 +89,7 @@ excerpt: "世界屈指のダイビングスポットとして知られるタイ�
 - 15:30　バンコク（スワンナプーム空港）着。入国審査・荷物受取に1〜1.5時間ほどみておく
 - 17:30頃　バンコク発（バンコクエアウェイズPG145、所要約1時間）
 - 18:30頃　サムイ島着
-- 19:00頃　[The Louis Residence](https://www.booking.com/searchresults.html?ss=The+Louis+Residence+Samui)にチェックイン（空港から近いリーズナブルなホテル）
+- 19:00頃　[ibis Samui Bophut](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D108285)にチェックイン（空港から近いリーズナブルなホテル）
 
 **2日目（タオ島泊）**
 - 08:00　サムイ島発の高速船（Lomprayah）でタオ島へ（所要約1時間30分、09:30頃着）

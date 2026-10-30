@@ -65,7 +65,7 @@ excerpt: "石灰岩の断崖とエメラルドグリーンの入り江が広が�
 **4日目（セブ泊）**
 - 06:50　エルニド・リオ空港発（Cebgo、所要1時間45分）
 - 08:35　セブ着
-- 09:30頃　[The Mins Cebu Boutique Hotel](https://www.booking.com/searchresults.html?ss=The+Mins+Cebu+Boutique+Hotel)に荷物を預けてチェックイン（街なかホテル）
+- 09:30頃　[Kasa Boutique Hotel Kasambagan](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D45934853)に荷物を預けてチェックイン（街なかホテル）
 - 日中　セブ市内観光（サント・ニーニョ教会、マゼラン・クロス、カルボン市場など）
 
 **5日目（帰国日）**

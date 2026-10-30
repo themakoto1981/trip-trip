@@ -57,7 +57,7 @@ permalink: /articles/
 <div class="articles-grid">
   {%- for post in site.posts -%}
   {%- assign ac_title_parts = post.title | split: "｜" -%}
-  {%- if ac_title_parts[0] == "徹底比較" and ac_title_parts.size > 1 -%}
+  {%- if ac_title_parts.size > 1 and post.categories contains ac_title_parts[0] -%}
     {%- assign ac_card_title = ac_title_parts[1] -%}
   {%- else -%}
     {%- assign ac_card_title = ac_title_parts[0] -%}

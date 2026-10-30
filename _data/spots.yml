@@ -1303,7 +1303,7 @@ tioman-guide:
     desc: "本土メルシン、乗継用の1泊に便利なホテル"
     type: hotel
     letter: "ゆ"
-    url: "https://www.booking.com/searchresults.html?ss=Timotel+Hotel+Mersing"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D478364"
   - name: "Swiss Cottage Tioman"
     lat: 2.8089
     lng: 104.1583
@@ -1614,14 +1614,14 @@ koh-kood-guide:
     desc: "やす旅向け、クロンチャオビーチ周辺の素朴なバンガロー"
     type: hotel
     letter: "や"
-    url: "https://www.booking.com/searchresults.html?ss=Mangrove+Bungalow+and+Restaurant+Koh+Kood"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D37281143"
   - name: "Koh Kood Beach Resort"
     lat: 11.6090
     lng: 102.5240
     desc: "ゆる旅向け、ビーチ近くのバンガロー型リゾート"
     type: hotel
     letter: "ゆ"
-    url: "https://www.booking.com/searchresults.html?ss=Koh+Kood+Beach+Resort"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D248041"
   - name: "Away Koh Kood"
     lat: 11.6030
     lng: 102.5230
@@ -1670,7 +1670,7 @@ koh-phangan-guide:
     desc: "ハートリンビーチ沿い、やす旅向けホステル"
     type: hotel
     letter: "や"
-    url: "https://www.booking.com/searchresults.html?ss=So+Good+Haad+Rin+Hostel"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D88362570"
   - name: "Haad Yao Bayview Resort & Spa"
     lat: 9.7635
     lng: 99.9685
@@ -1724,18 +1724,18 @@ koh-rong-guide:
     desc: "ソクサンビーチの素朴なバンガロー、やす旅向け"
     type: hotel
     letter: "や"
-    url: "https://www.booking.com/searchresults.html?ss=Sok+San+Beach+Bungalows"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D555321"
   - name: "Long Beach Resort"
     lat: 10.6705
     lng: 103.2105
     desc: "ロングビーチ沿いの3つ星リゾート、ゆる旅向け"
     type: hotel
     letter: "ゆ"
-    url: "https://www.booking.com/searchresults.html?ss=Long+Beach+Resort+Koh+Rong"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D6529522"
   - name: "Song Saa Private Island"
     lat: 10.7300
     lng: 103.2700
     desc: "ロン島沖の専用島、らぐ旅向けの超高級リゾート"
     type: hotel
     letter: "ら"
-    url: "https://www.booking.com/searchresults.html?ss=Song+Saa+Private+Island"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D302866"

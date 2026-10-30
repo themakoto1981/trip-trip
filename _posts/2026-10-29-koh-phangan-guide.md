@@ -53,7 +53,7 @@ excerpt: "満月の夜に世界中からパーティー好きが集まるフル�
 
 **3日目（パンガン泊）**
 - 06:00　空港発のミニバン＋フェリー通し券（[12go.asiaで予約可](https://12go.asia/en/travel/bangkok/koh-phangan)、スラートターニー経由）でパンガン島へ（所要約9〜10時間）
-- 15:30頃　島着。[So Good Haad Rin Hostel](https://www.booking.com/searchresults.html?ss=So+Good+Haad+Rin+Hostel)にチェックイン（ハートリンビーチ沿いのホステル）
+- 15:30頃　島着。[So Good Haad Rin Hostel](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D88362570)にチェックイン（ハートリンビーチ沿いのホステル）
 - 午後　ハートリンビーチでのんびり
 
 **4日目（終日フリー）**
@@ -74,7 +74,7 @@ excerpt: "満月の夜に世界中からパーティー好きが集まるフル�
 **1日目（バンコク泊）**
 - 11:05　羽田発（ANA NH847、約7時間15分）
 - 16:20　バンコク（スワンナプーム空港）着。入国審査後、空港のホテルへ
-- 18:00頃　[Courtyard by Marriott Bangkok Suvarnabhumi Airport](https://www.booking.com/searchresults.html?ss=Courtyard+by+Marriott+Bangkok+Suvarnabhumi+Airport)にチェックイン（空港シャトルあり）
+- 18:00頃　[Courtyard by Marriott Bangkok Suvarnabhumi Airport](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D46063163)にチェックイン（空港シャトルあり）
 
 **2日目（パンガン泊）**
 - 06:00頃　ホテルをチェックアウトし、空港へ

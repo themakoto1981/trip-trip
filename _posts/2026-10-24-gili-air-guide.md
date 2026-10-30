@@ -69,7 +69,7 @@ excerpt: "車もバイクも走らない、馬車と自転車だけの静かな�
 **1日目（パダンバイ泊）**
 - 11:00　成田発（ガルーダ・インドネシア航空、約7時間45分）
 - 17:45　デンパサール着。入国審査と荷物受取を終えたらGrabカーでパダンバイへ
-- 19:30頃　[Bloo Lagoon Eco Village](https://www.booking.com/searchresults.html?ss=Bloo+Lagoon+Eco+Village)にチェックイン（パダンバイの入り江沿いのヴィラ）
+- 19:30頃　[Bloo Lagoon Eco Village](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D2972663)にチェックイン（パダンバイの入り江沿いのヴィラ）
 
 **2日目（ギリ・アイール泊）**
 - 09:30　パダンバイから高速ボートでギリ・アイール島へ（約2時間）
@@ -95,7 +95,7 @@ excerpt: "車もバイクも走らない、馬車と自転車だけの静かな�
 **1日目（パダンバイ泊）**
 - 11:00　成田発（ガルーダ・インドネシア航空、約7時間45分）
 - 17:45　デンパサール着。入国審査と荷物受取を終えたらGrabカーでパダンバイへ
-- 19:30頃　[Bloo Lagoon Eco Village](https://www.booking.com/searchresults.html?ss=Bloo+Lagoon+Eco+Village)にチェックイン（パダンバイの入り江沿いのヴィラ）
+- 19:30頃　[Bloo Lagoon Eco Village](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D2972663)にチェックイン（パダンバイの入り江沿いのヴィラ）
 
 **2日目（ギリ・アイール泊）**
 - 09:30　パダンバイから高速ボートでギリ・アイール島へ（約2時間）

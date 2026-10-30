@@ -50,7 +50,7 @@ excerpt: "韓国やヨーロッパでは急成長中なのに、日本人には�
 **2日目（ニャチャン泊）**
 - 07:45　ホーチミン発（Vietjet Air、国内線、約1時間10分）
 - 08:55　カムラン空港（ニャチャン）着
-- 車で市街地へ、[Mojzo Inn](https://www.booking.com/searchresults.html?ss=Mojzo+Inn+Nha+Trang)にチェックイン（ビーチまで徒歩圏の安宿）
+- 車で市街地へ、[Mojzo Inn](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D5945444)にチェックイン（ビーチまで徒歩圏の安宿）
 - 午後　チャンフービーチでのんびり
 
 **3日目（終日フリー）**
@@ -79,7 +79,7 @@ excerpt: "韓国やヨーロッパでは急成長中なのに、日本人には�
 **2日目（ニャチャン泊）**
 - 07:00　ホーチミン発（ベトナム航空、国内線、約1時間5分）
 - 08:05　カムラン空港（ニャチャン）着
-- 車で市街地へ、[Sunrise Nha Trang Beach Hotel & Spa](https://www.booking.com/searchresults.html?ss=Sunrise+Nha+Trang+Beach+Hotel+%26+Spa)にチェックイン（ビーチフロントの標準ホテル）
+- 車で市街地へ、[Sunrise Nha Trang Beach Hotel & Spa](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D48363)にチェックイン（ビーチフロントの標準ホテル）
 - 午後　ホテルのプールでのんびり
 
 **3日目（終日フリー）**
@@ -108,7 +108,7 @@ excerpt: "韓国やヨーロッパでは急成長中なのに、日本人には�
 **2日目（ニャチャン泊）**
 - 07:00　ホーチミン発（ベトナム航空、国内線、約1時間5分）
 - 08:05　カムラン空港（ニャチャン）着
-- ロープウェイ乗り場へ移動し、[Vinpearl Resort Nha Trang](https://www.booking.com/searchresults.html?ss=Vinpearl+Resort+Nha+Trang)へ（ホンチェ島、ロープウェイまたはスピードボートで渡るリゾート。移動なしの高級リゾートが良ければAmiana Resort Nha Trangも選択肢）
+- ロープウェイ乗り場へ移動し、[Vinpearl Resort Nha Trang](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D65153)へ（ホンチェ島、ロープウェイまたはスピードボートで渡るリゾート。移動なしの高級リゾートが良ければAmiana Resort Nha Trangも選択肢）
 - 午後　リゾート内でのんびり過ごす
 
 **3日目（終日フリー）**

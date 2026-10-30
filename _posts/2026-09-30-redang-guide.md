@@ -43,7 +43,7 @@ excerpt: "「マレーシアで一番美しい海」とも称される透明度�
 **11月〜3月は島自体が閉鎖されるため訪問できません。**
 
 ## 予算の目安
-移動に時間がかかるので、現地を2日しっかり楽しむには**3泊以上**がおすすめです。
+移動に時間がかかるので、現地を2日しっかり楽しむには**4泊以上**がおすすめです。
 
 - **やす旅**：<br><a class="schedule-tag" href="https://www.airasia.com/ja/jp/">AirAsiaの最新スケジュール</a>
 - **ゆる旅**：<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>

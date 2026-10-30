@@ -89,7 +89,7 @@ excerpt: "「マレーシアで一番美しい海」とも称される透明度�
 - 09:15　クアラトレンガヌ着
 - 09:45頃　Grabカーで船着場へ移動（約30分）、10:30発のフェリーまで近くで待機
 - 10:30　船着場発のフェリーでレダン島へ（所要約1時間、船着場の定期便は9:00・10:30・15:00発など1日数便）
-- 11:30頃　[Laguna Redang Island Resort](https://www.booking.com/searchresults.html?ss=Laguna+Redang+Island+Resort)にチェックイン（ガーデンビュールームから選べるリゾート）
+- 11:30頃　[Laguna Redang Island Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D96173708)にチェックイン（ガーデンビュールームから選べるリゾート）
 
 **2日目（終日フリー）**
 - 09:00　マリンパーク（コーラルガーデン）でシュノーケリングツアー

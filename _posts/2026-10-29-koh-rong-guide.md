@@ -53,7 +53,7 @@ excerpt: "白砂のロングビーチと夜光虫で知られる、カンボジ�
 - 10:15　シアヌークビル着
 - 10:30頃　タクシーでシアヌークビル港へ（約15分）
 - 12:00　港発のフェリーでロン島へ（約1時間）
-- 13:00頃　島着。[Sok San Beach Bungalows](https://www.booking.com/searchresults.html?ss=Sok+San+Beach+Bungalows)にチェックイン（ソクサンビーチの素朴なバンガロー）
+- 13:00頃　島着。[Sok San Beach Bungalows](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D555321)にチェックイン（ソクサンビーチの素朴なバンガロー）
 
 **3日目（終日フリー）**
 - 終日　ロングビーチでのんびり、コ・トゥーチ村の食堂めぐり
@@ -82,7 +82,7 @@ excerpt: "白砂のロングビーチと夜光虫で知られる、カンボジ�
 - 10:15　シアヌークビル着
 - 10:30頃　タクシーでシアヌークビル港へ（約15分）
 - 12:00　港発のフェリーでロン島へ（約1時間）
-- 13:00頃　島着。[Long Beach Resort](https://www.booking.com/searchresults.html?ss=Long+Beach+Resort+Koh+Rong)にチェックイン（ロングビーチ沿いの3つ星リゾート）
+- 13:00頃　島着。[Long Beach Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D6529522)にチェックイン（ロングビーチ沿いの3つ星リゾート）
 
 **3日目（終日フリー）**
 - 終日　ロングビーチでのんびり、コ・トゥーチ村の食堂めぐり
@@ -109,7 +109,7 @@ excerpt: "白砂のロングビーチと夜光虫で知られる、カンボジ�
 **2日目（ロン島泊）**
 - 09:00　ホーチミン発（ベトナム航空、シアヌークビル行き短距離便、約1時間15分）
 - 10:15　シアヌークビル着
-- 10:30頃　リゾート手配のプライベートボートで[Song Saa Private Island](https://www.booking.com/searchresults.html?ss=Song+Saa+Private+Island)へ（所要約45分、ロン島沖の専用島）
+- 10:30頃　リゾート手配のプライベートボートで[Song Saa Private Island](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D302866)へ（所要約45分、ロン島沖の専用島）
 
 **3日目（終日フリー）**
 - 終日　プライベートビーチやスパでゆったり、サンセットクルーズ

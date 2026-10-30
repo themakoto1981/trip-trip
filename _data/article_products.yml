@@ -370,3 +370,15 @@ koh-rong-guide:
       order: 2
       reason: "ロングビーチや夜光虫観察の撮影に"
       status: active
+
+komodo-guide:
+  heading: "持っていくと便利なもの"
+  items:
+    - product_id: water-shoes
+      order: 1
+      reason: "トレッキングもボートの乗り降りもこれ一足で"
+      status: active
+    - product_id: waterproof-phone-case
+      order: 2
+      reason: "スピードボートでの移動やシュノーケリング中の撮影に"
+      status: active

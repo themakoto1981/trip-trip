@@ -877,3 +877,31 @@
     ragu: [TR01, HT14, HT04]
   url: /2026/10/29/koh-rong-guide/
   tags: { beach: 5, resort: 2, island: 5, city_base: 1, sightseeing: 1, relax: 5, party: 1, activity: 2 }
+- name: コモド諸島
+  en_name: "Komodo Islands, Indonesia"
+  slug: komodo-guide
+  country: インドネシア
+  country_slug: indonesia
+  lat: -8.5455
+  lng: 119.4894
+  flight_min: 65000
+  flight_max: 220000
+  hotel_min: 2500
+  hotel_max: 35000
+  transport_min: 8000
+  transport_max: 50000
+  food_min: 3000
+  food_max: 8000
+  flight_hours: "成田からデンパサール（バリ）まで直行約7〜8時間、デンパサールから国内線でラブアンバジョへ約1時間15分（乗継時間を含めデンパサールで1泊するのが安心）"
+  recommended_nights: "4泊以上"
+  visa: "不要（30日以内）"
+  photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Padar_Island%2C_Komodo_National_Park%2C_Indonesia%2C_20250822_0929_2659.jpg/960px-Padar_Island%2C_Komodo_National_Park%2C_Indonesia%2C_20250822_0929_2659.jpg"
+  photo_credit_url: "https://commons.wikimedia.org/wiki/File:Padar_Island,_Komodo_National_Park,_Indonesia,_20250822_0929_2659.jpg"
+  suited_for: [friends, solo, couple]
+  best_months: [5, 6, 9]
+  budget_tags:
+    yasu: [TR02, TR04, SC03, HT15]
+    yuru: [TR04, SC03, HT12]
+    ragu: [TR04, SC03, HT11]
+  url: /2026/11/01/komodo-guide/
+  tags: { beach: 5, resort: 2, island: 5, city_base: 1, sightseeing: 5, relax: 2, party: 1, activity: 5 }

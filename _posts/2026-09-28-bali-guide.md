@@ -64,7 +64,7 @@ excerpt: "「神々の島」バリ島。ビーチリゾートから文化体験�
 - 13:00頃　Kura-Kura Bus（ヌサドゥア線）で空港へ移動（片道450〜750円ほど）
 - 16:00頃　デンパサール発（AirAsia）
 - 19:00頃　クアラルンプール着
-- 19:30頃　[Tune Hotel klia2](https://www.booking.com/searchresults.html?ss=Tune+Hotel+klia2)にチェックイン（空港直結、1泊）
+- 19:30頃　[Tune Hotel klia2](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D3352391)にチェックイン（空港直結、1泊）
 
 **6日目（帰国日）**
 - 11:00　ホテルをチェックアウト
@@ -99,7 +99,7 @@ excerpt: "「神々の島」バリ島。ビーチリゾートから文化体験�
 **1日目**
 - 11:00　成田発（ガルーダ・インドネシア航空、所要7〜8時間）
 - 17:25　デンパサール着（現地時間、時差-1時間）。入国審査・荷物受取に1時間程度みておく
-- 19:30頃　空港からプライベート送迎（事前予約）で約1.5時間、[Four Seasons Resort Bali at Sayan](https://www.booking.com/searchresults.html?ss=Four+Seasons+Resort+Bali+at+Sayan)にチェックイン（ウブド郊外、渓谷を望む一棟貸しヴィラ）
+- 19:30頃　空港からプライベート送迎（事前予約）で約1.5時間、[Four Seasons Resort Bali at Sayan](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D48716)にチェックイン（ウブド郊外、渓谷を望む一棟貸しヴィラ）
 
 **2日目（終日フリー）**
 - 09:00　リゾート内のスパでトリートメント

@@ -413,13 +413,13 @@ pulau-pari-guide:
     category: spot
     tags: ["自然"]
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/East_side_of_Pari_Island%2C_Kepulauan_Seribu_National_Park.jpg/960px-East_side_of_Pari_Island%2C_Kepulauan_Seribu_National_Park.jpg"
-  - name: "Aston Priok Hotel & Residence"
-    lat: -6.1047
-    lng: 106.8656
+  - name: "Aston Pluit Hotel & Residence"
+    lat: -6.124554
+    lng: 106.795092
     desc: "プルイット地区、やす旅向けホテル"
     type: hotel
     letter: "や"
-    url: "https://www.booking.com/searchresults.html?ss=Aston+Priok+Hotel+%26+Residence"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D335359"
   - name: "Mercure Convention Center Ancol Jakarta"
     lat: -6.1226
     lng: 106.8370
@@ -1045,13 +1045,13 @@ con-dao-guide:
     desc: ヴォー・ティ・サウら多くの政治犯が眠る墓地
     category: spot
     tags: ["観光"]
-  - name: "Phi Yen Guest House"
-    lat: 8.6820
-    lng: 106.6063
-    desc: "やす旅向け、アンハイビーチ近くの手頃なゲストハウス"
+  - name: "Con Dao Guest House"
+    lat: 8.686520
+    lng: 106.611309
+    desc: "やす旅向け、コンダオの町なかにある手頃なゲストハウス"
     type: hotel
     letter: "や"
-    url: "https://www.booking.com/searchresults.html?ss=Phi+Yen+Guest+House+Con+Dao"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1810275"
   - name: "Tan Son Nhat Con Dao Resort"
     lat: 8.6779
     lng: 106.6012
@@ -1102,13 +1102,13 @@ siargao-guide:
     type: hotel
     letter: "や"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D479246"
-  - name: "La Isla Resort"
-    lat: 9.7962
-    lng: 126.1602
-    desc: "ゆる旅向け、ビーチ沿いのリゾート"
+  - name: "Tropical Temple Siargao Resort"
+    lat: 9.801280
+    lng: 126.158310
+    desc: "ゆる旅向け、ジェネラルルナのビーチ沿いリゾート"
     type: hotel
     letter: "ゆ"
-    url: "https://www.booking.com/searchresults.html?ss=La+Isla+Resort+Siargao"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D31317941"
   - name: "Dedon Island Resort"
     lat: 9.7577
     lng: 126.1227
@@ -1466,20 +1466,20 @@ koh-larn-guide:
       - "手作りの焼き菓子やスイーツ、軽食メニューが揃い、庭やバルコニー席から海を眺められます。夜はライブ演奏が流れることも。"
     ways:
       - "手作りスイーツとドリンクでひと休み"
-  - name: "Island Inn"
-    lat: 12.9246
-    lng: 100.7808
-    desc: "やす旅向け、タワエンビーチ近くの手頃な宿"
+  - name: "Blue Sky Koh Larn Resort"
+    lat: 12.921879
+    lng: 100.781113
+    desc: "やす旅向け、手頃な価格のラン島リゾート"
     type: hotel
     letter: "や"
-    url: "https://www.booking.com/searchresults.html?ss=Island+Inn+Koh+Larn"
-  - name: "Montra Resort"
-    lat: 12.9255
-    lng: 100.7822
-    desc: "ゆる旅向け、タワエンビーチの快適なリゾート"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D5367923"
+  - name: "Rimtalay Resort Koh Larn"
+    lat: 12.930870
+    lng: 100.789223
+    desc: "ゆる旅向け、ラン島の海辺リゾート"
     type: hotel
     letter: "ゆ"
-    url: "https://www.booking.com/searchresults.html?ss=Montra+Resort+Koh+Larn"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D7892887"
   - name: "The Castello Resort Koh Larn"
     lat: 12.9170
     lng: 100.7740
@@ -1622,13 +1622,13 @@ koh-kood-guide:
     type: hotel
     letter: "ゆ"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D248041"
-  - name: "Away Koh Kood"
-    lat: 11.6030
-    lng: 102.5230
-    desc: "らぐ旅向け、クロンチャオビーチ対岸の隠れ家リゾート"
+  - name: "Hideout Koh Kood"
+    lat: 11.595964
+    lng: 102.547028
+    desc: "らぐ旅向け、クロンヒンベイの隠れ家リゾート"
     type: hotel
     letter: "ら"
-    url: "https://www.booking.com/searchresults.html?ss=Away+Koh+Kood"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D16912268"
 
 koh-phangan-guide:
   - name: ハートリンビーチ

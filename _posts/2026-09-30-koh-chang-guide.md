@@ -58,7 +58,7 @@ excerpt: "プーケットに次ぐタイ第2の広さを誇るチャン島。ジ
 **1日目（バンコク泊）**
 - 17:00　成田発（Zipair ZG51、約6時間40分）
 - 21:40　バンコク（スワンナプーム空港）着。入国審査に1〜1.5時間ほどかかり、この時間からだと出発できるバスがないため、空港近くの格安ホテルへ
-- 23:30頃　[ibis Budget Bangkok Suvarnabhumi Airport](https://www.booking.com/searchresults.html?ss=ibis+Budget+Bangkok+Suvarnabhumi+Airport)にチェックイン、1泊
+- 23:30頃　[Canalis Suvarnabhumi Airport Hotel](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D10561361)にチェックイン、1泊（無料送迎シャトルあり）
 
 **2日目（チャン島泊）**
 - 11:00　空港発の直行ミニバン＋フェリー（[12go.asiaで予約可](https://12go.asia/en/travel/suvarnabhumi-airport/koh-chang?z=17114820)、ホテル送迎込み・¥4,183〜）でチャン島へ（所要5時間30分、パタヤでの乗り換えなし）
@@ -116,7 +116,7 @@ excerpt: "プーケットに次ぐタイ第2の広さを誇るチャン島。ジ
 **1日目（バンコク泊）**
 - 11:05　羽田発（ANA NH847、約7時間15分）
 - 16:20　バンコク（スワンナプーム空港）着。入国審査後、空港直結のホテルへ
-- 17:00頃　[Novotel Bangkok Suvarnabhumi Airport](https://www.booking.com/searchresults.html?ss=Novotel+Bangkok+Suvarnabhumi+Airport)にチェックイン（空港直結の高級ホテル）
+- 17:00頃　[Hyatt Regency Bangkok Suvarnabhumi Airport](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D70837)にチェックイン（空港直結の高級ホテル）
 
 **2日目（チャン島泊）**
 - 10:30頃　ホテルをチェックアウトし、徒歩で空港へ

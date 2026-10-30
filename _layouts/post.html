@@ -1123,7 +1123,7 @@ layout: default
     <div class="related-list">
       {%- for p in related -%}
       {%- assign p_title_parts = p.title | split: "｜" -%}
-      {%- if p_title_parts[0] == "徹底比較" and p_title_parts.size > 1 -%}
+      {%- if p_title_parts.size > 1 and p.categories contains p_title_parts[0] -%}
         {%- assign p_card_title = p_title_parts[1] -%}
       {%- else -%}
         {%- assign p_card_title = p_title_parts[0] -%}

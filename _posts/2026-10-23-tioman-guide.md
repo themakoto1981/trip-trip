@@ -81,7 +81,7 @@ excerpt: "マレーシア半島の東海岸沖に浮かぶ、ジャングルと�
 
 **1日目（クアラルンプール泊）**
 - 17:40　成田発（ANA NH815、約7時間25分）
-- 00:05　クアラルンプール着。入国審査後、Grabカーで空港近くの[Concorde Inn KLIA](https://www.booking.com/searchresults.html?ss=Concorde+Inn+KLIA)へ、1泊
+- 00:05　クアラルンプール着。入国審査後、Grabカーで空港近くの[Tune Hotel KLIA-KLIA2 Airport Transit Hotel](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D621161)へ、1泊
 
 **2日目（メルシン泊）**
 - 朝　ホテルでゆっくり休み、Grabカーで空港からTBSへ移動
@@ -106,7 +106,7 @@ excerpt: "マレーシア半島の東海岸沖に浮かぶ、ジャングルと�
 **6日目（クアラルンプール泊）**
 - ホテルをチェックアウトし、7:00〜9:00発のフェリーでメルシンへ（島発は朝の便のみ）
 - 12:15　メルシン発の長距離バスでクアラルンプールのTBSへ（約5時間、[12go.asiaで予約可](https://12go.asia/en/travel/mersing/kuala-lumpur?z=17114820)）
-- 17:15　TBS着。Grabカーで空港近くの[Concorde Inn KLIA](https://www.booking.com/searchresults.html?ss=Concorde+Inn+KLIA)へ、1泊
+- 17:15　TBS着。Grabカーで空港近くの[Tune Hotel KLIA-KLIA2 Airport Transit Hotel](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D621161)へ、1泊
 
 **7日目（帰国日）**
 - 08:05　クアラルンプール発（ANA NH816、約6時間50分）

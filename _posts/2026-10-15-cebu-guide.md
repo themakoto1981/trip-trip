@@ -45,7 +45,7 @@ excerpt: "成田・関西から直行便で約5時間、空港から近いリゾ
 **1日目**
 - 08:55　成田発（セブパシフィック航空 5J5063、約5時間40分）
 - 13:35　セブ着
-- Grabでホテルへ移動し、[The Stopover Hostel – Mactan](https://www.booking.com/searchresults.html?ss=The+Stopover+Hostel+Mactan)にチェックイン（空港から1km）
+- Grabでホテルへ移動し、[The Stopover Hostel – Mactan](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1199805)にチェックイン（空港から1km）
 - 夕方　近くのビーチでのんびり
 
 **2日目**
@@ -69,7 +69,7 @@ excerpt: "成田・関西から直行便で約5時間、空港から近いリゾ
 **1日目**
 - 15:20　成田発（フィリピン航空 PR433、約5時間15分）
 - 19:35　セブ着
-- Grabでホテルへ移動し、[Bluewater Maribago Beach Resort](https://www.booking.com/searchresults.html?ss=Bluewater+Maribago+Beach+Resort)にチェックイン（マクタン島のビーチフロントリゾート）
+- Grabでホテルへ移動し、[Bluewater Maribago Beach Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D10526)にチェックイン（マクタン島のビーチフロントリゾート）
 
 **2日目**
 - 04:00頃　ホテル発、車でオスロブへ（約3時間）
@@ -91,7 +91,7 @@ excerpt: "成田・関西から直行便で約5時間、空港から近いリゾ
 **1日目**
 - 15:20　成田発（フィリピン航空 PR433、約5時間15分）
 - 19:35　セブ着
-- Grabでホテルへ移動し、[Shangri-La's Mactan Resort & Spa](https://www.booking.com/searchresults.html?ss=Shangri-La%27s+Mactan+Resort+%26+Spa)にチェックイン（ビーチフロントの高級リゾート、敷地内に魚の保護区あり）
+- Grabでホテルへ移動し、[Shangri-La's Mactan Resort & Spa](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D85875405)にチェックイン（ビーチフロントの高級リゾート、敷地内に魚の保護区あり）
 
 **2日目**
 - 午前　ホテル目の前の魚保護区でシュノーケリング

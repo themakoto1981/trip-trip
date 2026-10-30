@@ -56,7 +56,7 @@ excerpt: "「タイ最後の楽園」と呼ばれる透明度抜群の秘境リ�
 - 14:30　バンコク（スワンナプーム空港）着。入国審査・荷物受取に1〜1.5時間ほどみておく
 - 19:45　バンコク発（タイ・ベトジェットエア、約1時間30分）
 - 21:15　ハジャイ着
-- 21:45頃　[Hat Yai Rama Hotel](https://www.booking.com/searchresults.html?ss=Hat+Yai+Rama+Hotel)にチェックイン（空港シャトルのある手頃なホテル）
+- 21:45頃　[Hat Yai Rama Hotel](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D267928)にチェックイン（空港シャトルのある手頃なホテル）
 
 **2日目（リペ島泊）**
 - 09:30頃　ホテルをチェックアウトし、Grabカーでパクバラの船着場へ（約1時間半）
@@ -93,7 +93,7 @@ excerpt: "「タイ最後の楽園」と呼ばれる透明度抜群の秘境リ�
 - 15:30　バンコク（スワンナプーム空港）着。入国審査・荷物受取に1〜1.5時間ほどみておく
 - 18:30　バンコク発（タイ国際航空、約1時間30分）
 - 20:00　ハジャイ着
-- 20:30頃　[Centara Hotel Hat Yai](https://www.booking.com/searchresults.html?ss=Centara+Hotel+Hat+Yai)にチェックイン（ショッピングセンター直結の4つ星）
+- 20:30頃　[Centara Hotel Hat Yai](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1930)にチェックイン（ショッピングセンター直結の4つ星）
 
 **2日目（リペ島泊）**
 - 09:30頃　ホテルをチェックアウトし、Grabカーでパクバラの船着場へ（約1時間半）
@@ -130,7 +130,7 @@ excerpt: "「タイ最後の楽園」と呼ばれる透明度抜群の秘境リ�
 - 15:30　バンコク（スワンナプーム空港）着。入国審査・荷物受取に1〜1.5時間ほどみておく
 - 18:30　バンコク発（タイ国際航空、約1時間30分）
 - 20:00　ハジャイ着
-- 20:30頃　[Lee Gardens Plaza Hotel](https://www.booking.com/searchresults.html?ss=Lee+Gardens+Plaza+Hotel+Hat+Yai)にチェックイン（市内で評価の高いホテル、屋外プール完備）
+- 20:30頃　[Lee Gardens Plaza Hotel](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D782285)にチェックイン（市内で評価の高いホテル、屋外プール完備）
 
 **2日目（リペ島泊）**
 - 09:30頃　ホテルをチェックアウトし、Grabカーでパクバラの船着場へ（約1時間半）

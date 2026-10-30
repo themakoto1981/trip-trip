@@ -77,7 +77,7 @@ excerpt: "マレーシア半島の東海岸沖、南シナ海に浮かぶ2つの
 **1日目（クアラルンプール泊）**
 - 17:40　成田発（ANA NH815、約7時間25分）
 - 00:05　クアラルンプール着
-- 入国審査後、Grabカーで空港近くの[Concorde Inn KLIA](https://www.booking.com/searchresults.html?ss=Concorde+Inn+KLIA)へ、1泊
+- 入国審査後、Grabカーで空港近くの[Tune Hotel KLIA-KLIA2 Airport Transit Hotel](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D621161)へ、1泊
 
 **2日目（クアラブス泊）**
 - 午前　ホテルでゆっくり休み、チェックアウト
@@ -98,7 +98,7 @@ excerpt: "マレーシア半島の東海岸沖、南シナ海に浮かぶ2つの
 - Perhentian Trans Holidayのシェアバンでコタバル空港へ（約1時間、¥1,200前後、[12go.asiaで予約可](https://12go.asia/en/travel/kuala-besut-jetty/kota-bharu-airport)）
 - 14:05　コタバル発AirAsia（約1時間10分）
 - 15:15　クアラルンプール着
-- Grabカーで空港近くの[Concorde Inn KLIA](https://www.booking.com/searchresults.html?ss=Concorde+Inn+KLIA)へ、1泊
+- Grabカーで空港近くの[Tune Hotel KLIA-KLIA2 Airport Transit Hotel](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D621161)へ、1泊
 
 **6日目（帰国日）**
 - 08:05　クアラルンプール発（ANA NH816、約6時間50分）

@@ -1739,3 +1739,54 @@ koh-rong-guide:
     type: hotel
     letter: "ら"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D302866"
+
+komodo-guide:
+  - name: パダール島展望台
+    lat: -8.6810
+    lng: 119.5571
+    desc: 3色に見える入江を見下ろす、コモド諸島を象徴する絶景スポット
+    category: spot
+    tags: ["絶景", "トレッキング"]
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Padar_Island%2C_Komodo_National_Park%2C_Indonesia%2C_20250822_0929_2659.jpg/960px-Padar_Island%2C_Komodo_National_Park%2C_Indonesia%2C_20250822_0929_2659.jpg"
+  - name: ピンクビーチ
+    lat: -8.6012033
+    lng: 119.5197902
+    desc: 珊瑚片が混じって淡いピンク色に見える砂浜。シュノーケリングスポットとしても人気
+    category: beach
+    tags: ["ビーチ", "シュノーケリング"]
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Pink_Beach%2C_Padar_Island%2C_Komodo_National_Park%2C_Indonesia%2C_20250822_1108_2680.jpg/960px-Pink_Beach%2C_Padar_Island%2C_Komodo_National_Park%2C_Indonesia%2C_20250822_1108_2680.jpg"
+  - name: コモド島（ロルリアン）
+    lat: -8.5725299
+    lng: 119.5020951
+    desc: 世界最大のトカゲ、コモドドラゴンの生息地。レンジャー同行のトレッキングで間近に観察できる
+    category: spot
+    tags: ["野生動物", "トレッキング"]
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Komodo_dragon%2C_Varanus_komodoensis%2C_Rinca_Island%2C_Indonesia%2C_20250826_0944_3479.jpg/960px-Komodo_dragon%2C_Varanus_komodoensis%2C_Rinca_Island%2C_Indonesia%2C_20250826_0944_3479.jpg"
+  - name: カナワ島
+    lat: -8.4948685
+    lng: 119.7587178
+    desc: ラブアンバジョから日帰りで行ける、透明度の高い海でのシュノーケリングが楽しめる離島
+    category: beach
+    tags: ["シュノーケリング", "離島"]
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Pulau_Kanawa%2C_Flores%2C_NTT.jpg/960px-Pulau_Kanawa%2C_Flores%2C_NTT.jpg"
+  - name: "Kokomodo Kostel"
+    lat: -8.4795
+    lng: 119.8865
+    desc: "ラブアンバジョ中心部、コスパ重視のやす旅向けゲストハウス"
+    type: hotel
+    letter: "や"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D60615009"
+  - name: "Loccal Collection Hotel"
+    lat: -8.4843838
+    lng: 119.8799942
+    desc: "市内中心部まで徒歩圏、ゆる旅向けのデザインホテル"
+    type: hotel
+    letter: "ゆ"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D22216836"
+  - name: "Katamaran Hotel & Resort Komodo"
+    lat: -8.4714743
+    lng: 119.8766698
+    desc: "ワエチチュビーチの5つ星リゾート、空港から約7分のらぐ旅向け"
+    type: hotel
+    letter: "ら"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D59823811"

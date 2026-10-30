@@ -1,10 +1,10 @@
 # 商品マスター（記事横断で再利用する）
-# affiliate_url: Amazonアソシエイト登録後に設定。未設定の間はurl（通常リンク）を使う。
-# image: Amazonアソシエイト登録後、正規の商品画像APIで設定する。未設定の間は画像なしで表示。
+# affiliate_url: Amazonアソシエイト（tag=tripxtrip-22）。未設定の間はurl（通常リンク）を使う。
+# image: 正規の商品画像APIで設定する。未設定の間は画像なしで表示。
 - id: waterproof-phone-case
   name: 防水スマホケース
   url: "https://www.amazon.co.jp/s?k=SURIA+スマホ防水ケース"
-  affiliate_url: ""
+  affiliate_url: "https://www.amazon.co.jp/s?k=SURIA+スマホ防水ケース&tag=tripxtrip-22"
   image: ""
   category: gadget
   published: true
@@ -12,7 +12,7 @@
 - id: water-shoes
   name: 水陸両用シューズ
   url: "https://www.amazon.co.jp/s?k=SIXSPACE+マリンシューズ+ウォーターシューズ"
-  affiliate_url: ""
+  affiliate_url: "https://www.amazon.co.jp/s?k=SIXSPACE+マリンシューズ+ウォーターシューズ&tag=tripxtrip-22"
   image: ""
   category: footwear
   published: true

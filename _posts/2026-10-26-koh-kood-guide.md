@@ -51,7 +51,7 @@ excerpt: "カンボジア国境に近いタイ東部の静かな島、コクー�
 
 **2日目（コクード泊）**
 - 06:00　空港発のミニバン＋フェリー（[12go.asiaで予約可](https://12go.asia/en/travel/bangkok/koh-kood?z=17114820)、島のホテルまで送迎込み）でコクード島へ（所要約7時間）
-- 13:30頃　島着。[Mangrove Bungalow and Restaurant](https://www.booking.com/searchresults.html?ss=Mangrove+Bungalow+and+Restaurant+Koh+Kood)にチェックイン（クロンチャオビーチ周辺の素朴なバンガロー）
+- 13:30頃　島着。[Mangrove Bungalow and Restaurant](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D37281143)にチェックイン（クロンチャオビーチ周辺の素朴なバンガロー）
 - クロンチャオビーチで昼食
 
 **3日目（終日フリー）**
@@ -77,7 +77,7 @@ excerpt: "カンボジア国境に近いタイ東部の静かな島、コクー�
 **1日目（バンコク泊）**
 - 11:05　羽田発（ANA NH847、約7時間15分）
 - 16:20　バンコク（スワンナプーム空港）着。入国審査後、空港のホテルへ
-- 18:00頃　[Courtyard by Marriott Bangkok Suvarnabhumi Airport](https://www.booking.com/searchresults.html?ss=Courtyard+by+Marriott+Bangkok+Suvarnabhumi+Airport)にチェックイン（空港シャトルあり）
+- 18:00頃　[Courtyard by Marriott Bangkok Suvarnabhumi Airport](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D46063163)にチェックイン（空港シャトルあり）
 
 **2日目（コクード泊）**
 - 10:00頃　ホテルをチェックアウトし、空港へ
@@ -85,7 +85,7 @@ excerpt: "カンボジア国境に近いタイ東部の静かな島、コクー�
 - 12:40　トラート着
 - 13:15頃　乗合ミニバンでレムソク桟橋へ（約1時間）
 - 15:00　レムソク桟橋発のフェリーでコクード島へ（約1時間）
-- 16:30頃　島着。[Koh Kood Beach Resort](https://www.booking.com/searchresults.html?ss=Koh+Kood+Beach+Resort)にチェックイン（ビーチ近くのバンガロー型リゾート）
+- 16:30頃　島着。[Koh Kood Beach Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D248041)にチェックイン（ビーチ近くのバンガロー型リゾート）
 
 **3日目（終日フリー）**
 - 09:00　ビーチでのんびり、カヤックやシュノーケリング

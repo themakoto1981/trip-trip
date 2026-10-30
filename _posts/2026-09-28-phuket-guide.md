@@ -45,7 +45,7 @@ excerpt: "アンダマン海に浮かぶタイ最大の島プーケット。ビ�
 - 16:30頃　空港連絡バスでドンムアン空港へ移動（所要1〜1.5時間）
 - 19:30　ドンムアン空港発（Thai AirAsia、約1時間25分）
 - 20:55　プーケット着
-- 22:00頃　[C&N Hotel Patong](https://www.booking.com/searchresults.html?ss=C%26N+Hotel+Patong)にチェックイン（1部屋約6,000円台から）
+- 22:00頃　[C&N Hotel Patong](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D836197)にチェックイン（1部屋約6,000円台から）
 
 **2日目（終日フリー）**
 - 09:00　カタビーチでのんびり、またはパラセーリング・ジェットスキーなどのマリンアクティビティ

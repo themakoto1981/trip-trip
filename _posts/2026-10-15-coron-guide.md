@@ -50,7 +50,7 @@ excerpt: "石灰岩の湖と第二次世界大戦の沈没船が眠る海、パ�
 **2日目（コロン泊）**
 - 11:05　マニラ発（フィリピン航空 PR2963、約1時間5分）
 - 12:10　コロン（ブスアンガ空港）着
-- 車でコロンの町へ、[RB Transient House](https://www.booking.com/searchresults.html?ss=RB+Transient+House+Coron)にチェックイン（町なかの安宿）
+- 車でコロンの町へ、[RB Transient House](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D984058)にチェックイン（町なかの安宿）
 - 午後　ホテル周辺を散策
 
 **3日目**
@@ -76,7 +76,7 @@ excerpt: "石灰岩の湖と第二次世界大戦の沈没船が眠る海、パ�
 **2日目（コロン泊）**
 - 11:05　マニラ発（フィリピン航空 PR2963、約1時間5分）
 - 12:10　コロン（ブスアンガ空港）着
-- 車でコロンの町へ、[Kokosnuss Garden Resort](https://www.booking.com/searchresults.html?ss=Kokosnuss+Garden+Resort+Coron)にチェックイン（プール付きの標準リゾート）
+- 車でコロンの町へ、[Kokosnuss Garden Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D271840)にチェックイン（プール付きの標準リゾート）
 - 午後　ホテルのプールでのんびり
 
 **3日目**
@@ -102,7 +102,7 @@ excerpt: "石灰岩の湖と第二次世界大戦の沈没船が眠る海、パ�
 **2日目（コロン泊）**
 - 11:05　マニラ発（フィリピン航空 PR2963、約1時間5分）
 - 12:10　コロン（ブスアンガ空港）着
-- リゾート手配の送迎（陸路＋ボート）で[Huma Island Resort & Spa](https://www.booking.com/searchresults.html?ss=Huma+Island+Resort+%26+Spa)へ（プライベートアイランド、ブスアンガから陸路・ボートで移動）
+- リゾート手配の送迎（陸路＋ボート）で[Huma Island Resort & Spa](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D529494)へ（プライベートアイランド、ブスアンガから陸路・ボートで移動）
 - 午後　ヴィラでのんびり過ごす
 
 **3日目**

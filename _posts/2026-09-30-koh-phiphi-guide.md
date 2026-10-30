@@ -48,7 +48,7 @@ excerpt: "映画の舞台にもなった絶景ビーチ、マヤベイで知ら�
 - 14:30　バンコク（スワンナプーム空港）着。入国審査・荷物受取に1〜1.5時間ほどみておく
 - 19:40　バンコク発（タイ・ベトジェットエア、約1時間30分）
 - 21:10　プーケット着
-- 21:45頃　[Phuket Airport Hotel](https://www.booking.com/searchresults.html?ss=Phuket+Airport+Hotel)にチェックイン
+- 21:45頃　[Phuket Airport Hotel](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D89340)にチェックイン
 
 **2日目（ピピ島泊）**
 - 09:00頃　空港から港へ移動
@@ -81,7 +81,7 @@ excerpt: "映画の舞台にもなった絶景ビーチ、マヤベイで知ら�
 - 15:30　バンコク（スワンナプーム空港）着。入国審査・荷物受取に1〜1.5時間ほどみておく
 - 19:45　バンコク発（バンコクエアウェイズ、約1時間30分）
 - 21:15　プーケット着
-- 21:45頃　[Phuket Airport Hotel](https://www.booking.com/searchresults.html?ss=Phuket+Airport+Hotel)にチェックイン
+- 21:45頃　[Phuket Airport Hotel](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D89340)にチェックイン
 
 **2日目（ピピ島泊）**
 - 09:00頃　空港から港へ移動
@@ -114,7 +114,7 @@ excerpt: "映画の舞台にもなった絶景ビーチ、マヤベイで知ら�
 - 15:30　バンコク（スワンナプーム空港）着。入国審査・荷物受取に1〜1.5時間ほどみておく
 - 19:45　バンコク発（バンコクエアウェイズ、約1時間30分）
 - 21:15　プーケット着
-- 21:45頃　[Phuket Airport Hotel](https://www.booking.com/searchresults.html?ss=Phuket+Airport+Hotel)にチェックイン
+- 21:45頃　[Phuket Airport Hotel](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D89340)にチェックイン
 
 **2日目（ピピ島泊）**
 - 09:00頃　空港から港へ移動

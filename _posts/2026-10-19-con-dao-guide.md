@@ -52,7 +52,7 @@ excerpt: "「ベトナム最後の楽園」と呼ばれる南シナ海の秘島�
 **2日目（コンダオ泊）**
 - 11:05　ホーチミン発（ベトナム航空、約50分）
 - 11:55　コンダオ着
-- 12:10頃　タクシーで中心地へ（約10〜15分）、[Phi Yen Guest House](https://www.booking.com/searchresults.html?ss=Phi+Yen+Guest+House+Con+Dao)にチェックイン
+- 12:10頃　タクシーで中心地へ（約10〜15分）、[Con Dao Guest House](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1810275)にチェックイン
 - 12:30　中心地の食堂で昼食
 
 **3日目（終日フリー）**

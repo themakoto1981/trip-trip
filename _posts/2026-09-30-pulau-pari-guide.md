@@ -56,7 +56,7 @@ excerpt: "ジャカルタから日帰りも可能な離島リゾート、パリ�
 - 14:25　シンガポール着
 - 16:15　シンガポール発（スクートTR270、約1時間55分）
 - 17:10　ジャカルタ着。入国審査・荷物受取に1時間程度みておく
-- 19:00頃　[Aston Priok Hotel & Residence](https://www.booking.com/searchresults.html?ss=Aston+Priok+Hotel+%26+Residence)にチェックイン（プルイット地区）
+- 19:00頃　[Aston Pluit Hotel & Residence](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D335359)にチェックイン（プルイット地区）
 
 **2日目**
 - 07:00　ホテルを出発、Grabカーで発着港（ベイウォークまたはアンチョール）へ

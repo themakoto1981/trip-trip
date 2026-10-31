@@ -49,10 +49,10 @@ excerpt: "世界最大のトカゲ、コモドドラゴンが野生で暮らす�
 - 翌07:00頃　クアラルンプール着。乗継エリアで待機（スルーチェックインのため再入国審査は不要）
 - 12:00頃　クアラルンプール発（AirAsia、約3時間）
 - 15:00頃　デンパサール着
-- 空港周辺の格安ホテルに1泊
+- 車で空港周辺へ、[Fora Capsule Hostel Tuban Kuta Bali](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D46417057)にチェックイン（空港から約11分のカプセルホステル）
 
 **2日目（ラブアンバジョ泊）**
-- 07:00頃　デンパサール発（格安航空会社の国内線、約1時間15分）
+- 07:00頃　デンパサール発（Indonesia AirAsia、約1時間15分）
 - 08:15頃　ラブアンバジョ着
 - 車で町なかへ、[Kokomodo Kostel](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D60615009)にチェックイン（町なかの安宿）
 - 午後　ラブアンバジョの町を散策、夕方は港周辺でサンセットを鑑賞
@@ -66,7 +66,7 @@ excerpt: "世界最大のトカゲ、コモドドラゴンが野生で暮らす�
 - 終日　町なかでのんびり（グアバトゥチェルミン鍾乳洞、カンポンアイル水上集落など）、または近場のビーチで休憩
 
 **5日目（帰国日）**
-- 16:00頃　ラブアンバジョ発（国内線、約1時間15分）
+- 16:00頃　ラブアンバジョ発（Indonesia AirAsia、約1時間15分）
 - 17:15頃　デンパサール着。空港で乗継待機
 - 00:50　デンパサール発（AirAsia、約3時間）
 - 03:50頃　クアラルンプール着。空港で乗継待機（接続便の間隔が長く1泊になることがあります）
@@ -78,7 +78,7 @@ excerpt: "世界最大のトカゲ、コモドドラゴンが野生で暮らす�
 **1日目（デンパサール泊）**
 - 11:00　成田発（ガルーダ・インドネシア航空、所要7〜8時間）
 - 17:25　デンパサール着（現地時間、時差-1時間）
-- 空港周辺のホテルに1泊
+- 車で空港周辺へ、[HARRIS Hotel Kuta Tuban Bali](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D48690)にチェックイン（空港から約5分の4つ星ホテル）
 
 **2日目（ラブアンバジョ泊）**
 - 07:00頃　デンパサール発（ガルーダ・インドネシア航空の国内線、約1時間15分）
@@ -107,7 +107,7 @@ excerpt: "世界最大のトカゲ、コモドドラゴンが野生で暮らす�
 **1日目（デンパサール泊）**
 - 11:00　成田発（ガルーダ・インドネシア航空、所要7〜8時間）
 - 17:25　デンパサール着（現地時間、時差-1時間）
-- 空港周辺のホテルに1泊
+- 徒歩すぐ、[Novotel Bali Ngurah Rai Airport](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1120757)にチェックイン（空港直結の4つ星ホテル）
 
 **2日目（ラブアンバジョ泊）**
 - 07:00頃　デンパサール発（ガルーダ・インドネシア航空の国内線、約1時間15分）

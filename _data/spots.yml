@@ -261,6 +261,8 @@ redang-guide:
     lat: 5.7847
     lng: 103.0138
     desc: レダン島最大のビーチ、白砂が続く
+    category: beach
+    tags: ["ビーチ", "人気"]
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Pasir_Panjang%2C_Pulau_Redang%2C_Malaysia_%28192498782%29.jpg/960px-Pasir_Panjang%2C_Pulau_Redang%2C_Malaysia_%28192498782%29.jpg"
   - name: マリンパーク（コーラルガーデン）
     lat: 5.7900

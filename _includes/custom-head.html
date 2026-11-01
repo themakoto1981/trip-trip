@@ -1110,13 +1110,12 @@
   .page-content { padding-top: 14px; }
 
   /* Share bar */
-  .share-bar { display: flex; align-items: center; gap: 0.6rem; margin: 1.25rem 0; }
+  .share-bar { display: flex; align-items: center; margin: 1.25rem 0; }
   .share-bar--bottom { margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--sb-border); }
-  .share-bar-label { font-size: 0.8rem; color: var(--sb-brown-soft); }
   .share-bar-wrap { position: relative; }
-  .share-bar-btn { display: inline-flex; align-items: center; justify-content: center; width: 36px; height: 36px; border-radius: 50%; background: var(--sb-cream); color: var(--sb-green-dark); border: none; cursor: pointer; padding: 0; transition: background 0.15s; }
-  .share-bar-btn:hover { background: var(--sb-border); }
-  .share-bar-btn svg { width: 18px; height: 18px; fill: currentColor; }
+  .share-bar-btn { display: inline-flex; align-items: center; gap: 0.45rem; padding: 0.5rem 1.1rem; border-radius: 999px; background: var(--sb-cream); color: var(--sb-green-dark); border: 1px solid var(--sb-border); cursor: pointer; font-size: 0.85rem; font-weight: 600; font-family: inherit; transition: background 0.15s, border-color 0.15s; }
+  .share-bar-btn:hover { background: var(--sb-border); border-color: var(--sb-green); }
+  .share-bar-btn svg { width: 16px; height: 16px; fill: currentColor; }
   .share-bar-menu { position: absolute; top: calc(100% + 0.4rem); left: 0; z-index: 20; background: #fff; border: 1px solid var(--sb-border); border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); padding: 0.4rem; min-width: 180px; }
   .share-bar-menu-item { display: flex; align-items: center; gap: 0.6rem; width: 100%; padding: 0.55rem 0.6rem; border-radius: 8px; background: none; border: none; color: var(--sb-green-dark); font-size: 0.88rem; text-decoration: none; cursor: pointer; text-align: left; font-family: inherit; }
   .share-bar-menu-item:hover { background: var(--sb-cream); }

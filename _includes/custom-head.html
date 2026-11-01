@@ -1113,7 +1113,17 @@
   .share-bar { display: flex; align-items: center; gap: 0.6rem; margin: 1.25rem 0; }
   .share-bar--bottom { margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--sb-border); }
   .share-bar-label { font-size: 0.8rem; color: var(--sb-brown-soft); }
-  .share-bar-link { display: inline-flex; align-items: center; justify-content: center; width: 36px; height: 36px; border-radius: 50%; background: var(--sb-cream); color: var(--sb-green-dark); text-decoration: none; transition: background 0.15s; }
-  .share-bar-link:hover { background: var(--sb-border); }
-  .share-bar-link svg { width: 18px; height: 18px; fill: currentColor; }
+  .share-bar-wrap { position: relative; }
+  .share-bar-btn { display: inline-flex; align-items: center; justify-content: center; width: 36px; height: 36px; border-radius: 50%; background: var(--sb-cream); color: var(--sb-green-dark); border: none; cursor: pointer; padding: 0; transition: background 0.15s; }
+  .share-bar-btn:hover { background: var(--sb-border); }
+  .share-bar-btn svg { width: 18px; height: 18px; fill: currentColor; }
+  .share-bar-menu { position: absolute; top: calc(100% + 0.4rem); left: 0; z-index: 20; background: #fff; border: 1px solid var(--sb-border); border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); padding: 0.4rem; min-width: 180px; }
+  .share-bar-menu-item { display: flex; align-items: center; gap: 0.6rem; width: 100%; padding: 0.55rem 0.6rem; border-radius: 8px; background: none; border: none; color: var(--sb-green-dark); font-size: 0.88rem; text-decoration: none; cursor: pointer; text-align: left; font-family: inherit; }
+  .share-bar-menu-item:hover { background: var(--sb-cream); }
+  .share-bar-menu-icon { display: inline-flex; align-items: center; justify-content: center; width: 24px; height: 24px; border-radius: 50%; color: #fff; flex-shrink: 0; }
+  .share-bar-menu-icon svg { width: 13px; height: 13px; fill: currentColor; }
+  .share-bar-menu-icon--x { background: #000; }
+  .share-bar-menu-icon--line { background: #06C755; }
+  .share-bar-menu-icon--fb { background: #1877F2; }
+  .share-bar-menu-icon--link { background: var(--sb-brown-soft); }
 </style>

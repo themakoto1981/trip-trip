@@ -29,7 +29,7 @@ layout: default
     {%- endif -%}
   </header>
 
-  {%- include share-bar.html position: "top" -%}
+  {%- include share-bar.html position="top" -%}
 
   {%- assign my_destination = site.data.destinations | where_exp: "d", "d.url == page.url" | first -%}
   {%- if my_destination and my_destination.photo -%}
@@ -47,7 +47,7 @@ layout: default
     {{ content }}
   </div>
 
-  {%- include share-bar.html position: "bottom" -%}
+  {%- include share-bar.html position="bottom" -%}
 
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCQd0WmNOB9Xz5Km4xwmAxV3v8Y5pwHIuo"></script>
   <script>

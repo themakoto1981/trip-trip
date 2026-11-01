@@ -1,0 +1,6 @@
+<div class="share-bar{% if include.position %} share-bar--{{ include.position }}{% endif %}">
+  <span class="share-bar-label">この記事をシェア</span>
+  <a class="share-bar-link" href="https://twitter.com/intent/tweet?url={{ page.url | absolute_url | url_encode }}&text={{ page.title | url_encode }}" target="_blank" rel="noopener" aria-label="Xでシェア">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.9 2H22l-7.6 8.7L23.3 22h-7l-5.5-7.2L4.5 22H1.3l8.2-9.4L1 2h7.2l5 6.6L18.9 2Zm-1.2 18h1.7L7.4 4h-1.8l12.1 16Z"/></svg>
+  </a>
+</div>

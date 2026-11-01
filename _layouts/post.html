@@ -49,6 +49,55 @@ layout: default
 
   {%- include share-bar.html position="bottom" -%}
 
+  <script>
+  (function () {
+    function fillUrl(tpl, url, title) {
+      return tpl.replace('{url}', encodeURIComponent(url)).replace('{title}', encodeURIComponent(title));
+    }
+    function closeAllMenus() {
+      document.querySelectorAll('.share-bar-menu').forEach(function (m) { m.hidden = true; });
+      document.querySelectorAll('.share-bar-btn').forEach(function (b) { b.setAttribute('aria-expanded', 'false'); });
+    }
+    document.addEventListener('click', function (e) {
+      var btn = e.target.closest('.share-bar-btn');
+      if (btn) {
+        var url = btn.dataset.shareUrl;
+        var title = btn.dataset.shareTitle;
+        if (navigator.share) {
+          navigator.share({ title: title, url: url }).catch(function () {});
+          return;
+        }
+        var menu = btn.parentElement.querySelector('.share-bar-menu');
+        var wasHidden = menu.hidden;
+        closeAllMenus();
+        if (wasHidden) {
+          menu.querySelectorAll('[data-share-template]').forEach(function (a) {
+            a.href = fillUrl(a.dataset.shareTemplate, url, title);
+          });
+          menu.hidden = false;
+          btn.setAttribute('aria-expanded', 'true');
+        }
+        return;
+      }
+      var copyBtn = e.target.closest('[data-copy-link]');
+      if (copyBtn) {
+        var wrap = copyBtn.closest('.share-bar-wrap');
+        var shareBtn = wrap.querySelector('.share-bar-btn');
+        var label = copyBtn.querySelector('[data-copy-label]');
+        navigator.clipboard.writeText(shareBtn.dataset.shareUrl).then(function () {
+          var original = label.textContent;
+          label.textContent = 'コピーしました';
+          setTimeout(function () { label.textContent = original; }, 1500);
+        });
+        return;
+      }
+      if (!e.target.closest('.share-bar-menu') && !e.target.closest('.share-bar-btn')) {
+        closeAllMenus();
+      }
+    });
+  })();
+  </script>
+
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCQd0WmNOB9Xz5Km4xwmAxV3v8Y5pwHIuo"></script>
   <script>
   (function () {

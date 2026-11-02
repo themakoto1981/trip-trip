@@ -1742,6 +1742,54 @@ koh-rong-guide:
     letter: "ら"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D302866"
 
+koh-rong-samloem-guide:
+  - name: サラセン湾
+    lat: 10.5760
+    lng: 103.3050
+    desc: 島のシンボル、三日月形に続く白砂のビーチ
+    category: beach
+    tags: ["ビーチ", "絶景"]
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Saracen_Bay_on_Koh_Rong_Sanloem_Island_in_Cambodia.jpg/960px-Saracen_Bay_on_Koh_Rong_Sanloem_Island_in_Cambodia.jpg"
+  - name: サンセットビーチ
+    lat: 10.5930
+    lng: 103.2870
+    desc: 夕日の名所、長く続く黄金色の砂浜
+    category: beach
+    tags: ["ビーチ", "夕日"]
+  - name: エムパイ湾
+    lat: 10.6290
+    lng: 103.2800
+    desc: 北側の静かな入り江、ゆったり過ごせる
+    category: beach
+    tags: ["ビーチ", "静か"]
+  - name: フリーダムの滝
+    lat: 10.5990
+    lng: 103.2900
+    desc: サンセットビーチ近くから歩いて行ける小さな滝
+    category: spot
+    tags: ["自然", "トレッキング"]
+  - name: "Island Center Point"
+    lat: 10.5765
+    lng: 103.3045
+    desc: "サラセン湾沿いの素朴な宿、やす旅向け"
+    type: hotel
+    letter: "や"
+    url: "https://www.booking.com/searchresults.html?ss=Island%20Center%20Point%20Koh%20Rong%20Samloem"
+  - name: "Sol Beach Resort"
+    lat: 10.5770
+    lng: 103.3040
+    desc: "サラセン湾沿いのヴィラ、ゆる旅向け"
+    type: hotel
+    letter: "ゆ"
+    url: "https://www.booking.com/searchresults.html?ss=Sol%20Beach%20Resort%20Koh%20Rong%20Samloem"
+  - name: "Sara Resort"
+    lat: 10.5935
+    lng: 103.2875
+    desc: "サンセットビーチ沿いの4つ星、らぐ旅向け"
+    type: hotel
+    letter: "ら"
+    url: "https://www.booking.com/searchresults.html?ss=Sara%20Resort%20Koh%20Rong%20Samloem"
+
 komodo-guide:
   - name: パダール島展望台
     lat: -8.6810

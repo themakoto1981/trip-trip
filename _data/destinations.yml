@@ -877,6 +877,34 @@
     ragu: [TR01, HT14, HT04]
   url: /2026/10/29/koh-rong-guide/
   tags: { beach: 5, resort: 2, island: 5, city_base: 1, sightseeing: 1, relax: 5, party: 1, activity: 2 }
+- name: ロンサンレム島
+  en_name: "Koh Rong Samloem, Cambodia"
+  slug: koh-rong-samloem-guide
+  country: カンボジア
+  country_slug: cambodia
+  lat: 10.5800
+  lng: 103.3000
+  flight_min: 60000
+  flight_max: 170000
+  hotel_min: 1500
+  hotel_max: 30000
+  transport_min: 6000
+  transport_max: 15000
+  food_min: 1500
+  food_max: 4000
+  flight_hours: "約18〜22時間（ホーチミン・プノンペン経由、バスとフェリー含む。2日がかり）"
+  recommended_nights: "6泊以上"
+  visa: "必要（eビザ推奨、約36ドル）"
+  photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Saracen_Bay_on_Koh_Rong_Sanloem_Island_in_Cambodia.jpg/960px-Saracen_Bay_on_Koh_Rong_Sanloem_Island_in_Cambodia.jpg"
+  photo_credit_url: "https://commons.wikimedia.org/wiki/File:Saracen_Bay_on_Koh_Rong_Sanloem_Island_in_Cambodia.jpg"
+  suited_for: [solo, friends, couple]
+  best_months: [12, 1, 2]
+  budget_tags:
+    yasu: [TR02, HT04, SC03]
+    yuru: [TR01, HT04, SC03]
+    ragu: [TR01, HT03, SC03]
+  url: /2026/11/02/koh-rong-samloem-guide/
+  tags: { beach: 5, resort: 2, island: 5, city_base: 0, sightseeing: 1, relax: 5, party: 1, activity: 2 }
 - name: コモド諸島
   en_name: "Komodo Islands, Indonesia"
   slug: komodo-guide

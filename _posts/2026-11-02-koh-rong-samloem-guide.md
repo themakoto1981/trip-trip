@@ -11,7 +11,7 @@ excerpt: "弧を描く白砂のサラセン湾と、車のない静かな時間�
 
 ## 行き方
 
-日本からの直行便はなく、ホーチミン経由が基本です。ホーチミンからシアヌークビルへは国内線感覚の短距離便（約1時間15分）で渡り、空港からタクシーでシアヌークビル港へ（約15分）、そこからフェリーでサラセン湾へ渡ります（約45分〜1時間）。総移動時間は14〜16時間ほどで、初日中に島へ到着できます<br><a class="schedule-tag" href="https://www.vietnamairlines.com/jp/ja/">ベトナム航空の最新スケジュール</a>
+日本からの直行便はなく、ホーチミン経由が基本です。ホーチミンからシアヌークビルへは国内線感覚の短距離便（約1時間15分）で渡り、空港からタクシーでシアヌークビル港へ（約15分）、そこからフェリーでサラセン湾へ渡ります（約45分〜1時間）。総移動時間は14〜16時間ほどで、初日中に島へ到着できます<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A">Skyscannerで航空券を比較</a>
 
 - **フェリー**：シアヌークビル港からサラセン湾行きが1日数便出ています。時刻は日によって異なります<br><a class="schedule-tag" href="https://12go.asia/en/travel/sihanoukville/koh-rong-samloem?z=17114820">12go.asiaでフェリーの最新スケジュール</a>
 - **ビザ**：日本国パスポートはビザが必要です。事前にeビザ（[evisa.gov.kh](https://www.evisa.gov.kh/)、約36ドル）を取っておくと安心です。
@@ -39,9 +39,9 @@ excerpt: "弧を描く白砂のサラセン湾と、車のない静かな時間�
 ## 予算の目安
 ホーチミンからシアヌークビルまで直行便で飛べば初日中に島へ到着できるので、**6泊すれば現地を4日**しっかり楽しめます。
 
-- **やす旅**：Vietjet Airでホーチミンへ｜乗継地も最安クラスの宿｜移動費を抑えて島の滞在日数を確保<br><a class="schedule-tag" href="https://www.vietjetair.com/ja">Vietjet Airの最新スケジュール</a>
-- **ゆる旅**：ベトナム航空でホーチミンへ直行｜シアヌークビル直行便で島へ最短アクセス｜移動の疲れをためずに島へ<br><a class="schedule-tag" href="https://www.vietnamairlines.com/jp/ja/">ベトナム航空の最新スケジュール</a>
-- **らぐ旅**：ベトナム航空でホーチミンへ直行｜サラセン湾の4つ星ビーチリゾート｜島の中心でのんびり贅沢ステイ<br><a class="schedule-tag" href="https://www.vietnamairlines.com/jp/ja/">ベトナム航空の最新スケジュール</a>
+- **やす旅**：Vietjet Airでホーチミンへ｜乗継地も最安クラスの宿｜移動費を抑えて島の滞在日数を確保<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A">Skyscannerで航空券を比較</a>
+- **ゆる旅**：ベトナム航空でホーチミンへ直行｜シアヌークビル直行便で島へ最短アクセス｜移動の疲れをためずに島へ<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A">Skyscannerで航空券を比較</a>
+- **らぐ旅**：ベトナム航空でホーチミンへ直行｜サラセン湾の4つ星ビーチリゾート｜島の中心でのんびり贅沢ステイ<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A">Skyscannerで航空券を比較</a>
 
 ## おすすめ旅程（やす旅向け／LCC利用・6泊7日の例）
 

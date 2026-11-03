@@ -11,7 +11,7 @@ excerpt: "世界的サーファーが集まる「サーフィンの聖地」シ�
 
 ## 行き方
 
-日本からは成田発セブ直行便を利用し、**セブで1泊**してからシアルガオへ向かうのが基本ルートです。セブ〜シアルガオ間の便は午後にしかないため、行き帰りとも1泊を挟むのが現実的です<br><a class="schedule-tag" href="https://www.philippineairlines.com/en/">フィリピン航空の最新スケジュール</a>
+日本からは成田発セブ直行便を利用し、**セブで1泊**してからシアルガオへ向かうのが基本ルートです。セブ〜シアルガオ間の便は午後にしかないため、行き帰りとも1泊を挟むのが現実的です<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A">Skyscannerで航空券を比較</a>
 
 - **島内の移動**：空港（サヤック空港）からホテルまではバンやトライシクルで約40〜60分、島内の移動は基本的にレンタルバイクかトライシクル、離島ツアーはバンカーボートが基本です。
 
@@ -37,9 +37,9 @@ excerpt: "世界的サーファーが集まる「サーフィンの聖地」シ�
 ## 予算の目安
 成田からセブへ直行便で入り、セブ〜シアルガオ間は国内線で乗り継ぐため、**5泊6日**がおすすめです。行き帰りともにセブで1泊を挟むことで、乗り継ぎに追われず現地を満喫できます。
 
-- **やす旅**：<br><a class="schedule-tag" href="https://www.cebupacificair.com/">セブパシフィック航空の最新スケジュール</a>
-- **ゆる旅**：<br><a class="schedule-tag" href="https://www.philippineairlines.com/en/">フィリピン航空の最新スケジュール</a>
-- **らぐ旅**：<br><a class="schedule-tag" href="https://www.philippineairlines.com/en/">フィリピン航空の最新スケジュール</a>
+- **やす旅**：<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A">Skyscannerで航空券を比較</a>
+- **ゆる旅**：<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A">Skyscannerで航空券を比較</a>
+- **らぐ旅**：<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A">Skyscannerで航空券を比較</a>
 
 ## おすすめ旅程（やす旅向け／セブ往復2泊・5泊6日の例）
 

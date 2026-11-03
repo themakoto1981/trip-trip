@@ -38,9 +38,9 @@ excerpt: "マレーシア半島の東海岸沖、南シナ海に浮かぶ2つの
 ## 予算の目安
 クアラルンプールやクアラブスでの前泊を挟むので、島で丸2日たっぷり楽しむには**4泊5日〜5泊6日**がおすすめです。
 
-- **やす旅**：<br><a class="schedule-tag" href="https://www.zipair.net/ja">Zipairの最新スケジュール</a>
-- **ゆる旅**：<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
-- **らぐ旅**：<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
+- **やす旅**：<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A">Skyscannerで航空券を比較</a>
+- **ゆる旅**：<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A">Skyscannerで航空券を比較</a>
+- **らぐ旅**：<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A">Skyscannerで航空券を比較</a>
 
 ## おすすめ旅程（やす旅向け／Zipair直行・陸路利用・4泊5日の例）
 

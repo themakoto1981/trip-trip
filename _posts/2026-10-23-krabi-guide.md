@@ -36,9 +36,9 @@ excerpt: "断崖に囲まれ陸路では行けない秘境ビーチ、ライレ�
 
 ## 予算の目安
 
-- **やす旅**：<br><a class="schedule-tag" href="https://www.zipair.net/ja">ZIPAIRの最新スケジュール</a>
-- **ゆる旅**：<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/">ANAの最新スケジュール</a>
-- **らぐ旅**：<br><a class="schedule-tag" href="https://www.jal.co.jp/jp/ja/">JALの最新スケジュール</a>
+- **やす旅**：<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A">Skyscannerで航空券を比較</a>
+- **ゆる旅**：<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A">Skyscannerで航空券を比較</a>
+- **らぐ旅**：<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A">Skyscannerで航空券を比較</a>
 
 ## おすすめ旅程（やす旅向け／バンコク1泊・4泊5日の例）
 

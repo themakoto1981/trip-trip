@@ -888,11 +888,11 @@
   flight_max: 170000
   hotel_min: 1500
   hotel_max: 30000
-  transport_min: 6000
-  transport_max: 15000
+  transport_min: 1500
+  transport_max: 4000
   food_min: 1500
   food_max: 4000
-  flight_hours: "約18〜22時間（ホーチミン・プノンペン経由、バスとフェリー含む。2日がかり）"
+  flight_hours: "約14〜16時間（ホーチミン経由、シアヌークビルから船で約45分〜1時間）"
   recommended_nights: "6泊以上"
   visa: "必要（eビザ推奨、約36ドル）"
   photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Saracen_Bay_on_Koh_Rong_Sanloem_Island_in_Cambodia.jpg/960px-Saracen_Bay_on_Koh_Rong_Sanloem_Island_in_Cambodia.jpg"

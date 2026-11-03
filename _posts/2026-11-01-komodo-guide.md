@@ -38,9 +38,9 @@ excerpt: "世界最大のトカゲ、コモドドラゴンが野生で暮らす�
 
 ラブアンバジョまでは乗り継ぎがあり移動だけで実質2日がかりになるため、現地をしっかり楽しむなら**4泊以上**がおすすめです。
 
-- **やす旅**：<br><a class="schedule-tag" href="https://www.airasia.com/">AirAsiaの最新スケジュール</a>
-- **ゆる旅**：<br><a class="schedule-tag" href="https://www.garuda-indonesia.com/jp/ja">ガルーダ・インドネシア航空の最新スケジュール</a>
-- **らぐ旅**：<br><a class="schedule-tag" href="https://www.garuda-indonesia.com/jp/ja">ガルーダ・インドネシア航空の最新スケジュール</a>
+- **やす旅**：<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A">Skyscannerで航空券を比較</a>
+- **ゆる旅**：<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A">Skyscannerで航空券を比較</a>
+- **らぐ旅**：<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A">Skyscannerで航空券を比較</a>
 
 ## おすすめ旅程（やす旅向け／デンパサール1泊・4泊6日の例）
 

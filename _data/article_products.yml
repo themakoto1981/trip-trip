@@ -371,6 +371,18 @@ koh-rong-guide:
       reason: "ロングビーチや夜光虫観察の撮影に"
       status: active
 
+koh-rong-samloem-guide:
+  heading: "持っていくと便利なもの"
+  items:
+    - product_id: water-shoes
+      order: 1
+      reason: "サラセン湾のフェリー乗り降りやシュノーケリングもこれ一足で"
+      status: active
+    - product_id: waterproof-phone-case
+      order: 2
+      reason: "サンセットビーチの夕日や島内散策の撮影に"
+      status: active
+
 komodo-guide:
   heading: "持っていくと便利なもの"
   items:

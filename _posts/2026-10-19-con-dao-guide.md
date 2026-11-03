@@ -11,7 +11,7 @@ excerpt: "「ベトナム最後の楽園」と呼ばれる南シナ海の秘島�
 
 ## 行き方
 
-日本からはホーチミンへ直行便で約6時間、そこからベトナム航空の国内線でコンダオ空港へ約50分です<br><a class="schedule-tag" href="https://www.vietnamairlines.com/jp/ja/home">ベトナム航空の最新スケジュール</a>
+日本からはホーチミンへ直行便で約6時間、そこからベトナム航空の国内線でコンダオ空港へ約50分です<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A">Skyscannerで航空券を比較</a>
 
 日本便は夜にホーチミン着となるため、**ホーチミンで1泊**してから向かうのがおすすめです。
 
@@ -39,9 +39,9 @@ excerpt: "「ベトナム最後の楽園」と呼ばれる南シナ海の秘島�
 ## 予算の目安
 ホーチミンで1泊してから島に入るので、**3泊4日**がおすすめです。2日目の昼から4日目の昼までコンダオ島に滞在でき、現地では丸1日半しっかり楽しめます。三連休の前に半休を1つ足せば行ける日程感です。
 
-- **やす旅**：<br><a class="schedule-tag" href="https://www.vietjetair.com/">Vietjet Airの最新スケジュール</a>
-- **ゆる旅**：<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
-- **らぐ旅**：<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
+- **やす旅**：<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A">Skyscannerで航空券を比較</a>
+- **ゆる旅**：<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A">Skyscannerで航空券を比較</a>
+- **らぐ旅**：<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A">Skyscannerで航空券を比較</a>
 
 ## おすすめ旅程（やす旅向け／ホーチミン1泊・3泊4日の例）
 

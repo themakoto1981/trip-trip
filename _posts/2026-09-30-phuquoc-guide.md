@@ -35,9 +35,9 @@ excerpt: "「アジアNo.1リゾート」とも称されるベトナム最大の
 ## 予算の目安
 やす旅はホーチミン乗継のみで3泊4日、ゆる旅・らぐ旅はホーチミンで1泊を挟むため4泊5日が目安です。
 
-- **やす旅**：<br><a class="schedule-tag" href="https://www.vietjetair.com/ja">Vietjet Airの最新スケジュール</a>
-- **ゆる旅**：<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
-- **らぐ旅**：<br><a class="schedule-tag" href="https://www.ana.co.jp/ja/jp/guide/plan/airinfo/">ANAの最新スケジュール</a>
+- **やす旅**：<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A">Skyscannerで航空券を比較</a>
+- **ゆる旅**：<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A">Skyscannerで航空券を比較</a>
+- **らぐ旅**：<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A">Skyscannerで航空券を比較</a>
 
 ## おすすめ旅程（やす旅向け／LCC利用・3泊4日の例）
 

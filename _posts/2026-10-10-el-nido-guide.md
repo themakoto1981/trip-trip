@@ -37,9 +37,9 @@ excerpt: "石灰岩の断崖とエメラルドグリーンの入り江が広が�
 ## 予算の目安
 エルニドは移動に時間がかかるため、アイランドホッピングとナクパンビーチの両方をしっかり楽しむには**4泊以上**がおすすめです。
 
-- **やす旅**：<br><a class="schedule-tag" href="https://www.cebupacificair.com/">セブパシフィック航空の最新スケジュール</a>
-- **ゆる旅**：<br><a class="schedule-tag" href="https://www.philippineairlines.com/">フィリピン航空の最新スケジュール</a>
-- **らぐ旅**：<br><a class="schedule-tag" href="https://www.philippineairlines.com/">フィリピン航空の最新スケジュール</a>
+- **やす旅**：<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A">Skyscannerで航空券を比較</a>
+- **ゆる旅**：<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A">Skyscannerで航空券を比較</a>
+- **らぐ旅**：<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A">Skyscannerで航空券を比較</a>
 
 以下の旅程は実在の便をもとにした一例です。**便名・時刻は搭乗日によって変動する**ため、予約前に上記リンクから必ずご自身の搭乗日のスケジュールをご確認ください。
 

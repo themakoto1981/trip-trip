@@ -35,9 +35,9 @@ excerpt: "「神々の島」バリ島。ビーチリゾートから文化体験�
 ## 予算の目安
 直行便なら7〜8時間で行けるため、現地で2日はしっかり楽しめる**3泊以上**がおすすめです（乗継便を使う場合は移動時間が延びるため**4泊以上**が安心）。
 
-- **やす旅**：<br><a class="schedule-tag" href="https://www.airasia.com/">AirAsiaの最新スケジュール</a>
-- **ゆる旅**：<br><a class="schedule-tag" href="https://www.garuda-indonesia.com/jp/ja">ガルーダ・インドネシア航空の最新スケジュール</a>
-- **らぐ旅**：<br><a class="schedule-tag" href="https://www.garuda-indonesia.com/jp/ja">ガルーダ・インドネシア航空の最新スケジュール</a>
+- **やす旅**：<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A">Skyscannerで航空券を比較</a>
+- **ゆる旅**：<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A">Skyscannerで航空券を比較</a>
+- **らぐ旅**：<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A">Skyscannerで航空券を比較</a>
 
 ## おすすめ旅程（やす旅向け／LCC利用・クアラルンプール経由・5泊6日の例）
 

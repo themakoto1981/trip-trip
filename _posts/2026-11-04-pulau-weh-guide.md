@@ -11,9 +11,9 @@ excerpt: "スマトラ島の北端、インドネシア最西の離島ウェ島�
 
 ## 行き方
 
-日本からの直行便はなく、ジャカルタ経由でバンダアチェへ飛ぶのが基本です。バンダアチェの空港から港（ウレレ港）まで車で約35分、そこからフェリーでウェ島のバロハン港へ渡ります（高速船で約1時間、普通フェリーで約2時間）。バロハン港から宿のあるイボイ・ガパンまでは車で約1時間です。総移動時間は日本から丸1日が目安で、ジャカルタで1泊すると無理がありません<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A">Skyscannerで航空券を比較</a>
+日本からの直行便はなく、ジャカルタ経由でバンダアチェへ飛ぶのが基本です。バンダアチェの空港から港（ウレレ港）まで車で約35分、そこからフェリーでウェ島のバロハン港へ渡ります（高速船で約1時間、普通フェリーで約2時間）。バロハン港から宿のあるイボイ・ガパンまでは車で約1時間です。総移動時間は日本から丸1日が目安で、ジャカルタで1泊すると無理がありません<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A" target="_blank" rel="noopener noreferrer">最新フライトスケジュール</a>
 
-- **フェリー**：バンダアチェ（ウレレ港）発の高速船と普通フェリーがあり、天候や整備で運航が変わります。時刻は日によって異なります<br><a class="schedule-tag" href="https://12go.asia/en/travel/banda-aceh/sabang?z=17114820">12go.asiaでフェリーの最新スケジュール</a>
+- **フェリー**：バンダアチェ（ウレレ港）発の高速船と普通フェリーがあり、天候や整備で運航が変わります。時刻は日によって異なります<br><a class="schedule-tag" href="https://12go.asia/en/travel/banda-aceh/sabang?z=17114820" target="_blank" rel="noopener noreferrer">12go.asiaでフェリーの最新スケジュール</a>
 - **ビザ**：日本国パスポートはインドネシアの到着ビザ（約50万ルピア）が必要です。
 - **服装と飲酒**：アチェ州はイスラム法が施行されており、肌の露出を控えた服装が基本です。お酒はほとんど手に入りません。
 - **島内の移動**：レンタルバイクか、宿の送迎が基本です。
@@ -40,9 +40,9 @@ excerpt: "スマトラ島の北端、インドネシア最西の離島ウェ島�
 ## 予算の目安
 ジャカルタ経由で移動に丸1日かかるので、現地で3日しっかり楽しむには**5泊以上**がおすすめです。
 
-- **やす旅**：LCCでマレーシア経由｜バンダアチェへ最安クラスの乗継｜移動費を抑えて島の滞在日数を確保<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A">Skyscannerで航空券を比較</a>
-- **ゆる旅**：ANA・JALでジャカルタへ直行｜乗継地で1泊して翌日に島へ｜移動の疲れをためずに島へ<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A">Skyscannerで航空券を比較</a>
-- **らぐ旅**：ANA・JALでジャカルタへ直行｜ビーチ目の前のリゾートに連泊｜島の静けさのなかで贅沢ステイ<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A">Skyscannerで航空券を比較</a>
+- **やす旅**：LCCでマレーシア経由｜バンダアチェへ最安クラスの乗継｜移動費を抑えて島の滞在日数を確保<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A" target="_blank" rel="noopener noreferrer">最新フライトスケジュール</a>
+- **ゆる旅**：ANA・JALでジャカルタへ直行｜乗継地で1泊して翌日に島へ｜移動の疲れをためずに島へ<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A" target="_blank" rel="noopener noreferrer">最新フライトスケジュール</a>
+- **らぐ旅**：ANA・JALでジャカルタへ直行｜ビーチ目の前のリゾートに連泊｜島の静けさのなかで贅沢ステイ<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A" target="_blank" rel="noopener noreferrer">最新フライトスケジュール</a>
 
 ## おすすめ旅程（やす旅向け／LCC・クアラルンプール経由・5泊7日の例）
 

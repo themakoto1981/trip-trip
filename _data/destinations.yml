@@ -701,6 +701,8 @@
   lng: 98.8372
   flight_min: 45000
   flight_max: 170000
+  flight_min_kansai: 45000
+  flight_max_kansai: 170000
   hotel_min: 4000
   hotel_max: 25000
   transport_min: 1500

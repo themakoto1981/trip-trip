@@ -11,7 +11,7 @@ excerpt: "カンボジア国境に近いタイ東部の静かな島、コクー�
 
 ## 行き方
 
-日本からの直行便はなく、バンコク経由が基本です。バンコクからトラート空港へ飛び、車でレムソク桟橋へ、そこからフェリーで約1時間でコクード島に着きます。総移動時間は10〜12時間ほどです。バンコクからミニバン＋フェリーの通し券で陸路を使うと、さらに割安になります<br><a class="schedule-tag" href="https://12go.asia/en/travel/bangkok/koh-kood?z=17114820">12go.asiaで予約・最新スケジュール</a>
+日本からの直行便はなく、バンコク経由が基本です。バンコクからトラート空港へ飛び、車でレムソク桟橋へ、そこからフェリーで約1時間でコクード島に着きます。総移動時間は10〜12時間ほどです。バンコクからミニバン＋フェリーの通し券で陸路を使うと、さらに割安になります<br><a class="schedule-tag" href="https://12go.asia/en/travel/bangkok/koh-kood?z=17114820" target="_blank" rel="noopener noreferrer">12go.asiaで予約・最新スケジュール</a>
 
 - **フェリー**：レムソク桟橋発の便は日によって異なります。トラート空港着の飛行機からは、午後の便に乗る組み方が現実的です。
 - **島内の移動**：ビーチ間は距離があるため、宿の送迎かレンタルバイクが基本です。バイクを借りる場合は国際運転免許証とヘルメット着用が必須です。
@@ -38,9 +38,9 @@ excerpt: "カンボジア国境に近いタイ東部の静かな島、コクー�
 ## 予算の目安
 離島までの移動に時間がかかるので、現地で2日しっかり楽しむには**4泊以上**がおすすめです。
 
-- **やす旅**：<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A">Skyscannerで航空券を比較</a>
-- **ゆる旅**：<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A">Skyscannerで航空券を比較</a>
-- **らぐ旅**：<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A">Skyscannerで航空券を比較</a>
+- **やす旅**：<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A" target="_blank" rel="noopener noreferrer">最新フライトスケジュール</a>
+- **ゆる旅**：<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A" target="_blank" rel="noopener noreferrer">最新フライトスケジュール</a>
+- **らぐ旅**：<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A" target="_blank" rel="noopener noreferrer">最新フライトスケジュール</a>
 
 ## おすすめ旅程（やす旅向け／ミニバン＋フェリーの陸路利用・4泊5日の例）
 

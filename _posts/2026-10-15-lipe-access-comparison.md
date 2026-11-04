@@ -39,7 +39,7 @@ exclude_from_adjacent_nav: true
 - 成田・関西からバンコクへ直行便（約6〜7時間）。2026年12月5日発・10日帰りの例では、タイ・ベトジェットエアの直行便が往復約75,000円、日系LCCのZIPAIRが往復約106,000円、JALの直行便が往復約114,000円でした
 - バンコクからハジャイ空港へ国内線（約1時間半、タイ・エアアジアで往復約16,600円〜、片道目安は8,000円程度）
 - ハジャイ空港からパクバラの船着場まで車で約1時間半（ボートチケットと乗合バンがセットになったチケットが一般的）
-- パクバラからリペ島へスピードボートで約1〜1.5時間（片道の運賃目安は2,000〜2,700円程度）<br><a class="schedule-tag" href="https://www.ferryscanner.com/ja/ferry-routes/ferry-pak-bara-pier-koh-lipe">最新のフェリースケジュール</a>
+- パクバラからリペ島へスピードボートで約1〜1.5時間（片道の運賃目安は2,000〜2,700円程度）<br><a class="schedule-tag" href="https://www.ferryscanner.com/ja/ferry-routes/ferry-pak-bara-pier-koh-lipe" target="_blank" rel="noopener noreferrer">最新のフェリースケジュール</a>
 - **パクバラ発の最終ボートは13:30頃のため、日本からの到着日に乗り継ぐのはほぼ不可能。ハジャイで1泊してから翌朝のボートに乗るのが基本**
 - 移動の区間数：国際線＋国内線＋車＋船の4区間
 
@@ -47,7 +47,7 @@ exclude_from_adjacent_nav: true
 
 - 成田・関西からクアラルンプールへ直行便（約7時間）。同じ2026年12月5日発・10日帰りの例では、経由便込みの最安が往復約76,000円、直行のZIPAIRが往復約105,000円、ANA（Air Japan）の直行便が往復約140,000円でした。JALの直行便はこの日程では往復約200,000円と割高だったので、フルサービスで選ぶ場合は時期による価格差を事前にチェックしておくと安心です
 - クアラルンプールからランカウイへ国内線（約1時間15分、エアアジアで往復約11,100円〜、片道目安は5,600円程度とバンコク⇔ハジャイより割安）
-- ランカウイのクア桟橋からリペ島へスピードボートで約1時間半（片道の運賃目安は3,800〜5,300円程度、パクバラ発より割高）。運航会社はAwaycation Trip、Bundhaya Speed Boat、Tropical Charters Langkawiなど<br><a class="schedule-tag" href="https://www.ferryscanner.com/ja/ferry-routes/ferry-kuah-jetty-langkawi-koh-lipe">最新のフェリースケジュール</a>
+- ランカウイのクア桟橋からリペ島へスピードボートで約1時間半（片道の運賃目安は3,800〜5,300円程度、パクバラ発より割高）。運航会社はAwaycation Trip、Bundhaya Speed Boat、Tropical Charters Langkawiなど<br><a class="schedule-tag" href="https://www.ferryscanner.com/ja/ferry-routes/ferry-kuah-jetty-langkawi-koh-lipe" target="_blank" rel="noopener noreferrer">最新のフェリースケジュール</a>
 - クア桟橋発の船は始発09:15・最終14:00頃（季節により変動）。空港からクア桟橋までは車で30分程度と近く、国内線の到着時刻次第では**ランカウイに前泊せず当日中にリペ島へ渡れる可能性もあります**（乗り継ぎ時間に余裕がない場合は1泊が安心）
 - 移動の区間数：国際線＋国内線＋船の3区間（車移動が実質なし）
 - タイとマレーシアの国境をまたぐため、**リペ島到着時にタイの入国審査を船着場で受けます**（イミグレーションは整備されています）

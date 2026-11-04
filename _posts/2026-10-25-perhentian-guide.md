@@ -11,7 +11,7 @@ excerpt: "マレーシア半島の東海岸沖、南シナ海に浮かぶ2つの
 
 ## 行き方
 
-島までの直行便はなく、クアラルンプールからバスでクアラブス桟橋へ向かい、そこからスピードボートで約40分かけて渡ります<br><a class="schedule-tag" href="https://12go.asia/en/travel/kuala-lumpur/kuala-besut?z=16187692">12go.asiaで予約・最新スケジュール</a>
+島までの直行便はなく、クアラルンプールからバスでクアラブス桟橋へ向かい、そこからスピードボートで約40分かけて渡ります<br><a class="schedule-tag" href="https://12go.asia/en/travel/kuala-lumpur/kuala-besut?z=16187692" target="_blank" rel="noopener noreferrer">12go.asiaで予約・最新スケジュール</a>
 
 - **島内の移動**：ロングビーチとコーラルベイの間は徒歩か水上タクシーで移動します。ブサール島へは別途ボートが必要です。
 - **マリンパーク保護料**：クアラブス桟橋で乗船時に支払います（外国人はRM100前後／約3,400円）。
@@ -38,9 +38,9 @@ excerpt: "マレーシア半島の東海岸沖、南シナ海に浮かぶ2つの
 ## 予算の目安
 クアラルンプールやクアラブスでの前泊を挟むので、島で丸2日たっぷり楽しむには**4泊5日〜5泊6日**がおすすめです。
 
-- **やす旅**：<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A">Skyscannerで航空券を比較</a>
-- **ゆる旅**：<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A">Skyscannerで航空券を比較</a>
-- **らぐ旅**：<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A">Skyscannerで航空券を比較</a>
+- **やす旅**：<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A" target="_blank" rel="noopener noreferrer">最新フライトスケジュール</a>
+- **ゆる旅**：<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A" target="_blank" rel="noopener noreferrer">最新フライトスケジュール</a>
+- **らぐ旅**：<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A" target="_blank" rel="noopener noreferrer">最新フライトスケジュール</a>
 
 ## おすすめ旅程（やす旅向け／Zipair直行・陸路利用・4泊5日の例）
 

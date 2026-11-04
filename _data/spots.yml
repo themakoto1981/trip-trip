@@ -1840,3 +1840,53 @@ komodo-guide:
     type: hotel
     letter: "ら"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D59823811"
+
+pulau-weh-guide:
+  - name: イボイビーチ
+    lat: 5.8792
+    lng: 95.2606
+    desc: 島の西端にある穏やかな入り江。宿とダイビングショップが集まる
+    category: beach
+    tags: ["ビーチ", "シュノーケリング"]
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Iboih_beach%2C_Sabang%2C_Aceh%3B_August_2010.jpg/960px-Iboih_beach%2C_Sabang%2C_Aceh%3B_August_2010.jpg"
+  - name: ルビア島
+    lat: 5.8830
+    lng: 95.2559
+    desc: イボイビーチから小舟で渡れる小島。サンゴ礁のシュノーケリングが人気
+    category: beach
+    tags: ["シュノーケリング", "離島"]
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Pulau_Rubiah_dari_Pulau_Iboih_Sabang.jpg/960px-Pulau_Rubiah_dari_Pulau_Iboih_Sabang.jpg"
+  - name: ガパンビーチ
+    lat: 5.8745
+    lng: 95.2720
+    desc: イボイの隣に広がる白砂の浜。海に入ってすぐ魚が見られる
+    category: beach
+    tags: ["ビーチ", "シュノーケリング"]
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Gapang_Beach%2C_Sabang%2C_Aceh.jpg/960px-Gapang_Beach%2C_Sabang%2C_Aceh.jpg"
+  - name: スムールティガ
+    lat: 5.8923
+    lng: 95.3399
+    desc: 東側の静かなビーチ。海沿いのレストランが評判
+    category: beach
+    tags: ["ビーチ", "のんびり"]
+  - name: "Iboih Inn"
+    lat: 5.8785
+    lng: 95.2610
+    desc: "イボイビーチ沿いのバンガロー、やす旅向けの定番宿"
+    type: hotel
+    letter: "や"
+    url: "https://www.booking.com/searchresults.html?ss=Iboih%20Inn%20Pulau%20Weh"
+  - name: "Freddie's Santai Sumur Tiga"
+    lat: 5.8923
+    lng: 95.3399
+    desc: "スムールティガの海沿いバンガロー、ゆる旅向け"
+    type: hotel
+    letter: "ゆ"
+    url: "https://www.booking.com/searchresults.html?ss=Freddie%27s%20Santai%20Sumur%20Tiga"
+  - name: "Casa Nemo Beach Resort & Spa"
+    lat: 5.8923
+    lng: 95.3399
+    desc: "スムールティガのビーチ目の前、らぐ旅向けのリゾート"
+    type: hotel
+    letter: "ら"
+    url: "https://www.booking.com/searchresults.html?ss=Casa%20Nemo%20Beach%20Resort%20%26%20Spa%20Sabang"

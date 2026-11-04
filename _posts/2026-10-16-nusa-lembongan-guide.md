@@ -11,7 +11,7 @@ excerpt: "バリ島のサヌールから高速ボートで約30分、のんび�
 
 ## 行き方
 
-日本からバリ島へは成田発の直行便で約7〜8時間（夕方到着のため初日はサヌール泊が安心です）。サヌールからヌサレンボンガン島へは高速ボートで約30分です。総移動時間はホテルまで10〜12時間ほどです。
+日本からバリ島へは成田発の直行便で約7〜8時間（夕方到着のため初日はサヌール泊が安心です）。サヌールからヌサレンボンガン島へは高速ボートで約30分です。総移動時間はホテルまで10〜12時間ほどです。関西発は直行便がないため、クアラルンプール乗継が基本です。下記の予算プランは東京発・関西発を切り替えて確認できます
 
 - **島内の移動**：島は小さく、レンタルバイクかホテルで手配できる送迎で十分。ヌサチェニガン島へは黄色い吊り橋を歩いて渡れます。
 
@@ -75,6 +75,39 @@ excerpt: "バリ島のサヌールから高速ボートで約30分、のんび�
 - 14:10　クアラルンプール発（AirAsia X D7522、約6時間50分）
 - 22:00　羽田着
 
+## おすすめ旅程（やす旅向け・関西発／LCC利用・クアラルンプール経由・4泊5日の例）
+
+関空発はクアラルンプールまで日中便のため乗継がスムーズで、羽田発の夜行便より1日短い行程で島に着けます。
+
+**1日目**
+- 10:55　関空発（AirAsia X D7533、約7時間）
+- 16:55頃　クアラルンプール着。乗継エリアで待機
+- 19:30頃　クアラルンプール発（AirAsia）
+- 22:30頃　デンパサール着
+- 深夜　[Kura-Kura Bus](https://www.kura2bus.com/)でサヌールへ移動し（片道450〜750円ほど）、[Segara Village Hotel](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D48703)にチェックイン
+
+**2日目（ヌサレンボンガン泊）**
+- 11:00　サヌールから高速ボート（[12go.asiaで予約可](https://12go.asia/en/travel/sanur/nusa-lembongan?z=17114820)）でヌサレンボンガン島へ（約30分）
+- 11:45頃　[Hai Tide Beach Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D89174811)にチェックイン
+- 15:00　ジャングットバトゥのビーチで夕日を眺める
+
+**3日目（終日フリー）**
+- 09:00　黄色い吊り橋を渡ってヌサチェニガン島へ
+- 13:00　マッシュルームベイでシュノーケリング
+- 17:00　デビルズティアで夕日
+
+**4日目（クアラルンプール泊）**
+- 08:00　ホテルでのんびり朝食
+- 11:00　ホテルをチェックアウト
+- 12:00　ボートでサヌールへ戻る
+- 14:00頃　Kura-Kura Busでデンパサール空港へ（片道450〜750円ほど）
+- 19:45　デンパサール発（AirAsia、約3時間5分）
+- 22:50　クアラルンプール着。空港周辺の[Tune Hotel KLIA2](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D621161)に仮眠のみ
+
+**5日目（帰国日）**
+- 02:15　クアラルンプール発（AirAsia X D7532、約6時間30分）
+- 09:45　関空着
+
 ## おすすめ旅程（ゆる旅向け／直行便・3泊4日の例）
 
 **1日目（サヌール泊）**
@@ -101,6 +134,39 @@ excerpt: "バリ島のサヌールから高速ボートで約30分、のんび�
 - 00:20　デンパサール発（ガルーダ・インドネシア航空GA880、約7時間30分）
 - 08:50　成田着
 
+## おすすめ旅程（ゆる旅向け・関西発／クアラルンプール経由・4泊5日の例）
+
+ガルーダ・インドネシア航空に関西発の直行便が無いため、関西発はAirAsia X・AirAsiaのクアラルンプール乗継になります。
+
+**1日目**
+- 10:55　関空発（AirAsia X D7533、約7時間）
+- 16:55頃　クアラルンプール着
+- 19:30頃　クアラルンプール発（AirAsia）
+- 22:30頃　デンパサール着。入国審査と荷物受取を終えたらGrabカーでサヌールへ
+- 深夜　[Prime Plaza Hotel Sanur](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1251)にチェックイン（ボート乗り場に近いビーチサイドのホテル）
+
+**2日目（ヌサレンボンガン泊）**
+- 11:00　サヌールから高速ボート（[12go.asiaで予約可](https://12go.asia/en/travel/sanur/nusa-lembongan?z=17114820)）でヌサレンボンガン島へ（約30分）
+- 11:45頃　[Mahagiri Resort Nusa Lembongan](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1269956)にチェックイン（プールのあるリゾート）
+- 15:00　マッシュルームベイでシュノーケリング
+
+**3日目（終日フリー）**
+- 09:00　黄色い吊り橋を渡ってヌサチェニガン島へ
+- 13:00　ドリームビーチのビーチカフェでランチ
+- 17:00　デビルズティアで夕日
+
+**4日目（クアラルンプール泊）**
+- 午前　ホテルで朝食をとりのんびり過ごす
+- 11:00　ホテルをチェックアウト
+- 12:00　ボートでサヌールへ戻る
+- 17:30頃　Grabカーでデンパサール空港へ
+- 19:45　デンパサール発（AirAsia AK379、約3時間5分）
+- 22:50　クアラルンプール着。空港周辺の[Tune Hotel KLIA2](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D621161)に仮眠のみ
+
+**5日目（帰国日）**
+- 02:15　クアラルンプール発（AirAsia X D7532、約6時間30分）
+- 09:45　関空着
+
 ## おすすめ旅程（らぐ旅向け／直行便・3泊4日の例）
 
 **1日目（サヌール泊）**
@@ -126,6 +192,39 @@ excerpt: "バリ島のサヌールから高速ボートで約30分、のんび�
 - 21:30頃　Grabカーでデンパサール空港へ
 - 00:20　デンパサール発（ガルーダ・インドネシア航空GA880、約7時間30分）
 - 08:50　成田着
+
+## おすすめ旅程（らぐ旅向け・関西発／クアラルンプール経由・4泊5日の例）
+
+ガルーダ・インドネシア航空に関西発の直行便が無いため、関西発はAirAsia X・AirAsiaのクアラルンプール乗継になります。
+
+**1日目**
+- 10:55　関空発（AirAsia X D7533、約7時間）
+- 16:55頃　クアラルンプール着
+- 19:30頃　クアラルンプール発（AirAsia）
+- 22:30頃　デンパサール着。入国審査と荷物受取を終えたらGrabカーでサヌールへ
+- 深夜　[Hyatt Regency Bali](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D5500759)にチェックイン（サヌールビーチ沿いの大型リゾート）
+
+**2日目（ヌサレンボンガン泊）**
+- 11:00　サヌールから高速ボート（[12go.asiaで予約可](https://12go.asia/en/travel/sanur/nusa-lembongan?z=17114820)）でヌサレンボンガン島へ（約30分）
+- 11:45頃　[Batu Karang Lembongan Resort & Day Spa](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D255257)にチェックイン（プール付きの高級リゾート）
+- 15:00　マッシュルームベイでシュノーケリング
+
+**3日目（終日フリー）**
+- 09:00　貸切ボートでマンタポイントのシュノーケリングへ
+- 午後　リゾートのプールとスパでのんびり
+- 17:00　デビルズティアで夕日
+
+**4日目（クアラルンプール泊）**
+- 午前　リゾートで朝食をとりのんびり過ごす
+- 11:00　リゾートをチェックアウト
+- 12:00　ボートでサヌールへ戻る
+- 17:30頃　Grabカーでデンパサール空港へ
+- 19:45　デンパサール発（AirAsia AK379、約3時間5分）
+- 22:50　クアラルンプール着。空港周辺の[Tune Hotel KLIA2](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D621161)に仮眠のみ
+
+**5日目（帰国日）**
+- 02:15　クアラルンプール発（AirAsia X D7532、約6時間30分）
+- 09:45　関空着
 
 ## おすすめビーチ・スポット
 

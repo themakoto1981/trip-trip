@@ -21,7 +21,7 @@ excerpt: "プーケットに次ぐタイ第2の広さを誇るチャン島。ジ
 
 ## 行き方
 
-日本からの直行便はなく、バンコク経由が基本です。空路＋フェリー、または空港発着の直行バスでチャン島へ向かいます。バスの方が割安ですが時間はやや長め。総移動時間は10〜12時間ほど（飛行機利用時）です<br><a class="schedule-tag" href="https://12go.asia/en/travel/suvarnabhumi-airport/koh-chang?z=17114820">12go.asiaで予約・最新スケジュール</a>
+日本からの直行便はなく、バンコク経由が基本です。空路＋フェリー、または空港発着の直行バスでチャン島へ向かいます。バスの方が割安ですが時間はやや長め。総移動時間は10〜12時間ほど（飛行機利用時）です<br><a class="schedule-tag" href="https://12go.asia/en/travel/suvarnabhumi-airport/koh-chang?z=17114820" target="_blank" rel="noopener noreferrer">12go.asiaで予約・最新スケジュール</a>
 
 - **島内の移動**：家族旅行でなければレンタルバイクでの移動が基本です。島内には検問があり、国際運転免許証とヘルメット着用は必須。持っていないと罰金の対象になることもあります。
 
@@ -49,9 +49,9 @@ excerpt: "プーケットに次ぐタイ第2の広さを誇るチャン島。ジ
 ## 予算の目安
 移動に時間がかかるので、現地で2日しっかり楽しむには**4泊以上**がおすすめです。
 
-- **やす旅**：<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A">Skyscannerで航空券を比較</a>
-- **ゆる旅**：<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A">Skyscannerで航空券を比較</a>
-- **らぐ旅**：<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A">Skyscannerで航空券を比較</a>
+- **やす旅**：<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A" target="_blank" rel="noopener noreferrer">最新フライトスケジュール</a>
+- **ゆる旅**：<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A" target="_blank" rel="noopener noreferrer">最新フライトスケジュール</a>
+- **らぐ旅**：<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A" target="_blank" rel="noopener noreferrer">最新フライトスケジュール</a>
 
 ## おすすめ旅程（やす旅向け／空港発着の直行バス利用・4泊5日の例）
 

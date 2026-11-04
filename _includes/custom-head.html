@@ -238,6 +238,19 @@
     text-align: right;
   }
 
+  .departure-tabs { display: flex; gap: 0.4rem; justify-content: flex-end; margin: 0.8rem 0 0.2rem; }
+  .departure-tab {
+    background: #fff;
+    border: 1px solid var(--sb-border);
+    border-radius: 999px;
+    padding: 0.35rem 0.85rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--sb-brown-soft);
+    cursor: pointer;
+    font-family: inherit;
+  }
+  .departure-tab.active { background: var(--sb-green-dark); border-color: var(--sb-green-dark); color: #fff; }
   .tiers-header {
     display: flex;
     align-items: center;

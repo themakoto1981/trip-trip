@@ -1104,15 +1104,19 @@ layout: default
 
         var openState = { open: false };
         function applyVisibility() {
-          var showWrap = wraps[currentDeparture] || wraps.tokyo || wraps.kansai;
+          // currentDepartureに対応する旅程が無い場合は、他方の発着のデータを誤って出さない
+          // （東京発選択時に関西発の内容が出てしまう、といった取り違えを防ぐ）
+          var showWrap = wraps[currentDeparture];
           if (wraps.tokyo) { wraps.tokyo.hidden = !(openState.open && showWrap === wraps.tokyo); }
           if (wraps.kansai) { wraps.kansai.hidden = !(openState.open && showWrap === wraps.kansai); }
+          btn.hidden = !showWrap;
         }
         btn.addEventListener('click', function () {
           openState.open = !openState.open;
           applyVisibility();
           btn.textContent = openState.open ? '旅程を閉じる ▼' : '旅程を見る ▶';
         });
+        applyVisibility();
         departureSwitchCallbacks.push(applyVisibility);
       });
     } catch (e) {

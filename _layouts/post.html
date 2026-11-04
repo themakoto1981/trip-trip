@@ -1083,14 +1083,16 @@ layout: default
 
         if (isSlideTrial) {
           if (wraps.tokyo) { target.appendChild(wraps.tokyo); }
-          if (wraps.kansai) {
-            wraps.kansai.hidden = !!wraps.tokyo;
-            target.appendChild(wraps.kansai);
-          }
-          departureSwitchCallbacks.push(function () {
+          if (wraps.kansai) { target.appendChild(wraps.kansai); }
+          // 初期表示の時点でcurrentDeparture（デフォルト'tokyo'）に合わせて表示を揃える。
+          // 片方の発着しか無いプラン（例：関西発専用プラン）が、トグルを一度も押していない
+          // 初期状態でいきなり出てしまわないようにするため
+          var syncSlideVisibility = function () {
             if (wraps.tokyo) { wraps.tokyo.hidden = (currentDeparture !== 'tokyo'); }
             if (wraps.kansai) { wraps.kansai.hidden = (currentDeparture !== 'kansai'); }
-          });
+          };
+          syncSlideVisibility();
+          departureSwitchCallbacks.push(syncSlideVisibility);
           return;
         }
 

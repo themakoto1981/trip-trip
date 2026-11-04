@@ -1175,6 +1175,23 @@ layout: default
           slideEl.appendChild(cloneOfFirst);
           goToCard(realCards[0], false);
 
+          // クローンはcloneNode時点のitinerary-timeline表示状態をそのまま複製しただけで、
+          // 以降の「旅程を見る」開閉や東京発/関西発の切り替えには追従しない。
+          // 見た目の整合のため、本物のカードの状態を毎回コピーする
+          function syncCloneItinerary(clone, source) {
+            var cloneWraps = clone.querySelectorAll('.itinerary-timeline');
+            var sourceWraps = source.querySelectorAll('.itinerary-timeline');
+            for (var i = 0; i < sourceWraps.length; i++) {
+              if (cloneWraps[i]) { cloneWraps[i].hidden = sourceWraps[i].hidden; }
+            }
+          }
+          function syncClones() {
+            syncCloneItinerary(cloneOfLast, realCards[realCards.length - 1]);
+            syncCloneItinerary(cloneOfFirst, realCards[0]);
+          }
+          syncClones();
+          departureSwitchCallbacks.push(syncClones);
+
           var slots = [{ el: cloneOfLast, idx: realCards.length - 1, clone: true }]
             .concat(realCards.map(function (c, i) { return { el: c, idx: i, clone: false }; }))
             .concat([{ el: cloneOfFirst, idx: 0, clone: true }]);

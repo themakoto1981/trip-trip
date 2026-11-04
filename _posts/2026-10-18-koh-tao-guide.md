@@ -13,7 +13,7 @@ excerpt: "世界屈指のダイビングスポットとして知られるタイ�
 
 タオ島へは日本からバンコク経由（直行便で約6〜7時間）で向かい、本土のチュンポンかサムイ島から高速船に乗り継ぎます。チュンポン経由は運賃が安い一方で乗り継ぎが多く総移動時間16〜20時間、サムイ島経由は運賃が上がるぶん12〜14時間と短めです。
 
-- チュンポン〜タオ島、サムイ島〜タオ島とも高速船が1日複数便運航しています<br><a class="schedule-tag" href="https://12go.asia/en/travel/chumphon/koh-tao">12go.asiaで予約・最新スケジュール</a>
+- チュンポン〜タオ島、サムイ島〜タオ島とも高速船が1日複数便運航しています<br><a class="schedule-tag" href="https://12go.asia/en/travel/chumphon/koh-tao" target="_blank" rel="noopener noreferrer">12go.asiaで予約・最新スケジュール</a>
 
 ## ベストシーズン
 
@@ -37,9 +37,9 @@ excerpt: "世界屈指のダイビングスポットとして知られるタイ�
 ## 予算の目安
 チュンポン経由は寝台列車を使うため移動に時間がかかり、サムイ島経由はバンコクエアウェイズの直行便で移動が楽になる分、運賃が上がります。
 
-- **やす旅**：<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A">Skyscannerで航空券を比較</a>
-- **ゆる旅**：<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A">Skyscannerで航空券を比較</a>
-- **らぐ旅**：<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A">Skyscannerで航空券を比較</a>
+- **やす旅**：<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A" target="_blank" rel="noopener noreferrer">最新フライトスケジュール</a>
+- **ゆる旅**：<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A" target="_blank" rel="noopener noreferrer">最新フライトスケジュール</a>
+- **らぐ旅**：<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A" target="_blank" rel="noopener noreferrer">最新フライトスケジュール</a>
 
 ## おすすめ旅程（やす旅向け／チュンポン経由・寝台列車利用・5泊6日の例）
 
@@ -47,7 +47,7 @@ excerpt: "世界屈指のダイビングスポットとして知られるタイ�
 - 08:55　成田発（Vietjet Air、約7時間35分）
 - 14:30　バンコク（スワンナプーム空港）着。入国審査・荷物受取を終えたら、空港地下のエアポートレイルリンクへ
 - 15:30頃　エアポートレイルリンクでマッカサン駅へ（約22分）、徒歩でMRTペッチャブリー駅に乗り換えてフアラムポーン駅へ（乗り継ぎ込みで計約1時間、運賃は合計100円未満）。駅構内で軽食を調達
-- 16:50　フアラムポーン駅発の寝台列車（2等寝台・エアコン車）でチュンポンへ<br><a class="schedule-tag" href="https://12go.asia/en/train/bangkok/chumphon">12go.asiaで予約・最新スケジュール</a>
+- 16:50　フアラムポーン駅発の寝台列車（2等寝台・エアコン車）でチュンポンへ<br><a class="schedule-tag" href="https://12go.asia/en/train/bangkok/chumphon" target="_blank" rel="noopener noreferrer">12go.asiaで予約・最新スケジュール</a>
 - 23:55　チュンポン着。駅から徒歩圏の安宿に1泊
 
 **2日目（タオ島泊）**
@@ -71,7 +71,7 @@ excerpt: "世界屈指のダイビングスポットとして知られるタイ�
 - 12:30頃　港へ移動
 - 13:15　タオ島発の高速船でチュンポンへ（所要約1時間45分、15:00着）
 - 16:00　港近くの食堂で早めの夕食、お土産探し
-- 19:00　チュンポン発の夜行VIPバス（Suwannatee Tourなど）でバンコクへ<br><a class="schedule-tag" href="https://12go.asia/en/bus/chumphon/bangkok">12go.asiaで予約・最新スケジュール</a>
+- 19:00　チュンポン発の夜行VIPバス（Suwannatee Tourなど）でバンコクへ<br><a class="schedule-tag" href="https://12go.asia/en/bus/chumphon/bangkok" target="_blank" rel="noopener noreferrer">12go.asiaで予約・最新スケジュール</a>
 
 **6日目（帰国日）**
 - 01:30頃　バンコク（モーチット・バスターミナル）着。周辺の24時間営業カフェで仮眠

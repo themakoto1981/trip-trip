@@ -11,7 +11,7 @@ excerpt: "火山が生んだ「火の島」カミギン。海に浮かぶ白い�
 
 ## 行き方
 
-日本からは成田発マニラ直行便を利用し、**マニラで1泊**してからカミギン島へ向かいます。マニラ〜カミギン間はスカイジェット航空の直行便が1日1便（午前発）のみのため、前泊が現実的です<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A">Skyscannerで航空券を比較</a>
+日本からは成田発マニラ直行便を利用し、**マニラで1泊**してからカミギン島へ向かいます。マニラ〜カミギン間はスカイジェット航空の直行便が1日1便（午前発）のみのため、前泊が現実的です<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A" target="_blank" rel="noopener noreferrer">最新フライトスケジュール</a>
 
 - **島内の移動**：空港（マンバジャオ）からホテルまではトライシクルで約20分。島内は1周約64kmで、バイクのレンタルかトライシクルのチャーターが基本です。ホワイトアイランドへは本島北岸のヤンビンから、マンティグエ島へはマヒノグからバンカーボートで渡ります。
 
@@ -37,9 +37,9 @@ excerpt: "火山が生んだ「火の島」カミギン。海に浮かぶ白い�
 ## 予算の目安
 マニラで1泊してから島に入るので、**4泊5日**がおすすめです。マニラ1泊を挟むことで、乗り継ぎに追われず現地を満喫できます。
 
-- **やす旅**：<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A">Skyscannerで航空券を比較</a>
-- **ゆる旅**：<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A">Skyscannerで航空券を比較</a>
-- **らぐ旅**：<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A">Skyscannerで航空券を比較</a>
+- **やす旅**：<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A" target="_blank" rel="noopener noreferrer">最新フライトスケジュール</a>
+- **ゆる旅**：<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A" target="_blank" rel="noopener noreferrer">最新フライトスケジュール</a>
+- **らぐ旅**：<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A" target="_blank" rel="noopener noreferrer">最新フライトスケジュール</a>
 
 ## おすすめ旅程（やす旅向け／マニラ1泊・4泊5日の例）
 

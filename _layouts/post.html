@@ -114,6 +114,13 @@ layout: default
     }
     if (!match) { return; }
 
+    // 東京発/関西発の切り替え。関西発データ（flight_min_kansai等）が無い記事ではトグル自体を出さない
+    var currentDeparture = 'tokyo';
+    var departureSwitchCallbacks = [];
+    function escAttr(s) {
+      return String(s).replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    }
+
     // ラン島トライアル記事のみ：spots.ymlにtagsがあるかどうかで判定し、
     // 予算プラン・旅程を横スライド比較レイアウトにする（他記事は従来通り）
     var slideSpots = allSpots[match.slug] || [];
@@ -149,11 +156,12 @@ layout: default
     var dailyBudgetMax = yasuHotelMax + match.transport_max + match.food_max;
     var comfortDailyMin = yuruHotelMin + match.transport_min + match.food_min;
     var comfortDailyMax = yuruHotelMax + match.transport_max + match.food_max;
-    var budgetTotalMin = match.flight_min + dailyMin * nights;
-    var budgetTotalMax = match.flight_min + dailyBudgetMax * nights;
-    var comfortTotalMin = match.flight_max + comfortDailyMin * nights;
-    var comfortTotalMax = match.flight_max + comfortDailyMax * nights;
-    var luxuryTotal = match.flight_max + Math.round(dailyMax * 1.6) * nights;
+
+    // 関西発の航空券データ（flight_min_kansai/flight_max_kansai）がある記事だけ、
+    // 東京発/関西発トグルで金額を出し分ける。無ければ東京発の数字を関西発にもフォールバック
+    var hasKansaiFlight = (match.flight_min_kansai != null) || (match.flight_max_kansai != null);
+    var kansaiFlightMin = match.flight_min_kansai != null ? match.flight_min_kansai : match.flight_min;
+    var kansaiFlightMax = match.flight_max_kansai != null ? match.flight_max_kansai : match.flight_max;
 
     var companionLabelMap = { solo: '一人旅', couple: 'カップル・夫婦', family: '家族', friends: '友人グループ' };
     var companionText = (match.suited_for && match.suited_for.length)
@@ -202,28 +210,46 @@ layout: default
 
     document.getElementById('quick-facts').innerHTML = html;
 
-    var luxuryDaily = Math.round(dailyMax * 1.6);
     var tierDefs = [
       { name: 'やす旅', airline: 'LCC', hotel: '安宿（ゲストハウス等）' },
       { name: 'ゆる旅', airline: 'ANA・JAL', hotel: 'リゾートのスタンダードルーム' },
       { name: 'らぐ旅', airline: 'ANA・JAL', hotel: 'リゾートのオーシャンビュー' }
     ];
-    var budgetTiers = [
-      ['やす旅',
-        budgetTotalMin.toLocaleString() + '〜' + budgetTotalMax.toLocaleString() + '円',
-        '航空券' + match.flight_min.toLocaleString() + '円 ＋ 宿泊/移動/食費（1泊）' + dailyMin.toLocaleString() + '〜' + dailyBudgetMax.toLocaleString() + '円 ×' + nights + '泊',
-        'とにかく費用を抑えて、シンプルに楽しみたい方に。'],
-      ['ゆる旅',
-        comfortTotalMin.toLocaleString() + '〜' + comfortTotalMax.toLocaleString() + '円',
-        '航空券' + match.flight_max.toLocaleString() + '円 ＋ 宿泊/移動/食費（1泊）' + comfortDailyMin.toLocaleString() + '〜' + comfortDailyMax.toLocaleString() + '円 ×' + nights + '泊',
-        '移動も観光も楽しみながら、バランスよく旅をしたい方に。'],
-      ['らぐ旅',
-        luxuryTotal.toLocaleString() + '円〜',
-        '航空券' + match.flight_max.toLocaleString() + '円 ＋ 上質な宿泊/食費（1泊）目安' + luxuryDaily.toLocaleString() + '円 ×' + nights + '泊',
-        '上質な滞在で、ゆったり贅沢に過ごしたい方に。']
-    ];
+    function buildBudgetTiers(flightMin, flightMax) {
+      var bTotalMin = flightMin + dailyMin * nights;
+      var bTotalMax = flightMin + dailyBudgetMax * nights;
+      var cTotalMin = flightMax + comfortDailyMin * nights;
+      var cTotalMax = flightMax + comfortDailyMax * nights;
+      var lDaily = Math.round(dailyMax * 1.6);
+      var lTotal = flightMax + lDaily * nights;
+      return [
+        ['やす旅',
+          bTotalMin.toLocaleString() + '〜' + bTotalMax.toLocaleString() + '円',
+          '航空券' + flightMin.toLocaleString() + '円 ＋ 宿泊/移動/食費（1泊）' + dailyMin.toLocaleString() + '〜' + dailyBudgetMax.toLocaleString() + '円 ×' + nights + '泊',
+          'とにかく費用を抑えて、シンプルに楽しみたい方に。'],
+        ['ゆる旅',
+          cTotalMin.toLocaleString() + '〜' + cTotalMax.toLocaleString() + '円',
+          '航空券' + flightMax.toLocaleString() + '円 ＋ 宿泊/移動/食費（1泊）' + comfortDailyMin.toLocaleString() + '〜' + comfortDailyMax.toLocaleString() + '円 ×' + nights + '泊',
+          '移動も観光も楽しみながら、バランスよく旅をしたい方に。'],
+        ['らぐ旅',
+          lTotal.toLocaleString() + '円〜',
+          '航空券' + flightMax.toLocaleString() + '円 ＋ 上質な宿泊/食費（1泊）目安' + lDaily.toLocaleString() + '円 ×' + nights + '泊',
+          '上質な滞在で、ゆったり贅沢に過ごしたい方に。']
+      ];
+    }
+    var budgetTiersByDep = {
+      tokyo: buildBudgetTiers(match.flight_min, match.flight_max),
+      kansai: buildBudgetTiers(kansaiFlightMin, kansaiFlightMax)
+    };
+    var budgetTiers = budgetTiersByDep.tokyo;
 
     var tiersHtml = '';
+    if (hasKansaiFlight) {
+      tiersHtml += '<div class="departure-tabs">';
+      tiersHtml += '<button type="button" class="departure-tab active" data-dep="tokyo">東京発</button>';
+      tiersHtml += '<button type="button" class="departure-tab" data-dep="kansai">関西発</button>';
+      tiersHtml += '</div>';
+    }
     if (!isSlideTrial) {
       tiersHtml += '<div class="tiers-header">';
       tiersHtml += '<button type="button" class="tiers-info-btn" aria-label="プランの説明">ⓘ プランの違い</button>';
@@ -287,7 +313,8 @@ layout: default
       } else {
         tiersHtml += '<div class="budget-tier-head"><span class="budget-tier-name-row"><span class="budget-tier-dot"></span><span class="budget-tier-name">' + t[0] + '</span></span><span class="budget-tier-desc">' + t[3] + '</span></div>';
       }
-      tiersHtml += '<div class="budget-tier-price-wrap"><span class="budget-tier-amount">' + t[1] + '</span><div class="budget-tier-breakdown">' + t[2] + '</div></div>';
+      var kt = budgetTiersByDep.kansai[i];
+      tiersHtml += '<div class="budget-tier-price-wrap"><span class="budget-tier-amount" data-tokyo-amount="' + escAttr(t[1]) + '" data-kansai-amount="' + escAttr(kt[1]) + '">' + t[1] + '</span><div class="budget-tier-breakdown" data-tokyo-breakdown="' + escAttr(t[2]) + '" data-kansai-breakdown="' + escAttr(kt[2]) + '">' + t[2] + '</div></div>';
       tiersHtml += renderBudgetChips(t[0]);
       if (isSlideTrial) { tiersHtml += '</div>'; }
       tiersHtml += '</div>';
@@ -317,13 +344,31 @@ layout: default
         budgetHeading.parentNode.insertBefore(node, insertBeforeNode);
         insertedNodes.push(node);
       }
-      var infoBtn = insertedNodes[0] && insertedNodes[0].querySelector
-        ? insertedNodes[0].querySelector('.tiers-info-btn') : null;
-      var popup = insertedNodes[1] && insertedNodes[1].classList && insertedNodes[1].classList.contains('tiers-popup')
-        ? insertedNodes[1] : null;
+      var infoBtn = budgetHeading.parentNode.querySelector('.tiers-info-btn');
+      var popup = budgetHeading.parentNode.querySelector('.tiers-popup');
       if (infoBtn && popup) {
         infoBtn.addEventListener('click', function () {
           popup.hidden = !popup.hidden;
+        });
+      }
+
+      if (hasKansaiFlight) {
+        var depBtns = budgetHeading.parentNode.querySelectorAll('.departure-tab');
+        depBtns.forEach(function (btn) {
+          btn.addEventListener('click', function () {
+            if (btn.classList.contains('active')) { return; }
+            currentDeparture = btn.dataset.dep;
+            depBtns.forEach(function (b) { b.classList.toggle('active', b === btn); });
+            document.querySelectorAll('.budget-tier-amount').forEach(function (el) {
+              var v = el.getAttribute('data-' + currentDeparture + '-amount');
+              if (v) { el.textContent = v; }
+            });
+            document.querySelectorAll('.budget-tier-breakdown').forEach(function (el) {
+              var v = el.getAttribute('data-' + currentDeparture + '-breakdown');
+              if (v) { el.textContent = v; }
+            });
+            departureSwitchCallbacks.forEach(function (cb) { cb(); });
+          });
         });
       }
 
@@ -798,6 +843,9 @@ layout: default
         if (h.textContent.indexOf('おすすめ旅程') !== -1) { itineraryHeadings.push(h); }
       });
       var isMultiPlan = itineraryHeadings.length > 1;
+      // tierName -> { tokyo: timelineWrapEl|undefined, kansai: timelineWrapEl|undefined }
+      // 見出しに「東京発」「関西発」の表記が無い記事（未対応記事）は東京発として扱う
+      var itineraryRegistry = {};
 
       // ラン島トライアルのみ：旅程の各項目をキーワードから線画アイコン＋タグで表示する
       var itineraryIconPaths = {
@@ -1005,29 +1053,16 @@ layout: default
 
         var headingText = itineraryHeading.textContent;
         var targetTiers = headingText.match(/やす旅|ゆる旅|らぐ旅/g) || [];
+        var headingDep = headingText.indexOf('関西発') !== -1 ? 'kansai' : 'tokyo';
 
         var attached = false;
         targetTiers.forEach(function (tierName, idx) {
           var row = document.querySelector('.budget-tier-row[data-tier-name="' + tierName + '"]');
           if (!row) { return; }
-          var target = row.querySelector('.budget-tier-body') || row;
           var wrap = idx === 0 ? timelineWrap : timelineWrap.cloneNode(true);
-          if (isSlideTrial) {
-            target.appendChild(wrap);
-          } else {
-            wrap.hidden = true;
-            var btn = document.createElement('button');
-            btn.type = 'button';
-            btn.className = 'budget-tier-itinerary-toggle';
-            btn.textContent = '旅程を見る ▶';
-            target.appendChild(btn);
-            target.appendChild(wrap);
-            btn.addEventListener('click', function () {
-              var willOpen = wrap.hidden;
-              wrap.hidden = !willOpen;
-              btn.textContent = willOpen ? '旅程を閉じる ▼' : '旅程を見る ▶';
-            });
-          }
+          itineraryRegistry[tierName] = itineraryRegistry[tierName] || {};
+          // 同じプラン・同じ発着が複数見出しにまたがることは無い想定。万一あれば後勝ち
+          itineraryRegistry[tierName][headingDep] = wrap;
           attached = true;
         });
 
@@ -1036,6 +1071,49 @@ layout: default
           return;
         }
         itineraryHeading.remove();
+      });
+
+      // レジストリを元に、プランごとに「旅程を見る」トグルを1つだけ設置する。
+      // 東京発/関西発どちらの旅程ブロックを見せるかは現在のcurrentDepartureで決める
+      Object.keys(itineraryRegistry).forEach(function (tierName) {
+        var row = document.querySelector('.budget-tier-row[data-tier-name="' + tierName + '"]');
+        if (!row) { return; }
+        var target = row.querySelector('.budget-tier-body') || row;
+        var wraps = itineraryRegistry[tierName];
+
+        if (isSlideTrial) {
+          if (wraps.tokyo) { target.appendChild(wraps.tokyo); }
+          if (wraps.kansai) {
+            wraps.kansai.hidden = !!wraps.tokyo;
+            target.appendChild(wraps.kansai);
+          }
+          departureSwitchCallbacks.push(function () {
+            if (wraps.tokyo) { wraps.tokyo.hidden = (currentDeparture !== 'tokyo'); }
+            if (wraps.kansai) { wraps.kansai.hidden = (currentDeparture !== 'kansai'); }
+          });
+          return;
+        }
+
+        var btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = 'budget-tier-itinerary-toggle';
+        btn.textContent = '旅程を見る ▶';
+        target.appendChild(btn);
+        if (wraps.tokyo) { wraps.tokyo.hidden = true; target.appendChild(wraps.tokyo); }
+        if (wraps.kansai) { wraps.kansai.hidden = true; target.appendChild(wraps.kansai); }
+
+        var openState = { open: false };
+        function applyVisibility() {
+          var showWrap = wraps[currentDeparture] || wraps.tokyo || wraps.kansai;
+          if (wraps.tokyo) { wraps.tokyo.hidden = !(openState.open && showWrap === wraps.tokyo); }
+          if (wraps.kansai) { wraps.kansai.hidden = !(openState.open && showWrap === wraps.kansai); }
+        }
+        btn.addEventListener('click', function () {
+          openState.open = !openState.open;
+          applyVisibility();
+          btn.textContent = openState.open ? '旅程を閉じる ▼' : '旅程を見る ▶';
+        });
+        departureSwitchCallbacks.push(applyVisibility);
       });
     } catch (e) {
       if (window.console && console.error) { console.error('itinerary timeline failed:', e); }

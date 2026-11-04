@@ -11,7 +11,7 @@ excerpt: "マレーシア半島の東海岸沖に浮かぶ、ジャングルと�
 
 ## 行き方
 
-ティオマン島への直行便はなく、クアラルンプール経由でメルシンへ向かい（バスで約5時間）、そこからフェリーで約1.5〜2時間かけて渡ります。総移動時間はメルシン前泊を挟んで丸1日半ほどです<br><a class="schedule-tag" href="https://12go.asia/en/travel/kuala-lumpur/mersing?z=17114820">12go.asiaで予約・最新スケジュール</a>
+ティオマン島への直行便はなく、クアラルンプール経由でメルシンへ向かい（バスで約5時間）、そこからフェリーで約1.5〜2時間かけて渡ります。総移動時間はメルシン前泊を挟んで丸1日半ほどです<br><a class="schedule-tag" href="https://12go.asia/en/travel/kuala-lumpur/mersing?z=17114820" target="_blank" rel="noopener noreferrer">12go.asiaで予約・最新スケジュール</a>
 
 - **島内の移動**：集落同士は徒歩とボートタクシーで結ばれています。島の東西を横断する山道もあり、ビーチ間は小型のボートが便利です。
 
@@ -37,9 +37,9 @@ excerpt: "マレーシア半島の東海岸沖に浮かぶ、ジャングルと�
 ## 予算の目安
 メルシンでの前泊と帰りのクアラルンプール泊があるので、島で丸2日たっぷり楽しむには**6泊7日**がおすすめです。
 
-- **やす旅**：<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A">Skyscannerで航空券を比較</a>
-- **ゆる旅**：<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A">Skyscannerで航空券を比較</a>
-- **らぐ旅**：<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A">Skyscannerで航空券を比較</a>
+- **やす旅**：<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A" target="_blank" rel="noopener noreferrer">最新フライトスケジュール</a>
+- **ゆる旅**：<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A" target="_blank" rel="noopener noreferrer">最新フライトスケジュール</a>
+- **らぐ旅**：<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A" target="_blank" rel="noopener noreferrer">最新フライトスケジュール</a>
 
 ## おすすめ旅程（やす旅向け／Zipair直行・陸路利用・6泊7日の例）
 

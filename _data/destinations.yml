@@ -754,6 +754,15 @@
   transport_max: 10000
   food_min: 2500
   food_max: 6000
+  yasu_hotel: 25000
+  yasu_transport: 5000
+  yasu_food: 2500
+  yuru_hotel: 10500
+  yuru_transport: 7500
+  yuru_food: 4000
+  ragu_hotel: 33000
+  ragu_transport: 10000
+  ragu_food: 6000
   flight_hours: "約7〜8時間（デンパサール直行便）、サヌールから高速ボートで約30分"
   recommended_nights: "3泊以上"
   visa: "不要（30日以内）"

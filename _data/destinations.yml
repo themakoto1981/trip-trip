@@ -443,6 +443,15 @@
   transport_max: 3000
   food_min: 2500
   food_max: 5500
+  yasu_hotel: 9500
+  yasu_transport: 1200
+  yasu_food: 2500
+  yuru_hotel: 14000
+  yuru_transport: 2000
+  yuru_food: 3500
+  ragu_hotel: 155000
+  ragu_transport: 3200
+  ragu_food: 6000
   flight_hours: "約9〜12時間（バンコク乗り継ぎ、国内線で約1時間）"
   recommended_nights: "3泊以上"
   visa: "不要（30日以内）"

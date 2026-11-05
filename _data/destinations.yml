@@ -873,6 +873,15 @@
   transport_max: 3500
   food_min: 2500
   food_max: 6000
+  yasu_hotel: 9000
+  yasu_transport: 1800
+  yasu_food: 3000
+  yuru_hotel: 12000
+  yuru_transport: 2500
+  yuru_food: 4500
+  ragu_hotel: 85000
+  ragu_transport: 3500
+  ragu_food: 6500
   flight_hours: "約10〜12時間（バンコク経由、クラビ空港からロングテールボートで約20分）"
   recommended_nights: "4泊以上"
   visa: "不要（30日以内）"

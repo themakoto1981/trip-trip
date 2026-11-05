@@ -1144,6 +1144,15 @@
   transport_max: 4000
   food_min: 1500
   food_max: 4000
+  yasu_hotel: 4000
+  yasu_transport: 1800
+  yasu_food: 1800
+  yuru_hotel: 15000
+  yuru_transport: 2600
+  yuru_food: 2600
+  ragu_hotel: 145000
+  ragu_transport: 3800
+  ragu_food: 3800
   flight_hours: "約14〜16時間（ホーチミン経由、シアヌークビルから船で約1時間）"
   recommended_nights: "5泊以上"
   visa: "必要（eビザ推奨、約36ドル）"

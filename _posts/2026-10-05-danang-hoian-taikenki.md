@@ -3,6 +3,7 @@ author: makoto
 layout: post
 title: "ダナン・ホイアンへ行ってきました｜バインミー食べ比べとランタンの夜"
 date: 2026-10-05
+related_guide: danang-hoian-guide
 image: "https://tripxtrip.com/assets/images/danang-hoian-taikenki/resort-infinity-pool-day.jpg"
 categories: [ベトナム, 島, 体験記]
 excerpt: "ダナンのビーチリゾートを拠点に、ホイアンまで足を伸ばして食べ歩き。バインミーの名店を2軒食べ比べたり、無言で過ごす珍しいお茶屋さんに行ったり、リアルな記録です。"

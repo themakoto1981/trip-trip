@@ -2,6 +2,7 @@
 layout: post
 title: "コクード島ビーチ完全ガイド｜行き方・ベストシーズン・予算・持ち物まとめ"
 date: 2026-10-26
+last_verified: 2026-11-05
 image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Koh_Kut%2C_Thailand%2C_Palms_on_the_beach.jpg/960px-Koh_Kut%2C_Thailand%2C_Palms_on_the_beach.jpg"
 categories: [タイ, 島]
 excerpt: "カンボジア国境に近いタイ東部の静かな島、コクード島。開発が進んでいない白砂のビーチと透明な海で、のんびり過ごしたい人に人気の基本情報をまとめました。"

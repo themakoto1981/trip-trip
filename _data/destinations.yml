@@ -803,6 +803,15 @@
   transport_max: 5000
   food_min: 2000
   food_max: 5000
+  yasu_hotel: 3500
+  yasu_transport: 1500
+  yasu_food: 2000
+  yuru_hotel: 10000
+  yuru_transport: 3000
+  yuru_food: 3500
+  ragu_hotel: 135000
+  ragu_transport: 5000
+  ragu_food: 5000
   flight_hours: "約7〜8時間（ホーチミン直行便＋国内線約50分）"
   recommended_nights: "3泊以上"
   visa: "不要（45日以内）"

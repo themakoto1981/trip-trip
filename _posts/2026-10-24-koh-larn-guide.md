@@ -2,6 +2,7 @@
 layout: post
 title: "ラン島ビーチ完全ガイド｜行き方・ベストシーズン・予算・持ち物まとめ"
 date: 2026-10-24
+last_verified: 2026-11-05
 image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Ile_de_Koh_Larn_%28Ile_de_corail%29.jpg/960px-Ile_de_Koh_Larn_%28Ile_de_corail%29.jpg"
 categories: [タイ, 島]
 excerpt: "パタヤからスピードボートでわずか20分。コーラルアイランドとも呼ばれる、白砂と透明度の高い海が魅力の小さな島の基本情報をまとめました。"

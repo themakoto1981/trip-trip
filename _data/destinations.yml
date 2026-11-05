@@ -980,6 +980,15 @@
   transport_max: 15000
   food_min: 2500
   food_max: 6500
+  yasu_hotel: 6500
+  yasu_transport: 8500
+  yasu_food: 3000
+  yuru_hotel: 19500
+  yuru_transport: 11000
+  yuru_food: 4500
+  ragu_hotel: 34000
+  ragu_transport: 14000
+  ragu_food: 6500
   flight_hours: "約7〜8時間（デンパサール直行便）、パダンバイから高速ボートで約2時間"
   recommended_nights: "4泊以上"
   visa: "不要（30日以内）"

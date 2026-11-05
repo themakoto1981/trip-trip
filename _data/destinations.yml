@@ -354,6 +354,15 @@
   transport_max: 3000
   food_min: 2000
   food_max: 4500
+  yasu_hotel: 8500
+  yasu_transport: 1500
+  yasu_food: 2000
+  yuru_hotel: 10000
+  yuru_transport: 2200
+  yuru_food: 2800
+  ragu_hotel: 26000
+  ragu_transport: 3200
+  ragu_food: 5000
   flight_hours: "約7〜8時間（ジャカルタ直行便）、パリ島へは日帰りでアンチョール港からフェリー約1〜1.5時間"
   recommended_nights: "2泊以上"
   visa: "不要（30日以内）"

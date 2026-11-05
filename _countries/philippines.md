@@ -2,6 +2,8 @@
 title: フィリピン
 flag: "🇵🇭"
 excerpt: "7,000以上の島々からなる、ビーチリゾートの宝庫。英語が通じやすく旅行しやすい国です。"
+description: "7,000以上の島々からなる、ビーチリゾートの宝庫。英語が通じやすく旅行しやすい国です。"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Island_lagoon_in_Bacuit_Bay%2C_El_Nido%2C_Palawan%2C_Philippines.jpg/960px-Island_lagoon_in_Bacuit_Bay%2C_El_Nido%2C_Palawan%2C_Philippines.jpg"
 ---
 
 **フィリピン**は7,000以上の島々からなる東南アジアの島嶼国家です。ビーチリゾートが非常に充実しており、ボラカイ島をはじめ世界的に評価の高いビーチが多数あります。

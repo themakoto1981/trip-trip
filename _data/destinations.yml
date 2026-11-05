@@ -940,6 +940,15 @@
   transport_max: 4500
   food_min: 2500
   food_max: 6000
+  yasu_hotel: 7000
+  yasu_transport: 2200
+  yasu_food: 3000
+  yuru_hotel: 11000
+  yuru_transport: 3200
+  yuru_food: 4500
+  ragu_hotel: 35000
+  ragu_transport: 4500
+  ragu_food: 6500
   flight_hours: "約9〜11時間（クアラルンプール経由、メルシンまでバス約4〜5時間＋フェリー約1.5〜2時間）"
   recommended_nights: "6泊以上"
   visa: "不要（90日以内）"

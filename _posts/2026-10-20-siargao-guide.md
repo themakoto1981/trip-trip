@@ -2,6 +2,7 @@
 layout: post
 title: "シアルガオ島完全ガイド｜行き方・ベストシーズン・予算・持ち物まとめ"
 date: 2026-10-20
+last_verified: 2026-11-05
 image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Surfing_%40_Siargao.jpg/960px-Surfing_%40_Siargao.jpg"
 categories: [フィリピン, 島]
 excerpt: "世界的サーファーが集まる「サーフィンの聖地」シアルガオ島。ラグーンや離島ツアーも充実した、南国フィリピンの秘島への行き方と予算をまとめました。"

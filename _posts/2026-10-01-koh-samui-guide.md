@@ -2,6 +2,7 @@
 layout: post
 title: "サムイ島ビーチ完全ガイド｜行き方・ベストシーズン・予算・持ち物まとめ"
 date: 2026-10-01
+last_verified: 2026-11-05
 image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Koh_Samui%2C_Island%2C_Beach%2C_Thailand.jpg/960px-Koh_Samui%2C_Island%2C_Beach%2C_Thailand.jpg"
 categories: [タイ, 島]
 excerpt: "タイ湾に浮かぶ南国リゾート、サムイ島の行き方・予算・ベストシーズンをまとめました。他のタイのビーチとは乾季・雨季が逆になる点に注意です。"

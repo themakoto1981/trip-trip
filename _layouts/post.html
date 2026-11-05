@@ -23,10 +23,10 @@ layout: default
     <p class="post-meta">
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {%- assign date_format = site.minima.date_format | default: "%Y年%-m月%-d日" -%}
-        {{ page.date | date: date_format }}
+        作成：{{ page.date | date: date_format }}
       </time>
       {%- if page.last_verified -%}
-      <span class="post-meta-verified">料金・フライト情報は{{ page.last_verified | date: "%Y年%-m月" }}時点で確認したものです</span>
+      <span class="post-meta-verified">更新：{{ page.last_verified | date: date_format }}</span>
       {%- endif -%}
     </p>
     {%- endif -%}

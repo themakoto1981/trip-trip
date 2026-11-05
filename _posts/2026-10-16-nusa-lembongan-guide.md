@@ -55,7 +55,7 @@ excerpt: "バリ島のサヌールから高速ボートで約30分、のんび�
 
 **3日目（ヌサレンボンガン泊）**
 - 11:00　サヌールから高速ボート（[12go.asiaで予約可](https://12go.asia/en/travel/sanur/nusa-lembongan?z=17114820)）でヌサレンボンガン島へ（約30分。サヌール発は午前から午後まで複数便あり、09:00台に慌てて出る必要はない）
-- 11:45頃　[Hai Tide Beach Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D89174811)にチェックイン
+- 11:45頃　[Lembongan Hostel](https://www.booking.com/searchresults.html?ss=Lembongan%20Hostel)にチェックイン
 - 15:00　ジャングットバトゥのビーチで夕日を眺める
 
 **4日目（終日フリー）**
@@ -89,7 +89,7 @@ excerpt: "バリ島のサヌールから高速ボートで約30分、のんび�
 
 **2日目（ヌサレンボンガン泊）**
 - 11:00　サヌールから高速ボート（[12go.asiaで予約可](https://12go.asia/en/travel/sanur/nusa-lembongan?z=17114820)）でヌサレンボンガン島へ（約30分）
-- 11:45頃　[Hai Tide Beach Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D89174811)にチェックイン
+- 11:45頃　[Lembongan Hostel](https://www.booking.com/searchresults.html?ss=Lembongan%20Hostel)にチェックイン
 - 15:00　ジャングットバトゥのビーチで夕日を眺める
 
 **3日目（終日フリー）**

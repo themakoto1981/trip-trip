@@ -296,6 +296,15 @@
   transport_max: 2500
   food_min: 2500
   food_max: 5500
+  yasu_hotel: 2500
+  yasu_transport: 1000
+  yasu_food: 2500
+  yuru_hotel: 7000
+  yuru_transport: 2000
+  yuru_food: 4000
+  ragu_hotel: 14000
+  ragu_transport: 3500
+  ragu_food: 7000
   flight_hours: "約10〜12時間（バンコク経由、トラート空港からフェリーで約40分）"
   recommended_nights: "4泊以上"
   visa: "不要（30日以内）"

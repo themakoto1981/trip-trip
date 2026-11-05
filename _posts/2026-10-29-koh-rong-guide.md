@@ -2,6 +2,7 @@
 layout: post
 title: "ロン島ビーチ完全ガイド｜行き方・ベストシーズン・予算・持ち物まとめ"
 date: 2026-10-29
+last_verified: 2026-11-05
 image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Long-beach-kog-rong-cambodia.jpg/960px-Long-beach-kog-rong-cambodia.jpg"
 categories: [カンボジア, 島]
 excerpt: "白砂のロングビーチと夜光虫で知られる、カンボジア随一の離島。ゲートウェイのシアヌークビルから船で渡る、まだ観光地化しすぎていないビーチの基本情報をまとめました。"

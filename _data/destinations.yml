@@ -763,7 +763,7 @@
   transport_max: 10000
   food_min: 2500
   food_max: 6000
-  yasu_hotel: 25000
+  yasu_hotel: 3000
   yasu_transport: 5000
   yasu_food: 2500
   yuru_hotel: 10500

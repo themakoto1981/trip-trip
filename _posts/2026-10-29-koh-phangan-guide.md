@@ -2,6 +2,7 @@
 layout: post
 title: "パンガン島ビーチ完全ガイド｜行き方・ベストシーズン・予算・持ち物まとめ"
 date: 2026-10-29
+last_verified: 2026-11-05
 image: "https://tripxtrip.com/assets/images/koh-phangan-guide/fullmoon-sign-dusk.jpg"
 categories: [タイ, 島]
 excerpt: "満月の夜に世界中からパーティー好きが集まるフルムーンパーティーで有名な島。離れれば静かなビーチもたっぷりの、サムイ・タオ島と並ぶタイ湾3島の最後の1つの基本情報をまとめました。"

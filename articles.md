@@ -1,6 +1,8 @@
 ---
 layout: page
 title: 記事から決める
+description: "TRIP×TRIPに掲載中のガイド記事・体験記・比較記事を一覧で探せます。島名や国から目的の記事を見つけられます。"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Pulau_Redang_-_White_sandy_beach.jpg/960px-Pulau_Redang_-_White_sandy_beach.jpg"
 permalink: /articles/
 ---
 

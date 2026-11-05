@@ -86,8 +86,8 @@ layout: default
   document.getElementById('search-summary').textContent = '条件: ' + summaryParts.join('／');
 
   var withTotals = destinations.map(function (d) {
-    var stayMin = (d.hotel_min + d.transport_min + d.food_min) * nights;
-    var stayMax = (d.hotel_max + d.transport_max + d.food_max) * nights;
+    var stayMin = (d.yasu_hotel + d.yasu_transport + d.yasu_food) * nights;
+    var stayMax = (d.ragu_hotel + d.ragu_transport + d.ragu_food) * nights;
     var totalMin = d.flight_min + stayMin;
     var totalMax = d.flight_max + stayMax;
     var inSeason = !d.best_months || d.best_months.indexOf(currentMonth) !== -1;
@@ -153,9 +153,9 @@ layout: default
       var tagBadge = (d.tagScore !== null)
         ? '<span class="mini-season on">相性スコア ' + d.tagScore + '/10</span>'
         : '';
-      var hotelTotalMin = d.hotel_min * nights, hotelTotalMax = d.hotel_max * nights;
-      var transportTotalMin = d.transport_min * nights, transportTotalMax = d.transport_max * nights;
-      var foodTotalMin = d.food_min * nights, foodTotalMax = d.food_max * nights;
+      var hotelTotalMin = d.yasu_hotel * nights, hotelTotalMax = d.ragu_hotel * nights;
+      var transportTotalMin = d.yasu_transport * nights, transportTotalMax = d.ragu_transport * nights;
+      var foodTotalMin = d.yasu_food * nights, foodTotalMax = d.ragu_food * nights;
       var breakdown = '<ul class="cost-breakdown">' +
         '<li>航空券（往復）: ' + d.flight_min.toLocaleString() + '〜' + d.flight_max.toLocaleString() + '円</li>' +
         '<li>宿泊（' + (nightsLabelMap[nights] || nights + '泊') + '）: ' + hotelTotalMin.toLocaleString() + '〜' + hotelTotalMax.toLocaleString() + '円</li>' +

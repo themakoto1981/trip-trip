@@ -2,6 +2,7 @@
 layout: post
 title: "ウェ島ビーチ完全ガイド｜行き方・ベストシーズン・予算・持ち物まとめ"
 date: 2026-11-04
+last_verified: 2026-11-05
 image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Gapang_Beach%2C_Sabang%2C_Aceh.jpg/960px-Gapang_Beach%2C_Sabang%2C_Aceh.jpg"
 categories: [インドネシア, 島]
 excerpt: "スマトラ島の北端、インドネシア最西の離島ウェ島。透き通る海でのシュノーケリングとダイビングが目当ての、静かなビーチステイの基本情報をまとめました。"

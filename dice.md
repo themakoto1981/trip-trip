@@ -1,6 +1,8 @@
 ---
 layout: page
 title: サイコロで決める
+description: "決められないときはサイコロでランダムに島を提案。気になる島が出たら詳細ガイドをチェックできます。"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Surfing_%40_Siargao.jpg/960px-Surfing_%40_Siargao.jpg"
 permalink: /dice/
 hide_header: true
 ---

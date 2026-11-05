@@ -2,6 +2,7 @@
 layout: post
 title: "コンダオ島ビーチ完全ガイド｜行き方・ベストシーズン・予算・持ち物まとめ"
 date: 2026-10-19
+last_verified: 2026-11-05
 image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/C%C3%B4n_%C4%90%E1%BA%A3o_National_Park.jpg/960px-C%C3%B4n_%C4%90%E1%BA%A3o_National_Park.jpg"
 categories: [ベトナム, 島]
 excerpt: "「ベトナム最後の楽園」と呼ばれる南シナ海の秘島コンダオ。フランス統治時代の監獄跡とウミガメの産卵地、日本からの旅行者もまだ多くない今だからこその基本情報をまとめました。"

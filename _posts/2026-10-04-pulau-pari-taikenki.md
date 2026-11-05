@@ -3,6 +3,7 @@ author: makoto
 layout: post
 title: "パリ島へ行ってきました｜野生のイルカと出会う弾丸日帰り旅行記"
 date: 2026-10-04
+related_guide: pulau-pari-guide
 image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Pantai_Perawan_Pulau_Pari_Kepulauan_Seribu.jpg/960px-Pantai_Perawan_Pulau_Pari_Kepulauan_Seribu.jpg"
 categories: [インドネシア, 島, 体験記]
 excerpt: "ジャカルタ駐在時代の友人に誘われて、パリ島へ弾丸日帰り旅行。道中まさかの野生イルカとの遭遇、大量の魚に出会えたシュノーケリングまで、リアルな記録です。"

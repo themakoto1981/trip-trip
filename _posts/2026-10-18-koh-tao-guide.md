@@ -2,6 +2,7 @@
 layout: post
 title: "タオ島ビーチ完全ガイド｜行き方・ベストシーズン・予算・持ち物まとめ"
 date: 2026-10-18
+last_verified: 2026-11-05
 image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Koh_Tao_Sairee_Beach.jpg/960px-Koh_Tao_Sairee_Beach.jpg"
 categories: [タイ, 島]
 excerpt: "世界屈指のダイビングスポットとして知られるタイ湾の小島、タオ島。透明度の高い海と手頃なダイビングライセンス取得で人気の基本情報をまとめました。"

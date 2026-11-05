@@ -2,6 +2,8 @@
 title: タイ
 flag: "🇹🇭"
 excerpt: "「微笑みの国」と呼ばれる親日的な国。仏教文化と南部の人気リゾートが魅力です。"
+description: "「微笑みの国」と呼ばれる親日的な国。仏教文化と南部の人気リゾートが魅力です。"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Patong_Beach_Phuket_November_2012.jpg/960px-Patong_Beach_Phuket_November_2012.jpg"
 ---
 
 **タイ**は東南アジア屈指の観光大国で、「微笑みの国」と呼ばれるほど親日的でホスピタリティにあふれています。仏教文化が生活に根付いており、南部にはプーケットやピピ島などの世界的な人気リゾートが集まっています。

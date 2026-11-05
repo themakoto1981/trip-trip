@@ -1,15 +1,30 @@
 # 島・ビーチ情報のマスターデータ
 # 現在は東南アジアの島・ビーチに絞って運用中です（2026年9月28日〜）。
 # 新しい島の記事を追加したら、ここにも1件追加してください（地図ピン・検索用）
-# flight_min/flight_max: 日本からの往復航空券の目安（円）
+#
+# --- フィールド定義（全34件で必須。将来DBへ移行する場合はこの単位がテーブルのカラムに対応） ---
+# name: 表示名（日本語）
+# en_name: 英語名・国名（内部識別用）
+# slug: 記事のURLスラッグ（一意のID。postのslugと一致させる）
+# country / country_slug: 国名（日本語）／国スラッグ（_countries/*.mdのslugと一致）
+# description: 検索結果カード用の短い説明文（海の特徴・雰囲気・向いている人を40〜70字程度で）
+# lat/lng: 地図ピン用の緯度経度
+# flight_min/flight_max: 東京発の往復航空券の目安（円）
+# flight_min_kansai/flight_max_kansai: 関西発の往復航空券の目安（円）。東京発と同額にしない（実際の航空会社・路線を調査する）
 # hotel_min/hotel_max: 現地宿泊費（1泊あたり、円）
 # transport_min/transport_max: 現地移動費（1日あたり、円）
 # food_min/food_max: 食費・アクティビティ（1日あたり、円）
 # flight_hours: 日本からの片道移動時間の目安（テキスト）
-# recommended_nights: おすすめの宿泊日数（テキスト）
-# suited_for: 向いている同行者タイプ（solo/couple/family/friends）
-# best_months: おすすめの月（1-12の配列、記事内での参考表示用）
-# lat/lng: 地図ピン用の緯度経度
+# recommended_nights: おすすめの宿泊日数（テキスト、先頭の数字が検索の日数フィルタに使われる）
+# visa: ビザの要否・条件（テキスト）
+# photo: 検索結果・記事ヘッダー用の代表写真URL
+# photo_credit_url: photoの出典URL（Wikimedia Commons等）。自社撮影・自社ホスト画像の場合は空文字 "" を入れる（キー自体は省略しない）
+# suited_for: 向いている同行者タイプ（solo/couple/family/friendsの配列）
+# best_months: おすすめの月（1-12の配列、記事内・検索結果でのベストシーズン判定に使用）
+# budget_tags: 予算プラン（やす旅/ゆる旅/らぐ旅）ごとに紐づく持ち物・準備チェックリストのタグID配列（yasu/yuru/ragu）
+# url: 記事の相対URL（先頭 / あり、末尾 / あり）
+# tags: 検索タグとの相性スコア（beach/resort/island/city_base/sightseeing/relax/party/activity、各0-5）
+# ------------------------------------------------------------------------------------------------
 - name: ボラカイ島
   en_name: "Boracay, Philippines"
   slug: boracay-guide

@@ -2,6 +2,7 @@
 layout: post
 title: "エルニド（パラワン島）ビーチ完全ガイド｜行き方・ベストシーズン・予算・持ち物まとめ"
 date: 2026-10-10
+last_verified: 2026-11-05
 image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Island_lagoon_in_Bacuit_Bay%2C_El_Nido%2C_Palawan%2C_Philippines.jpg/960px-Island_lagoon_in_Bacuit_Bay%2C_El_Nido%2C_Palawan%2C_Philippines.jpg"
 categories: [フィリピン, 島]
 excerpt: "石灰岩の断崖とエメラルドグリーンの入り江が広がるパラワン島北部の町エルニド。アイランドホッピングの聖地の基本情報をまとめました。"

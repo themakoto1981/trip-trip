@@ -2,6 +2,7 @@
 layout: post
 title: "ニャチャンビーチ完全ガイド｜行き方・ベストシーズン・予算・持ち物まとめ"
 date: 2026-10-22
+last_verified: 2026-11-05
 image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Nha_Trang_Beach_7.jpg/960px-Nha_Trang_Beach_7.jpg"
 categories: [ベトナム, 島]
 excerpt: "韓国やヨーロッパでは急成長中なのに、日本人にはまだあまり知られていないビーチリゾート、ニャチャン。世界最長級の海上ロープウェイで渡るリゾート島の基本情報をまとめました。"

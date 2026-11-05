@@ -2,6 +2,7 @@
 layout: post
 title: "セブ島ビーチ完全ガイド｜行き方・ベストシーズン・予算・持ち物まとめ"
 date: 2026-10-15
+last_verified: 2026-11-05
 image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Mactan-beach.jpg/960px-Mactan-beach.jpg"
 categories: [フィリピン, 島]
 excerpt: "成田・関西から直行便で約5時間、空港から近いリゾートエリアとジンベイザメ・滝めぐりが魅力のセブ島。初めての東南アジアリゾートにも向いた基本情報をまとめました。"

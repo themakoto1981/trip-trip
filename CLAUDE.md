@@ -130,7 +130,7 @@
 
 ## 8. 公開前チェックリスト
 
-- [ ] `destinations.yml` に必要フィールドが揃っているか（`visa`・`photo`・`photo_credit_url`・`en_name` 含む）
+- [ ] `destinations.yml` に必要フィールドが揃っているか（`visa`・`photo`・`photo_credit_url`・`en_name` 含む）（`ruby scripts/validate_destinations.rb` で機械チェックできる。東京発と関西発の航空券価格が同額のままになっていないかもここで検出される）
 - [ ] 予算見出しの泊数と旅程の泊数が一致しているか
 - [ ] `recommended_nights` が「日程の現実性」ルールに沿っているか
 - [ ] `spots.yml` にこの記事のエントリがあるか（地図が表示されない原因の大半はここの欠落）

@@ -49,7 +49,7 @@ excerpt: "スマトラ島の北端、インドネシア最西の離島ウェ島�
 
 **1日目（クアラルンプール泊）**
 - 09:30　成田発（AirAsia X D7553、約7時間15分）
-- 16:45頃　クアラルンプール着。入国審査後、空港近くの宿で休憩
+- 16:45頃　クアラルンプール着。入国審査後、空港近くの[Tune Hotel klia2](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D3352391)で1泊
 
 **2日目（ウェ島泊）**
 - 08:00　クアラルンプール発（AirAsia、バンダアチェ行き、約1時間35分）

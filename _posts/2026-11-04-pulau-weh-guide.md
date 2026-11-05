@@ -164,7 +164,7 @@ ANA・JALに関西発ジャカルタ直行便が無いため、関西発はス�
 
 **1日目（ジャカルタ空港そば泊）**
 - 11:15　成田発（JAL JL725、ジャカルタ行き、約7時間50分）
-- 17:05　ジャカルタ着。入国審査・荷物受取後、翌朝の便に備えて[Pullman Jakarta Indonesia CBD](https://www.booking.com/searchresults.html?ss=Pullman%20Jakarta%20Indonesia)などの上質なホテルへ
+- 17:05　ジャカルタ着。入国審査・荷物受取後、翌朝の便に備えて[Sheraton Jakarta Soekarno Hatta Airport](https://www.booking.com/searchresults.html?ss=Sheraton%20Jakarta%20Soekarno%20Hatta%20Airport)などの空港そばの上質なホテルへ
 
 **2日目（ウェ島泊）**
 - 08:00　ジャカルタ発（ガルーダ・インドネシア航空、バンダアチェ行き、約2時間50分）
@@ -194,7 +194,7 @@ ANA・JALに関西発ジャカルタ直行便が無いため、関西発はス�
 - 15:15　関空発（スクートTR819、約6時間55分）
 - 21:10　シンガポール着
 - 22:30頃　シンガポール発（スクート、約1時間15分）
-- 23:45頃　ジャカルタ着。入国審査・荷物受取後、翌朝の便に備えて[Pullman Jakarta Indonesia CBD](https://www.booking.com/searchresults.html?ss=Pullman%20Jakarta%20Indonesia)などの上質なホテルへ（深夜到着・早朝出発のため空港至近の宿で仮眠）
+- 23:45頃　ジャカルタ着。入国審査・荷物受取後、翌朝の便に備えて[Sheraton Jakarta Soekarno Hatta Airport](https://www.booking.com/searchresults.html?ss=Sheraton%20Jakarta%20Soekarno%20Hatta%20Airport)などの空港そばの上質なホテルへ（深夜到着・早朝出発のため空港至近の宿で仮眠）
 
 **2日目（ウェ島泊）**
 - 08:00　ジャカルタ発（ガルーダ・インドネシア航空、バンダアチェ行き、約2時間50分）

@@ -514,6 +514,15 @@
   transport_max: 2500
   food_min: 2000
   food_max: 5000
+  yasu_hotel: 6500
+  yasu_transport: 1200
+  yasu_food: 2000
+  yuru_hotel: 10000
+  yuru_transport: 1800
+  yuru_food: 3000
+  ragu_hotel: 28000
+  ragu_transport: 2800
+  ragu_food: 5500
   flight_hours: "約5時間40分（直行便）"
   recommended_nights: "2泊3日"
   visa: "不要（45日以内）"

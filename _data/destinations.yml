@@ -721,6 +721,7 @@
   slug: krabi-guide
   country: タイ
   country_slug: thailand
+  description: "石灰岩の断崖に囲まれ道路がないため船でしか行けない半島。断崖そのものがロッククライミングの聖地として有名。"
   lat: 8.0126
   lng: 98.8372
   flight_min: 45000

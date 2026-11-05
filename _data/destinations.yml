@@ -43,6 +43,15 @@
   transport_max: 2000
   food_min: 3000
   food_max: 6000
+  yasu_hotel: 3000
+  yasu_transport: 1000
+  yasu_food: 3000
+  yuru_hotel: 12000
+  yuru_transport: 1500
+  yuru_food: 4500
+  ragu_hotel: 78000
+  ragu_transport: 2500
+  ragu_food: 7500
   flight_hours: "約9〜12時間（マニラ経由）"
   recommended_nights: "4〜5泊"
   visa: "不要（30日以内）"

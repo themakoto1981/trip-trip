@@ -2,6 +2,7 @@
 layout: post
 title: "カミギン島ビーチ完全ガイド｜行き方・ベストシーズン・予算・持ち物まとめ"
 date: 2026-10-21
+last_verified: 2026-11-05
 image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Sunken_Cemetery%2C_Camiguin.jpg/960px-Sunken_Cemetery%2C_Camiguin.jpg"
 categories: [フィリピン, 島]
 excerpt: "火山が生んだ「火の島」カミギン。海に浮かぶ白い砂州ホワイトアイランドや沈んだ墓地、温泉と滝まで揃うフィリピン・ミンダナオ海の小さな島への行き方と予算をまとめました。"

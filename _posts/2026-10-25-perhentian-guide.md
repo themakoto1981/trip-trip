@@ -12,7 +12,7 @@ excerpt: "マレーシア半島の東海岸沖、南シナ海に浮かぶ2つの
 
 ## 行き方
 
-島までの直行便はなく、クアラルンプールからバスでクアラブス桟橋へ向かい、そこからスピードボートで約40分かけて渡ります。関西空港からもエアアジアXの直行便があり、下記の予算プランは東京発・関西発を切り替えて確認できます<br><a class="schedule-tag" href="https://12go.asia/en/travel/kuala-lumpur/kuala-besut?z=16187692" target="_blank" rel="noopener noreferrer">12go.asiaで予約・最新スケジュール</a>
+島までの直行便はなく、クアラルンプール経由が基本です。クアラルンプールへは成田・関西どちらからもエアアジアXの直行便があります。そこからバスでクアラブス桟橋へ向かい、スピードボートで約40分かけて渡ります<br><a class="schedule-tag" href="https://12go.asia/en/travel/kuala-lumpur/kuala-besut?z=16187692" target="_blank" rel="noopener noreferrer">12go.asiaで予約・最新スケジュール</a>
 
 - **島内の移動**：ロングビーチとコーラルベイの間は徒歩か水上タクシーで移動します。ブサール島へは別途ボートが必要です。
 - **マリンパーク保護料**：クアラブス桟橋で乗船時に支払います（外国人はRM100前後／約3,400円）。

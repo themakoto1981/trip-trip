@@ -2,6 +2,7 @@
 layout: post
 title: "ヌサレンボンガン島ビーチ完全ガイド｜行き方・ベストシーズン・予算・持ち物まとめ"
 date: 2026-10-16
+last_verified: 2026-11-05
 image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Nusa_Lembongan_-_aqua_waters_of_Mushroom_Bay.jpg/960px-Nusa_Lembongan_-_aqua_waters_of_Mushroom_Bay.jpg"
 categories: [インドネシア, 島]
 excerpt: "バリ島のサヌールから高速ボートで約30分、のんびりした島時間が流れるヌサレンボンガン島。マッシュルームベイやドリームビーチなど、基本情報をまとめました。"

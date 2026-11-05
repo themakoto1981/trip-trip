@@ -1269,13 +1269,135 @@ layout: default
   })();
   </script>
 
-  {%- assign country = page.categories[0] -%}
-  {%- assign related = site.categories[country] | where_exp: "p", "p.url != page.url" | slice: 0, 3 -%}
-  {%- if related.size > 0 -%}
-  <section class="related-posts">
-    <h3>{{ country }}の記事</h3>
+  {%- comment -%} ===== 関連記事(体験記/比較記事/関連ガイド) ===== {%- endcomment -%}
+  {%- assign is_taikenki = false -%}
+  {%- assign is_hikaku = false -%}
+  {%- if page.categories contains "体験記" -%}{%- assign is_taikenki = true -%}{%- endif -%}
+  {%- if page.categories contains "徹底比較" -%}{%- assign is_hikaku = true -%}{%- endif -%}
+  {%- assign has_handwritten_card = false -%}
+  {%- if page.content contains "experience-card" -%}{%- assign has_handwritten_card = true -%}{%- endif -%}
+
+  {%- assign taikenki_cards = "" | split: "," -%}
+  {%- assign hikaku_cards = "" | split: "," -%}
+  {%- assign guide_cards = "" | split: "," -%}
+
+  {%- if is_taikenki == false and is_hikaku == false -%}
+    {%- comment -%} ガイド記事: 体験記/比較記事/関連ガイドを個別に集める {%- endcomment -%}
+    {%- unless has_handwritten_card -%}
+      {%- assign taikenki_cards = site.posts | where_exp: "p", "p.related_guide == page.slug" | sort: "date" | reverse -%}
+      {%- assign hikaku_cards = site.posts | where_exp: "p", "p.related_guides contains page.slug" | sort: "date" | reverse -%}
+    {%- endunless -%}
+
+    {%- comment -%} tier1: 比較記事のrelated_guidesで自分と同じ配列に入っている相手ガイド(明示的関連) {%- endcomment -%}
+    {%- assign all_hikaku_for_this = site.posts | where_exp: "p", "p.related_guides contains page.slug" -%}
+    {%- assign explicit_slugs_str = "" -%}
+    {%- for h in all_hikaku_for_this -%}
+      {%- for s in h.related_guides -%}
+        {%- if s != page.slug -%}
+          {%- assign explicit_slugs_str = explicit_slugs_str | append: s | append: "|" -%}
+        {%- endif -%}
+      {%- endfor -%}
+    {%- endfor -%}
+    {%- assign explicit_slugs = explicit_slugs_str | split: "|" -%}
+    {%- assign guide_cards = site.posts | where_exp: "p", "explicit_slugs contains p.slug" | sort: "date" | reverse -%}
+    {%- assign guide_cards_count = guide_cards | size -%}
+
+    {%- comment -%} tier2: 同じ国の他のガイド(destinations.ymlのcountry_slugで判定) {%- endcomment -%}
+    {%- assign dest = site.data.destinations | where: "slug", page.slug | first -%}
+    {%- if guide_cards_count < 3 and dest -%}
+      {%- assign same_country_slugs_str = "" -%}
+      {%- assign country_dests = site.data.destinations | where: "country_slug", dest.country_slug -%}
+      {%- for d in country_dests -%}
+        {%- assign already = false -%}
+        {%- if d.slug == page.slug -%}{%- assign already = true -%}{%- endif -%}
+        {%- for g in guide_cards -%}{%- if g.slug == d.slug -%}{%- assign already = true -%}{%- endif -%}{%- endfor -%}
+        {%- unless already -%}
+          {%- assign same_country_slugs_str = same_country_slugs_str | append: d.slug | append: "|" -%}
+        {%- endunless -%}
+      {%- endfor -%}
+      {%- assign same_country_slugs = same_country_slugs_str | split: "|" -%}
+      {%- assign same_country_posts = site.posts | where_exp: "p", "same_country_slugs contains p.slug" | sort: "date" | reverse -%}
+      {%- assign need1 = 3 | minus: guide_cards_count -%}
+      {%- assign guide_cards = guide_cards | concat: same_country_posts | slice: 0, 3 -%}
+      {%- assign guide_cards_count = guide_cards | size -%}
+    {%- endif -%}
+
+    {%- comment -%} tier3: suited_forの重なり(最後の補完のみ) {%- endcomment -%}
+    {%- if guide_cards_count < 2 and dest -%}
+      {%- assign suited_slugs_str = "" -%}
+      {%- for d in site.data.destinations -%}
+        {%- assign overlap = false -%}
+        {%- for tag in d.suited_for -%}
+          {%- if dest.suited_for contains tag -%}{%- assign overlap = true -%}{%- endif -%}
+        {%- endfor -%}
+        {%- assign already2 = false -%}
+        {%- if d.slug == page.slug -%}{%- assign already2 = true -%}{%- endif -%}
+        {%- for g in guide_cards -%}{%- if g.slug == d.slug -%}{%- assign already2 = true -%}{%- endif -%}{%- endfor -%}
+        {%- if overlap and already2 == false -%}
+          {%- assign suited_slugs_str = suited_slugs_str | append: d.slug | append: "|" -%}
+        {%- endif -%}
+      {%- endfor -%}
+      {%- assign suited_slugs = suited_slugs_str | split: "|" -%}
+      {%- assign suited_posts = site.posts | where_exp: "p", "suited_slugs contains p.slug" | sort: "date" | reverse -%}
+      {%- assign guide_cards = guide_cards | concat: suited_posts | slice: 0, 3 -%}
+    {%- endif -%}
+  {%- else -%}
+    {%- comment -%} 体験記/比較記事: 対応するガイドを表示 {%- endcomment -%}
+    {%- unless has_handwritten_card -%}
+      {%- if page.related_guide -%}
+        {%- assign guide_cards = site.posts | where_exp: "p", "p.slug == page.related_guide" -%}
+      {%- elsif page.related_guides -%}
+        {%- assign rg = page.related_guides -%}
+        {%- assign guide_cards = site.posts | where_exp: "p", "rg contains p.slug" -%}
+      {%- endif -%}
+    {%- endunless -%}
+  {%- endif -%}
+
+  {%- if taikenki_cards.size > 0 -%}
+  <section class="related-posts related-posts-taikenki">
+    <h3>体験記</h3>
     <div class="related-list">
-      {%- for p in related -%}
+      {%- for p in taikenki_cards -%}
+      {%- assign p_title_parts = p.title | split: "｜" -%}
+      {%- if p_title_parts.size > 1 and p.categories contains p_title_parts[0] -%}
+        {%- assign p_card_title = p_title_parts[1] -%}
+      {%- else -%}
+        {%- assign p_card_title = p_title_parts[0] -%}
+      {%- endif -%}
+      <a class="related-card" href="{{ p.url | relative_url }}">
+        {%- if p.image -%}<img src="{{ p.image }}" alt="{{ p_card_title | escape }}" loading="lazy">{%- endif -%}
+        <span class="related-card-title">{{ p_card_title }}</span>
+      </a>
+      {%- endfor -%}
+    </div>
+  </section>
+  {%- endif -%}
+
+  {%- if hikaku_cards.size > 0 -%}
+  <section class="related-posts related-posts-hikaku">
+    <h3>比較記事</h3>
+    <div class="related-list">
+      {%- for p in hikaku_cards -%}
+      {%- assign p_title_parts = p.title | split: "｜" -%}
+      {%- if p_title_parts.size > 1 and p.categories contains p_title_parts[0] -%}
+        {%- assign p_card_title = p_title_parts[1] -%}
+      {%- else -%}
+        {%- assign p_card_title = p_title_parts[0] -%}
+      {%- endif -%}
+      <a class="related-card" href="{{ p.url | relative_url }}">
+        {%- if p.image -%}<img src="{{ p.image }}" alt="{{ p_card_title | escape }}" loading="lazy">{%- endif -%}
+        <span class="related-card-title">{{ p_card_title }}</span>
+      </a>
+      {%- endfor -%}
+    </div>
+  </section>
+  {%- endif -%}
+
+  {%- if guide_cards.size > 0 -%}
+  <section class="related-posts related-posts-guide">
+    <h3>{%- if is_taikenki or is_hikaku -%}関連ガイド{%- else -%}こちらもおすすめ{%- endif -%}</h3>
+    <div class="related-list">
+      {%- for p in guide_cards -%}
       {%- assign p_title_parts = p.title | split: "｜" -%}
       {%- if p_title_parts.size > 1 and p.categories contains p_title_parts[0] -%}
         {%- assign p_card_title = p_title_parts[1] -%}

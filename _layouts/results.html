@@ -34,6 +34,7 @@ layout: default
     margin-bottom: 0.2rem;
   }
   .result-card-meta { color: var(--sb-brown-soft); font-size: 0.9rem; margin-bottom: 0.5rem; }
+  .result-card-desc { color: var(--sb-brown-soft); font-size: 0.88rem; line-height: 1.6; margin: 0.1rem 0 0.5rem; }
   .result-breakdown summary {
     cursor: pointer;
     font-size: 0.85rem;
@@ -57,10 +58,12 @@ layout: default
 <h1>検索結果</h1>
 <p class="search-summary" id="search-summary"></p>
 <ul id="result-list"></ul>
-<a class="back-link" href="{{ '/' | relative_url }}">← 条件を変更する</a>
+<a class="back-link" id="back-link" href="{{ '/' | relative_url }}">← 条件を変更する</a>
 
 <script>
   var destinations = {{ site.data.destinations | jsonify }};
+  document.getElementById('back-link').href = '{{ site.baseurl }}/' + window.location.search;
+
   var params = new URLSearchParams(window.location.search);
   var monthParam = params.get('month') || '';
   var nights = parseInt(params.get('nights') || '3', 10);
@@ -164,6 +167,7 @@ layout: default
         '<div class="result-card-head">' +
         '<a class="result-name" href="' + targetUrl + '">' + d.name + '（' + d.country + '）</a> ' + seasonBadge + ' ' + companionBadge + ' ' + tagBadge +
         '</div>' +
+        (d.description ? '<p class="result-card-desc">' + d.description + '</p>' : '') +
         '<div class="result-card-price">目安総額 ' + d.totalMin.toLocaleString() + '〜' + d.totalMax.toLocaleString() + '円</div>' +
         '<div class="result-card-meta">おすすめ月: ' + d.best_months.join(', ') + '月</div>' +
         '<details class="result-breakdown"><summary></summary>' + breakdown + '</details>';

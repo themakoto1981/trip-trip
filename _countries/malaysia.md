@@ -2,6 +2,8 @@
 title: マレーシア
 flag: "🇲🇾"
 excerpt: "マレー系・中華系・インド系が共存する多民族国家。多様な食文化と免税リゾートが魅力です。"
+description: "マレー系・中華系・インド系が共存する多民族国家。多様な食文化と免税リゾートが魅力です。"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Pantai_Cenang%2C_Langkawi_01.jpg/960px-Pantai_Cenang%2C_Langkawi_01.jpg"
 ---
 
 **マレーシア**はマレー系・中華系・インド系の文化が共存する多民族国家です。多様なバックグラウンドが生み出す豊かな食文化が旅の楽しみのひとつで、島全体が免税エリアのランカウイ島など個性的なリゾートも揃っています。

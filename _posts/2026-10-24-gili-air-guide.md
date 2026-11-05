@@ -2,6 +2,7 @@
 layout: post
 title: "ギリ・アイール島ビーチ完全ガイド｜行き方・ベストシーズン・予算・持ち物まとめ"
 date: 2026-10-24
+last_verified: 2026-11-05
 image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Gili-Air-%D0%93%D0%B8%D0%BB%D0%B8-%D0%90%D0%B8%D1%80.jpg/960px-Gili-Air-%D0%93%D0%B8%D0%BB%D0%B8-%D0%90%D0%B8%D1%80.jpg"
 categories: [インドネシア, 島]
 excerpt: "車もバイクも走らない、馬車と自転車だけの静かな島。ギリ3島の中で最も落ち着いた雰囲気のギリ・アイール島の基本情報をまとめました。"

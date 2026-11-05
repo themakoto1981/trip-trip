@@ -3,6 +3,7 @@ author: makoto
 layout: post
 title: "徹底比較｜一番海が綺麗なのはどこ？レダン島×リペ島"
 date: 2026-10-09
+related_guides: [redang-guide, koh-lipe-guide]
 image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Pulau_Redang_-_White_sandy_beach.jpg/960px-Pulau_Redang_-_White_sandy_beach.jpg"
 categories: [マレーシア, タイ, 徹底比較]
 excerpt: "マレーシア・レダン島とタイ・リペ島、実際に両方訪れた体験をもとに徹底比較。海の綺麗さなら？島旅としての楽しさなら？アクセス方法の違いも含めてまとめました。"

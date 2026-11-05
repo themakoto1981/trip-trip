@@ -145,20 +145,11 @@ layout: default
     var nightsMatch = (match.recommended_nights || '').match(/(\d+)/);
     var nights = nightsMatch ? parseInt(nightsMatch[1], 10) : 2;
 
-    // ホテル価格帯（hotel_min〜hotel_max）をプランごとに分けて使う。
-    // 全プランがhotel_minを共通の床にすると、ゆる旅の最安値が「安宿に泊まる想定」になってしまい、
-    // 逆にゆる旅の上限にhotel_maxをそのまま使うと「らぐ旅想定の宿代」と重なってしまうため、
-    // やす旅は価格帯の下位25%、ゆる旅は25〜60%のホテル価格を使う
-    var hotelRange = match.hotel_max - match.hotel_min;
-    var yasuHotelMax = match.hotel_min + hotelRange * 0.25;
-    var yuruHotelMin = yasuHotelMax;
-    var yuruHotelMax = match.hotel_min + hotelRange * 0.6;
-
-    var dailyMin = match.hotel_min + match.transport_min + match.food_min;
-    var dailyMax = match.hotel_max + match.transport_max + match.food_max;
-    var dailyBudgetMax = yasuHotelMax + match.transport_max + match.food_max;
-    var comfortDailyMin = yuruHotelMin + match.transport_min + match.food_min;
-    var comfortDailyMax = yuruHotelMax + match.transport_max + match.food_max;
+    // 宿泊・移動・食費はプランごとに実際の金額を確定値として持つ
+    // （yasu_hotel等、destinations.ymlで実在ホテルの相場等をもとに設定）
+    var yasuDaily = match.yasu_hotel + match.yasu_transport + match.yasu_food;
+    var yuruDaily = match.yuru_hotel + match.yuru_transport + match.yuru_food;
+    var raguDaily = match.ragu_hotel + match.ragu_transport + match.ragu_food;
 
     // 関西発の航空券データ（flight_min_kansai/flight_max_kansai）がある記事だけ、
     // 東京発/関西発トグルで金額を出し分ける。無ければ東京発の数字を関西発にもフォールバック
@@ -219,24 +210,21 @@ layout: default
       { name: 'らぐ旅', airline: 'ANA・JAL', hotel: 'リゾートのオーシャンビュー' }
     ];
     function buildBudgetTiers(flightMin, flightMax) {
-      var bTotalMin = flightMin + dailyMin * nights;
-      var bTotalMax = flightMin + dailyBudgetMax * nights;
-      var cTotalMin = flightMax + comfortDailyMin * nights;
-      var cTotalMax = flightMax + comfortDailyMax * nights;
-      var lDaily = Math.round(dailyMax * 1.6);
-      var lTotal = flightMax + lDaily * nights;
+      var yasuTotal = flightMin + yasuDaily * nights;
+      var yuruTotal = flightMax + yuruDaily * nights;
+      var raguTotal = flightMax + raguDaily * nights;
       return [
         ['やす旅',
-          bTotalMin.toLocaleString() + '〜' + bTotalMax.toLocaleString() + '円',
-          '航空券' + flightMin.toLocaleString() + '円 ＋ 宿泊/移動/食費（1泊）' + dailyMin.toLocaleString() + '〜' + dailyBudgetMax.toLocaleString() + '円 ×' + nights + '泊',
+          yasuTotal.toLocaleString() + '円',
+          '航空券' + flightMin.toLocaleString() + '円 ＋ 宿泊/移動/食費（1泊）' + yasuDaily.toLocaleString() + '円 ×' + nights + '泊',
           'とにかく費用を抑えて、シンプルに楽しみたい方に。'],
         ['ゆる旅',
-          cTotalMin.toLocaleString() + '〜' + cTotalMax.toLocaleString() + '円',
-          '航空券' + flightMax.toLocaleString() + '円 ＋ 宿泊/移動/食費（1泊）' + comfortDailyMin.toLocaleString() + '〜' + comfortDailyMax.toLocaleString() + '円 ×' + nights + '泊',
+          yuruTotal.toLocaleString() + '円',
+          '航空券' + flightMax.toLocaleString() + '円 ＋ 宿泊/移動/食費（1泊）' + yuruDaily.toLocaleString() + '円 ×' + nights + '泊',
           '移動も観光も楽しみながら、バランスよく旅をしたい方に。'],
         ['らぐ旅',
-          lTotal.toLocaleString() + '円〜',
-          '航空券' + flightMax.toLocaleString() + '円 ＋ 上質な宿泊/食費（1泊）目安' + lDaily.toLocaleString() + '円 ×' + nights + '泊',
+          raguTotal.toLocaleString() + '円',
+          '航空券' + flightMax.toLocaleString() + '円 ＋ 上質な宿泊/食費（1泊）' + raguDaily.toLocaleString() + '円 ×' + nights + '泊',
           '上質な滞在で、ゆったり贅沢に過ごしたい方に。']
       ];
     }

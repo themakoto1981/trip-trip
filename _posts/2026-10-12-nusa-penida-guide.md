@@ -2,6 +2,7 @@
 layout: post
 title: "ヌサペニダ島ビーチ完全ガイド｜行き方・ベストシーズン・予算・持ち物まとめ"
 date: 2026-10-12
+last_verified: 2026-11-05
 image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Kelingking_Beach_%282022%29.jpg/960px-Kelingking_Beach_%282022%29.jpg"
 categories: [インドネシア, 島]
 excerpt: "バリ島からボートで30〜45分、断崖と青い海が広がる離島ヌサペニダ島。ケリンキンビーチをはじめ絶景スポットの基本情報をまとめました。"

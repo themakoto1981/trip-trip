@@ -1,6 +1,8 @@
 ---
 layout: page
 title: 行く月から決める
+description: "行きたい月を選ぶと、その時期にベストシーズンを迎える東南アジアの島を一覧で紹介します。雨季・乾季を避けた旅行計画に。"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Sunset_at_Gili_Trawangan_%2816950551546%29.jpg/960px-Sunset_at_Gili_Trawangan_%2816950551546%29.jpg"
 permalink: /season/
 ---
 

@@ -3,6 +3,7 @@ author: makoto
 layout: post
 title: "チャン島へ行ってきました｜雨季のパタヤ経由弾丸旅行記"
 date: 2026-10-03
+related_guide: koh-chang-guide
 image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Klong_Prao_Beach%2C_west_coast_of_Ko_Chang_Island%2C_Thailand.jpg/960px-Klong_Prao_Beach%2C_west_coast_of_Ko_Chang_Island%2C_Thailand.jpg"
 categories: [タイ, 島, 体験記]
 excerpt: "雨季のチャン島に実際に行ってきました。まさかの客室アップグレード、人のいないビーチ、謎のフルーツ事件まで、2泊3日のリアルな記録です。"

@@ -2,6 +2,7 @@
 layout: post
 title: "ティオマン島ビーチ完全ガイド｜行き方・ベストシーズン・予算・持ち物まとめ"
 date: 2026-10-23
+last_verified: 2026-11-05
 image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Tioman_island_%283678622941%29.jpg/960px-Tioman_island_%283678622941%29.jpg"
 categories: [マレーシア, 島]
 excerpt: "マレーシア半島の東海岸沖に浮かぶ、ジャングルとサンゴ礁に囲まれたティオマン島。メルシンからフェリーで渡る海洋公園の島の基本情報をまとめました。"

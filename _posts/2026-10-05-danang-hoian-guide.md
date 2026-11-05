@@ -2,6 +2,7 @@
 layout: post
 title: "ダナン・ホイアンビーチ完全ガイド｜行き方・ベストシーズン・予算・持ち物まとめ"
 date: 2026-10-05
+last_verified: 2026-11-05
 image: "https://tripxtrip.com/assets/images/danang-hoian-taikenki/mykhe-beach-umbrellas-clear-sky.jpg"
 categories: [ベトナム, 島]
 excerpt: "成田から直行便で約6時間、東南アジアの中でも飛行機時間が短いビーチリゾート。週末だけの2泊3日でも行けて、夕方から足を伸ばして古都ホイアンのランタンの街も楽しめます。"

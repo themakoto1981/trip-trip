@@ -410,6 +410,23 @@ layout: default
     });
   });
 
+  (function () {
+    var restoreParams = new URLSearchParams(window.location.search);
+    var rMonth = restoreParams.get('month'); if (rMonth) { document.getElementById('month').value = rMonth; }
+    var rNights = restoreParams.get('nights'); if (rNights) { document.getElementById('nights').value = rNights; }
+    var rBudget = restoreParams.get('budget'); if (rBudget) { document.getElementById('budget').value = rBudget; }
+    var rCompanion = restoreParams.get('companion'); if (rCompanion) { document.getElementById('companion').value = rCompanion; }
+    ['tag1', 'tag2'].forEach(function (key) {
+      var t = restoreParams.get(key);
+      if (!t) { return; }
+      var chip = document.querySelector('.trip-tag-chip[data-tag="' + t + '"]');
+      if (chip && selectedTags.indexOf(t) === -1) {
+        selectedTags.push(t);
+        chip.classList.add('selected');
+      }
+    });
+  })();
+
   document.getElementById('search-btn').addEventListener('click', function () {
     var month = document.getElementById('month').value;
     var nights = document.getElementById('nights').value;

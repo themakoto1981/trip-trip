@@ -2,6 +2,7 @@
 layout: post
 title: "ギリ・トラワンガン島ビーチ完全ガイド｜行き方・ベストシーズン・予算・持ち物まとめ"
 date: 2026-10-14
+last_verified: 2026-11-05
 image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Sunset_at_Gili_Trawangan_%2816950551546%29.jpg/960px-Sunset_at_Gili_Trawangan_%2816950551546%29.jpg"
 categories: [インドネシア, 島]
 excerpt: "バリ島から高速ボートで約1時間半、車もバイクも走らないロンボク島沖の小さな島ギリ・トラワンガン。ウミガメと夕日、のんびり島時間の基本情報をまとめました。"

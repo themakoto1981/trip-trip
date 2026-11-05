@@ -2,6 +2,7 @@
 layout: post
 title: "ロンサンレム島ビーチ完全ガイド｜行き方・ベストシーズン・予算・持ち物まとめ"
 date: 2026-11-02
+last_verified: 2026-11-05
 image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Saracen_Bay_on_Koh_Rong_Sanloem_Island_in_Cambodia.jpg/960px-Saracen_Bay_on_Koh_Rong_Sanloem_Island_in_Cambodia.jpg"
 categories: [カンボジア, 島]
 excerpt: "弧を描く白砂のサラセン湾と、車のない静かな時間。ロン島の隣にあるカンボジアの小さな離島、ロンサンレム島の基本情報をまとめました。"

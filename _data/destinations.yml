@@ -1385,3 +1385,43 @@
     ragu: [TR01, TR04, SC03, HT03]
   url: /2026/11/04/pulau-weh-guide/
   tags: { beach: 5, resort: 2, island: 5, city_base: 0, sightseeing: 1, relax: 5, party: 0, activity: 4 }
+- name: ボホール島
+  en_name: "Bohol, Philippines"
+  slug: bohol-guide
+  country: フィリピン
+  country_slug: philippines
+  description: "丸いドーム状の丘が連なるチョコレートヒルズと、世界最小の原始猿ターシャが見られる島。アロナビーチなど、パングラオ島の白砂ビーチも隣接する。"
+  lat: 9.5484
+  lng: 123.7734
+  flight_min: 45000
+  flight_max: 200000
+  flight_min_kansai: 48000
+  flight_max_kansai: 215000
+  hotel_min: 2000
+  hotel_max: 45000
+  transport_min: 1500
+  transport_max: 20000
+  food_min: 2000
+  food_max: 7000
+  yasu_hotel: 2500
+  yasu_transport: 3500
+  yasu_food: 2500
+  yuru_hotel: 17000
+  yuru_transport: 14000
+  yuru_food: 4000
+  ragu_hotel: 35000
+  ragu_transport: 20000
+  ragu_food: 6500
+  flight_hours: "約9時間（セブ経由、フェリーで約2時間）。ANA利用時はマニラ経由で丸1日（マニラで1泊）"
+  recommended_nights: "4泊以上"
+  visa: "不要（30日以内）"
+  photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Alona_Beach%2C_Panglao_Island_%282052095707%29.jpg/960px-Alona_Beach%2C_Panglao_Island_%282052095707%29.jpg"
+  photo_credit_url: "https://commons.wikimedia.org/wiki/File:Alona_Beach,_Panglao_Island_(2052095707).jpg"
+  suited_for: [couple, family, friends, solo]
+  best_months: [12, 1, 2, 5]
+  budget_tags:
+    yasu: [TR02, TR03, SC01, HT16]
+    yuru: [TR01, TR04, SC03, HT03]
+    ragu: [TR01, TR04, SC03, HT11]
+  url: /2026/11/06/bohol-guide/
+  tags: { beach: 4, resort: 4, island: 5, city_base: 1, sightseeing: 5, relax: 4, party: 2, activity: 4 }

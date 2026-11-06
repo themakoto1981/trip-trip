@@ -1890,3 +1890,63 @@ pulau-weh-guide:
     type: hotel
     letter: "ら"
     url: "https://www.booking.com/searchresults.html?ss=Casa%20Nemo%20Beach%20Resort%20%26%20Spa%20Sabang"
+bohol-guide:
+  - name: アロナビーチ
+    lat: 9.5484
+    lng: 123.7734
+    desc: パングラオ島を代表する白砂のビーチ。ホテル・レストランが集まるボホール観光の拠点
+    category: beach
+    tags: ["ビーチ"]
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Alona_Beach%2C_Panglao_Island_%282052095707%29.jpg/960px-Alona_Beach%2C_Panglao_Island_%282052095707%29.jpg"
+  - name: チョコレートヒルズ
+    lat: 9.7988
+    lng: 124.1673
+    desc: 1,200以上のドーム状の丘が連なる、ボホールを象徴する絶景
+    category: spot
+    tags: ["絶景"]
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Chocolate_Hills_overview.JPG/960px-Chocolate_Hills_overview.JPG"
+  - name: ターシャ保護区
+    lat: 9.6915
+    lng: 123.9526
+    desc: 世界最小の原始猿、フィリピンターシャの保護区。ガイド同行で間近に観察できる
+    category: spot
+    tags: ["野生動物"]
+  - name: ロボック川
+    lat: 9.7064
+    lng: 124.0400
+    desc: フロート型レストランでランチを楽しみながら川を下るクルーズが人気
+    category: spot
+    tags: ["クルーズ"]
+  - name: バリカサグ島
+    lat: 9.5173
+    lng: 123.6844
+    desc: アロナビーチから船で渡れる離島。シュノーケリングとイルカウォッチングの定番スポット
+    category: beach
+    tags: ["シュノーケリング", "離島"]
+  - name: ヒナグダナン鍾乳洞
+    lat: 9.6255
+    lng: 123.8009
+    desc: 地底湖がある鍾乳洞。洞窟内で泳ぐこともできる
+    category: spot
+    tags: ["洞窟"]
+  - name: "Alona Bohol Backpackers Hostel"
+    lat: 9.5484
+    lng: 123.7734
+    desc: "アロナビーチまで徒歩9分、やす旅向けのホステル"
+    type: hotel
+    letter: "や"
+    url: "https://www.booking.com/searchresults.html?ss=Alona%20Bohol%20Backpackers%20Hostel"
+  - name: "Henann Resort Alona Beach"
+    lat: 9.5504
+    lng: 123.7747
+    desc: "アロナビーチ沿いの大型リゾート、ゆる旅向け"
+    type: hotel
+    letter: "ゆ"
+    url: "https://www.booking.com/searchresults.html?ss=Henann%20Resort%20Alona%20Beach"
+  - name: "Amorita Resort"
+    lat: 9.5497
+    lng: 123.7775
+    desc: "アロナビーチの高台に建つ、らぐ旅向けのリゾート"
+    type: hotel
+    letter: "ら"
+    url: "https://www.booking.com/searchresults.html?ss=Amorita%20Resort%20Panglao"

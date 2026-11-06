@@ -47,7 +47,7 @@ excerpt: "白砂のロングビーチと夜光虫で知られる、カンボジ�
 
 **1日目（ホーチミン泊）**
 - 08:55　成田発（Vietjet Air VJ823、約6時間5分）
-- 13:00　ホーチミン着。入国審査・荷物受取後、空港周辺のホテルへ
+- 13:00　ホーチミン着。入国審査・荷物受取後、[ibis Saigon Airport](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1602693)の無料シャトルでホテルへ、1泊
 
 **2日目（ロン島泊）**
 - 09:00　ホーチミン発（ベトナム航空、シアヌークビル行き国内線感覚の短距離便、約1時間15分）
@@ -76,7 +76,7 @@ excerpt: "白砂のロングビーチと夜光虫で知られる、カンボジ�
 
 **1日目（ホーチミン泊）**
 - 09:30　関空発（Vietjet Air VJ829、約5時間30分）
-- 13:00　ホーチミン着。入国審査・荷物受取後、空港周辺のホテルへ
+- 13:00　ホーチミン着。入国審査・荷物受取後、[ibis Saigon Airport](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1602693)の無料シャトルでホテルへ、1泊
 
 **2日目（ロン島泊）**
 - 09:00　ホーチミン発（ベトナム航空、シアヌークビル行き国内線感覚の短距離便、約1時間15分）
@@ -105,7 +105,7 @@ excerpt: "白砂のロングビーチと夜光虫で知られる、カンボジ�
 
 **1日目（ホーチミン泊）**
 - 09:30　成田発（ベトナム航空VN301、約6時間）
-- 13:30　ホーチミン着。入国審査・荷物受取後、空港周辺のホテルへ
+- 13:30　ホーチミン着。入国審査・荷物受取後、[ibis Saigon Airport](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1602693)の無料シャトルでホテルへ、1泊
 
 **2日目（ロン島泊）**
 - 09:00　ホーチミン発（ベトナム航空、シアヌークビル行き短距離便、約1時間15分）
@@ -134,7 +134,7 @@ excerpt: "白砂のロングビーチと夜光虫で知られる、カンボジ�
 
 **1日目（ホーチミン泊）**
 - 10:30　関空発（ベトナム航空VN321、約5時間30分）
-- 14:00　ホーチミン着。入国審査・荷物受取後、空港周辺のホテルへ
+- 14:00　ホーチミン着。入国審査・荷物受取後、[ibis Saigon Airport](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1602693)の無料シャトルでホテルへ、1泊
 
 **2日目（ロン島泊）**
 - 09:00　ホーチミン発（ベトナム航空、シアヌークビル行き短距離便、約1時間15分）
@@ -163,7 +163,7 @@ excerpt: "白砂のロングビーチと夜光虫で知られる、カンボジ�
 
 **1日目（ホーチミン泊）**
 - 09:30　成田発（ベトナム航空VN301、約6時間）
-- 13:30　ホーチミン着。入国審査・荷物受取後、空港周辺のホテルへ
+- 13:30　ホーチミン着。入国審査・荷物受取後、Grabカーで[Sheraton Saigon Hotel & Towers](https://www.booking.com/searchresults.html?ss=Sheraton%20Saigon%20Hotel%20%26%20Towers)へ、1泊
 
 **2日目（ロン島泊）**
 - 09:00　ホーチミン発（ベトナム航空、シアヌークビル行き短距離便、約1時間15分）
@@ -190,7 +190,7 @@ excerpt: "白砂のロングビーチと夜光虫で知られる、カンボジ�
 
 **1日目（ホーチミン泊）**
 - 10:30　関空発（ベトナム航空VN321、約5時間30分）
-- 14:00　ホーチミン着。入国審査・荷物受取後、空港周辺のホテルへ
+- 14:00　ホーチミン着。入国審査・荷物受取後、Grabカーで[Sheraton Saigon Hotel & Towers](https://www.booking.com/searchresults.html?ss=Sheraton%20Saigon%20Hotel%20%26%20Towers)へ、1泊
 
 **2日目（ロン島泊）**
 - 09:00　ホーチミン発（ベトナム航空、シアヌークビル行き短距離便、約1時間15分）

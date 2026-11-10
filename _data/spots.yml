@@ -1950,3 +1950,60 @@ bohol-guide:
     type: hotel
     letter: "ら"
     url: "https://www.booking.com/searchresults.html?ss=Amorita%20Resort%20Panglao"
+
+lombok-guide:
+  - name: クタビーチ（ロンボク）
+    lat: -8.8957749
+    lng: 116.2891527
+    desc: 島南部を代表する白砂ビーチ。サーフィンの拠点としても知られ、ホテルやレストランが集まる旅の拠点
+    category: beach
+    tags: ["ビーチ", "サーフィン"]
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Kuta_Beach%2C_Lombok%2C_Indonesia.jpg/960px-Kuta_Beach%2C_Lombok%2C_Indonesia.jpg"
+  - name: タンジュン・アン
+    lat: -8.9102644
+    lng: 116.3205901
+    desc: クタから車で約10分、馬蹄形の湾に広がる入り江。白砂に珊瑚の粒が混じり、ビーチ沿いのバーからの夕日も人気
+    category: beach
+    tags: ["ビーチ"]
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Tanjung_Aan_Beach.jpg/960px-Tanjung_Aan_Beach.jpg"
+  - name: セロン・ブラナックビーチ
+    lat: -8.8700692
+    lng: 116.1607277
+    desc: クタから車で約45分。なだらかな波で初心者サーファーにも人気の湾で、夕日スポットとしても知られる
+    category: beach
+    tags: ["ビーチ", "サーフィン"]
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Pantai_Selong_Belanak.jpg/960px-Pantai_Selong_Belanak.jpg"
+  - name: タンシビーチ（ピンクビーチ）
+    lat: -8.8593081
+    lng: 116.5808573
+    desc: 珊瑚の欠片が混じり砂浜がピンク色に見える珍しいビーチ。クタからは車で1.5〜2時間ほどかかる
+    category: beach
+    tags: ["ビーチ", "絶景"]
+  - name: センダンギレ＆ティウクレップの滝
+    lat: -8.3058928
+    lng: 116.4076468
+    desc: 島北部、リンジャニ山麓にある2つの滝。クタからは遠いため北部観光やリンジャニ登山と組み合わせるのがおすすめ
+    category: spot
+    tags: ["滝"]
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Air_Terjun_Sendang_Gile.jpg/960px-Air_Terjun_Sendang_Gile.jpg"
+  - name: "Mad Monkey Kuta Lombok"
+    lat: -8.8905875
+    lng: 116.2786322
+    desc: "クタ・ロンボクの中心部、やす旅向けのホステル"
+    type: hotel
+    letter: "や"
+    url: "https://www.booking.com/searchresults.html?ss=Mad%20Monkey%20Kuta%20Lombok"
+  - name: "Novotel Lombok Resort and Villas"
+    lat: -8.9034994
+    lng: 116.2972509
+    desc: "クタ・ロンボクのビーチフロントに建つ、ゆる旅向けのスタンダードリゾート"
+    type: hotel
+    letter: "ゆ"
+    url: "https://www.booking.com/searchresults.html?ss=Novotel%20Lombok%20Resort%20and%20Villas"
+  - name: "Pullman Lombok Merujani Mandalika Beach Resort"
+    lat: -8.9008975
+    lng: 116.2956278
+    desc: "マンダリカ・クタのオーシャンビュー、らぐ旅向けの高級リゾート"
+    type: hotel
+    letter: "ら"
+    url: "https://www.booking.com/searchresults.html?ss=Pullman%20Lombok%20Merujani%20Mandalika%20Beach%20Resort"

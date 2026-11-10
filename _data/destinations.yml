@@ -94,7 +94,7 @@
   ragu_food: 9000
   flight_hours: "約7〜8時間（直行便）、乗継便の場合は12〜14時間"
   recommended_nights: "3〜5泊"
-  visa: "不要（30日以内）"
+  visa: "必要（到着ビザ(VOA)、約50万ルピア）"
   photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Kuta_Beach%2C_Bali%2C_20220825_1706_0864.jpg/960px-Kuta_Beach%2C_Bali%2C_20220825_1706_0864.jpg"
   photo_credit_url: "https://commons.wikimedia.org/wiki/File:Kuta_Beach,_Bali,_20220825_1706_0864.jpg"
   suited_for: [couple, family, friends]
@@ -654,7 +654,7 @@
   ragu_food: 7000
   flight_hours: "約7〜8時間（デンパサール直行便）、パダンバイから高速ボートで約1時間半"
   recommended_nights: "3泊以上"
-  visa: "不要（30日以内）"
+  visa: "必要（到着ビザ(VOA)、約50万ルピア）"
   photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Sunset_at_Gili_Trawangan_%2816950551546%29.jpg/960px-Sunset_at_Gili_Trawangan_%2816950551546%29.jpg"
   photo_credit_url: "https://commons.wikimedia.org/wiki/File:Sunset_at_Gili_Trawangan_(16950551546).jpg"
   suited_for: [couple, friends, solo]
@@ -1054,7 +1054,7 @@
   ragu_food: 6500
   flight_hours: "約7〜8時間（デンパサール直行便）、パダンバイから高速ボートで約2時間"
   recommended_nights: "4泊以上"
-  visa: "不要（30日以内）"
+  visa: "必要（到着ビザ(VOA)、約50万ルピア）"
   photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Gili-Air-%D0%93%D0%B8%D0%BB%D0%B8-%D0%90%D0%B8%D1%80.jpg/960px-Gili-Air-%D0%93%D0%B8%D0%BB%D0%B8-%D0%90%D0%B8%D1%80.jpg"
   photo_credit_url: "https://commons.wikimedia.org/wiki/File:Gili-Air-%D0%93%D0%B8%D0%BB%D0%B8-%D0%90%D0%B8%D1%80.jpg"
   suited_for: [couple, family, solo]

@@ -1425,3 +1425,44 @@
     ragu: [TR01, TR04, SC03, HT11]
   url: /2026/11/06/bohol-guide/
   tags: { beach: 4, resort: 4, island: 5, city_base: 1, sightseeing: 5, relax: 4, party: 2, activity: 4 }
+
+- name: ロンボク島
+  en_name: "Lombok, Indonesia"
+  slug: lombok-guide
+  country: インドネシア
+  country_slug: indonesia
+  description: "バリ島の東隣に浮かぶ島。南部のクタ・ロンボクを拠点に、タンジュン・アンやセロン・ブラナックの白砂ビーチ、珍しいピンク色の砂のタンシビーチまで回れる。ギリ3島への拠点にもなる。"
+  lat: -8.8957749
+  lng: 116.2891527
+  flight_min: 58000
+  flight_max: 175000
+  flight_min_kansai: 90000
+  flight_max_kansai: 220000
+  hotel_min: 3000
+  hotel_max: 60000
+  transport_min: 9000
+  transport_max: 20000
+  food_min: 2500
+  food_max: 7000
+  yasu_hotel: 4000
+  yasu_transport: 9000
+  yasu_food: 3000
+  yuru_hotel: 14000
+  yuru_transport: 13000
+  yuru_food: 4500
+  ragu_hotel: 45000
+  ragu_transport: 18000
+  ragu_food: 7000
+  flight_hours: "約7〜8時間（デンパサール直行便）、デンパサールからロンボクへ国内線で約45分"
+  recommended_nights: "3泊以上"
+  visa: "必要（到着ビザ(VOA)、約50万ルピア）"
+  photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Kuta_Beach%2C_Lombok%2C_Indonesia.jpg/960px-Kuta_Beach%2C_Lombok%2C_Indonesia.jpg"
+  photo_credit_url: "https://commons.wikimedia.org/wiki/File:Kuta_Beach,_Lombok,_Indonesia.jpg"
+  suited_for: [couple, friends, solo]
+  best_months: [5, 6, 9]
+  budget_tags:
+    yasu: [TR02, TR04, SC03, HT16]
+    yuru: [TR10, TR03, SC01, HT03]
+    ragu: [TR10, TR03, SC01, HT11]
+  url: /2026/11/11/lombok-guide/
+  tags: { beach: 5, resort: 3, island: 4, city_base: 2, sightseeing: 3, relax: 4, party: 1, activity: 4 }

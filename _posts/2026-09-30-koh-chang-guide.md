@@ -19,6 +19,16 @@ excerpt: "プーケットに次ぐタイ第2の広さを誇るチャン島。ジ
   </div>
 </a>
 </div>
+<div>
+<a class="experience-card" href="/2026/10/31/budget-island-ranking/">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Ile_de_Koh_Larn_%28Ile_de_corail%29.jpg/960px-Ile_de_Koh_Larn_%28Ile_de_corail%29.jpg" alt="安く行ける島ランキング6選">
+  <div class="experience-card-body">
+    <span class="experience-card-label">まとめ記事</span>
+    <span class="experience-card-title">まとめ｜予算を抑えて行くなら。安く行ける島ランキング6選</span>
+  </div>
+</a>
+</div>
+
 
 ## 行き方
 

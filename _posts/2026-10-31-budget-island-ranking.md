@@ -2,6 +2,7 @@
 layout: post
 title: "まとめ｜予算を抑えて行くなら。安く行ける島ランキング6選"
 date: 2026-10-31
+related_guides: [cebu-guide, danang-hoian-guide, koh-chang-guide, koh-larn-guide, koh-tao-guide, phuquoc-guide]
 image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Ile_de_Koh_Larn_%28Ile_de_corail%29.jpg/960px-Ile_de_Koh_Larn_%28Ile_de_corail%29.jpg"
 categories: [まとめ]
 excerpt: "TRIP×TRIPで紹介している島を、推奨泊数×各費用の最安値ベースで合計金額順に並べました。1位は航空券・宿泊費ともに最安クラスのラン島。ランキング上位6島を紹介します。"

@@ -19,6 +19,36 @@ excerpt: "「タイ最後の楽園」と呼ばれる透明度抜群の秘境リ�
   </div>
 </a>
 </div>
+<div>
+<a class="experience-card" href="/2026/10/15/lipe-access-comparison/">
+  <img src="/assets/images/koh-lipe-speedboats.jpg" alt="リペ島への行き方 徹底比較">
+  <div class="experience-card-body">
+    <span class="experience-card-label">徹底比較記事</span>
+    <span class="experience-card-title">徹底比較｜結局リペ島はどっちから行くのが楽？タイ経由×マレーシア経由</span>
+  </div>
+</a>
+</div>
+
+<div>
+<a class="experience-card" href="/2026/10/31/clarity-island-roundup/">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Pulau_Redang_-_White_sandy_beach.jpg/960px-Pulau_Redang_-_White_sandy_beach.jpg" alt="海の透明度で選ぶおすすめの島6選">
+  <div class="experience-card-body">
+    <span class="experience-card-label">まとめ記事</span>
+    <span class="experience-card-title">まとめ｜海の透明度で選ぶなら。抜群にきれいな島6選</span>
+  </div>
+</a>
+</div>
+
+<div>
+<a class="experience-card" href="/2026/10/31/newyear-island-roundup/">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Patong_Beach_Phuket_November_2012.jpg/960px-Patong_Beach_Phuket_November_2012.jpg" alt="年末年始におすすめの島6選">
+  <div class="experience-card-body">
+    <span class="experience-card-label">まとめ記事</span>
+    <span class="experience-card-title">まとめ｜年越しはどこで過ごす？年末年始におすすめの島6選</span>
+  </div>
+</a>
+</div>
+
 
 ## 行き方
 

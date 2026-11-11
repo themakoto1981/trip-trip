@@ -1332,6 +1332,41 @@ layout: default
       {%- assign suited_posts = site.posts | where_exp: "p", "suited_slugs contains p.slug" | sort: "date" | reverse -%}
       {%- assign guide_cards = guide_cards | concat: suited_posts | slice: 0, 3 -%}
     {%- endif -%}
+
+    {%- comment -%} tier4: tagsの類似度(さらに最後の補完のみ) {%- endcomment -%}
+    {%- assign guide_cards_count = guide_cards | size -%}
+    {%- if guide_cards_count < 3 and dest and dest.tags -%}
+      {%- assign tag_keys = "beach,resort,island,city_base,sightseeing,relax,party,activity" | split: "," -%}
+      {%- assign scored_str = "" -%}
+      {%- for d in site.data.destinations -%}
+        {%- assign already4 = false -%}
+        {%- if d.slug == page.slug -%}{%- assign already4 = true -%}{%- endif -%}
+        {%- for g in guide_cards -%}{%- if g.slug == d.slug -%}{%- assign already4 = true -%}{%- endif -%}{%- endfor -%}
+        {%- if already4 == false and d.tags -%}
+          {%- assign tag_score = 0 -%}
+          {%- for key in tag_keys -%}
+            {%- assign a_val = dest.tags[key] | default: 0 -%}
+            {%- assign b_val = d.tags[key] | default: 0 -%}
+            {%- assign diff = a_val | minus: b_val | abs -%}
+            {%- assign pair_score = 5 | minus: diff -%}
+            {%- assign tag_score = tag_score | plus: pair_score -%}
+          {%- endfor -%}
+          {%- assign tag_score_padded = tag_score | plus: 1000 -%}
+          {%- assign scored_str = scored_str | append: tag_score_padded | append: ":" | append: d.slug | append: "," -%}
+        {%- endif -%}
+      {%- endfor -%}
+      {%- assign scored_list = scored_str | split: "," | sort | reverse -%}
+      {%- assign tag_match_slugs_str = "" -%}
+      {%- for entry in scored_list -%}
+        {%- assign entry_parts = entry | split: ":" -%}
+        {%- if entry_parts.size == 2 -%}
+          {%- assign tag_match_slugs_str = tag_match_slugs_str | append: entry_parts[1] | append: "|" -%}
+        {%- endif -%}
+      {%- endfor -%}
+      {%- assign tag_match_slugs = tag_match_slugs_str | split: "|" -%}
+      {%- assign tag_match_posts = site.posts | where_exp: "p", "tag_match_slugs contains p.slug" | sort: "date" | reverse -%}
+      {%- assign guide_cards = guide_cards | concat: tag_match_posts | slice: 0, 3 -%}
+    {%- endif -%}
   {%- else -%}
     {%- comment -%} 体験記/比較記事: 対応するガイドを表示 {%- endcomment -%}
     {%- unless has_handwritten_card -%}

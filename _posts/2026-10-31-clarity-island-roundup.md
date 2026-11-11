@@ -2,6 +2,7 @@
 layout: post
 title: "まとめ｜海の透明度で選ぶなら。抜群にきれいな島6選"
 date: 2026-10-31
+related_guides: [el-nido-guide, koh-lipe-guide, koh-tao-guide, nusa-penida-guide, perhentian-guide, redang-guide]
 image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Pulau_Redang_-_White_sandy_beach.jpg/960px-Pulau_Redang_-_White_sandy_beach.jpg"
 categories: [まとめ]
 excerpt: "「とにかく海がきれいな島に行きたい」人向けに、TRIP×TRIPの記事の中でも特に透明度の高さが際立つ島を6つ選びました。ダイビング目的、秘境感重視、手軽さ重視のタイプ別で紹介します。"

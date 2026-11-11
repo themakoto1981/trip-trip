@@ -2,6 +2,7 @@
 layout: post
 title: "まとめ｜年越しはどこで過ごす？年末年始におすすめの島6選"
 date: 2026-10-31
+related_guides: [boracay-guide, koh-kood-guide, koh-larn-guide, koh-lipe-guide, phuket-guide, phuquoc-guide]
 image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Patong_Beach_Phuket_November_2012.jpg/960px-Patong_Beach_Phuket_November_2012.jpg"
 categories: [まとめ]
 excerpt: "紅白もおせちもお休みして、常夏の島で年を越す。年末年始がベストシーズンの島の中から、賑やかに過ごしたい人、静かに過ごしたい人、弾丸で安く行きたい人向けにタイプ別で紹介します。"

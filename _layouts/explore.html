@@ -176,6 +176,40 @@ layout: default
     box-shadow: 0 1px 3px rgba(0,0,0,0.35);
   }
 
+  .home-articles { margin-top: 1.75rem; }
+  .home-articles-head {
+    display: flex; align-items: baseline; justify-content: space-between;
+    gap: 0.5rem; flex-wrap: wrap; margin-bottom: 1rem;
+  }
+  .home-articles-title {
+    font-family: "Noto Serif JP", serif; font-weight: 700; font-size: 1.3rem;
+    color: var(--sb-green-dark); margin: 0;
+  }
+  .home-articles-more { font-size: 0.82rem; font-weight: 700; color: var(--sb-green); white-space: nowrap; }
+  .home-articles-scroll {
+    display: flex; gap: 0.9rem; overflow-x: auto; scroll-snap-type: x mandatory;
+    padding-bottom: 0.5rem; -webkit-overflow-scrolling: touch;
+  }
+  .home-article-card {
+    scroll-snap-align: start; flex: 0 0 200px;
+    background: var(--sb-card); border: 1px solid var(--sb-border); border-radius: 12px;
+    overflow: hidden; display: flex; flex-direction: column; text-decoration: none; color: inherit;
+    transition: box-shadow 0.15s;
+  }
+  .home-article-card:hover { box-shadow: 0 4px 14px rgba(30,57,50,0.12); }
+  .home-article-card-img { width: 100%; aspect-ratio: 4/3; object-fit: cover; }
+  .home-article-card-body { padding: 0.75rem; display: flex; flex-direction: column; gap: 0.3rem; flex: 1; }
+  .home-article-card-meta { display: flex; align-items: center; gap: 0.4rem; font-size: 0.68rem; }
+  .home-article-card-date { color: var(--sb-brown-soft); }
+  .home-article-card-category {
+    background: var(--sb-cream); border: 1px solid var(--sb-border); color: var(--sb-green-dark);
+    font-weight: 700; border-radius: 999px; padding: 0.05rem 0.5rem;
+  }
+  .home-article-card-title { font-size: 0.92rem; font-weight: 700; color: var(--sb-brown); line-height: 1.4; }
+  @media screen and (max-width: 480px) {
+    .home-article-card { flex: 0 0 170px; }
+  }
+
 </style>
 
 <section class="hero">
@@ -269,6 +303,36 @@ layout: default
 </div>
 
 <div id="trip-map"></div>
+
+<section class="home-articles">
+  <div class="home-articles-head">
+    <h2 class="home-articles-title">新着記事</h2>
+    <a class="home-articles-more" href="{{ site.baseurl }}/articles/">すべての記事を見る &rarr;</a>
+  </div>
+  <div class="home-articles-scroll">
+    {%- assign home_recent_posts = site.posts | sort: "date" | reverse | slice: 0, 6 -%}
+    {%- for post in home_recent_posts -%}
+    {%- assign ha_title_parts = post.title | split: "｜" -%}
+    {%- if ha_title_parts.size > 1 and post.categories contains ha_title_parts[0] -%}
+      {%- assign ha_card_title = ha_title_parts[1] -%}
+    {%- else -%}
+      {%- assign ha_card_title = ha_title_parts[0] -%}
+    {%- endif -%}
+    <a class="home-article-card" href="{{ post.url | relative_url }}">
+      <img class="home-article-card-img" src="{{ post.image }}" alt="{{ post.title | escape }}" loading="lazy">
+      <div class="home-article-card-body">
+        <div class="home-article-card-meta">
+          <span class="home-article-card-date">{{ post.date | date: "%-m月%-d日" }}</span>
+          {%- if post.categories.first -%}
+          <span class="home-article-card-category">{{ post.categories.first }}</span>
+          {%- endif -%}
+        </div>
+        <div class="home-article-card-title">{{ ha_card_title }}</div>
+      </div>
+    </a>
+    {%- endfor -%}
+  </div>
+</section>
 
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCQd0WmNOB9Xz5Km4xwmAxV3v8Y5pwHIuo"></script>
 <script src="https://unpkg.com/@googlemaps/markerclusterer@2.5.3/dist/index.min.js"></script>

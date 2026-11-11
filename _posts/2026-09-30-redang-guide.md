@@ -19,6 +19,16 @@ excerpt: "「マレーシアで一番美しい海」とも称される透明度�
   </div>
 </a>
 </div>
+<div>
+<a class="experience-card" href="/2026/10/31/clarity-island-roundup/">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Pulau_Redang_-_White_sandy_beach.jpg/960px-Pulau_Redang_-_White_sandy_beach.jpg" alt="海の透明度で選ぶおすすめの島6選">
+  <div class="experience-card-body">
+    <span class="experience-card-label">まとめ記事</span>
+    <span class="experience-card-title">まとめ｜海の透明度で選ぶなら。抜群にきれいな島6選</span>
+  </div>
+</a>
+</div>
+
 
 ## 行き方
 

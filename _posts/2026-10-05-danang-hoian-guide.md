@@ -19,6 +19,26 @@ excerpt: "成田から直行便で約6時間、東南アジアの中でも飛行
   </div>
 </a>
 </div>
+<div>
+<a class="experience-card" href="/2026/10/31/beginner-island-roundup/">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Kuta_Beach%2C_Bali%2C_20220825_1706_0864.jpg/960px-Kuta_Beach%2C_Bali%2C_20220825_1706_0864.jpg" alt="初めての離島旅行におすすめの島6選">
+  <div class="experience-card-body">
+    <span class="experience-card-label">まとめ記事</span>
+    <span class="experience-card-title">まとめ｜初めての離島旅行におすすめの島6選</span>
+  </div>
+</a>
+</div>
+
+<div>
+<a class="experience-card" href="/2026/10/31/budget-island-ranking/">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Ile_de_Koh_Larn_%28Ile_de_corail%29.jpg/960px-Ile_de_Koh_Larn_%28Ile_de_corail%29.jpg" alt="安く行ける島ランキング6選">
+  <div class="experience-card-body">
+    <span class="experience-card-label">まとめ記事</span>
+    <span class="experience-card-title">まとめ｜予算を抑えて行くなら。安く行ける島ランキング6選</span>
+  </div>
+</a>
+</div>
+
 
 ## 行き方
 

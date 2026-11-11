@@ -2,6 +2,7 @@
 layout: post
 title: "まとめ｜初めての離島旅行におすすめの島6選"
 date: 2026-10-31
+related_guides: [bali-guide, cebu-guide, danang-hoian-guide, langkawi-guide, nhatrang-guide, phuket-guide]
 image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Kuta_Beach%2C_Bali%2C_20220825_1706_0864.jpg/960px-Kuta_Beach%2C_Bali%2C_20220825_1706_0864.jpg"
 categories: [まとめ]
 excerpt: "海外の離島旅行が初めてだと、アクセスの複雑さや治安、言葉の不安がつきものです。直行便があり、ホテルや観光インフラが整っていて、万が一のときも対応しやすい島を6つ選びました。"

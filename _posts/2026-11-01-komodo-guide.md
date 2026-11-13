@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "コモド諸島（ラブアンバジョ）完全ガイド｜行き方・ベストシーズン・予算・持ち物まとめ"
+title: "コモド諸島ビーチ完全ガイド｜行き方・ベストシーズン・予算・持ち物まとめ"
 date: 2026-11-01
 last_verified: 2026-11-05
 image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Padar_Island%2C_Komodo_National_Park%2C_Indonesia%2C_20250822_0929_2659.jpg/960px-Padar_Island%2C_Komodo_National_Park%2C_Indonesia%2C_20250822_0929_2659.jpg"

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "クラビ（ライレイビーチ）完全ガイド｜行き方・ベストシーズン・予算・持ち物まとめ"
+title: "クラビビーチ完全ガイド｜行き方・ベストシーズン・予算・持ち物まとめ"
 date: 2026-10-23
 last_verified: 2026-11-05
 image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Railay_Beach_5.jpg/960px-Railay_Beach_5.jpg"

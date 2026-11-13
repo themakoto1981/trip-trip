@@ -1,0 +1,28 @@
+# 経由地ごとの往復フライト情報（各記事の「おすすめ旅程」から共通で参照する）
+# やす旅＝LCC、ゆる旅・らぐ旅＝フルサービスキャリアを基本とする。
+# 運賃・時刻が変わったらここだけ直せば、参照している全記事に反映される。
+bangkok:
+  arr_city_label: "バンコク（スワンナプーム空港）"
+  narita:
+    dep_city_label: "成田"
+    yasu:
+      out: { dep_time: "17:00", arr_time: "21:40", airline: "ZIPAIR", flight: "ZG51", duration: "約6時間40分" }
+      in:  { dep_time: "23:10", arr_time: "翌07:30", airline: "ZIPAIR", flight: "ZG52", duration: "約6時間20分" }
+    yuru_ragu:
+      out: { dep_time: "19:10", arr_time: "23:55", airline: "ANA", flight: "NH805", duration: "約6時間45分" }
+      in:  { dep_time: "07:10", arr_time: "15:05", airline: "ANA", flight: "NH806", duration: "約5時間55分" }
+  kansai:
+    dep_city_label: "関空"
+    yasu:
+      out: { dep_time: "08:55", arr_time: "13:30", airline: "タイベトジェット", flight: "VZ821", duration: "約6時間35分" }
+      in:  { dep_time: "00:25", arr_time: "翌07:55", airline: "タイベトジェット", flight: "VZ820", duration: "約5時間30分" }
+    yuru_ragu:
+      out: { dep_time: "11:45", arr_time: "15:35", airline: "タイ国際航空", flight: "TG623", duration: "約5時間50分" }
+      in:  { dep_time: "23:59", arr_time: "翌07:20", airline: "タイ国際航空", flight: "TG622", duration: "約5時間20分" }
+  haneda:
+    dep_city_label: "羽田"
+    # バンコク（スワンナプーム）発着の乗り継ぎ先（クラビ等）へ同日中に乗り継げる時間帯の便。
+    # バンコク1泊を挟まずに初日から目的地入りできる経由パターン。
+    yuru_ragu_sameday:
+      out: { dep_time: "10:50", arr_time: "15:30", airline: "ANA", flight: "NH847", duration: "約6時間40分" }
+      in:  { dep_time: "21:35", arr_time: "翌06:00", airline: "ANA", flight: "NH850", duration: "約6時間25分" }

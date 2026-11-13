@@ -1467,7 +1467,7 @@
   url: /2026/11/11/lombok-guide/
   tags: { beach: 5, resort: 3, island: 4, city_base: 2, sightseeing: 3, relax: 4, party: 1, activity: 4 }
 
-- name: コ・ランタ島
+- name: ランタ島
   en_name: "Koh Lanta, Thailand"
   slug: koh-lanta-guide
   country: タイ
@@ -1503,7 +1503,7 @@
   best_months: [1, 2, 11, 12]
   budget_tags:
     yasu: [TR02, SC03, HT16]
-    yuru: [TR02, SC03, HT03]
-    ragu: [TR02, SC03, HT11]
+    yuru: [TR01, SC03, HT03]
+    ragu: [TR01, SC03, HT11]
   url: /2026/11/13/koh-lanta-guide/
   tags: { beach: 5, resort: 4, island: 5, city_base: 1, sightseeing: 3, relax: 5, party: 2, activity: 4 }

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ペルヘンティアン諸島完全ガイド｜行き方・ベストシーズン・予算・持ち物まとめ"
+title: "ペルヘンティアン諸島ビーチ完全ガイド｜行き方・ベストシーズン・予算・持ち物まとめ"
 date: 2026-10-25
 last_verified: 2026-11-05
 image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Perhentian_Islands%2C_Malaysia%2C_Beach.jpg/960px-Perhentian_Islands%2C_Malaysia%2C_Beach.jpg"

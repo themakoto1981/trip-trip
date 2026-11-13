@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "コロン島（パラワン州）ビーチ完全ガイド｜行き方・ベストシーズン・予算・持ち物まとめ"
+title: "コロン島ビーチ完全ガイド｜行き方・ベストシーズン・予算・持ち物まとめ"
 date: 2026-10-15
 last_verified: 2026-11-05
 image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Kayangan_Lake%2C_Coron%2C_Palawan.jpg/960px-Kayangan_Lake%2C_Coron%2C_Palawan.jpg"

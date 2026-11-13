@@ -1466,3 +1466,44 @@
     ragu: [TR10, TR03, SC01, HT11]
   url: /2026/11/11/lombok-guide/
   tags: { beach: 5, resort: 3, island: 4, city_base: 2, sightseeing: 3, relax: 4, party: 1, activity: 4 }
+
+- name: コ・ランタ島
+  en_name: "Koh Lanta, Thailand"
+  slug: koh-lanta-guide
+  country: タイ
+  country_slug: thailand
+  description: "プーケットやクラビほど賑やかではない、タイ南部アンダマン海の島。遠浅のビーチが連なり、南部のカンティアンベイは透明度の高い海とシュノーケリングが魅力。"
+  lat: 7.6161
+  lng: 99.0415
+  flight_min: 45000
+  flight_max: 170000
+  flight_min_kansai: 40000
+  flight_max_kansai: 150000
+  hotel_min: 2000
+  hotel_max: 60000
+  transport_min: 1800
+  transport_max: 9000
+  food_min: 2500
+  food_max: 6000
+  yasu_hotel: 2500
+  yasu_transport: 2000
+  yasu_food: 3000
+  yuru_hotel: 12000
+  yuru_transport: 2000
+  yuru_food: 4500
+  ragu_hotel: 60000
+  ragu_transport: 9000
+  ragu_food: 6500
+  flight_hours: "約10〜12時間（バンコク経由、クラビ空港からミニバン＋車両フェリーで約2.5〜3.5時間）"
+  recommended_nights: "4泊以上"
+  visa: "不要（30日以内）"
+  photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Ko_Lanta_National_Parc_beach_%2818538422735%29.jpg/960px-Ko_Lanta_National_Parc_beach_%2818538422735%29.jpg"
+  photo_credit_url: "https://commons.wikimedia.org/wiki/File:Ko_Lanta_National_Parc_beach_(18538422735).jpg"
+  suited_for: [couple, friends, solo]
+  best_months: [1, 2, 11, 12]
+  budget_tags:
+    yasu: [TR02, SC03, HT16]
+    yuru: [TR02, SC03, HT03]
+    ragu: [TR02, SC03, HT11]
+  url: /2026/11/13/koh-lanta-guide/
+  tags: { beach: 5, resort: 4, island: 5, city_base: 1, sightseeing: 3, relax: 5, party: 2, activity: 4 }

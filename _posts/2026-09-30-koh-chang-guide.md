@@ -32,7 +32,8 @@ excerpt: "プーケットに次ぐタイ第2の広さを誇るチャン島。ジ
 
 ## 行き方
 
-日本からの直行便はなく、バンコク経由が基本です。バンコクへは成田・関西どちらからも直行便があります。バンコクからは空路＋フェリー、または空港発着の直行バスでチャン島へ向かいます。バスの方が割安ですが時間はやや長め。総移動時間は10〜12時間ほど（飛行機利用時）です<br><a class="schedule-tag" href="https://12go.asia/en/travel/suvarnabhumi-airport/koh-chang?z=17114820" target="_blank" rel="noopener noreferrer">12go.asiaで予約・最新スケジュール</a>
+東京からは、成田発のZIPAIRまたは羽田発ANAで、関西から関空発のタイ国際航空またはエアアジアでバンコクへ（約6時間〜6時間30分）。
+バンコクからは空路＋フェリー、または空港発着の直行バスでチャン島へ向かいます。バスの方が割安ですが時間はやや長め。総移動時間は10〜12時間ほど（飛行機利用時）です<br><a class="schedule-tag" href="https://12go.asia/en/travel/suvarnabhumi-airport/koh-chang?z=17114820" target="_blank" rel="noopener noreferrer">12go.asiaで予約・最新スケジュール</a>
 
 - **島内の移動**：家族旅行でなければレンタルバイクでの移動が基本です。島内には検問があり、国際運転免許証とヘルメット着用は必須。持っていないと罰金の対象になることもあります。
 

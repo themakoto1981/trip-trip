@@ -1,0 +1,11 @@
+{%- assign hub = site.data.transit_hubs[include.hub] -%}
+{%- assign route = hub[include.route] -%}
+{%- assign tier = route[include.tier] -%}
+{%- assign leg = tier[include.dir] -%}
+{%- if include.dir == "out" -%}
+- {{ leg.dep_time }}　{{ route.dep_city_label }}発（{{ leg.airline }} {{ leg.flight }}、{{ leg.duration }}）
+- {{ leg.arr_time }}　{{ hub.arr_city_label }}着
+{%- else -%}
+- {{ leg.dep_time }}　{{ hub.arr_city_label }}発（{{ leg.airline }} {{ leg.flight }}、{{ leg.duration }}）
+- {{ leg.arr_time }}　{{ route.dep_city_label }}着
+{%- endif -%}

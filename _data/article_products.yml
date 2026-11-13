@@ -394,3 +394,51 @@ komodo-guide:
       order: 2
       reason: "スピードボートでの移動やシュノーケリング中の撮影に"
       status: active
+
+pulau-weh-guide:
+  heading: "持っていくと便利なもの"
+  items:
+    - product_id: water-shoes
+      order: 1
+      reason: "フェリー乗り降りやシュノーケリングもこれ一足で"
+      status: active
+    - product_id: waterproof-phone-case
+      order: 2
+      reason: "シュノーケリングやビーチの撮影に"
+      status: active
+
+bohol-guide:
+  heading: "持っていくと便利なもの"
+  items:
+    - product_id: water-shoes
+      order: 1
+      reason: "フェリー乗り降りやバリカサグ島のシュノーケリングもこれ一足で"
+      status: active
+    - product_id: waterproof-phone-case
+      order: 2
+      reason: "イルカウォッチングやシュノーケリングの撮影に"
+      status: active
+
+lombok-guide:
+  heading: "持っていくと便利なもの"
+  items:
+    - product_id: water-shoes
+      order: 1
+      reason: "ビーチも滝巡りもこれ一足で"
+      status: active
+    - product_id: waterproof-phone-case
+      order: 2
+      reason: "ピンクビーチや滝の撮影に"
+      status: active
+
+koh-lanta-guide:
+  heading: "持っていくと便利なもの"
+  items:
+    - product_id: water-shoes
+      order: 1
+      reason: "フェリー乗り降りや4島シュノーケリングツアーもこれ一足で"
+      status: active
+    - product_id: waterproof-phone-case
+      order: 2
+      reason: "4島シュノーケリングツアーやカンティアンベイの撮影に"
+      status: active

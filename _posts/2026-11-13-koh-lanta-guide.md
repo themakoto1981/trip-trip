@@ -41,9 +41,9 @@ excerpt: "クラビ空港からミニバン＋車両フェリーで渡るラン�
 
 クラビ空港からの移動に2.5〜3.5時間かかるため、**4泊5日**からがおすすめです。
 
-- **やす旅**：<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A" target="_blank" rel="noopener noreferrer">最新フライトスケジュール</a>
-- **ゆる旅**：<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A" target="_blank" rel="noopener noreferrer">最新フライトスケジュール</a>
-- **らぐ旅**：<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A" target="_blank" rel="noopener noreferrer">最新フライトスケジュール</a>
+- **やす旅**：ZIPAIRでバンコクへ｜バンコク1泊を挟んでクラビ空港からフェリーでランタ島へ｜移動費を抑えて島を満喫<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A" target="_blank" rel="noopener noreferrer">最新フライトスケジュール</a>
+- **ゆる旅**：羽田発ANAでバンコクへ直行｜同日中にPG263で乗り継ぎバンコク泊なしで着ける｜移動の疲れをためずに島へ<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A" target="_blank" rel="noopener noreferrer">最新フライトスケジュール</a>
+- **らぐ旅**：羽田発ANAでバンコクへ直行｜専用車で島南部の高級リゾートへ｜バンコク泊なしで到着後すぐ寛げる<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A" target="_blank" rel="noopener noreferrer">最新フライトスケジュール</a>
 
 ## おすすめ旅程（やす旅向け／バンコク1泊・4泊5日の例）
 

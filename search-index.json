@@ -1,0 +1,28 @@
+---
+layout: null
+---
+[
+{%- assign first_item = true -%}
+{%- for post in site.posts -%}
+  {%- unless first_item %},{% endunless -%}
+  {%- assign first_item = false -%}
+  {"type":"記事","title":{{ post.title | jsonify }},"url":{{ post.url | relative_url | jsonify }}}
+{%- endfor -%}
+{%- for dest in site.data.destinations -%}
+  {%- unless first_item %},{% endunless -%}
+  {%- assign first_item = false -%}
+  {"type":"行き先","title":{{ dest.name | jsonify }},"url":{{ dest.url | relative_url | jsonify }}}
+{%- endfor -%}
+{%- for article in site.data.spots -%}
+  {%- assign slug = article[0] -%}
+  {%- assign spot_list = article[1] -%}
+  {%- assign matching_post = site.posts | where: "slug", slug | first -%}
+  {%- if matching_post -%}
+    {%- for spot in spot_list -%}
+      {%- unless first_item %},{% endunless -%}
+      {%- assign first_item = false -%}
+      {"type":"スポット","title":{{ spot.name | jsonify }},"url":{{ matching_post.url | relative_url | jsonify }},"parent":{{ matching_post.title | jsonify }}}
+    {%- endfor -%}
+  {%- endif -%}
+{%- endfor -%}
+]

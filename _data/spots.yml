@@ -2007,3 +2007,32 @@ lombok-guide:
     type: hotel
     letter: "ら"
     url: "https://www.booking.com/searchresults.html?ss=Pullman%20Lombok%20Merujani%20Mandalika%20Beach%20Resort"
+
+pattaya-guide:
+  - name: ジョムティエン・ビーチ
+    lat: 12.8862
+    lng: 100.8977
+    desc: 約6kmにわたって砂浜が続く、パタヤ中心部より落ち着いた雰囲気のビーチ
+    category: beach
+    tags: ["ビーチ", "静か"]
+  - name: ナーチョムティアン（ドンタン・ビーチ）
+    lat: 12.8560
+    lng: 100.9090
+    desc: ジョムティエンよりさらに南、ビーチフロントホテルが点在する静かなエリア
+    category: beach
+    tags: ["ビーチ", "静か", "夕日"]
+  - name: Jomtien Hostel
+    lat: 12.8900
+    lng: 100.9000
+    desc: "やす旅向け、ジョムティエン・ビーチ徒歩圏のホステル"
+    type: hotel
+  - name: Zand Morada Pattaya
+    lat: 12.8558
+    lng: 100.9088
+    desc: "ゆる旅向け、ナーチョムティアンのビーチフロントホテル"
+    type: hotel
+  - name: The Standard, Pattaya Na Jomtien
+    lat: 12.8530
+    lng: 100.9095
+    desc: "らぐ旅向け、ビーチクラブ併設のデザイナーズホテル"
+    type: hotel

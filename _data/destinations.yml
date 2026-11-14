@@ -1548,3 +1548,44 @@
     ragu: [TR01, SC01, HT11]
   url: /2026/11/14/pattaya-guide/
   tags: { beach: 4, resort: 3, island: 2, city_base: 5, sightseeing: 2, relax: 4, party: 3, activity: 3 }
+
+- name: サメット島
+  en_name: "Koh Samet, Thailand"
+  slug: koh-samet-guide
+  country: タイ
+  country_slug: thailand
+  description: "ラヨーン県沖に浮かぶ国立公園の島。透明度の高い海と白砂のビーチが残り、パタヤを経由すると陸路移動が楽になる。"
+  lat: 12.5681
+  lng: 101.4501
+  flight_min: 45000
+  flight_max: 170000
+  flight_min_kansai: 40000
+  flight_max_kansai: 150000
+  hotel_min: 1200
+  hotel_max: 35000
+  transport_min: 1500
+  transport_max: 4500
+  food_min: 2000
+  food_max: 5000
+  yasu_hotel: 1200
+  yasu_transport: 1800
+  yasu_food: 2500
+  yuru_hotel: 8000
+  yuru_transport: 3000
+  yuru_food: 3500
+  ragu_hotel: 25000
+  ragu_transport: 4500
+  ragu_food: 5000
+  flight_hours: "約10〜12時間（バンコク経由、バンペー桟橋からフェリーで約15〜40分）"
+  recommended_nights: "2泊以上"
+  visa: "不要（30日以内）"
+  photo: "https://upload.wikimedia.org/wikipedia/commons/4/49/Koh_Samet%2CWong_Duean_Beach.jpg"
+  photo_credit_url: "https://commons.wikimedia.org/wiki/File:Koh_Samet,Wong_Duean_Beach.jpg"
+  suited_for: [couple, family, friends, solo]
+  best_months: [11, 12, 1, 2]
+  budget_tags:
+    yasu: [TR02, SC03, HT16]
+    yuru: [TR01, SC03, HT03]
+    ragu: [TR01, SC03, HT11]
+  url: /2026/11/16/koh-samet-guide/
+  tags: { beach: 5, resort: 3, island: 4, city_base: 1, sightseeing: 2, relax: 5, party: 2, activity: 3 }

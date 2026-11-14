@@ -66,7 +66,7 @@ excerpt: "成田から直行便で約6時間、東南アジアの中でも飛行
 ## 予算の目安
 成田発のベトナム航空は毎日運航で飛行時間も短いため、他の東南アジアのビーチリゾートに比べて圧倒的に日程を組みやすいのが特徴です。土曜の朝に出発して月曜の早朝に帰国すれば、休みを1日も使わずに行けます。
 
-- **やす旅**：<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A" target="_blank" rel="noopener noreferrer">最新フライトスケジュール</a>
+- **やす旅**：Vietjet Airで関空発のみ｜土曜発なら有休ゼロで弾丸旅行｜移動費を抑えて週末弾丸<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A" target="_blank" rel="noopener noreferrer">最新フライトスケジュール</a>
 - **ゆる旅**：<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A" target="_blank" rel="noopener noreferrer">最新フライトスケジュール</a>
 - **らぐ旅**：<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A" target="_blank" rel="noopener noreferrer">最新フライトスケジュール</a>
 

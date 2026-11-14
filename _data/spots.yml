@@ -2036,3 +2036,38 @@ pattaya-guide:
     lng: 100.9095
     desc: "らぐ旅向け、ビーチクラブ併設のデザイナーズホテル"
     type: hotel
+
+koh-samet-guide:
+  - name: サイケオ・ビーチ
+    lat: 12.5790
+    lng: 101.4500
+    desc: 島の北東部、ナダーン桟橋から近いメインビーチ。レストランやバーが多く賑わいがある
+    category: beach
+    tags: ["ビーチ", "賑やか"]
+  - name: アオプラオ・ビーチ
+    lat: 12.5500
+    lng: 101.4290
+    desc: 島の西側、高級リゾートが集まる静かなビーチ。夕日の美しさで知られる
+    category: beach
+    tags: ["ビーチ", "静か", "夕日"]
+  - name: ワンデュアン・ビーチ
+    lat: 12.5420
+    lng: 101.4550
+    desc: 島の東側、家族連れにも人気の落ち着いたビーチ
+    category: beach
+    tags: ["ビーチ", "静か"]
+  - name: Olly's Bar & Hostel
+    lat: 12.5700
+    lng: 101.4510
+    desc: "やす旅向け、サメット村のホステル"
+    type: hotel
+  - name: Sai Kaew Beach Resort
+    lat: 12.5790
+    lng: 101.4500
+    desc: "ゆる旅向け、サイケオ・ビーチ沿いのリゾート"
+    type: hotel
+  - name: Paradee Resort
+    lat: 12.5500
+    lng: 101.4290
+    desc: "らぐ旅向け、アオプラオ・ビーチの高級プールヴィラリゾート"
+    type: hotel

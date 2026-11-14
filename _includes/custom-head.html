@@ -1186,12 +1186,18 @@
       });
     }
 
+    function toHiragana(s) {
+      return s.replace(/[\u30a1-\u30f6]/g, function (c) {
+        return String.fromCharCode(c.charCodeAt(0) - 0x60);
+      });
+    }
+
     function render(query) {
       if (!indexData) { resultsEl.hidden = true; return; }
-      var q = query.trim().toLowerCase();
+      var q = toHiragana(query.trim().toLowerCase());
       if (!q) { resultsEl.hidden = true; return; }
       var matches = indexData.filter(function (item) {
-        return item.title.toLowerCase().indexOf(q) !== -1;
+        return toHiragana(item.title.toLowerCase()).indexOf(q) !== -1;
       }).slice(0, 8);
 
       if (matches.length === 0) {

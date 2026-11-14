@@ -1142,4 +1142,83 @@
   .share-bar-menu-icon--line { background: #06C755; }
   .share-bar-menu-icon--fb { background: #1877F2; }
   .share-bar-menu-icon--link { background: var(--sb-brown-soft); }
+  /* Site search */
+  .site-header .wrapper { display: flex; flex-wrap: wrap; align-items: center; }
+  .site-title { order: 1; }
+  .site-nav { order: 2; margin-left: auto; }
+  .site-search { position: relative; order: 3; flex: 1 1 100%; margin-top: 0.5rem; }
+  @media screen and (min-width: 601px) {
+    .site-search { order: 2; flex: 0 1 300px; margin: 0 0.75rem 0 auto; }
+    .site-nav { order: 3; margin-left: 0; }
+  }
+  .site-search-input { width: 100%; padding: 0.5rem 0.9rem; border-radius: 999px; border: 1px solid var(--sb-border); background: #fff; font-size: 0.9rem; font-family: inherit; color: var(--sb-green-dark); box-sizing: border-box; }
+  .site-search-input:focus { outline: none; border-color: var(--sb-green); }
+  .site-search-results { position: absolute; top: calc(100% + 0.4rem); left: 0; right: 0; z-index: 200; background: #fff; border: 1px solid var(--sb-border); border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); max-height: 320px; overflow-y: auto; padding: 0.4rem; }
+  .site-search-result { display: block; padding: 0.5rem 0.6rem; border-radius: 8px; text-decoration: none; color: var(--sb-green-dark); }
+  .site-search-result:hover, .site-search-result:focus { background: var(--sb-cream); }
+  .site-search-result-type { font-size: 0.72rem; color: var(--sb-brown-soft); margin-right: 0.4rem; }
+  .site-search-result-title { font-weight: 600; }
+  .site-search-result-parent { font-size: 0.78rem; color: var(--sb-brown-soft); margin-top: 0.1rem; }
+  .site-search-empty { padding: 0.6rem; font-size: 0.85rem; color: var(--sb-brown-soft); }
 </style>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var input = document.getElementById('site-search-input');
+    var resultsEl = document.getElementById('site-search-results');
+    if (!input || !resultsEl) return;
+
+    var indexData = null;
+    var indexPromise = null;
+
+    function loadIndex() {
+      if (!indexPromise) {
+        indexPromise = fetch('{{ "/search-index.json" | relative_url }}')
+          .then(function (r) { return r.json(); })
+          .then(function (data) { indexData = data; return data; })
+          .catch(function () { indexData = []; return []; });
+      }
+      return indexPromise;
+    }
+
+    function escapeHtml(s) {
+      return String(s).replace(/[&<>"']/g, function (c) {
+        return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+      });
+    }
+
+    function render(query) {
+      if (!indexData) { resultsEl.hidden = true; return; }
+      var q = query.trim().toLowerCase();
+      if (!q) { resultsEl.hidden = true; return; }
+      var matches = indexData.filter(function (item) {
+        return item.title.toLowerCase().indexOf(q) !== -1;
+      }).slice(0, 8);
+
+      if (matches.length === 0) {
+        resultsEl.innerHTML = '<div class="site-search-empty">一致する結果がありません</div>';
+        resultsEl.hidden = false;
+        return;
+      }
+
+      resultsEl.innerHTML = matches.map(function (item) {
+        var parentHtml = item.parent ? '<div class="site-search-result-parent">' + escapeHtml(item.parent) + '</div>' : '';
+        return '<a class="site-search-result" href="' + item.url + '">' +
+          '<span class="site-search-result-type">' + escapeHtml(item.type) + '</span>' +
+          '<span class="site-search-result-title">' + escapeHtml(item.title) + '</span>' +
+          parentHtml +
+          '</a>';
+      }).join('');
+      resultsEl.hidden = false;
+    }
+
+    input.addEventListener('focus', function () { loadIndex().then(function () { render(input.value); }); });
+    input.addEventListener('input', function () {
+      if (indexData) { render(input.value); }
+      else { loadIndex().then(function () { render(input.value); }); }
+    });
+    document.addEventListener('click', function (e) {
+      if (!e.target.closest('.site-search')) { resultsEl.hidden = true; }
+    });
+  });
+</script>
+

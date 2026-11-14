@@ -138,8 +138,8 @@ excerpt: "バンコクから空港バスで約2時間半。中心部の喧騒を
 
 **1日目（パタヤ泊）**
 {% include transit-flight.html hub="bangkok" route="haneda" tier="yuru_ragu_sameday" dir="out" %}
-- 専用車でパタヤへ（所要約2時間）
-- 17:30頃　パタヤ着。[The Standard, Pattaya Na Jomtien](https://www.booking.com/searchresults.html?ss=The%20Standard%20Pattaya%20Na%20Jomtien)にチェックイン（ビーチ沿いのプール・ビーチクラブを備えたデザイナーズホテル）
+- 空港送迎サービスの専用車でパタヤへ（乗り換えなしでホテルまで直接、所要約2〜3時間）
+- 18:00頃　パタヤ着。[The Standard, Pattaya Na Jomtien](https://www.booking.com/searchresults.html?ss=The%20Standard%20Pattaya%20Na%20Jomtien)にチェックイン（ビーチ沿いのプール・ビーチクラブを備えたデザイナーズホテル）
 
 **2日目（終日フリー）**
 - 終日　リゾートのビーチクラブやプールでのんびり
@@ -149,7 +149,7 @@ excerpt: "バンコクから空港バスで約2時間半。中心部の喧騒を
 
 **4日目（帰国日）**
 - 午前　ホテルでのんびり朝食、チェックアウト
-- 専用車でスワンナプーム空港へ（所要約2時間）
+- 空港送迎サービスの専用車でスワンナプーム空港へ（所要約2〜3時間）
 - バンコク市内でランチや買い物を楽しみ、夜まで過ごす
 {% include transit-flight.html hub="bangkok" route="haneda" tier="yuru_ragu_sameday" dir="in" %}
 
@@ -158,8 +158,8 @@ excerpt: "バンコクから空港バスで約2時間半。中心部の喧騒を
 **1日目（パタヤ泊）**
 - 11:45　関空発（タイ国際航空TG623、約5時間50分）
 - 15:35　バンコク（スワンナプーム空港）着
-- 専用車でパタヤへ（所要約2時間）
-- 17:30頃　パタヤ着。[The Standard, Pattaya Na Jomtien](https://www.booking.com/searchresults.html?ss=The%20Standard%20Pattaya%20Na%20Jomtien)にチェックイン
+- 空港送迎サービスの専用車でパタヤへ（乗り換えなしでホテルまで直接、所要約2〜3時間）
+- 18:00頃　パタヤ着。[The Standard, Pattaya Na Jomtien](https://www.booking.com/searchresults.html?ss=The%20Standard%20Pattaya%20Na%20Jomtien)にチェックイン
 
 **2日目（終日フリー）**
 - 終日　リゾートのビーチクラブやプールでのんびり
@@ -169,7 +169,7 @@ excerpt: "バンコクから空港バスで約2時間半。中心部の喧騒を
 
 **4日目（帰国日）**
 - 午前　ホテルでのんびり朝食、チェックアウト
-- 専用車でスワンナプーム空港へ（所要約2時間）
+- 空港送迎サービスの専用車でスワンナプーム空港へ（所要約2〜3時間）
 - バンコク市内でランチや買い物を楽しみ、夜まで過ごす
 - 23:59　バンコク発（タイ国際航空TG622、約5時間20分）
 - 07:20　関空着（翌日）

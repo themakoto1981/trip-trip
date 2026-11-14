@@ -1,4 +1,14 @@
 <link rel="icon" type="image/svg+xml" href="{{ '/favicon.svg' | relative_url }}">
+<script>
+  try {
+    var q = location.search;
+    if (q.indexOf('notrack=1') !== -1) localStorage.setItem('notrack', '1');
+    if (q.indexOf('notrack=0') !== -1) localStorage.removeItem('notrack');
+    if (localStorage.getItem('notrack') === '1') {
+      window['ga-disable-{{ site.ga4_id }}'] = true;
+    }
+  } catch (e) {}
+</script>
 {%- if site.ga4_id and jekyll.environment == 'production' -%}
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga4_id }}"></script>

@@ -10,6 +10,26 @@ excerpt: "バンコクから空港バスで約2時間半。中心部の喧騒を
 
 タイ東海岸の**パタヤ**は、賑やかな歓楽街のイメージが強い街ですが、中心部から少し南のナーチョムティアン／ジョムティエン・ビーチエリアは落ち着いた雰囲気のビーチタウンです。バンコクから空港バスで約2時間半と近く、チャン島やラン島など周辺の島へ渡る拠点としても便利です。
 
+<div>
+<a class="experience-card" href="/2026/10/24/koh-larn-guide/">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Ile_de_Koh_Larn_%28Ile_de_corail%29.jpg/960px-Ile_de_Koh_Larn_%28Ile_de_corail%29.jpg" alt="ラン島ビーチ完全ガイド">
+  <div class="experience-card-body">
+    <span class="experience-card-label">行き方・予算まとめ</span>
+    <span class="experience-card-title">ラン島ビーチ完全ガイド｜行き方・ベストシーズン・予算・持ち物まとめ</span>
+  </div>
+</a>
+</div>
+
+<div>
+<a class="experience-card" href="/2026/09/30/koh-chang-guide/">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Klong_Prao_Beach%2C_west_coast_of_Ko_Chang_Island%2C_Thailand.jpg/960px-Klong_Prao_Beach%2C_west_coast_of_Ko_Chang_Island%2C_Thailand.jpg" alt="チャン島ビーチ完全ガイド">
+  <div class="experience-card-body">
+    <span class="experience-card-label">行き方・予算まとめ</span>
+    <span class="experience-card-title">チャン島ビーチ完全ガイド｜行き方・ベストシーズン・予算・持ち物まとめ</span>
+  </div>
+</a>
+</div>
+
 ## 行き方
 
 東京からは、成田発のZIPAIRまたは羽田発ANAで、関西から関空発のタイ国際航空またはエアアジアでバンコクへ（約6時間〜6時間30分）。

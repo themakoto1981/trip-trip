@@ -442,3 +442,15 @@ koh-lanta-guide:
       order: 2
       reason: "4島シュノーケリングツアーやカンティアンベイの撮影に"
       status: active
+
+pattaya-guide:
+  heading: "持っていくと便利なもの"
+  items:
+    - product_id: water-shoes
+      order: 1
+      reason: "海の家のビーチチェアへの行き来もこれ一足で"
+      status: active
+    - product_id: waterproof-phone-case
+      order: 2
+      reason: "ビーチや夕日の撮影に"
+      status: active

@@ -1507,3 +1507,44 @@
     ragu: [TR01, SC03, HT11]
   url: /2026/11/13/koh-lanta-guide/
   tags: { beach: 5, resort: 4, island: 5, city_base: 1, sightseeing: 3, relax: 5, party: 2, activity: 4 }
+
+- name: パタヤ
+  en_name: "Pattaya, Thailand"
+  slug: pattaya-guide
+  country: タイ
+  country_slug: thailand
+  description: "バンコクから空港バスで約2時間半。中心部の喧騒を離れたナーチョムティアン／ジョムティエン・ビーチエリアでのんびり過ごせる、チャン島やラン島への拠点としても便利な街。"
+  lat: 12.8745
+  lng: 100.9077
+  flight_min: 45000
+  flight_max: 170000
+  flight_min_kansai: 40000
+  flight_max_kansai: 150000
+  hotel_min: 1500
+  hotel_max: 50000
+  transport_min: 1500
+  transport_max: 7000
+  food_min: 2000
+  food_max: 5000
+  yasu_hotel: 1800
+  yasu_transport: 2500
+  yasu_food: 2500
+  yuru_hotel: 10000
+  yuru_transport: 2500
+  yuru_food: 3500
+  ragu_hotel: 50000
+  ragu_transport: 7000
+  ragu_food: 5500
+  flight_hours: "約10〜12時間（バンコク経由、空港からパタヤまで空港バスで約2時間30分）"
+  recommended_nights: "3泊以上"
+  visa: "不要（30日以内）"
+  photo: "https://upload.wikimedia.org/wikipedia/commons/4/4d/Pattaya_beach_on_a_sunny_day_in_june_2017.jpg"
+  photo_credit_url: "https://commons.wikimedia.org/wiki/File:Pattaya_beach_on_a_sunny_day_in_june_2017.jpg"
+  suited_for: [couple, friends, solo]
+  best_months: [1, 2, 11, 12]
+  budget_tags:
+    yasu: [TR02, SC03, HT16]
+    yuru: [TR01, SC01, HT03]
+    ragu: [TR01, SC01, HT11]
+  url: /2026/11/14/pattaya-guide/
+  tags: { beach: 4, resort: 3, island: 2, city_base: 5, sightseeing: 2, relax: 4, party: 3, activity: 3 }

@@ -2,7 +2,7 @@
 layout: post
 title: "ロンボク島ビーチ完全ガイド｜行き方・ベストシーズン・予算・持ち物まとめ"
 date: 2026-11-11
-last_verified: 2026-11-11
+last_verified: 2026-11-15
 image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Kuta_Beach%2C_Lombok%2C_Indonesia.jpg/960px-Kuta_Beach%2C_Lombok%2C_Indonesia.jpg"
 categories: [インドネシア, 島]
 excerpt: "バリ島の東隣、ロンボク島。南部のクタ・ロンボクを拠点に、タンジュン・アンやセロン・ブラナックの白砂ビーチ、珍しいピンク色の砂のタンシビーチまで回れる島の行き方と予算をまとめました。"

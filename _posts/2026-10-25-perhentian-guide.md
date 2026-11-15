@@ -12,7 +12,7 @@ excerpt: "マレーシア半島の東海岸沖、南シナ海に浮かぶ2つの
 
 ## 行き方
 
-島までの直行便はなく、クアラルンプール経由が基本です。クアラルンプールへは成田・関西どちらからもエアアジアXの直行便があります。そこからバスでクアラブス桟橋へ向かい、スピードボートで約40分かけて渡ります<br><a class="schedule-tag" href="https://12go.asia/en/travel/kuala-lumpur/kuala-besut?z=16187692" target="_blank" rel="noopener noreferrer">12go.asiaで予約・最新スケジュール</a>
+島までの直行便はなく、クアラルンプール経由が基本です。クアラルンプールへは成田・関西どちらからもエアアジアXの直行便があります。そこからバスでクアラブス桟橋へ向かい、スピードボートで約40分かけて渡ります<br><a class="schedule-tag" href="https://12go.asia/en/travel/kuala-lumpur/kuala-besut?z=16187692&z=17114820" target="_blank" rel="noopener noreferrer">12go.asiaで予約・最新スケジュール</a>
 
 - **島内の移動**：ロングビーチとコーラルベイの間は徒歩か水上タクシーで移動します。ブサール島へは別途ボートが必要です。
 - **マリンパーク保護料**：クアラブス桟橋で乗船時に支払います（外国人はRM100前後／約3,400円）。
@@ -53,7 +53,7 @@ excerpt: "マレーシア半島の東海岸沖、南シナ海に浮かぶ2つの
 **2日目（クアラブス泊）**
 - 午前　ホテルでゆっくり休み、チェックアウト
 - KLIA Transitで空港からBandar Tasik Selatan駅へ（約27分）、駅からTBSは徒歩圏内
-- 10:00　TBS発の昼行バスでクアラブスへ（Sani Express、約7時間48分、[12go.asiaで予約可](https://12go.asia/en/travel/kuala-lumpur/kuala-besut?z=16187692)）
+- 10:00　TBS発の昼行バスでクアラブスへ（Sani Express、約7時間48分、[12go.asiaで予約可](https://12go.asia/en/travel/kuala-lumpur/kuala-besut?z=16187692&z=17114820)）
 - 17:48　クアラブス着。[Fairfield By Marriott Kuala Besut](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D56863583)にチェックイン、港町を散策して1泊
 
 **3日目（ペルヘンティアン泊）**
@@ -66,7 +66,7 @@ excerpt: "マレーシア半島の東海岸沖、南シナ海に浮かぶ2つの
 
 **5日目（帰国日）**
 - 08:00の始発スピードボートでクアラブス桟橋へ戻る（約40分）
-- Perhentian Trans Holidayのシェアバンでコタバル空港へ（約1時間、¥1,200前後、[12go.asiaで予約可](https://12go.asia/en/travel/kuala-besut-jetty/kota-bharu-airport)）
+- Perhentian Trans Holidayのシェアバンでコタバル空港へ（約1時間、¥1,200前後、[12go.asiaで予約可](https://12go.asia/en/travel/kuala-besut-jetty/kota-bharu-airport?z=17114820)）
 - 14:05　コタバル発AirAsia（約1時間10分）
 - 15:15　クアラルンプール着
 - 夕方　クアラルンプール市内で最後の買い物・食事
@@ -85,7 +85,7 @@ ZipairはKansai発着のクアラルンプール線を運航していないた�
 **2日目（クアラブス泊）**
 - 午前　ホテルでゆっくり休み、チェックアウト
 - KLIA Transitで空港からBandar Tasik Selatan駅へ（約27分）、駅からTBSは徒歩圏内
-- 10:00　TBS発の昼行バスでクアラブスへ（Sani Express、約7時間48分、[12go.asiaで予約可](https://12go.asia/en/travel/kuala-lumpur/kuala-besut?z=16187692)）
+- 10:00　TBS発の昼行バスでクアラブスへ（Sani Express、約7時間48分、[12go.asiaで予約可](https://12go.asia/en/travel/kuala-lumpur/kuala-besut?z=16187692&z=17114820)）
 - 17:48　クアラブス着。[Fairfield By Marriott Kuala Besut](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D56863583)にチェックイン、港町を散策して1泊
 
 **3日目（ペルヘンティアン泊）**
@@ -98,7 +98,7 @@ ZipairはKansai発着のクアラルンプール線を運航していないた�
 
 **5日目（帰国日）**
 - 08:00の始発スピードボートでクアラブス桟橋へ戻る（約40分）
-- Perhentian Trans Holidayのシェアバンでコタバル空港へ（約1時間、¥1,200前後、[12go.asiaで予約可](https://12go.asia/en/travel/kuala-besut-jetty/kota-bharu-airport)）
+- Perhentian Trans Holidayのシェアバンでコタバル空港へ（約1時間、¥1,200前後、[12go.asiaで予約可](https://12go.asia/en/travel/kuala-besut-jetty/kota-bharu-airport?z=17114820)）
 - 14:05　コタバル発AirAsia（約1時間10分）
 - 15:15　クアラルンプール着
 - 夕方　クアラルンプール市内で最後の買い物・食事
@@ -115,7 +115,7 @@ ZipairはKansai発着のクアラルンプール線を運航していないた�
 **2日目（クアラブス泊）**
 - 午前　ホテルでゆっくり休み、チェックアウト
 - KLIA Transitで空港からBandar Tasik Selatan駅へ（約27分）、駅からTBSは徒歩圏内
-- 10:00　TBS発の昼行バスでクアラブスへ（Sani Express、約7時間48分、[12go.asiaで予約可](https://12go.asia/en/travel/kuala-lumpur/kuala-besut?z=16187692)）
+- 10:00　TBS発の昼行バスでクアラブスへ（Sani Express、約7時間48分、[12go.asiaで予約可](https://12go.asia/en/travel/kuala-lumpur/kuala-besut?z=16187692&z=17114820)）
 - 17:48　クアラブス着。[Fairfield By Marriott Kuala Besut](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D56863583)にチェックイン、港町を散策して1泊
 
 **3日目（ペルヘンティアン泊）**
@@ -128,7 +128,7 @@ ZipairはKansai発着のクアラルンプール線を運航していないた�
 
 **5日目（クアラルンプール泊）**
 - 08:00の始発スピードボートでクアラブス桟橋へ戻る（約40分）
-- Perhentian Trans Holidayのシェアバンでコタバル空港へ（約1時間、¥1,200前後、[12go.asiaで予約可](https://12go.asia/en/travel/kuala-besut-jetty/kota-bharu-airport)）
+- Perhentian Trans Holidayのシェアバンでコタバル空港へ（約1時間、¥1,200前後、[12go.asiaで予約可](https://12go.asia/en/travel/kuala-besut-jetty/kota-bharu-airport?z=17114820)）
 - 14:05　コタバル発AirAsia（約1時間10分）
 - 15:15　クアラルンプール着
 - Grabカーで空港近くの[Tune Hotel KLIA-KLIA2 Airport Transit Hotel](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D621161)へ、1泊
@@ -149,7 +149,7 @@ ANAは関西発着のクアラルンプール線を運航していないため�
 **2日目（クアラブス泊）**
 - 午前　ホテルでゆっくり休み、チェックアウト
 - KLIA Transitで空港からBandar Tasik Selatan駅へ（約27分）、駅からTBSは徒歩圏内
-- 10:00　TBS発の昼行バスでクアラブスへ（Sani Express、約7時間48分、[12go.asiaで予約可](https://12go.asia/en/travel/kuala-lumpur/kuala-besut?z=16187692)）
+- 10:00　TBS発の昼行バスでクアラブスへ（Sani Express、約7時間48分、[12go.asiaで予約可](https://12go.asia/en/travel/kuala-lumpur/kuala-besut?z=16187692&z=17114820)）
 - 17:48　クアラブス着。[Fairfield By Marriott Kuala Besut](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D56863583)にチェックイン、港町を散策して1泊
 
 **3日目（ペルヘンティアン泊）**
@@ -162,7 +162,7 @@ ANAは関西発着のクアラルンプール線を運航していないため�
 
 **5日目（クアラルンプール泊）**
 - 08:00の始発スピードボートでクアラブス桟橋へ戻る（約40分）
-- Perhentian Trans Holidayのシェアバンでコタバル空港へ（約1時間、¥1,200前後、[12go.asiaで予約可](https://12go.asia/en/travel/kuala-besut-jetty/kota-bharu-airport)）
+- Perhentian Trans Holidayのシェアバンでコタバル空港へ（約1時間、¥1,200前後、[12go.asiaで予約可](https://12go.asia/en/travel/kuala-besut-jetty/kota-bharu-airport?z=17114820)）
 - 14:05　コタバル発AirAsia（約1時間10分）
 - 15:15　クアラルンプール着
 - Grabカーで空港近くの[Tune Hotel KLIA-KLIA2 Airport Transit Hotel](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D621161)へ、1泊
@@ -181,7 +181,7 @@ ANAは関西発着のクアラルンプール線を運航していないため�
 **2日目（クアラブス泊）**
 - 午前　ホテルでゆっくり休み、チェックアウト
 - KLIA Transitで空港からBandar Tasik Selatan駅へ（約27分）、駅からTBSは徒歩圏内
-- 10:00　TBS発の昼行バスでクアラブスへ（Sani Express、約7時間48分、[12go.asiaで予約可](https://12go.asia/en/travel/kuala-lumpur/kuala-besut?z=16187692)）
+- 10:00　TBS発の昼行バスでクアラブスへ（Sani Express、約7時間48分、[12go.asiaで予約可](https://12go.asia/en/travel/kuala-lumpur/kuala-besut?z=16187692&z=17114820)）
 - 17:48　クアラブス着。[Fairfield By Marriott Kuala Besut](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D56863583)にチェックイン、港町を散策して1泊
 
 **3日目（ペルヘンティアン泊）**
@@ -194,7 +194,7 @@ ANAは関西発着のクアラルンプール線を運航していないため�
 
 **5日目（クアラルンプール泊）**
 - 08:00の始発スピードボートでクアラブス桟橋へ戻る（約40分）
-- Perhentian Trans Holidayのシェアバンでコタバル空港へ（約1時間、¥1,200前後、[12go.asiaで予約可](https://12go.asia/en/travel/kuala-besut-jetty/kota-bharu-airport)）
+- Perhentian Trans Holidayのシェアバンでコタバル空港へ（約1時間、¥1,200前後、[12go.asiaで予約可](https://12go.asia/en/travel/kuala-besut-jetty/kota-bharu-airport?z=17114820)）
 - 14:05　コタバル発AirAsia（約1時間10分）
 - 15:15　クアラルンプール着
 - Grabカーで空港直結の[Sama-Sama Hotel KLIA](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D61456335)へ、1泊
@@ -215,7 +215,7 @@ ANAは関西発着のクアラルンプール線を運航していないため�
 **2日目（クアラブス泊）**
 - 午前　ホテルでゆっくり休み、チェックアウト
 - KLIA Transitで空港からBandar Tasik Selatan駅へ（約27分）、駅からTBSは徒歩圏内
-- 10:00　TBS発の昼行バスでクアラブスへ（Sani Express、約7時間48分、[12go.asiaで予約可](https://12go.asia/en/travel/kuala-lumpur/kuala-besut?z=16187692)）
+- 10:00　TBS発の昼行バスでクアラブスへ（Sani Express、約7時間48分、[12go.asiaで予約可](https://12go.asia/en/travel/kuala-lumpur/kuala-besut?z=16187692&z=17114820)）
 - 17:48　クアラブス着。[Fairfield By Marriott Kuala Besut](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D56863583)にチェックイン、港町を散策して1泊
 
 **3日目（ペルヘンティアン泊）**
@@ -228,7 +228,7 @@ ANAは関西発着のクアラルンプール線を運航していないため�
 
 **5日目（クアラルンプール泊）**
 - 08:00の始発スピードボートでクアラブス桟橋へ戻る（約40分）
-- Perhentian Trans Holidayのシェアバンでコタバル空港へ（約1時間、¥1,200前後、[12go.asiaで予約可](https://12go.asia/en/travel/kuala-besut-jetty/kota-bharu-airport)）
+- Perhentian Trans Holidayのシェアバンでコタバル空港へ（約1時間、¥1,200前後、[12go.asiaで予約可](https://12go.asia/en/travel/kuala-besut-jetty/kota-bharu-airport?z=17114820)）
 - 14:05　コタバル発AirAsia（約1時間10分）
 - 15:15　クアラルンプール着
 - Grabカーで空港直結の[Sama-Sama Hotel KLIA](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D61456335)へ、1泊

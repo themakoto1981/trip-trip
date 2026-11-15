@@ -43,7 +43,7 @@ excerpt: "バンコクから空港バスで約2時間半。中心部の喧騒を
 ## 行き方
 
 東京からは、成田発のZIPAIRまたは羽田発ANAで、関西から関空発のタイ国際航空またはエアアジアでバンコクへ（約6時間〜6時間30分）。
-バンコクからパタヤへは、スワンナプーム空港発の直行バスが便利です（Roong Reuang Coach、毎時運行、所要約2時間30分、140〜190バーツ）<br><a class="schedule-tag" href="https://12go.asia/jp/bus/suvarnabhumi-airport/pattaya/" target="_blank" rel="noopener noreferrer">12go.asiaで最新のバススケジュール</a>。パタヤのバス乗り場からは、Grabで宿泊エリア（ナーチョムティアン／ジョムティエン・ビーチなど）まで移動します（車で20〜30分ほど）。
+バンコクからパタヤへは、スワンナプーム空港発の直行バスが便利です（Roong Reuang Coach、毎時運行、所要約2時間30分、140〜190バーツ）<br><a class="schedule-tag" href="https://12go.asia/jp/bus/suvarnabhumi-airport/pattaya/?z=17114820" target="_blank" rel="noopener noreferrer">12go.asiaで最新のバススケジュール</a>。パタヤのバス乗り場からは、Grabで宿泊エリア（ナーチョムティアン／ジョムティエン・ビーチなど）まで移動します（車で20〜30分ほど）。
 
 - **泊まるエリアの選び方**：ウォーキングストリート周辺の中心部は歓楽街としての賑わいが目的でなければ避けたほうが無難です。少し南のナーチョムティアンやジョムティエン・ビーチ方面は、同じパタヤでも落ち着いた時間が流れるエリアです。
 

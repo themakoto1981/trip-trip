@@ -2,7 +2,7 @@
 layout: post
 title: "パタヤビーチ完全ガイド｜行き方・ベストシーズン・予算・持ち物まとめ"
 date: 2026-11-14
-last_verified: 2026-11-14
+last_verified: 2026-11-15
 image: "https://upload.wikimedia.org/wikipedia/commons/4/4d/Pattaya_beach_on_a_sunny_day_in_june_2017.jpg"
 categories: [タイ, ビーチ]
 excerpt: "バンコクから空港バスで約2時間半。中心部の喧騒を離れたナーチョムティアン／ジョムティエン・ビーチエリアでのんびり過ごせる、チャン島やラン島への拠点にも便利なパタヤの基本情報をまとめました。"

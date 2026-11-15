@@ -2,6 +2,7 @@
 layout: post
 title: "まとめ｜パタヤを拠点に行ける島3選｜日帰りのラン島、拠点にするチャン島とサメット島"
 date: 2026-11-15
+last_verified: 2026-11-15
 related_guides: [pattaya-guide, koh-larn-guide, koh-chang-guide, koh-samet-guide]
 image: "https://upload.wikimedia.org/wikipedia/commons/4/4d/Pattaya_beach_on_a_sunny_day_in_june_2017.jpg"
 categories: [まとめ]

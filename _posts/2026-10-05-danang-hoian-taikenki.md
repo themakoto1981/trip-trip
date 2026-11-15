@@ -3,6 +3,7 @@ author: makoto
 layout: post
 title: "ダナン・ホイアンへ行ってきました｜バインミー食べ比べとランタンの夜"
 date: 2026-10-05
+last_verified: 2026-11-15
 related_guide: danang-hoian-guide
 image: "https://tripxtrip.com/assets/images/danang-hoian-taikenki/resort-infinity-pool-day.jpg"
 categories: [ベトナム, 島, 体験記]

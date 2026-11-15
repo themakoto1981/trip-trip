@@ -2,7 +2,7 @@
 layout: post
 title: "サメット島ビーチ完全ガイド｜行き方・ベストシーズン・予算・持ち物まとめ"
 date: 2026-11-16
-last_verified: 2026-11-14
+last_verified: 2026-11-15
 image: "https://upload.wikimedia.org/wikipedia/commons/4/49/Koh_Samet%2CWong_Duean_Beach.jpg"
 categories: [タイ, ビーチ]
 excerpt: "バンコクから日帰りも可能な距離にありながら、国立公園に指定された透明度の高い海と白砂のビーチが残る島。パタヤを経由すると陸路の移動が少し楽になる、サメット島へのアクセスと予算、おすすめ旅程をまとめました。"

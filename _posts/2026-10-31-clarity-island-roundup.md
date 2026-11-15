@@ -2,6 +2,7 @@
 layout: post
 title: "まとめ｜海の透明度で選ぶなら。抜群にきれいな島6選"
 date: 2026-10-31
+last_verified: 2026-11-15
 related_guides: [el-nido-guide, koh-lipe-guide, koh-tao-guide, nusa-penida-guide, perhentian-guide, redang-guide]
 image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Pulau_Redang_-_White_sandy_beach.jpg/960px-Pulau_Redang_-_White_sandy_beach.jpg"
 categories: [まとめ]
@@ -72,7 +73,7 @@ exclude_from_adjacent_nav: true
 </a>
 </div>
 
-真っ白な砂浜と透明度の高い海が広がる2つの小島。夜行バスを挟む分アクセスは骨が折れますが、その分だけ静かな海が保たれています。**11〜2月は島全体が休業する完全クローズドシーズン**なので、訪問時期だけは事前に必ず確認してください。
+真っ白な砂浜と透明度の高い海が広がる2つの小島。長距離バス（昼行で約8時間）を挟む分アクセスは骨が折れますが、その分だけ静かな海が保たれています。**11〜2月は島全体が休業する完全クローズドシーズン**なので、訪問時期だけは事前に必ず確認してください。
 
 ## ヌサペニダ島（インドネシア）｜絶景ビーチと一緒に楽しむ
 

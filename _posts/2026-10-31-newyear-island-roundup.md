@@ -2,6 +2,7 @@
 layout: post
 title: "まとめ｜年越しはどこで過ごす？年末年始におすすめの島6選"
 date: 2026-10-31
+last_verified: 2026-11-15
 related_guides: [boracay-guide, koh-kood-guide, koh-larn-guide, koh-lipe-guide, phuket-guide, phuquoc-guide]
 image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Patong_Beach_Phuket_November_2012.jpg/960px-Patong_Beach_Phuket_November_2012.jpg"
 categories: [まとめ]
@@ -34,7 +35,7 @@ exclude_from_adjacent_nav: true
 
 ベストシーズンはまさに12〜2月。パトンビーチ周辺では大晦日にカウントダウン花火が上がるとされ、年末年始らしい賑わいを味わえます。一方で、この時期は現地の交通渋滞が普段よりひどくなりやすいとも言われているので、**ビーチに近いホテルを取っておくと動きやすい**はずです。
 
-成田・羽田からの直行便もあり、日本からのアクセスも東南アジアの島の中では良い方。詳しい行き方・3つの予算プランは上の完全ガイドにまとめています。
+日本からの直行便はなくバンコク経由（国内線で約1時間20分）ですが、乗り継ぎ便が多く日本からのアクセスは悪くありません。詳しい行き方・3つの予算プランは上の完全ガイドにまとめています。
 
 ## ボラカイ島（フィリピン）｜ホワイトビーチで過ごす年越し
 

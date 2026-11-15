@@ -2,6 +2,7 @@
 layout: post
 title: "まとめ｜予算を抑えて行くなら。安く行ける島ランキング6選"
 date: 2026-10-31
+last_verified: 2026-11-15
 related_guides: [cebu-guide, danang-hoian-guide, koh-chang-guide, koh-larn-guide, koh-tao-guide, phuquoc-guide]
 image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Ile_de_Koh_Larn_%28Ile_de_corail%29.jpg/960px-Ile_de_Koh_Larn_%28Ile_de_corail%29.jpg"
 categories: [まとめ]

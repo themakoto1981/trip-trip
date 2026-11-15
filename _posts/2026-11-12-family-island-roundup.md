@@ -2,6 +2,7 @@
 layout: post
 title: "まとめ｜子連れ・ファミリー旅行におすすめの島6選"
 date: 2026-11-12
+last_verified: 2026-11-15
 related_guides: [bohol-guide, gili-air-guide, koh-larn-guide, langkawi-guide, nhatrang-guide, phuket-guide]
 image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Alona_Beach%2C_Panglao_Island_%282052095707%29.jpg/960px-Alona_Beach%2C_Panglao_Island_%282052095707%29.jpg"
 categories: [まとめ]
@@ -104,7 +105,7 @@ exclude_from_adjacent_nav: true
 </a>
 </div>
 
-ケーブルカーで登る山頂のランカウイ・スカイブリッジ、天然のプールで泳げる七段の滝（テラガ・トゥジュ）、マングローブをボートで巡るネイチャーツアーなど、**ビーチに飽きた時の遊び場が複数ある**のが強みです。日本からの直行便はありませんが、関西発ならAirAsia Xの直行便があり、東京発よりアクセスしやすいルートです。
+ケーブルカーで登る山頂のランカウイ・スカイブリッジ、天然のプールで泳げる七段の滝（テラガ・トゥジュ）、マングローブをボートで巡るネイチャーツアーなど、**ビーチに飽きた時の遊び場が複数ある**のが強みです。日本からの直行便はありませんが、クアラルンプール乗継（国内線で約1時間15分）で、関西発ならAirAsia Xのクアラルンプール直行便があり、東京発よりアクセスしやすいルートです。
 
 ---
 

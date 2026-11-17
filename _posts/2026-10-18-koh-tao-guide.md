@@ -72,7 +72,7 @@ excerpt: "世界屈指のダイビングスポットとして知られるタイ�
 - 12:30頃　港へ移動
 - 13:15　タオ島発の高速船でチュンポンへ（所要約1時間45分、15:00着）
 - 16:00　港近くの食堂で早めの夕食、お土産探し
-- 19:00　チュンポン発の夜行VIPバス（Suwannatee Tourなど）でバンコクへ<br><a class="schedule-tag" href="https://12go.asia/en/bus/chumphon/bangkok?z=17114820" target="_blank" rel="noopener noreferrer">12go.asiaで予約・最新スケジュール</a>
+- 19:00　チュンポン発の夜行VIPバスでバンコクへ<br><a class="schedule-tag" href="https://12go.asia/en/bus/chumphon/bangkok?z=17114820" target="_blank" rel="noopener noreferrer">12go.asiaで予約・最新スケジュール</a>
 
 **6日目（帰国日）**
 - 01:30頃　バンコク（モーチット・バスターミナル）着。周辺の24時間営業カフェで仮眠
@@ -113,7 +113,7 @@ excerpt: "世界屈指のダイビングスポットとして知られるタイ�
 - 12:30頃　港へ移動
 - 13:15　タオ島発の高速船でチュンポンへ（所要約1時間45分、15:00着）
 - 16:00　港近くの食堂で早めの夕食、お土産探し
-- 19:00　チュンポン発の夜行VIPバス（Suwannatee Tourなど）でバンコクへ<br><a class="schedule-tag" href="https://12go.asia/en/bus/chumphon/bangkok?z=17114820" target="_blank" rel="noopener noreferrer">12go.asiaで予約・最新スケジュール</a>
+- 19:00　チュンポン発の夜行VIPバスでバンコクへ<br><a class="schedule-tag" href="https://12go.asia/en/bus/chumphon/bangkok?z=17114820" target="_blank" rel="noopener noreferrer">12go.asiaで予約・最新スケジュール</a>
 
 **6日目（帰国日）**
 - 01:30頃　バンコク（モーチット・バスターミナル）着。周辺の24時間営業カフェで仮眠

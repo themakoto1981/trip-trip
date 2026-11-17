@@ -53,7 +53,7 @@ excerpt: "マレーシア半島の東海岸沖、南シナ海に浮かぶ2つの
 **2日目（クアラブス泊）**
 - 午前　ホテルでゆっくり休み、チェックアウト
 - KLIA Transitで空港からBandar Tasik Selatan駅へ（約27分）、駅からTBSは徒歩圏内
-- 10:00　TBS発の昼行バスでクアラブスへ（Sani Express、約7時間48分、[12go.asiaで予約可](https://12go.asia/en/travel/kuala-lumpur/kuala-besut?z=16187692&z=17114820)）
+- 10:00　TBS発の昼行バスでクアラブスへ（約7時間48分、[12go.asiaで予約可](https://12go.asia/en/travel/kuala-lumpur/kuala-besut?z=16187692&z=17114820)）
 - 17:48　クアラブス着。[Fairfield By Marriott Kuala Besut](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D56863583)にチェックイン、港町を散策して1泊
 
 **3日目（ペルヘンティアン泊）**
@@ -85,7 +85,7 @@ ZipairはKansai発着のクアラルンプール線を運航していないた�
 **2日目（クアラブス泊）**
 - 午前　ホテルでゆっくり休み、チェックアウト
 - KLIA Transitで空港からBandar Tasik Selatan駅へ（約27分）、駅からTBSは徒歩圏内
-- 10:00　TBS発の昼行バスでクアラブスへ（Sani Express、約7時間48分、[12go.asiaで予約可](https://12go.asia/en/travel/kuala-lumpur/kuala-besut?z=16187692&z=17114820)）
+- 10:00　TBS発の昼行バスでクアラブスへ（約7時間48分、[12go.asiaで予約可](https://12go.asia/en/travel/kuala-lumpur/kuala-besut?z=16187692&z=17114820)）
 - 17:48　クアラブス着。[Fairfield By Marriott Kuala Besut](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D56863583)にチェックイン、港町を散策して1泊
 
 **3日目（ペルヘンティアン泊）**
@@ -115,7 +115,7 @@ ZipairはKansai発着のクアラルンプール線を運航していないた�
 **2日目（クアラブス泊）**
 - 午前　ホテルでゆっくり休み、チェックアウト
 - KLIA Transitで空港からBandar Tasik Selatan駅へ（約27分）、駅からTBSは徒歩圏内
-- 10:00　TBS発の昼行バスでクアラブスへ（Sani Express、約7時間48分、[12go.asiaで予約可](https://12go.asia/en/travel/kuala-lumpur/kuala-besut?z=16187692&z=17114820)）
+- 10:00　TBS発の昼行バスでクアラブスへ（約7時間48分、[12go.asiaで予約可](https://12go.asia/en/travel/kuala-lumpur/kuala-besut?z=16187692&z=17114820)）
 - 17:48　クアラブス着。[Fairfield By Marriott Kuala Besut](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D56863583)にチェックイン、港町を散策して1泊
 
 **3日目（ペルヘンティアン泊）**
@@ -149,7 +149,7 @@ ANAは関西発着のクアラルンプール線を運航していないため�
 **2日目（クアラブス泊）**
 - 午前　ホテルでゆっくり休み、チェックアウト
 - KLIA Transitで空港からBandar Tasik Selatan駅へ（約27分）、駅からTBSは徒歩圏内
-- 10:00　TBS発の昼行バスでクアラブスへ（Sani Express、約7時間48分、[12go.asiaで予約可](https://12go.asia/en/travel/kuala-lumpur/kuala-besut?z=16187692&z=17114820)）
+- 10:00　TBS発の昼行バスでクアラブスへ（約7時間48分、[12go.asiaで予約可](https://12go.asia/en/travel/kuala-lumpur/kuala-besut?z=16187692&z=17114820)）
 - 17:48　クアラブス着。[Fairfield By Marriott Kuala Besut](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D56863583)にチェックイン、港町を散策して1泊
 
 **3日目（ペルヘンティアン泊）**
@@ -181,7 +181,7 @@ ANAは関西発着のクアラルンプール線を運航していないため�
 **2日目（クアラブス泊）**
 - 午前　ホテルでゆっくり休み、チェックアウト
 - KLIA Transitで空港からBandar Tasik Selatan駅へ（約27分）、駅からTBSは徒歩圏内
-- 10:00　TBS発の昼行バスでクアラブスへ（Sani Express、約7時間48分、[12go.asiaで予約可](https://12go.asia/en/travel/kuala-lumpur/kuala-besut?z=16187692&z=17114820)）
+- 10:00　TBS発の昼行バスでクアラブスへ（約7時間48分、[12go.asiaで予約可](https://12go.asia/en/travel/kuala-lumpur/kuala-besut?z=16187692&z=17114820)）
 - 17:48　クアラブス着。[Fairfield By Marriott Kuala Besut](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D56863583)にチェックイン、港町を散策して1泊
 
 **3日目（ペルヘンティアン泊）**
@@ -215,7 +215,7 @@ ANAは関西発着のクアラルンプール線を運航していないため�
 **2日目（クアラブス泊）**
 - 午前　ホテルでゆっくり休み、チェックアウト
 - KLIA Transitで空港からBandar Tasik Selatan駅へ（約27分）、駅からTBSは徒歩圏内
-- 10:00　TBS発の昼行バスでクアラブスへ（Sani Express、約7時間48分、[12go.asiaで予約可](https://12go.asia/en/travel/kuala-lumpur/kuala-besut?z=16187692&z=17114820)）
+- 10:00　TBS発の昼行バスでクアラブスへ（約7時間48分、[12go.asiaで予約可](https://12go.asia/en/travel/kuala-lumpur/kuala-besut?z=16187692&z=17114820)）
 - 17:48　クアラブス着。[Fairfield By Marriott Kuala Besut](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D56863583)にチェックイン、港町を散策して1泊
 
 **3日目（ペルヘンティアン泊）**

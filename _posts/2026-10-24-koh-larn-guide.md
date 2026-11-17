@@ -12,7 +12,7 @@ excerpt: "パタヤからスピードボートでわずか20分。コーラル�
 
 ## 行き方
 
-日本からバンコクへは直行便で約6〜7時間。バンコクからパタヤへはタクシーやGrabで約1.5〜2時間のほか、空港発の乗合バス（ロンルアンコーチ、1階8番出口、片道139THB〜／約560円〜）も利用できます<br><a class="schedule-tag" href="https://12go.asia/jp/bus/suvarnabhumi-airport/pattaya/?z=17114820" target="_blank" rel="noopener noreferrer">12go.asiaで最新のバススケジュール</a>。パタヤのバリハイ桟橋からラン島へはスピードボートで約15〜20分です（150〜200バーツ程度。30バーツの定期船もありますが所要約45分）<br><a class="schedule-tag" href="https://12go.asia/jp/travel/pattaya/koh-larn/?z=17114820" target="_blank" rel="noopener noreferrer">12go.asiaで最新のスピードボートスケジュール</a>。関西空港からもバンコクへの直行便があり、下記の予算プランは東京発・関西発を切り替えて確認できます
+日本からバンコクへは直行便で約6〜7時間。バンコクからパタヤへはタクシーやGrabで約1.5〜2時間のほか、空港発の乗合バス（1階8番出口、片道139THB〜／約560円〜）も利用できます<br><a class="schedule-tag" href="https://12go.asia/jp/bus/suvarnabhumi-airport/pattaya/?z=17114820" target="_blank" rel="noopener noreferrer">12go.asiaで最新のバススケジュール</a>。パタヤのバリハイ桟橋からラン島へはスピードボートで約15〜20分です（150〜200バーツ程度。30バーツの定期船もありますが所要約45分）<br><a class="schedule-tag" href="https://12go.asia/jp/travel/pattaya/koh-larn/?z=17114820" target="_blank" rel="noopener noreferrer">12go.asiaで最新のスピードボートスケジュール</a>。関西空港からもバンコクへの直行便があり、下記の予算プランは東京発・関西発を切り替えて確認できます
 
 - **島内の移動**：ビーチ間の移動はスクーターレンタルが実質必須です（1日200〜350THB／約600〜1,400円、パスポートなどの預け入れが必要）。ソンテウ（乗合タクシー）や単車タクシーもありますが、複数のビーチを回るならスクーターが便利です。
 
@@ -46,7 +46,7 @@ excerpt: "パタヤからスピードボートでわずか20分。コーラル�
 **1日目（パタヤ泊）**
 - 08:55　成田発（Vietjet Air、約7時間35分）
 - 14:30　バンコク（スワンナプーム空港）着
-- 16:30頃　空港バス（Airport Bus Pattaya、片道150THB／約600円）でパタヤへ移動（所要約2〜2.5時間）
+- 16:30頃　空港バス（片道150THB／約600円）でパタヤへ移動（所要約2〜2.5時間）
 - 18:00頃　パタヤ着。[Pattaya Inn Hotel](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D64741890)に1泊
 
 **2日目（ラン島泊）**
@@ -72,7 +72,7 @@ excerpt: "パタヤからスピードボートでわずか20分。コーラル�
 **1日目（パタヤ泊）**
 - 08:55　関空発（タイベトジェットVZ821、約6時間35分）
 - 13:30　バンコク（スワンナプーム空港）着
-- 15:30頃　空港バス（Airport Bus Pattaya、片道150THB／約600円）でパタヤへ移動（所要約2〜2.5時間）
+- 15:30頃　空港バス（片道150THB／約600円）でパタヤへ移動（所要約2〜2.5時間）
 - 17:00頃　パタヤ着。[Pattaya Inn Hotel](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D64741890)に1泊
 
 **2日目（ラン島泊）**

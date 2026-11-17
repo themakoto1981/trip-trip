@@ -43,7 +43,7 @@ excerpt: "バンコクから空港バスで約2時間半。中心部の喧騒を
 ## 行き方
 
 東京からは、成田発のZIPAIRまたは羽田発ANAで、関西から関空発のタイ国際航空またはエアアジアでバンコクへ（約6時間〜6時間30分）。
-バンコクからパタヤへは、スワンナプーム空港発の直行バスが便利です（Roong Reuang Coach、毎時運行、所要約2時間30分、140〜190バーツ）<br><a class="schedule-tag" href="https://12go.asia/jp/bus/suvarnabhumi-airport/pattaya/?z=17114820" target="_blank" rel="noopener noreferrer">12go.asiaで最新のバススケジュール</a>。パタヤのバス乗り場からは、Grabで宿泊エリア（ナーチョムティアン／ジョムティエン・ビーチなど）まで移動します（車で20〜30分ほど）。
+バンコクからパタヤへは、スワンナプーム空港発の直行バスが便利です（毎時運行、所要約2時間30分、140〜190バーツ）<br><a class="schedule-tag" href="https://12go.asia/jp/bus/suvarnabhumi-airport/pattaya/?z=17114820" target="_blank" rel="noopener noreferrer">12go.asiaで最新のバススケジュール</a>。パタヤのバス乗り場からは、Grabで宿泊エリア（ナーチョムティアン／ジョムティエン・ビーチなど）まで移動します（車で20〜30分ほど）。
 
 - **泊まるエリアの選び方**：ウォーキングストリート周辺の中心部は歓楽街としての賑わいが目的でなければ避けたほうが無難です。少し南のナーチョムティアンやジョムティエン・ビーチ方面は、同じパタヤでも落ち着いた時間が流れるエリアです。
 
@@ -82,7 +82,7 @@ excerpt: "バンコクから空港バスで約2時間半。中心部の喧騒を
 - 空港周辺のホテルに1泊
 
 **2日目（パタヤ泊）**
-- 09:00頃　空港発の直行バス（Roong Reuang Coach）でパタヤへ（所要約2時間30分）
+- 09:00頃　空港発の直行バスでパタヤへ（所要約2時間30分）
 - 11:30頃　パタヤ着。Grabでナーチョムティアンへ移動（約20〜30分）
 - 12:00頃　[Jomtien Hostel](https://www.booking.com/searchresults.html?ss=Jomtien%20Hostel%20Pattaya)にチェックイン（ジョムティエン・ビーチまで徒歩約3分）
 
@@ -106,7 +106,7 @@ excerpt: "バンコクから空港バスで約2時間半。中心部の喧騒を
 - 空港周辺のホテルに1泊
 
 **2日目（パタヤ泊）**
-- 09:00頃　空港発の直行バス（Roong Reuang Coach）でパタヤへ（所要約2時間30分）
+- 09:00頃　空港発の直行バスでパタヤへ（所要約2時間30分）
 - 11:30頃　パタヤ着。Grabでナーチョムティアンへ移動（約20〜30分）
 - 12:00頃　[Jomtien Hostel](https://www.booking.com/searchresults.html?ss=Jomtien%20Hostel%20Pattaya)にチェックイン
 
@@ -126,7 +126,7 @@ excerpt: "バンコクから空港バスで約2時間半。中心部の喧騒を
 
 **1日目（パタヤ泊）**
 {% include transit-flight.html hub="bangkok" route="haneda" tier="yuru_ragu_sameday" dir="out" %}
-- Grabで空港発の直行バス乗り場へ、バス（Roong Reuang Coach）でパタヤへ（所要約2時間30分）
+- Grabで空港発の直行バス乗り場へ、バスでパタヤへ（所要約2時間30分）
 - 18:00頃　パタヤ着。Grabでナーチョムティアンへ移動（約20〜30分）
 - 18:30頃　[Zand Morada Pattaya](https://www.booking.com/searchresults.html?ss=Zand%20Morada%20Pattaya)にチェックイン（ナーチョムティアンのビーチ目の前に建つホテル。客室はコンパクトだが立地の良さが魅力）
 
@@ -139,7 +139,7 @@ excerpt: "バンコクから空港バスで約2時間半。中心部の喧騒を
 **4日目（帰国日）**
 - 昼過ぎまで　ビーチでのんびり
 - 16:00頃　チェックアウト
-- Grabで空港直行バス乗り場へ、バス（Roong Reuang Coach）でスワンナプーム空港へ（所要約2時間30分）
+- Grabで空港直行バス乗り場へ、バスでスワンナプーム空港へ（所要約2時間30分）
 {% include transit-flight.html hub="bangkok" route="haneda" tier="yuru_ragu_sameday" dir="in" %}
 
 ## おすすめ旅程（ゆる旅向け・関西発／バンコク泊なし・3泊4日の例）
@@ -147,7 +147,7 @@ excerpt: "バンコクから空港バスで約2時間半。中心部の喧騒を
 **1日目（パタヤ泊）**
 - 11:45　関空発（タイ国際航空TG623、約5時間50分）
 - 15:35　バンコク（スワンナプーム空港）着
-- Grabで空港発の直行バス乗り場へ、バス（Roong Reuang Coach）でパタヤへ（所要約2時間30分）
+- Grabで空港発の直行バス乗り場へ、バスでパタヤへ（所要約2時間30分）
 - 18:30頃　パタヤ着。Grabでナーチョムティアンへ移動（約20〜30分）
 - 19:00頃　[Zand Morada Pattaya](https://www.booking.com/searchresults.html?ss=Zand%20Morada%20Pattaya)にチェックイン
 
@@ -160,7 +160,7 @@ excerpt: "バンコクから空港バスで約2時間半。中心部の喧騒を
 **4日目（帰国日）**
 - 昼過ぎまで　ビーチでのんびり
 - 16:00頃　チェックアウト
-- Grabで空港直行バス乗り場へ、バス（Roong Reuang Coach）でスワンナプーム空港へ（所要約2時間30分）
+- Grabで空港直行バス乗り場へ、バスでスワンナプーム空港へ（所要約2時間30分）
 - 23:59　バンコク発（タイ国際航空TG622、約5時間20分）
 - 07:20　関空着（翌日）
 

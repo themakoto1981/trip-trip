@@ -466,3 +466,15 @@ koh-samet-guide:
       order: 2
       reason: "フェリーやビーチでの撮影に"
       status: active
+
+mui-ne-guide:
+  heading: "持っていくと便利なもの"
+  items:
+    - product_id: water-shoes
+      order: 1
+      reason: "砂丘歩きやカイトサーフィンビーチでの出入りに"
+      status: active
+    - product_id: waterproof-phone-case
+      order: 2
+      reason: "ジープツアーの砂埃やビーチでの撮影に"
+      status: active

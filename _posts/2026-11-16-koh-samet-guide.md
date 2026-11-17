@@ -106,7 +106,7 @@ excerpt: "バンコクから日帰りも可能な距離にありながら、国�
 
 **1日目（パタヤ泊）**
 {% include transit-flight.html hub="bangkok" route="haneda" tier="yuru_ragu_sameday" dir="out" %}
-- Grabで空港発の直行バス乗り場へ、バス（Roong Reuang Coach）でパタヤへ（所要約2時間30分）
+- Grabで空港発の直行バス乗り場へ、バスでパタヤへ（所要約2時間30分）
 - 18:00頃　パタヤ着。[Zand Morada Pattaya](https://www.booking.com/searchresults.html?ss=Zand%20Morada%20Pattaya)にチェックイン（詳しくは[パタヤビーチ完全ガイド](/2026/11/14/pattaya-guide/)を参照）
 
 **2日目（サメット島泊）**
@@ -128,7 +128,7 @@ excerpt: "バンコクから日帰りも可能な距離にありながら、国�
 **1日目（パタヤ泊）**
 - 11:45　関空発（タイ国際航空TG623、約5時間50分）
 - 15:35　バンコク（スワンナプーム空港）着
-- Grabで空港発の直行バス乗り場へ、バス（Roong Reuang Coach）でパタヤへ（所要約2時間30分）
+- Grabで空港発の直行バス乗り場へ、バスでパタヤへ（所要約2時間30分）
 - 18:30頃　パタヤ着。[Zand Morada Pattaya](https://www.booking.com/searchresults.html?ss=Zand%20Morada%20Pattaya)にチェックイン
 
 **2日目（サメット島泊）**

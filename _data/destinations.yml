@@ -1589,3 +1589,44 @@
     ragu: [TR01, SC03, HT11]
   url: /2026/11/16/koh-samet-guide/
   tags: { beach: 5, resort: 3, island: 4, city_base: 1, sightseeing: 2, relax: 5, party: 2, activity: 3 }
+
+- name: ムイネー
+  en_name: "Mui Ne, Vietnam"
+  slug: mui-ne-guide
+  country: ベトナム
+  country_slug: vietnam
+  description: "赤砂丘・白砂丘が広がる「ベトナムの小さな砂漠」。カイトサーフィンでも知られるビーチタウンで、ホーチミンからはバスで渡る。"
+  lat: 10.9333
+  lng: 108.2869
+  flight_min: 35000
+  flight_max: 120000
+  flight_min_kansai: 40000
+  flight_max_kansai: 130000
+  hotel_min: 1500
+  hotel_max: 25000
+  transport_min: 1500
+  transport_max: 6000
+  food_min: 2000
+  food_max: 5500
+  yasu_hotel: 2000
+  yasu_transport: 1500
+  yasu_food: 2000
+  yuru_hotel: 9000
+  yuru_transport: 3000
+  yuru_food: 3500
+  ragu_hotel: 23000
+  ragu_transport: 5000
+  ragu_food: 5500
+  flight_hours: "約11〜12時間（ホーチミン直行便 約6時間＋バス約5.5時間）"
+  recommended_nights: "3泊以上"
+  visa: "不要（45日以内）"
+  photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/White_Dune_-_Mui_Ne.jpg/960px-White_Dune_-_Mui_Ne.jpg"
+  photo_credit_url: "https://commons.wikimedia.org/wiki/File:White_Dune_-_Mui_Ne.jpg"
+  suited_for: [couple, friends, solo]
+  best_months: [11, 12, 1, 2, 3]
+  budget_tags:
+    yasu: [TR02, SC03, HT15]
+    yuru: [TR01, SC03, HT03]
+    ragu: [TR01, SC03, HT11]
+  url: /2026/11/17/mui-ne-guide/
+  tags: { beach: 4, resort: 3, island: 1, city_base: 1, sightseeing: 5, relax: 3, party: 1, activity: 5 }

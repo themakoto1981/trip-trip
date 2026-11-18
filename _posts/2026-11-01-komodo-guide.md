@@ -43,7 +43,7 @@ excerpt: "世界最大のトカゲ、コモドドラゴンが野生で暮らす�
 - **ゆる旅**：ガルーダ航空でデンパサールへ直行｜1泊して翌朝の国内線でラブアンバジョへ｜乗継の疲れをためずに世界遺産の島へ<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A" target="_blank" rel="noopener noreferrer">最新フライトスケジュール</a>
 - **らぐ旅**：ガルーダ航空でデンパサールへ直行｜空港直結ホテルで快適に1泊｜世界遺産の島を贅沢に満喫<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A" target="_blank" rel="noopener noreferrer">最新フライトスケジュール</a>
 
-## おすすめ旅程（やす旅向け／デンパサール1泊・4泊6日（うち機内1泊）の例）
+## おすすめ旅程（やす旅向け／デンパサール1泊・5泊6日（うち機内1泊）の例）
 
 **1日目（デンパサール泊）**
 - 23:50頃　羽田発（AirAsia X、クアラルンプール経由、約7時間）

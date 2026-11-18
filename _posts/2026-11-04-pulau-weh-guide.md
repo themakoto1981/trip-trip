@@ -55,7 +55,7 @@ excerpt: "スマトラ島の北端、インドネシア最西の離島ウェ島�
 - 08:00　クアラルンプール発（AirAsia、バンダアチェ行き、約1時間35分）
 - 09:35　バンダアチェ着。車でウレレ港へ移動（約35分）
 - 午後　高速船または普通フェリーでバロハン港へ（約1〜2時間）
-- 夕方　車でイボイへ移動（約1時間）。[Iboih Inn](https://www.booking.com/searchresults.html?ss=Iboih%20Inn%20Pulau%20Weh)にチェックイン
+- 夕方　車でイボイへ移動（約1時間）。[Iboih Inn](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D246231)にチェックイン
 
 **3日目（終日フリー）**
 - 終日　イボイビーチからルビア島へ渡ってシュノーケリング
@@ -82,7 +82,7 @@ excerpt: "スマトラ島の北端、インドネシア最西の離島ウェ島�
 - 08:00　クアラルンプール発（AirAsia、バンダアチェ行き、約1時間35分）
 - 09:35　バンダアチェ着。車でウレレ港へ移動（約35分）
 - 午後　高速船または普通フェリーでバロハン港へ（約1〜2時間）
-- 夕方　車でイボイへ移動（約1時間）。[Iboih Inn](https://www.booking.com/searchresults.html?ss=Iboih%20Inn%20Pulau%20Weh)にチェックイン
+- 夕方　車でイボイへ移動（約1時間）。[Iboih Inn](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D246231)にチェックイン
 
 **3日目（終日フリー）**
 - 終日　イボイビーチからルビア島へ渡ってシュノーケリング
@@ -103,13 +103,13 @@ excerpt: "スマトラ島の北端、インドネシア最西の離島ウェ島�
 
 **1日目（ジャカルタ空港そば泊）**
 - 11:15　成田発（JAL JL725、ジャカルタ行き、約7時間50分）
-- 17:05　ジャカルタ着。入国審査・荷物受取後、翌朝の便に備えて[FM7 Resort Hotel Jakarta Airport](https://www.booking.com/searchresults.html?ss=FM7%20Resort%20Hotel%20Jakarta%20Airport)へ（空港直結で移動の手間なし）
+- 17:05　ジャカルタ着。入国審査・荷物受取後、翌朝の便に備えて[FM7 Resort Hotel Jakarta Airport](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D159159)へ（空港直結で移動の手間なし）
 
 **2日目（ウェ島泊）**
 - 08:00　ジャカルタ発（ガルーダ・インドネシア航空、バンダアチェ行き、約2時間50分）
 - 10:50　バンダアチェ着。車でウレレ港へ移動（約35分）
 - 午後　高速船でバロハン港へ（約1時間）
-- 夕方　車でスムールティガへ移動。[Freddie's Santai Sumur Tiga](https://www.booking.com/searchresults.html?ss=Freddie%27s%20Santai%20Sumur%20Tiga)にチェックイン（海沿いのバンガローとレストランが人気）
+- 夕方　車でスムールティガへ移動。[Freddie's Santai Sumur Tiga](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1654533)にチェックイン（海沿いのバンガローとレストランが人気）
 
 **3日目（終日フリー）**
 - 終日　スムールティガのビーチでのんびり、シュノーケリング
@@ -133,13 +133,13 @@ ANA・JALに関西発ジャカルタ直行便が無いため、関西発はANA�
 - 07:00　関空発（ANA、羽田行き、約1時間15分）
 - 08:15頃　羽田着。国内線ターミナルから国際線ターミナルへ移動
 - 10:15　羽田発（ANA NH855、約7時間45分）
-- 16:00　ジャカルタ着（時差-2時間）。入国審査・荷物受取後、翌朝の便に備えて[FM7 Resort Hotel Jakarta Airport](https://www.booking.com/searchresults.html?ss=FM7%20Resort%20Hotel%20Jakarta%20Airport)へ（空港直結で移動の手間なし）
+- 16:00　ジャカルタ着（時差-2時間）。入国審査・荷物受取後、翌朝の便に備えて[FM7 Resort Hotel Jakarta Airport](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D159159)へ（空港直結で移動の手間なし）
 
 **2日目（ウェ島泊）**
 - 08:00　ジャカルタ発（ガルーダ・インドネシア航空、バンダアチェ行き、約2時間50分）
 - 10:50　バンダアチェ着。車でウレレ港へ移動（約35分）
 - 午後　高速船でバロハン港へ（約1時間）
-- 夕方　車でスムールティガへ移動。[Freddie's Santai Sumur Tiga](https://www.booking.com/searchresults.html?ss=Freddie%27s%20Santai%20Sumur%20Tiga)にチェックイン（海沿いのバンガローとレストランが人気）
+- 夕方　車でスムールティガへ移動。[Freddie's Santai Sumur Tiga](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1654533)にチェックイン（海沿いのバンガローとレストランが人気）
 
 **3日目（終日フリー）**
 - 終日　スムールティガのビーチでのんびり、シュノーケリング
@@ -162,13 +162,13 @@ ANA・JALに関西発ジャカルタ直行便が無いため、関西発はANA�
 
 **1日目（ジャカルタ空港そば泊）**
 - 11:15　成田発（JAL JL725、ジャカルタ行き、約7時間50分）
-- 17:05　ジャカルタ着。入国審査・荷物受取後、翌朝の便に備えて[Sheraton Jakarta Soekarno Hatta Airport](https://www.booking.com/searchresults.html?ss=Sheraton%20Jakarta%20Soekarno%20Hatta%20Airport)などの空港そばの上質なホテルへ
+- 17:05　ジャカルタ着。入国審査・荷物受取後、翌朝の便に備えて[Sheraton Jakarta Soekarno Hatta Airport](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D51816067)などの空港そばの上質なホテルへ
 
 **2日目（ウェ島泊）**
 - 08:00　ジャカルタ発（ガルーダ・インドネシア航空、バンダアチェ行き、約2時間50分）
 - 10:50　バンダアチェ着。車でウレレ港へ移動（約35分）
 - 午後　高速船でバロハン港へ（約1時間）
-- 夕方　車でスムールティガへ移動。[Casa Nemo Beach Resort & Spa](https://www.booking.com/searchresults.html?ss=Casa%20Nemo%20Beach%20Resort%20%26%20Spa%20Sabang)にチェックイン（ビーチまで徒歩すぐのリゾート）
+- 夕方　車でスムールティガへ移動。[Casa Nemo Beach Resort & Spa](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D294791)にチェックイン（ビーチまで徒歩すぐのリゾート）
 
 **3日目（終日フリー）**
 - 終日　ビーチとスパでのんびり
@@ -192,13 +192,13 @@ ANA・JALに関西発ジャカルタ直行便が無いため、関西発はANA�
 - 07:00　関空発（ANA、羽田行き、約1時間15分）
 - 08:15頃　羽田着。国内線ターミナルから国際線ターミナルへ移動
 - 10:15　羽田発（ANA NH855、約7時間45分）
-- 16:00　ジャカルタ着（時差-2時間）。入国審査・荷物受取後、翌朝の便に備えて[Sheraton Jakarta Soekarno Hatta Airport](https://www.booking.com/searchresults.html?ss=Sheraton%20Jakarta%20Soekarno%20Hatta%20Airport)などの空港そばの上質なホテルへ
+- 16:00　ジャカルタ着（時差-2時間）。入国審査・荷物受取後、翌朝の便に備えて[Sheraton Jakarta Soekarno Hatta Airport](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D51816067)などの空港そばの上質なホテルへ
 
 **2日目（ウェ島泊）**
 - 08:00　ジャカルタ発（ガルーダ・インドネシア航空、バンダアチェ行き、約2時間50分）
 - 10:50　バンダアチェ着。車でウレレ港へ移動（約35分）
 - 午後　高速船でバロハン港へ（約1時間）
-- 夕方　車でスムールティガへ移動。[Casa Nemo Beach Resort & Spa](https://www.booking.com/searchresults.html?ss=Casa%20Nemo%20Beach%20Resort%20%26%20Spa%20Sabang)にチェックイン（ビーチまで徒歩すぐのリゾート）
+- 夕方　車でスムールティガへ移動。[Casa Nemo Beach Resort & Spa](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D294791)にチェックイン（ビーチまで徒歩すぐのリゾート）
 
 **3日目（終日フリー）**
 - 終日　ビーチとスパでのんびり

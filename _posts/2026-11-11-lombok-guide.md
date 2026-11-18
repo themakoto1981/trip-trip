@@ -55,7 +55,7 @@ excerpt: "バリ島の東隣、ロンボク島。南部のクタ・ロンボク�
 - 13:55　デンパサール着。入国審査と荷物受取を終えたら国内線ターミナルへ
 - 15:30頃　デンパサール発（ロンボクへの国内線、約45分）
 - 16:15頃　ロンボク国際空港着。車でクタ・ロンボクへ（約25分）
-- 16:45頃　[Mad Monkey Kuta Lombok](https://www.booking.com/searchresults.html?ss=Mad%20Monkey%20Kuta%20Lombok)にチェックイン
+- 16:45頃　[Mad Monkey Kuta Lombok](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D28187600)にチェックイン
 
 **3日目（終日フリー）**
 - 終日　レンタルバイクかGrabでタンジュン・アン（車で約10分）とセロン・ブラナックビーチ（車で約45分）を回る
@@ -82,12 +82,12 @@ excerpt: "バリ島の東隣、ロンボク島。南部のクタ・ロンボク�
 - 10:55　関空発（AirAsia X D7533、約7時間）
 - 16:55頃　クアラルンプール着。乗継エリアで待機
 - 19:30頃　クアラルンプール発（AirAsia）
-- 22:30頃　デンパサール着。空港直結の[Novotel Bali Ngurah Rai Airport](https://www.booking.com/searchresults.html?ss=Novotel%20Bali%20Ngurah%20Rai%20Airport)にチェックイン
+- 22:30頃　デンパサール着。空港直結の[Novotel Bali Ngurah Rai Airport](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1120757)にチェックイン
 
 **2日目（クタ・ロンボク泊）**
 - 10:30頃　デンパサール発（ロンボクへの国内線、約45分）
 - 11:15頃　ロンボク国際空港着。車でクタ・ロンボクへ（約25分）
-- 11:45頃　[Mad Monkey Kuta Lombok](https://www.booking.com/searchresults.html?ss=Mad%20Monkey%20Kuta%20Lombok)にチェックイン
+- 11:45頃　[Mad Monkey Kuta Lombok](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D28187600)にチェックイン
 - 午後　タンジュン・アン（車で約10分）でのんびり過ごす
 
 **3日目（終日フリー）**
@@ -111,7 +111,7 @@ excerpt: "バリ島の東隣、ロンボク島。南部のクタ・ロンボク�
 - 17:55　デンパサール着。入国審査と荷物受取を終えたら国内線ターミナルへ
 - 19:45頃　デンパサール発（ロンボクへの国内線、約45分）
 - 20:30頃　ロンボク国際空港着。車でクタ・ロンボクへ（約25分）
-- 21:00頃　[Novotel Lombok Resort and Villas](https://www.booking.com/searchresults.html?ss=Novotel%20Lombok%20Resort%20and%20Villas)にチェックイン
+- 21:00頃　[Novotel Lombok Resort and Villas](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D10372)にチェックイン
 
 **2日目（終日フリー）**
 - 終日　Grabか送迎でタンジュン・アン（車で約10分）とセロン・ブラナックビーチ（車で約45分）を回る
@@ -134,12 +134,12 @@ JAL＝ガルーダ運航便に関西発の直行便が無いため、関西発�
 - 10:55　関空発（AirAsia X D7533、約7時間）
 - 16:55頃　クアラルンプール着
 - 19:30頃　クアラルンプール発（AirAsia）
-- 22:30頃　デンパサール着。空港直結の[Novotel Bali Ngurah Rai Airport](https://www.booking.com/searchresults.html?ss=Novotel%20Bali%20Ngurah%20Rai%20Airport)にチェックイン
+- 22:30頃　デンパサール着。空港直結の[Novotel Bali Ngurah Rai Airport](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1120757)にチェックイン
 
 **2日目（クタ・ロンボク泊）**
 - 10:30頃　デンパサール発（ロンボクへの国内線、約45分）
 - 11:15頃　ロンボク国際空港着。車でクタ・ロンボクへ（約25分）
-- 11:45頃　[Novotel Lombok Resort and Villas](https://www.booking.com/searchresults.html?ss=Novotel%20Lombok%20Resort%20and%20Villas)にチェックイン
+- 11:45頃　[Novotel Lombok Resort and Villas](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D10372)にチェックイン
 - 午後　タンジュン・アン（車で約10分）でのんびり過ごす
 
 **3日目（終日フリー）**
@@ -163,7 +163,7 @@ JAL＝ガルーダ運航便に関西発の直行便が無いため、関西発�
 - 17:55　デンパサール着。入国審査と荷物受取を終えたら国内線ターミナルへ
 - 19:45頃　デンパサール発（ロンボクへの国内線、約45分）
 - 20:30頃　ロンボク国際空港着。専用車でクタ・ロンボクへ（約25分）
-- 21:00頃　[Pullman Lombok Merujani Mandalika Beach Resort](https://www.booking.com/searchresults.html?ss=Pullman%20Lombok%20Merujani%20Mandalika%20Beach%20Resort)にチェックイン
+- 21:00頃　[Pullman Lombok Merujani Mandalika Beach Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D29494827)にチェックイン
 
 **2日目（終日フリー）**
 - 終日　専用車でタンジュン・アンとセロン・ブラナックビーチを巡る
@@ -186,12 +186,12 @@ JAL＝ガルーダ運航便に関西発の直行便が無いため、関西発�
 - 10:55　関空発（AirAsia X D7533、約7時間）
 - 16:55頃　クアラルンプール着
 - 19:30頃　クアラルンプール発（AirAsia）
-- 22:30頃　デンパサール着。空港直結の[Novotel Bali Ngurah Rai Airport](https://www.booking.com/searchresults.html?ss=Novotel%20Bali%20Ngurah%20Rai%20Airport)にチェックイン
+- 22:30頃　デンパサール着。空港直結の[Novotel Bali Ngurah Rai Airport](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1120757)にチェックイン
 
 **2日目（クタ・ロンボク泊）**
 - 10:30頃　デンパサール発（ロンボクへの国内線、約45分）
 - 11:15頃　ロンボク国際空港着。専用車でクタ・ロンボクへ（約25分）
-- 11:45頃　[Pullman Lombok Merujani Mandalika Beach Resort](https://www.booking.com/searchresults.html?ss=Pullman%20Lombok%20Merujani%20Mandalika%20Beach%20Resort)にチェックイン
+- 11:45頃　[Pullman Lombok Merujani Mandalika Beach Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D29494827)にチェックイン
 - 午後　専用車でタンジュン・アンへ
 
 **3日目（終日フリー）**

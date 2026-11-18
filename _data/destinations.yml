@@ -93,7 +93,7 @@
   ragu_transport: 8000
   ragu_food: 9000
   flight_hours: "約7〜8時間（直行便）、乗継便の場合は12〜14時間"
-  recommended_nights: "3〜5泊"
+  recommended_nights: "4〜5泊"
   visa: "必要（到着ビザ(VOA)、約50万ルピア）"
   photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Kuta_Beach%2C_Bali%2C_20220825_1706_0864.jpg/960px-Kuta_Beach%2C_Bali%2C_20220825_1706_0864.jpg"
   photo_credit_url: "https://commons.wikimedia.org/wiki/File:Kuta_Beach,_Bali,_20220825_1706_0864.jpg"
@@ -173,7 +173,7 @@
   ragu_transport: 4000
   ragu_food: 7500
   flight_hours: "約10〜12時間（クアラルンプール経由）"
-  recommended_nights: "3〜5泊"
+  recommended_nights: "4〜5泊"
   visa: "不要（90日以内）"
   photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Pantai_Cenang%2C_Langkawi_01.jpg/960px-Pantai_Cenang%2C_Langkawi_01.jpg"
   photo_credit_url: "https://commons.wikimedia.org/wiki/File:Pantai_Cenang,_Langkawi_01.jpg"
@@ -213,7 +213,7 @@
   ragu_transport: 4000
   ragu_food: 7000
   flight_hours: "約11〜13時間（バンコク経由、ハジャイ空港からは車＋スピードボートで対岸へ約3時間）"
-  recommended_nights: "4泊以上"
+  recommended_nights: "5泊以上"
   visa: "不要（30日以内）"
   photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Koh_Lipe_Thailand._Koh_Lipe_Beach_Resort%2C_Koh_Lipe_Island_01.jpg/960px-Koh_Lipe_Thailand._Koh_Lipe_Beach_Resort%2C_Koh_Lipe_Island_01.jpg"
   photo_credit_url: "https://commons.wikimedia.org/wiki/File:Koh_Lipe_Thailand._Koh_Lipe_Beach_Resort,_Koh_Lipe_Island_01.jpg"
@@ -293,7 +293,7 @@
   ragu_transport: 4000
   ragu_food: 7500
   flight_hours: "約9〜11時間（プーケットまたはクラビ経由、フェリーで1〜2時間）"
-  recommended_nights: "4泊以上"
+  recommended_nights: "5泊以上"
   visa: "不要（30日以内）"
   photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Isla_Ko_Phi_Phi_Don%2C_Tailandia%2C_2013-08-19%2C_DD_01.JPG/960px-Isla_Ko_Phi_Phi_Don%2C_Tailandia%2C_2013-08-19%2C_DD_01.JPG"
   photo_credit_url: "https://commons.wikimedia.org/wiki/File:Isla_Ko_Phi_Phi_Don,_Tailandia,_2013-08-19,_DD_01.JPG"
@@ -333,7 +333,7 @@
   ragu_transport: 3500
   ragu_food: 7000
   flight_hours: "約10〜12時間（バンコク経由、トラート空港からフェリーで約40分）"
-  recommended_nights: "4泊以上"
+  recommended_nights: "3泊以上"
   visa: "不要（30日以内）"
   photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Klong_Prao_Beach%2C_west_coast_of_Ko_Chang_Island%2C_Thailand.jpg/960px-Klong_Prao_Beach%2C_west_coast_of_Ko_Chang_Island%2C_Thailand.jpg"
   photo_credit_url: "https://commons.wikimedia.org/wiki/File:Klong_Prao_Beach,_west_coast_of_Ko_Chang_Island,_Thailand.jpg"
@@ -413,7 +413,7 @@
   ragu_transport: 2800
   ragu_food: 5500
   flight_hours: "約9〜10時間（ホーチミン経由、国内線で約1時間）"
-  recommended_nights: "3泊以上"
+  recommended_nights: "4泊以上"
   visa: "不要（45日以内）"
   photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Phu_Quoc_beach_01.jpg/960px-Phu_Quoc_beach_01.jpg"
   photo_credit_url: "https://commons.wikimedia.org/wiki/File:Phu_Quoc_beach_01.jpg"
@@ -453,7 +453,7 @@
   ragu_transport: 3200
   ragu_food: 6000
   flight_hours: "約9〜12時間（バンコク乗り継ぎ、国内線で約1時間）"
-  recommended_nights: "3泊以上"
+  recommended_nights: "4泊以上"
   visa: "不要（30日以内）"
   photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Koh_Samui%2C_Island%2C_Beach%2C_Thailand.jpg/960px-Koh_Samui%2C_Island%2C_Beach%2C_Thailand.jpg"
   photo_credit_url: "https://commons.wikimedia.org/wiki/File:Koh_Samui,_Island,_Beach,_Thailand.jpg"
@@ -493,7 +493,7 @@
   ragu_transport: 2000
   ragu_food: 5000
   flight_hours: "約12〜16時間（バンコク乗り継ぎ、チュンポンまたはサムイ島経由）"
-  recommended_nights: "3泊以上"
+  recommended_nights: "4泊以上"
   visa: "不要（30日以内）"
   photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Koh_Tao_Sairee_Beach.jpg/960px-Koh_Tao_Sairee_Beach.jpg"
   photo_credit_url: "https://commons.wikimedia.org/wiki/File:Koh_Tao_Sairee_Beach.jpg"
@@ -813,7 +813,7 @@
   ragu_transport: 5000
   ragu_food: 5000
   flight_hours: "約7〜8時間（ホーチミン直行便＋国内線約50分）"
-  recommended_nights: "3泊以上"
+  recommended_nights: "4泊以上"
   visa: "不要（45日以内）"
   photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/C%C3%B4n_%C4%90%E1%BA%A3o_National_Park.jpg/960px-C%C3%B4n_%C4%90%E1%BA%A3o_National_Park.jpg"
   photo_credit_url: "https://commons.wikimedia.org/wiki/File:C%C3%B4n_%C4%90%E1%BA%A3o_National_Park.jpg"
@@ -933,7 +933,7 @@
   ragu_transport: 4500
   ragu_food: 5000
   flight_hours: "約7〜8時間（ホーチミン直行便＋国内線約1時間10分）"
-  recommended_nights: "4泊以上"
+  recommended_nights: "5泊以上"
   visa: "不要（45日以内）"
   photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Nha_Trang_Beach_7.jpg/960px-Nha_Trang_Beach_7.jpg"
   photo_credit_url: "https://commons.wikimedia.org/wiki/File:Nha_Trang_Beach_7.jpg"
@@ -1053,7 +1053,7 @@
   ragu_transport: 14000
   ragu_food: 6500
   flight_hours: "約7〜8時間（デンパサール直行便）、パダンバイから高速ボートで約2時間"
-  recommended_nights: "4泊以上"
+  recommended_nights: "5泊以上"
   visa: "必要（到着ビザ(VOA)、約50万ルピア）"
   photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Gili-Air-%D0%93%D0%B8%D0%BB%D0%B8-%D0%90%D0%B8%D1%80.jpg/960px-Gili-Air-%D0%93%D0%B8%D0%BB%D0%B8-%D0%90%D0%B8%D1%80.jpg"
   photo_credit_url: "https://commons.wikimedia.org/wiki/File:Gili-Air-%D0%93%D0%B8%D0%BB%D0%B8-%D0%90%D0%B8%D1%80.jpg"
@@ -1093,7 +1093,7 @@
   ragu_transport: 4000
   ragu_food: 5000
   flight_hours: "約7〜8時間（バンコク直行便）、パタヤからスピードボートで約15〜20分"
-  recommended_nights: "3泊以上"
+  recommended_nights: "4泊以上"
   visa: "不要（30日以内）"
   photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Ile_de_Koh_Larn_%28Ile_de_corail%29.jpg/960px-Ile_de_Koh_Larn_%28Ile_de_corail%29.jpg"
   photo_credit_url: "https://commons.wikimedia.org/wiki/File:Ile_de_Koh_Larn_(Ile_de_corail).jpg"
@@ -1133,7 +1133,7 @@
   ragu_transport: 4000
   ragu_food: 5500
   flight_hours: "約10〜12時間（クアラルンプール経由、クアラブス桟橋からスピードボートで約40分）"
-  recommended_nights: "4泊以上"
+  recommended_nights: "5泊以上"
   visa: "不要（90日以内）"
   photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Perhentian_Islands%2C_Malaysia%2C_Beach.jpg/960px-Perhentian_Islands%2C_Malaysia%2C_Beach.jpg"
   photo_credit_url: "https://commons.wikimedia.org/wiki/File:Perhentian_Islands,_Malaysia,_Beach.jpg"
@@ -1173,7 +1173,7 @@
   ragu_transport: 7500
   ragu_food: 5200
   flight_hours: "約10〜12時間（バンコク経由、トラート空港から車＋フェリーで約2時間）"
-  recommended_nights: "4泊以上"
+  recommended_nights: "5泊以上"
   visa: "不要（30日以内）"
   photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Koh_Kut%2C_Thailand%2C_Palms_on_the_beach.jpg/960px-Koh_Kut%2C_Thailand%2C_Palms_on_the_beach.jpg"
   photo_credit_url: "https://commons.wikimedia.org/wiki/File:Koh_Kut,_Thailand,_Palms_on_the_beach.jpg"
@@ -1577,7 +1577,7 @@
   ragu_transport: 4500
   ragu_food: 5000
   flight_hours: "約10〜12時間（バンコク経由、バンペー桟橋からフェリーで約15〜40分）"
-  recommended_nights: "2泊以上"
+  recommended_nights: "3泊以上"
   visa: "不要（30日以内）"
   photo: "https://upload.wikimedia.org/wikipedia/commons/4/49/Koh_Samet%2CWong_Duean_Beach.jpg"
   photo_credit_url: "https://commons.wikimedia.org/wiki/File:Koh_Samet,Wong_Duean_Beach.jpg"
@@ -1618,7 +1618,7 @@
   ragu_transport: 5000
   ragu_food: 5500
   flight_hours: "約11〜12時間（ホーチミン直行便 約6時間＋バス約5.5時間）"
-  recommended_nights: "3泊以上"
+  recommended_nights: "4泊以上"
   visa: "不要（45日以内）"
   photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/White_Dune_-_Mui_Ne.jpg/960px-White_Dune_-_Mui_Ne.jpg"
   photo_credit_url: "https://commons.wikimedia.org/wiki/File:White_Dune_-_Mui_Ne.jpg"

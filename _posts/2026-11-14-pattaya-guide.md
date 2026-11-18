@@ -84,7 +84,7 @@ excerpt: "バンコクから空港バスで約2時間半。中心部の喧騒を
 **2日目（パタヤ泊）**
 - 09:00頃　空港発の直行バスでパタヤへ（所要約2時間30分）
 - 11:30頃　パタヤ着。Grabでナーチョムティアンへ移動（約20〜30分）
-- 12:00頃　[Jomtien Hostel](https://www.booking.com/searchresults.html?ss=Jomtien%20Hostel%20Pattaya)にチェックイン（ジョムティエン・ビーチまで徒歩約3分）
+- 12:00頃　[Jomtien Hostel](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D287670)にチェックイン（ジョムティエン・ビーチまで徒歩約3分）
 
 **3日目（終日フリー）**
 - 終日　ジョムティエン・ビーチの海の家でサマーベッドをレンタルしてのんびり
@@ -110,7 +110,7 @@ excerpt: "バンコクから空港バスで約2時間半。中心部の喧騒を
 **2日目（パタヤ泊）**
 - 09:00頃　空港発の直行バスでパタヤへ（所要約2時間30分）
 - 11:30頃　パタヤ着。Grabでナーチョムティアンへ移動（約20〜30分）
-- 12:00頃　[Jomtien Hostel](https://www.booking.com/searchresults.html?ss=Jomtien%20Hostel%20Pattaya)にチェックイン
+- 12:00頃　[Jomtien Hostel](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D287670)にチェックイン
 
 **3日目（終日フリー）**
 - 終日　ジョムティエン・ビーチの海の家でサマーベッドをレンタルしてのんびり
@@ -132,7 +132,7 @@ excerpt: "バンコクから空港バスで約2時間半。中心部の喧騒を
 {% include transit-flight.html hub="bangkok" route="haneda" tier="yuru_ragu_sameday" dir="out" %}
 - Grabで空港発の直行バス乗り場へ、バスでパタヤへ（所要約2時間30分）
 - 18:00頃　パタヤ着。Grabでナーチョムティアンへ移動（約20〜30分）
-- 18:30頃　[Zand Morada Pattaya](https://www.booking.com/searchresults.html?ss=Zand%20Morada%20Pattaya)にチェックイン（ナーチョムティアンのビーチ目の前に建つホテル。客室はコンパクトだが立地の良さが魅力）
+- 18:30頃　[Zand Morada Pattaya](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D2011272)にチェックイン（ナーチョムティアンのビーチ目の前に建つホテル。客室はコンパクトだが立地の良さが魅力）
 
 **2日目（終日フリー）**
 - 終日　ビーチ沿いの海の家でサマーベッドをレンタルしてのんびり。フード・ドリンクのオーダーも可能で、夕方の日没時間帯が特に気持ちいい
@@ -153,7 +153,7 @@ excerpt: "バンコクから空港バスで約2時間半。中心部の喧騒を
 - 15:35　バンコク（スワンナプーム空港）着
 - Grabで空港発の直行バス乗り場へ、バスでパタヤへ（所要約2時間30分）
 - 18:30頃　パタヤ着。Grabでナーチョムティアンへ移動（約20〜30分）
-- 19:00頃　[Zand Morada Pattaya](https://www.booking.com/searchresults.html?ss=Zand%20Morada%20Pattaya)にチェックイン
+- 19:00頃　[Zand Morada Pattaya](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D2011272)にチェックイン
 
 **2日目（終日フリー）**
 - 終日　ビーチ沿いの海の家でサマーベッドをレンタルしてのんびり
@@ -175,7 +175,7 @@ excerpt: "バンコクから空港バスで約2時間半。中心部の喧騒を
 **1日目（パタヤ泊）**
 {% include transit-flight.html hub="bangkok" route="haneda" tier="yuru_ragu_sameday" dir="out" %}
 - 空港送迎サービスの専用車でパタヤへ（乗り換えなしでホテルまで直接、所要約2〜3時間）
-- 18:00頃　パタヤ着。[The Standard, Pattaya Na Jomtien](https://www.booking.com/searchresults.html?ss=The%20Standard%20Pattaya%20Na%20Jomtien)にチェックイン（ビーチ沿いのプール・ビーチクラブを備えたデザイナーズホテル）
+- 18:00頃　パタヤ着。[The Standard, Pattaya Na Jomtien](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D66231082)にチェックイン（ビーチ沿いのプール・ビーチクラブを備えたデザイナーズホテル）
 
 **2日目（終日フリー）**
 - 終日　リゾートのビーチクラブやプールでのんびり
@@ -195,7 +195,7 @@ excerpt: "バンコクから空港バスで約2時間半。中心部の喧騒を
 - 11:45　関空発（タイ国際航空TG623、約5時間50分）
 - 15:35　バンコク（スワンナプーム空港）着
 - 空港送迎サービスの専用車でパタヤへ（乗り換えなしでホテルまで直接、所要約2〜3時間）
-- 18:00頃　パタヤ着。[The Standard, Pattaya Na Jomtien](https://www.booking.com/searchresults.html?ss=The%20Standard%20Pattaya%20Na%20Jomtien)にチェックイン
+- 18:00頃　パタヤ着。[The Standard, Pattaya Na Jomtien](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D66231082)にチェックイン
 
 **2日目（終日フリー）**
 - 終日　リゾートのビーチクラブやプールでのんびり

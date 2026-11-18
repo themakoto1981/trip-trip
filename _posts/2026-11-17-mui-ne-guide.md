@@ -54,6 +54,7 @@ excerpt: "赤砂丘・白砂丘が広がる「ベトナムの小さな砂漠」�
 **2日目（ムイネー泊）**
 - 07:00　ホーチミン発（バス、約5.5時間）
 - 12:30　ムイネー着。[Mui Ne Hills Budget Hotel](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D296675)にチェックイン
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D296675" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/296675/0/09cb28cf574f90059b99fc754743a2a9.jpeg?ce=3&s=1024x768" alt="Mui Ne Hills Budget Hotel" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 13:00　近くの食堂で昼食
 
 **3日目（終日フリー）**
@@ -111,6 +112,7 @@ excerpt: "赤砂丘・白砂丘が広がる「ベトナムの小さな砂漠」�
 **2日目（ムイネー泊）**
 - 07:00　ホーチミン発（バス、約5.5時間）
 - 12:30　ムイネー着。[Sailing Club Resort Mui Ne](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D337919)にチェックイン（旧Mia Resort Mui Ne）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D337919" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/337919/0/55282573df38cb5842f7f143821c7e9d.jpg?ce=3&s=1024x768" alt="Sailing Club Resort Mui Ne" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 13:00　リゾート内レストランで昼食
 
 **3日目（終日フリー）**
@@ -168,6 +170,7 @@ excerpt: "赤砂丘・白砂丘が広がる「ベトナムの小さな砂漠」�
 **2日目（ムイネー泊）**
 - 06:30頃　ホテルから専用車でムイネーへ移動（約5時間、バスより早朝出発で渋滞を避けやすい）
 - 11:30頃　[Anantara Mui Ne Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D108278)にチェックイン
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D108278" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/108278/0/29c3a5f18b92b71a0725672f4904c9fb.jpeg?ce=3&s=1024x768" alt="Anantara Mui Ne Resort" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 12:00　リゾート内レストランで昼食
 
 **3日目（終日フリー）**

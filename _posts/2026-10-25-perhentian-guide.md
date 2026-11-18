@@ -37,13 +37,13 @@ excerpt: "マレーシア半島の東海岸沖、南シナ海に浮かぶ2つの
 **狙い目は5〜6月・9月**。11〜2月は多くの宿・フェリーが運休する完全オフシーズンのため、この時期の訪問は避けるのがおすすめです。
 
 ## 予算の目安
-クアラルンプールやクアラブスでの前泊を挟むので、島で丸2日たっぷり楽しむには**4泊5日〜5泊6日**がおすすめです。
+クアラルンプールやクアラブスでの前泊を挟むので、島で丸2日たっぷり楽しむには**4泊6日（うち機内1泊）〜5泊6日**がおすすめです。
 
 - **やす旅**：<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A" target="_blank" rel="noopener noreferrer">最新フライトスケジュール</a>
 - **ゆる旅**：<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A" target="_blank" rel="noopener noreferrer">最新フライトスケジュール</a>
 - **らぐ旅**：<br><a class="schedule-tag" href="https://px.a8.net/svt/ejp?a8mat=4BE7SS+1THPBM+5WOE+5ZU2A" target="_blank" rel="noopener noreferrer">最新フライトスケジュール</a>
 
-## おすすめ旅程（やす旅向け／Zipair直行・陸路利用・4泊5日の例）
+## おすすめ旅程（やす旅向け／Zipair直行・陸路利用・4泊6日（うち機内1泊）の例）
 
 **1日目（クアラルンプール泊）**
 - 16:50　成田発（Zipair、約7時間50分）
@@ -73,7 +73,7 @@ excerpt: "マレーシア半島の東海岸沖、南シナ海に浮かぶ2つの
 - 01:10　クアラルンプール発（Zipair、約6時間50分）
 - 09:00　成田着（翌日）
 
-## おすすめ旅程（やす旅向け・関西発／エアアジアX利用・陸路利用・4泊5日の例）
+## おすすめ旅程（やす旅向け・関西発／エアアジアX利用・陸路利用・4泊6日（うち機内1泊）の例）
 
 ZipairはKansai発着のクアラルンプール線を運航していないため、関西発はエアアジアXを利用します。
 

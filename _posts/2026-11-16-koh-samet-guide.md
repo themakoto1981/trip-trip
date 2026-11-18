@@ -64,7 +64,7 @@ excerpt: "バンコクから日帰りも可能な距離にありながら、国�
 **2日目（サメット島泊）**
 - 09:40　空港発のミニバンでバンペー桟橋へ（所要約3時間）
 - 12:40頃　バンペー桟橋着、フェリーでサメット島のナダーン桟橋へ（所要約30〜40分）
-- 13:30頃　サメット島着。[Olly's Bar & Hostel](https://www.booking.com/searchresults.html?ss=Olly%27s%20Bar%20%26%20Hostel%20Koh%20Samet)にチェックイン（サメット村、ドミトリーもある手頃なホステル）
+- 13:30頃　サメット島着。[Olly's Bar & Hostel](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D3880079)にチェックイン（サメット村、ドミトリーもある手頃なホステル）
 
 **3日目（終日フリー）**
 - 終日　サイケオ・ビーチでのんびり。ビーチ沿いにレストランやバーも多い
@@ -90,7 +90,7 @@ excerpt: "バンコクから日帰りも可能な距離にありながら、国�
 **2日目（サメット島泊）**
 - 09:40　空港発のミニバンでバンペー桟橋へ（所要約3時間）
 - 12:40頃　バンペー桟橋着、フェリーでサメット島のナダーン桟橋へ（所要約30〜40分）
-- 13:30頃　サメット島着。[Olly's Bar & Hostel](https://www.booking.com/searchresults.html?ss=Olly%27s%20Bar%20%26%20Hostel%20Koh%20Samet)にチェックイン
+- 13:30頃　サメット島着。[Olly's Bar & Hostel](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D3880079)にチェックイン
 
 **3日目（終日フリー）**
 - 終日　サイケオ・ビーチでのんびり
@@ -111,12 +111,12 @@ excerpt: "バンコクから日帰りも可能な距離にありながら、国�
 **1日目（パタヤ泊）**
 {% include transit-flight.html hub="bangkok" route="haneda" tier="yuru_ragu_sameday" dir="out" %}
 - Grabで空港発の直行バス乗り場へ、バスでパタヤへ（所要約2時間30分）
-- 18:00頃　パタヤ着。[Zand Morada Pattaya](https://www.booking.com/searchresults.html?ss=Zand%20Morada%20Pattaya)にチェックイン（詳しくは[パタヤビーチ完全ガイド](/2026/11/14/pattaya-guide/)を参照）
+- 18:00頃　パタヤ着。[Zand Morada Pattaya](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D2011272)にチェックイン（詳しくは[パタヤビーチ完全ガイド](/2026/11/14/pattaya-guide/)を参照）
 
 **2日目（サメット島泊）**
 - 09:00頃　チェックアウト、タクシー・Grabでバンペー桟橋へ（所要約1時間、約80km）
 - 10:00頃　バンペー桟橋着、フェリーでサメット島のナダーン桟橋へ（所要約30〜40分）
-- 11:00頃　サメット島着。[Sai Kaew Beach Resort](https://www.booking.com/searchresults.html?ss=Sai%20Kaew%20Beach%20Resort%20Koh%20Samet)にチェックイン（サイケオ・ビーチ沿いのリゾート）
+- 11:00頃　サメット島着。[Sai Kaew Beach Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1)にチェックイン（サイケオ・ビーチ沿いのリゾート）
 
 **3日目（終日フリー）**
 - 終日　サイケオ・ビーチのプールやビーチでのんびり
@@ -133,12 +133,12 @@ excerpt: "バンコクから日帰りも可能な距離にありながら、国�
 - 11:45　関空発（タイ国際航空TG623、約5時間50分）
 - 15:35　バンコク（スワンナプーム空港）着
 - Grabで空港発の直行バス乗り場へ、バスでパタヤへ（所要約2時間30分）
-- 18:30頃　パタヤ着。[Zand Morada Pattaya](https://www.booking.com/searchresults.html?ss=Zand%20Morada%20Pattaya)にチェックイン
+- 18:30頃　パタヤ着。[Zand Morada Pattaya](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D2011272)にチェックイン
 
 **2日目（サメット島泊）**
 - 09:00頃　チェックアウト、タクシー・Grabでバンペー桟橋へ（所要約1時間）
 - 10:00頃　バンペー桟橋着、フェリーでサメット島のナダーン桟橋へ（所要約30〜40分）
-- 11:00頃　サメット島着。[Sai Kaew Beach Resort](https://www.booking.com/searchresults.html?ss=Sai%20Kaew%20Beach%20Resort%20Koh%20Samet)にチェックイン
+- 11:00頃　サメット島着。[Sai Kaew Beach Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1)にチェックイン
 
 **3日目（終日フリー）**
 - 終日　サイケオ・ビーチのプールやビーチでのんびり
@@ -157,12 +157,12 @@ excerpt: "バンコクから日帰りも可能な距離にありながら、国�
 **1日目（パタヤ泊）**
 {% include transit-flight.html hub="bangkok" route="haneda" tier="yuru_ragu_sameday" dir="out" %}
 - 空港送迎サービスの専用車でパタヤへ（乗り換えなしでホテルまで直接、所要約2〜3時間）
-- 18:00頃　パタヤ着。[The Standard, Pattaya Na Jomtien](https://www.booking.com/searchresults.html?ss=The%20Standard%20Pattaya%20Na%20Jomtien)にチェックイン（詳しくは[パタヤビーチ完全ガイド](/2026/11/14/pattaya-guide/)を参照）
+- 18:00頃　パタヤ着。[The Standard, Pattaya Na Jomtien](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D66231082)にチェックイン（詳しくは[パタヤビーチ完全ガイド](/2026/11/14/pattaya-guide/)を参照）
 
 **2日目（サメット島泊）**
 - 10:00頃　チェックアウト、専用車でバンペー桟橋へ（所要約1時間）
 - 11:00頃　バンペー桟橋着、スピードボートでサメット島へ（所要約15分）
-- 11:30頃　サメット島着。[Paradee Resort](https://www.booking.com/searchresults.html?ss=Paradee%20Resort%20Koh%20Samet)にチェックイン（アオプラオ・ビーチの高級プールヴィラリゾート）
+- 11:30頃　サメット島着。[Paradee Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D52153)にチェックイン（アオプラオ・ビーチの高級プールヴィラリゾート）
 
 **3日目（終日フリー）**
 - 終日　アオプラオ・ビーチのプールやビーチでのんびり
@@ -179,12 +179,12 @@ excerpt: "バンコクから日帰りも可能な距離にありながら、国�
 - 11:45　関空発（タイ国際航空TG623、約5時間50分）
 - 15:35　バンコク（スワンナプーム空港）着
 - 空港送迎サービスの専用車でパタヤへ（乗り換えなしでホテルまで直接、所要約2〜3時間）
-- 18:00頃　パタヤ着。[The Standard, Pattaya Na Jomtien](https://www.booking.com/searchresults.html?ss=The%20Standard%20Pattaya%20Na%20Jomtien)にチェックイン
+- 18:00頃　パタヤ着。[The Standard, Pattaya Na Jomtien](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D66231082)にチェックイン
 
 **2日目（サメット島泊）**
 - 10:00頃　チェックアウト、専用車でバンペー桟橋へ（所要約1時間）
 - 11:00頃　バンペー桟橋着、スピードボートでサメット島へ（所要約15分）
-- 11:30頃　サメット島着。[Paradee Resort](https://www.booking.com/searchresults.html?ss=Paradee%20Resort%20Koh%20Samet)にチェックイン
+- 11:30頃　サメット島着。[Paradee Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D52153)にチェックイン
 
 **3日目（終日フリー）**
 - 終日　アオプラオ・ビーチのプールやビーチでのんびり

@@ -49,11 +49,11 @@ excerpt: "赤砂丘・白砂丘が広がる「ベトナムの小さな砂漠」�
 
 **1日目（ホーチミン泊）**
 - 12:00　羽田発（Vietjet Air、約6時間10分）
-- 16:10　ホーチミン着。入国審査後、[ibis Saigon Airport](https://www.booking.com/searchresults.html?ss=ibis%20Saigon%20Airport)の無料シャトルでホテルへ、1泊
+- 16:10　ホーチミン着。入国審査後、[ibis Saigon Airport](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1602693)の無料シャトルでホテルへ、1泊
 
 **2日目（ムイネー泊）**
 - 07:00　ホーチミン発（バス、約5.5時間）
-- 12:30　ムイネー着。[Mui Ne Hills Budget Hotel](https://www.booking.com/searchresults.html?ss=Mui%20Ne%20Hills%20Budget%20Hotel)にチェックイン
+- 12:30　ムイネー着。[Mui Ne Hills Budget Hotel](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D296675)にチェックイン
 - 13:00　近くの食堂で昼食
 
 **3日目（終日フリー）**
@@ -77,11 +77,11 @@ excerpt: "赤砂丘・白砂丘が広がる「ベトナムの小さな砂漠」�
 
 **1日目（ホーチミン泊）**
 - 09:30　関空発（Vietjet Air VJ829、約5時間30分）
-- 13:00　ホーチミン着。入国審査後、[ibis Saigon Airport](https://www.booking.com/searchresults.html?ss=ibis%20Saigon%20Airport)の無料シャトルでホテルへ、1泊
+- 13:00　ホーチミン着。入国審査後、[ibis Saigon Airport](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1602693)の無料シャトルでホテルへ、1泊
 
 **2日目（ムイネー泊）**
 - 07:00　ホーチミン発（バス、約5.5時間）
-- 12:30　ムイネー着。[Mui Ne Hills Budget Hotel](https://www.booking.com/searchresults.html?ss=Mui%20Ne%20Hills%20Budget%20Hotel)にチェックイン
+- 12:30　ムイネー着。[Mui Ne Hills Budget Hotel](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D296675)にチェックイン
 - 13:00　近くの食堂で昼食
 
 **3日目（終日フリー）**
@@ -106,11 +106,11 @@ excerpt: "赤砂丘・白砂丘が広がる「ベトナムの小さな砂漠」�
 
 **1日目（ホーチミン泊）**
 - 17:45　羽田発（ANA NH891、約6時間10分）
-- 21:55　ホーチミン着。入国審査後、[ibis Saigon Airport](https://www.booking.com/searchresults.html?ss=ibis%20Saigon%20Airport)の無料シャトルでホテルへ、1泊
+- 21:55　ホーチミン着。入国審査後、[ibis Saigon Airport](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1602693)の無料シャトルでホテルへ、1泊
 
 **2日目（ムイネー泊）**
 - 07:00　ホーチミン発（バス、約5.5時間）
-- 12:30　ムイネー着。[Sailing Club Resort Mui Ne](https://www.booking.com/searchresults.html?ss=Sailing%20Club%20Resort%20Mui%20Ne)にチェックイン（旧Mia Resort Mui Ne）
+- 12:30　ムイネー着。[Sailing Club Resort Mui Ne](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D337919)にチェックイン（旧Mia Resort Mui Ne）
 - 13:00　リゾート内レストランで昼食
 
 **3日目（終日フリー）**
@@ -135,11 +135,11 @@ excerpt: "赤砂丘・白砂丘が広がる「ベトナムの小さな砂漠」�
 
 **1日目（ホーチミン泊）**
 - 10:30　関空発（ベトナム航空VN321、約5時間30分）
-- 14:00　ホーチミン着。入国審査後、[ibis Saigon Airport](https://www.booking.com/searchresults.html?ss=ibis%20Saigon%20Airport)の無料シャトルでホテルへ、1泊
+- 14:00　ホーチミン着。入国審査後、[ibis Saigon Airport](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1602693)の無料シャトルでホテルへ、1泊
 
 **2日目（ムイネー泊）**
 - 07:00　ホーチミン発（バス、約5.5時間）
-- 12:30　ムイネー着。[Sailing Club Resort Mui Ne](https://www.booking.com/searchresults.html?ss=Sailing%20Club%20Resort%20Mui%20Ne)にチェックイン
+- 12:30　ムイネー着。[Sailing Club Resort Mui Ne](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D337919)にチェックイン
 - 13:00　リゾート内レストランで昼食
 
 **3日目（終日フリー）**
@@ -163,11 +163,11 @@ excerpt: "赤砂丘・白砂丘が広がる「ベトナムの小さな砂漠」�
 
 **1日目（ホーチミン泊）**
 - 17:45　羽田発（ANA NH891、約6時間10分）
-- 21:55　ホーチミン着。入国審査後、Grabカーで市内の[Novotel Saigon Centre](https://www.booking.com/searchresults.html?ss=Novotel%20Saigon%20Centre)へ、1泊
+- 21:55　ホーチミン着。入国審査後、Grabカーで市内の[Novotel Saigon Centre](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D315667)へ、1泊
 
 **2日目（ムイネー泊）**
 - 06:30頃　ホテルから専用車でムイネーへ移動（約5時間、バスより早朝出発で渋滞を避けやすい）
-- 11:30頃　[Anantara Mui Ne Resort](https://www.booking.com/searchresults.html?ss=Anantara%20Mui%20Ne%20Resort)にチェックイン
+- 11:30頃　[Anantara Mui Ne Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D108278)にチェックイン
 - 12:00　リゾート内レストランで昼食
 
 **3日目（終日フリー）**
@@ -192,11 +192,11 @@ excerpt: "赤砂丘・白砂丘が広がる「ベトナムの小さな砂漠」�
 
 **1日目（ホーチミン泊）**
 - 10:30　関空発（ベトナム航空VN321、約5時間30分）
-- 14:00　ホーチミン着。入国審査後、Grabカーで市内の[Novotel Saigon Centre](https://www.booking.com/searchresults.html?ss=Novotel%20Saigon%20Centre)へ、1泊
+- 14:00　ホーチミン着。入国審査後、Grabカーで市内の[Novotel Saigon Centre](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D315667)へ、1泊
 
 **2日目（ムイネー泊）**
 - 06:30頃　ホテルから専用車でムイネーへ移動（約5時間）
-- 11:30頃　[Anantara Mui Ne Resort](https://www.booking.com/searchresults.html?ss=Anantara%20Mui%20Ne%20Resort)にチェックイン
+- 11:30頃　[Anantara Mui Ne Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D108278)にチェックイン
 - 12:00　リゾート内レストランで昼食
 
 **3日目（終日フリー）**

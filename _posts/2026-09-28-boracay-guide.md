@@ -63,7 +63,7 @@ excerpt: "真っ白なパウダーサンドで知られるフィリピン屈指�
 - バンでカリボ空港へ（約1.5時間）
 - 19:40　カリボ発（セブパシフィック航空国内線、所要約1時間15分）
 - 20:55　マニラ着
-- [Go Hotels Manila Airport Road](https://www.booking.com/searchresults.html?ss=Go%20Hotels%20Manila%20Airport%20Road)へ移動、1泊
+- [Go Hotels Manila Airport Road](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1155667)へ移動、1泊
 
 **5日目（帰国日・宿泊なし）**
 - 09:00　ホテル発
@@ -96,7 +96,7 @@ excerpt: "真っ白なパウダーサンドで知られるフィリピン屈指�
 - バンでカリボ空港へ（約1.5時間）
 - 19:40　カリボ発（セブパシフィック航空国内線、所要約1時間15分）
 - 20:55　マニラ着
-- [Go Hotels Manila Airport Road](https://www.booking.com/searchresults.html?ss=Go%20Hotels%20Manila%20Airport%20Road)へ移動、1泊
+- [Go Hotels Manila Airport Road](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1155667)へ移動、1泊
 
 **5日目（帰国日・宿泊なし）**
 - 07:30　ホテル発
@@ -129,7 +129,7 @@ excerpt: "真っ白なパウダーサンドで知られるフィリピン屈指�
 - バンでカリボ空港へ（約1.5時間）
 - 16:25　カリボ発（フィリピンAirAsia）
 - 17:30　マニラ着（国内線、所要約1時間5分）
-- [Belmont Hotel Manila](https://www.booking.com/searchresults.html?ss=Belmont%20Hotel%20Manila)へ移動、1泊
+- [Belmont Hotel Manila](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1061886)へ移動、1泊
 
 **5日目（帰国日・宿泊なし）**
 - 11:30　ホテル発（空港まで近いため早起き不要）
@@ -162,7 +162,7 @@ excerpt: "真っ白なパウダーサンドで知られるフィリピン屈指�
 - バンでカリボ空港へ（約1.5時間）
 - 16:25　カリボ発（フィリピンAirAsia）
 - 17:30　マニラ着（国内線、所要約1時間5分）
-- [Belmont Hotel Manila](https://www.booking.com/searchresults.html?ss=Belmont%20Hotel%20Manila)へ移動、1泊
+- [Belmont Hotel Manila](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1061886)へ移動、1泊
 
 **5日目（帰国日・宿泊なし）**
 - 08:30　ホテル発
@@ -195,7 +195,7 @@ excerpt: "真っ白なパウダーサンドで知られるフィリピン屈指�
 - バンでカリボ空港へ（約1.5時間）
 - 16:25　カリボ発（フィリピンAirAsia）
 - 17:30　マニラ着（国内線、所要約1時間5分）
-- [Hilton Manila](https://www.booking.com/searchresults.html?ss=Hilton%20Manila)へ移動、1泊
+- [Hilton Manila](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D5085508)へ移動、1泊
 
 **5日目（帰国日・宿泊なし）**
 - 11:30　ホテル発（空港まで近いため早起き不要）
@@ -228,7 +228,7 @@ excerpt: "真っ白なパウダーサンドで知られるフィリピン屈指�
 - バンでカリボ空港へ（約1.5時間）
 - 16:25　カリボ発（フィリピンAirAsia）
 - 17:30　マニラ着（国内線、所要約1時間5分）
-- [Hilton Manila](https://www.booking.com/searchresults.html?ss=Hilton%20Manila)へ移動、1泊
+- [Hilton Manila](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D5085508)へ移動、1泊
 
 **5日目（帰国日・宿泊なし）**
 - 08:30　ホテル発

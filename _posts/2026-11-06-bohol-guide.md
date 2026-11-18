@@ -51,7 +51,7 @@ excerpt: "丸いドーム状の丘が連なるチョコレートヒルズと、�
 - 13:35　セブ着。Grabでセブ市内の港へ移動（約30分）
 - 15:20頃　OceanJetの高速船でタグビラン港へ（約2時間）
 - 17:30頃　タグビラン着。車でアロナビーチへ移動（約30分）
-- 18:00頃　[Alona Bohol Backpackers Hostel](https://www.booking.com/searchresults.html?ss=Alona%20Bohol%20Backpackers%20Hostel)にチェックイン（アロナビーチまで徒歩9分）
+- 18:00頃　[Alona Bohol Backpackers Hostel](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D33112381)にチェックイン（アロナビーチまで徒歩9分）
 
 **2日目（終日フリー）**
 - 終日　チョコレートヒルズ・ターシャ保護区・ロボック川クルーズをまわる日帰りツアー（乗合バン）
@@ -75,7 +75,7 @@ excerpt: "丸いドーム状の丘が連なるチョコレートヒルズと、�
 - 12:40　セブ着。Grabでセブ市内の港へ移動（約30分）
 - 14:00頃　OceanJetの高速船でタグビラン港へ（約2時間）
 - 16:00頃　タグビラン着。車でアロナビーチへ移動（約30分）
-- 16:30頃　[Alona Bohol Backpackers Hostel](https://www.booking.com/searchresults.html?ss=Alona%20Bohol%20Backpackers%20Hostel)にチェックイン（アロナビーチまで徒歩9分）
+- 16:30頃　[Alona Bohol Backpackers Hostel](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D33112381)にチェックイン（アロナビーチまで徒歩9分）
 
 **2日目（終日フリー）**
 - 終日　チョコレートヒルズ・ターシャ保護区・ロボック川クルーズをまわる日帰りツアー（乗合バン）
@@ -98,12 +98,12 @@ excerpt: "丸いドーム状の丘が連なるチョコレートヒルズと、�
 
 **1日目（マニラ泊）**
 - 09:45　羽田発（ANA NH869、約4時間45分）
-- 13:30　マニラ着。空港から徒歩で[Belmont Hotel Manila](https://www.booking.com/searchresults.html?ss=Belmont%20Hotel%20Manila)へ（空港直結、翌朝の便に備える）
+- 13:30　マニラ着。空港から徒歩で[Belmont Hotel Manila](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1061886)へ（空港直結、翌朝の便に備える）
 
 **2日目（ボホール泊）**
 - 09:35　マニラ発（セブパシフィック航空、約1時間35分）
 - 11:10　パングラオ着。車でアロナビーチへ移動（約15分）
-- 11:30頃　[Henann Resort Alona Beach](https://www.booking.com/searchresults.html?ss=Henann%20Resort%20Alona%20Beach)にチェックイン
+- 11:30頃　[Henann Resort Alona Beach](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D789537)にチェックイン
 
 **3日目（終日フリー）**
 - 終日　チョコレートヒルズ・ターシャ保護区・ロボック川クルーズをまわる日帰りツアー（送迎付き）
@@ -123,12 +123,12 @@ excerpt: "丸いドーム状の丘が連なるチョコレートヒルズと、�
 
 **1日目（マニラ泊）**
 - 10:15　関空発（フィリピン航空PR407、約3時間40分）
-- 13:55　マニラ着。空港から徒歩で[Belmont Hotel Manila](https://www.booking.com/searchresults.html?ss=Belmont%20Hotel%20Manila)へ（空港直結、翌朝の便に備える）
+- 13:55　マニラ着。空港から徒歩で[Belmont Hotel Manila](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1061886)へ（空港直結、翌朝の便に備える）
 
 **2日目（ボホール泊）**
 - 09:35　マニラ発（セブパシフィック航空、約1時間35分）
 - 11:10　パングラオ着。車でアロナビーチへ移動（約15分）
-- 11:30頃　[Henann Resort Alona Beach](https://www.booking.com/searchresults.html?ss=Henann%20Resort%20Alona%20Beach)にチェックイン
+- 11:30頃　[Henann Resort Alona Beach](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D789537)にチェックイン
 
 **3日目（終日フリー）**
 - 終日　チョコレートヒルズ・ターシャ保護区・ロボック川クルーズをまわる日帰りツアー（送迎付き）
@@ -146,12 +146,12 @@ excerpt: "丸いドーム状の丘が連なるチョコレートヒルズと、�
 
 **1日目（マニラ泊）**
 - 09:45　羽田発（ANA NH869、約4時間45分）
-- 13:30　マニラ着。空港とスカイブリッジで直結の[Hilton Manila](https://www.booking.com/searchresults.html?ss=Hilton%20Manila)へ（翌朝の便に備える）
+- 13:30　マニラ着。空港とスカイブリッジで直結の[Hilton Manila](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D5085508)へ（翌朝の便に備える）
 
 **2日目（ボホール泊）**
 - 09:35　マニラ発（セブパシフィック航空、約1時間35分）
 - 11:10　パングラオ着。専用車でアロナビーチへ移動（約15分）
-- 11:30頃　[Amorita Resort](https://www.booking.com/searchresults.html?ss=Amorita%20Resort%20Panglao)にチェックイン（アロナビーチの高台に建つ、インフィニティプールが人気のリゾート）
+- 11:30頃　[Amorita Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D100099)にチェックイン（アロナビーチの高台に建つ、インフィニティプールが人気のリゾート）
 
 **3日目（終日フリー）**
 - 終日　専用車でチョコレートヒルズ・ターシャ保護区・ロボック川クルーズをまわるプライベートツアー
@@ -171,12 +171,12 @@ excerpt: "丸いドーム状の丘が連なるチョコレートヒルズと、�
 
 **1日目（マニラ泊）**
 - 10:15　関空発（フィリピン航空PR407、約3時間40分）
-- 13:55　マニラ着。空港とスカイブリッジで直結の[Hilton Manila](https://www.booking.com/searchresults.html?ss=Hilton%20Manila)へ（翌朝の便に備える）
+- 13:55　マニラ着。空港とスカイブリッジで直結の[Hilton Manila](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D5085508)へ（翌朝の便に備える）
 
 **2日目（ボホール泊）**
 - 09:35　マニラ発（セブパシフィック航空、約1時間35分）
 - 11:10　パングラオ着。専用車でアロナビーチへ移動（約15分）
-- 11:30頃　[Amorita Resort](https://www.booking.com/searchresults.html?ss=Amorita%20Resort%20Panglao)にチェックイン（アロナビーチの高台に建つ、インフィニティプールが人気のリゾート）
+- 11:30頃　[Amorita Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D100099)にチェックイン（アロナビーチの高台に建つ、インフィニティプールが人気のリゾート）
 
 **3日目（終日フリー）**
 - 終日　専用車でチョコレートヒルズ・ターシャ保護区・ロボック川クルーズをまわるプライベートツアー

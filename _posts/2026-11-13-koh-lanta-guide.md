@@ -56,7 +56,7 @@ excerpt: "クラビ空港からミニバン＋車両フェリーで渡るラン�
 - 08:30　バンコク発（バンコクエアウェイズPG261、約1時間30分）
 - 10:00　クラビ空港着
 - 乗り合いミニバン＋車両フェリーでランタ島へ（約2.5〜3.5時間）
-- [Blanco Hostel Lanta](https://www.booking.com/searchresults.html?ss=Blanco%20Hostel%20Lanta)にチェックイン（ロングビーチまで徒歩約2分のバンガロー式ホステル）
+- [Blanco Hostel Lanta](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1972163)にチェックイン（ロングビーチまで徒歩約2分のバンガロー式ホステル）
 - 夕方　ロングビーチでサンセットを眺める
 
 **3日目（終日フリー）**
@@ -87,7 +87,7 @@ excerpt: "クラビ空港からミニバン＋車両フェリーで渡るラン�
 - 08:30　バンコク発（バンコクエアウェイズPG261、約1時間30分）
 - 10:00　クラビ空港着
 - 乗り合いミニバン＋車両フェリーでランタ島へ（約2.5〜3.5時間）
-- [Blanco Hostel Lanta](https://www.booking.com/searchresults.html?ss=Blanco%20Hostel%20Lanta)にチェックイン
+- [Blanco Hostel Lanta](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1972163)にチェックイン
 - 夕方　ロングビーチでサンセットを眺める
 
 **3日目（終日フリー）**
@@ -115,7 +115,7 @@ excerpt: "クラビ空港からミニバン＋車両フェリーで渡るラン�
 - 18:00　バンコク発（バンコクエアウェイズPG263、約1時間25分）
 - 19:25　クラビ空港着
 - 乗り合いミニバン＋車両フェリーでランタ島へ（約2.5〜3.5時間、ホテル到着は22時頃）
-- [Narima Bungalow Resort](https://www.booking.com/searchresults.html?ss=Narima%20Bungalow%20Resort%20Koh%20Lanta)にチェックイン（森に囲まれた素朴なバンガロータイプのリゾート）
+- [Narima Bungalow Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D236916)にチェックイン（森に囲まれた素朴なバンガロータイプのリゾート）
 
 **2日目（終日フリー）**
 - 終日　レンタルバイクでランタ・オールドタウンとムコランタ国立公園（灯台）を巡る
@@ -144,7 +144,7 @@ excerpt: "クラビ空港からミニバン＋車両フェリーで渡るラン�
 - 18:00　バンコク発（バンコクエアウェイズPG263、約1時間25分）
 - 19:25　クラビ空港着
 - 乗り合いミニバン＋車両フェリーでランタ島へ（約2.5〜3.5時間、ホテル到着は22時頃）
-- [Narima Bungalow Resort](https://www.booking.com/searchresults.html?ss=Narima%20Bungalow%20Resort%20Koh%20Lanta)にチェックイン（森に囲まれた素朴なバンガロータイプのリゾート）
+- [Narima Bungalow Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D236916)にチェックイン（森に囲まれた素朴なバンガロータイプのリゾート）
 
 **2日目（終日フリー）**
 - 終日　レンタルバイクでランタ・オールドタウンとムコランタ国立公園（灯台）を巡る
@@ -174,7 +174,7 @@ excerpt: "クラビ空港からミニバン＋車両フェリーで渡るラン�
 - 18:00　バンコク発（バンコクエアウェイズPG263、約1時間25分）
 - 19:25　クラビ空港着
 - 専用車＋車両フェリーでランタ島へ（約2.5〜3.5時間、到着は22時頃）
-- [Pimalai Resort & Spa](https://www.booking.com/searchresults.html?ss=Pimalai%20Resort%20%26%20Spa%20Koh%20Lanta)にチェックイン（島南部の高級リゾート、プール付きヴィラとビーチフロントのシーフードレストランが魅力）
+- [Pimalai Resort & Spa](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D48987)にチェックイン（島南部の高級リゾート、プール付きヴィラとビーチフロントのシーフードレストランが魅力）
 
 **2日目（終日フリー）**
 - 終日　リゾートのビーチでのんびり、またはスパでくつろぐ
@@ -203,7 +203,7 @@ excerpt: "クラビ空港からミニバン＋車両フェリーで渡るラン�
 - 18:00　バンコク発（バンコクエアウェイズPG263、約1時間25分）
 - 19:25　クラビ空港着
 - 専用車＋車両フェリーでランタ島へ（約2.5〜3.5時間、到着は22時頃）
-- [Pimalai Resort & Spa](https://www.booking.com/searchresults.html?ss=Pimalai%20Resort%20%26%20Spa%20Koh%20Lanta)にチェックイン（島南部の高級リゾート、プール付きヴィラとビーチフロントのシーフードレストランが魅力）
+- [Pimalai Resort & Spa](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D48987)にチェックイン（島南部の高級リゾート、プール付きヴィラとビーチフロントのシーフードレストランが魅力）
 
 **2日目（終日フリー）**
 - 終日　リゾートのビーチでのんびり、またはスパでくつろぐ

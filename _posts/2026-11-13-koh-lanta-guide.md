@@ -57,6 +57,7 @@ excerpt: "クラビ空港からミニバン＋車両フェリーで渡るラン�
 - 10:00　クラビ空港着
 - 乗り合いミニバン＋車両フェリーでランタ島へ（約2.5〜3.5時間）
 - [Blanco Hostel Lanta](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1972163)にチェックイン（ロングビーチまで徒歩約2分のバンガロー式ホステル）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1972163" rel="nofollow"><img src="https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/500583526.jpg?k=3afdc728ea0724b374914b838f5abb939ab7c8c48a5519ffb11ca03bf973f369&o=" alt="Blanco Hostel Lanta" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 夕方　ロングビーチでサンセットを眺める
 
 **3日目（終日フリー）**
@@ -116,6 +117,7 @@ excerpt: "クラビ空港からミニバン＋車両フェリーで渡るラン�
 - 19:25　クラビ空港着
 - 乗り合いミニバン＋車両フェリーでランタ島へ（約2.5〜3.5時間、ホテル到着は22時頃）
 - [Narima Bungalow Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D236916)にチェックイン（森に囲まれた素朴なバンガロータイプのリゾート）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D236916" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/236916/0/f71cbe546cdbe51bd60b657ef6dbc3cd.jpeg?ce=3&s=1024x768" alt="Narima Bungalow Resort" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **2日目（終日フリー）**
 - 終日　レンタルバイクでランタ・オールドタウンとムコランタ国立公園（灯台）を巡る
@@ -175,6 +177,7 @@ excerpt: "クラビ空港からミニバン＋車両フェリーで渡るラン�
 - 19:25　クラビ空港着
 - 専用車＋車両フェリーでランタ島へ（約2.5〜3.5時間、到着は22時頃）
 - [Pimalai Resort & Spa](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D48987)にチェックイン（島南部の高級リゾート、プール付きヴィラとビーチフロントのシーフードレストランが魅力）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D48987" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/48987/0/edef3bd8b64fe858f1b512cd9aead2db.jpeg?ce=3&s=1024x768" alt="Pimalai Resort & Spa" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **2日目（終日フリー）**
 - 終日　リゾートのビーチでのんびり、またはスパでくつろぐ

@@ -56,6 +56,7 @@ excerpt: "バリ島のサヌールから高速ボートで約30分、のんび�
 **3日目（ヌサレンボンガン泊）**
 - 11:00　サヌールから高速ボート（[12go.asiaで予約可](https://12go.asia/en/travel/sanur/nusa-lembongan?z=17114820)）でヌサレンボンガン島へ（約30分。サヌール発は午前から午後まで複数便あり、09:00台に慌てて出る必要はない）
 - 11:45頃　[Lembongan Hostel](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D4922997)にチェックイン
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D4922997" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/4922997/-1/179d221cc3783115068953f35dbbfffc.jpg?ca=7&ce=1&s=1024x768" alt="Lembongan Hostel" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 15:00　ジャングットバトゥのビーチで夕日を眺める
 
 **4日目（終日フリー）**
@@ -119,6 +120,7 @@ excerpt: "バリ島のサヌールから高速ボートで約30分、のんび�
 **2日目（ヌサレンボンガン泊）**
 - 11:00　サヌールから高速ボート（[12go.asiaで予約可](https://12go.asia/en/travel/sanur/nusa-lembongan?z=17114820)）でヌサレンボンガン島へ（約30分。サヌール発は午前から午後まで複数便あり、09:00台に慌てて出る必要はない）
 - 11:45頃　[Mahagiri Resort Nusa Lembongan](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1269956)にチェックイン（プールのあるリゾート）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1269956" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/1269956/-1/e25a1831fd247d02605285e9bdf2d3bb.jpg?ca=7&ce=1&s=1024x768" alt="Mahagiri Resort Nusa Lembongan" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 15:00　マッシュルームベイでシュノーケリング
 
 **3日目（終日フリー）**
@@ -178,6 +180,7 @@ excerpt: "バリ島のサヌールから高速ボートで約30分、のんび�
 **2日目（ヌサレンボンガン泊）**
 - 11:00　サヌールから高速ボート（[12go.asiaで予約可](https://12go.asia/en/travel/sanur/nusa-lembongan?z=17114820)）でヌサレンボンガン島へ（約30分。サヌール発は午前から午後まで複数便あり、09:00台に慌てて出る必要はない）
 - 11:45頃　[Batu Karang Lembongan Resort & Day Spa](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D255257)にチェックイン（プール付きの高級リゾート）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D255257" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/255257/0/b1e15e3accf0f17cdc9feafa4e23bb35.jpeg?ce=3&s=1024x768" alt="Batu Karang Lembongan Resort & Day Spa" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 15:00　マッシュルームベイでシュノーケリング
 
 **3日目（終日フリー）**

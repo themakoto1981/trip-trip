@@ -64,8 +64,8 @@ excerpt: "バンコクから日帰りも可能な距離にありながら、国�
 **2日目（サメット島泊）**
 - 09:40　空港発のミニバンでバンペー桟橋へ（所要約3時間）
 - 12:40頃　バンペー桟橋着、フェリーでサメット島のナダーン桟橋へ（所要約30〜40分）
-- 13:30頃　サメット島着。[Olly's Bar & Hostel](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D3880079)にチェックイン（サメット村、ドミトリーもある手頃なホステル）
-  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D3880079" rel="nofollow"><img src="https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/325430248.jpg?k=728258bf30a1045ae4b271d563b754bebcffe70805c76a4d0b66b00b06a23206&o=" alt="Olly's Bar & Hostel" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
+- 13:30頃　サメット島着。[Sundaze Samet Hostel & Hangout](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D3880079)にチェックイン（サメット村、ドミトリーもある手頃なホステル）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D3880079" rel="nofollow"><img src="https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/325430248.jpg?k=728258bf30a1045ae4b271d563b754bebcffe70805c76a4d0b66b00b06a23206&o=" alt="Sundaze Samet Hostel & Hangout" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **3日目（終日フリー）**
 - 終日　サイケオ・ビーチでのんびり。ビーチ沿いにレストランやバーも多い
@@ -91,7 +91,7 @@ excerpt: "バンコクから日帰りも可能な距離にありながら、国�
 **2日目（サメット島泊）**
 - 09:40　空港発のミニバンでバンペー桟橋へ（所要約3時間）
 - 12:40頃　バンペー桟橋着、フェリーでサメット島のナダーン桟橋へ（所要約30〜40分）
-- 13:30頃　サメット島着。[Olly's Bar & Hostel](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D3880079)にチェックイン
+- 13:30頃　サメット島着。[Sundaze Samet Hostel & Hangout](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D3880079)にチェックイン
 
 **3日目（終日フリー）**
 - 終日　サイケオ・ビーチでのんびり

@@ -48,6 +48,7 @@ excerpt: "マレーシア屈指のリゾートアイランド、ランカウイ�
 - 10:30　クアラルンプール発（AirAsia AK6320）
 - 11:35　ランカウイ着
 - 12:00頃　[Langkawi Village Budget Rooms](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D28139095)にチェックイン
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D28139095" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/28139095/0/55d5433e07b3b01e33386eadfd220b9f.jpg?ce=3&s=1024x768" alt="Langkawi Village Budget Rooms" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **3日目（終日フリー）**
 - 09:00　ケーブルカーでランカウイ・スカイブリッジへ
@@ -106,6 +107,7 @@ excerpt: "マレーシア屈指のリゾートアイランド、ランカウイ�
 - 20:15頃　クアラルンプール発（マレーシア航空国内線）
 - 21:20頃　ランカウイ着
 - 22:00頃　[Holiday Villa Beach Resort & Spa Langkawi](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D43464)にチェックイン（ビーチフロント、4つ星）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D43464" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/43464/0/af3ecf7004ee25dc21a4e2205e0300f2.jpeg?ce=2&s=1024x768" alt="Holiday Villa Beach Resort & Spa Langkawi" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **2日目（終日フリー）**
 - 09:00　ケーブルカーでランカウイ・スカイブリッジへ
@@ -164,6 +166,7 @@ JALは関西発着のクアラルンプール線を運航していないため�
 - 20:15頃　クアラルンプール発（マレーシア航空国内線）
 - 21:20頃　ランカウイ着
 - 22:00頃　[Pelangi Beach Resort & Spa Langkawi](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D10442)にチェックイン（パンタイ・チェナンの白い砂浜沿いに立つカジュアル5つ星）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D10442" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/10442/0/0089a0e0b685208e6c5b12515f0ecd25.jpeg?ce=2&s=1024x768" alt="Pelangi Beach Resort & Spa Langkawi" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **2日目（終日フリー）**
 - 09:00　ケーブルカーでランカウイ・スカイブリッジへ

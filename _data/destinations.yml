@@ -24,6 +24,12 @@
 # budget_tags: 予算プラン（やす旅/ゆる旅/らぐ旅）ごとに紐づく持ち物・準備チェックリストのタグID配列（yasu/yuru/ragu）
 # url: 記事の相対URL（先頭 / あり、末尾 / あり）
 # tags: 検索タグとの相性スコア（beach/resort/island/city_base/sightseeing/relax/party/activity、各0-5）
+# beach_name: 評価対象のおすすめビーチ名（島内・周辺で最も良いビーチ。記事の既定ビーチと異なる場合あり）
+# beach_visibility: ①浅瀬の海底視認性（★1-5、晴天時。null=未評価）
+# beach_underwater: ②水中の美しさ・サンゴや魚の豊富さ（★1-5、晴天時。null=未評価）
+# beach_sand: ③砂の美しさ・白さや粒の均一さ（★1-5。null=未評価）
+# beach_waves: ④波（あり/なし。好みの違いであり優劣ではない特性）
+# beach_note: 上記評価に関する補足（任意、省略可）
 # ------------------------------------------------------------------------------------------------
 - name: ボラカイ島
   en_name: "Boracay, Philippines"
@@ -65,6 +71,11 @@
     ragu: [TR01, TR04, SC06]
   url: /2026/09/28/boracay-guide/
   tags: { beach: 5, resort: 4, island: 5, city_base: 1, sightseeing: 2, relax: 3, party: 5, activity: 4 }
+  beach_name: "ホワイトビーチ"
+  beach_visibility: 4
+  beach_underwater: 2
+  beach_sand: 5
+  beach_waves: "なし"
 - name: バリ島
   en_name: "Bali, Indonesia"
   slug: bali-guide
@@ -105,6 +116,12 @@
     ragu: [TR03, SC06]
   url: /2026/09/28/bali-guide/
   tags: { beach: 4, resort: 4, island: 3, city_base: 5, sightseeing: 5, relax: 3, party: 4, activity: 4 }
+  beach_name: "クリスタルベイ（ヌサペニダ）"
+  beach_visibility: 4
+  beach_underwater: 4
+  beach_sand: null
+  beach_waves: "あり"
+  beach_note: "砂の美しさは情報の食い違いあり、要現地確認"
 - name: プーケット島
   en_name: "Phuket, Thailand"
   slug: phuket-guide
@@ -145,6 +162,11 @@
     ragu: [TR01, TR04, TR06, SC06]
   url: /2026/09/28/phuket-guide/
   tags: { beach: 5, resort: 4, island: 3, city_base: 4, sightseeing: 4, relax: 3, party: 4, activity: 4 }
+  beach_name: "コーラル島（Koh Hae）"
+  beach_visibility: 4
+  beach_underwater: 3
+  beach_sand: 5
+  beach_waves: "なし"
 - name: ランカウイ島
   en_name: "Langkawi, Malaysia"
   slug: langkawi-guide
@@ -185,6 +207,11 @@
     ragu: [TR10, TR04]
   url: /2026/09/28/langkawi-guide/
   tags: { beach: 4, resort: 4, island: 4, city_base: 2, sightseeing: 3, relax: 4, party: 1, activity: 3 }
+  beach_name: "プラウ・パヤ海洋公園"
+  beach_visibility: 3
+  beach_underwater: 3
+  beach_sand: 3
+  beach_waves: "なし"
 - name: リペ島
   en_name: "Koh Lipe, Thailand"
   slug: koh-lipe-guide
@@ -225,6 +252,11 @@
     ragu: [TR01, TR04, SC07]
   url: /2026/09/30/koh-lipe-guide/
   tags: { beach: 5, resort: 2, island: 5, city_base: 1, sightseeing: 1, relax: 5, party: 1, activity: 4 }
+  beach_name: "パタヤビーチ"
+  beach_visibility: 4
+  beach_underwater: 5
+  beach_sand: 4
+  beach_waves: "なし"
 - name: レダン島
   en_name: "Redang Island, Malaysia"
   slug: redang-guide
@@ -265,6 +297,12 @@
     ragu: [TR01, TR04, SC07]
   url: /2026/09/30/redang-guide/
   tags: { beach: 5, resort: 3, island: 5, city_base: 1, sightseeing: 1, relax: 5, party: 1, activity: 3 }
+  beach_name: "パシール・パンジャン（ロングビーチ）"
+  beach_visibility: 5
+  beach_underwater: 5
+  beach_sand: 5
+  beach_waves: "なし"
+  beach_note: "モンスーン期（11〜2月頃）は島ごと閉鎖"
 - name: ピピ島
   en_name: "Koh Phi Phi, Thailand"
   slug: koh-phiphi-guide
@@ -305,6 +343,11 @@
     ragu: [TR01, TR04, SC03]
   url: /2026/09/30/koh-phiphi-guide/
   tags: { beach: 5, resort: 3, island: 5, city_base: 2, sightseeing: 3, relax: 2, party: 4, activity: 4 }
+  beach_name: "ロダラム湾"
+  beach_visibility: 4
+  beach_underwater: 2
+  beach_sand: 4
+  beach_waves: "なし"
 - name: チャン島
   en_name: "Koh Chang, Thailand"
   slug: koh-chang-guide
@@ -345,6 +388,11 @@
     ragu: [TR01, TR03, HT08, SC07]
   url: /2026/09/30/koh-chang-guide/
   tags: { beach: 2, resort: 3, island: 5, city_base: 1, sightseeing: 3, relax: 4, party: 2, activity: 4 }
+  beach_name: "ホワイトサンドビーチ"
+  beach_visibility: 3
+  beach_underwater: 1
+  beach_sand: 4
+  beach_waves: "なし"
 - name: パリ島
   en_name: "Pulau Pari, Indonesia"
   slug: pulau-pari-guide
@@ -385,6 +433,11 @@
     ragu: [TR01, TR03, SC06]
   url: /2026/09/30/pulau-pari-guide/
   tags: { beach: 4, resort: 1, island: 5, city_base: 1, sightseeing: 2, relax: 5, party: 1, activity: 2 }
+  beach_name: "パシール・プラワン"
+  beach_visibility: 3
+  beach_underwater: 2
+  beach_sand: 4
+  beach_waves: "なし"
 - name: フーコック島
   en_name: "Phu Quoc, Vietnam"
   slug: phuquoc-guide
@@ -425,6 +478,11 @@
     ragu: [TR01, HT01, HT11, SC07]
   url: /2026/09/30/phuquoc-guide/
   tags: { beach: 3, resort: 5, island: 4, city_base: 2, sightseeing: 3, relax: 4, party: 2, activity: 3 }
+  beach_name: "サオビーチ"
+  beach_visibility: 4
+  beach_underwater: 2
+  beach_sand: 5
+  beach_waves: "なし"
 - name: サムイ島
   en_name: "Koh Samui, Thailand"
   slug: koh-samui-guide
@@ -465,6 +523,11 @@
     ragu: [TR01, SC06, HT11, HT14]
   url: /2026/10/01/koh-samui-guide/
   tags: { beach: 5, resort: 5, island: 4, city_base: 2, sightseeing: 3, relax: 3, party: 4, activity: 3 }
+  beach_name: "シルバービーチ"
+  beach_visibility: 4
+  beach_underwater: 3
+  beach_sand: 5
+  beach_waves: "なし"
 - name: タオ島
   en_name: "Koh Tao, Thailand"
   slug: koh-tao-guide
@@ -505,6 +568,11 @@
     ragu: [TR04, HT14, HT11]
   url: /2026/10/18/koh-tao-guide/
   tags: { beach: 4, resort: 2, island: 5, city_base: 1, sightseeing: 2, relax: 3, party: 3, activity: 5 }
+  beach_name: "サイリービーチ"
+  beach_visibility: 4
+  beach_underwater: 4
+  beach_sand: null
+  beach_waves: "なし"
 - name: ダナン・ホイアン
   en_name: "Da Nang & Hoi An, Vietnam"
   slug: danang-hoian-guide
@@ -545,6 +613,12 @@
     ragu: [TR03, HT01]
   url: /2026/10/05/danang-hoian-guide/
   tags: { beach: 2, resort: 4, island: 1, city_base: 5, sightseeing: 5, relax: 3, party: 2, activity: 3 }
+  beach_name: "バイチョン（クーラオチャム島）"
+  beach_visibility: 3
+  beach_underwater: 3
+  beach_sand: 4
+  beach_waves: "なし"
+  beach_note: "運航期（3〜8月頃）以外は船が出ない場合あり"
 - name: エルニド（パラワン島）
   en_name: "El Nido, Palawan, Philippines"
   slug: el-nido-guide
@@ -585,6 +659,11 @@
     ragu: [TR04, SC03, HT11]
   url: /2026/10/10/el-nido-guide/
   tags: { beach: 5, resort: 3, island: 5, city_base: 2, sightseeing: 4, relax: 4, party: 2, activity: 5 }
+  beach_name: "ヒドゥンビーチ"
+  beach_visibility: 5
+  beach_underwater: 3
+  beach_sand: 5
+  beach_waves: "なし"
 - name: ヌサペニダ島
   en_name: "Nusa Penida, Indonesia"
   slug: nusa-penida-guide
@@ -625,6 +704,11 @@
     ragu: [TR10, TR03, HT11]
   url: /2026/10/12/nusa-penida-guide/
   tags: { beach: 4, resort: 3, island: 5, city_base: 1, sightseeing: 5, relax: 3, party: 2, activity: 5 }
+  beach_name: "クリスタルベイ"
+  beach_visibility: 4
+  beach_underwater: 3
+  beach_sand: 4
+  beach_waves: "なし"
 - name: ギリ・トラワンガン島
   en_name: "Gili Trawangan, Indonesia"
   slug: gili-trawangan-guide
@@ -665,6 +749,11 @@
     ragu: [TR10, TR03, HT14, HT11]
   url: /2026/10/14/gili-trawangan-guide/
   tags: { beach: 4, resort: 3, island: 5, city_base: 2, sightseeing: 2, relax: 5, party: 4, activity: 4 }
+  beach_name: "島周辺ビーチ（西側）"
+  beach_visibility: 4
+  beach_underwater: 3
+  beach_sand: 3
+  beach_waves: "なし"
 - name: セブ島
   en_name: "Cebu, Philippines"
   slug: cebu-guide
@@ -705,6 +794,11 @@
     ragu: [TR03, HT11]
   url: /2026/10/15/cebu-guide/
   tags: { beach: 5, resort: 4, island: 3, city_base: 3, sightseeing: 3, relax: 4, party: 3, activity: 5 }
+  beach_name: "マクタン島リゾートコーヴ"
+  beach_visibility: 3
+  beach_underwater: 3
+  beach_sand: 2
+  beach_waves: "なし"
 - name: コロン島（パラワン州）
   en_name: "Coron, Palawan, Philippines"
   slug: coron-guide
@@ -745,6 +839,11 @@
     ragu: [TR04, SC03, HT11]
   url: /2026/10/15/coron-guide/
   tags: { beach: 3, resort: 3, island: 5, city_base: 1, sightseeing: 4, relax: 3, party: 1, activity: 5 }
+  beach_name: "バノールビーチ"
+  beach_visibility: 4
+  beach_underwater: 4
+  beach_sand: 4
+  beach_waves: "なし"
 - name: ヌサレンボンガン島
   en_name: "Nusa Lembongan, Indonesia"
   slug: nusa-lembongan-guide
@@ -785,6 +884,12 @@
     ragu: [TR03, HT11]
   url: /2026/10/16/nusa-lembongan-guide/
   tags: { beach: 4, resort: 3, island: 5, city_base: 1, sightseeing: 3, relax: 4, party: 2, activity: 4 }
+  beach_name: "マッシュルームベイ"
+  beach_visibility: 4
+  beach_underwater: 4
+  beach_sand: 4
+  beach_waves: "なし"
+  beach_note: "島内にはサーフィンで有名なビーチ（Lacerations、Playgroundsなど）も別にある"
 - name: コンダオ島
   en_name: "Con Dao, Vietnam"
   slug: con-dao-guide
@@ -825,6 +930,11 @@
     ragu: [TR01, HT11, HT14]
   url: /2026/10/19/con-dao-guide/
   tags: { beach: 4, resort: 3, island: 5, city_base: 1, sightseeing: 4, relax: 4, party: 1, activity: 4 }
+  beach_name: "コンダオ国立公園周辺海域"
+  beach_visibility: 4
+  beach_underwater: 5
+  beach_sand: 4
+  beach_waves: "なし"
 - name: シアルガオ島
   en_name: "Siargao, Philippines"
   slug: siargao-guide
@@ -865,6 +975,11 @@
     ragu: [TR03, HT11]
   url: /2026/10/20/siargao-guide/
   tags: { beach: 4, resort: 3, island: 5, city_base: 1, sightseeing: 2, relax: 3, party: 2, activity: 5 }
+  beach_name: "ガヤム島"
+  beach_visibility: 4
+  beach_underwater: 3
+  beach_sand: 4
+  beach_waves: "なし"
 - name: カミギン島
   en_name: "Camiguin, Philippines"
   slug: camiguin-guide
@@ -905,6 +1020,11 @@
     ragu: [TR01, TR04, HT11]
   url: /2026/10/21/camiguin-guide/
   tags: { beach: 3, resort: 2, island: 5, city_base: 1, sightseeing: 4, relax: 4, party: 1, activity: 3 }
+  beach_name: "マンティゲ島"
+  beach_visibility: 4
+  beach_underwater: 4
+  beach_sand: 4
+  beach_waves: "なし"
 - name: ニャチャン
   en_name: "Nha Trang, Vietnam"
   slug: nhatrang-guide
@@ -945,6 +1065,11 @@
     ragu: [SC03, HT11]
   url: /2026/10/22/nhatrang-guide/
   tags: { beach: 4, resort: 4, island: 2, city_base: 4, sightseeing: 4, relax: 3, party: 2, activity: 4 }
+  beach_name: "ドックレット"
+  beach_visibility: 4
+  beach_underwater: 2
+  beach_sand: 4
+  beach_waves: "なし"
 - name: クラビ（ライレイビーチ）
   en_name: "Railay Beach, Krabi, Thailand"
   slug: krabi-guide
@@ -985,6 +1110,11 @@
     ragu: [TR01, SC03, HT11]
   url: /2026/10/23/krabi-guide/
   tags: { beach: 5, resort: 3, island: 2, city_base: 1, sightseeing: 4, relax: 3, party: 2, activity: 5 }
+  beach_name: "プラナンビーチ"
+  beach_visibility: 3
+  beach_underwater: 3
+  beach_sand: 4
+  beach_waves: "なし"
 - name: ティオマン島
   en_name: "Tioman Island, Malaysia"
   slug: tioman-guide
@@ -1025,6 +1155,11 @@
     ragu: [TR01, TR04, HT08, HT11]
   url: /2026/10/23/tioman-guide/
   tags: { beach: 4, resort: 3, island: 5, city_base: 1, sightseeing: 2, relax: 5, party: 1, activity: 4 }
+  beach_name: "レンギス島周辺"
+  beach_visibility: 4
+  beach_underwater: 4
+  beach_sand: 3
+  beach_waves: "なし"
 - name: ギリ・アイール島
   en_name: "Gili Air, Indonesia"
   slug: gili-air-guide
@@ -1065,6 +1200,11 @@
     ragu: [TR01, TR03, HT11, HT14]
   url: /2026/10/24/gili-air-guide/
   tags: { beach: 4, resort: 3, island: 5, city_base: 1, sightseeing: 2, relax: 5, party: 1, activity: 3 }
+  beach_name: "島周辺ビーチ"
+  beach_visibility: 4
+  beach_underwater: 3
+  beach_sand: 4
+  beach_waves: "なし"
 - name: ラン島
   en_name: "Koh Larn, Thailand"
   slug: koh-larn-guide
@@ -1105,6 +1245,11 @@
     ragu: [TR01, SC03, HT11]
   url: /2026/10/24/koh-larn-guide/
   tags: { beach: 5, resort: 2, island: 4, city_base: 1, sightseeing: 2, relax: 4, party: 2, activity: 4 }
+  beach_name: "サメビーチ"
+  beach_visibility: 4
+  beach_underwater: 3
+  beach_sand: 4
+  beach_waves: "なし"
 - name: ペルヘンティアン諸島
   en_name: "Perhentian Islands, Malaysia"
   slug: perhentian-guide
@@ -1145,6 +1290,11 @@
     ragu: [TR01, SC03, HT11]
   url: /2026/10/25/perhentian-guide/
   tags: { beach: 5, resort: 2, island: 5, city_base: 1, sightseeing: 2, relax: 4, party: 2, activity: 5 }
+  beach_name: "ロングビーチ（ケチル島）"
+  beach_visibility: 4
+  beach_underwater: 4
+  beach_sand: 4
+  beach_waves: "なし"
 - name: コクード島
   en_name: "Koh Kood, Thailand"
   slug: koh-kood-guide
@@ -1185,6 +1335,11 @@
     ragu: [TR01, TR04, HT11]
   url: /2026/10/26/koh-kood-guide/
   tags: { beach: 4, resort: 3, island: 5, city_base: 1, sightseeing: 2, relax: 5, party: 1, activity: 3 }
+  beach_name: "クロンチャオ"
+  beach_visibility: 4
+  beach_underwater: null
+  beach_sand: 4
+  beach_waves: "なし"
 - name: パンガン島
   en_name: "Koh Phangan, Thailand"
   slug: koh-phangan-guide
@@ -1225,6 +1380,11 @@
     ragu: [TR01, TR04, HT11]
   url: /2026/10/29/koh-phangan-guide/
   tags: { beach: 4, resort: 3, island: 4, city_base: 1, sightseeing: 2, relax: 4, party: 5, activity: 3 }
+  beach_name: "コマ島・メーハート"
+  beach_visibility: 4
+  beach_underwater: 4
+  beach_sand: 4
+  beach_waves: "なし"
 - name: ロン島
   en_name: "Koh Rong, Cambodia"
   slug: koh-rong-guide
@@ -1265,6 +1425,11 @@
     ragu: [TR01, HT14, HT04]
   url: /2026/10/29/koh-rong-guide/
   tags: { beach: 5, resort: 2, island: 5, city_base: 1, sightseeing: 1, relax: 5, party: 1, activity: 2 }
+  beach_name: "ロングビーチ（ソクサン）"
+  beach_visibility: 4
+  beach_underwater: null
+  beach_sand: 4
+  beach_waves: "なし"
 - name: ロンサンレム島
   en_name: "Koh Rong Samloem, Cambodia"
   slug: koh-rong-samloem-guide
@@ -1305,6 +1470,11 @@
     ragu: [TR01, HT03, SC03]
   url: /2026/11/02/koh-rong-samloem-guide/
   tags: { beach: 5, resort: 2, island: 5, city_base: 0, sightseeing: 1, relax: 5, party: 1, activity: 2 }
+  beach_name: "サラセン湾"
+  beach_visibility: 4
+  beach_underwater: null
+  beach_sand: 5
+  beach_waves: "なし"
 - name: コモド諸島
   en_name: "Komodo Islands, Indonesia"
   slug: komodo-guide
@@ -1345,6 +1515,12 @@
     ragu: [TR04, SC03, HT11]
   url: /2026/11/01/komodo-guide/
   tags: { beach: 5, resort: 2, island: 5, city_base: 1, sightseeing: 5, relax: 2, party: 1, activity: 5 }
+  beach_name: "ピンクビーチ"
+  beach_visibility: 5
+  beach_underwater: 5
+  beach_sand: 5
+  beach_waves: "なし"
+  beach_note: "ピンクサンドのため基準の白さとは異なる色合いだが、美しさの観点で高評価"
 - name: ウェ島
   en_name: "Pulau Weh, Indonesia"
   slug: pulau-weh-guide
@@ -1385,6 +1561,12 @@
     ragu: [TR01, TR04, SC03, HT03]
   url: /2026/11/04/pulau-weh-guide/
   tags: { beach: 5, resort: 2, island: 5, city_base: 0, sightseeing: 1, relax: 5, party: 0, activity: 4 }
+  beach_name: "プラウ・ルビア島"
+  beach_visibility: 4
+  beach_underwater: 4
+  beach_sand: 3
+  beach_waves: "なし"
+  beach_note: "季節により潮流あり"
 - name: ボホール島
   en_name: "Bohol, Philippines"
   slug: bohol-guide
@@ -1425,6 +1607,11 @@
     ragu: [TR01, TR04, SC03, HT11]
   url: /2026/11/06/bohol-guide/
   tags: { beach: 4, resort: 4, island: 5, city_base: 1, sightseeing: 5, relax: 4, party: 2, activity: 4 }
+  beach_name: "アロナビーチ"
+  beach_visibility: 4
+  beach_underwater: 3
+  beach_sand: 5
+  beach_waves: "なし"
 
 - name: ロンボク島
   en_name: "Lombok, Indonesia"
@@ -1466,6 +1653,12 @@
     ragu: [TR10, TR03, SC01, HT11]
   url: /2026/11/11/lombok-guide/
   tags: { beach: 5, resort: 3, island: 4, city_base: 2, sightseeing: 3, relax: 4, party: 1, activity: 4 }
+  beach_name: "ピンクビーチ（タンシビーチ）"
+  beach_visibility: 4
+  beach_underwater: 4
+  beach_sand: null
+  beach_waves: "なし"
+  beach_note: "ピンクサンドの程度には諸説あり、要現地確認"
 
 - name: ランタ島
   en_name: "Koh Lanta, Thailand"
@@ -1507,6 +1700,11 @@
     ragu: [TR01, SC03, HT11]
   url: /2026/11/13/koh-lanta-guide/
   tags: { beach: 5, resort: 4, island: 5, city_base: 1, sightseeing: 3, relax: 5, party: 2, activity: 4 }
+  beach_name: "クロンダオ（ロングビーチ）"
+  beach_visibility: null
+  beach_underwater: 2
+  beach_sand: 4
+  beach_waves: "なし"
 
 - name: パタヤ
   en_name: "Pattaya, Thailand"
@@ -1548,6 +1746,11 @@
     ragu: [TR01, SC01, HT11]
   url: /2026/11/14/pattaya-guide/
   tags: { beach: 4, resort: 3, island: 2, city_base: 5, sightseeing: 2, relax: 4, party: 3, activity: 3 }
+  beach_name: "パタヤビーチ"
+  beach_visibility: 2
+  beach_underwater: 1
+  beach_sand: 3
+  beach_waves: "なし"
 
 - name: サメット島
   en_name: "Koh Samet, Thailand"
@@ -1589,6 +1792,11 @@
     ragu: [TR01, SC03, HT11]
   url: /2026/11/16/koh-samet-guide/
   tags: { beach: 5, resort: 3, island: 4, city_base: 1, sightseeing: 2, relax: 5, party: 2, activity: 3 }
+  beach_name: "ハートサイケオ"
+  beach_visibility: 4
+  beach_underwater: 3
+  beach_sand: 4
+  beach_waves: "なし"
 
 - name: ムイネー
   en_name: "Mui Ne, Vietnam"
@@ -1630,3 +1838,9 @@
     ragu: [TR01, SC03, HT11]
   url: /2026/11/17/mui-ne-guide/
   tags: { beach: 4, resort: 3, island: 1, city_base: 1, sightseeing: 5, relax: 3, party: 1, activity: 5 }
+  beach_name: "ムイネー海岸"
+  beach_visibility: 2
+  beach_underwater: 1
+  beach_sand: 2
+  beach_waves: "あり"
+  beach_note: "カイトサーフィン・ウィンドサーフィンで有名"

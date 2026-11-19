@@ -56,6 +56,7 @@ excerpt: "バリ島の東隣、ロンボク島。南部のクタ・ロンボク�
 - 15:30頃　デンパサール発（ロンボクへの国内線、約45分）
 - 16:15頃　ロンボク国際空港着。車でクタ・ロンボクへ（約25分）
 - 16:45頃　[Mad Monkey Kuta Lombok](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D28187600)にチェックイン
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D28187600" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/28187600/0/5c505ab9d36d15228cbd2e77f7c35860.png?ce=3&s=1024x768" alt="Mad Monkey Kuta Lombok" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **3日目（終日フリー）**
 - 終日　レンタルバイクかGrabでタンジュン・アン（車で約10分）とセロン・ブラナックビーチ（車で約45分）を回る
@@ -112,6 +113,7 @@ excerpt: "バリ島の東隣、ロンボク島。南部のクタ・ロンボク�
 - 19:45頃　デンパサール発（ロンボクへの国内線、約45分）
 - 20:30頃　ロンボク国際空港着。車でクタ・ロンボクへ（約25分）
 - 21:00頃　[Novotel Lombok Resort and Villas](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D10372)にチェックイン
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D10372" rel="nofollow"><img src="https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/934427055.jpg?k=9356f0b5ffa3d70e2fb1abbfdf1e9f72f970c52a93ee6e5ac89a8c45adc5d190&o=" alt="Novotel Lombok Resort and Villas" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **2日目（終日フリー）**
 - 終日　Grabか送迎でタンジュン・アン（車で約10分）とセロン・ブラナックビーチ（車で約45分）を回る
@@ -164,6 +166,7 @@ JAL＝ガルーダ運航便に関西発の直行便が無いため、関西発�
 - 19:45頃　デンパサール発（ロンボクへの国内線、約45分）
 - 20:30頃　ロンボク国際空港着。専用車でクタ・ロンボクへ（約25分）
 - 21:00頃　[Pullman Lombok Merujani Mandalika Beach Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D29494827)にチェックイン
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D29494827" rel="nofollow"><img src="https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/914990933.jpg?k=33ced10acbd11f578a0976e8cd5274aeda3242374cd128f937c218fb2b4fd9c8&o=" alt="Pullman Lombok Merujani Mandalika Beach Resort" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **2日目（終日フリー）**
 - 終日　専用車でタンジュン・アンとセロン・ブラナックビーチを巡る

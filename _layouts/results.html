@@ -71,11 +71,13 @@ layout: default
   var companion = params.get('companion') || '';
   var tag1 = params.get('tag1') || '';
   var tag2 = params.get('tag2') || '';
+  var waves = params.get('waves') || '';
 
   var nightsLabelMap = { 1: '1泊2日', 2: '2泊3日', 3: '3泊4日', 4: '4泊5日', 6: '5泊以上' };
   var budgetLabelMap = { '80000': '8万円まで', '120000': '12万円まで', '180000': '18万円まで', '250000': '25万円まで', '400000': '40万円まで', '999999999': '上限なし' };
   var companionLabelMap = { solo: '一人旅', couple: 'カップル・夫婦', family: '家族', friends: '友人グループ' };
   var tagLabelMap = { beach: '透明な海', resort: 'リゾート', island: '島', city_base: '街拠点', sightseeing: '観光', relax: 'まったり', party: 'パーティ', activity: 'アクティビティ' };
+  var wavesLabelMap = { 'なし': '波なし希望', 'あり': '波あり希望' };
 
   var currentMonth = monthParam ? parseInt(monthParam, 10) : (new Date().getMonth() + 1);
 
@@ -83,6 +85,7 @@ layout: default
   if (budget) { summaryParts.push('予算 ' + (budgetLabelMap[budget] || budget + '円')); }
   if (companion) { summaryParts.push(companionLabelMap[companion] || companion); }
   if (tag1 && tag2) { summaryParts.push((tagLabelMap[tag1] || tag1) + '×' + (tagLabelMap[tag2] || tag2)); }
+  if (waves) { summaryParts.push(wavesLabelMap[waves] || waves); }
   document.getElementById('search-summary').textContent = '条件: ' + summaryParts.join('／');
 
   var withTotals = destinations.map(function (d) {
@@ -108,14 +111,24 @@ layout: default
   var allTooShort = budgetFiltered.length > 0 && feasible.length === 0;
   var nightsBase = allTooShort ? budgetFiltered : feasible;
 
-  var inSeasonBase = nightsBase.filter(function (d) { return d.inSeason; });
-  var allOffSeason = nightsBase.length > 0 && inSeasonBase.length === 0;
+  var wavesBase = nightsBase.filter(function (d) { return !waves || d.beach_waves === waves; });
+  var allWavesMismatch = nightsBase.length > 0 && wavesBase.length === 0;
+  var wavesResult = allWavesMismatch ? nightsBase : wavesBase;
+
+  var inSeasonBase = wavesResult.filter(function (d) { return d.inSeason; });
+  var allOffSeason = wavesResult.length > 0 && inSeasonBase.length === 0;
   var filtered = (allOffSeason ? nightsBase : inSeasonBase).sort(function (a, b) {
     if (a.tagScore !== null && b.tagScore !== null && a.tagScore !== b.tagScore) { return b.tagScore - a.tagScore; }
     if (a.matchesCompanion !== b.matchesCompanion) { return a.matchesCompanion ? -1 : 1; }
     if (a.inSeason !== b.inSeason) { return a.inSeason ? -1 : 1; }
     return a.totalMin - b.totalMin;
   });
+  if (allWavesMismatch) {
+    var warnEl3 = document.createElement('p');
+    warnEl3.style.cssText = 'background:#F3ECE0;color:#8a6d3b;padding:0.75rem 1rem;border-radius:8px;margin-bottom:1.25rem;font-weight:600;';
+    warnEl3.textContent = '「' + (wavesLabelMap[waves] || waves) + '」に完全一致する島が見つかりませんでした。（以下は参考情報として表示しています）';
+    document.getElementById('search-summary').insertAdjacentElement('afterend', warnEl3);
+  }
   if (allOffSeason) {
     var warnEl2 = document.createElement('p');
     warnEl2.style.cssText = 'background:#F3ECE0;color:#8a6d3b;padding:0.75rem 1rem;border-radius:8px;margin-bottom:1.25rem;font-weight:600;';
@@ -153,6 +166,9 @@ layout: default
       var tagBadge = (d.tagScore !== null)
         ? '<span class="mini-season on">相性スコア ' + d.tagScore + '/10</span>'
         : '';
+      var wavesBadge = d.beach_waves
+        ? '<span class="mini-season off">波' + d.beach_waves + '</span>'
+        : '';
       var hotelTotalMin = d.yasu_hotel * nights, hotelTotalMax = d.ragu_hotel * nights;
       var transportTotalMin = d.yasu_transport * nights, transportTotalMax = d.ragu_transport * nights;
       var foodTotalMin = d.yasu_food * nights, foodTotalMax = d.ragu_food * nights;
@@ -165,11 +181,11 @@ layout: default
       li.innerHTML =
         (d.photo ? '<a class="result-banner-link" href="' + targetUrl + '"><img class="result-banner" src="' + d.photo + '" alt="' + d.name + '" loading="lazy"></a>' : '') +
         '<div class="result-card-head">' +
-        '<a class="result-name" href="' + targetUrl + '">' + d.name + '（' + d.country + '）</a> ' + seasonBadge + ' ' + companionBadge + ' ' + tagBadge +
+        '<a class="result-name" href="' + targetUrl + '">' + d.name + '（' + d.country + '）</a> ' + seasonBadge + ' ' + companionBadge + ' ' + tagBadge + ' ' + wavesBadge +
         '</div>' +
         (d.description ? '<p class="result-card-desc">' + d.description + '</p>' : '') +
         '<div class="result-card-price">目安総額 ' + d.totalMin.toLocaleString() + '〜' + d.totalMax.toLocaleString() + '円</div>' +
-        '<div class="result-card-meta">おすすめ月: ' + d.best_months.join(', ') + '月</div>' +
+        '<div class="result-card-meta">おすすめ月: ' + d.best_months.join(', ') + '月' + (d.beach_name ? '／おすすめビーチ: ' + d.beach_name : '') + '</div>' +
         '<details class="result-breakdown"><summary></summary>' + breakdown + '</details>';
       list.appendChild(li);
     });

@@ -116,8 +116,8 @@ excerpt: "クラビ空港からミニバン＋車両フェリーで渡るラン�
 - 18:00　バンコク発（バンコクエアウェイズPG263、約1時間25分）
 - 19:25　クラビ空港着
 - 乗り合いミニバン＋車両フェリーでランタ島へ（約2.5〜3.5時間、ホテル到着は22時頃）
-- [Narima Bungalow Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D236916)にチェックイン（森に囲まれた素朴なバンガロータイプのリゾート）
-  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D236916" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/236916/0/f71cbe546cdbe51bd60b657ef6dbc3cd.jpeg?ce=3&s=1024x768" alt="Narima Bungalow Resort" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
+- [The Narima](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D236916)にチェックイン（森に囲まれた素朴なバンガロータイプのリゾート）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D236916" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/236916/0/f71cbe546cdbe51bd60b657ef6dbc3cd.jpeg?ce=3&s=1024x768" alt="The Narima" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **2日目（終日フリー）**
 - 終日　レンタルバイクでランタ・オールドタウンとムコランタ国立公園（灯台）を巡る
@@ -146,7 +146,7 @@ excerpt: "クラビ空港からミニバン＋車両フェリーで渡るラン�
 - 18:00　バンコク発（バンコクエアウェイズPG263、約1時間25分）
 - 19:25　クラビ空港着
 - 乗り合いミニバン＋車両フェリーでランタ島へ（約2.5〜3.5時間、ホテル到着は22時頃）
-- [Narima Bungalow Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D236916)にチェックイン（森に囲まれた素朴なバンガロータイプのリゾート）
+- [The Narima](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D236916)にチェックイン（森に囲まれた素朴なバンガロータイプのリゾート）
 
 **2日目（終日フリー）**
 - 終日　レンタルバイクでランタ・オールドタウンとムコランタ国立公園（灯台）を巡る

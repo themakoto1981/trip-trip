@@ -56,6 +56,7 @@ excerpt: "スマトラ島の北端、インドネシア最西の離島ウェ島�
 - 09:35　バンダアチェ着。車でウレレ港へ移動（約35分）
 - 午後　高速船または普通フェリーでバロハン港へ（約1〜2時間）
 - 夕方　車でイボイへ移動（約1時間）。[Iboih Inn](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D246231)にチェックイン
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D246231" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/246231/0/557453b65ef0dc0511f46a2959280b1e.jpeg?ce=0&s=1024x768" alt="Iboih Inn" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **3日目（終日フリー）**
 - 終日　イボイビーチからルビア島へ渡ってシュノーケリング
@@ -110,6 +111,7 @@ excerpt: "スマトラ島の北端、インドネシア最西の離島ウェ島�
 - 10:50　バンダアチェ着。車でウレレ港へ移動（約35分）
 - 午後　高速船でバロハン港へ（約1時間）
 - 夕方　車でスムールティガへ移動。[Freddie's Santai Sumur Tiga](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1654533)にチェックイン（海沿いのバンガローとレストランが人気）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1654533" rel="nofollow"><img src="https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/290622536.jpg?k=1b3397269fcc250f74ef041317cdb30bb63cd31bb7ad82739ca36268ef4ab2c0&o=" alt="Freddie's Santai Sumur Tiga" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **3日目（終日フリー）**
 - 終日　スムールティガのビーチでのんびり、シュノーケリング
@@ -169,6 +171,7 @@ ANA・JALに関西発ジャカルタ直行便が無いため、関西発はANA�
 - 10:50　バンダアチェ着。車でウレレ港へ移動（約35分）
 - 午後　高速船でバロハン港へ（約1時間）
 - 夕方　車でスムールティガへ移動。[Casa Nemo Beach Resort & Spa](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D294791)にチェックイン（ビーチまで徒歩すぐのリゾート）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D294791" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/294791/0/b56bfe25fbad20994c9b311135285267.jpg?ce=3&s=1024x768" alt="Casa Nemo Beach Resort & Spa" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **3日目（終日フリー）**
 - 終日　ビーチとスパでのんびり

@@ -53,6 +53,31 @@ layout: default
   .search-summary { color: var(--sb-brown-soft); margin-bottom: 1.25rem; }
   .back-link { display: inline-block; margin-top: 1.5rem; }
   .cost-breakdown { list-style: none; padding: 0; margin: 0.6rem 0 0; font-size: 0.85rem; color: var(--sb-brown-soft); line-height: 1.7; }
+  .beach-rating-box { background: #fff; border: 1px solid var(--sb-border); border-radius: 12px; padding: 0.85rem 1rem; margin: 0.4rem 0 0.6rem; }
+  .beach-rating-box-head { display: flex; align-items: baseline; justify-content: space-between; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 0.5rem; }
+  .beach-rating-beach { font-size: 0.8rem; color: var(--sb-brown-soft); }
+  .beach-wave-badge { background: var(--sb-cream); border: 1px solid var(--sb-border); color: var(--sb-brown-soft); font-size: 0.72rem; font-weight: 700; padding: 2px 10px; border-radius: 999px; white-space: nowrap; }
+  .beach-rating-rows { display: flex; flex-direction: column; gap: 0.3rem; }
+  .beach-rating-row { display: flex; align-items: center; gap: 0.5rem; }
+  .beach-rating-label { font-size: 0.78rem; color: var(--sb-brown-soft); width: 76px; flex-shrink: 0; }
+  .beach-rating-stars { display: flex; gap: 2px; }
+  .beach-rating-na { font-size: 0.75rem; color: var(--sb-brown-soft); }
+  .beach-rating-detail summary {
+    cursor: pointer;
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: var(--sb-green);
+    list-style: none;
+    margin-top: 0.4rem;
+  }
+  .beach-rating-detail summary::-webkit-details-marker { display: none; }
+  .beach-rating-detail summary::before { content: "評価の詳細を見る ▾"; }
+  .beach-rating-detail[open] summary::before { content: "評価の詳細を閉じる ▴"; }
+  .beach-rating-detail-row { margin: 0.6rem 0 0; display: flex; flex-direction: column; gap: 2px; }
+  .beach-rating-detail-row-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+  .beach-rating-detail-label { font-size: 0.82rem; font-weight: 600; color: var(--sb-green-dark); }
+  .beach-rating-detail-desc { font-size: 0.78rem; color: var(--sb-brown-soft); line-height: 1.55; }
+  .beach-rating-note { background: var(--sb-cream); border-left: 3px solid var(--sb-gold); padding: 0.5rem 0.7rem; border-radius: 8px; font-size: 0.76rem; color: var(--sb-brown-soft); line-height: 1.6; margin-top: 0.7rem; }
 </style>
 
 <h1>検索結果</h1>
@@ -78,6 +103,53 @@ layout: default
   var companionLabelMap = { solo: '一人旅', couple: 'カップル・夫婦', family: '家族', friends: '友人グループ' };
   var tagLabelMap = { beach: '透明な海', resort: 'リゾート', island: '島', city_base: '街拠点', sightseeing: '観光', relax: 'まったり', party: 'パーティ', activity: 'アクティビティ' };
   var wavesLabelMap = { 'なし': '波なし希望', 'あり': '波あり希望' };
+
+  var RUBRIC = {
+    visibility: { 5: 'くっきり見えて砂紋や小石まで分かる', 4: 'はっきり見えるが細部は少しぼやける', 3: '見えるが輪郭がぼやける', 2: 'うっすら見える程度', 1: '濁っていてほとんど見えない' },
+    underwater: { 5: 'サンゴが広く群生、魚の種類も数もとても多い', 4: 'サンゴと魚のどちらも多い', 3: 'それなりに見られる', 2: 'まばらにしかいない', 1: 'ほとんど見られない' },
+    sand: { 5: '白っぽく明るい色でパウダー状に細かく均一', 4: '明るい色で細かいが少し混じりもの', 3: 'ふつうの砂浜', 2: '粒が粗い、小石・貝殻・サンゴのかけらが多い', 1: '砂利や岩が中心、または色や粒がばらばら' }
+  };
+
+  function starsSvg(value) {
+    var html = '';
+    for (var i = 0; i < 5; i++) {
+      var fill = (value !== null && value !== undefined && i < value) ? '#00704A' : '#E5DDCC';
+      html += '<svg width="13" height="13" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 21 12 17.27 5.82 21 7 14.14l-5-4.87 6.91-1.01L12 2z" fill="' + fill + '"></path></svg>';
+    }
+    return html;
+  }
+
+  function beachRatingBoxHtml(d) {
+    if (!d.beach_name) { return ''; }
+    var compactRows = [
+      { label: '海の透明感', key: 'visibility', value: d.beach_visibility },
+      { label: '魚・サンゴ', key: 'underwater', value: d.beach_underwater },
+      { label: '砂の質', key: 'sand', value: d.beach_sand }
+    ];
+    var compactHtml = compactRows.map(function (r) {
+      var stars = (r.value === null || r.value === undefined)
+        ? '<span class="beach-rating-na">評価準備中</span>'
+        : starsSvg(r.value);
+      return '<div class="beach-rating-row"><span class="beach-rating-label">' + r.label + '</span><span class="beach-rating-stars">' + stars + '</span></div>';
+    }).join('');
+    var detailLabels = { visibility: '①浅瀬の海底視認性', underwater: '②水中の美しさ', sand: '③砂の美しさ' };
+    var detailHtml = compactRows.map(function (r) {
+      var desc = (r.value === null || r.value === undefined)
+        ? '情報が十分でないため未評価です。'
+        : (RUBRIC[r.key][r.value] || '');
+      var stars = (r.value === null || r.value === undefined) ? '' : starsSvg(r.value);
+      return '<div class="beach-rating-detail-row"><div class="beach-rating-detail-row-head"><span class="beach-rating-detail-label">' + detailLabels[r.key] + '</span><span class="beach-rating-stars">' + stars + '</span></div><div class="beach-rating-detail-desc">' + desc + '</div></div>';
+    }).join('');
+    if (d.beach_note) {
+      detailHtml += '<div class="beach-rating-note">補足：' + d.beach_note + '</div>';
+    }
+    var waveBadge = d.beach_waves ? '<span class="beach-wave-badge">波' + d.beach_waves + '</span>' : '';
+    return '<div class="beach-rating-box">' +
+      '<div class="beach-rating-box-head"><span class="beach-rating-beach">おすすめビーチ：' + d.beach_name + '</span>' + waveBadge + '</div>' +
+      '<div class="beach-rating-rows">' + compactHtml + '</div>' +
+      '<details class="beach-rating-detail"><summary></summary>' + detailHtml + '</details>' +
+      '</div>';
+  }
 
   var currentMonth = monthParam ? parseInt(monthParam, 10) : (new Date().getMonth() + 1);
 
@@ -166,9 +238,6 @@ layout: default
       var tagBadge = (d.tagScore !== null)
         ? '<span class="mini-season on">相性スコア ' + d.tagScore + '/10</span>'
         : '';
-      var wavesBadge = d.beach_waves
-        ? '<span class="mini-season off">波' + d.beach_waves + '</span>'
-        : '';
       var hotelTotalMin = d.yasu_hotel * nights, hotelTotalMax = d.ragu_hotel * nights;
       var transportTotalMin = d.yasu_transport * nights, transportTotalMax = d.ragu_transport * nights;
       var foodTotalMin = d.yasu_food * nights, foodTotalMax = d.ragu_food * nights;
@@ -181,11 +250,12 @@ layout: default
       li.innerHTML =
         (d.photo ? '<a class="result-banner-link" href="' + targetUrl + '"><img class="result-banner" src="' + d.photo + '" alt="' + d.name + '" loading="lazy"></a>' : '') +
         '<div class="result-card-head">' +
-        '<a class="result-name" href="' + targetUrl + '">' + d.name + '（' + d.country + '）</a> ' + seasonBadge + ' ' + companionBadge + ' ' + tagBadge + ' ' + wavesBadge +
+        '<a class="result-name" href="' + targetUrl + '">' + d.name + '（' + d.country + '）</a> ' + seasonBadge + ' ' + companionBadge + ' ' + tagBadge +
         '</div>' +
         (d.description ? '<p class="result-card-desc">' + d.description + '</p>' : '') +
         '<div class="result-card-price">目安総額 ' + d.totalMin.toLocaleString() + '〜' + d.totalMax.toLocaleString() + '円</div>' +
-        '<div class="result-card-meta">おすすめ月: ' + d.best_months.join(', ') + '月' + (d.beach_name ? '／おすすめビーチ: ' + d.beach_name : '') + '</div>' +
+        '<div class="result-card-meta">おすすめ月: ' + d.best_months.join(', ') + '月</div>' +
+        beachRatingBoxHtml(d) +
         '<details class="result-breakdown"><summary></summary>' + breakdown + '</details>';
       list.appendChild(li);
     });

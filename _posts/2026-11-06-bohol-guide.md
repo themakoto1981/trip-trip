@@ -52,6 +52,7 @@ excerpt: "丸いドーム状の丘が連なるチョコレートヒルズと、�
 - 15:20頃　OceanJetの高速船でタグビラン港へ（約2時間）
 - 17:30頃　タグビラン着。車でアロナビーチへ移動（約30分）
 - 18:00頃　[Alona Bohol Backpackers Hostel](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D33112381)にチェックイン（アロナビーチまで徒歩9分）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D33112381" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/33112381/0/b49b1149e2b7eb0e11a6fa15ab799f43.jpeg?ce=3&s=1024x768" alt="Alona Bohol Backpackers Hostel" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **2日目（終日フリー）**
 - 終日　チョコレートヒルズ・ターシャ保護区・ロボック川クルーズをまわる日帰りツアー（乗合バン）
@@ -104,6 +105,7 @@ excerpt: "丸いドーム状の丘が連なるチョコレートヒルズと、�
 - 09:35　マニラ発（セブパシフィック航空、約1時間35分）
 - 11:10　パングラオ着。車でアロナビーチへ移動（約15分）
 - 11:30頃　[Henann Resort Alona Beach](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D789537)にチェックイン
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D789537" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/789537/0/874795c114519d1bc4eccb8ece079c11.jpeg?ce=2&s=1024x768" alt="Henann Resort Alona Beach" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **3日目（終日フリー）**
 - 終日　チョコレートヒルズ・ターシャ保護区・ロボック川クルーズをまわる日帰りツアー（送迎付き）
@@ -152,6 +154,7 @@ excerpt: "丸いドーム状の丘が連なるチョコレートヒルズと、�
 - 09:35　マニラ発（セブパシフィック航空、約1時間35分）
 - 11:10　パングラオ着。専用車でアロナビーチへ移動（約15分）
 - 11:30頃　[Amorita Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D100099)にチェックイン（アロナビーチの高台に建つ、インフィニティプールが人気のリゾート）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D100099" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/100099/0/3989fe673d8af9d5dd8180cf25b53d7b.jpeg?ce=2&s=1024x768" alt="Amorita Resort" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **3日目（終日フリー）**
 - 終日　専用車でチョコレートヒルズ・ターシャ保護区・ロボック川クルーズをまわるプライベートツアー

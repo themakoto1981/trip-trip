@@ -55,6 +55,7 @@ excerpt: "白砂のロングビーチと夜光虫で知られる、カンボジ�
 - 10:30頃　タクシーでシアヌークビル港へ（約15分）
 - 12:00　港発のフェリーでロン島へ（約1時間）
 - 13:00頃　島着。[Sok San Beach Bungalows](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D555321)にチェックイン（ソクサンビーチの素朴なバンガロー）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D555321" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/555321/0/6cf432522b83380c54124c1f88b3f909.jpeg?ce=0&s=1024x768" alt="Sok San Beach Bungalows" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **3日目（終日フリー）**
 - 終日　ロングビーチでのんびり、コ・トゥーチ村の食堂めぐり
@@ -113,6 +114,7 @@ excerpt: "白砂のロングビーチと夜光虫で知られる、カンボジ�
 - 10:30頃　タクシーでシアヌークビル港へ（約15分）
 - 12:00　港発のフェリーでロン島へ（約1時間）
 - 13:00頃　島着。[Long Beach Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D6529522)にチェックイン（ロングビーチ沿いの3つ星リゾート）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D6529522" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/6529522/0/e15a02ee02cd796c9071fcecaa0623d8.jpeg?ce=3&s=1024x768" alt="Long Beach Resort" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **3日目（終日フリー）**
 - 終日　ロングビーチでのんびり、コ・トゥーチ村の食堂めぐり
@@ -169,6 +171,7 @@ excerpt: "白砂のロングビーチと夜光虫で知られる、カンボジ�
 - 09:00　ホーチミン発（ベトナム航空、シアヌークビル行き短距離便、約1時間15分）
 - 10:15　シアヌークビル着
 - 10:30頃　リゾート手配のプライベートボートで[Song Saa Private Island](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D302866)へ（所要約45分、ロン島沖の専用島）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D302866" rel="nofollow"><img src="https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/183945591.jpg?k=bd2e21d35f77068321f140aa46683d8391be4d22359de38d5dd053357be31b1c&o=" alt="Song Saa Private Island" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **3日目（終日フリー）**
 - 終日　プライベートビーチやスパでゆったり、サンセットクルーズ

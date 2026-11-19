@@ -55,6 +55,7 @@ excerpt: "弧を描く白砂のサラセン湾と、車のない静かな時間�
 - 10:30頃　タクシーでシアヌークビル港へ（約15分）
 - 12:00　港発のフェリーでサラセン湾へ（約45分〜1時間）
 - 13:00頃　島着。[Island Center Point](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D37036231)に荷物を預け、チェックインまでビーチで過ごす
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D37036231" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/37036231/0/f7aeb0a1462eae72d49ea0eb9e184b7c.jpg?ce=3&s=1024x768" alt="Island Center Point" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **3日目（終日フリー）**
 - 終日　サラセン湾でのんびり、シュノーケリング
@@ -113,6 +114,7 @@ excerpt: "弧を描く白砂のサラセン湾と、車のない静かな時間�
 - 10:30頃　タクシーでシアヌークビル港へ（約15分）
 - 12:00　港発のフェリーでサラセン湾へ（約45分〜1時間）
 - 13:00頃　島着。[Sol Beach Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D41662309)に荷物を預け、チェックインまでビーチで過ごす（サラセン湾沿いのヴィラ）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D41662309" rel="nofollow"><img src="https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/201777610.jpg?k=31d198158ef1f65fb59f29b0699a1ab038d5f040033725099e57fe4069d67390&o=" alt="Sol Beach Resort" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **3日目（終日フリー）**
 - 終日　サラセン湾でのんびり、シュノーケリング
@@ -171,6 +173,7 @@ excerpt: "弧を描く白砂のサラセン湾と、車のない静かな時間�
 - 10:30頃　タクシーでシアヌークビル港へ（約15分）
 - 12:00　港発のフェリーでサラセン湾へ（約45分〜1時間）
 - 13:00頃　島着。[Sara Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D4389318)に荷物を預け、チェックインまでビーチで過ごす（サンセットビーチ沿いの4つ星）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D4389318" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/4389318/0/17cdc2265bcc992cb613a596c3c7ee71.jpeg?ce=3&s=1024x768" alt="Sara Resort" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **3日目（終日フリー）**
 - 終日　プールとビーチでのんびり、スパ

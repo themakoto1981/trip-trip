@@ -85,6 +85,7 @@ excerpt: "バンコクから空港バスで約2時間半。中心部の喧騒を
 - 09:00頃　空港発の直行バスでパタヤへ（所要約2時間30分）
 - 11:30頃　パタヤ着。Grabでナーチョムティアンへ移動（約20〜30分）
 - 12:00頃　[Jomtien Hostel](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D287670)にチェックイン（ジョムティエン・ビーチまで徒歩約3分）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D287670" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/287670/0/5ac0a44cb0c40f715c77ef3754385b7a.jpeg?ce=3&s=1024x768" alt="Jomtien Hostel" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **3日目（終日フリー）**
 - 終日　ジョムティエン・ビーチの海の家でサマーベッドをレンタルしてのんびり
@@ -133,6 +134,7 @@ excerpt: "バンコクから空港バスで約2時間半。中心部の喧騒を
 - Grabで空港発の直行バス乗り場へ、バスでパタヤへ（所要約2時間30分）
 - 18:00頃　パタヤ着。Grabでナーチョムティアンへ移動（約20〜30分）
 - 18:30頃　[Zand Morada Pattaya](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D2011272)にチェックイン（ナーチョムティアンのビーチ目の前に建つホテル。客室はコンパクトだが立地の良さが魅力）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D2011272" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/2011272/0/5594b2fe44b2615f5b55c2c3f8954eb4.jpeg?s=1024x768" alt="Zand Morada Pattaya" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **2日目（終日フリー）**
 - 終日　ビーチ沿いの海の家でサマーベッドをレンタルしてのんびり。フード・ドリンクのオーダーも可能で、夕方の日没時間帯が特に気持ちいい
@@ -176,6 +178,7 @@ excerpt: "バンコクから空港バスで約2時間半。中心部の喧騒を
 {% include transit-flight.html hub="bangkok" route="haneda" tier="yuru_ragu_sameday" dir="out" %}
 - 空港送迎サービスの専用車でパタヤへ（乗り換えなしでホテルまで直接、所要約2〜3時間）
 - 18:00頃　パタヤ着。[The Standard, Pattaya Na Jomtien](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D66231082)にチェックイン（ビーチ沿いのプール・ビーチクラブを備えたデザイナーズホテル）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D66231082" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/66231082/0/282560d9ab5efa87f5203ff3bf169ee8.jpeg?ce=3&s=1024x768" alt="The Standard, Pattaya Na Jomtien" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **2日目（終日フリー）**
 - 終日　リゾートのビーチクラブやプールでのんびり

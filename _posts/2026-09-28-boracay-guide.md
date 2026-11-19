@@ -51,6 +51,7 @@ excerpt: "真っ白なパウダーサンドで知られるフィリピン屈指�
 - 10:30　バンでカティクラン港へ（約70km、渋滞なければ1.5時間ほど）
 - 12:00　カティクラン港からフェリーでボラカイ島（カグバン港）へ（所要15〜30分、日中は頻発で待たずに乗れる）
 - 12:30頃　[Boracay Backpackers](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1156853)にチェックイン（ステーション2近くのホステル、ホワイトビーチまで徒歩10分ほど）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1156853" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/1156853/0/532f653b8cf395f4248bde627f262e7d.jpeg?ce=3&s=1024x768" alt="Boracay Backpackers" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **3日目（終日フリー）**
 - 09:00　[アイランドホッピングツアー](https://www.klook.com/search/result/?query=Boracay%20Island%20Hopping%20Tour)へ出発（クリスタルコーブなどでシュノーケリング）
@@ -117,6 +118,7 @@ excerpt: "真っ白なパウダーサンドで知られるフィリピン屈指�
 - 10:30　バンでカティクラン港へ（約70km、渋滞なければ1.5時間ほど）
 - 12:00　カティクラン港からフェリーでボラカイ島（カグバン港）へ（所要15〜30分、日中は頻発で待たずに乗れる）
 - 12:30頃　[Le Soleil de Boracay Hotel](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D65124)にチェックイン（ステーション2のビーチフロントに立つ4つ星）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D65124" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/65124/0/80b98d3a40065f44abaa4e0a2398beae.jpeg?s=1024x768" alt="Le Soleil de Boracay Hotel" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **3日目（終日フリー）**
 - 09:00　[アイランドホッピングツアー](https://www.klook.com/search/result/?query=Boracay%20Island%20Hopping%20Tour)へ出発（クリスタルコーブなどでシュノーケリング）
@@ -183,6 +185,7 @@ excerpt: "真っ白なパウダーサンドで知られるフィリピン屈指�
 - 10:30　バンでカティクラン港へ（約70km、渋滞なければ1.5時間ほど）
 - 12:00　カティクラン港からフェリーでボラカイ島（カグバン港）へ（所要15〜30分、日中は頻発で待たずに乗れる）
 - 12:30頃　[Shangri-La Boracay Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D70401264)にチェックイン
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D70401264" rel="nofollow"><img src="https://pix8.agoda.net/property/70401264/0/a4411c746a410ae58724a91606557ba2.jpeg?ce=3&s=1024x768" alt="Shangri-La Boracay Resort" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **3日目（終日フリー）**
 - 09:00　[アイランドホッピングツアー](https://www.klook.com/search/result/?query=Boracay%20Island%20Hopping%20Tour)へ出発（クリスタルコーブなどでシュノーケリング）

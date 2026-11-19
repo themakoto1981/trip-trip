@@ -51,6 +51,7 @@ excerpt: "フィリピン・シアルガオ島への行き方は、セブ乗り�
 - 09:15　セブ発（フィリピン航空、約50分）
 - 10:05　シアルガオ着
 - 10:30頃　バンでホテルへ移動（約40分）。[Mad Monkey Hostel Siargao](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D10608755)にチェックイン
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D10608755" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/10608755/0/f257c2f97ea7d26f35d6ba31668c888c.jpeg?ce=3&s=1024x768" alt="Mad Monkey Hostel Siargao" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 11:00　近くの食堂で早めの昼食、ビーチでのんびり
 
 **3日目（終日フリー）**
@@ -117,6 +118,7 @@ excerpt: "フィリピン・シアルガオ島への行き方は、セブ乗り�
 - 09:15　セブ発（フィリピン航空、約50分）
 - 10:05　シアルガオ着
 - 10:30頃　リゾート送迎でホテルへ移動（約40分）。[Tropical Temple Siargao Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D31317941)にチェックイン
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D31317941" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/31317941/0/4d1c7eba29dc22f7d0c2ef8c031aee73.jpeg?ce=3&s=1024x768" alt="Tropical Temple Siargao Resort" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 11:00　リゾートレストランで昼食、ビーチでのんびり
 
 **3日目（終日フリー）**
@@ -184,6 +186,7 @@ excerpt: "フィリピン・シアルガオ島への行き方は、セブ乗り�
 - 09:15　セブ発（フィリピン航空、約50分）
 - 10:05　シアルガオ着
 - 10:15頃　リゾート手配のプライベート送迎でボート乗り場へ、専用ボートで[Dedon Island Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D69718714)へ
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D69718714" rel="nofollow"><img src="https://pix8.agoda.net/property/27091020/0/605fccf9223bf2fa6c1bc34defbfd8bf.jpg?ca=21&ce=0&s=1024x768" alt="Dedon Island Resort" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 11:30　ウェルカムドリンクと軽食
 - 14:00　プライベートプールヴィラにチェックイン
 

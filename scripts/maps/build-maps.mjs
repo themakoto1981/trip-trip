@@ -757,6 +757,36 @@ function renderRoute(dest, countries, osm, sp = false) {
   }
   m += labelSvg + japanBadge;
 
+  // スマホ版で飛行機だけで着く行き先：拡大図（島の形）を全体図の空いている角に小窓で入れる
+  if (sp && !hasLocal) {
+    const mg = 14;
+    const hitAny = (B) => mainBoxes.some((Q) => B[0] < Q[2] && B[2] > Q[0] && B[1] < Q[3] && B[3] > Q[1]) ||
+      pts.some((q) => { const [x, y] = proj(q); return x > B[0] - 10 && x < B[2] + 10 && y > B[1] - 10 && y < B[3] + 10; });
+    // 右下 → 左下 → 左上 → 右上（日本からの札の下）の順に、大きめから小さめへ空いている所を探す
+    let cw = 320, ch = 250, cx0 = MW - cw - mg, cy0 = MH - ch - mg;
+    // 角の優先順位を先に、その角で入る一番大きいサイズを選ぶ
+    search: for (const corner of ["br", "bl", "tl", "tr"]) {
+      for (const h of [250, 220, 190]) {
+        const w = Math.round(h * 1.28);
+        const [x, y] = { br: [MW - w - mg, MH - h - mg], bl: [mg, MH - h - mg], tl: [mg, mg + 10], tr: [MW - w - mg, mg + jb.h + 30] }[corner];
+        if (!hitAny([x, y, x + w, y + h])) { cw = w; ch = h; cx0 = x; cy0 = y; break search; }
+      }
+    }
+    const head = 40;
+    const isl = renderIsland(dest, osm, cw, ch - head, {
+      frame: true, scale: 1.3, bounds: ib, noTitle: true,
+      overlay: (ip) => { const [x, y] = ip([dest.lng, dest.lat]); return `<circle cx="${fmt(x)}" cy="${fmt(y)}" r="13" fill="none" stroke="${C.dest}" stroke-width="2.5"/><circle cx="${fmt(x)}" cy="${fmt(y)}" r="5.5" fill="${C.dest}"/>`; },
+    });
+    // 引き出し線（全体図上の行き先の枠 → 小窓の近い2つの角）
+    const bx = box[0] + box[2] / 2, by = box[1] + box[3] / 2;
+    const near = cx0 > bx ? [[cx0, cy0], [cx0, cy0 + ch]] : [[cx0 + cw, cy0], [cx0 + cw, cy0 + ch]];
+    m += `<rect x="${fmt(box[0])}" y="${fmt(box[1])}" width="${fmt(box[2])}" height="${fmt(box[3])}" fill="none" stroke="${C.route}" stroke-width="2"/>`;
+    m += `<path d="M${fmt(box[0] + (cx0 > bx ? box[2] : 0))} ${fmt(box[1])}L${near[0][0]} ${near[0][1]}M${fmt(box[0] + (cx0 > bx ? box[2] : 0))} ${fmt(box[1] + box[3])}L${near[1][0]} ${near[1][1]}" fill="none" stroke="${C.route}" stroke-width="1.5" stroke-opacity="0.7"/>`;
+    m += `<g id="inset-mini" transform="translate(${cx0} ${cy0})"><rect width="${cw}" height="${ch}" fill="#fff" stroke="${C.route}" stroke-width="2"/>` +
+      `<rect width="${cw}" height="${head}" fill="${C.pill}"/>` + text(14, 28, `拡大：${shortName}`, { size: 22, fill: "#fff", weight: 700, anchor: "start" }) +
+      `<svg x="0" y="${head}" width="${cw}" height="${ch - head}" viewBox="0 0 ${cw} ${ch - head}" overflow="hidden">${isl.body}</svg></g>`;
+  }
+
   // ---- 組み立て
   let g = "";
   const insetSvg = `<g id="inset" transform="translate(${IX} ${IY})"><rect width="${IW}" height="${IH}" fill="#fff" stroke="${C.route}" stroke-width="1.5"/>` +

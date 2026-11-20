@@ -4,6 +4,8 @@ layout: default
 <style>
   .beach-rating-stars { display: flex; gap: 2px; justify-content: flex-end; }
   .beach-rating-na { font-size: 0.75rem; color: var(--sb-brown-soft); }
+  .beach-rating-value-inline { display: flex; align-items: center; justify-content: flex-end; gap: 0.6rem; }
+  .beach-rating-wave-inline { font-size: 0.78rem; color: var(--sb-brown-soft); white-space: nowrap; }
   .beach-rating-detail-box { background: #fff; border: 1px solid var(--sb-border); border-radius: 12px; padding: 0.85rem 1rem; margin: 0.8rem 0 1.5rem; }
   .beach-rating-detail-box-title { font-family: "Noto Serif JP", serif; font-weight: 700; color: var(--sb-green-dark); font-size: 0.95rem; margin-bottom: 0.4rem; }
   .beach-rating-beach-link { background: none; border: none; padding: 0; font: inherit; font-weight: 700; color: var(--sb-green); cursor: pointer; text-decoration: underline; text-underline-offset: 2px; }
@@ -276,8 +278,10 @@ layout: default
       ['誰と行く？', companionText]
     ];
     if (match.beach_name) {
-      rows.push(['海の綺麗さ', beachOverallStarsHtml(match)]);
-      if (match.beach_waves) { rows.push(['波', match.beach_waves]); }
+      var beachRowValue = '<span class="beach-rating-value-inline">' + beachOverallStarsHtml(match) +
+        (match.beach_waves ? '<span class="beach-rating-wave-inline">波' + match.beach_waves + '</span>' : '') +
+        '</span>';
+      rows.push(['海の綺麗さ', beachRowValue]);
     }
 
     var html = '<div class="quick-facts-list">';

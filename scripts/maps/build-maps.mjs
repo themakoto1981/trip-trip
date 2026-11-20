@@ -35,7 +35,7 @@ const C = {
   route: "#8C7A5B",
   dest: "#C8364B",
   pill: "#6E5A32",
-  panel: "#FFFFFF",
+  panel: "#F7F3EA",
   islandLand: "#D3BF94",
   islandEdge: "#B39F75",
   islandOther: "#EBE5D8",
@@ -505,12 +505,16 @@ function wrapJa(str, max) {
 
 // ---------------------------------------------------------------- ルート地図（記事用の完成形）
 
-function renderRoute(dest, countries, osm) {
-  const W = 1500, H = 1000;
+// sp=false：PC用（1500×1000、拡大図・タイトル・凡例を地図に重ねる）
+// sp=true ：スマホ用（幅750の縦長。タイトル→全体図→拡大図→凡例を縦に積み、文字を大きくする）
+function renderRoute(dest, countries, osm, sp = false) {
   const route = ROUTES[dest.slug];
   if (!route) throw new Error(`ROUTES に ${dest.slug} の経由ルートがありません（記事の行き方を見て追加してください）`);
   const shortName = SHORT_NAMES[dest.slug] || dest.name;
-  // 行き先の座標を埋める
+  // 文字・線の大きさ
+  const K = sp
+    ? { pill: 25, stop: 28, stopIn: 25, pillIn: 22, dest: 28, jp: 32, from: 21, alt: 19, lw: 3.2, lwIn: 3.4, base: 1.7, short: 230 }
+    : { pill: 17, stop: 19, stopIn: 17, pillIn: 14, dest: 19, jp: 22, from: 14, alt: 13, lw: 2.2, lwIn: 2.4, base: 1.2, short: 170 };
   const legs = route.legs.map((l) => (l[0] === null ? [shortName, dest.lng, dest.lat, ...l.slice(3)] : l));
   // 最後の飛行機の到着地点までを全体図、そこから先（車・船）を拡大図に描く
   let lastAir = -1;
@@ -520,89 +524,114 @@ function renderRoute(dest, countries, osm) {
   const hasLocal = localLegs.length > 0;
   const insetStart = lastAir >= 0 ? legs[lastAir] : null;
 
-  // 全体図の範囲：日本は右上の端に置くので、東南アジア側の地点だけで範囲を決める
+  // ---- レイアウト
+  const path = ["日本", ...legs.slice(0, -1).filter((l) => l[3] === "air" || l === legs[lastAir]).map((l) => l[0]), shortName];
+  const summary = [...new Set(path)].join(" → ");
+  let W, H, MX, MY, MW, MH, IX, IY, IW, IH, titleH = 0, altLines = [];
+  if (sp) {
+    W = 750;
+    altLines = route.alt ? wrapJa(`※${route.alt}`, 33) : [];
+    const sumLines = wrapJa(summary, 26);
+    titleH = 112 + sumLines.length * 34 + altLines.length * 28;
+    MX = 0; MY = titleH; MW = W; MH = 700;
+    IX = 20; IY = MY + MH + 30; IW = W - 40; IH = 620;
+    H = IY + IH + 190;
+    var sumLinesSp = sumLines;
+  } else {
+    W = 1500; H = 1000; MX = 0; MY = 0; MW = W; MH = H;
+    IW = 580; IH = 420; IX = W - IW - 30; IY = H - IH - 46;
+  }
+
+  // ---- 全体図の範囲（日本は右上の端に置くので、東南アジア側の地点だけで決める）
   const pts = legs.map((l) => [l[1], l[2]]);
   let w = Math.min(...pts.map((p) => p[0])), e = Math.max(...pts.map((p) => p[0]));
   let so = Math.min(...pts.map((p) => p[1])), n = Math.max(...pts.map((p) => p[1]));
-  const span = Math.max(e - w, n - so, 11);
-  const bounds = { west: w - span * 0.45, east: e + span * 0.95, south: so - span * 0.4, north: n + span * 0.3 };
-  // インセット・タイトル・凡例の下に経由地が隠れないよう、隠れる間は範囲を広げる
-  const IW = 580, IH = 420, ix = W - IW - 30, iy = H - IH - 46;
-  const blocked = [[ix - 30, iy - 30, W, H], [0, 0, 460, 150], [0, H - 190, 200, H]];
+  const span = Math.max(e - w, n - so, sp ? 9 : 11);
+  const bounds = sp
+    ? { west: w - span * 0.3, east: e + span * 0.45, south: so - span * 0.18, north: n + span * 0.35 }
+    : { west: w - span * 0.45, east: e + span * 0.95, south: so - span * 0.4, north: n + span * 0.3 };
+  // 重ねている要素（PC：拡大図・タイトル・凡例／スマホ：日本マーカー）の下に経由地が隠れないよう範囲を広げる
+  const blocked = sp ? [[MW - 300, 0, MW, 150]] : [[IX - 30, IY - 30, W, H], [0, 0, 460, 150], [0, H - 190, 200, H]];
   for (let k = 0; k < 12; k++) {
-    const pj = makeProj(bounds, W, H);
+    const pj = makeProj(bounds, MW, MH);
     const hitRect = (r) => pts.some((q) => { const [x, y] = pj(q); return x > r[0] && x < r[2] && y > r[1] && y < r[3]; });
+    if (sp) { if (hitRect(blocked[0])) { bounds.north += span * 0.2; bounds.east += span * 0.15; continue; } break; }
     if (hitRect(blocked[0])) { bounds.east += span * 0.25; bounds.south -= span * 0.25; continue; }
     if (hitRect(blocked[1])) { bounds.west -= span * 0.15; bounds.north += span * 0.15; continue; }
     if (hitRect(blocked[2])) { bounds.west -= span * 0.2; bounds.south -= span * 0.1; continue; }
     break;
   }
-  const base = renderBase(bounds, W, H, { countries, scale: 1.2, cities: [] });
+  const base = renderBase(bounds, MW, MH, { countries, scale: K.base, cities: [] });
   const proj = base.proj;
-  let g = base.body;
+  let m = base.body; // 全体図の中身（全体図の座標系）
 
+  // ---- 部品
   const arc = ([x1, y1], [x2, y2], bend) => {
     const mx = (x1 + x2) / 2, my = (y1 + y2) / 2, len = Math.hypot(x2 - x1, y2 - y1) || 1;
     const nx = -(y2 - y1) / len, ny = (x2 - x1) / len;
     const c = [mx + nx * len * bend, my + ny * len * bend];
-    return { d: `M${fmt(x1)} ${fmt(y1)}Q${fmt(c[0])} ${fmt(c[1])} ${fmt(x2)} ${fmt(y2)}`, mid: [0.25 * x1 + 0.5 * c[0] + 0.25 * x2, 0.25 * y1 + 0.5 * c[1] + 0.25 * y2], len, n: [nx * Math.sign(bend || 1), ny * Math.sign(bend || 1)] };
+    return { d: `M${fmt(x1)} ${fmt(y1)}Q${fmt(c[0])} ${fmt(c[1])} ${fmt(x2)} ${fmt(y2)}`, mid: [0.25 * x1 + 0.5 * c[0] + 0.25 * x2, 0.25 * y1 + 0.5 * c[1] + 0.25 * y2], len, c, p0: [x1, y1], p2: [x2, y2], n: [nx * Math.sign(bend || 1), ny * Math.sign(bend || 1)] };
   };
-  const dash = { air: "", car: ` stroke-dasharray="10 7"`, boat: ` stroke-dasharray="1 7"` };
-  const sw = (by, base) => (by === "boat" ? base * 1.5 : base);
-  const pill = (x, y, label, sub, size = 17) => {
-    const wpx = Math.max(...[label, sub || ""].map((t) => [...t].reduce((a, ch) => a + (/[\x00-\x7F]/.test(ch) ? 0.58 : 1), 0))) * size + 24;
+  const dash = sp
+    ? { air: "", car: ` stroke-dasharray="15 10"`, boat: ` stroke-dasharray="1 10"` }
+    : { air: "", car: ` stroke-dasharray="10 7"`, boat: ` stroke-dasharray="1 7"` };
+  const sw = (by, b) => (by === "boat" ? b * 1.5 : b);
+  const textW = (t, size) => [...(t || "")].reduce((a, ch) => a + (/[\x00-\x7F]/.test(ch) ? 0.58 : 1), 0) * size;
+  const pill = (x, y, label, sub, size, maxW) => {
+    const wpx = Math.max(textW(label, size), textW(sub, size * 0.72)) + size * 1.4;
     const hpx = sub ? size * 2.6 : size * 1.75;
+    if (maxW) x = Math.min(Math.max(x, wpx / 2 + 6), maxW - wpx / 2 - 6); // はみ出さないように寄せる
     return `<rect x="${fmt(x - wpx / 2)}" y="${fmt(y - hpx / 2)}" width="${fmt(wpx)}" height="${fmt(hpx)}" rx="3" fill="${C.pill}"/>` +
       text(x, y + (sub ? -size * 0.2 : size * 0.36), label, { size, fill: "#fff", weight: 700 }) +
       (sub ? text(x, y + size * 0.95, sub, { size: size * 0.72, fill: "#fff", weight: 400 }) : "");
   };
-  const textW = (t, size) => [...(t || "")].reduce((a, ch) => a + (/[\x00-\x7F]/.test(ch) ? 0.58 : 1), 0) * size;
   const stopMark = (x, y, name, note, size, side = "r") => {
+    const g0 = size * 0.65;
     const pos = {
-      r: [12, size * 0.36, "start"], l: [-12, size * 0.36, "end"],
+      r: [g0, size * 0.36, "start"], l: [-g0, size * 0.36, "end"],
       t: [0, -size * (note ? 1.6 : 0.8), "middle"], b: [0, size * 1.45, "middle"],
     }[side];
-    return `<circle cx="${fmt(x)}" cy="${fmt(y)}" r="${size * 0.36}" fill="${C.route}" stroke="#fff" stroke-width="1.6"/>` +
+    return `<circle cx="${fmt(x)}" cy="${fmt(y)}" r="${size * 0.36}" fill="${C.route}" stroke="#fff" stroke-width="${size * 0.085}"/>` +
       text(x + pos[0], y + pos[1], name, { size, fill: C.cityText, weight: 700, anchor: pos[2], halo: "rgba(255,255,255,0.85)" }) +
       (note ? text(x + pos[0], y + pos[1] + size * 1.15, note, { size: size * 0.72, fill: C.cityText, weight: 500, anchor: pos[2], halo: "rgba(255,255,255,0.85)" }) : "");
   };
-  // 隣の地点と反対側にラベルを置く（はみ出すなら下）
+  // 隣の地点と反対側にラベルを置く（はみ出すなら上下）
   const sideFor = (p, neighbors, name, size, Wmax) => {
     let vx = 0, vy = 0;
     for (const q of neighbors) { const d = Math.hypot(q[0] - p[0], q[1] - p[1]) || 1; vx += (q[0] - p[0]) / d; vy += (q[1] - p[1]) / d; }
     let side = Math.abs(vx) > Math.abs(vy) ? (vx > 0 ? "l" : "r") : (vy > 0 ? "t" : "b");
     const tw = textW(name, size);
-    if (side === "r" && p[0] + 14 + tw > Wmax - 8) side = vy > 0 ? "t" : "b";
-    if (side === "l" && p[0] - 14 - tw < 8) side = vy > 0 ? "t" : "b";
+    if (side === "r" && p[0] + size + tw > Wmax - 8) side = vy > 0 ? "t" : "b";
+    if (side === "l" && p[0] - size - tw < 8) side = vy > 0 ? "t" : "b";
     if ((side === "t" || side === "b") && (p[0] - tw / 2 < 8 || p[0] + tw / 2 > Wmax - 8)) side = p[0] > Wmax / 2 ? "l" : "r";
     return side;
   };
-  // 日本（右上の端）
-  const jp = [W - 70, 70];
-  let routeSvg = `<g id="routes" fill="none" stroke="${C.route}" stroke-width="2.2" stroke-linecap="round">`;
+
+  // ---- 全体図：日本（右上の端）→ 経由地
+  const jp = sp ? [MW - 50, 60] : [MW - 70, 70];
+  let routeSvg = `<g id="routes" fill="none" stroke="${C.route}" stroke-linecap="round">`;
   let labelSvg = "";
   let prev = jp;
   mainLegs.forEach((l, i) => {
     const to = proj([l[1], l[2]]);
     const a = arc(prev, to, i === 0 ? -0.08 : -0.18);
-    routeSvg += `<path d="${a.d}" stroke-width="${sw(l[3], 2.2)}"${dash[l[3]]}/>`;
-    labelSvg += pill(a.mid[0], a.mid[1], l[4]);
+    routeSvg += `<path d="${a.d}" stroke-width="${sw(l[3], K.lw)}"${dash[l[3]]}/>`;
+    labelSvg += pill(a.mid[0], a.mid[1], l[4], null, K.pill, MW);
     prev = to;
   });
   routeSvg += `</g>`;
-  g += routeSvg;
-  g += `<circle cx="${jp[0]}" cy="${jp[1]}" r="7" fill="${C.route}" stroke="#fff" stroke-width="2"/>` +
-    text(jp[0] - 14, jp[1] + 7, "日本", { size: 22, fill: C.cityText, weight: 700, anchor: "end", halo: "rgba(255,255,255,0.85)" }) +
-    text(jp[0] + 6, jp[1] + 34, route.from, { size: 14, fill: C.cityText, weight: 500, anchor: "end", halo: "rgba(255,255,255,0.85)" });
-  // 経由地（行き先は除く）
+  m += routeSvg;
+  m += `<circle cx="${jp[0]}" cy="${jp[1]}" r="${K.jp * 0.3}" fill="${C.route}" stroke="#fff" stroke-width="2"/>` +
+    text(jp[0] - K.jp * 0.6, jp[1] + K.jp * 0.33, "日本", { size: K.jp, fill: C.cityText, weight: 700, anchor: "end", halo: "rgba(255,255,255,0.85)" }) +
+    text(jp[0] + K.from * 0.4, jp[1] + K.jp * 0.33 + K.from * 1.5, route.from, { size: K.from, fill: C.cityText, weight: 500, anchor: "end", halo: "rgba(255,255,255,0.85)" });
   mainLegs.forEach((l, i) => {
     if (i === legs.length - 1) return;
     const [x, y] = proj([l[1], l[2]]);
-    g += stopMark(x, y, l[0], hasLocal && i === lastAir ? null : l[5], 19);
+    const side = x + K.stop + textW(l[0], K.stop) > MW - 8 ? "l" : "r";
+    m += stopMark(x, y, l[0], hasLocal && i === lastAir ? null : l[5], K.stop, side);
   });
-  g += labelSvg;
 
-  // 拡大図
+  // ---- 拡大図
   const ib = islandBounds(dest, osm).bounds;
   let insetBounds = ib;
   const insetPts = [...(insetStart ? [insetStart] : []), ...localLegs].map((l) => [l[1], l[2]]);
@@ -611,76 +640,144 @@ function renderRoute(dest, countries, osm) {
     let iw = Math.min(ib.west, ...insetPts.map((p) => p[0])), ie = Math.max(ib.east, ...insetPts.map((p) => p[0]));
     let is = Math.min(ib.south, ...insetPts.map((p) => p[1])), inn = Math.max(ib.north, ...insetPts.map((p) => p[1]));
     const pw = (ie - iw) * 0.3 + 0.03, ph = (inn - is) * 0.25 + 0.03;
-    insetBounds = { west: iw - pw, east: ie + pw, south: is - ph, north: inn + ph * 2.2 };
+    insetBounds = { west: iw - pw, east: ie + pw, south: is - ph, north: inn + ph * (sp ? 1.6 : 2.2) };
   }
   const insetName = hasLocal ? `拡大図：${insetStart ? insetStart[0] : ""}〜${shortName}` : `拡大図：${shortName}`;
-  const island = renderIsland(dest, osm, IW, IH - 36, {
-    frame: true, scale: 1.1, bounds: insetBounds, noTitle: true,
+  const headH = sp ? 0 : 36; // PCは枠の中に見出し、スマホは枠の上に見出し
+  const MAPH = IH - headH;
+  const island = renderIsland(dest, osm, IW, MAPH, {
+    frame: true, scale: sp ? 1.7 : 1.1, bounds: insetBounds, noTitle: true,
     overlay: (ip) => {
       let o = "";
       if (route.altFrom) {
         const a = arc(ip([route.altFrom[1], route.altFrom[2]]), ip([dest.lng, dest.lat]), 0.15);
-        o += `<path d="${a.d}" fill="none" stroke="${C.route}" stroke-opacity="0.55" stroke-width="2" stroke-dasharray="2 6" stroke-linecap="round"/>`;
+        o += `<path d="${a.d}" fill="none" stroke="${C.route}" stroke-opacity="0.55" stroke-width="${K.lwIn * 0.8}" stroke-dasharray="${sp ? "1 10" : "2 6"}" stroke-linecap="round"/>`;
         const [x, y] = ip([route.altFrom[1], route.altFrom[2]]);
-        o += text(x, y + 22, route.altFrom[0] + "（別ルート）", { size: 13, fill: C.cityText, weight: 500, halo: "rgba(255,255,255,0.9)" });
+        o += text(x, y + K.alt * 1.7, route.altFrom[0] + "（別ルート）", { size: K.alt, fill: C.cityText, weight: 500, halo: "rgba(255,255,255,0.9)" });
       }
+      // ---- ラベル配置（重なりを避ける）：地点の点 → 地名 → 区間ラベル の順に置く
       let lbl = "", stops = "";
       const chain = [...(insetStart ? [insetStart] : []), ...localLegs];
       const xy = chain.map((l) => ip([l[1], l[2]]));
+      const dxy = ip([dest.lng, dest.lat]);
       const off = insetStart ? 1 : 0;
-      localLegs.forEach((l, i) => {
-        const a = arc(xy[i + off - 1], xy[i + off], -0.12);
-        o += `<path d="${a.d}" fill="none" stroke="${C.route}" stroke-width="${sw(l[3], 2.4)}" stroke-linecap="round"${dash[l[3]]}/>`;
-        // 短い区間は線の外側（ふくらみ側）にラベルを逃がして地名と重ならないようにする
-        const o2 = a.len < 170 ? 34 : 0;
-        lbl += pill(a.mid[0] + a.n[0] * o2, a.mid[1] + a.n[1] * o2, l[4], i === localLegs.length - 1 ? l[5] : null, 14);
+      const boxes = [];
+      const over = (A, B) => A[0] < B[2] && A[2] > B[0] && A[1] < B[3] && A[3] > B[1];
+      const inside = (A) => A[0] > 4 && A[1] > 4 && A[2] < IW - 4 && A[3] < MAPH - 4;
+      const free = (A) => inside(A) && !boxes.some((B) => over(A, B));
+      for (const q of xy) boxes.push([q[0] - 9, q[1] - 9, q[0] + 9, q[1] + 9]);
+      const arcs = localLegs.map((l, i) => arc(xy[i + off - 1], xy[i + off], -0.12));
+      arcs.forEach((a, i) => {
+        o += `<path d="${a.d}" fill="none" stroke="${C.route}" stroke-width="${sw(localLegs[i][3], K.lwIn)}" stroke-linecap="round"${dash[localLegs[i][3]]}/>`;
       });
+      // 地名：好みの向き → 残りの向き の順に、空いている所へ置く
+      const placeName = (q, name, note, size, gap, pref, color, dot) => {
+        const tw = textW(name, size), nw = note ? textW(note, size * 0.72) : 0, w2 = Math.max(tw, nw);
+        const hh = size * (note ? 2.1 : 1.1);
+        const box = (side) => side === "r" ? [q[0] + gap, q[1] - size * 0.6, q[0] + gap + w2, q[1] - size * 0.6 + hh]
+          : side === "l" ? [q[0] - gap - w2, q[1] - size * 0.6, q[0] - gap, q[1] - size * 0.6 + hh]
+          : side === "t" ? [q[0] - w2 / 2, q[1] - gap - hh, q[0] + w2 / 2, q[1] - gap]
+          : [q[0] - w2 / 2, q[1] + gap, q[0] + w2 / 2, q[1] + gap + hh];
+        const order = [pref, ...["r", "l", "b", "t"].filter((x) => x !== pref)];
+        const side = order.find((sd) => free(box(sd))) || pref;
+        const B = box(side); boxes.push(B);
+        const anchor = side === "r" ? "start" : side === "l" ? "end" : "middle";
+        const tx = side === "r" ? B[0] : side === "l" ? B[2] : q[0];
+        const ty = B[1] + size * 0.88;
+        return dot + text(tx, ty, name, { size, fill: color, weight: 700, anchor, halo: "rgba(255,255,255,0.9)" }) +
+          (note ? text(tx, ty + size * 1.05, note, { size: size * 0.72, fill: C.cityText, weight: 500, anchor, halo: "rgba(255,255,255,0.9)" }) : "");
+      };
+      const r = K.dest * 0.58;
+      const destDot = `<circle cx="${fmt(dxy[0])}" cy="${fmt(dxy[1])}" r="${fmt(r)}" fill="none" stroke="${C.dest}" stroke-width="${K.lwIn * 0.8}"/><circle cx="${fmt(dxy[0])}" cy="${fmt(dxy[1])}" r="${fmt(r * 0.45)}" fill="${C.dest}"/>`;
+      boxes.push([dxy[0] - r - 2, dxy[1] - r - 2, dxy[0] + r + 2, dxy[1] + r + 2]);
+      const dsNb = xy.length > 1 ? [xy[xy.length - 2]] : [];
+      stops += placeName(dxy, shortName, null, K.dest, r + 6, dsNb.length ? sideFor(dxy, dsNb, shortName, K.dest, IW) : "b", C.dest, destDot);
       chain.slice(0, -1).forEach((l, i) => {
         const nb = [xy[i - 1], xy[i + 1]].filter(Boolean);
-        const note = l === insetStart ? insetStart[5] : l[5];
-        stops += stopMark(xy[i][0], xy[i][1], l[0], note, 17, sideFor(xy[i], nb, l[0], 17, IW));
+        const dot = `<circle cx="${fmt(xy[i][0])}" cy="${fmt(xy[i][1])}" r="${K.stopIn * 0.36}" fill="${C.route}" stroke="#fff" stroke-width="${K.stopIn * 0.085}"/>`;
+        stops += placeName(xy[i], l[0], l[5], K.stopIn, K.stopIn * 0.65, sideFor(xy[i], nb, l[0], K.stopIn, IW), C.cityText, dot);
       });
-      const [dx2, dy2] = ip([dest.lng, dest.lat]);
-      const dsNb = xy.length > 1 ? [xy[xy.length - 2]] : [];
-      const dside = dsNb.length ? sideFor([dx2, dy2], dsNb, shortName, 19, IW) : "b";
-      const dpos = { r: [16, 7, "start"], l: [-16, 7, "end"], t: [0, -18, "middle"], b: [0, 32, "middle"] }[dside];
-      stops += `<circle cx="${fmt(dx2)}" cy="${fmt(dy2)}" r="11" fill="none" stroke="${C.dest}" stroke-width="2"/><circle cx="${fmt(dx2)}" cy="${fmt(dy2)}" r="5" fill="${C.dest}"/>` +
-        text(dx2 + dpos[0], dy2 + dpos[1], shortName, { size: 19, fill: C.dest, weight: 700, anchor: dpos[2], halo: "rgba(255,255,255,0.9)" });
+      // 区間ラベル：線に沿って位置をずらし、横にも逃がして、空いている所に置く
+      arcs.forEach((a, i) => {
+        const l = localLegs[i], sub = i === localLegs.length - 1 ? l[5] : null, size = K.pillIn;
+        const wpx = Math.max(textW(l[4], size), textW(sub, size * 0.72)) + size * 1.4, hpx = sub ? size * 2.6 : size * 1.75;
+        const at = (t) => [(1 - t) ** 2 * a.p0[0] + 2 * (1 - t) * t * a.c[0] + t * t * a.p2[0], (1 - t) ** 2 * a.p0[1] + 2 * (1 - t) * t * a.c[1] + t * t * a.p2[1]];
+        let best = null;
+        outer: for (const d of [0, 1, -1, 2, -2, 3, -3, 4, -4]) for (const t of [0.5, 0.38, 0.62, 0.26, 0.74]) {
+          const [px, py] = at(t);
+          const cx = px + a.n[0] * d * hpx * 0.95, cy = py + a.n[1] * d * hpx * 0.95;
+          const B = [cx - wpx / 2, cy - hpx / 2, cx + wpx / 2, cy + hpx / 2];
+          if (free(B)) { best = [cx, cy, B]; break outer; }
+        }
+        if (!best) { const [px, py] = at(0.5); best = [px, py, [px - wpx / 2, py - hpx / 2, px + wpx / 2, py + hpx / 2]]; }
+        boxes.push(best[2]);
+        lbl += pill(best[0], best[1], l[4], sub, size, IW);
+      });
       return o + stops + lbl;
     },
   });
-  // 全体図上の拡大範囲の枠と引き出し線
+  // 全体図上の拡大範囲の枠
   const [rx0, ry0] = proj([insetBounds.west, insetBounds.north]), [rx1, ry1] = proj([insetBounds.east, insetBounds.south]);
   const rw = Math.max(rx1 - rx0, 14), rh = Math.max(ry1 - ry0, 10);
   const rcx = (rx0 + rx1) / 2, rcy = (ry0 + ry1) / 2;
   const box = [rcx - rw / 2, rcy - rh / 2, rw, rh];
-  g += `<g id="callout" fill="none" stroke="${C.route}" stroke-width="1.2"><rect x="${fmt(box[0])}" y="${fmt(box[1])}" width="${fmt(box[2])}" height="${fmt(box[3])}"/>` +
-    `<path d="M${fmt(box[0] + box[2])} ${fmt(box[1])}L${ix} ${iy}M${fmt(box[0] + box[2])} ${fmt(box[1] + box[3])}L${ix} ${iy + IH}" stroke-opacity="0.7"/></g>`;
-  // 行き先（全体図）
+  m += `<rect x="${fmt(box[0])}" y="${fmt(box[1])}" width="${fmt(box[2])}" height="${fmt(box[3])}" fill="none" stroke="${C.route}" stroke-width="${sp ? 2 : 1.2}"/>`;
   const [dx, dy] = proj([dest.lng, dest.lat]);
-  g += `<rect x="${fmt(dx - 4)}" y="${fmt(dy - 4)}" width="8" height="8" fill="${C.dest}"/>`;
-  if (!hasLocal) g += text(dx - 12, dy + 6, shortName, { size: 19, fill: C.dest, weight: 700, anchor: "end", halo: "rgba(255,255,255,0.85)" });
-  g += `<g id="inset" transform="translate(${ix} ${iy})"><rect width="${IW}" height="${IH}" fill="#fff" stroke="${C.route}" stroke-width="1.5"/>` +
-    text(14, 25, insetName, { size: 16, fill: C.cityText, weight: 700, anchor: "start" }) +
-    `<svg x="0" y="36" width="${IW}" height="${IH - 36}" viewBox="0 0 ${IW} ${IH - 36}" overflow="hidden">${island.body}</svg></g>`;
+  const sq = sp ? 12 : 8;
+  m += `<rect x="${fmt(dx - sq / 2)}" y="${fmt(dy - sq / 2)}" width="${sq}" height="${sq}" fill="${C.dest}"/>`;
+  if (!hasLocal) m += text(dx - sq - 4, dy + K.dest * 0.33, shortName, { size: K.dest, fill: C.dest, weight: 700, anchor: "end", halo: "rgba(255,255,255,0.85)" });
+  m += labelSvg;
 
-  // タイトル・凡例・注記
-  const path = ["日本", ...legs.slice(0, -1).filter((l) => l[3] === "air" || l === legs[lastAir]).map((l) => l[0]), shortName];
-  const summary = [...new Set(path)].join(" → ");
-  const tw = Math.max(330, [...summary].length * 14 + 40, route.alt ? [...route.alt].length * 13.5 + 40 : 0);
-  const th = route.alt ? 104 : 84;
-  g += `<g id="title"><rect x="24" y="24" width="${fmt(tw)}" height="${th}" rx="4" fill="#fff" fill-opacity="0.95"/>` +
-    text(44, 62, `${shortName}への行き方`, { size: 26, fill: C.cityText, weight: 700, anchor: "start" }) +
-    text(44, 90, summary, { size: 14, fill: C.cityText, weight: 400, anchor: "start" }) +
-    (route.alt ? text(44, 112, `※${route.alt}`, { size: 13, fill: C.cityText, weight: 400, anchor: "start" }) : "") + `</g>`;
-  const lx = 24, ly = H - 170;
-  g += `<g id="legend"><rect x="${lx}" y="${ly}" width="150" height="124" rx="4" fill="#fff" fill-opacity="0.95"/>` +
-    `<g fill="none" stroke="${C.route}" stroke-width="2.2" stroke-linecap="round"><path d="M${lx + 18} ${ly + 30}h44"/><path d="M${lx + 18} ${ly + 64}h44"${dash.car}/><path d="M${lx + 18} ${ly + 98}h44" stroke-width="3.3"${dash.boat}/></g>` +
-    text(lx + 74, ly + 35, "飛行機", { size: 15, fill: C.cityText, anchor: "start", weight: 500 }) +
-    text(lx + 74, ly + 69, "車・バス", { size: 15, fill: C.cityText, anchor: "start", weight: 500 }) +
-    text(lx + 74, ly + 103, "船", { size: 15, fill: C.cityText, anchor: "start", weight: 500 }) + `</g>`;
-  g += text(W - 30, H - 18, "所要時間は目安です。便・船の時刻は季節や運航会社で変わります。", { size: 13, fill: C.cityText, anchor: "end", weight: 400 });
-  return svgDoc(W, H, g, { title: `${dest.name}への行き方`, credit: "" }) .replace("</svg>\n", text(30, H - 18, "地図データ: Natural Earth / GSHHG", { size: 11, fill: "rgba(75,46,30,0.55)", anchor: "start", weight: 400 }) + "</svg>\n");
+  // ---- 組み立て
+  let g = "";
+  const insetSvg = `<g id="inset" transform="translate(${IX} ${IY})"><rect width="${IW}" height="${IH}" fill="#fff" stroke="${C.route}" stroke-width="1.5"/>` +
+    (sp ? "" : text(14, 25, insetName, { size: 16, fill: C.cityText, weight: 700, anchor: "start" })) +
+    `<svg x="0" y="${headH}" width="${IW}" height="${MAPH}" viewBox="0 0 ${IW} ${MAPH}" overflow="hidden">${island.body}</svg></g>`;
+  const legendItems = [["飛行機", "air"], ["車・バス", "car"], ["船", "boat"]];
+  const note = "所要時間は目安です。便・船の時刻は季節や運航会社で変わります。";
+  if (sp) {
+    g += `<rect width="${W}" height="${H}" fill="${C.panel}"/>`;
+    // タイトル
+    g += text(30, 62, `${shortName}への行き方`, { size: 42, fill: C.cityText, weight: 700, anchor: "start" });
+    sumLinesSp.forEach((l, i) => { g += text(30, 108 + i * 34, l, { size: 24, fill: C.cityText, weight: 500, anchor: "start" }); });
+    altLines.forEach((l, i) => { g += text(30, 108 + sumLinesSp.length * 34 + i * 28, l, { size: 20, fill: C.cityText, weight: 400, anchor: "start" }); });
+    // 全体図
+    g += `<svg x="${MX}" y="${MY}" width="${MW}" height="${MH}" viewBox="0 0 ${MW} ${MH}" overflow="hidden">${m}</svg>`;
+    // 引き出し線（全体図の枠 → 拡大図の上辺）
+    g += `<path d="M${fmt(box[0])} ${fmt(MY + box[1] + box[3])}L${IX} ${IY}M${fmt(box[0] + box[2])} ${fmt(MY + box[1] + box[3])}L${IX + IW} ${IY}" fill="none" stroke="${C.route}" stroke-width="1.5" stroke-opacity="0.6"/>`;
+    g += `<rect x="0" y="${MY + MH}" width="${W}" height="${IY - MY - MH}" fill="${C.panel}"/>`;
+    g += insetSvg;
+    // 拡大図の見出し（枠の左上に重ねる帯）
+    const hw = textW(insetName, 24) + 30;
+    g += `<rect x="${IX}" y="${IY}" width="${fmt(Math.min(hw, IW))}" height="44" fill="${C.pill}"/>` + text(IX + 15, IY + 31, insetName, { size: 24, fill: "#fff", weight: 700, anchor: "start" });
+    // 凡例（横一列）と注記
+    const ly = IY + IH + 52;
+    let lx = 30;
+    for (const [lab, by] of legendItems) {
+      g += `<path d="M${lx} ${ly - 8}h56" fill="none" stroke="${C.route}" stroke-linecap="round" stroke-width="${sw(by, 3.2)}"${dash[by]}/>` +
+        text(lx + 68, ly, lab, { size: 24, fill: C.cityText, anchor: "start", weight: 500 });
+      lx += 68 + textW(lab, 24) + 44;
+    }
+    wrapJa(note, 34).forEach((l, i) => { g += text(30, ly + 50 + i * 30, l, { size: 20, fill: C.cityText, anchor: "start", weight: 400 }); });
+    g += text(30, H - 18, "地図データ: Natural Earth / GSHHG", { size: 16, fill: "rgba(75,46,30,0.55)", anchor: "start", weight: 400 });
+  } else {
+    g += m;
+    g += `<path d="M${fmt(box[0] + box[2])} ${fmt(box[1])}L${IX} ${IY}M${fmt(box[0] + box[2])} ${fmt(box[1] + box[3])}L${IX} ${IY + IH}" fill="none" stroke="${C.route}" stroke-width="1.2" stroke-opacity="0.7"/>`;
+    g += insetSvg;
+    const tw = Math.max(330, textW(summary, 14) + 40, route.alt ? textW(route.alt, 13.5) + 60 : 0);
+    const th = route.alt ? 104 : 84;
+    g += `<g id="title"><rect x="24" y="24" width="${fmt(tw)}" height="${th}" rx="4" fill="#fff" fill-opacity="0.95"/>` +
+      text(44, 62, `${shortName}への行き方`, { size: 26, fill: C.cityText, weight: 700, anchor: "start" }) +
+      text(44, 90, summary, { size: 14, fill: C.cityText, weight: 400, anchor: "start" }) +
+      (route.alt ? text(44, 112, `※${route.alt}`, { size: 13, fill: C.cityText, weight: 400, anchor: "start" }) : "") + `</g>`;
+    const lx = 24, ly = H - 170;
+    g += `<g id="legend"><rect x="${lx}" y="${ly}" width="150" height="124" rx="4" fill="#fff" fill-opacity="0.95"/>` +
+      legendItems.map(([lab, by], i) => `<path d="M${lx + 18} ${ly + 30 + i * 34}h44" fill="none" stroke="${C.route}" stroke-linecap="round" stroke-width="${sw(by, 2.2)}"${dash[by]}/>` +
+        text(lx + 74, ly + 35 + i * 34, lab, { size: 15, fill: C.cityText, anchor: "start", weight: 500 })).join("") + `</g>`;
+    g += text(W - 30, H - 18, note, { size: 13, fill: C.cityText, anchor: "end", weight: 400 });
+    g += text(30, H - 18, "地図データ: Natural Earth / GSHHG", { size: 11, fill: "rgba(75,46,30,0.55)", anchor: "start", weight: 400 });
+  }
+  return svgDoc(W, H, g, { title: `${dest.name}への行き方` });
 }
 
 // ---------------------------------------------------------------- メイン
@@ -721,6 +818,7 @@ function main() {
     const isl = renderIsland(d, osm, 800, 600);
     fs.writeFileSync(path.join(OUT, `islands/${d.slug}.svg`), svgDoc(800, 600, isl.body, { title: `${d.name}の地図`, credit: "地図データ: GSHHG" }));
     fs.writeFileSync(path.join(OUT, `routes/${d.slug}.svg`), renderRoute(d, countries, osm));
+    fs.writeFileSync(path.join(OUT, `routes/${d.slug}-sp.svg`), renderRoute(d, countries, osm, true));
     console.log(`islands/${d.slug}.svg, routes/${d.slug}.svg`);
   }
 }

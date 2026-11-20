@@ -7,7 +7,8 @@ TRIP×TRIPの記事用地図（SVG）を生成するスクリプト。出力は 
 | `base/asia.svg` | 日本〜東南アジアのベース地図（国名・海名・主要都市）。使い回し用 |
 | `base/asia-destinations.svg` | ベース地図＋`destinations.yml`の全行き先を赤ドットで表示 |
 | `islands/<slug>.svg` | 各行き先の島（エリア）拡大図。主役の島を濃く、周辺の島を薄く塗る |
-| `routes/<slug>.svg` | 「○○島への行き方」マップ。全体図（日本→乗継空港→最後の空港、区間ごとに手段と所要時間）＋拡大図（空港→桟橋→島の車・船区間）。記事に貼る完成形 |
+| `routes/<slug>.svg` | 「○○島への行き方」マップ。全体図（日本→乗継空港→最後の空港、区間ごとに手段と所要時間）＋拡大図（空港→桟橋→島の車・船区間）。記事に貼る完成形（PC用・横長 1500×1000） |
+| `routes/<slug>-sp.svg` | 同じ内容のスマホ用（幅750の縦長。タイトル→全体図→拡大図→凡例を縦に並べ、文字を大きくしたもの） |
 
 ## 使い方
 
@@ -34,3 +35,14 @@ node build-maps.mjs koh-lipe-guide           # 特定の行き先だけ
 
 - 国境・陸地（ベース地図）：Natural Earth（パブリックドメイン）via world-atlas
 - 島の海岸線：GSHHG（Wessel & Smith, LGPL）via basemap-data-hires
+
+## 記事への貼り方（案）
+
+PC用とスマホ用を画面幅で出し分ける：
+
+```html
+<picture>
+  <source media="(max-width: 700px)" srcset="/assets/images/maps/routes/koh-lipe-guide-sp.svg">
+  <img src="/assets/images/maps/routes/koh-lipe-guide.svg" alt="リペ島への行き方（日本→バンコク→ハジャイ→リペ島）" width="1500" height="1000" style="width:100%;height:auto">
+</picture>
+```

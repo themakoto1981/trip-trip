@@ -126,12 +126,12 @@ layout: default
       { label: '魚・サンゴ', key: 'underwater', value: d.beach_underwater },
       { label: '砂の質', key: 'sand', value: d.beach_sand }
     ];
-    var compactHtml = compactRows.map(function (r) {
-      var stars = (r.value === null || r.value === undefined)
-        ? '<span class="beach-rating-na">評価準備中</span>'
-        : starsSvg(r.value);
-      return '<div class="beach-rating-row"><span class="beach-rating-label">' + r.label + '</span><span class="beach-rating-stars">' + stars + '</span></div>';
-    }).join('');
+    var presentValues = compactRows.map(function (r) { return r.value; }).filter(function (v) { return v !== null && v !== undefined; });
+    var overall = presentValues.length ? Math.round(presentValues.reduce(function (a, b) { return a + b; }, 0) / presentValues.length) : null;
+    var overallStars = (overall === null)
+      ? '<span class="beach-rating-na">評価準備中</span>'
+      : starsSvg(overall);
+    var compactHtml = '<div class="beach-rating-row"><span class="beach-rating-label">海の綺麗さ</span><span class="beach-rating-stars">' + overallStars + '</span></div>';
     var detailLabels = { visibility: '①浅瀬の海底視認性', underwater: '②水中の美しさ', sand: '③砂の美しさ' };
     var detailHtml = compactRows.map(function (r) {
       var desc = (r.value === null || r.value === undefined)

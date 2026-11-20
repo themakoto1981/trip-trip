@@ -530,13 +530,13 @@ function renderRoute(dest, countries, osm, sp = false) {
   let W, H, MX, MY, MW, MH, IX, IY, IW, IH, titleH = 0, altLines = [];
   if (sp) {
     W = 750;
-    altLines = route.alt ? wrapJa(`※${route.alt}`, 33) : [];
-    const sumLines = wrapJa(summary, 26);
-    titleH = 112 + sumLines.length * 34 + altLines.length * 28;
-    MX = 0; MY = titleH; MW = W; MH = 700;
-    IX = 20; IY = MY + MH + 30; IW = W - 40; IH = 620;
-    H = IY + IH + 190;
-    var sumLinesSp = sumLines;
+    // 記事の見出し（行き方）の直下に置く前提で、タイトル・凡例は付けず高さを抑える。
+    // 拡大図は車・船の区間がある行き先だけ（飛行機だけで着く行き先は全体図1枚）。
+    altLines = route.alt ? wrapJa(`※${route.alt}`, 34) : [];
+    MX = 0; MY = 0; MW = W; MH = 560;
+    IX = 20; IY = MH + 24; IW = W - 40; IH = 460;
+    var footY = (hasLocal ? IY + IH : MH) + 40;
+    H = footY + altLines.length * 30 + 50;
   } else {
     W = 1500; H = 1000; MX = 0; MY = 0; MW = W; MH = H;
     IW = 580; IH = 420; IX = W - IW - 30; IY = H - IH - 46;
@@ -551,7 +551,7 @@ function renderRoute(dest, countries, osm, sp = false) {
     ? { west: w - span * 0.3, east: e + span * 0.45, south: so - span * 0.18, north: n + span * 0.35 }
     : { west: w - span * 0.45, east: e + span * 0.95, south: so - span * 0.4, north: n + span * 0.3 };
   // 重ねている要素（PC：拡大図・タイトル・凡例／スマホ：日本マーカー）の下に経由地が隠れないよう範囲を広げる
-  const blocked = sp ? [[MW - 300, 0, MW, 150]] : [[IX - 30, IY - 30, W, H], [0, 0, 460, 150], [0, H - 190, 200, H]];
+  const blocked = sp ? [[MW - 300, 0, MW, 120]] : [[IX - 30, IY - 30, W, H], [0, 0, 460, 150], [0, H - 190, 200, H]];
   for (let k = 0; k < 12; k++) {
     const pj = makeProj(bounds, MW, MH);
     const hitRect = (r) => pts.some((q) => { const [x, y] = pj(q); return x > r[0] && x < r[2] && y > r[1] && y < r[3]; });
@@ -608,27 +608,37 @@ function renderRoute(dest, countries, osm, sp = false) {
   };
 
   // ---- 全体図：日本（右上の端）→ 経由地
-  const jp = sp ? [MW - 50, 60] : [MW - 70, 70];
+  // 日本は地図の外にあるので、右上の角に「日本から」の札を置き、そこから線を出す
+  const jb = sp ? { w: 0, h: 74, y: 14, t: 26, f: 19 } : { w: 0, h: 62, y: 24, t: 20, f: 14 };
+  jb.w = Math.max(textW("日本から", jb.t), textW(route.from, jb.f)) + 36;
+  jb.x = MW - jb.w - (sp ? 14 : 24);
+  const jp = [jb.x + 14, jb.y + jb.h];
   let routeSvg = `<g id="routes" fill="none" stroke="${C.route}" stroke-linecap="round">`;
   let labelSvg = "";
   let prev = jp;
+  const mainArcs = [];
+  const mainBoxes = [[jb.x - 6, jb.y - 6, jb.x + jb.w + 6, jb.y + jb.h + 6]];
   mainLegs.forEach((l, i) => {
     const to = proj([l[1], l[2]]);
     const a = arc(prev, to, i === 0 ? -0.08 : -0.18);
     routeSvg += `<path d="${a.d}" stroke-width="${sw(l[3], K.lw)}"${dash[l[3]]}/>`;
-    labelSvg += pill(a.mid[0], a.mid[1], l[4], null, K.pill, MW);
+    mainArcs.push([a, l[4]]);
     prev = to;
   });
   routeSvg += `</g>`;
   m += routeSvg;
-  m += `<circle cx="${jp[0]}" cy="${jp[1]}" r="${K.jp * 0.3}" fill="${C.route}" stroke="#fff" stroke-width="2"/>` +
-    text(jp[0] - K.jp * 0.6, jp[1] + K.jp * 0.33, "日本", { size: K.jp, fill: C.cityText, weight: 700, anchor: "end", halo: "rgba(255,255,255,0.85)" }) +
-    text(jp[0] + K.from * 0.4, jp[1] + K.jp * 0.33 + K.from * 1.5, route.from, { size: K.from, fill: C.cityText, weight: 500, anchor: "end", halo: "rgba(255,255,255,0.85)" });
+  const japanBadge = `<g id="from-japan"><rect x="${fmt(jb.x)}" y="${jb.y}" width="${fmt(jb.w)}" height="${jb.h}" rx="4" fill="#fff" fill-opacity="0.96" stroke="${C.route}" stroke-width="1.5"/>` +
+    text(jb.x + 18, jb.y + jb.t * 1.15, "日本から", { size: jb.t, fill: C.cityText, weight: 700, anchor: "start" }) +
+    text(jb.x + 18, jb.y + jb.t * 1.15 + jb.f * 1.35, route.from, { size: jb.f, fill: C.cityText, weight: 500, anchor: "start" }) + `</g>`;
   mainLegs.forEach((l, i) => {
     if (i === legs.length - 1) return;
     const [x, y] = proj([l[1], l[2]]);
     const side = x + K.stop + textW(l[0], K.stop) > MW - 8 ? "l" : "r";
-    m += stopMark(x, y, l[0], hasLocal && i === lastAir ? null : l[5], K.stop, side);
+    const nt = hasLocal && i === lastAir ? null : l[5];
+    m += stopMark(x, y, l[0], nt, K.stop, side);
+    const tw = Math.max(textW(l[0], K.stop), nt ? textW(nt, K.stop * 0.72) : 0), g0 = K.stop * 0.65;
+    mainBoxes.push([x - K.stop * 0.5, y - K.stop * 0.5, x + K.stop * 0.5, y + K.stop * 0.5]);
+    mainBoxes.push(side === "r" ? [x + g0, y - K.stop * 0.7, x + g0 + tw, y + K.stop * (nt ? 1.6 : 0.5)] : [x - g0 - tw, y - K.stop * 0.7, x - g0, y + K.stop * (nt ? 1.6 : 0.5)]);
   });
 
   // ---- 拡大図
@@ -721,12 +731,31 @@ function renderRoute(dest, countries, osm, sp = false) {
   const rw = Math.max(rx1 - rx0, 14), rh = Math.max(ry1 - ry0, 10);
   const rcx = (rx0 + rx1) / 2, rcy = (ry0 + ry1) / 2;
   const box = [rcx - rw / 2, rcy - rh / 2, rw, rh];
-  m += `<rect x="${fmt(box[0])}" y="${fmt(box[1])}" width="${fmt(box[2])}" height="${fmt(box[3])}" fill="none" stroke="${C.route}" stroke-width="${sp ? 2 : 1.2}"/>`;
+  const showInset = !sp || hasLocal;
+  if (showInset) m += `<rect x="${fmt(box[0])}" y="${fmt(box[1])}" width="${fmt(box[2])}" height="${fmt(box[3])}" fill="none" stroke="${C.route}" stroke-width="${sp ? 2 : 1.2}"/>`;
   const [dx, dy] = proj([dest.lng, dest.lat]);
   const sq = sp ? 12 : 8;
   m += `<rect x="${fmt(dx - sq / 2)}" y="${fmt(dy - sq / 2)}" width="${sq}" height="${sq}" fill="${C.dest}"/>`;
-  if (!hasLocal) m += text(dx - sq - 4, dy + K.dest * 0.33, shortName, { size: K.dest, fill: C.dest, weight: 700, anchor: "end", halo: "rgba(255,255,255,0.85)" });
-  m += labelSvg;
+  if (sp && !hasLocal) m += `<circle cx="${fmt(dx)}" cy="${fmt(dy)}" r="16" fill="none" stroke="${C.dest}" stroke-width="2.5"/>`;
+  if (!hasLocal) m += text(dx - sq - (sp ? 14 : 4), dy + K.dest * 0.33, shortName, { size: K.dest, fill: C.dest, weight: 700, anchor: "end", halo: "rgba(255,255,255,0.85)" });
+  // 行き先の印・名前も避ける対象にしてから、区間ラベルを空いている所に置く
+  mainBoxes.push([dx - 18, dy - 18, dx + 18, dy + 18]);
+  if (!hasLocal) { const tw = textW(shortName, K.dest), x1 = dx - sq - (sp ? 14 : 4); mainBoxes.push([x1 - tw, dy - K.dest * 0.7, x1, dy + K.dest * 0.45]); }
+  for (const [a, label] of mainArcs) {
+    const wpx = textW(label, K.pill) + K.pill * 1.4, hpx = K.pill * 1.75;
+    const at = (t) => [(1 - t) ** 2 * a.p0[0] + 2 * (1 - t) * t * a.c[0] + t * t * a.p2[0], (1 - t) ** 2 * a.p0[1] + 2 * (1 - t) * t * a.c[1] + t * t * a.p2[1]];
+    let best = null;
+    outer: for (const d of [0, 1, -1, 2, -2]) for (const t of [0.5, 0.4, 0.6, 0.3, 0.7]) {
+      const [px, py] = at(t);
+      const cx = Math.min(Math.max(px + a.n[0] * d * hpx, wpx / 2 + 6), MW - wpx / 2 - 6), cy = py + a.n[1] * d * hpx;
+      const B = [cx - wpx / 2, cy - hpx / 2, cx + wpx / 2, cy + hpx / 2];
+      if (B[1] > 4 && B[3] < MH - 4 && !mainBoxes.some((Q) => B[0] < Q[2] && B[2] > Q[0] && B[1] < Q[3] && B[3] > Q[1])) { best = [cx, cy, B]; break outer; }
+    }
+    if (!best) { const [px, py] = at(0.5); best = [px, py, [px - wpx / 2, py - hpx / 2, px + wpx / 2, py + hpx / 2]]; }
+    mainBoxes.push(best[2]);
+    labelSvg += pill(best[0], best[1], label, null, K.pill, MW);
+  }
+  m += labelSvg + japanBadge;
 
   // ---- 組み立て
   let g = "";
@@ -737,29 +766,19 @@ function renderRoute(dest, countries, osm, sp = false) {
   const note = "所要時間は目安です。便・船の時刻は季節や運航会社で変わります。";
   if (sp) {
     g += `<rect width="${W}" height="${H}" fill="${C.panel}"/>`;
-    // タイトル
-    g += text(30, 62, `${shortName}への行き方`, { size: 42, fill: C.cityText, weight: 700, anchor: "start" });
-    sumLinesSp.forEach((l, i) => { g += text(30, 108 + i * 34, l, { size: 24, fill: C.cityText, weight: 500, anchor: "start" }); });
-    altLines.forEach((l, i) => { g += text(30, 108 + sumLinesSp.length * 34 + i * 28, l, { size: 20, fill: C.cityText, weight: 400, anchor: "start" }); });
-    // 全体図
     g += `<svg x="${MX}" y="${MY}" width="${MW}" height="${MH}" viewBox="0 0 ${MW} ${MH}" overflow="hidden">${m}</svg>`;
-    // 引き出し線（全体図の枠 → 拡大図の上辺）
-    g += `<path d="M${fmt(box[0])} ${fmt(MY + box[1] + box[3])}L${IX} ${IY}M${fmt(box[0] + box[2])} ${fmt(MY + box[1] + box[3])}L${IX + IW} ${IY}" fill="none" stroke="${C.route}" stroke-width="1.5" stroke-opacity="0.6"/>`;
-    g += `<rect x="0" y="${MY + MH}" width="${W}" height="${IY - MY - MH}" fill="${C.panel}"/>`;
-    g += insetSvg;
-    // 拡大図の見出し（枠の左上に重ねる帯）
-    const hw = textW(insetName, 24) + 30;
-    g += `<rect x="${IX}" y="${IY}" width="${fmt(Math.min(hw, IW))}" height="44" fill="${C.pill}"/>` + text(IX + 15, IY + 31, insetName, { size: 24, fill: "#fff", weight: 700, anchor: "start" });
-    // 凡例（横一列）と注記
-    const ly = IY + IH + 52;
-    let lx = 30;
-    for (const [lab, by] of legendItems) {
-      g += `<path d="M${lx} ${ly - 8}h56" fill="none" stroke="${C.route}" stroke-linecap="round" stroke-width="${sw(by, 3.2)}"${dash[by]}/>` +
-        text(lx + 68, ly, lab, { size: 24, fill: C.cityText, anchor: "start", weight: 500 });
-      lx += 68 + textW(lab, 24) + 44;
+    if (hasLocal) {
+      // 引き出し線（全体図の枠 → 拡大図の上辺）
+      g += `<path d="M${fmt(box[0])} ${fmt(MY + box[1] + box[3])}L${IX} ${IY}M${fmt(box[0] + box[2])} ${fmt(MY + box[1] + box[3])}L${IX + IW} ${IY}" fill="none" stroke="${C.route}" stroke-width="1.5" stroke-opacity="0.6"/>`;
+      g += `<rect x="0" y="${MY + MH}" width="${W}" height="${IY - MY - MH}" fill="${C.panel}"/>`;
+      g += insetSvg;
+      const hw = textW(insetName, 24) + 30;
+      g += `<rect x="${IX}" y="${IY}" width="${fmt(Math.min(hw, IW))}" height="44" fill="${C.pill}"/>` + text(IX + 15, IY + 31, insetName, { size: 24, fill: "#fff", weight: 700, anchor: "start" });
     }
-    wrapJa(note, 34).forEach((l, i) => { g += text(30, ly + 50 + i * 30, l, { size: 20, fill: C.cityText, anchor: "start", weight: 400 }); });
-    g += text(30, H - 18, "地図データ: Natural Earth / GSHHG", { size: 16, fill: "rgba(75,46,30,0.55)", anchor: "start", weight: 400 });
+    altLines.forEach((l, i) => { g += text(24, footY + i * 30, l, { size: 21, fill: C.cityText, weight: 500, anchor: "start" }); });
+    const ny = footY + altLines.length * 30;
+    g += text(24, ny, "※所要時間は目安です。時刻は季節・運航会社で変わります。", { size: 19, fill: C.cityText, anchor: "start", weight: 400 });
+    g += text(W - 16, H - 10, "地図データ: Natural Earth / GSHHG", { size: 13, fill: "rgba(75,46,30,0.55)", anchor: "end", weight: 400 });
   } else {
     g += m;
     g += `<path d="M${fmt(box[0] + box[2])} ${fmt(box[1])}L${IX} ${IY}M${fmt(box[0] + box[2])} ${fmt(box[1] + box[3])}L${IX} ${IY + IH}" fill="none" stroke="${C.route}" stroke-width="1.2" stroke-opacity="0.7"/>`;

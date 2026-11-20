@@ -2,17 +2,12 @@
 layout: default
 ---
 <style>
-  .beach-rating-box { background: #fff; border: 1px solid var(--sb-border); border-radius: 12px; padding: 0.85rem 1rem; margin: 0.8rem 0 1rem; }
-  .beach-rating-box-head { display: flex; align-items: baseline; justify-content: space-between; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 0.5rem; }
-  .beach-rating-beach { font-size: 0.8rem; color: var(--sb-brown-soft); }
-  .beach-wave-badge { background: var(--sb-cream); border: 1px solid var(--sb-border); color: var(--sb-brown-soft); font-size: 0.72rem; font-weight: 700; padding: 2px 10px; border-radius: 999px; white-space: nowrap; }
-  .beach-rating-rows { display: flex; flex-direction: column; gap: 0.3rem; }
-  .beach-rating-row { display: flex; align-items: center; gap: 0.5rem; }
-  .beach-rating-label { font-size: 0.78rem; color: var(--sb-brown-soft); width: 76px; flex-shrink: 0; }
-  .beach-rating-stars { display: flex; gap: 2px; }
+  .beach-rating-stars { display: flex; gap: 2px; justify-content: flex-end; }
   .beach-rating-na { font-size: 0.75rem; color: var(--sb-brown-soft); }
   .beach-rating-detail-box { background: #fff; border: 1px solid var(--sb-border); border-radius: 12px; padding: 0.85rem 1rem; margin: 0.8rem 0 1.5rem; }
   .beach-rating-detail-box-title { font-family: "Noto Serif JP", serif; font-weight: 700; color: var(--sb-green-dark); font-size: 0.95rem; margin-bottom: 0.4rem; }
+  .beach-rating-beach-link { background: none; border: none; padding: 0; font: inherit; font-weight: 700; color: var(--sb-green); cursor: pointer; text-decoration: underline; text-underline-offset: 2px; }
+  .beach-rating-beach-link-icon { text-decoration: none; }
   .beach-rating-detail-row { margin: 0.6rem 0 0; display: flex; flex-direction: column; gap: 2px; }
   .beach-rating-detail-row-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
   .beach-rating-detail-label { font-size: 0.82rem; font-weight: 600; color: var(--sb-green-dark); }
@@ -160,21 +155,29 @@ layout: default
         { label: '砂の質', key: 'sand', value: d.beach_sand }
       ];
     }
-    function beachRatingBoxHtml(d) {
-      if (!d.beach_name) { return ''; }
+    function beachOverallStarsHtml(d) {
       var presentValues = beachRatingValueRows(d).map(function (r) { return r.value; }).filter(function (v) { return v !== null && v !== undefined; });
       var overall = presentValues.length ? Math.round(presentValues.reduce(function (a, b) { return a + b; }, 0) / presentValues.length) : null;
-      var overallStars = (overall === null)
+      return (overall === null)
         ? '<span class="beach-rating-na">評価準備中</span>'
-        : starsSvg(overall);
-      var waveBadge = d.beach_waves ? '<span class="beach-wave-badge">波' + d.beach_waves + '</span>' : '';
-      return '<div class="beach-rating-box">' +
-        '<div class="beach-rating-box-head"><span class="beach-rating-beach">おすすめビーチ：' + d.beach_name + '</span>' + waveBadge + '</div>' +
-        '<div class="beach-rating-rows"><div class="beach-rating-row"><span class="beach-rating-label">海の綺麗さ</span><span class="beach-rating-stars">' + overallStars + '</span></div></div>' +
-        '</div>';
+        : '<span class="beach-rating-stars">' + starsSvg(overall) + '</span>';
     }
-    function beachRatingDetailBoxHtml(d) {
+    function findMatchingSpotName(beachName, spots) {
+      if (!beachName || !spots) { return null; }
+      var found = null;
+      spots.forEach(function (s) {
+        if (found) { return; }
+        if (s.name === beachName || beachName.indexOf(s.name) !== -1 || s.name.indexOf(beachName) !== -1) {
+          found = s.name;
+        }
+      });
+      return found;
+    }
+    function beachRatingDetailBoxHtml(d, matchedSpotName) {
       if (!d.beach_name) { return ''; }
+      var beachNameHtml = matchedSpotName
+        ? '<button type="button" class="beach-rating-beach-link" data-spot-name="' + escAttr(matchedSpotName) + '">' + d.beach_name + ' <span class="beach-rating-beach-link-icon">📍</span></button>'
+        : d.beach_name;
       var detailLabels = { visibility: '①浅瀬の海底視認性', underwater: '②水中の美しさ', sand: '③砂の美しさ' };
       var detailHtml = beachRatingValueRows(d).map(function (r) {
         var desc = (r.value === null || r.value === undefined)
@@ -187,13 +190,12 @@ layout: default
         detailHtml += '<div class="beach-rating-note">補足：' + d.beach_note + '</div>';
       }
       return '<div class="beach-rating-detail-box">' +
-        '<div class="beach-rating-detail-box-title">ビーチ評価の詳細</div>' +
+        '<div class="beach-rating-detail-box-title">ビーチ評価の詳細：' + beachNameHtml + '</div>' +
         detailHtml +
         '</div>';
     }
     var beachDetailInserted = false;
     var ratingEl = document.getElementById('beach-rating');
-    if (ratingEl) { ratingEl.innerHTML = beachRatingBoxHtml(match); }
 
     // 東京発/関西発の切り替え。関西発データ（flight_min_kansai等）が無い記事ではトグル自体を出さない
     var currentDeparture = 'tokyo';
@@ -273,6 +275,10 @@ layout: default
       ['必要日数', match.recommended_nights || '-'],
       ['誰と行く？', companionText]
     ];
+    if (match.beach_name) {
+      rows.push(['海の綺麗さ', beachOverallStarsHtml(match)]);
+      if (match.beach_waves) { rows.push(['波', match.beach_waves]); }
+    }
 
     var html = '<div class="quick-facts-list">';
     rows.forEach(function (r) {
@@ -565,11 +571,14 @@ layout: default
           mapWrap.innerHTML = '<div id="spot-map"></div>';
           spotHeading.parentNode.insertBefore(mapWrap, spotHeading.nextSibling);
 
-          var simpleDetailHtml = beachRatingDetailBoxHtml(match);
+          var simpleMatchedSpotName = findMatchingSpotName(match.beach_name, mySpots);
+          var simpleDetailHtml = beachRatingDetailBoxHtml(match, simpleMatchedSpotName);
+          var simpleDetailNode = null;
           if (simpleDetailHtml) {
             var simpleDetailWrap = document.createElement('div');
             simpleDetailWrap.innerHTML = simpleDetailHtml;
-            mapWrap.parentNode.insertBefore(simpleDetailWrap.firstChild, mapWrap.nextSibling);
+            simpleDetailNode = simpleDetailWrap.firstChild;
+            mapWrap.parentNode.insertBefore(simpleDetailNode, mapWrap.nextSibling);
             beachDetailInserted = true;
           }
 
@@ -676,6 +685,21 @@ layout: default
               }
             }
           });
+
+          if (simpleDetailNode && simpleMatchedSpotName) {
+            var simpleBeachLinkBtn = simpleDetailNode.querySelector('.beach-rating-beach-link');
+            if (simpleBeachLinkBtn) {
+              simpleBeachLinkBtn.addEventListener('click', function () {
+                var info = spotMarkersByName[simpleMatchedSpotName];
+                if (info) {
+                  spotMap.panTo({ lat: info.lat, lng: info.lng });
+                  spotMap.setZoom(15);
+                  openSpotInfo(simpleMatchedSpotName);
+                }
+                mapWrap.scrollIntoView({ behavior: 'smooth', block: 'center' });
+              });
+            }
+          }
         }
     }
 
@@ -714,11 +738,14 @@ layout: default
       if (originalList && originalList.tagName === 'UL') { originalList.remove(); }
       spotHeading.parentNode.insertBefore(wrap, spotHeading.nextSibling);
 
-      var richDetailHtml = beachRatingDetailBoxHtml(match);
+      var richMatchedSpotName = findMatchingSpotName(match.beach_name, mySpots);
+      var richDetailHtml = beachRatingDetailBoxHtml(match, richMatchedSpotName);
+      var richDetailNode = null;
       if (richDetailHtml) {
         var richDetailWrap = document.createElement('div');
         richDetailWrap.innerHTML = richDetailHtml;
-        wrap.parentNode.insertBefore(richDetailWrap.firstChild, wrap.nextSibling);
+        richDetailNode = richDetailWrap.firstChild;
+        wrap.parentNode.insertBefore(richDetailNode, wrap.nextSibling);
         beachDetailInserted = true;
       }
 
@@ -881,6 +908,22 @@ layout: default
       renderCategoryRow();
       renderMap();
       renderSummary();
+
+      if (richDetailNode && richMatchedSpotName) {
+        var richBeachLinkBtn = richDetailNode.querySelector('.beach-rating-beach-link');
+        if (richBeachLinkBtn) {
+          richBeachLinkBtn.addEventListener('click', function () {
+            if (currentView !== 'map') {
+              currentView = 'map';
+              wrap.querySelectorAll('.spot-tab').forEach(function (b) { b.classList.toggle('active', b.dataset.view === 'map'); });
+              document.getElementById('spot-map-wrap').hidden = false;
+              document.getElementById('spot-list-wrap').hidden = true;
+            }
+            selectSpot(richMatchedSpotName);
+            wrap.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          });
+        }
+      }
     }
 
     // おすすめ持ち物（商品カード）。article_products.ymlにこの記事のslugのエントリがある場合のみ、

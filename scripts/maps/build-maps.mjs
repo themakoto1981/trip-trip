@@ -99,19 +99,19 @@ const ORIGINS = { tokyo: ["東京", 139.77, 35.68], osaka: ["大阪", 135.50, 34
 // highlightKm: 中心からこの距離以内の島をすべて主役色で塗る（諸島の場合）
 const ISLAND_OVERRIDES = {
   "bali-guide": { spanKm: 175, center: [-8.4, 115.18] },
-  "bohol-guide": { spanKm: 110, center: [9.85, 124.15], targetAt: [[9.85, 124.15], [9.57, 123.78]] },
+  "bohol-guide": { local: "港・空港→アロナビーチ：車 約20〜30分", spanKm: 110, center: [9.85, 124.15], targetAt: [[9.85, 124.15], [9.57, 123.78]] },
   "cebu-guide": { spanKm: 230, center: [10.3, 123.85] },
   "lombok-guide": { spanKm: 110, center: [-8.6, 116.35] },
-  "el-nido-guide": { spanKm: 60, marker: true },
-  "coron-guide": { spanKm: 55, center: [11.95, 120.15], marker: true },
-  "danang-hoian-guide": { spanKm: 60, center: [16.0, 108.3], marker: true },
+  "el-nido-guide": { local: "空港→エルニドの町：トライシクル 約10分", spanKm: 60, marker: true },
+  "coron-guide": { local: "空港→コロンの町：車 約20分", spanKm: 55, center: [11.95, 120.15], marker: true },
+  "danang-hoian-guide": { local: "空港→ダナン市内：車 約10〜15分", spanKm: 60, center: [16.0, 108.3], marker: true },
   "nhatrang-guide": { spanKm: 45, marker: true },
   "mui-ne-guide": { spanKm: 45, marker: true },
-  "pattaya-guide": { spanKm: 45, center: [12.88, 100.85], marker: true },
+  "pattaya-guide": { local: "バス乗り場→宿泊エリア：Grabカー 約20〜30分", spanKm: 45, center: [12.88, 100.85], marker: true },
   "krabi-guide": { spanKm: 45, center: [8.0, 98.85], marker: true },
   // パリ島は小さすぎてGSHHSに輪郭が無いので、ジャカルタ湾ごと見せてピンで示す
   "pulau-pari-guide": { spanKm: 70, center: [-5.95, 106.72], marker: true },
-  "komodo-guide": { spanKm: 70, center: [-8.6, 119.55], highlightKm: 22 },
+  "komodo-guide": { local: "ラブアンバジョ空港→町：車 約10分", spanKm: 70, center: [-8.6, 119.55], highlightKm: 22 },
   "perhentian-guide": { spanKm: 18, highlightKm: 5 },
   "gili-trawangan-guide": { spanKm: 14, center: [-8.36, 116.06] },
   "gili-air-guide": { spanKm: 14, center: [-8.36, 116.06] },
@@ -119,7 +119,7 @@ const ISLAND_OVERRIDES = {
   "nusa-lembongan-guide": { spanKm: 36, center: [-8.72, 115.5] },
   "koh-rong-guide": { spanKm: 45, center: [10.6, 103.3] },
   "koh-rong-samloem-guide": { spanKm: 45, center: [10.6, 103.3] },
-  "koh-phiphi-guide": { spanKm: 20 },
+  "koh-phiphi-guide": { local: "島内は車が走れないため、ホテルまでは徒歩", spanKm: 20 },
   "koh-larn-guide": { spanKm: 20, center: [12.92, 100.83] },
   "redang-guide": { spanKm: 30 },
   "koh-lipe-guide": { spanKm: 22, center: [6.52, 99.27] },
@@ -420,6 +420,7 @@ function renderIsland(dest, osm, W, H, { frame = true, scale = 1, bounds: forced
 // legs : [到着地点名, lng, lat, 手段, ラベル, メモ]  最後の要素は行き先（地点名・座標は null で destinations.yml の値を使う）
 //        手段: air=飛行機（実線） / car=車・バス（破線） / boat=船（点線）
 // alt  : 別ルートの注記。altFrom があれば拡大図に細い点線で描く
+// local: 着いてからの現地移動（空港→ホテルなど）。記事に所要時間が書いてあるものだけ
 const P = {
   bkk: ["バンコク", 100.75, 13.69], kul: ["クアラルンプール", 101.71, 2.74], mnl: ["マニラ", 121.02, 14.51],
   sgn: ["ホーチミン", 106.66, 10.82], cgk: ["ジャカルタ", 106.66, -6.13], ceb: ["セブ", 123.98, 10.31],
@@ -446,8 +447,8 @@ const ROUTES = {
   "koh-phiphi-guide": { from: "成田・羽田・関西", legs: [L(P.bkk, "air", INTL_BKK), L(["プーケット", 98.32, 8.11], "air", "国内線 約1時間半"), D("boat", "フェリー 約1.5〜2時間")], alt: "クラビ経由（フェリー同程度）の別ルートあり" },
   "koh-chang-guide": { from: "成田・羽田・関西", legs: [L(P.bkk, "air", INTL_BKK), L(["トラート", 102.32, 12.27], "air", "国内線"), D("boat", "車＋フェリー")], alt: "バンコクの空港から直行バスの別ルートあり" },
   "pulau-pari-guide": { from: "成田（関西発はシンガポール乗継）", legs: [L(P.cgk, "air", "国際線 直行 約8時間"), D("boat", "高速船（1日1往復）")] },
-  "phuquoc-guide": { from: "成田・関西", legs: [L(P.sgn, "air", "国際線 約6〜7時間"), D("air", "国内線 約1時間")], alt: "ハノイ経由の別ルートあり" },
-  "koh-samui-guide": { from: "成田・羽田・関西", legs: [L(P.bkk, "air", INTL_BKK), D("air", "国内線 約1時間")], alt: "スラタニ＋フェリーの節約ルートあり" },
+  "phuquoc-guide": { from: "成田・関西", legs: [L(P.sgn, "air", "国際線 約6〜7時間", "乗継 2.5〜3時間"), D("air", "国内線 約1時間")], alt: "ハノイ経由の別ルートあり" },
+  "koh-samui-guide": { local: "空港→チャウエン周辺：Grabカー 約15〜20分", from: "成田・羽田・関西", legs: [L(P.bkk, "air", INTL_BKK), D("air", "国内線 約1時間")], alt: "スラタニ＋フェリーの節約ルートあり" },
   "koh-tao-guide": { from: "成田・関西", legs: [L(P.bkk, "air", "国際線 約6〜7時間"), L(["サムイ島", 100.06, 9.55], "air", "国内線 約1時間"), D("boat", "高速船")], alt: "チュンポン経由（安いが乗継多め）の別ルートあり" },
   "el-nido-guide": { from: "成田・関西", legs: [L(P.ceb, "air", INTL_CEB), D("air", "国内線 約1時間45分")], alt: "クラーク経由の別ルートあり" },
   "nusa-penida-guide": { from: "成田（関西発はKL乗継）", legs: [L(P.dps, "air", "国際線 直行 約7〜8時間"), L(["サヌール", 115.26, -8.68], "car", "車", "ここで1泊"), D("boat", "高速ボート 約30〜45分")] },
@@ -455,20 +456,20 @@ const ROUTES = {
   "gili-trawangan-guide": { from: "成田（関西発はKL乗継）", legs: [L(P.dps, "air", "国際線 直行 約7〜8時間"), L(["パダンバイ", 115.51, -8.53], "car", "車 1時間半〜2時間", "ここで前泊"), D("boat", "高速ボート 約1時間半")] },
   "gili-air-guide": { from: "成田（関西発はKL乗継）", legs: [L(P.dps, "air", "国際線 直行 約7〜8時間"), L(["パダンバイ", 115.51, -8.53], "car", "車"), D("boat", "高速ボート 約2時間")] },
   "coron-guide": { from: "成田・関西", legs: [L(P.mnl, "air", "国際線 直行 約5時間", "ここで1泊"), D("air", "国内線 約1時間")] },
-  "con-dao-guide": { from: "成田・関西", legs: [L(P.sgn, "air", "国際線 直行 約6時間", "ここで1泊"), D("air", "国内線 約50分")] },
-  "siargao-guide": { from: "成田・関西", legs: [L(P.ceb, "air", INTL_CEB, "ここで1泊"), D("air", "国内線 約50分")] },
-  "camiguin-guide": { from: "成田・関西", legs: [L(P.mnl, "air", INTL_MNL, "ここで1泊"), D("air", "国内線（1日1便）")] },
+  "con-dao-guide": { local: "空港→ホテル：タクシー 約10〜15分", from: "成田・関西", legs: [L(P.sgn, "air", "国際線 直行 約6時間", "ここで1泊"), D("air", "国内線 約50分")] },
+  "siargao-guide": { local: "空港→ホテル：バン・トライシクル 約40〜60分", from: "成田・関西", legs: [L(P.ceb, "air", INTL_CEB, "ここで1泊"), D("air", "国内線 約50分")] },
+  "camiguin-guide": { local: "空港→ホテル：トライシクル 約20分", from: "成田・関西", legs: [L(P.mnl, "air", INTL_MNL, "ここで1泊"), D("air", "国内線（1日1便）")] },
   "nhatrang-guide": { from: "成田・関西", legs: [L(P.sgn, "air", "国際線 直行 約6時間", "ここで1泊"), D("air", "国内線 約1時間10分")] },
   "krabi-guide": { from: "成田・羽田・関西", legs: [L(P.bkk, "air", INTL_BKK), L(["クラビ空港", 98.99, 8.10], "air", "国内線 約1時間20分"), D("boat", "車 約50分＋ロングテールボート 約20分")] },
   "tioman-guide": { from: "成田・関西", legs: [L(P.kul, "air", INTL_KUL), L(["メルシン", 103.84, 2.43], "car", "バス 約5時間", "ここで前泊"), D("boat", "フェリー 約1.5〜2時間")] },
   "koh-larn-guide": { from: "成田・羽田・関西", legs: [L(P.bkk, "air", "国際線 約6〜7時間"), L(["パタヤ", 100.88, 12.93], "car", "車 約1.5〜2時間"), D("boat", "スピードボート 約15〜20分")] },
   "perhentian-guide": { from: "成田・関西", legs: [L(P.kul, "air", INTL_KUL), L(["クアラブス桟橋", 102.56, 5.83], "car", "バス"), D("boat", "スピードボート 約40分")] },
   "koh-kood-guide": { from: "成田・羽田・関西", legs: [L(P.bkk, "air", INTL_BKK), L(["トラート", 102.32, 12.27], "air", "国内線"), D("boat", "車＋フェリー（船は約1時間）")] },
-  "koh-phangan-guide": { from: "成田・羽田・関西", legs: [L(P.bkk, "air", INTL_BKK), L(["サムイ島", 100.06, 9.55], "air", "国内線 約1時間"), D("boat", "フェリー 約30分")] },
+  "koh-phangan-guide": { from: "成田・羽田・関西", legs: [L(P.bkk, "air", INTL_BKK), L(["サムイ島", 100.06, 9.55], "air", "国内線 約1時間"), D("boat", "車 約15分＋フェリー 約30分")] },
   "koh-rong-guide": { from: "成田・関西", legs: [L(P.sgn, "air", INTL_SGN), L(["シアヌークビル", 103.64, 10.58], "air", "国内線 約1時間15分"), D("boat", "車 約15分＋フェリー 約1時間")] },
   "koh-rong-samloem-guide": { from: "成田・関西", legs: [L(P.sgn, "air", INTL_SGN), L(["シアヌークビル", 103.64, 10.58], "air", "国内線 約1時間15分"), D("boat", "車 約15分＋フェリー 約45分〜1時間")] },
   "komodo-guide": { from: "成田（関西発はKL乗継）", legs: [L(P.dps, "air", "国際線 直行 約7〜8時間", "ここで1泊"), L(["ラブアンバジョ", 119.89, -8.49], "air", "国内線 約1時間15分"), D("boat", "ボート")] },
-  "pulau-weh-guide": { from: "成田（関西発はKL経由）", legs: [L(P.cgk, "air", INTL_CGK), L(["バンダアチェ", 95.42, 5.52], "air", "国内線"), D("boat", "車 約35分＋高速船 約1時間")] },
+  "pulau-weh-guide": { local: "バロハン港→イボイ・ガパン：車 約1時間", from: "成田（関西発はKL経由）", legs: [L(P.cgk, "air", INTL_CGK), L(["バンダアチェ", 95.42, 5.52], "air", "国内線"), D("boat", "車 約35分＋高速船 約1時間")] },
   "bohol-guide": { from: "成田・関西", legs: [L(P.ceb, "air", INTL_CEB), D("boat", "高速船 約2時間")], alt: "マニラ経由で国内線の別ルートあり（マニラで1泊）" },
   "lombok-guide": { from: "成田（関西発はKL乗継）", legs: [L(P.dps, "air", "国際線 直行 約7時間55分"), D("air", "国内線 約45分＋車 約25分")] },
   "koh-lanta-guide": { from: "成田・羽田・関西", legs: [L(P.bkk, "air", INTL_BKK), L(["クラビ空港", 98.99, 8.10], "air", "国内線 約1時間20分"), D("car", "ミニバン＋車両フェリー 約2.5〜3.5時間")] },
@@ -532,7 +533,7 @@ function renderRoute(dest, countries, osm, sp = false) {
     W = 750;
     // 記事の見出し（行き方）の直下に置く前提で、タイトル・凡例は付けず高さを抑える。
     // 拡大図は車・船の区間がある行き先だけ（飛行機だけで着く行き先は全体図1枚）。
-    altLines = route.alt ? wrapJa(`※${route.alt}`, 34) : [];
+    altLines = [...(route.local ? wrapJa(`着いてから　${route.local}`, 34) : []), ...(route.alt ? wrapJa(`※${route.alt}`, 34) : [])];
     MX = 0; MY = 0; MW = W; MH = 560;
     IX = 20; IY = MH + 24; IW = W - 40; IH = 460;
     var footY = (hasLocal ? IY + IH : MH) + 40;
@@ -737,10 +738,22 @@ function renderRoute(dest, countries, osm, sp = false) {
   const sq = sp ? 12 : 8;
   m += `<rect x="${fmt(dx - sq / 2)}" y="${fmt(dy - sq / 2)}" width="${sq}" height="${sq}" fill="${C.dest}"/>`;
   if (sp && !hasLocal) m += `<circle cx="${fmt(dx)}" cy="${fmt(dy)}" r="16" fill="none" stroke="${C.dest}" stroke-width="2.5"/>`;
-  if (!hasLocal) m += text(dx - sq - (sp ? 14 : 4), dy + K.dest * 0.33, shortName, { size: K.dest, fill: C.dest, weight: 700, anchor: "end", halo: "rgba(255,255,255,0.85)" });
+  // 行き先の名前：左 → 右 → 下 → 上 の順に、経由地の名前と重ならない側へ
+  if (!hasLocal) {
+    const tw = textW(shortName, K.dest), gp = sq + (sp ? 14 : 4);
+    const cands = [
+      ["end", dx - gp, dy + K.dest * 0.33, [dx - gp - tw, dy - K.dest * 0.7, dx - gp, dy + K.dest * 0.45]],
+      ["start", dx + gp, dy + K.dest * 0.33, [dx + gp, dy - K.dest * 0.7, dx + gp + tw, dy + K.dest * 0.45]],
+      ["middle", dx, dy + gp + K.dest * 0.9, [dx - tw / 2, dy + gp, dx + tw / 2, dy + gp + K.dest * 1.1]],
+      ["middle", dx, dy - gp - 4, [dx - tw / 2, dy - gp - K.dest * 1.1, dx + tw / 2, dy - gp]],
+    ];
+    const ok = (B) => B[0] > 4 && B[2] < MW - 4 && B[1] > 4 && B[3] < MH - 4 && !mainBoxes.some((Q) => B[0] < Q[2] && B[2] > Q[0] && B[1] < Q[3] && B[3] > Q[1]);
+    const c = cands.find((q) => ok(q[3])) || cands[0];
+    m += text(c[1], c[2], shortName, { size: K.dest, fill: C.dest, weight: 700, anchor: c[0], halo: "rgba(255,255,255,0.85)" });
+    mainBoxes.push(c[3]);
+  }
   // 行き先の印・名前も避ける対象にしてから、区間ラベルを空いている所に置く
   mainBoxes.push([dx - 18, dy - 18, dx + 18, dy + 18]);
-  if (!hasLocal) { const tw = textW(shortName, K.dest), x1 = dx - sq - (sp ? 14 : 4); mainBoxes.push([x1 - tw, dy - K.dest * 0.7, x1, dy + K.dest * 0.45]); }
   for (const [a, label] of mainArcs) {
     const wpx = textW(label, K.pill) + K.pill * 1.4, hpx = K.pill * 1.75;
     const at = (t) => [(1 - t) ** 2 * a.p0[0] + 2 * (1 - t) * t * a.c[0] + t * t * a.p2[0], (1 - t) ** 2 * a.p0[1] + 2 * (1 - t) * t * a.c[1] + t * t * a.p2[1]];
@@ -766,7 +779,7 @@ function renderRoute(dest, countries, osm, sp = false) {
     let cw = 320, ch = 250, cx0 = MW - cw - mg, cy0 = MH - ch - mg;
     // 角の優先順位を先に、その角で入る一番大きいサイズを選ぶ
     search: for (const corner of ["br", "bl", "tl", "tr"]) {
-      for (const h of [250, 220, 190]) {
+      for (const h of [250, 220, 190, 160]) {
         const w = Math.round(h * 1.28);
         const [x, y] = { br: [MW - w - mg, MH - h - mg], bl: [mg, MH - h - mg], tl: [mg, mg + 10], tr: [MW - w - mg, mg + jb.h + 30] }[corner];
         if (!hitAny([x, y, x + w, y + h])) { cw = w; ch = h; cx0 = x; cy0 = y; break search; }
@@ -783,7 +796,7 @@ function renderRoute(dest, countries, osm, sp = false) {
     m += `<rect x="${fmt(box[0])}" y="${fmt(box[1])}" width="${fmt(box[2])}" height="${fmt(box[3])}" fill="none" stroke="${C.route}" stroke-width="2"/>`;
     m += `<path d="M${fmt(box[0] + (cx0 > bx ? box[2] : 0))} ${fmt(box[1])}L${near[0][0]} ${near[0][1]}M${fmt(box[0] + (cx0 > bx ? box[2] : 0))} ${fmt(box[1] + box[3])}L${near[1][0]} ${near[1][1]}" fill="none" stroke="${C.route}" stroke-width="1.5" stroke-opacity="0.7"/>`;
     m += `<g id="inset-mini" transform="translate(${cx0} ${cy0})"><rect width="${cw}" height="${ch}" fill="#fff" stroke="${C.route}" stroke-width="2"/>` +
-      `<rect width="${cw}" height="${head}" fill="${C.pill}"/>` + text(14, 28, `拡大：${shortName}`, { size: 22, fill: "#fff", weight: 700, anchor: "start" }) +
+      `<rect width="${cw}" height="${head}" fill="${C.pill}"/>` + text(12, 28, `拡大：${shortName}`, { size: Math.min(22, (cw - 24) / textW(`拡大：${shortName}`, 1)), fill: "#fff", weight: 700, anchor: "start" }) +
       `<svg x="0" y="${head}" width="${cw}" height="${ch - head}" viewBox="0 0 ${cw} ${ch - head}" overflow="hidden">${isl.body}</svg></g>`;
   }
 
@@ -805,7 +818,7 @@ function renderRoute(dest, countries, osm, sp = false) {
       const hw = textW(insetName, 24) + 30;
       g += `<rect x="${IX}" y="${IY}" width="${fmt(Math.min(hw, IW))}" height="44" fill="${C.pill}"/>` + text(IX + 15, IY + 31, insetName, { size: 24, fill: "#fff", weight: 700, anchor: "start" });
     }
-    altLines.forEach((l, i) => { g += text(24, footY + i * 30, l, { size: 21, fill: C.cityText, weight: 500, anchor: "start" }); });
+    altLines.forEach((l, i) => { g += text(24, footY + i * 30, l, { size: 21, fill: C.cityText, weight: route.local && l.startsWith("着いてから") ? 700 : 500, anchor: "start" }); });
     const ny = footY + altLines.length * 30;
     g += text(24, ny, "※所要時間は目安です。時刻は季節・運航会社で変わります。", { size: 19, fill: C.cityText, anchor: "start", weight: 400 });
     g += text(W - 16, H - 10, "地図データ: Natural Earth / GSHHG", { size: 13, fill: "rgba(75,46,30,0.55)", anchor: "end", weight: 400 });
@@ -813,12 +826,13 @@ function renderRoute(dest, countries, osm, sp = false) {
     g += m;
     g += `<path d="M${fmt(box[0] + box[2])} ${fmt(box[1])}L${IX} ${IY}M${fmt(box[0] + box[2])} ${fmt(box[1] + box[3])}L${IX} ${IY + IH}" fill="none" stroke="${C.route}" stroke-width="1.2" stroke-opacity="0.7"/>`;
     g += insetSvg;
-    const tw = Math.max(330, textW(summary, 14) + 40, route.alt ? textW(route.alt, 13.5) + 60 : 0);
-    const th = route.alt ? 104 : 84;
+    const extra = [...(route.local ? [`着いてから　${route.local}`] : []), ...(route.alt ? [`※${route.alt}`] : [])];
+    const tw = Math.max(330, textW(summary, 14) + 40, ...extra.map((t) => textW(t, 13.5) + 60));
+    const th = 84 + extra.length * 20;
     g += `<g id="title"><rect x="24" y="24" width="${fmt(tw)}" height="${th}" rx="4" fill="#fff" fill-opacity="0.95"/>` +
       text(44, 62, `${shortName}への行き方`, { size: 26, fill: C.cityText, weight: 700, anchor: "start" }) +
       text(44, 90, summary, { size: 14, fill: C.cityText, weight: 400, anchor: "start" }) +
-      (route.alt ? text(44, 112, `※${route.alt}`, { size: 13, fill: C.cityText, weight: 400, anchor: "start" }) : "") + `</g>`;
+      extra.map((t, i) => text(44, 112 + i * 20, t, { size: 13, fill: C.cityText, weight: t.startsWith("着いてから") ? 700 : 400, anchor: "start" })).join("") + `</g>`;
     const lx = 24, ly = H - 170;
     g += `<g id="legend"><rect x="${lx}" y="${ly}" width="150" height="124" rx="4" fill="#fff" fill-opacity="0.95"/>` +
       legendItems.map(([lab, by], i) => `<path d="M${lx + 18} ${ly + 30 + i * 34}h44" fill="none" stroke="${C.route}" stroke-linecap="round" stroke-width="${sw(by, 2.2)}"${dash[by]}/>` +

@@ -427,43 +427,49 @@ const P = {
 };
 const L = (pt, by, label, note) => [...pt, by, label, note];
 const D = (by, label, note) => [null, null, null, by, label, note];
-const INTL_BKK = "国際線 約6〜6.5時間";
+// 国際線（日本→乗継空港）の所要時間。出典：同じ乗継空港を使う既存記事の記載
+const INTL_BKK = "国際線 約6〜6.5時間"; // koh-chang-guide ほか（成田・羽田・関西→バンコク）
+const INTL_MNL = "国際線 直行 約5時間"; // coron-guide（成田→マニラ）
+const INTL_CEB = "国際線 直行 約5時間"; // cebu-guide（成田→セブ。関西発は約4時間25分）
+const INTL_SGN = "国際線 直行 約6時間"; // con-dao-guide・nhatrang-guide（→ホーチミン）
+const INTL_CGK = "国際線 直行 約8時間"; // pulau-pari-guide（ANA直行便→ジャカルタ）
+const INTL_KUL = "国際線 直行 約7〜8時間"; // 記事に記載なし。成田→KL直行の時刻表（7時間15分〜7時間40分）をWebSearchで確認、2026-11-20
 const ROUTES = {
   "bali-guide": { from: "成田（関西発はKL乗継）", legs: [D("air", "国際線 直行 約7〜8時間")] },
   "cebu-guide": { from: "成田・関西", legs: [D("air", "国際線 直行 約5時間")] },
   "danang-hoian-guide": { from: "成田・関西", legs: [D("air", "国際線 直行 約5時間40分")] },
-  "boracay-guide": { from: "成田・羽田・関西", legs: [L(P.mnl, "air", "国際線"), L(["カティクラン空港", 121.95, 11.93], "air", "国内線"), D("boat", "車＋船 合わせて1〜2時間")] },
-  "phuket-guide": { from: "成田・羽田・関西", legs: [L(P.bkk, "air", "国際線"), D("air", "国内線 約1時間20分")] },
-  "langkawi-guide": { from: "成田・関西", legs: [L(P.kul, "air", "国際線"), D("air", "国内線 約1時間15分")], alt: "ペナン島から高速フェリーの別ルートあり" },
-  "koh-lipe-guide": { from: "成田・羽田・関西", legs: [L(P.bkk, "air", "国際線"), L(["ハジャイ", 100.39, 6.93], "air", "国内線 約1時間半", "ここで1泊"), L(["パクバラ桟橋", 99.73, 6.86], "car", "車"), D("boat", "スピードボート 約1時間30分", "最終便 13:30頃")], alt: "ランカウイ島（マレーシア）からフェリーの別ルートあり", altFrom: ["ランカウイ島", 99.85, 6.30] },
-  "redang-guide": { from: "成田・関西", legs: [L(P.kul, "air", "国際線"), L(["クアラトレンガヌ", 103.10, 5.38], "air", "国内線 約1時間"), D("boat", "車 約30分＋フェリー 約1時間")] },
-  "koh-phiphi-guide": { from: "成田・羽田・関西", legs: [L(P.bkk, "air", "国際線"), L(["プーケット", 98.32, 8.11], "air", "国内線 約1時間半"), D("boat", "フェリー 約1.5〜2時間")], alt: "クラビ経由（フェリー同程度）の別ルートあり" },
+  "boracay-guide": { from: "成田・羽田・関西", legs: [L(P.mnl, "air", INTL_MNL), L(["カティクラン空港", 121.95, 11.93], "air", "国内線"), D("boat", "車＋船 合わせて1〜2時間")] },
+  "phuket-guide": { from: "成田・羽田・関西", legs: [L(P.bkk, "air", INTL_BKK), D("air", "国内線 約1時間20分")] },
+  "langkawi-guide": { from: "成田・関西", legs: [L(P.kul, "air", INTL_KUL), D("air", "国内線 約1時間15分")], alt: "ペナン島から高速フェリーの別ルートあり" },
+  "koh-lipe-guide": { from: "成田・羽田・関西", legs: [L(P.bkk, "air", INTL_BKK), L(["ハジャイ", 100.39, 6.93], "air", "国内線 約1時間半", "ここで1泊"), L(["パクバラ桟橋", 99.73, 6.86], "car", "車"), D("boat", "スピードボート 約1時間30分", "最終便 13:30頃")], alt: "ランカウイ島（マレーシア）からフェリーの別ルートあり", altFrom: ["ランカウイ島", 99.85, 6.30] },
+  "redang-guide": { from: "成田・関西", legs: [L(P.kul, "air", INTL_KUL), L(["クアラトレンガヌ", 103.10, 5.38], "air", "国内線 約1時間"), D("boat", "車 約30分＋フェリー 約1時間")] },
+  "koh-phiphi-guide": { from: "成田・羽田・関西", legs: [L(P.bkk, "air", INTL_BKK), L(["プーケット", 98.32, 8.11], "air", "国内線 約1時間半"), D("boat", "フェリー 約1.5〜2時間")], alt: "クラビ経由（フェリー同程度）の別ルートあり" },
   "koh-chang-guide": { from: "成田・羽田・関西", legs: [L(P.bkk, "air", INTL_BKK), L(["トラート", 102.32, 12.27], "air", "国内線"), D("boat", "車＋フェリー")], alt: "バンコクの空港から直行バスの別ルートあり" },
   "pulau-pari-guide": { from: "成田（関西発はシンガポール乗継）", legs: [L(P.cgk, "air", "国際線 直行 約8時間"), D("boat", "高速船（1日1往復）")] },
   "phuquoc-guide": { from: "成田・関西", legs: [L(P.sgn, "air", "国際線 約6〜7時間"), D("air", "国内線 約1時間")] },
   "koh-samui-guide": { from: "成田・羽田・関西", legs: [L(P.bkk, "air", INTL_BKK), D("air", "国内線 約1時間")], alt: "スラタニ＋フェリーの節約ルートあり" },
   "koh-tao-guide": { from: "成田・関西", legs: [L(P.bkk, "air", "国際線 約6〜7時間"), L(["サムイ島", 100.06, 9.55], "air", "国内線 約1時間"), D("boat", "高速船")], alt: "チュンポン経由（安いが乗継多め）の別ルートあり" },
-  "el-nido-guide": { from: "成田・関西", legs: [L(P.ceb, "air", "国際線"), D("air", "国内線 約1時間45分")], alt: "クラーク経由の別ルートあり" },
+  "el-nido-guide": { from: "成田・関西", legs: [L(P.ceb, "air", INTL_CEB), D("air", "国内線 約1時間45分")], alt: "クラーク経由の別ルートあり" },
   "nusa-penida-guide": { from: "成田（関西発はKL乗継）", legs: [L(P.dps, "air", "国際線 直行 約7〜8時間"), L(["サヌール", 115.26, -8.68], "car", "車", "ここで1泊"), D("boat", "高速ボート 約30〜45分")] },
   "nusa-lembongan-guide": { from: "成田（関西発はKL乗継）", legs: [L(P.dps, "air", "国際線 直行 約7〜8時間"), L(["サヌール", 115.26, -8.68], "car", "車", "ここで1泊"), D("boat", "高速ボート 約30分")] },
   "gili-trawangan-guide": { from: "成田（関西発はKL乗継）", legs: [L(P.dps, "air", "国際線 直行 約7〜8時間"), L(["パダンバイ", 115.51, -8.53], "car", "車 1時間半〜2時間", "ここで前泊"), D("boat", "高速ボート 約1時間半")] },
   "gili-air-guide": { from: "成田（関西発はKL乗継）", legs: [L(P.dps, "air", "国際線 直行 約7〜8時間"), L(["パダンバイ", 115.51, -8.53], "car", "車"), D("boat", "高速ボート 約2時間")] },
   "coron-guide": { from: "成田・関西", legs: [L(P.mnl, "air", "国際線 直行 約5時間", "ここで1泊"), D("air", "国内線 約1時間")] },
   "con-dao-guide": { from: "成田・関西", legs: [L(P.sgn, "air", "国際線 直行 約6時間", "ここで1泊"), D("air", "国内線 約50分")] },
-  "siargao-guide": { from: "成田・関西", legs: [L(P.ceb, "air", "国際線 直行", "ここで1泊"), D("air", "国内線 約50分")] },
-  "camiguin-guide": { from: "成田・関西", legs: [L(P.mnl, "air", "国際線 直行", "ここで1泊"), D("air", "国内線（1日1便）")] },
+  "siargao-guide": { from: "成田・関西", legs: [L(P.ceb, "air", INTL_CEB, "ここで1泊"), D("air", "国内線 約50分")] },
+  "camiguin-guide": { from: "成田・関西", legs: [L(P.mnl, "air", INTL_MNL, "ここで1泊"), D("air", "国内線（1日1便）")] },
   "nhatrang-guide": { from: "成田・関西", legs: [L(P.sgn, "air", "国際線 直行 約6時間", "ここで1泊"), D("air", "国内線 約1時間10分")] },
   "krabi-guide": { from: "成田・羽田・関西", legs: [L(P.bkk, "air", INTL_BKK), L(["クラビ空港", 98.99, 8.10], "air", "国内線 約1時間20分"), D("boat", "車 約50分＋ロングテールボート 約20分")] },
-  "tioman-guide": { from: "成田・関西", legs: [L(P.kul, "air", "国際線 直行"), L(["メルシン", 103.84, 2.43], "car", "バス 約5時間", "ここで前泊"), D("boat", "フェリー 約1.5〜2時間")] },
+  "tioman-guide": { from: "成田・関西", legs: [L(P.kul, "air", INTL_KUL), L(["メルシン", 103.84, 2.43], "car", "バス 約5時間", "ここで前泊"), D("boat", "フェリー 約1.5〜2時間")] },
   "koh-larn-guide": { from: "成田・羽田・関西", legs: [L(P.bkk, "air", "国際線 約6〜7時間"), L(["パタヤ", 100.88, 12.93], "car", "車 約1.5〜2時間"), D("boat", "スピードボート 約15〜20分")] },
-  "perhentian-guide": { from: "成田・関西", legs: [L(P.kul, "air", "国際線 直行"), L(["クアラブス桟橋", 102.56, 5.83], "car", "バス"), D("boat", "スピードボート 約40分")] },
+  "perhentian-guide": { from: "成田・関西", legs: [L(P.kul, "air", INTL_KUL), L(["クアラブス桟橋", 102.56, 5.83], "car", "バス"), D("boat", "スピードボート 約40分")] },
   "koh-kood-guide": { from: "成田・羽田・関西", legs: [L(P.bkk, "air", INTL_BKK), L(["トラート", 102.32, 12.27], "air", "国内線"), D("boat", "車＋フェリー（船は約1時間）")] },
   "koh-phangan-guide": { from: "成田・羽田・関西", legs: [L(P.bkk, "air", INTL_BKK), L(["サムイ島", 100.06, 9.55], "air", "国内線 約1時間"), D("boat", "フェリー 約30分")] },
-  "koh-rong-guide": { from: "成田・関西", legs: [L(P.sgn, "air", "国際線"), L(["シアヌークビル", 103.64, 10.58], "air", "国内線 約1時間15分"), D("boat", "車 約15分＋フェリー 約1時間")] },
-  "koh-rong-samloem-guide": { from: "成田・関西", legs: [L(P.sgn, "air", "国際線"), L(["シアヌークビル", 103.64, 10.58], "air", "国内線 約1時間15分"), D("boat", "車 約15分＋フェリー 約45分〜1時間")] },
+  "koh-rong-guide": { from: "成田・関西", legs: [L(P.sgn, "air", INTL_SGN), L(["シアヌークビル", 103.64, 10.58], "air", "国内線 約1時間15分"), D("boat", "車 約15分＋フェリー 約1時間")] },
+  "koh-rong-samloem-guide": { from: "成田・関西", legs: [L(P.sgn, "air", INTL_SGN), L(["シアヌークビル", 103.64, 10.58], "air", "国内線 約1時間15分"), D("boat", "車 約15分＋フェリー 約45分〜1時間")] },
   "komodo-guide": { from: "成田（関西発はKL乗継）", legs: [L(P.dps, "air", "国際線 直行 約7〜8時間", "ここで1泊"), L(["ラブアンバジョ", 119.89, -8.49], "air", "国内線 約1時間15分"), D("boat", "ボート")] },
-  "pulau-weh-guide": { from: "成田（関西発はKL経由）", legs: [L(P.cgk, "air", "国際線"), L(["バンダアチェ", 95.42, 5.52], "air", "国内線"), D("boat", "車 約35分＋高速船 約1時間")] },
-  "bohol-guide": { from: "成田・関西", legs: [L(P.ceb, "air", "国際線"), D("boat", "高速船 約2時間")], alt: "マニラ経由で国内線の別ルートあり（マニラで1泊）" },
+  "pulau-weh-guide": { from: "成田（関西発はKL経由）", legs: [L(P.cgk, "air", INTL_CGK), L(["バンダアチェ", 95.42, 5.52], "air", "国内線"), D("boat", "車 約35分＋高速船 約1時間")] },
+  "bohol-guide": { from: "成田・関西", legs: [L(P.ceb, "air", INTL_CEB), D("boat", "高速船 約2時間")], alt: "マニラ経由で国内線の別ルートあり（マニラで1泊）" },
   "lombok-guide": { from: "成田（関西発はKL乗継）", legs: [L(P.dps, "air", "国際線 直行 約7時間55分"), D("air", "国内線 約45分＋車 約25分")] },
   "koh-lanta-guide": { from: "成田・羽田・関西", legs: [L(P.bkk, "air", INTL_BKK), L(["クラビ空港", 98.99, 8.10], "air", "国内線 約1時間20分"), D("car", "ミニバン＋車両フェリー 約2.5〜3.5時間")] },
   "pattaya-guide": { from: "成田・羽田・関西", legs: [L(P.bkk, "air", INTL_BKK), D("car", "直行バス 約2時間30分")] },

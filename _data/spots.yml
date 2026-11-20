@@ -1370,6 +1370,54 @@ gili-air-guide:
     letter: "ら"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D34574642"
 
+gili-meno-guide:
+  - name: ギリ・メノ・ビーチ
+    lat: -8.3508
+    lng: 116.0572
+    desc: 島東側の主要ビーチ。遠浅で波も穏やか
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Beach%2C_Gili_Meno_Island%2C_Indonesia.jpg/960px-Beach%2C_Gili_Meno_Island%2C_Indonesia.jpg"
+    category: beach
+    tags: ["ビーチ", "遠浅"]
+  - name: タートルサンクチュアリ
+    lat: -8.3530
+    lng: 116.0540
+    desc: ウミガメの保護・ふ化施設。子ガメを間近で見られる
+    category: spot
+    tags: ["ウミガメ", "見学"]
+  - name: 海中アートスポット
+    lat: -8.3490
+    lng: 116.0490
+    desc: 島の西側沖に沈められた人型の彫刻群。シュノーケリング・ダイビングの名所
+    category: spot
+    tags: ["シュノーケリング", "ダイビング"]
+  - name: 北側のサンセットポイント
+    lat: -8.3450
+    lng: 116.0545
+    desc: ウミガメに出会えることもある北側のエリア。トラワンガン島に沈む夕日の名所
+    category: spot
+    tags: ["夕日", "ウミガメ"]
+  - name: "The Rabbit Tree Hostel"
+    lat: -8.3509
+    lng: 116.0572
+    desc: "やす旅向け、港・ビーチへ徒歩圏のバー付き人気ホステル"
+    type: hotel
+    letter: "や"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1767173"
+  - name: "The Sunset Gecko on the Beach"
+    lat: -8.3452
+    lng: 116.0519
+    desc: "ゆる旅向け、日本人オーナーが営むビーチフロントの小規模リゾート"
+    type: hotel
+    letter: "ゆ"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1617811"
+  - name: "MAHAMAYA Resort Gili Meno"
+    lat: -8.3481
+    lng: 116.0515
+    desc: "らぐ旅向け、プール付きヴィラが並ぶ島最高クラスのブティックリゾート"
+    type: hotel
+    letter: "ら"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D276068"
+
 koh-larn-guide:
   - name: タワエンビーチ
     lat: 12.9250

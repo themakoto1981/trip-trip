@@ -439,8 +439,8 @@ pulau-pari-guide:
 
 phuquoc-guide:
   - name: サオビーチ
-    lat: 10.0450
-    lng: 104.0170
+    lat: 10.0572576
+    lng: 104.0363948
     desc: 「星の砂」で知られる南部の人気ビーチ
     category: beach
     tags: ["ビーチ"]

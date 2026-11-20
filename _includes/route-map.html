@@ -1,0 +1,15 @@
+{%- comment -%}
+  行き方マップ（scripts/maps で生成）。PCは横長、スマホ（〜700px）は縦長版に自動で切り替える。
+  使い方：記事の「行き方」の本文の後に {% include route-map.html %}
+  画像をタップすると原寸のSVGを別タブで開ける。
+{%- endcomment -%}
+{%- assign rm_slug = include.slug | default: page.slug -%}
+{%- assign rm_dest = site.data.destinations | where: "slug", rm_slug | first -%}
+<figure class="route-map">
+  <a href="/assets/images/maps/routes/{{ rm_slug }}.svg" target="_blank" rel="noopener">
+    <picture>
+      <source media="(max-width: 700px)" srcset="/assets/images/maps/routes/{{ rm_slug }}-sp.svg">
+      <img src="/assets/images/maps/routes/{{ rm_slug }}.svg" alt="{{ rm_dest.name }}への行き方（経由地と区間ごとの所要時間）" width="1500" height="1000" loading="lazy" decoding="async">
+    </picture>
+  </a>
+</figure>

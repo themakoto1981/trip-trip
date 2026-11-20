@@ -446,7 +446,7 @@ const ROUTES = {
   "koh-phiphi-guide": { from: "成田・羽田・関西", legs: [L(P.bkk, "air", INTL_BKK), L(["プーケット", 98.32, 8.11], "air", "国内線 約1時間半"), D("boat", "フェリー 約1.5〜2時間")], alt: "クラビ経由（フェリー同程度）の別ルートあり" },
   "koh-chang-guide": { from: "成田・羽田・関西", legs: [L(P.bkk, "air", INTL_BKK), L(["トラート", 102.32, 12.27], "air", "国内線"), D("boat", "車＋フェリー")], alt: "バンコクの空港から直行バスの別ルートあり" },
   "pulau-pari-guide": { from: "成田（関西発はシンガポール乗継）", legs: [L(P.cgk, "air", "国際線 直行 約8時間"), D("boat", "高速船（1日1往復）")] },
-  "phuquoc-guide": { from: "成田・関西", legs: [L(P.sgn, "air", "国際線 約6〜7時間"), D("air", "国内線 約1時間")] },
+  "phuquoc-guide": { from: "成田・関西", legs: [L(P.sgn, "air", "国際線 約6〜7時間"), D("air", "国内線 約1時間")], alt: "ハノイ経由の別ルートあり" },
   "koh-samui-guide": { from: "成田・羽田・関西", legs: [L(P.bkk, "air", INTL_BKK), D("air", "国内線 約1時間")], alt: "スラタニ＋フェリーの節約ルートあり" },
   "koh-tao-guide": { from: "成田・関西", legs: [L(P.bkk, "air", "国際線 約6〜7時間"), L(["サムイ島", 100.06, 9.55], "air", "国内線 約1時間"), D("boat", "高速船")], alt: "チュンポン経由（安いが乗継多め）の別ルートあり" },
   "el-nido-guide": { from: "成田・関西", legs: [L(P.ceb, "air", INTL_CEB), D("air", "国内線 約1時間45分")], alt: "クラーク経由の別ルートあり" },

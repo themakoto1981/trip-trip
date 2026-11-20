@@ -11,17 +11,8 @@ layout: default
   .beach-rating-label { font-size: 0.78rem; color: var(--sb-brown-soft); width: 76px; flex-shrink: 0; }
   .beach-rating-stars { display: flex; gap: 2px; }
   .beach-rating-na { font-size: 0.75rem; color: var(--sb-brown-soft); }
-  .beach-rating-detail summary {
-    cursor: pointer;
-    font-size: 0.78rem;
-    font-weight: 600;
-    color: var(--sb-green);
-    list-style: none;
-    margin-top: 0.4rem;
-  }
-  .beach-rating-detail summary::-webkit-details-marker { display: none; }
-  .beach-rating-detail summary::before { content: "評価の詳細を見る ▾"; }
-  .beach-rating-detail[open] summary::before { content: "評価の詳細を閉じる ▴"; }
+  .beach-rating-detail-box { background: #fff; border: 1px solid var(--sb-border); border-radius: 12px; padding: 0.85rem 1rem; margin: 0.8rem 0 1.5rem; }
+  .beach-rating-detail-box-title { font-family: "Noto Serif JP", serif; font-weight: 700; color: var(--sb-green-dark); font-size: 0.95rem; margin-bottom: 0.4rem; }
   .beach-rating-detail-row { margin: 0.6rem 0 0; display: flex; flex-direction: column; gap: 2px; }
   .beach-rating-detail-row-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
   .beach-rating-detail-label { font-size: 0.82rem; font-weight: 600; color: var(--sb-green-dark); }
@@ -147,55 +138,62 @@ layout: default
     if (!match) { return; }
 
     // ビーチ評価（①浅瀬の海底視認性／②水中の美しさ／③砂の美しさ／④波）。
-    // destinations.ymlにbeach_nameが設定されている記事のみ表示
-    (function () {
-      var RUBRIC = {
-        visibility: { 5: 'くっきり見えて砂紋や小石まで分かる', 4: 'はっきり見えるが細部は少しぼやける', 3: '見えるが輪郭がぼやける', 2: 'うっすら見える程度', 1: '濁っていてほとんど見えない' },
-        underwater: { 5: 'サンゴが広く群生、魚の種類も数もとても多い', 4: 'サンゴと魚のどちらも多い', 3: 'それなりに見られる', 2: 'まばらにしかいない', 1: 'ほとんど見られない' },
-        sand: { 5: '白っぽく明るい色でパウダー状に細かく均一', 4: '明るい色で細かいが少し混じりもの', 3: 'ふつうの砂浜', 2: '粒が粗い、小石・貝殻・サンゴのかけらが多い', 1: '砂利や岩が中心、または色や粒がばらばら' }
-      };
-      function starsSvg(value) {
-        var html = '';
-        for (var i = 0; i < 5; i++) {
-          var fill = (value !== null && value !== undefined && i < value) ? '#00704A' : '#E5DDCC';
-          html += '<svg width="13" height="13" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 21 12 17.27 5.82 21 7 14.14l-5-4.87 6.91-1.01L12 2z" fill="' + fill + '"></path></svg>';
-        }
-        return html;
+    // destinations.ymlにbeach_nameが設定されている記事のみ表示。
+    // 上部の早見表には総合評価のみの簡易表示、詳細（項目別の★と基準説明）はスポット地図の直後に表示する
+    var RUBRIC = {
+      visibility: { 5: 'くっきり見えて砂紋や小石まで分かる', 4: 'はっきり見えるが細部は少しぼやける', 3: '見えるが輪郭がぼやける', 2: 'うっすら見える程度', 1: '濁っていてほとんど見えない' },
+      underwater: { 5: 'サンゴが広く群生、魚の種類も数もとても多い', 4: 'サンゴと魚のどちらも多い', 3: 'それなりに見られる', 2: 'まばらにしかいない', 1: 'ほとんど見られない' },
+      sand: { 5: '白っぽく明るい色でパウダー状に細かく均一', 4: '明るい色で細かいが少し混じりもの', 3: 'ふつうの砂浜', 2: '粒が粗い、小石・貝殻・サンゴのかけらが多い', 1: '砂利や岩が中心、または色や粒がばらばら' }
+    };
+    function starsSvg(value) {
+      var html = '';
+      for (var i = 0; i < 5; i++) {
+        var fill = (value !== null && value !== undefined && i < value) ? '#00704A' : '#E5DDCC';
+        html += '<svg width="13" height="13" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 21 12 17.27 5.82 21 7 14.14l-5-4.87 6.91-1.01L12 2z" fill="' + fill + '"></path></svg>';
       }
-      function beachRatingBoxHtml(d) {
-        if (!d.beach_name) { return ''; }
-        var compactRows = [
-          { label: '海の透明感', key: 'visibility', value: d.beach_visibility },
-          { label: '魚・サンゴ', key: 'underwater', value: d.beach_underwater },
-          { label: '砂の質', key: 'sand', value: d.beach_sand }
-        ];
-        var compactHtml = compactRows.map(function (r) {
-          var stars = (r.value === null || r.value === undefined)
-            ? '<span class="beach-rating-na">評価準備中</span>'
-            : starsSvg(r.value);
-          return '<div class="beach-rating-row"><span class="beach-rating-label">' + r.label + '</span><span class="beach-rating-stars">' + stars + '</span></div>';
-        }).join('');
-        var detailLabels = { visibility: '①浅瀬の海底視認性', underwater: '②水中の美しさ', sand: '③砂の美しさ' };
-        var detailHtml = compactRows.map(function (r) {
-          var desc = (r.value === null || r.value === undefined)
-            ? '情報が十分でないため未評価です。'
-            : (RUBRIC[r.key][r.value] || '');
-          var stars = (r.value === null || r.value === undefined) ? '' : starsSvg(r.value);
-          return '<div class="beach-rating-detail-row"><div class="beach-rating-detail-row-head"><span class="beach-rating-detail-label">' + detailLabels[r.key] + '</span><span class="beach-rating-stars">' + stars + '</span></div><div class="beach-rating-detail-desc">' + desc + '</div></div>';
-        }).join('');
-        if (d.beach_note) {
-          detailHtml += '<div class="beach-rating-note">補足：' + d.beach_note + '</div>';
-        }
-        var waveBadge = d.beach_waves ? '<span class="beach-wave-badge">波' + d.beach_waves + '</span>' : '';
-        return '<div class="beach-rating-box">' +
-          '<div class="beach-rating-box-head"><span class="beach-rating-beach">おすすめビーチ：' + d.beach_name + '</span>' + waveBadge + '</div>' +
-          '<div class="beach-rating-rows">' + compactHtml + '</div>' +
-          '<details class="beach-rating-detail"><summary></summary>' + detailHtml + '</details>' +
-          '</div>';
+      return html;
+    }
+    function beachRatingValueRows(d) {
+      return [
+        { label: '海の透明感', key: 'visibility', value: d.beach_visibility },
+        { label: '魚・サンゴ', key: 'underwater', value: d.beach_underwater },
+        { label: '砂の質', key: 'sand', value: d.beach_sand }
+      ];
+    }
+    function beachRatingBoxHtml(d) {
+      if (!d.beach_name) { return ''; }
+      var presentValues = beachRatingValueRows(d).map(function (r) { return r.value; }).filter(function (v) { return v !== null && v !== undefined; });
+      var overall = presentValues.length ? Math.round(presentValues.reduce(function (a, b) { return a + b; }, 0) / presentValues.length) : null;
+      var overallStars = (overall === null)
+        ? '<span class="beach-rating-na">評価準備中</span>'
+        : starsSvg(overall);
+      var waveBadge = d.beach_waves ? '<span class="beach-wave-badge">波' + d.beach_waves + '</span>' : '';
+      return '<div class="beach-rating-box">' +
+        '<div class="beach-rating-box-head"><span class="beach-rating-beach">おすすめビーチ：' + d.beach_name + '</span>' + waveBadge + '</div>' +
+        '<div class="beach-rating-rows"><div class="beach-rating-row"><span class="beach-rating-label">海の綺麗さ</span><span class="beach-rating-stars">' + overallStars + '</span></div></div>' +
+        '</div>';
+    }
+    function beachRatingDetailBoxHtml(d) {
+      if (!d.beach_name) { return ''; }
+      var detailLabels = { visibility: '①浅瀬の海底視認性', underwater: '②水中の美しさ', sand: '③砂の美しさ' };
+      var detailHtml = beachRatingValueRows(d).map(function (r) {
+        var desc = (r.value === null || r.value === undefined)
+          ? '情報が十分でないため未評価です。'
+          : (RUBRIC[r.key][r.value] || '');
+        var stars = (r.value === null || r.value === undefined) ? '' : starsSvg(r.value);
+        return '<div class="beach-rating-detail-row"><div class="beach-rating-detail-row-head"><span class="beach-rating-detail-label">' + detailLabels[r.key] + '</span><span class="beach-rating-stars">' + stars + '</span></div><div class="beach-rating-detail-desc">' + desc + '</div></div>';
+      }).join('');
+      if (d.beach_note) {
+        detailHtml += '<div class="beach-rating-note">補足：' + d.beach_note + '</div>';
       }
-      var ratingEl = document.getElementById('beach-rating');
-      if (ratingEl) { ratingEl.innerHTML = beachRatingBoxHtml(match); }
-    })();
+      return '<div class="beach-rating-detail-box">' +
+        '<div class="beach-rating-detail-box-title">ビーチ評価の詳細</div>' +
+        detailHtml +
+        '</div>';
+    }
+    var beachDetailInserted = false;
+    var ratingEl = document.getElementById('beach-rating');
+    if (ratingEl) { ratingEl.innerHTML = beachRatingBoxHtml(match); }
 
     // 東京発/関西発の切り替え。関西発データ（flight_min_kansai等）が無い記事ではトグル自体を出さない
     var currentDeparture = 'tokyo';
@@ -488,6 +486,12 @@ layout: default
       if (window.console && console.error) { console.error('spot map failed to render:', e); }
     }
 
+    // スポット地図が無い記事ではビーチ評価の詳細を早見表の直後に表示する（フォールバック）
+    if (!beachDetailInserted && ratingEl) {
+      var fallbackDetailHtml = beachRatingDetailBoxHtml(match);
+      if (fallbackDetailHtml) { ratingEl.insertAdjacentHTML('beforeend', fallbackDetailHtml); }
+    }
+
     // Google Maps用のピンアイコン（色付き円＋文字/絵文字）をSVGデータURIで生成する共通ヘルパー
     var SPOT_PIN_COLORS = { hotel: '#00704A', airport: '#56463A', port: '#1E3932' };
     var SPOT_PIN_FONT_SIZE = { airport: 22, port: 20 };
@@ -560,6 +564,14 @@ layout: default
           mapWrap.id = 'spot-map-wrap';
           mapWrap.innerHTML = '<div id="spot-map"></div>';
           spotHeading.parentNode.insertBefore(mapWrap, spotHeading.nextSibling);
+
+          var simpleDetailHtml = beachRatingDetailBoxHtml(match);
+          if (simpleDetailHtml) {
+            var simpleDetailWrap = document.createElement('div');
+            simpleDetailWrap.innerHTML = simpleDetailHtml;
+            mapWrap.parentNode.insertBefore(simpleDetailWrap.firstChild, mapWrap.nextSibling);
+            beachDetailInserted = true;
+          }
 
           var spotMap = new google.maps.Map(document.getElementById('spot-map'), {
             center: spotLatLng(mySpots[0]),
@@ -701,6 +713,14 @@ layout: default
       var originalList = spotHeading.nextElementSibling;
       if (originalList && originalList.tagName === 'UL') { originalList.remove(); }
       spotHeading.parentNode.insertBefore(wrap, spotHeading.nextSibling);
+
+      var richDetailHtml = beachRatingDetailBoxHtml(match);
+      if (richDetailHtml) {
+        var richDetailWrap = document.createElement('div');
+        richDetailWrap.innerHTML = richDetailHtml;
+        wrap.parentNode.insertBefore(richDetailWrap.firstChild, wrap.nextSibling);
+        beachDetailInserted = true;
+      }
 
       function visibleBeaches() {
         return beaches.filter(function (s) { return activeCategories[s.category || 'spot']; });

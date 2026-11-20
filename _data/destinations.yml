@@ -1205,6 +1205,51 @@
   beach_underwater: 3
   beach_sand: 4
   beach_waves: "なし"
+- name: ギリ・メノ島
+  en_name: "Gili Meno, Indonesia"
+  slug: gili-meno-guide
+  country: インドネシア
+  country_slug: indonesia
+  description: "ギリ3島で最も人が少なく静かな島。タートルサンクチュアリや海中アートスポットがあり、何もしない贅沢を味わいたい旅行者やハネムーナー向け。"
+  lat: -8.3481
+  lng: 116.0535
+  flight_min: 57000
+  flight_max: 165000
+  flight_min_kansai: 88000
+  flight_max_kansai: 210000
+  hotel_min: 3000
+  hotel_max: 30000
+  transport_min: 8000
+  transport_max: 15000
+  food_min: 2500
+  food_max: 6500
+  yasu_hotel: 5000
+  yasu_transport: 8500
+  yasu_food: 3000
+  yuru_hotel: 13000
+  yuru_transport: 11000
+  yuru_food: 4500
+  ragu_hotel: 30000
+  ragu_transport: 14000
+  ragu_food: 6500
+  flight_hours: "約7〜8時間（デンパサール直行便）、パダンバイから高速ボートで約2時間"
+  recommended_nights: "5泊以上"
+  visa: "必要（到着ビザ(VOA)、約50万ルピア）"
+  photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Gili_Meno_Beach.jpg/960px-Gili_Meno_Beach.jpg"
+  photo_credit_url: "https://commons.wikimedia.org/wiki/File:Gili_Meno_Beach.jpg"
+  suited_for: [couple, solo]
+  best_months: [6, 7, 8, 9]
+  budget_tags:
+    yasu: [TR02, TR03, HT16]
+    yuru: [TR01, TR03, HT12]
+    ragu: [TR01, TR03, HT11, HT14]
+  url: /2026/11/21/gili-meno-guide/
+  tags: { beach: 4, resort: 3, island: 5, city_base: 1, sightseeing: 2, relax: 5, party: 1, activity: 2 }
+  beach_name: "ギリ・メノ・ビーチ"
+  beach_visibility: 4
+  beach_underwater: 3
+  beach_sand: 4
+  beach_waves: "なし"
 - name: ラン島
   en_name: "Koh Larn, Thailand"
   slug: koh-larn-guide

@@ -4,7 +4,7 @@
 //   base/asia.svg               … 日本〜東南アジアのベース地図（使い回し用）
 //   base/asia-destinations.svg  … ベース地図＋全行き先のドット
 //   islands/<slug>.svg          … 各行き先の島（エリア）拡大図
-//   routes/<slug>.svg           … 東京・大阪からの距離アーチ＋島の拡大図インセット（記事用の完成形）
+//   routes/<slug>.svg           … 東京・大阪からのアーチ＋所要時間＋島の拡大図インセット（記事用の完成形）
 //
 // 使い方は scripts/maps/README.md を参照。
 // データ: Natural Earth（world-atlas, パブリックドメイン）／GSHHG 全解像度海岸線（Wessel & Smith, LGPL）
@@ -408,11 +408,33 @@ function renderIsland(dest, osm, W, H, { frame = true, scale = 1 } = {}) {
   return { body: g, proj, marker: [px, py] };
 }
 
-// ---------------------------------------------------------------- ルート地図（記事用の完成形）
-function haversineKm([lng1, lat1], [lng2, lat2]) {
-  const R = 6371, a = Math.sin(rad(lat2 - lat1) / 2) ** 2 + Math.cos(rad(lat1)) * Math.cos(rad(lat2)) * Math.sin(rad(lng2 - lng1) / 2) ** 2;
-  return 2 * R * Math.asin(Math.sqrt(a));
+// 日本語を表示幅（全角=1、半角=0.55）で折り返す。「、」「）」の直後か「（」の直前を優先し、
+// 行頭に「）」「、」「。」が来ないようにする
+function wrapJa(str, max) {
+  const w = (ch) => (/[\x00-\x7F]/.test(ch) ? 0.55 : 1);
+  const out = [];
+  let rest = str;
+  while (rest.length) {
+    let width = 0, end = 0;
+    while (end < rest.length && width + w(rest[end]) <= max) width += w(rest[end++]);
+    if (end >= rest.length) { out.push(rest); break; }
+    let cut = -1;
+    for (let i = end; i >= Math.floor(end * 0.45); i--) {
+      if ("、）＋。".includes(rest[i - 1]) || rest[i] === "（") { cut = i; break; }
+    }
+    if (cut < 0) {
+      cut = end;
+      // 「1時間15分」「1〜1.5時間」のような数字表現の途中では切らない
+      const num = /[0-9.〜~時間分]/;
+      while (cut > 1 && num.test(rest[cut - 1]) && num.test(rest[cut])) cut--;
+    }
+    while (cut < rest.length && "）、。".includes(rest[cut])) cut++;
+    out.push(rest.slice(0, cut)); rest = rest.slice(cut);
+  }
+  return out;
 }
+
+// ---------------------------------------------------------------- ルート地図（記事用の完成形）
 
 function renderRoute(dest, countries, osm) {
   const W = 1500, H = 850;
@@ -444,15 +466,16 @@ function renderRoute(dest, countries, osm) {
 
   // 行き先ドットと距離ピル
   g += `<circle cx="${fmt(dx)}" cy="${fmt(dy)}" r="7" fill="${C.dest}" stroke="#fff" stroke-width="2"/>`;
-  const km = Math.round(haversineKm(pts[0], pts[2]) / 100) * 100;
-  const label = `東京から約${km.toLocaleString("en-US")}km`;
-  const pw = label.length * 15 + 24, ph = 32;
-  const px = (tx + dx) / 2 + 30, py = (ty + dy) / 2 + 40;
-  g += `<g id="distance"><rect x="${fmt(px - pw / 2)}" y="${fmt(py - ph / 2)}" width="${fmt(pw)}" height="${ph}" rx="4" fill="${C.pill}"/>` +
-    `<path d="M${fmt(px - 7)} ${fmt(py + ph / 2)}L${fmt(px)} ${fmt(py + ph / 2 + 8)}L${fmt(px + 7)} ${fmt(py + ph / 2)}Z" fill="${C.pill}"/>` +
-    text(px, py + 6, label, { size: 16, fill: "#fff", weight: 700 }) + `</g>`;
+  // 所要時間ボックス（destinations.yml の flight_hours をそのまま表示。インセットの上に置く）
+  if (dest.flight_hours) {
+    const lines = wrapJa(dest.flight_hours, 25);
+    const lh = 24, bw = IW, bh = 50 + lines.length * lh, bx = ix, by = iy - bh - 14;
+    g += `<g id="travel-time"><rect x="${bx}" y="${by}" width="${bw}" height="${bh}" rx="4" fill="${C.pill}"/>` +
+      text(bx + 20, by + 32, "日本からの所要時間", { size: 17, fill: "#fff", weight: 700, anchor: "start" }) +
+      lines.map((l, i) => text(bx + 20, by + 32 + lh * (i + 1), l, { size: 17, fill: "#fff", weight: 400, anchor: "start" })).join("") + `</g>`;
+  }
   g += text(dx, dy - 16, dest.name, { size: 20, fill: C.dest, weight: 700, halo: "rgba(255,255,255,0.85)" });
-  return svgDoc(W, H, g, { title: `${dest.name}の位置（日本からの距離）`, credit: "地図データ: Natural Earth / GSHHG" });
+  return svgDoc(W, H, g, { title: `${dest.name}の位置と日本からの所要時間`, credit: "地図データ: Natural Earth / GSHHG" });
 }
 
 // ---------------------------------------------------------------- メイン
@@ -462,7 +485,7 @@ function loadDestinations() {
   const items = [];
   let cur = null;
   for (const line of src.split("\n")) {
-    const m = line.match(/^(- |  )(name|slug|lat|lng|en_name):\s*"?(.*?)"?\s*$/);
+    const m = line.match(/^(- |  )(name|slug|lat|lng|en_name|flight_hours):\s*"?(.*?)"?\s*$/);
     if (line.startsWith("- ")) { cur = {}; items.push(cur); }
     if (m && cur) cur[m[2]] = ["lat", "lng"].includes(m[2]) ? parseFloat(m[3]) : m[3];
   }

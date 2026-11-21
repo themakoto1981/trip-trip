@@ -483,6 +483,14 @@ phuquoc-guide:
     letter: "ら"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D3648660"
     image: "https://pix8.agoda.net/hotelImages/3648660/0/73d2ea2706b2d12deee89a4f9e8565ee.jpeg?va=1&ce=2&s=1024x768"
+  - name: "ibis Saigon Airport"
+    lat: 10.813244
+    lng: 106.665680
+    desc: "ゆる旅・らぐ旅向け、乗継のホーチミン1泊で利用する空港至近ホテル"
+    type: hotel
+    letter: "ゆ"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1602693"
+    image: "https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/882879280.jpg?k=d18fa7e2b6ebdd1d4790dbc15a1c123b585aae8ba578d537c6ce7a40990a77f1&o="
 
 koh-samui-guide:
   - name: チャウエンビーチ

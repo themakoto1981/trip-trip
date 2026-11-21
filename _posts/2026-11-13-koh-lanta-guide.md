@@ -18,6 +18,8 @@ excerpt: "クラビ空港からミニバン＋車両フェリーで渡るラン�
 - **クラビ空港からランタ島へ**：乗り合いミニバン＋車両フェリーで約2.5〜3.5時間。島内のホテルまで送迎してくれる直通ミニバンが一般的です<br><a class="schedule-tag" href="https://12go.asia/en/travel/krabi-airport/koh-lanta?z=17114820" target="_blank" rel="noopener noreferrer">12go.asiaで最新の送迎スケジュール</a>
 - **雨季の注意**：雨季（6〜10月）はアンダマン海の波が高くなりやすく、海峡を渡るフェリーの運航にも影響することがあります。
 
+{% include route-map.html %}
+
 ## ベストシーズン
 
 | 月 | 推し度 | 特徴 |

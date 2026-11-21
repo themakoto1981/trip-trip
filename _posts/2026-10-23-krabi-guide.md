@@ -17,6 +17,8 @@ excerpt: "断崖に囲まれ陸路では行けない秘境ビーチ、ライレ�
 
 - **クラビ空港からライレイへ**：空港からGrabカーかシャトルバスでアオナンマオ船着き場へ（約50分）、そこからロングテールボートでライレイへ渡ります（約20分、1人100バーツ）<br><a class="schedule-tag" href="https://12go.asia/jp/travel/krabi-airport/railay/?z=17114820" target="_blank" rel="noopener noreferrer">12go.asiaで最新のボート・乗合送迎スケジュール</a>。
 
+{% include route-map.html %}
+
 ## ベストシーズン
 
 | 月 | 推し度 | 特徴 |

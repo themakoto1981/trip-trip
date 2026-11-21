@@ -16,6 +16,8 @@ excerpt: "世界屈指のダイビングスポットとして知られるタイ�
 
 - チュンポン〜タオ島、サムイ島〜タオ島とも高速船が1日複数便運航しています<br><a class="schedule-tag" href="https://12go.asia/en/travel/chumphon/koh-tao?z=17114820" target="_blank" rel="noopener noreferrer">12go.asiaで予約・最新スケジュール</a>
 
+{% include route-map.html %}
+
 ## ベストシーズン
 
 | 月 | 推し度 | 特徴 |

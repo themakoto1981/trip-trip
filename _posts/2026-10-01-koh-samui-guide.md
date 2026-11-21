@@ -15,6 +15,8 @@ excerpt: "タイ湾に浮かぶ南国リゾート、サムイ島の行き方・�
 東京からは、成田発のZIPAIRまたは羽田発ANAで、関西から関空発のタイ国際航空またはエアアジアでバンコクへ（約6時間〜6時間30分）。
 バンコクエアウェイズの直行便（約1時間）が便利ですが、LCC＋フェリーで渡る節約ルートもあります（スラタニ空港または鉄道駅からタピー船着場へ、そこからフェリーで約1〜1.5時間、LomprayahまたはRaja Ferryが運航）<br><a class="schedule-tag" href="https://12go.asia/jp/travel/surat-thani/koh-samui/?z=17114820" target="_blank" rel="noopener noreferrer">12go.asiaで最新のフェリースケジュール</a>。
 
+{% include route-map.html %}
+
 ## ベストシーズン
 
 | 月 | 推し度 | 特徴 |

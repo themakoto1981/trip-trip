@@ -36,6 +36,8 @@ excerpt: "「マレーシアで一番美しい海」とも称される透明度�
 
 - **クアラトレンガヌから船着場（メラン・ジェティ）へ**：Grabカーで約30分。船着場からレダン島へはフェリーで約1時間（1日数便、12〜14リンギット程度）<br><a class="schedule-tag" href="https://12go.asia/jp/travel/merang-jetty/redang-island/?z=17114820" target="_blank" rel="noopener noreferrer">12go.asiaで最新のフェリースケジュール</a>関西空港からもエアアジアXの直行便があり、下記の予算プランは東京発・関西発を切り替えて確認できます
 
+{% include route-map.html %}
+
 ## ベストシーズン
 
 | 月 | 推し度 | 特徴 |

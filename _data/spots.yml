@@ -466,6 +466,7 @@ phuquoc-guide:
     type: hotel
     letter: "や"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1266957"
+    image: "https://pix8.agoda.net/hotelImages/1266957/0/2de3ea1e87a9027f7417b1bbbc26c4f5.jpeg?va=1&ce=2&s=1024x768"
   - name: "Seashells Phu Quoc Hotel & Spa"
     lat: 10.215395
     lng: 103.958198
@@ -473,6 +474,7 @@ phuquoc-guide:
     type: hotel
     letter: "ゆ"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D2430159"
+    image: "https://pix8.agoda.net/hotelImages/2430159/0/6d80b5a63eb6145e78315f6ede929a97.jpeg?va=1&ce=2&s=1024x768"
   - name: "InterContinental Phu Quoc Long Beach Resort"
     lat: 10.112635
     lng: 103.983524
@@ -480,6 +482,7 @@ phuquoc-guide:
     type: hotel
     letter: "ら"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D3648660"
+    image: "https://pix8.agoda.net/hotelImages/3648660/0/73d2ea2706b2d12deee89a4f9e8565ee.jpeg?va=1&ce=2&s=1024x768"
 
 koh-samui-guide:
   - name: チャウエンビーチ
@@ -1355,6 +1358,7 @@ gili-air-guide:
     type: hotel
     letter: "や"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D69504338"
+    image: "https://pix8.agoda.net/property/69504338/0/b47ba7abbe6aba061ac0b321ba4ead48.jpeg?va=1&ce=2&s=1024x768"
   - name: "PinkCoco Gili Air"
     lat: -8.3570
     lng: 116.0780
@@ -1362,6 +1366,7 @@ gili-air-guide:
     type: hotel
     letter: "ゆ"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D4899287"
+    image: "https://pix8.agoda.net/hotelImages/4899287/0/51eaf0f32efd1a624ce3001bd93c406c.jpeg?va=1&s=1024x768"
   - name: "Villa Tokay"
     lat: -8.3545
     lng: 116.0790
@@ -1369,6 +1374,7 @@ gili-air-guide:
     type: hotel
     letter: "ら"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D34574642"
+    image: "https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/593113048.jpg?k=77083462f1ae5b0c80f74a430ba0add7d5e5459cd834978f75fc656944f94995&o="
 
 gili-meno-guide:
   - name: ギリ・メノ・ビーチ
@@ -1403,6 +1409,7 @@ gili-meno-guide:
     type: hotel
     letter: "や"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1767173"
+    image: "https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/362379826.jpg?k=5e6902df414b79c6f4006cf02ba6d9813795784e567f84f35a10675bbf3218e2&o="
   - name: "The Sunset Gecko on the Beach"
     lat: -8.3452
     lng: 116.0519
@@ -1410,6 +1417,7 @@ gili-meno-guide:
     type: hotel
     letter: "ゆ"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1617811"
+    image: "https://pix8.agoda.net/hotelImages/161/1617811/1617811_16120723510049521086.jpg?va=1&ca=6&ce=1&s=1024x768"
   - name: "MAHAMAYA Resort Gili Meno"
     lat: -8.3481
     lng: 116.0515
@@ -1417,6 +1425,7 @@ gili-meno-guide:
     type: hotel
     letter: "ら"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D276068"
+    image: "https://pix8.agoda.net/hotelImages/276068/0/5a6da6b6314386c22ced5d3ac6225ef0.jpeg?va=1&ce=3&s=1024x768"
 
 koh-larn-guide:
   - name: タワエンビーチ

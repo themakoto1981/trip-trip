@@ -141,6 +141,7 @@ excerpt: "バンコクから日帰りも可能な距離にありながら、国�
 - 09:00頃　チェックアウト、タクシー・Grabでバンペー桟橋へ（所要約1時間）
 - 10:00頃　バンペー桟橋着、フェリーでサメット島のナダーン桟橋へ（所要約30〜40分）
 - 11:00頃　サメット島着。[Sai Kaew Beach Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1)にチェックイン
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/1/0/dd28c2a17a21c150c8ad53a9d1c8227a.jpeg?va=1&ce=2&s=1024x768" alt="Sai Kaew Beach Resort" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **3日目（終日フリー）**
 - 終日　サイケオ・ビーチのプールやビーチでのんびり
@@ -188,6 +189,7 @@ excerpt: "バンコクから日帰りも可能な距離にありながら、国�
 - 10:00頃　チェックアウト、専用車でバンペー桟橋へ（所要約1時間）
 - 11:00頃　バンペー桟橋着、スピードボートでサメット島へ（所要約15分）
 - 11:30頃　サメット島着。[Paradee Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D52153)にチェックイン
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D52153" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/52153/0/ecd43fba9b5cf664cf1075c922d12493.jpeg?va=1&s=1024x768" alt="Paradee Resort" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **3日目（終日フリー）**
 - 終日　アオプラオ・ビーチのプールやビーチでのんびり

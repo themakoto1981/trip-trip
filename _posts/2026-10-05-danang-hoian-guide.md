@@ -79,6 +79,7 @@ excerpt: "成田から直行便で約6時間、東南アジアの中でも飛行
 - 13:45　ダナン着。入国審査を終えて午後は自由行動
 - 14:00頃　Grabカーでホテルへ移動（所要約10〜15分）
 - 15:00頃　[Nesta Hotel Danang](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D31559197)にチェックイン（ミーケービーチまで徒歩圏、1泊6,000円台から）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D31559197" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/31559197/0/3e0e9ad51b325b0e7baf6da5f5d63fac.jpeg?va=1&ce=2&s=1024x768" alt="Nesta Hotel Danang" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 17:30頃　Grabカーでホイアンへ（所要約45分）。ランタン夜市と名物バインミーを楽しむ
 
 **2日目（日曜・終日フリー）**
@@ -99,6 +100,7 @@ Vietjet Airは火・木・土・日運航。土曜発なら、有休を1日も�
 - 12:40　ダナン着。入国審査・荷物受取を終えて午後は自由行動
 - 13:00頃　Grabカーでホテルへ移動（所要約10〜15分）
 - 13:30頃　[A La Carte Danang Beach](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D569663)にチェックイン（ミーケービーチ沿い、4つ星ホテル）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D569663" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/569663/0/284b58efefa9b20383d4182b7e704be1.jpeg?va=1&ce=2&s=1024x768" alt="A La Carte Danang Beach" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 17:00頃　Grabカーでホイアンへ（所要約45分）。旧市街のランタン夜市を散策し、名物バインミーで夕食
 - 21:00頃　ダナンへ戻り就寝
 
@@ -118,6 +120,7 @@ Vietjet Airは火・木・土・日運航。土曜発なら、有休を1日も�
 - 12:25　ダナン着。入国審査・荷物受取を終えて午後は自由行動
 - 12:45頃　Grabカーでホテルへ移動（所要約10〜15分）
 - 13:15頃　[A La Carte Danang Beach](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D569663)にチェックイン（ミーケービーチ沿い、4つ星ホテル）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D569663" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/569663/0/284b58efefa9b20383d4182b7e704be1.jpeg?va=1&ce=2&s=1024x768" alt="A La Carte Danang Beach" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 17:00頃　Grabカーでホイアンへ（所要約45分）。旧市街のランタン夜市を散策し、名物バインミーで夕食
 - 21:00頃　ダナンへ戻り就寝
 
@@ -137,6 +140,7 @@ Vietjet Airは火・木・土・日運航。土曜発なら、有休を1日も�
 - 12:40　ダナン着
 - 13:00頃　Grabカーでホテルへ移動（所要約15分）
 - 13:15頃　[ナマンリトリート（Naman Retreat）](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D761550)にチェックイン（空港から車で15分、プライベートビーチを備えたウェルネス重視のラグジュアリーリゾート）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D761550" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/761550/0/5e1ca2559e68a0a59b4c8f6a1e8ef106.jpeg?va=1&ce=2&s=1024x768" alt="Naman Retreat Da Nang" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 17:00頃　Grabカーでホイアンへ（所要約45分）。ランタンの旧市街を散策し、川沿いのレストランで夕食
 
 **2日目（終日フリー）**
@@ -155,6 +159,7 @@ Vietjet Airは火・木・土・日運航。土曜発なら、有休を1日も�
 - 12:25　ダナン着
 - 12:45頃　Grabカーでホテルへ移動（所要約15分）
 - 13:00頃　[ナマンリトリート（Naman Retreat）](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D761550)にチェックイン（空港から車で15分、プライベートビーチを備えたウェルネス重視のラグジュアリーリゾート）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D761550" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/761550/0/5e1ca2559e68a0a59b4c8f6a1e8ef106.jpeg?va=1&ce=2&s=1024x768" alt="Naman Retreat Da Nang" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 17:00頃　Grabカーでホイアンへ（所要約45分）。ランタンの旧市街を散策し、川沿いのレストランで夕食
 
 **2日目（終日フリー）**

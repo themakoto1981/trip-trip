@@ -50,6 +50,7 @@ excerpt: "「神々の島」バリ島。ビーチリゾートから文化体験�
 - 12:00頃　クアラルンプール発（AirAsia）
 - 15:00頃　デンパサール着
 - 17:00頃　[Fave Hotel Kuta Kartika Plaza](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1235621)にチェックイン
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1235621" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/1235621/0/27db796ab17ba7e21ff6809f0f4e6c7c.jpeg?va=1&ce=2&s=1024x768" alt="Fave Hotel Kuta Kartika Plaza" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **3日目（終日フリー）**
 - 09:00　ウルワツ寺院周辺を観光
@@ -80,6 +81,7 @@ excerpt: "「神々の島」バリ島。ビーチリゾートから文化体験�
 - 19:30頃　クアラルンプール発（AirAsia）
 - 22:30頃　デンパサール着
 - 23:00頃　[Fave Hotel Kuta Kartika Plaza](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1235621)にチェックイン（到着が遅いためこの日は寝るだけ）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1235621" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/1235621/0/27db796ab17ba7e21ff6809f0f4e6c7c.jpeg?va=1&ce=2&s=1024x768" alt="Fave Hotel Kuta Kartika Plaza" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **2日目（終日フリー）**
 - 09:00　ウルワツ寺院周辺を観光
@@ -111,6 +113,7 @@ excerpt: "「神々の島」バリ島。ビーチリゾートから文化体験�
 - 11:00　成田発（ガルーダ・インドネシア航空、所要7〜8時間）
 - 17:25　デンパサール着（現地時間、時差-1時間）。入国審査・荷物受取に1時間程度みておく
 - 19:00頃　空港からGrabカーで20〜40分移動し、[Ramayana Suites & Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D45562)にチェックイン（クタビーチ・ショッピングエリアまで徒歩圏内）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D45562" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/45562/0/b718bed681928a698e56f778efc4e182.jpeg?va=1&ce=2&s=1024x768" alt="Ramayana Suites & Resort" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **2日目（終日フリー）**
 - 09:00　ホテルでゆっくり、またはクタビーチでサーフィンレッスン
@@ -140,6 +143,7 @@ excerpt: "「神々の島」バリ島。ビーチリゾートから文化体験�
 - 19:30頃　クアラルンプール発（AirAsia）
 - 22:30頃　デンパサール着。入国審査・荷物受取を終えて
 - 23:30頃　空港からGrabカーで20〜40分移動し、[Ramayana Suites & Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D45562)にチェックイン（クタビーチ・ショッピングエリアまで徒歩圏内）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D45562" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/45562/0/b718bed681928a698e56f778efc4e182.jpeg?va=1&ce=2&s=1024x768" alt="Ramayana Suites & Resort" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **2日目（終日フリー）**
 - 09:00　ホテルでゆっくり、またはクタビーチでサーフィンレッスン

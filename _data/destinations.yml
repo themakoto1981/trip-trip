@@ -980,6 +980,7 @@
   beach_underwater: 3
   beach_sand: 4
   beach_waves: "なし"
+  beach_note: "シアルガオ本島はサーフィンの聖地（波遊びには◯、特にCloud 9）。評価対象のガヤム島は遊泳向きの穏やかな離島で、シュノーケルには向かない"
 - name: カミギン島
   en_name: "Camiguin, Philippines"
   slug: camiguin-guide

@@ -55,6 +55,7 @@ excerpt: "世界屈指のダイビングスポットとして知られるタイ�
 - 06:15頃　ホテルを出発、Grabカーで港へ
 - 07:00　チュンポン発の高速船（Lomprayah）でタオ島へ（所要約1時間45分、08:45着）
 - 09:00頃　[Koh Tao Garden Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D564845)にチェックイン
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D564845" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/564845/-1/fcd06bc06b63b7e0c5d23e3f6bd7f135.jpg?va=1&ca=7&ce=1&s=1024x768" alt="Koh Tao Garden Resort" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 18:00　サイリービーチ周辺で夕食
 
 **3日目（終日フリー）**
@@ -98,6 +99,7 @@ excerpt: "世界屈指のダイビングスポットとして知られるタイ�
 - 06:15頃　ホテルを出発、Grabカーで港へ
 - 07:00　チュンポン発の高速船（Lomprayah）でタオ島へ（所要約1時間45分、08:45着）
 - 09:00頃　[Koh Tao Garden Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D564845)にチェックイン
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D564845" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/564845/-1/fcd06bc06b63b7e0c5d23e3f6bd7f135.jpg?va=1&ca=7&ce=1&s=1024x768" alt="Koh Tao Garden Resort" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 18:00　サイリービーチ周辺で夕食
 
 **3日目（終日フリー）**
@@ -140,6 +142,7 @@ excerpt: "世界屈指のダイビングスポットとして知られるタイ�
 **2日目（タオ島泊）**
 - 08:00　サムイ島発の高速船（Lomprayah）でタオ島へ（所要約1時間30分、09:30頃着）
 - 10:00頃　[Ban's Diving Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D300564)にチェックイン（サイリービーチ中心部、プール複数あり）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D300564" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/300564/0/7a87ee361e1be629a38650d449a14c76.jpeg?va=1&ce=2&s=1024x768" alt="Ban's Diving Resort" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 13:00　サイリービーチで早めのランチ
 
 **3日目（終日フリー）**
@@ -171,6 +174,7 @@ excerpt: "世界屈指のダイビングスポットとして知られるタイ�
 **2日目（タオ島泊）**
 - 08:00　サムイ島発の高速船（Lomprayah）でタオ島へ（所要約1時間30分、09:30頃着）
 - 10:00頃　[Ban's Diving Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D300564)にチェックイン（サイリービーチ中心部、プール複数あり）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D300564" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/300564/0/7a87ee361e1be629a38650d449a14c76.jpeg?va=1&ce=2&s=1024x768" alt="Ban's Diving Resort" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 13:00　サイリービーチで早めのランチ
 
 **3日目（終日フリー）**
@@ -202,6 +206,7 @@ excerpt: "世界屈指のダイビングスポットとして知られるタイ�
 **2日目（タオ島泊）**
 - 08:00　サムイ島発の高速船（Lomprayah）でタオ島へ（所要約1時間30分、09:30頃着）
 - 10:00頃　[Phandara Luxury Villas](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1163323)にチェックイン（サイリービーチを見下ろす丘の上のプール付きヴィラ）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1163323" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/116/1163323/1163323_17012718090050626801.jpg?va=1&ca=6&ce=1&s=1024x768" alt="Phandara Luxury Villas" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 13:00　サイリービーチで早めのランチ
 
 **3日目（終日フリー）**
@@ -233,6 +238,7 @@ excerpt: "世界屈指のダイビングスポットとして知られるタイ�
 **2日目（タオ島泊）**
 - 08:00　サムイ島発の高速船（Lomprayah）でタオ島へ（所要約1時間30分、09:30頃着）
 - 10:00頃　[Phandara Luxury Villas](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1163323)にチェックイン（サイリービーチを見下ろす丘の上のプール付きヴィラ）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1163323" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/116/1163323/1163323_17012718090050626801.jpg?va=1&ca=6&ce=1&s=1024x768" alt="Phandara Luxury Villas" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 13:00　サイリービーチで早めのランチ
 
 **3日目（終日フリー）**

@@ -52,6 +52,7 @@ excerpt: "バリ島のサヌールから高速ボートで約30分、のんび�
 - 10:50　クアラルンプール発（AirAsia、約3時間5分）
 - 13:55　デンパサール着
 - 入国審査後、[Kura-Kura Bus](https://www.kura2bus.com/)でサヌールへ移動し（片道450〜750円ほど）、[Segara Village Hotel](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D48703)にチェックイン
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D48703" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/48703/0/35f4f95782c7515015e7516fcf09bc64.jpeg?va=1&ce=2&s=1024x768" alt="Segara Village Hotel" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **3日目（ヌサレンボンガン泊）**
 - 11:00　サヌールから高速ボート（[12go.asiaで予約可](https://12go.asia/en/travel/sanur/nusa-lembongan?z=17114820)）でヌサレンボンガン島へ（約30分。サヌール発は午前から午後まで複数便あり、09:00台に慌てて出る必要はない）
@@ -87,6 +88,7 @@ excerpt: "バリ島のサヌールから高速ボートで約30分、のんび�
 - 19:30頃　クアラルンプール発（AirAsia）
 - 22:30頃　デンパサール着
 - 深夜　[Kura-Kura Bus](https://www.kura2bus.com/)でサヌールへ移動し（片道450〜750円ほど）、[Segara Village Hotel](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D48703)にチェックイン
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D48703" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/48703/0/35f4f95782c7515015e7516fcf09bc64.jpeg?va=1&ce=2&s=1024x768" alt="Segara Village Hotel" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **2日目（ヌサレンボンガン泊）**
 - 11:00　サヌールから高速ボート（[12go.asiaで予約可](https://12go.asia/en/travel/sanur/nusa-lembongan?z=17114820)）でヌサレンボンガン島へ（約30分）
@@ -116,6 +118,7 @@ excerpt: "バリ島のサヌールから高速ボートで約30分、のんび�
 - 11:00　成田発（ガルーダ・インドネシア航空GA881、約7時間25分）
 - 17:25　デンパサール着。入国審査と荷物受取を終えたらGrabカーでサヌールへ
 - 19:30頃　[Prime Plaza Hotel Sanur](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1251)にチェックイン（ボート乗り場に近いビーチサイドのホテル）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1251" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/1251/0/9bb1e38a9663f54d21a3a9d2db76c135.jpeg?va=1&ce=2&s=1024x768" alt="Prime Plaza Hotel Sanur" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **2日目（ヌサレンボンガン泊）**
 - 11:00　サヌールから高速ボート（[12go.asiaで予約可](https://12go.asia/en/travel/sanur/nusa-lembongan?z=17114820)）でヌサレンボンガン島へ（約30分。サヌール発は午前から午後まで複数便あり、09:00台に慌てて出る必要はない）
@@ -147,6 +150,7 @@ excerpt: "バリ島のサヌールから高速ボートで約30分、のんび�
 - 19:30頃　クアラルンプール発（AirAsia）
 - 22:30頃　デンパサール着。入国審査と荷物受取を終えたらGrabカーでサヌールへ
 - 深夜　[Prime Plaza Hotel Sanur](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1251)にチェックイン（ボート乗り場に近いビーチサイドのホテル）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1251" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/1251/0/9bb1e38a9663f54d21a3a9d2db76c135.jpeg?va=1&ce=2&s=1024x768" alt="Prime Plaza Hotel Sanur" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **2日目（ヌサレンボンガン泊）**
 - 11:00　サヌールから高速ボート（[12go.asiaで予約可](https://12go.asia/en/travel/sanur/nusa-lembongan?z=17114820)）でヌサレンボンガン島へ（約30分）
@@ -176,6 +180,7 @@ excerpt: "バリ島のサヌールから高速ボートで約30分、のんび�
 - 11:00　成田発（ガルーダ・インドネシア航空GA881、約7時間25分）
 - 17:25　デンパサール着。入国審査と荷物受取を終えたらGrabカーでサヌールへ
 - 19:30頃　[Hyatt Regency Bali](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D5500759)にチェックイン（サヌールビーチ沿いの大型リゾート）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D5500759" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/5500759/0/d0272a3db9d14a1ed219faf22239d050.jpeg?va=1&ce=2&s=1024x768" alt="Hyatt Regency Bali" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **2日目（ヌサレンボンガン泊）**
 - 11:00　サヌールから高速ボート（[12go.asiaで予約可](https://12go.asia/en/travel/sanur/nusa-lembongan?z=17114820)）でヌサレンボンガン島へ（約30分。サヌール発は午前から午後まで複数便あり、09:00台に慌てて出る必要はない）
@@ -207,6 +212,7 @@ excerpt: "バリ島のサヌールから高速ボートで約30分、のんび�
 - 19:30頃　クアラルンプール発（AirAsia）
 - 22:30頃　デンパサール着。入国審査と荷物受取を終えたらGrabカーでサヌールへ
 - 深夜　[Hyatt Regency Bali](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D5500759)にチェックイン（サヌールビーチ沿いの大型リゾート）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D5500759" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/5500759/0/d0272a3db9d14a1ed219faf22239d050.jpeg?va=1&ce=2&s=1024x768" alt="Hyatt Regency Bali" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **2日目（ヌサレンボンガン泊）**
 - 11:00　サヌールから高速ボート（[12go.asiaで予約可](https://12go.asia/en/travel/sanur/nusa-lembongan?z=17114820)）でヌサレンボンガン島へ（約30分）

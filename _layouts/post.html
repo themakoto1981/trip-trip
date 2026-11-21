@@ -234,7 +234,9 @@ layout: default
     document.querySelectorAll('.post-content h2').forEach(function (h) {
       if (h.textContent.indexOf('おすすめ旅程') === -1) { return; }
       var headingText = h.textContent;
-      var nMatch = headingText.match(/(\d+)泊/);
+      // 見出し中の「バンコク1泊」等の経由地泊数と誤って拾わないよう、
+      // 合計の宿泊数を表す「X泊Y日」の組み合わせ表記のみにマッチさせる
+      var nMatch = headingText.match(/(\d+)泊(\d+)日/);
       if (!nMatch) { return; }
       var n = parseInt(nMatch[1], 10);
       var dep = headingText.indexOf('関西発') !== -1 ? 'kansai' : 'tokyo';

@@ -53,6 +53,7 @@ excerpt: "タイ湾に浮かぶ南国リゾート、サムイ島の行き方・�
 - 10:00頃　Grabカーでドンサック埠頭へ移動（周辺で軽い昼食をとりながら待機）
 - 11:00　フェリーでサムイ島へ（所要約1時間30分。ドンサック⇔サムイ間は06:00〜19:00の間1時間おきに運航しているため、空港到着後は早発の便にこだわらず埠頭周辺で過ごしてから乗るのがおすすめ）
 - 12:45頃　[Lub d Koh Samui Chaweng Beach](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D5828751)にチェックイン（ビーチフロントホステル、ドミトリーから個室まで選べる）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D5828751" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/5828751/0/cd2581655e63156af8d323350fab22ad.jpeg?va=1&ce=2&s=1024x768" alt="Lub d Koh Samui Chaweng Beach" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **3日目（終日フリー）**
 - 09:00〜　終日フリー（おすすめ：チャウエンビーチでのんびり過ごす）
@@ -84,6 +85,7 @@ excerpt: "タイ湾に浮かぶ南国リゾート、サムイ島の行き方・�
 - 10:00頃　Grabカーでドンサック埠頭へ移動（周辺で軽い昼食をとりながら待機）
 - 11:00　フェリーでサムイ島へ（所要約1時間30分。ドンサック⇔サムイ間は06:00〜19:00の間1時間おきに運航しているため、空港到着後は早発の便にこだわらず埠頭周辺で過ごしてから乗るのがおすすめ）
 - 12:45頃　[Lub d Koh Samui Chaweng Beach](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D5828751)にチェックイン（ビーチフロントホステル、ドミトリーから個室まで選べる）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D5828751" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/5828751/0/cd2581655e63156af8d323350fab22ad.jpeg?va=1&ce=2&s=1024x768" alt="Lub d Koh Samui Chaweng Beach" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **3日目（終日フリー）**
 - 09:00〜　終日フリー（おすすめ：チャウエンビーチでのんびり過ごす）
@@ -110,6 +112,7 @@ excerpt: "タイ湾に浮かぶ南国リゾート、サムイ島の行き方・�
 - 15:30　バンコク（スワンナプーム空港）着。入国審査・荷物受取に1〜1.5時間ほどみておく
 - 17:30頃　バンコク発（バンコクエアウェイズ、所要約1時間）
 - 18:30頃　サムイ島着。空港からGrabカーで15〜20分ほどで[Chaweng Garden Beach Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D108775)にチェックイン（チャウエン中心部のビーチフロントリゾート、2つのプール）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D108775" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/108775/0/2a634b1438dcd8d15efc3aef1a67c5eb.jpeg?va=1&ce=3&s=1024x768" alt="Chaweng Garden Beach Resort" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **2日目（終日フリー）**
 - 09:00〜　終日フリー（おすすめ：チャウエンビーチでのんびり過ごす）
@@ -135,6 +138,7 @@ excerpt: "タイ湾に浮かぶ南国リゾート、サムイ島の行き方・�
 - 15:35　バンコク（スワンナプーム空港）着。入国審査・荷物受取に1〜1.5時間ほどみておく
 - 17:30頃　バンコク発（バンコクエアウェイズ、所要約1時間）
 - 18:30頃　サムイ島着。空港からGrabカーで15〜20分ほどで[Chaweng Garden Beach Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D108775)にチェックイン（チャウエン中心部のビーチフロントリゾート、2つのプール）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D108775" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/108775/0/2a634b1438dcd8d15efc3aef1a67c5eb.jpeg?va=1&ce=3&s=1024x768" alt="Chaweng Garden Beach Resort" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **2日目（終日フリー）**
 - 09:00〜　終日フリー（おすすめ：チャウエンビーチでのんびり過ごす）
@@ -160,6 +164,7 @@ excerpt: "タイ湾に浮かぶ南国リゾート、サムイ島の行き方・�
 - 15:30　バンコク（スワンナプーム空港）着。入国審査・荷物受取に1〜1.5時間ほどみておく
 - 17:30頃　バンコク発（バンコクエアウェイズ、所要約1時間）
 - 18:30頃　サムイ島着。空港からGrabカーで15〜20分ほどで[Four Seasons Resort Koh Samui](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D344587)にチェックイン（島北西の入り江に建つプライベートプール付きヴィラの高級リゾート）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D344587" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/344587/-1/cd786a95b8d98c2adf78004125d39de2.jpg?va=1&ca=7&ce=1&s=1024x768" alt="Four Seasons Resort Koh Samui" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **2日目（終日フリー）**
 - 09:00〜　終日フリー（おすすめ：チャウエンビーチでのんびり過ごす）
@@ -185,6 +190,7 @@ excerpt: "タイ湾に浮かぶ南国リゾート、サムイ島の行き方・�
 - 15:35　バンコク（スワンナプーム空港）着。入国審査・荷物受取に1〜1.5時間ほどみておく
 - 17:30頃　バンコク発（バンコクエアウェイズ、所要約1時間）
 - 18:30頃　サムイ島着。空港からGrabカーで15〜20分ほどで[Four Seasons Resort Koh Samui](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D344587)にチェックイン（島北西の入り江に建つプライベートプール付きヴィラの高級リゾート）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D344587" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/344587/-1/cd786a95b8d98c2adf78004125d39de2.jpg?va=1&ca=7&ce=1&s=1024x768" alt="Four Seasons Resort Koh Samui" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **2日目（終日フリー）**
 - 09:00〜　終日フリー（おすすめ：チャウエンビーチでのんびり過ごす）

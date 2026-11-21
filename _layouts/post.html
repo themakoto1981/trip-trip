@@ -393,7 +393,7 @@ layout: default
         tiersHtml += '<div class="budget-tier-head"><span class="budget-tier-name-row"><span class="budget-tier-dot"></span><span class="budget-tier-name">' + t[0] + '</span></span><span class="budget-tier-desc">' + t[3] + '</span></div>';
       }
       var kt = budgetTiersByDep.kansai[i];
-      tiersHtml += '<div class="budget-tier-price-wrap"><span class="budget-tier-amount" data-tokyo-amount="' + escAttr(t[1]) + '" data-kansai-amount="' + escAttr(kt[1]) + '">' + t[1] + '</span><div class="budget-tier-breakdown" data-tokyo-breakdown="' + escAttr(t[2]) + '" data-kansai-breakdown="' + escAttr(kt[2]) + '">' + t[2] + '</div></div>';
+      tiersHtml += '<div class="budget-tier-price-wrap"><span class="budget-tier-amount-row"><span class="budget-tier-amount" data-tokyo-amount="' + escAttr(t[1]) + '" data-kansai-amount="' + escAttr(kt[1]) + '">' + t[1] + '</span><span class="budget-tier-nights">' + nights + '泊' + (nights + 1) + '日</span></span><div class="budget-tier-breakdown" data-tokyo-breakdown="' + escAttr(t[2]) + '" data-kansai-breakdown="' + escAttr(kt[2]) + '">' + t[2] + '</div></div>';
       tiersHtml += renderBudgetChips(t[0]);
       if (isSlideTrial) { tiersHtml += '</div>'; }
       tiersHtml += '</div>';
@@ -1072,6 +1072,7 @@ layout: default
         var node = itineraryHeading.nextElementSibling;
         var dayBlocks = [];
         var costNode = null;
+        var noteNodes = [];
         while (node && node.tagName !== 'H2') {
           if (node.tagName === 'P' && node.querySelector('strong')) {
             var strongEl = node.querySelector('strong');
@@ -1081,6 +1082,10 @@ layout: default
             } else if (node.textContent.indexOf('費用の内訳') !== -1) {
               costNode = node;
             }
+          } else if (node.tagName === 'P' && isMultiPlan) {
+            // 経由便の注釈など、日程リストを伴わない説明文。複数プラン構成では見出し自体が
+            // 除去されるため、一緒にカード内へ移設しないと本文の最後に取り残される
+            noteNodes.push(node);
           }
           node = node.nextElementSibling;
         }
@@ -1094,6 +1099,12 @@ layout: default
 
         var timelineWrap = document.createElement('div');
         timelineWrap.className = 'itinerary-timeline';
+        noteNodes.forEach(function (n) {
+          var noteDiv = document.createElement('div');
+          noteDiv.className = 'itinerary-note';
+          noteDiv.innerHTML = n.innerHTML;
+          timelineWrap.appendChild(noteDiv);
+        });
         dayBlocks.forEach(function (block) {
           var dayDiv = document.createElement('div');
           dayDiv.className = 'itinerary-day';
@@ -1182,6 +1193,7 @@ layout: default
           block.pNode.remove();
           block.ulNode.remove();
         });
+        noteNodes.forEach(function (n) { n.remove(); });
         if (costNode) { costNode.remove(); }
 
         if (!isMultiPlan) {

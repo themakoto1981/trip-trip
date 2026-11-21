@@ -176,6 +176,7 @@ excerpt: "「神々の島」バリ島。ビーチリゾートから文化体験�
 - 11:00　成田発（ガルーダ・インドネシア航空、所要7〜8時間）
 - 17:25　デンパサール着（現地時間、時差-1時間）。入国審査・荷物受取に1時間程度みておく
 - 19:30頃　空港からプライベート送迎（事前予約）で約1.5時間、[Four Seasons Resort Bali at Sayan](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D48716)にチェックイン（ウブド郊外、渓谷を望む一棟貸しヴィラ）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D48716" rel="nofollow"><img src="https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/83160592.jpg?k=6d0c8a818604f0a31545186425f6adcb74e5146b6fb5ab88877adbad4457a905&o=" alt="Four Seasons Resort Bali at Sayan" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **2日目（終日フリー）**
 - 09:00　リゾート内のスパでトリートメント
@@ -206,6 +207,7 @@ excerpt: "「神々の島」バリ島。ビーチリゾートから文化体験�
 - 19:30頃　クアラルンプール発（AirAsia）
 - 22:30頃　デンパサール着。入国審査・荷物受取を終えて
 - 翌日午前　プライベート送迎（事前予約）で約1.5時間、[Four Seasons Resort Bali at Sayan](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D48716)にチェックイン（ウブド郊外、渓谷を望む一棟貸しヴィラ）。到着が深夜のため空港近くで仮眠してから移動
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D48716" rel="nofollow"><img src="https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/83160592.jpg?k=6d0c8a818604f0a31545186425f6adcb74e5146b6fb5ab88877adbad4457a905&o=" alt="Four Seasons Resort Bali at Sayan" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **2日目（終日フリー）**
 - 09:00　リゾート内のスパでトリートメント

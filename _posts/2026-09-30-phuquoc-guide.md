@@ -103,7 +103,7 @@ excerpt: "「アジアNo.1リゾート」とも称されるベトナム最大の
 **1日目（ホーチミン泊）**
 - 17:15　羽田発（ANA NH891、約6時間35分）
 - 21:50　ホーチミン着。入国審査・荷物受取に1〜1.5時間ほどみておく
-- 23:30頃　空港周辺のホテルへ移動、1泊
+- 23:30頃　[ibis Saigon Airport](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1602693)にチェックイン（空港から車で約10分、1泊）
 
 **2日目（フーコック泊）**
 - 11:45　ホーチミン発（ベトナム航空国内線、約55分）
@@ -164,7 +164,7 @@ excerpt: "「アジアNo.1リゾート」とも称されるベトナム最大の
 **1日目（ホーチミン泊）**
 - 17:15　羽田発（ANA NH891、約6時間35分）
 - 21:50　ホーチミン着。入国審査・荷物受取に1〜1.5時間ほどみておく
-- 23:30頃　空港周辺のホテルへ移動、1泊
+- 23:30頃　[ibis Saigon Airport](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1602693)にチェックイン（空港から車で約10分、1泊）
 
 **2日目（フーコック泊）**
 - 11:45　ホーチミン発（ベトナム航空国内線、約55分）

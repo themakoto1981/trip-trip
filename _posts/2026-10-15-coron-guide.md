@@ -52,6 +52,7 @@ excerpt: "パラワン州コロン島への行き方は、マニラ経由の国�
 - 11:05　マニラ発（フィリピン航空 PR2963、約1時間5分）
 - 12:10　コロン（ブスアンガ空港）着
 - 車でコロンの町へ、[RB Transient House](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D984058)にチェックイン（町なかの安宿）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D984058" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/984/984058/984058_16020604470039693400.jpg?va=1&ca=6&ce=1&s=1024x768" alt="RB Transient House" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 午後　ホテル周辺を散策
 
 **3日目**
@@ -78,6 +79,7 @@ excerpt: "パラワン州コロン島への行き方は、マニラ経由の国�
 - 11:05　マニラ発（フィリピン航空 PR2963、約1時間5分）
 - 12:10　コロン（ブスアンガ空港）着
 - 車でコロンの町へ、[RB Transient House](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D984058)にチェックイン（町なかの安宿）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D984058" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/984/984058/984058_16020604470039693400.jpg?va=1&ca=6&ce=1&s=1024x768" alt="RB Transient House" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 午後　ホテル周辺を散策
 
 **3日目**
@@ -104,6 +106,7 @@ excerpt: "パラワン州コロン島への行き方は、マニラ経由の国�
 - 11:05　マニラ発（フィリピン航空 PR2963、約1時間5分）
 - 12:10　コロン（ブスアンガ空港）着
 - 車でコロンの町へ、[Kokosnuss Garden Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D271840)にチェックイン（プール付きの標準リゾート）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D271840" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/271840/0/175ef3f9cebd5f4955d91a69c0f4082a.jpeg?va=1&ce=3&s=1024x768" alt="Kokosnuss Garden Resort" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 午後　ホテルのプールでのんびり
 
 **3日目**
@@ -130,6 +133,7 @@ excerpt: "パラワン州コロン島への行き方は、マニラ経由の国�
 - 11:05　マニラ発（フィリピン航空 PR2963、約1時間5分）
 - 12:10　コロン（ブスアンガ空港）着
 - 車でコロンの町へ、[Kokosnuss Garden Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D271840)にチェックイン（プール付きの標準リゾート）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D271840" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/271840/0/175ef3f9cebd5f4955d91a69c0f4082a.jpeg?va=1&ce=3&s=1024x768" alt="Kokosnuss Garden Resort" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 午後　ホテルのプールでのんびり
 
 **3日目**
@@ -156,6 +160,7 @@ excerpt: "パラワン州コロン島への行き方は、マニラ経由の国�
 - 11:05　マニラ発（フィリピン航空 PR2963、約1時間5分）
 - 12:10　コロン（ブスアンガ空港）着
 - リゾート手配の送迎（陸路＋ボート）で[Huma Island Resort & Spa](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D529494)へ（プライベートアイランド、ブスアンガから陸路・ボートで移動）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D529494" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/529/529494/529494_17021319250050997076.jpg?va=1&ca=6&ce=1&s=1024x768" alt="Huma Island Resort & Spa" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 午後　ヴィラでのんびり過ごす
 
 **3日目**
@@ -183,6 +188,7 @@ excerpt: "パラワン州コロン島への行き方は、マニラ経由の国�
 - 11:05　マニラ発（フィリピン航空 PR2963、約1時間5分）
 - 12:10　コロン（ブスアンガ空港）着
 - リゾート手配の送迎（陸路＋ボート）で[Huma Island Resort & Spa](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D529494)へ（プライベートアイランド、ブスアンガから陸路・ボートで移動）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D529494" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/529/529494/529494_17021319250050997076.jpg?va=1&ca=6&ce=1&s=1024x768" alt="Huma Island Resort & Spa" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 午後　ヴィラでのんびり過ごす
 
 **3日目**

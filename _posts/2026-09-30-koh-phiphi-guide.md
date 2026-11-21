@@ -56,6 +56,7 @@ excerpt: "映画の舞台にもなった絶景ビーチ、マヤベイで知ら�
 - 12:30　プーケット発（スピードボート）
 - 13:30　ピピ島（トンサイベイ）着
 - 14:00頃　[Harmony House Koh Phi Phi](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D290271)にチェックイン（トンサイエリアの宿、1泊2,500円ほどから）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D290271" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/290271/0/41ff9d2d033ed2b28e711379c6e0018f.jpeg?va=1&ce=3&s=1024x768" alt="Harmony House Koh Phi Phi" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **3日目（終日フリー）**
 - 09:00　マヤベイ＆周辺の島巡りボートツアーへ出発
@@ -91,6 +92,7 @@ excerpt: "映画の舞台にもなった絶景ビーチ、マヤベイで知ら�
 - 12:30　プーケット発（スピードボート）
 - 13:30　ピピ島（トンサイベイ）着
 - 14:00頃　[Harmony House Koh Phi Phi](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D290271)にチェックイン（トンサイエリアの宿、1泊2,500円ほどから）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D290271" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/290271/0/41ff9d2d033ed2b28e711379c6e0018f.jpeg?va=1&ce=3&s=1024x768" alt="Harmony House Koh Phi Phi" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **3日目（終日フリー）**
 - 09:00　マヤベイ＆周辺の島巡りボートツアーへ出発
@@ -126,6 +128,7 @@ excerpt: "映画の舞台にもなった絶景ビーチ、マヤベイで知ら�
 - 12:30　プーケット発（スピードボート）
 - 13:30　ピピ島（トンサイベイ）着
 - 14:00頃　[Cabana Hotel Phi Phi](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D10869)にチェックイン（島内最大級の3つ星）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D10869" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/10869/0/d6ccbf0aa5af7f43a7bcefa091edcf52.jpeg?va=1&ce=2&s=1024x768" alt="Cabana Hotel Phi Phi" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **3日目（終日フリー）**
 - 09:00　マヤベイ＆周辺の島巡りボートツアーへ出発
@@ -161,6 +164,7 @@ excerpt: "映画の舞台にもなった絶景ビーチ、マヤベイで知ら�
 - 12:30　プーケット発（スピードボート）
 - 13:30　ピピ島（トンサイベイ）着
 - 14:00頃　[Cabana Hotel Phi Phi](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D10869)にチェックイン（島内最大級の3つ星）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D10869" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/10869/0/d6ccbf0aa5af7f43a7bcefa091edcf52.jpeg?va=1&ce=2&s=1024x768" alt="Cabana Hotel Phi Phi" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **3日目（終日フリー）**
 - 09:00　マヤベイ＆周辺の島巡りボートツアーへ出発
@@ -196,6 +200,7 @@ excerpt: "映画の舞台にもなった絶景ビーチ、マヤベイで知ら�
 - 12:30　プーケット発（スピードボート）
 - 13:30　ピピ島（トンサイベイ）着
 - 14:00頃　[Saii Phi Phi Island Village](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D15725520)にチェックイン（プライベートビーチを持つ高級リゾート）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D15725520" rel="nofollow"><img src="https://pix8.agoda.net/property/15725520/1159720592/ea139259c8d74eeae5661a12cb4d03cd.jpeg?va=1&ce=3&s=1024x768" alt="Saii Phi Phi Island Village" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **3日目（終日フリー）**
 - 09:00　マヤベイ＆周辺の島巡りボートツアーへ出発
@@ -231,6 +236,7 @@ excerpt: "映画の舞台にもなった絶景ビーチ、マヤベイで知ら�
 - 12:30　プーケット発（スピードボート）
 - 13:30　ピピ島（トンサイベイ）着
 - 14:00頃　[Saii Phi Phi Island Village](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D15725520)にチェックイン（プライベートビーチを持つ高級リゾート）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D15725520" rel="nofollow"><img src="https://pix8.agoda.net/property/15725520/1159720592/ea139259c8d74eeae5661a12cb4d03cd.jpeg?va=1&ce=3&s=1024x768" alt="Saii Phi Phi Island Village" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **3日目（終日フリー）**
 - 09:00　マヤベイ＆周辺の島巡りボートツアーへ出発

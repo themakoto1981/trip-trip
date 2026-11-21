@@ -52,6 +52,7 @@ excerpt: "韓国やヨーロッパでは急成長中なのに、日本人には�
 - 07:45　ホーチミン発（Vietjet Air、国内線、約1時間10分）
 - 08:55　カムラン空港（ニャチャン）着
 - 車で市街地へ、[Mojzo Inn](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D5945444)にチェックイン（ビーチまで徒歩圏の安宿）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D5945444" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/5945444/0/5867217d6848038811d18b99b8c684c9.jpeg?va=1&ce=2&s=1024x768" alt="Mojzo Inn" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 午後　チャンフービーチでのんびり
 
 **3日目（終日フリー）**
@@ -83,6 +84,7 @@ excerpt: "韓国やヨーロッパでは急成長中なのに、日本人には�
 - 07:45　ホーチミン発（Vietjet Air、国内線、約1時間10分）
 - 08:55　カムラン空港（ニャチャン）着
 - 車で市街地へ、[Mojzo Inn](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D5945444)にチェックイン（ビーチまで徒歩圏の安宿）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D5945444" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/5945444/0/5867217d6848038811d18b99b8c684c9.jpeg?va=1&ce=2&s=1024x768" alt="Mojzo Inn" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 午後　チャンフービーチでのんびり
 
 **3日目（終日フリー）**
@@ -114,6 +116,7 @@ excerpt: "韓国やヨーロッパでは急成長中なのに、日本人には�
 - 07:00　ホーチミン発（ベトナム航空、国内線、約1時間5分）
 - 08:05　カムラン空港（ニャチャン）着
 - 車で市街地へ、[Sunrise Nha Trang Beach Hotel & Spa](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D48363)にチェックイン（ビーチフロントの標準ホテル）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D48363" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/48363/0/b51a8e6c1726c3b8ca83a7e19dfe370f.jpg?va=1&ce=3&s=1024x768" alt="Sunrise Nha Trang Beach Hotel & Spa" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 午後　ホテルのプールでのんびり
 
 **3日目（終日フリー）**
@@ -145,6 +148,7 @@ excerpt: "韓国やヨーロッパでは急成長中なのに、日本人には�
 - 07:00　ホーチミン発（ベトナム航空、国内線、約1時間5分）
 - 08:05　カムラン空港（ニャチャン）着
 - 車で市街地へ、[Sunrise Nha Trang Beach Hotel & Spa](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D48363)にチェックイン（ビーチフロントの標準ホテル）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D48363" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/48363/0/b51a8e6c1726c3b8ca83a7e19dfe370f.jpg?va=1&ce=3&s=1024x768" alt="Sunrise Nha Trang Beach Hotel & Spa" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 午後　ホテルのプールでのんびり
 
 **3日目（終日フリー）**
@@ -176,6 +180,7 @@ excerpt: "韓国やヨーロッパでは急成長中なのに、日本人には�
 - 07:00　ホーチミン発（ベトナム航空、国内線、約1時間5分）
 - 08:05　カムラン空港（ニャチャン）着
 - ロープウェイ乗り場へ移動し、[Vinpearl Resort Nha Trang](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D65153)へ（ホンチェ島、ロープウェイまたはスピードボートで渡るリゾート。移動なしの高級リゾートが良ければAmiana Resort Nha Trangも選択肢）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D65153" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/65153/0/ad695deb623cd7a7f8b73678cea8deb6.jpeg?va=1&ce=2&s=1024x768" alt="Vinpearl Resort Nha Trang" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 午後　リゾート内でのんびり過ごす
 
 **3日目（終日フリー）**
@@ -207,6 +212,7 @@ excerpt: "韓国やヨーロッパでは急成長中なのに、日本人には�
 - 07:00　ホーチミン発（ベトナム航空、国内線、約1時間5分）
 - 08:05　カムラン空港（ニャチャン）着
 - ロープウェイ乗り場へ移動し、[Vinpearl Resort Nha Trang](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D65153)へ（ホンチェ島、ロープウェイまたはスピードボートで渡るリゾート。移動なしの高級リゾートが良ければAmiana Resort Nha Trangも選択肢）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D65153" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/65153/0/ad695deb623cd7a7f8b73678cea8deb6.jpeg?va=1&ce=2&s=1024x768" alt="Vinpearl Resort Nha Trang" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 午後　リゾート内でのんびり過ごす
 
 **3日目（終日フリー）**

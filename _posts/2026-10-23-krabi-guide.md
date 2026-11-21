@@ -54,6 +54,7 @@ excerpt: "断崖に囲まれ陸路では行けない秘境ビーチ、ライレ�
 - 10:00　クラビ空港着
 - タクシーでアオナンマオ船着き場へ（約50分）、ロングテールボートでライレイへ（約20分）
 - [Railay Phutawan Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D248101)にチェックイン
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D248101" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/248101/0/aa74570b397ee73937151cf84f25e529.jpeg?va=1&ce=3&s=1024x768" alt="Railay Phutawan Resort" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 午後　ライレイ・ウェストビーチでのんびり
 
 **3日目（終日フリー）**
@@ -84,6 +85,7 @@ excerpt: "断崖に囲まれ陸路では行けない秘境ビーチ、ライレ�
 - 10:00　クラビ空港着
 - タクシーでアオナンマオ船着き場へ（約50分）、ロングテールボートでライレイへ（約20分）
 - [Railay Phutawan Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D248101)にチェックイン
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D248101" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/248101/0/aa74570b397ee73937151cf84f25e529.jpeg?va=1&ce=3&s=1024x768" alt="Railay Phutawan Resort" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 午後　ライレイ・ウェストビーチでのんびり
 
 **3日目（終日フリー）**
@@ -111,6 +113,7 @@ excerpt: "断崖に囲まれ陸路では行けない秘境ビーチ、ライレ�
 - 19:25　クラビ空港着
 - タクシーでアオナンマオ船着き場へ（約50分）、ロングテールボートでライレイへ（約20分、到着は20時台）
 - [Anyavee Railay Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D84514)にチェックイン（西ライレイビーチ徒歩圏、プール付き）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D84514" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/845/84514/84514_15081710300034393536.jpg?va=1&ca=5&ce=1&s=1024x768" alt="Anyavee Railay Resort" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **2日目（終日フリー）**
 - 終日　ロッククライミング体験、またはトンサイビーチ散策
@@ -140,6 +143,7 @@ excerpt: "断崖に囲まれ陸路では行けない秘境ビーチ、ライレ�
 - 10:00　クラビ空港着
 - タクシーでアオナンマオ船着き場へ（約50分）、ロングテールボートでライレイへ（約20分）
 - [Anyavee Railay Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D84514)にチェックイン（西ライレイビーチ徒歩圏、プール付き）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D84514" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/845/84514/84514_15081710300034393536.jpg?va=1&ca=5&ce=1&s=1024x768" alt="Anyavee Railay Resort" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 午後　プールサイドでのんびり
 
 **3日目（終日フリー）**
@@ -167,6 +171,7 @@ excerpt: "断崖に囲まれ陸路では行けない秘境ビーチ、ライレ�
 - 19:25　クラビ空港着
 - ホテルの送迎ボートでライレイへ（到着は20時台）
 - [Rayavadee](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D10835)にチェックイン（ライレイを代表する5つ星ビーチフロントリゾート、プール付きヴィラ）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D10835" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/10835/0/7c9f4c46a7feec39406d5bb213c9d19a.jpeg?va=1&s=1024x768" alt="Rayavadee" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **2日目（終日フリー）**
 - 終日　プラナンケーブビーチでのんびり、またはリゾートのスパでくつろぐ
@@ -196,6 +201,7 @@ excerpt: "断崖に囲まれ陸路では行けない秘境ビーチ、ライレ�
 - 10:00　クラビ空港着
 - ホテルの送迎ボートでライレイへ
 - [Rayavadee](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D10835)にチェックイン（ライレイを代表する5つ星ビーチフロントリゾート、プール付きヴィラ）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D10835" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/10835/0/7c9f4c46a7feec39406d5bb213c9d19a.jpeg?va=1&s=1024x768" alt="Rayavadee" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 午後　リゾート内でのんびり
 
 **3日目（終日フリー）**

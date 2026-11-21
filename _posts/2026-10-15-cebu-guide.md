@@ -47,6 +47,7 @@ excerpt: "成田・関西から直行便で約5時間、空港から近いリゾ
 - 08:55　成田発（セブパシフィック航空 5J5063、約5時間40分）
 - 13:35　セブ着
 - Grabでホテルへ移動し、[The Stopover Hostel – Mactan](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1199805)にチェックイン（空港から1km）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1199805" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/1199805/-1/416580794169456dc1a2f5803d0568ef.jpg?va=1&ca=12&ce=1&s=1024x768" alt="The Stopover Hostel – Mactan" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 夕方　近くのビーチでのんびり
 
 **2日目**
@@ -71,6 +72,7 @@ excerpt: "成田・関西から直行便で約5時間、空港から近いリゾ
 - 09:15　関空発（セブパシフィック航空、約4時間25分）
 - 12:40　セブ着
 - Grabでホテルへ移動し、[The Stopover Hostel – Mactan](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1199805)にチェックイン（空港から1km）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1199805" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/1199805/-1/416580794169456dc1a2f5803d0568ef.jpg?va=1&ca=12&ce=1&s=1024x768" alt="The Stopover Hostel – Mactan" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 夕方　近くのビーチでのんびり
 
 **2日目**
@@ -98,6 +100,7 @@ excerpt: "成田・関西から直行便で約5時間、空港から近いリゾ
 - 15:20　成田発（フィリピン航空 PR433、約5時間15分）
 - 19:35　セブ着
 - Grabでホテルへ移動し、[Bluewater Maribago Beach Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D10526)にチェックイン（マクタン島のビーチフロントリゾート）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D10526" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/10526/0/7dd2e93d4850f8d573fa2f091b6f365b.jpg?va=1&ce=3&s=1024x768" alt="Bluewater Maribago Beach Resort" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **2日目**
 - 04:00頃　ホテル発、車でオスロブへ（約3時間）
@@ -120,6 +123,7 @@ excerpt: "成田・関西から直行便で約5時間、空港から近いリゾ
 - 09:15　関空発（セブパシフィック航空、約4時間25分）
 - 12:40　セブ着
 - Grabでホテルへ移動し、[Bluewater Maribago Beach Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D10526)にチェックイン（マクタン島のビーチフロントリゾート）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D10526" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/10526/0/7dd2e93d4850f8d573fa2f091b6f365b.jpg?va=1&ce=3&s=1024x768" alt="Bluewater Maribago Beach Resort" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **2日目**
 - 04:00頃　ホテル発、車でオスロブへ（約3時間）
@@ -146,6 +150,7 @@ excerpt: "成田・関西から直行便で約5時間、空港から近いリゾ
 - 15:20　成田発（フィリピン航空 PR433、約5時間15分）
 - 19:35　セブ着
 - Grabでホテルへ移動し、[Shangri-La's Mactan Resort & Spa](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D85875405)にチェックイン（ビーチフロントの高級リゾート、敷地内に魚の保護区あり）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D85875405" rel="nofollow"><img src="https://pix8.agoda.net/property/85875405/0/306f211d26eeb0925062c24ad844b8a1.jpeg?va=1&ce=3&s=1024x768" alt="Shangri-La's Mactan Resort & Spa" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **2日目**
 - 午前　ホテル目の前の魚保護区でシュノーケリング
@@ -166,6 +171,7 @@ excerpt: "成田・関西から直行便で約5時間、空港から近いリゾ
 - 09:15　関空発（セブパシフィック航空、約4時間25分）
 - 12:40　セブ着
 - Grabでホテルへ移動し、[Shangri-La's Mactan Resort & Spa](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D85875405)にチェックイン（ビーチフロントの高級リゾート、敷地内に魚の保護区あり）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D85875405" rel="nofollow"><img src="https://pix8.agoda.net/property/85875405/0/306f211d26eeb0925062c24ad844b8a1.jpeg?va=1&ce=3&s=1024x768" alt="Shangri-La's Mactan Resort & Spa" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **2日目**
 - 午前　ホテル目の前の魚保護区でシュノーケリング

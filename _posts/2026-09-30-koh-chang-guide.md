@@ -75,6 +75,7 @@ excerpt: "プーケットに次ぐタイ第2の広さを誇るチャン島。ジ
 **2日目（チャン島泊）**
 - 11:00　空港発の直行ミニバン＋フェリー（[12go.asiaで予約可](https://12go.asia/en/travel/suvarnabhumi-airport/koh-chang?z=17114820)、ホテル送迎込み・¥4,183〜）でチャン島へ（所要5時間30分、パタヤでの乗り換えなし）
 - 16:30頃　[Elephant Bay Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D271454)着。そのままチェックイン（1泊2,000円台から）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D271454" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/271454/0/042cc280695fcc34d567268e8a20398e.jpeg?va=1&ce=3&s=1024x768" alt="Elephant Bay Resort" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **3日目（終日フリー）**
 - 09:00　ホワイトサンドビーチでのんびり、または離島ツアー
@@ -103,6 +104,7 @@ excerpt: "プーケットに次ぐタイ第2の広さを誇るチャン島。ジ
 - 13:30　バンコク（スワンナプーム空港）着。入国審査を終えて
 - 14:30頃　空港発の直行ミニバン＋フェリー（[12go.asiaで予約可](https://12go.asia/en/travel/suvarnabhumi-airport/koh-chang?z=17114820)、ホテル送迎込み）でチャン島へ（所要5時間30分、パタヤでの乗り換えなし）。関西発は到着が早いため、バンコクで1泊せずその日のうちに島入りできる
 - 20:00頃　[Elephant Bay Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D271454)着。そのままチェックイン（1泊2,000円台から）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D271454" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/271454/0/042cc280695fcc34d567268e8a20398e.jpeg?va=1&ce=3&s=1024x768" alt="Elephant Bay Resort" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **2日目（終日フリー）**
 - 09:00　ホワイトサンドビーチでのんびり、または離島ツアー
@@ -132,6 +134,7 @@ excerpt: "プーケットに次ぐタイ第2の広さを誇るチャン島。ジ
 **2日目（チャン島泊）**
 - 08:00　パタヤのホテルから乗合バン＋フェリーでチャン島へ（所要5〜6時間、アオ・タマチャート埠頭でフェリーに乗り換え）
 - 14:00　チャン島着。[White Sand Beach Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D85648)にチェックイン（ホワイトサンドビーチ沿いのリゾート）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D85648" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/85648/0/b26ceacfe0e1458c3634ee6cdda8ba5f.jpeg?va=1&ce=3&s=1024x768" alt="White Sand Beach Resort" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **3日目（終日フリー）**
 - 09:00　ホワイトサンドビーチでのんびり、または離島ツアー
@@ -163,6 +166,7 @@ excerpt: "プーケットに次ぐタイ第2の広さを誇るチャン島。ジ
 **2日目（チャン島泊）**
 - 08:00　パタヤのホテルから乗合バン＋フェリーでチャン島へ（所要5〜6時間、アオ・タマチャート埠頭でフェリーに乗り換え）
 - 14:00　チャン島着。[White Sand Beach Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D85648)にチェックイン（ホワイトサンドビーチ沿いのリゾート）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D85648" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/85648/0/b26ceacfe0e1458c3634ee6cdda8ba5f.jpeg?va=1&ce=3&s=1024x768" alt="White Sand Beach Resort" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **3日目（終日フリー）**
 - 09:00　ホワイトサンドビーチでのんびり、または離島ツアー
@@ -198,6 +202,7 @@ excerpt: "プーケットに次ぐタイ第2の広さを誇るチャン島。ジ
 - 13:00頃　車で埠頭へ移動（約20分）
 - 13:40頃　フェリーでチャン島へ（約40分）
 - 14:20頃　チャン島着。[KC Grande Resort & Spa](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D63169)にチェックイン
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D63169" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/63169/0/54905ca00af93db7e9168a27be0652fe.jpeg?va=1&ce=2&s=1024x768" alt="KC Grande Resort & Spa" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **3日目（終日フリー）**
 - 09:00　ホワイトサンドビーチでのんびり、または離島ツアー
@@ -233,6 +238,7 @@ excerpt: "プーケットに次ぐタイ第2の広さを誇るチャン島。ジ
 - 13:00頃　車で埠頭へ移動（約20分）
 - 13:40頃　フェリーでチャン島へ（約40分）
 - 14:20頃　チャン島着。[KC Grande Resort & Spa](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D63169)にチェックイン
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D63169" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/63169/0/54905ca00af93db7e9168a27be0652fe.jpeg?va=1&ce=2&s=1024x768" alt="KC Grande Resort & Spa" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **3日目（終日フリー）**
 - 09:00　ホワイトサンドビーチでのんびり、または離島ツアー

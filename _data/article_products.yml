@@ -323,6 +323,18 @@ gili-air-guide:
       reason: "シュノーケリングやビーチの撮影に"
       status: active
 
+gili-meno-guide:
+  heading: "持っていくと便利なもの"
+  items:
+    - product_id: water-shoes
+      order: 1
+      reason: "遠浅のビーチも海中アートスポットのシュノーケリングもこれ一足で"
+      status: active
+    - product_id: waterproof-phone-case
+      order: 2
+      reason: "シュノーケリングやビーチの撮影に"
+      status: active
+
 perhentian-guide:
   heading: "持っていくと便利なもの"
   items:

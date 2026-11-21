@@ -56,6 +56,7 @@ excerpt: "世界最大のトカゲ、コモドドラゴンが野生で暮らす�
 - 07:00頃　デンパサール発（Batik Air、約1時間15分）
 - 08:15頃　ラブアンバジョ着
 - 車で町なかへ、[Kokomodo Kostel](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D60615009)にチェックイン（町なかの安宿）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D60615009" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/60615009/0/b406597c9a184a7acf51174ed814c502.jpg?va=1&ce=3&s=1024x768" alt="Kokomodo Kostel" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 午後　ラブアンバジョの町を散策、夕方は港周辺でサンセットを鑑賞
 
 **3日目**
@@ -89,6 +90,7 @@ excerpt: "世界最大のトカゲ、コモドドラゴンが野生で暮らす�
 - 07:00頃　デンパサール発（Batik Air、約1時間15分）
 - 08:15頃　ラブアンバジョ着
 - 車で町なかへ、[Kokomodo Kostel](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D60615009)にチェックイン（町なかの安宿）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D60615009" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/60615009/0/b406597c9a184a7acf51174ed814c502.jpg?va=1&ce=3&s=1024x768" alt="Kokomodo Kostel" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 午後　ラブアンバジョの町を散策、夕方は港周辺でサンセットを鑑賞
 
 **3日目**
@@ -120,6 +122,7 @@ excerpt: "世界最大のトカゲ、コモドドラゴンが野生で暮らす�
 - 07:00頃　デンパサール発（ガルーダ・インドネシア航空の国内線、約1時間15分）
 - 08:15頃　ラブアンバジョ着
 - 車で町なかへ、[Loccal Collection Hotel](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D22216836)にチェックイン（町の中心部まで徒歩圏内のデザインホテル）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D22216836" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/22216836/0/73b430482336734bad8baacd08851344.jpeg?va=1&ce=2&s=1024x768" alt="Loccal Collection Hotel" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 夕方　港周辺を散策。日没前後には無数のオオコウモリが群れで飛び立つ姿が見られます
 
 **3日目**
@@ -155,6 +158,7 @@ excerpt: "世界最大のトカゲ、コモドドラゴンが野生で暮らす�
 - 07:00頃　デンパサール発（ガルーダ・インドネシア航空の国内線、約1時間15分）
 - 08:15頃　ラブアンバジョ着
 - 車で町なかへ、[Loccal Collection Hotel](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D22216836)にチェックイン（町の中心部まで徒歩圏内のデザインホテル）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D22216836" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/22216836/0/73b430482336734bad8baacd08851344.jpeg?va=1&ce=2&s=1024x768" alt="Loccal Collection Hotel" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 夕方　港周辺を散策。日没前後には無数のオオコウモリが群れで飛び立つ姿が見られます
 
 **3日目**
@@ -188,6 +192,7 @@ excerpt: "世界最大のトカゲ、コモドドラゴンが野生で暮らす�
 - 07:00頃　デンパサール発（ガルーダ・インドネシア航空の国内線、約1時間15分）
 - 08:15頃　ラブアンバジョ着
 - リゾート送迎（空港から約7分）で[Katamaran Hotel & Resort Komodo](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D59823811)へ（ワエチチュビーチの5つ星リゾート）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D59823811" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/59823811/0/d5ec343c2b4073acb9a66c1fcec2c972.jpeg?va=1&ce=2&s=1024x768" alt="Katamaran Hotel & Resort Komodo" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 午後　プライベートビーチ・プールでのんびり
 
 **3日目**
@@ -223,6 +228,7 @@ excerpt: "世界最大のトカゲ、コモドドラゴンが野生で暮らす�
 - 07:00頃　デンパサール発（ガルーダ・インドネシア航空の国内線、約1時間15分）
 - 08:15頃　ラブアンバジョ着
 - リゾート送迎（空港から約7分）で[Katamaran Hotel & Resort Komodo](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D59823811)へ（ワエチチュビーチの5つ星リゾート）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D59823811" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/59823811/0/d5ec343c2b4073acb9a66c1fcec2c972.jpeg?va=1&ce=2&s=1024x768" alt="Katamaran Hotel & Resort Komodo" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 午後　プライベートビーチ・プールでのんびり
 
 **3日目**

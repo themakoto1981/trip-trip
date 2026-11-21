@@ -58,6 +58,7 @@ excerpt: "ジャカルタから日帰りも可能な離島リゾート、パリ�
 - 16:15　シンガポール発（スクートTR270、約1時間55分）
 - 17:10　ジャカルタ着。入国審査・荷物受取に1時間程度みておく
 - 19:00頃　[Aston Pluit Hotel & Residence](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D335359)にチェックイン（プルイット地区）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D335359" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/335359/0/0fcd8fac5243b1fe76095fd3625b96ed.jpeg?va=1&ce=3&s=1024x768" alt="Aston Pluit Hotel & Residence" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **2日目**
 - 07:00　ホテルを出発、Grabカーで発着港（ベイウォークまたはアンチョール）へ
@@ -90,6 +91,7 @@ excerpt: "ジャカルタから日帰りも可能な離島リゾート、パリ�
 
 **2日目**
 - 00:45頃　[Aston Pluit Hotel & Residence](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D335359)にチェックイン（プルイット地区、到着が遅いため仮眠のみ）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D335359" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/335359/0/0fcd8fac5243b1fe76095fd3625b96ed.jpeg?va=1&ce=3&s=1024x768" alt="Aston Pluit Hotel & Residence" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 07:00　ホテルを出発、Grabカーで発着港（ベイウォークまたはアンチョール）へ
 - 08:00　高速船でパリ島へ（所要1〜1.5時間。運が良ければイルカに遭遇することも）
 - 09:30頃〜14:30頃　パシール・プラワンビーチでのんびり、シュノーケリング、マングローブエリアの散策
@@ -118,6 +120,7 @@ excerpt: "ジャカルタから日帰りも可能な離島リゾート、パリ�
 - 10:25　羽田発（ANA NH855、所要7時間50分）
 - 16:15　ジャカルタ着（時差-2時間）。入国審査・荷物受取に1時間程度みておく
 - 18:00頃　[Mercure Convention Center Ancol Jakarta](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D49739)にチェックイン（アンチョール地区、4つ星）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D49739" rel="nofollow"><img src="https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/936246983.jpg?k=bee3f40270ca7280927594b6b56ab8d3e2be415fe9cddaccf09e4da528ef7a52&o=" alt="Mercure Convention Center Ancol Jakarta" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **2日目**
 - 07:00　ホテルを出発、Grabカーで発着港（ベイウォークまたはアンチョール）へ
@@ -142,6 +145,7 @@ ANAに関西発ジャカルタ直行便が無いため、関西発はANAの羽�
 - 10:25　羽田発（ANA NH855、約7時間50分）
 - 16:15　ジャカルタ着（時差-2時間）。入国審査・荷物受取に1時間程度みておく
 - 18:00頃　[Mercure Convention Center Ancol Jakarta](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D49739)にチェックイン（アンチョール地区、4つ星）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D49739" rel="nofollow"><img src="https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/936246983.jpg?k=bee3f40270ca7280927594b6b56ab8d3e2be415fe9cddaccf09e4da528ef7a52&o=" alt="Mercure Convention Center Ancol Jakarta" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **2日目**
 - 07:00　ホテルを出発、Grabカーで発着港（ベイウォークまたはアンチョール）へ
@@ -164,6 +168,7 @@ ANAに関西発ジャカルタ直行便が無いため、関西発はANAの羽�
 - 10:25　羽田発（ANA NH855、約7時間50分）
 - 16:15　ジャカルタ着（時差-2時間）。入国審査・荷物受取に1時間程度みておく
 - 18:00頃　[Mandarin Oriental Jakarta](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D461846)にチェックイン（5つ星。市内中心部のため港までは車で20〜30分ほど）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D461846" rel="nofollow"><img src="https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/753988632.jpg?k=4c5541c9e9f364b7ec12e5bb3e0418adf3a6e102eca7aa85e65d4a141841502b&o=" alt="Mandarin Oriental Jakarta" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **2日目**
 - 07:00　ホテルを出発、Grabカーで発着港（ベイウォークまたはアンチョール）へ
@@ -188,6 +193,7 @@ ANAに関西発ジャカルタ直行便が無いため、関西発はANAの羽�
 - 10:25　羽田発（ANA NH855、約7時間50分）
 - 16:15　ジャカルタ着（時差-2時間）。入国審査・荷物受取に1時間程度みておく
 - 18:00頃　[Mandarin Oriental Jakarta](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D461846)にチェックイン（5つ星。市内中心部のため港までは車で20〜30分ほど）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D461846" rel="nofollow"><img src="https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/753988632.jpg?k=4c5541c9e9f364b7ec12e5bb3e0418adf3a6e102eca7aa85e65d4a141841502b&o=" alt="Mandarin Oriental Jakarta" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **2日目**
 - 07:00　ホテルを出発、Grabカーで発着港（ベイウォークまたはアンチョール）へ

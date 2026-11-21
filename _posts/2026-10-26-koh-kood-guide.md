@@ -54,6 +54,7 @@ excerpt: "カンボジア国境に近いタイ東部の静かな島、コクー�
 **2日目（コクード泊）**
 - 06:00　空港発のミニバン＋フェリー（[12go.asiaで予約可](https://12go.asia/en/travel/bangkok/koh-kood?z=17114820)、島のホテルまで送迎込み）でコクード島へ（所要約7時間）
 - 13:30頃　島着。[Mangrove Bungalow and Restaurant](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D37281143)にチェックイン（クロンチャオビーチ周辺の素朴なバンガロー）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D37281143" rel="nofollow"><img src="https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/643525994.jpg?k=6a769653d3ff2cd746e5005b5964e0cb7096b60ec792c511ceb3f2611ed745c8&o=" alt="Mangrove Bungalow and Restaurant" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - クロンチャオビーチで昼食
 
 **3日目（終日フリー）**
@@ -86,6 +87,7 @@ excerpt: "カンボジア国境に近いタイ東部の静かな島、コクー�
 **2日目（コクード泊）**
 - 06:00　空港発のミニバン＋フェリー（[12go.asiaで予約可](https://12go.asia/en/travel/bangkok/koh-kood?z=17114820)、島のホテルまで送迎込み）でコクード島へ（所要約7時間）
 - 13:30頃　島着。[Mangrove Bungalow and Restaurant](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D37281143)にチェックイン（クロンチャオビーチ周辺の素朴なバンガロー）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D37281143" rel="nofollow"><img src="https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/643525994.jpg?k=6a769653d3ff2cd746e5005b5964e0cb7096b60ec792c511ceb3f2611ed745c8&o=" alt="Mangrove Bungalow and Restaurant" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - クロンチャオビーチで昼食
 
 **3日目（終日フリー）**
@@ -122,6 +124,7 @@ excerpt: "カンボジア国境に近いタイ東部の静かな島、コクー�
 - 13:15頃　乗合ミニバンでレムソク桟橋へ（約1時間）
 - 15:00　レムソク桟橋発のフェリーでコクード島へ（約1時間）
 - 16:30頃　島着。[Koh Kood Beach Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D248041)にチェックイン（ビーチ近くのバンガロー型リゾート）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D248041" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/248041/0/4abcc183c93d557fc2437bbb9453c47d.jpeg?va=1&s=1024x768" alt="Koh Kood Beach Resort" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **3日目（終日フリー）**
 - 09:00　ビーチでのんびり、カヤックやシュノーケリング
@@ -159,6 +162,7 @@ excerpt: "カンボジア国境に近いタイ東部の静かな島、コクー�
 - 13:15頃　乗合ミニバンでレムソク桟橋へ（約1時間）
 - 15:00　レムソク桟橋発のフェリーでコクード島へ（約1時間）
 - 16:30頃　島着。[Koh Kood Beach Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D248041)にチェックイン（ビーチ近くのバンガロー型リゾート）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D248041" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/248041/0/4abcc183c93d557fc2437bbb9453c47d.jpeg?va=1&s=1024x768" alt="Koh Kood Beach Resort" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **3日目（終日フリー）**
 - 09:00　ビーチでのんびり、カヤックやシュノーケリング
@@ -196,6 +200,7 @@ excerpt: "カンボジア国境に近いタイ東部の静かな島、コクー�
 - 13:15頃　専用車でレムソク桟橋へ（約1時間）
 - 15:00　レムソク桟橋発のフェリーでコクード島へ（約1時間）
 - 16:30頃　島着。[Hideout Koh Kood](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D16912268)にチェックイン（クロンヒンベイの隠れ家リゾート）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D16912268" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/16912268/0/f7e9e66db2ec5ed285d1f22b0ec3e26e.jpeg?va=1&ce=2&s=1024x768" alt="Hideout Koh Kood" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **3日目（終日フリー）**
 - 09:00　カヤックでクロンチャオビーチへ渡り、のんびり過ごす
@@ -233,6 +238,7 @@ excerpt: "カンボジア国境に近いタイ東部の静かな島、コクー�
 - 13:15頃　専用車でレムソク桟橋へ（約1時間）
 - 15:00　レムソク桟橋発のフェリーでコクード島へ（約1時間）
 - 16:30頃　島着。[Hideout Koh Kood](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D16912268)にチェックイン（クロンヒンベイの隠れ家リゾート）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D16912268" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/16912268/0/f7e9e66db2ec5ed285d1f22b0ec3e26e.jpeg?va=1&ce=2&s=1024x768" alt="Hideout Koh Kood" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **3日目（終日フリー）**
 - 09:00　カヤックでクロンチャオビーチへ渡り、のんびり過ごす

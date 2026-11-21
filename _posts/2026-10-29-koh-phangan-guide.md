@@ -56,6 +56,7 @@ excerpt: "満月の夜に世界中からパーティー好きが集まるフル�
 **3日目（パンガン泊）**
 - 06:00　空港発のミニバン＋フェリー通し券（[12go.asiaで予約可](https://12go.asia/en/travel/bangkok/koh-phangan?z=17114820)、スラートターニー経由）でパンガン島へ（所要約9〜10時間）
 - 15:30頃　島着。[So Good Haad Rin Hostel](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D88362570)にチェックイン（ハートリンビーチ沿いのホステル）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D88362570" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/88362570/0/f1ee8ad9360ebcbcefb345a957a3a8c2.jpeg?va=1&ce=3&s=1024x768" alt="So Good Haad Rin Hostel" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 午後　ハートリンビーチでのんびり
 
 **4日目（終日フリー）**
@@ -83,6 +84,7 @@ excerpt: "満月の夜に世界中からパーティー好きが集まるフル�
 **2日目（パンガン泊）**
 - 06:00　空港発のミニバン＋フェリー通し券（[12go.asiaで予約可](https://12go.asia/en/travel/bangkok/koh-phangan?z=17114820)、スラートターニー経由）でパンガン島へ（所要約9〜10時間）
 - 15:30頃　島着。[So Good Haad Rin Hostel](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D88362570)にチェックイン（ハートリンビーチ沿いのホステル）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D88362570" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/88362570/0/f1ee8ad9360ebcbcefb345a957a3a8c2.jpeg?va=1&ce=3&s=1024x768" alt="So Good Haad Rin Hostel" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 午後　ハートリンビーチでのんびり
 
 **3日目（終日フリー）**
@@ -114,6 +116,7 @@ excerpt: "満月の夜に世界中からパーティー好きが集まるフル�
 - 09:30頃　空港からタクシーでバンラック桟橋へ（約15分）
 - 10:30　バンラック桟橋発のLomprayahフェリーでパンガン島へ（約30分）
 - 11:15頃　島着。[Haad Yao Bayview Resort & Spa](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D43987)にチェックイン（西海岸ハートヨー、トンサラ桟橋から車で約15分）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D43987" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/43987/0/cd0a20babf65e0bb9912170645a2eb34.jpeg?va=1&s=1024x768" alt="Haad Yao Bayview Resort & Spa" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **3日目（終日フリー）**
 - 09:00　ホテル前のハートヨービーチでのんびり、シュノーケリング
@@ -150,6 +153,7 @@ excerpt: "満月の夜に世界中からパーティー好きが集まるフル�
 - 09:30頃　空港からタクシーでバンラック桟橋へ（約15分）
 - 10:30　バンラック桟橋発のLomprayahフェリーでパンガン島へ（約30分）
 - 11:15頃　島着。[Haad Yao Bayview Resort & Spa](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D43987)にチェックイン（西海岸ハートヨー、トンサラ桟橋から車で約15分）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D43987" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/43987/0/cd0a20babf65e0bb9912170645a2eb34.jpeg?va=1&s=1024x768" alt="Haad Yao Bayview Resort & Spa" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **3日目（終日フリー）**
 - 09:00　ホテル前のハートヨービーチでのんびり、シュノーケリング
@@ -185,6 +189,7 @@ excerpt: "満月の夜に世界中からパーティー好きが集まるフル�
 - 09:05　サムイ着
 - 09:30頃　リゾート手配のプライベート送迎（車＋スピードボート）でパンガン島東海岸へ（所要約1.5時間）
 - 11:00頃　[Anantara Rasananda Koh Phangan](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D301693)にチェックイン（タンナイパンノイビーチの隠れ家リゾート）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D301693" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/301693/0/3ef9ae8704d243aa5d09316a5ec87e5a.jpeg?va=1&ce=3&s=1024x768" alt="Anantara Rasananda Koh Phangan" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **3日目（終日フリー）**
 - 09:00　リゾートのプールやスパでゆったり
@@ -219,6 +224,7 @@ excerpt: "満月の夜に世界中からパーティー好きが集まるフル�
 - 09:05　サムイ着
 - 09:30頃　リゾート手配のプライベート送迎（車＋スピードボート）でパンガン島東海岸へ（所要約1.5時間）
 - 11:00頃　[Anantara Rasananda Koh Phangan](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D301693)にチェックイン（タンナイパンノイビーチの隠れ家リゾート）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D301693" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/301693/0/3ef9ae8704d243aa5d09316a5ec87e5a.jpeg?va=1&ce=3&s=1024x768" alt="Anantara Rasananda Koh Phangan" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **3日目（終日フリー）**
 - 09:00　リゾートのプールやスパでゆったり

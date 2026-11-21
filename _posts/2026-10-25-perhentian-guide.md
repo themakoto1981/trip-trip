@@ -59,6 +59,7 @@ excerpt: "マレーシア半島の東海岸沖、南シナ海に浮かぶ2つの
 **3日目（ペルヘンティアン泊）**
 - 午前　ホテルをチェックアウトし、クアラブス桟橋でマリンパーク保護料を支払って朝のスピードボートでペルヘンティアン島へ（約40分）
 - 昼　島着。[Mimpi Perhentian](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D4136838)にチェックイン（ロングビーチの手頃な宿）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D4136838" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/4136838/0/21011e822f64a61164536032becc949c.jpeg?va=1&ce=3&s=1024x768" alt="Mimpi Perhentian" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 午後　ロングビーチでのんびり、シュノーケリング
 
 **4日目（終日フリー）**
@@ -93,6 +94,7 @@ ZipairはKansai発着のクアラルンプール線を運航していないた�
 **3日目（ペルヘンティアン泊）**
 - 午前　ホテルをチェックアウトし、クアラブス桟橋でマリンパーク保護料を支払って朝のスピードボートでペルヘンティアン島へ（約40分）
 - 昼　島着。[Mimpi Perhentian](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D4136838)にチェックイン（ロングビーチの手頃な宿）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D4136838" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/4136838/0/21011e822f64a61164536032becc949c.jpeg?va=1&ce=3&s=1024x768" alt="Mimpi Perhentian" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 午後　ロングビーチでのんびり、シュノーケリング
 
 **4日目（終日フリー）**
@@ -125,6 +127,7 @@ ZipairはKansai発着のクアラルンプール線を運航していないた�
 **3日目（ペルヘンティアン泊）**
 - 午前　ホテルをチェックアウトし、クアラブス桟橋でマリンパーク保護料を支払って朝のスピードボートでペルヘンティアン島へ（約40分）
 - 昼　島着。[Senja Bay Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D2078644)にチェックイン（コーラルベイの快適なリゾート）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D2078644" rel="nofollow"><img src="https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/92043492.jpg?k=5ccd6c88eba857c00cecf799c09951d4b51f8236896c767f473acc5dfba4bb46&o=" alt="Senja Bay Resort" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 午後　ホテルのビーチでのんびり
 
 **4日目（終日フリー）**
@@ -159,6 +162,7 @@ ANAは関西発着のクアラルンプール線を運航していないため�
 **3日目（ペルヘンティアン泊）**
 - 午前　ホテルをチェックアウトし、クアラブス桟橋でマリンパーク保護料を支払って朝のスピードボートでペルヘンティアン島へ（約40分）
 - 昼　島着。[Senja Bay Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D2078644)にチェックイン（コーラルベイの快適なリゾート）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D2078644" rel="nofollow"><img src="https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/92043492.jpg?k=5ccd6c88eba857c00cecf799c09951d4b51f8236896c767f473acc5dfba4bb46&o=" alt="Senja Bay Resort" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 午後　ホテルのビーチでのんびり
 
 **4日目（終日フリー）**
@@ -191,6 +195,7 @@ ANAは関西発着のクアラルンプール線を運航していないため�
 **3日目（ペルヘンティアン泊）**
 - 午前　ホテルをチェックアウトし、クアラブス桟橋でマリンパーク保護料を支払って朝のスピードボートでペルヘンティアン島へ（約40分）
 - 昼　島着。[Bubu Long Beach Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D94317936)にチェックイン（ロングビーチ沿いの上質リゾート）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D94317936" rel="nofollow"><img src="https://pix8.agoda.net/property/94317936/0/655d2c5e54f7d5668c2343a65d079d72.jpeg?va=1&ce=3&s=1024x768" alt="Bubu Long Beach Resort" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 午後　ビーチフロントのテラスでのんびり
 
 **4日目（終日フリー）**
@@ -225,6 +230,7 @@ ANAは関西発着のクアラルンプール線を運航していないため�
 **3日目（ペルヘンティアン泊）**
 - 午前　ホテルをチェックアウトし、クアラブス桟橋でマリンパーク保護料を支払って朝のスピードボートでペルヘンティアン島へ（約40分）
 - 昼　島着。[Bubu Long Beach Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D94317936)にチェックイン（ロングビーチ沿いの上質リゾート）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D94317936" rel="nofollow"><img src="https://pix8.agoda.net/property/94317936/0/655d2c5e54f7d5668c2343a65d079d72.jpeg?va=1&ce=3&s=1024x768" alt="Bubu Long Beach Resort" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 午後　ビーチフロントのテラスでのんびり
 
 **4日目（終日フリー）**

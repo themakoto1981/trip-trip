@@ -56,6 +56,7 @@ excerpt: "バリ島から高速ボートで約1時間半、車もバイクも走
 **3日目（ギリ・トラワンガン泊）**
 - 09:30　パダンバイから高速ボート（[12go.asiaで予約可](https://12go.asia/en/travel/padang-bai/gili-trawangan?z=17114820)）でギリ・トラワンガン島へ（約1時間半、11:00頃到着。パダンバイ発は8:00台だけでなく9:30発の便もあり、朝イチにこだわらなくてよい）
 - 11:15頃　[Hotel Ombak Sunset](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D251612)にチェックイン
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D251612" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/251612/0/51905ce9c2e22da0c6cc46e697a63eff.jpeg?va=1&ce=3&s=1024x768" alt="Hotel Ombak Sunset" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 夕方　西岸のサンセットポイントで夕日を眺める
 
 **4日目（終日フリー）**
@@ -91,6 +92,7 @@ excerpt: "バリ島から高速ボートで約1時間半、車もバイクも走
 - 00:30頃　[Topi Inn](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D538732)にチェックイン（港まで徒歩圏の宿、仮眠のみ）
 - 09:30　パダンバイから高速ボート（[12go.asiaで予約可](https://12go.asia/en/travel/padang-bai/gili-trawangan?z=17114820)）でギリ・トラワンガン島へ（約1時間半、11:00頃到着）
 - 11:15頃　[Hotel Ombak Sunset](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D251612)にチェックイン
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D251612" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/251612/0/51905ce9c2e22da0c6cc46e697a63eff.jpeg?va=1&ce=3&s=1024x768" alt="Hotel Ombak Sunset" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 夕方　西岸のサンセットポイントで夕日を眺める
 
 **3日目（終日フリー）**
@@ -120,6 +122,7 @@ excerpt: "バリ島から高速ボートで約1時間半、車もバイクも走
 **2日目（ギリ・トラワンガン泊）**
 - 09:30　パダンバイから高速ボート（[12go.asiaで予約可](https://12go.asia/en/travel/padang-bai/gili-trawangan?z=17114820)）でギリ・トラワンガン島へ（約1時間半、11:00頃到着。パダンバイ発は8:00台だけでなく9:30発の便もあり、朝イチにこだわらなくてよい）
 - 11:15頃　[Vila Ombak](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D4355)にチェックイン（ビーチ目の前でプールが2つあるホテル）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D4355" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/4355/0/9233d29255c8c1cb051c5e1d868615a1.jpeg?va=1&ce=3&s=1024x768" alt="Vila Ombak" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 夕方　西岸のサンセットポイントで夕日を眺める
 
 **3日目（終日フリー）**
@@ -148,6 +151,7 @@ JAL＝ガルーダ運航便に関西発の直行便が無いため、関西発�
 **2日目（ギリ・トラワンガン泊）**
 - 09:30　パダンバイから高速ボート（[12go.asiaで予約可](https://12go.asia/en/travel/padang-bai/gili-trawangan?z=17114820)）でギリ・トラワンガン島へ（約1時間半、11:00頃到着）
 - 11:15頃　[Vila Ombak](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D4355)にチェックイン（ビーチ目の前でプールが2つあるホテル）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D4355" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/4355/0/9233d29255c8c1cb051c5e1d868615a1.jpeg?va=1&ce=3&s=1024x768" alt="Vila Ombak" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 夕方　西岸のサンセットポイントで夕日を眺める
 
 **3日目（終日フリー）**
@@ -176,6 +180,7 @@ JAL＝ガルーダ運航便に関西発の直行便が無いため、関西発�
 **2日目（ギリ・トラワンガン泊）**
 - 09:30　パダンバイから高速ボート（[12go.asiaで予約可](https://12go.asia/en/travel/padang-bai/gili-trawangan?z=17114820)）でギリ・トラワンガン島へ（約1時間半、11:00頃到着。パダンバイ発は8:00台だけでなく9:30発の便もあり、朝イチにこだわらなくてよい）
 - 11:15頃　[Pondok Santi Estate](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D306229)にチェックイン（ラグジュアリーヴィラ）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D306229" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/306229/0/24a65ddd42698d78b2d6cff3ab3e84d5.jpeg?va=1&ce=3&s=1024x768" alt="Pondok Santi Estate" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 夕方　西岸のサンセットポイントで夕日を眺める
 
 **3日目（終日フリー）**
@@ -204,6 +209,7 @@ JAL＝ガルーダ運航便に関西発の直行便が無いため、関西発�
 **2日目（ギリ・トラワンガン泊）**
 - 09:30　パダンバイから高速ボート（[12go.asiaで予約可](https://12go.asia/en/travel/padang-bai/gili-trawangan?z=17114820)）でギリ・トラワンガン島へ（約1時間半、11:00頃到着）
 - 11:15頃　[Pondok Santi Estate](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D306229)にチェックイン（ラグジュアリーヴィラ）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D306229" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/306229/0/24a65ddd42698d78b2d6cff3ab3e84d5.jpeg?va=1&ce=3&s=1024x768" alt="Pondok Santi Estate" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 夕方　西岸のサンセットポイントで夕日を眺める
 
 **3日目（終日フリー）**

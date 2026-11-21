@@ -94,6 +94,7 @@ excerpt: "「タイ最後の楽園」と呼ばれる透明度抜群の秘境リ�
 - 11:30　パクバラ発（スピードボート）
 - 13:00頃　リペ島着
 - 13:15頃　[Forra Dive Resort Pattaya Beach](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1120731)に到着、チェックイン（パッタヤビーチのバンガロー、1泊2,000円前後から）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1120731" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/1120731/0/33d322c33dbe2bdb51e66e041dcaea49.jpeg?va=1&ce=3&s=1024x768" alt="Forra Dive Resort Pattaya Beach" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 15:00　島内散策やカヤック体験
 - 18:00　パッタヤビーチ沿いのビーチバーでのんびり
 
@@ -133,6 +134,7 @@ excerpt: "「タイ最後の楽園」と呼ばれる透明度抜群の秘境リ�
 - 11:30　パクバラ発（スピードボート）
 - 13:00頃　リペ島着
 - 13:15頃　[Forra Dive Resort Pattaya Beach](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1120731)に到着、チェックイン（パッタヤビーチのバンガロー、1泊2,000円前後から）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1120731" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/1120731/0/33d322c33dbe2bdb51e66e041dcaea49.jpeg?va=1&ce=3&s=1024x768" alt="Forra Dive Resort Pattaya Beach" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 15:00　島内散策やカヤック体験
 - 18:00　パッタヤビーチ沿いのビーチバーでのんびり
 
@@ -172,6 +174,7 @@ excerpt: "「タイ最後の楽園」と呼ばれる透明度抜群の秘境リ�
 - 11:30　パクバラ発（スピードボート）
 - 13:00頃　リペ島着
 - 13:15頃　[Sita Beach Resort & Spa](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D129587)に到着、チェックイン（パッタヤビーチ沿いの4つ星、シービューの部屋も選べる）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D129587" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/129587/0/4f257cf62efbd285181d7ca84dc806e4.jpeg?va=1&ce=3&s=1024x768" alt="Sita Beach Resort & Spa" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 15:00　島内散策やカヤック体験
 - 18:00　パッタヤビーチ沿いのビーチバーでのんびり
 
@@ -211,6 +214,7 @@ excerpt: "「タイ最後の楽園」と呼ばれる透明度抜群の秘境リ�
 - 11:30　パクバラ発（スピードボート）
 - 13:00頃　リペ島着
 - 13:15頃　[Sita Beach Resort & Spa](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D129587)に到着、チェックイン（パッタヤビーチ沿いの4つ星、シービューの部屋も選べる）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D129587" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/129587/0/4f257cf62efbd285181d7ca84dc806e4.jpeg?va=1&ce=3&s=1024x768" alt="Sita Beach Resort & Spa" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 15:00　島内散策やカヤック体験
 - 18:00　パッタヤビーチ沿いのビーチバーでのんびり
 
@@ -250,6 +254,7 @@ excerpt: "「タイ最後の楽園」と呼ばれる透明度抜群の秘境リ�
 - 11:30　パクバラ発（スピードボート）
 - 13:00頃　リペ島着
 - 13:15頃　[Idyllic Resort Koh Lipe](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D108588)に到着、チェックイン
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D108588" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/108588/0/422394e898e60fbb9a5cf6691cae07ae.jpeg?va=1&ce=3&s=1024x768" alt="Idyllic Resort Koh Lipe" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 15:00　島内散策やカヤック体験
 - 18:00　パッタヤビーチ沿いのビーチバーでのんびり
 
@@ -289,6 +294,7 @@ excerpt: "「タイ最後の楽園」と呼ばれる透明度抜群の秘境リ�
 - 11:30　パクバラ発（スピードボート）
 - 13:00頃　リペ島着
 - 13:15頃　[Idyllic Resort Koh Lipe](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D108588)に到着、チェックイン
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D108588" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/108588/0/422394e898e60fbb9a5cf6691cae07ae.jpeg?va=1&ce=3&s=1024x768" alt="Idyllic Resort Koh Lipe" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 15:00　島内散策やカヤック体験
 - 18:00　パッタヤビーチ沿いのビーチバーでのんびり
 

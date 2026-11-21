@@ -51,6 +51,7 @@ excerpt: "火山が生んだ「火の島」カミギン。海に浮かぶ白い�
 - 09:50　マニラ発（スカイジェット航空、約1時間20分）
 - 11:10　カミギン島（マンバジャオ空港）着
 - 11:30頃　トライシクルでホテルへ移動（約20分）。[Pacos Garden Homestay](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D12425320)にチェックイン
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D12425320" rel="nofollow"><img src="https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/672958840.jpg?k=22fb509f15d511abc9b97b405f881f71a83576f3b1c84716e478982dbd252c3e&o=" alt="Pacos Garden Homestay" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 12:00　近くの食堂でランチ、庭でひと休み
 
 **3日目（終日フリー）**
@@ -85,6 +86,7 @@ excerpt: "火山が生んだ「火の島」カミギン。海に浮かぶ白い�
 - 09:50　マニラ発（スカイジェット航空、約1時間20分）
 - 11:10　カミギン島（マンバジャオ空港）着
 - 11:30頃　トライシクルでホテルへ移動（約20分）。[Pacos Garden Homestay](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D12425320)にチェックイン
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D12425320" rel="nofollow"><img src="https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/672958840.jpg?k=22fb509f15d511abc9b97b405f881f71a83576f3b1c84716e478982dbd252c3e&o=" alt="Pacos Garden Homestay" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 12:00　近くの食堂でランチ、庭でひと休み
 
 **3日目（終日フリー）**
@@ -117,6 +119,7 @@ excerpt: "火山が生んだ「火の島」カミギン。海に浮かぶ白い�
 - 09:50　マニラ発（スカイジェット航空、約1時間20分）
 - 11:10　カミギン島（マンバジャオ空港）着
 - 11:30頃　トライシクルでホテルへ移動（約20分）。[Agoho Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D33077528)にチェックイン
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D33077528" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/33077528/0/cae1eed6e2dc154bd351d85d8e6a1694.jpeg?va=1&ce=3&s=1024x768" alt="Agoho Resort" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 12:00　ビーチ沿いのレストランでランチ
 
 **3日目（終日フリー）**
@@ -153,6 +156,7 @@ ANAの関西発着は運休中のため、関西発はフィリピン航空を�
 - 09:50　マニラ発（スカイジェット航空、約1時間20分）
 - 11:10　カミギン島（マンバジャオ空港）着
 - 11:30頃　トライシクルでホテルへ移動（約20分）。[Agoho Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D33077528)にチェックイン
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D33077528" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/33077528/0/cae1eed6e2dc154bd351d85d8e6a1694.jpeg?va=1&ce=3&s=1024x768" alt="Agoho Resort" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 12:00　ビーチ沿いのレストランでランチ
 
 **3日目（終日フリー）**
@@ -185,6 +189,7 @@ ANAの関西発着は運休中のため、関西発はフィリピン航空を�
 - 09:50　マニラ発（スカイジェット航空、約1時間20分）
 - 11:10　カミギン島（マンバジャオ空港）着
 - 11:30頃　リゾート手配の送迎車でホテルへ移動（約20分）。[Bintana Sa Paraiso](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D3578515)にチェックイン
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D3578515" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/3578515/0/5890777ca53ac3ce2cb349fff3017a1b.jpg?va=1&ce=3&s=1024x768" alt="Bintana Sa Paraiso" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 12:00　リゾートのレストランでランチ
 
 **3日目（終日フリー）**
@@ -221,6 +226,7 @@ ANAの関西発着は運休中のため、関西発はフィリピン航空を�
 - 09:50　マニラ発（スカイジェット航空、約1時間20分）
 - 11:10　カミギン島（マンバジャオ空港）着
 - 11:30頃　リゾート手配の送迎車でホテルへ移動（約20分）。[Bintana Sa Paraiso](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D3578515)にチェックイン
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D3578515" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/3578515/0/5890777ca53ac3ce2cb349fff3017a1b.jpg?va=1&ce=3&s=1024x768" alt="Bintana Sa Paraiso" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 12:00　リゾートのレストランでランチ
 
 **3日目（終日フリー）**

@@ -114,6 +114,7 @@ const ISLAND_OVERRIDES = {
   "komodo-guide": { local: "ラブアンバジョ空港→町：車 約10分", spanKm: 70, center: [-8.6, 119.55], highlightKm: 22 },
   "perhentian-guide": { spanKm: 18, highlightKm: 5 },
   "gili-trawangan-guide": { spanKm: 14, center: [-8.36, 116.06] },
+  "gili-meno-guide": { spanKm: 14, center: [-8.36, 116.06] },
   "gili-air-guide": { spanKm: 14, center: [-8.36, 116.06] },
   "nusa-penida-guide": { spanKm: 36, center: [-8.72, 115.5] },
   "nusa-lembongan-guide": { spanKm: 36, center: [-8.72, 115.5] },
@@ -454,6 +455,7 @@ const ROUTES = {
   "nusa-penida-guide": { from: "成田（関西発はKL乗継）", legs: [L(P.dps, "air", "国際線 直行 約7〜8時間"), L(["サヌール", 115.26, -8.68], "car", "車", "ここで1泊"), D("boat", "高速ボート 約30〜45分")] },
   "nusa-lembongan-guide": { from: "成田（関西発はKL乗継）", legs: [L(P.dps, "air", "国際線 直行 約7〜8時間"), L(["サヌール", 115.26, -8.68], "car", "車", "ここで1泊"), D("boat", "高速ボート 約30分")] },
   "gili-trawangan-guide": { from: "成田（関西発はKL乗継）", legs: [L(P.dps, "air", "国際線 直行 約7〜8時間"), L(["パダンバイ", 115.51, -8.53], "car", "車 1時間半〜2時間", "ここで前泊"), D("boat", "高速ボート 約1時間半")] },
+  "gili-meno-guide": { from: "成田（関西発はKL乗継）", legs: [L(P.dps, "air", "国際線 直行 約7〜8時間"), L(["パダンバイ", 115.51, -8.53], "car", "車"), D("boat", "高速ボート 約2時間")] },
   "gili-air-guide": { from: "成田（関西発はKL乗継）", legs: [L(P.dps, "air", "国際線 直行 約7〜8時間"), L(["パダンバイ", 115.51, -8.53], "car", "車"), D("boat", "高速ボート 約2時間")] },
   "coron-guide": { from: "成田・関西", legs: [L(P.mnl, "air", "国際線 直行 約5時間", "ここで1泊"), D("air", "国内線 約1時間")] },
   "con-dao-guide": { local: "空港→ホテル：タクシー 約10〜15分", from: "成田・関西", legs: [L(P.sgn, "air", "国際線 直行 約6時間", "ここで1泊"), D("air", "国内線 約50分")] },
@@ -474,7 +476,7 @@ const ROUTES = {
   "lombok-guide": { from: "成田（関西発はKL乗継）", legs: [L(P.dps, "air", "国際線 直行 約7時間55分"), D("air", "国内線 約45分＋車 約25分")] },
   "koh-lanta-guide": { from: "成田・羽田・関西", legs: [L(P.bkk, "air", INTL_BKK), L(["クラビ空港", 98.99, 8.10], "air", "国内線 約1時間20分"), D("car", "ミニバン＋車両フェリー 約2.5〜3.5時間")] },
   "pattaya-guide": { from: "成田・羽田・関西", legs: [L(P.bkk, "air", INTL_BKK), D("car", "直行バス 約2時間30分")] },
-  "koh-samet-guide": { from: "成田・羽田・関西", legs: [L(P.bkk, "air", INTL_BKK), L(["バンペー桟橋", 101.44, 12.63], "car", "直行ミニバン 約3時間"), D("boat", "フェリー 約30〜40分")] },
+  "koh-samet-guide": { insetPadS: 6, from: "成田・羽田・関西", legs: [L(P.bkk, "air", INTL_BKK), L(["バンペー桟橋", 101.44, 12.63], "car", "直行ミニバン 約3時間"), D("boat", "フェリー 約30〜40分")] },
   "mui-ne-guide": { from: "成田・関西", legs: [L(P.sgn, "air", "国際線 直行 約6時間", "ここで1泊"), D("car", "バス 約5.5時間")] },
 };
 
@@ -528,20 +530,24 @@ function renderRoute(dest, countries, osm, sp = false) {
   // ---- レイアウト
   const path = ["日本", ...legs.slice(0, -1).filter((l) => l[3] === "air" || l === legs[lastAir]).map((l) => l[0]), shortName];
   const summary = [...new Set(path)].join(" → ");
-  let W, H, MX, MY, MW, MH, IX, IY, IW, IH, titleH = 0, altLines = [];
-  if (sp) {
-    W = 750;
-    // 記事の見出し（行き方）の直下に置く前提で、タイトル・凡例は付けず高さを抑える。
-    // 拡大図は車・船の区間がある行き先だけ（飛行機だけで着く行き先は全体図1枚）。
-    altLines = [...(route.local ? wrapJa(`着いてから　${route.local}`, 34) : []), ...(route.alt ? wrapJa(`※${route.alt}`, 34) : [])];
-    MX = 0; MY = 0; MW = W; MH = 560;
-    IX = 0; IY = MH + 16; IW = W; IH = 560;
-    var footY = (hasLocal ? IY + IH : MH) + 40;
-    H = footY + altLines.length * 30 + 50;
-  } else {
-    W = 1500; H = 1000; MX = 0; MY = 0; MW = W; MH = H;
-    IW = hasLocal ? 720 : 600; IH = hasLocal ? 540 : 450; IX = W - IW; IY = H - IH; // 右下に端まで寄せる（参考：宮古島の地図）
-  }
+  const textW0 = (t, size) => [...(t || "")].reduce((a, ch) => a + (/[\x00-\x7F]/.test(ch) ? 0.58 : 1), 0) * size;
+  // PC・スマホとも1枚のキャンバスに統合：タイトル（左上）・日本から（右上）・凡例（左下）・拡大図（右下）を地図に重ねる
+  // （スマホ版は縦長で文字を大きくしただけの同じ構成）
+  const F = sp ? 1.55 : 1; // タイトル・凡例・注記の文字倍率
+  const W = sp ? 750 : 1500, H = sp ? 1150 : 1000, MX = 0, MY = 0, MW = W, MH = H;
+  const IW = sp ? (hasLocal ? 560 : 450) : (hasLocal ? 720 : 600);
+  const IH = sp ? (hasLocal ? 520 : 400) : (hasLocal ? 540 : 450);
+  const IX = W - IW, IY = H - IH;
+  const extra = [...(route.local ? [`着いてから　${route.local}`] : []), ...(route.alt ? [`※${route.alt}`] : [])];
+  const JBW = Math.max(textW0("日本から", sp ? 26 : 20), textW0(route.from, sp ? 19 : 14)) + 36; // 右上「日本から」札の幅
+  const TBW = sp ? W - JBW - 14 - 40 : 0; // スマホはタイトル箱の幅を固定し、文を折り返す
+  // extra の各行は [文, 太字か]（「着いてから」＝現地移動は太字）
+  const tLines = {
+    sum: sp ? wrapJa(summary, 21) : [summary],
+    extra: extra.flatMap((t) => (sp ? wrapJa(t, 24) : [t]).map((l) => [l, t.startsWith("着いてから")])),
+  };
+  const TBH = sp ? 70 + tLines.sum.length * 32 + tLines.extra.length * 28 + 14 : 84 + extra.length * 20;
+  const LGW = 150 * F, LGH = 124 * F;
 
   // ---- 全体図の範囲（日本は右上の端に置くので、東南アジア側の地点だけで決める）
   const pts = legs.map((l) => [l[1], l[2]]);
@@ -549,23 +555,21 @@ function renderRoute(dest, countries, osm, sp = false) {
   let so = Math.min(...pts.map((p) => p[1])), n = Math.max(...pts.map((p) => p[1]));
   const span = Math.max(e - w, n - so, sp ? 9 : 11);
   const bounds = sp
-    ? { west: w - span * 0.3, east: e + span * 0.45, south: so - span * 0.18, north: n + span * 0.35 }
+    ? { west: w - span * 0.35, east: e + span * 0.4, south: so - span * 0.9, north: n + span * 0.45 }
     : { west: w - span * 0.45, east: e + span * 0.95, south: so - span * 0.4, north: n + span * 0.3 };
-  // 重ねている要素（PC：拡大図・タイトル・凡例／スマホ：日本マーカー）の下に経由地が隠れないよう範囲を広げる
-  // スマホ版で拡大を地図の右下に重ねる場合は、右下の4割ほども空けておく
-  const blocked = sp ? [[MW - 300, 0, MW, 120], ...(hasLocal ? [] : [[MW * 0.42, MH * 0.42, MW, MH]])] : [[IX - 30, IY - 30, W, H], [0, 0, 460, 150], [0, H - 190, 200, H]];
-  for (let k = 0; k < 12; k++) {
+  // 重ねている要素の下に経由地が隠れないよう、隠れる間は範囲を広げる
+  const blocked = [
+    [[IX - 30, IY - 30, W, H], (b) => { b.east += span * 0.25; b.south -= span * 0.25; }],
+    [[0, 0, (sp ? TBW : 460) + 30, TBH + 40], (b) => { b.west -= span * 0.15; b.north += span * 0.15; }],
+    [[0, H - LGH - 70, LGW + 50, H], (b) => { b.west -= span * 0.2; b.south -= span * 0.1; }],
+    [[W - 260, 0, W, 130], (b) => { b.north += span * 0.15; b.east += span * 0.15; }],
+  ];
+  for (let k = 0; k < 16; k++) {
     const pj = makeProj(bounds, MW, MH);
     const hitRect = (r) => pts.some((q) => { const [x, y] = pj(q); return x > r[0] && x < r[2] && y > r[1] && y < r[3]; });
-    if (sp) {
-      if (hitRect(blocked[0])) { bounds.north += span * 0.2; bounds.east += span * 0.15; continue; }
-      if (blocked[1] && hitRect(blocked[1])) { bounds.south -= span * 0.2; bounds.east += span * 0.2; continue; }
-      break;
-    }
-    if (hitRect(blocked[0])) { bounds.east += span * 0.25; bounds.south -= span * 0.25; continue; }
-    if (hitRect(blocked[1])) { bounds.west -= span * 0.15; bounds.north += span * 0.15; continue; }
-    if (hitRect(blocked[2])) { bounds.west -= span * 0.2; bounds.south -= span * 0.1; continue; }
-    break;
+    const hit = blocked.find(([r]) => hitRect(r));
+    if (!hit) break;
+    hit[1](bounds);
   }
   const base = renderBase(bounds, MW, MH, { countries, scale: K.base, cities: [] });
   const proj = base.proj;
@@ -582,6 +586,7 @@ function renderRoute(dest, countries, osm, sp = false) {
     ? { air: "", car: ` stroke-dasharray="15 10"`, boat: ` stroke-dasharray="1 10"` }
     : { air: "", car: ` stroke-dasharray="10 7"`, boat: ` stroke-dasharray="1 7"` };
   const sw = (by, b) => (by === "boat" ? b * 1.5 : b);
+  const overlapArea = (B, boxes) => boxes.reduce((a, Q) => a + Math.max(0, Math.min(B[2], Q[2]) - Math.max(B[0], Q[0])) * Math.max(0, Math.min(B[3], Q[3]) - Math.max(B[1], Q[1])), 0);
   const textW = (t, size) => [...(t || "")].reduce((a, ch) => a + (/[\x00-\x7F]/.test(ch) ? 0.58 : 1), 0) * size;
   const pill = (x, y, label, sub, size, maxW) => {
     const wpx = Math.max(textW(label, size), textW(sub, size * 0.72)) + size * 1.4;
@@ -623,7 +628,8 @@ function renderRoute(dest, countries, osm, sp = false) {
   let labelSvg = "";
   let prev = jp;
   const mainArcs = [];
-  const mainBoxes = [[jb.x - 6, jb.y - 6, jb.x + jb.w + 6, jb.y + jb.h + 6]];
+  // ラベルが避ける領域：日本からの札・タイトル・凡例・拡大図
+  const mainBoxes = [[jb.x - 6, jb.y - 6, jb.x + jb.w + 6, jb.y + jb.h + 6], ...blocked.map(([r]) => [r[0], r[1], r[2] - 20, r[3] - 10])];
   mainLegs.forEach((l, i) => {
     const to = proj([l[1], l[2]]);
     const a = arc(prev, to, i === 0 ? -0.08 : -0.18);
@@ -656,10 +662,10 @@ function renderRoute(dest, countries, osm, sp = false) {
     let iw = Math.min(ib.west, ...insetPts.map((p) => p[0])), ie = Math.max(ib.east, ...insetPts.map((p) => p[0]));
     let is = Math.min(ib.south, ...insetPts.map((p) => p[1])), inn = Math.max(ib.north, ...insetPts.map((p) => p[1]));
     const pw = (ie - iw) * 0.22 + 0.03, ph = (inn - is) * 0.2 + 0.03;
-    insetBounds = { west: iw - pw, east: ie + pw, south: is - ph, north: inn + ph * (sp ? 1.3 : 1.5) };
+    insetBounds = { west: iw - pw, east: ie + pw, south: is - ph * (route.insetPadS || 1.8), north: inn + ph * (sp ? 1.3 : 1.5) };
   }
   const insetName = hasLocal ? `拡大図：${insetStart ? insetStart[0] : ""}〜${shortName}` : `拡大図：${shortName}`;
-  const headH = sp ? 0 : 36; // PCは枠の中に見出し、スマホは枠の上に見出し
+  const headH = sp ? 50 : 36;
   const MAPH = IH - headH;
   const island = renderIsland(dest, osm, IW, MAPH, {
     frame: true, scale: sp ? 1.7 : 1.1, bounds: insetBounds, noTitle: true,
@@ -682,6 +688,8 @@ function renderRoute(dest, countries, osm, sp = false) {
       const inside = (A) => A[0] > 4 && A[1] > 4 && A[2] < IW - 4 && A[3] < MAPH - 4;
       const free = (A) => inside(A) && !boxes.some((B) => over(A, B));
       for (const q of xy) boxes.push([q[0] - 9, q[1] - 9, q[0] + 9, q[1] + 9]);
+      // 凡例と重なる部分（拡大図の座標に直す）もラベルを置かない
+      boxes.push([-IX, H - LGH - 70 - IY - headH, LGW + 60 - IX, H]);
       const arcs = localLegs.map((l, i) => arc(xy[i + off - 1], xy[i + off], -0.12));
       arcs.forEach((a, i) => {
         o += `<path d="${a.d}" fill="none" stroke="${C.route}" stroke-width="${sw(localLegs[i][3], K.lwIn)}" stroke-linecap="round"${dash[localLegs[i][3]]}/>`;
@@ -718,12 +726,15 @@ function renderRoute(dest, countries, osm, sp = false) {
         const l = localLegs[i], sub = i === localLegs.length - 1 ? l[5] : null, size = K.pillIn;
         const wpx = Math.max(textW(l[4], size), textW(sub, size * 0.72)) + size * 1.4, hpx = sub ? size * 2.6 : size * 1.75;
         const at = (t) => [(1 - t) ** 2 * a.p0[0] + 2 * (1 - t) * t * a.c[0] + t * t * a.p2[0], (1 - t) ** 2 * a.p0[1] + 2 * (1 - t) * t * a.c[1] + t * t * a.p2[1]];
-        let best = null;
-        outer: for (const d of [0, 1, -1, 2, -2, 3, -3, 4, -4]) for (const t of [0.5, 0.38, 0.62, 0.26, 0.74]) {
+        let best = null, bestA = Infinity;
+        outer: for (const d of [0, 1, -1, 2, -2, 3, -3, 4, -4, 5, -5, 6, -6, 7, -7]) for (const t of [0.5, 0.38, 0.62, 0.26, 0.74, 0.15, 0.85]) {
           const [px, py] = at(t);
           const cx = px + a.n[0] * d * hpx * 0.95, cy = py + a.n[1] * d * hpx * 0.95;
           const B = [cx - wpx / 2, cy - hpx / 2, cx + wpx / 2, cy + hpx / 2];
-          if (free(B)) { best = [cx, cy, B]; break outer; }
+          if (!inside(B)) continue;
+          const A = overlapArea(B, boxes);
+          if (A < bestA) { bestA = A; best = [cx, cy, B]; }
+          if (A === 0) break outer;
         }
         if (!best) { const [px, py] = at(0.5); best = [px, py, [px - wpx / 2, py - hpx / 2, px + wpx / 2, py + hpx / 2]]; }
         boxes.push(best[2]);
@@ -763,12 +774,16 @@ function renderRoute(dest, countries, osm, sp = false) {
   for (const [a, label] of mainArcs) {
     const wpx = textW(label, K.pill) + K.pill * 1.4, hpx = K.pill * 1.75;
     const at = (t) => [(1 - t) ** 2 * a.p0[0] + 2 * (1 - t) * t * a.c[0] + t * t * a.p2[0], (1 - t) ** 2 * a.p0[1] + 2 * (1 - t) * t * a.c[1] + t * t * a.p2[1]];
-    let best = null;
-    outer: for (const d of [0, 1, -1, 2, -2]) for (const t of [0.5, 0.4, 0.6, 0.3, 0.7]) {
+    // 空いている位置を探し、無ければ重なりが一番少ない位置にする
+    let best = null, bestA = Infinity;
+    for (const d of [0, 1, -1, 2, -2, 3, -3]) for (const t of [0.5, 0.4, 0.6, 0.3, 0.7, 0.2, 0.8]) {
       const [px, py] = at(t);
       const cx = Math.min(Math.max(px + a.n[0] * d * hpx, wpx / 2 + 6), MW - wpx / 2 - 6), cy = py + a.n[1] * d * hpx;
       const B = [cx - wpx / 2, cy - hpx / 2, cx + wpx / 2, cy + hpx / 2];
-      if (B[1] > 4 && B[3] < MH - 4 && !mainBoxes.some((Q) => B[0] < Q[2] && B[2] > Q[0] && B[1] < Q[3] && B[3] > Q[1])) { best = [cx, cy, B]; break outer; }
+      if (B[1] < 4 || B[3] > MH - 4) continue;
+      const A = overlapArea(B, mainBoxes) + Math.abs(d) * 5;
+      if (A < bestA) { bestA = A; best = [cx, cy, B]; }
+      if (A === 0) break;
     }
     if (!best) { const [px, py] = at(0.5); best = [px, py, [px - wpx / 2, py - hpx / 2, px + wpx / 2, py + hpx / 2]]; }
     mainBoxes.push(best[2]);
@@ -778,69 +793,36 @@ function renderRoute(dest, countries, osm, sp = false) {
   const wedge = (x0, y0, x1, y1, y2) => `<path d="M${fmt(x0)} ${fmt(y0)}L${fmt(x1)} ${fmt(y1)}L${fmt(x1)} ${fmt(y2)}Z" fill="#fff" fill-opacity="0.55"/>` +
     `<path d="M${fmt(x1)} ${fmt(y1)}L${fmt(x0)} ${fmt(y0)}L${fmt(x1)} ${fmt(y2)}" fill="none" stroke="#fff" stroke-width="1.5"/>`;
   const fromPt = hasLocal ? [box[0] + box[2], box[1] + box[3] / 2] : [dx, dy];
-  if (!sp) m = m.replace(WEDGE, wedge(fromPt[0], fromPt[1], IX, IY, H));
+  m = m.replace(WEDGE, wedge(fromPt[0], fromPt[1], IX, IY, H));
 
-  // スマホ版で飛行機だけで着く行き先：島の拡大を全体図の右下（ふさがっていれば左下）に端まで寄せて入れる
-  if (sp && !hasLocal) {
-    const hitAny = (B) => mainBoxes.some((Q) => B[0] < Q[2] && B[2] > Q[0] && B[1] < Q[3] && B[3] > Q[1]) ||
-      pts.some((q) => { const [x, y] = proj(q); return x > B[0] - 12 && x < B[2] + 12 && y > B[1] - 12 && y < B[3] + 12; });
-    let cw = 340, ch = 280, cx0 = MW - cw, cy0 = MH - ch, side = "br";
-    search: for (const corner of ["br", "bl"]) {
-      for (const h of [300, 270, 240, 210, 180]) {
-        const w = Math.round(h * 1.2);
-        const [x, y] = corner === "br" ? [MW - w, MH - h] : [0, MH - h];
-        if (!hitAny([x, y, x + w, y + h])) { cw = w; ch = h; cx0 = x; cy0 = y; side = corner; break search; }
-      }
-    }
-    const nm = SHORT_NAMES[dest.slug] || dest.name;
-    const isl = renderIsland(dest, osm, cw, ch, {
-      frame: true, scale: Math.min(1.25, (cw - 36) / (textW(nm, 26) + nm.length * 3)), bounds: ib,
-      overlay: (ip) => { const [x, y] = ip([dest.lng, dest.lat]); return `<circle cx="${fmt(x)}" cy="${fmt(y)}" r="12" fill="none" stroke="${C.dest}" stroke-width="2.5"/><circle cx="${fmt(x)}" cy="${fmt(y)}" r="5" fill="${C.dest}"/>`; },
-    });
-    const edgeX = side === "br" ? cx0 : cx0 + cw;
-    m = m.replace(WEDGE, wedge(dx, dy, edgeX, cy0, MH));
-    m += `<g id="inset-mini" transform="translate(${cx0} ${cy0})"><svg width="${cw}" height="${ch}" viewBox="0 0 ${cw} ${ch}" overflow="hidden">${isl.body}</svg></g>`;
-  }
   m += labelSvg + japanBadge;
 
   // ---- 組み立て
   let g = "";
   const insetSvg = `<g id="inset" transform="translate(${IX} ${IY})"><rect width="${IW}" height="${IH}" fill="#fff"/>` +
-    (sp ? "" : text(18, 27, insetName, { size: 17, fill: C.cityText, font: SERIF, weight: 700, anchor: "start" })) +
+    text(18 * F, 27 * F, insetName, { size: Math.min(17 * F, (IW - 36 * F) / (textW(insetName, 1) * 1.08)), fill: C.cityText, font: SERIF, weight: 700, anchor: "start" }) +
     `<svg x="0" y="${headH}" width="${IW}" height="${MAPH}" viewBox="0 0 ${IW} ${MAPH}" overflow="hidden">${island.body}</svg></g>`;
   const legendItems = [["飛行機", "air"], ["車・バス", "car"], ["船", "boat"]];
-  const note = "所要時間は目安です。便・船の時刻は季節や運航会社で変わります。";
-  if (sp) {
-    g += `<rect width="${W}" height="${H}" fill="${C.panel}"/>`;
-    g += `<svg x="${MX}" y="${MY}" width="${MW}" height="${MH}" viewBox="0 0 ${MW} ${MH}" overflow="hidden">${m}</svg>`;
-    if (hasLocal) {
-      // 引き出し線（全体図の枠 → 拡大図の上辺）
-      g += `<path d="M${fmt(box[0])} ${fmt(MY + box[1] + box[3])}L${IX} ${IY}M${fmt(box[0] + box[2])} ${fmt(MY + box[1] + box[3])}L${IX + IW} ${IY}" fill="none" stroke="${C.route}" stroke-width="1.5" stroke-opacity="0.6"/>`;
-      g += `<rect x="0" y="${MY + MH}" width="${W}" height="${IY - MY - MH}" fill="${C.panel}"/>`;
-      g += insetSvg;
-      g += text(IX + 18, IY + 36, insetName, { size: 25, fill: C.cityText, font: SERIF, weight: 700, anchor: "start", halo: "rgba(255,255,255,0.9)" });
-    }
-    altLines.forEach((l, i) => { g += text(24, footY + i * 30, l, { size: 21, fill: C.cityText, weight: route.local && l.startsWith("着いてから") ? 700 : 500, anchor: "start" }); });
-    const ny = footY + altLines.length * 30;
-    g += text(24, ny, "※所要時間は目安です。時刻は季節・運航会社で変わります。", { size: 19, fill: C.cityText, anchor: "start", weight: 400 });
-    g += text(W - 16, H - 10, "地図データ: Natural Earth / GSHHG", { size: 13, fill: "rgba(75,46,30,0.55)", anchor: "end", weight: 400 });
-  } else {
-    g += m;
-    g += insetSvg;
-    const extra = [...(route.local ? [`着いてから　${route.local}`] : []), ...(route.alt ? [`※${route.alt}`] : [])];
-    const tw = Math.max(330, textW(summary, 14) + 40, ...extra.map((t) => textW(t, 13.5) + 60));
-    const th = 84 + extra.length * 20;
-    g += `<g id="title"><rect x="24" y="24" width="${fmt(tw)}" height="${th}" rx="4" fill="#fff" fill-opacity="0.95"/>` +
-      text(44, 62, `${shortName}への行き方`, { size: 26, fill: C.cityText, weight: 700, anchor: "start" }) +
-      text(44, 90, summary, { size: 14, fill: C.cityText, weight: 400, anchor: "start" }) +
-      extra.map((t, i) => text(44, 112 + i * 20, t, { size: 13, fill: C.cityText, weight: t.startsWith("着いてから") ? 700 : 400, anchor: "start" })).join("") + `</g>`;
-    const lx = 24, ly = H - 170;
-    g += `<g id="legend"><rect x="${lx}" y="${ly}" width="150" height="124" rx="4" fill="#fff" fill-opacity="0.95"/>` +
-      legendItems.map(([lab, by], i) => `<path d="M${lx + 18} ${ly + 30 + i * 34}h44" fill="none" stroke="${C.route}" stroke-linecap="round" stroke-width="${sw(by, 2.2)}"${dash[by]}/>` +
-        text(lx + 74, ly + 35 + i * 34, lab, { size: 15, fill: C.cityText, anchor: "start", weight: 500 })).join("") + `</g>`;
-    g += text(W - 14, H - 12, note, { size: 12, fill: C.cityText, anchor: "end", weight: 400, halo: "rgba(255,255,255,0.9)" });
-    g += text(30, H - 18, "地図データ: Natural Earth / GSHHG", { size: 11, fill: "rgba(75,46,30,0.55)", anchor: "start", weight: 400 });
-  }
+  const note = sp ? "※所要時間は目安です" : "所要時間は目安です。便・船の時刻は季節や運航会社で変わります。";
+  g += `<svg x="0" y="0" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" overflow="hidden">${m}</svg>`;
+  g += insetSvg;
+  // タイトル（左上）
+  const tw = sp ? TBW : Math.max(330, textW(summary, 14) + 40, ...extra.map((t) => textW(t, 13.5) + 60));
+  let ty = 24 + 38 * F;
+  g += `<g id="title"><rect x="${24 * (sp ? 0.67 : 1)}" y="${24 * (sp ? 0.67 : 1)}" width="${fmt(tw)}" height="${fmt(TBH)}" rx="4" fill="#fff" fill-opacity="0.95"/>` +
+    text(44 * (sp ? 0.75 : 1), ty, `${shortName}への行き方`, { size: Math.min(26 * F, (tw - 50 * (sp ? 0.75 : 1)) / (textW(`${shortName}への行き方`, 1) * 1.08)), fill: C.cityText, weight: 700, anchor: "start" });
+  ty += 28 * F * (sp ? 0.85 : 1);
+  for (const l of tLines.sum) { g += text(44 * (sp ? 0.75 : 1), ty, l, { size: 14 * F, fill: C.cityText, weight: 400, anchor: "start" }); ty += sp ? 32 : 22; }
+  for (const [l, bold] of tLines.extra) { g += text(44 * (sp ? 0.75 : 1), ty, l, { size: 13 * F * (sp ? 0.92 : 1), fill: C.cityText, weight: bold ? 700 : 400, anchor: "start" }); ty += sp ? 28 : 20; }
+  g += `</g>`;
+  // 凡例（左下）
+  const lx = 24 * (sp ? 0.67 : 1), ly = H - LGH - 46 * (sp ? 0.8 : 1);
+  g += `<g id="legend"><rect x="${lx}" y="${fmt(ly)}" width="${fmt(LGW)}" height="${fmt(LGH)}" rx="4" fill="#fff" fill-opacity="0.95"/>` +
+    legendItems.map(([lab, by], i) => `<path d="M${fmt(lx + 18 * F)} ${fmt(ly + (30 + i * 34) * F)}h${fmt(44 * F)}" fill="none" stroke="${C.route}" stroke-linecap="round" stroke-width="${sw(by, 2.2 * F)}"${dash[by]}/>` +
+      text(lx + 74 * F, ly + (35 + i * 34) * F, lab, { size: 15 * F, fill: C.cityText, anchor: "start", weight: 500 })).join("") + `</g>`;
+  // 注記（右下に小さく1行）・出典（左下）
+  g += text(W - 14, H - 12, note, { size: 12 * F, fill: C.cityText, anchor: "end", weight: 400, halo: "rgba(255,255,255,0.9)" });
+  g += text(lx + 6, H - 14, "地図データ: Natural Earth / GSHHG", { size: 11 * (sp ? 1.3 : 1), fill: "rgba(75,46,30,0.55)", anchor: "start", weight: 400 });
   return svgDoc(W, H, g, { title: `${dest.name}への行き方` });
 }
 

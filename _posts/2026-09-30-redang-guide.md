@@ -74,6 +74,7 @@ excerpt: "「マレーシアで一番美しい海」とも称される透明度�
 - 09:00頃　Grabカーで船着場へ移動（約30分）、10:30発のフェリーまで近くで待機
 - 10:30　船着場発のフェリーでレダン島へ（所要約1時間、船着場の定期便は9:00・10:30・15:00発など1日数便）
 - 11:30頃　[Redang De' Rimba Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D869436)にチェックイン
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D869436" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/869436/0/4551a513cc289cf717b58cedbd77e043.jpeg?va=1&ce=2&s=1024x768" alt="Redang De' Rimba Resort" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **3日目（終日フリー）**
 - 09:00　マリンパーク（コーラルガーデン）でシュノーケリングツアー
@@ -110,6 +111,7 @@ excerpt: "「マレーシアで一番美しい海」とも称される透明度�
 - 09:00頃　Grabカーで船着場へ移動（約30分）、10:30発のフェリーまで近くで待機
 - 10:30　船着場発のフェリーでレダン島へ（所要約1時間、船着場の定期便は9:00・10:30・15:00発など1日数便）
 - 11:30頃　[Redang De' Rimba Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D869436)にチェックイン
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D869436" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/869436/0/4551a513cc289cf717b58cedbd77e043.jpeg?va=1&ce=2&s=1024x768" alt="Redang De' Rimba Resort" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **3日目（終日フリー）**
 - 09:00　マリンパーク（コーラルガーデン）でシュノーケリングツアー
@@ -141,6 +143,7 @@ excerpt: "「マレーシアで一番美しい海」とも称される透明度�
 - 09:45頃　Grabカーで船着場へ移動（約30分）、10:30発のフェリーまで近くで待機
 - 10:30　船着場発のフェリーでレダン島へ（所要約1時間、船着場の定期便は9:00・10:30・15:00発など1日数便）
 - 11:30頃　[Laguna Redang Island Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D96173708)にチェックイン（ガーデンビュールームから選べるリゾート）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D96173708" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/300772/0/dfc88804a873ef7066ffaaeabd84782a.jpeg?va=1&ce=2&s=1024x768" alt="Laguna Redang Island Resort" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **2日目（終日フリー）**
 - 09:00　マリンパーク（コーラルガーデン）でシュノーケリングツアー
@@ -178,6 +181,7 @@ ANAは関西発着のクアラルンプール線を運航していないため�
 - 09:00頃　Grabカーで船着場へ移動（約30分）、10:30発のフェリーまで近くで待機
 - 10:30　船着場発のフェリーでレダン島へ（所要約1時間、船着場の定期便は9:00・10:30・15:00発など1日数便）
 - 11:30頃　[Laguna Redang Island Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D96173708)にチェックイン（ガーデンビュールームから選べるリゾート）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D96173708" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/300772/0/dfc88804a873ef7066ffaaeabd84782a.jpeg?va=1&ce=2&s=1024x768" alt="Laguna Redang Island Resort" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **3日目（終日フリー）**
 - 09:00　マリンパーク（コーラルガーデン）でシュノーケリングツアー
@@ -207,6 +211,7 @@ ANAは関西発着のクアラルンプール線を運航していないため�
 - 09:45頃　Grabカーで船着場へ移動（約30分）、10:30発のフェリーまで近くで待機
 - 10:30　船着場発のフェリーでレダン島へ（所要約1時間、船着場の定期便は9:00・10:30・15:00発など1日数便）
 - 11:30頃　[The Taaras Beach & Spa Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D44569)にチェックイン（高級5つ星リゾート）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D44569" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/44569/0/bfd9775c886b8f0760cb5972cf84a928.jpeg?va=1&ce=3&s=1024x768" alt="The Taaras Beach & Spa Resort" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **2日目（終日フリー）**
 - 09:00　マリンパーク（コーラルガーデン）でシュノーケリングツアー
@@ -244,6 +249,7 @@ ANAは関西発着のクアラルンプール線を運航していないため�
 - 09:00頃　Grabカーで船着場へ移動（約30分）、10:30発のフェリーまで近くで待機
 - 10:30　船着場発のフェリーでレダン島へ（所要約1時間、船着場の定期便は9:00・10:30・15:00発など1日数便）
 - 11:30頃　[The Taaras Beach & Spa Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D44569)にチェックイン（高級5つ星リゾート）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D44569" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/44569/0/bfd9775c886b8f0760cb5972cf84a928.jpeg?va=1&ce=3&s=1024x768" alt="The Taaras Beach & Spa Resort" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **3日目（終日フリー）**
 - 09:00　マリンパーク（コーラルガーデン）でシュノーケリングツアー

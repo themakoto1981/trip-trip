@@ -4,6 +4,7 @@ layout: default
 <style>
   .beach-rating-stars { display: flex; gap: 2px; justify-content: flex-end; }
   .beach-rating-na { font-size: 0.75rem; color: var(--sb-brown-soft); }
+  .beach-rating-row-name { display: block; white-space: normal; font-size: 0.72rem; font-weight: 400; color: var(--sb-brown-soft); }
   .beach-rating-value-inline { display: flex; align-items: center; justify-content: flex-end; gap: 0.6rem; }
   .beach-rating-wave-inline { font-size: 0.78rem; color: var(--sb-brown-soft); white-space: nowrap; }
   .beach-rating-detail-box { background: #fff; border: 1px solid var(--sb-border); border-radius: 12px; padding: 0.85rem 1rem; margin: 0.8rem 0 1.5rem; }
@@ -300,10 +301,13 @@ layout: default
       ['誰と行く？', companionText]
     ];
     if (match.beach_name) {
+      // 評価対象のビーチ名を明記しないと、島全体の説明文（サーフィン有名、等）と
+      // 「波なし」等の評価が矛盾しているように読めてしまうため、ここで対象ビーチ名を添える
+      var beachRowLabel = '海の綺麗さ<span class="beach-rating-row-name">（' + match.beach_name + '）</span>';
       var beachRowValue = '<span class="beach-rating-value-inline">' + beachOverallStarsHtml(match) +
         (match.beach_waves ? '<span class="beach-rating-wave-inline">波' + match.beach_waves + '</span>' : '') +
         '</span>';
-      rows.push(['海の綺麗さ', beachRowValue]);
+      rows.push([beachRowLabel, beachRowValue]);
     }
 
     var html = '<div class="quick-facts-list">';

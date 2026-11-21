@@ -208,14 +208,14 @@ bali-guide:
     letter: "ゆ"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D45562"
     image: "https://pix8.agoda.net/hotelImages/45562/0/b718bed681928a698e56f778efc4e182.jpeg?va=1&ce=2&s=1024x768"
-  - name: "Sheraton Bali Kuta Resort"
-    lat: -8.7185098
-    lng: 115.1691262
-    desc: "ビーチ直結の5つ星、らぐ旅向けの夕日スポット"
+  - name: "Four Seasons Resort Bali at Sayan"
+    lat: -8.50152727825842
+    lng: 115.243797188103
+    desc: "らぐ旅向け、ウブド郊外の渓谷を望む一棟貸しヴィラ"
     type: hotel
     letter: "ら"
-    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D407502"
-    image: "https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/612979450.jpg?k=78eea371e3882abe175b7f35a7d6826b19065e7d0fba3149b98fe6b491f384dc&o="
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D48716"
+    image: "https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/83160592.jpg?k=6d0c8a818604f0a31545186425f6adcb74e5146b6fb5ab88877adbad4457a905&o="
 
 koh-lipe-guide:
   - name: パッタヤビーチ
@@ -639,7 +639,7 @@ danang-hoian-guide:
     letter: "ゆ"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D569663"
     image: "https://pix8.agoda.net/hotelImages/569663/0/284b58efefa9b20383d4182b7e704be1.jpeg?va=1&ce=2&s=1024x768"
-  - name: "Naman Retreat Da Nang"
+  - name: "ナマンリトリート（Naman Retreat）"
     lat: 15.96915
     lng: 108.2847535
     desc: "らぐ旅向け、プライベートビーチを備えたウェルネス重視の高級リゾート"

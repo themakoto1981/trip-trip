@@ -53,6 +53,7 @@ excerpt: "「ベトナム最後の楽園」と呼ばれる南シナ海の秘島�
 - 11:05　ホーチミン発（ベトナム航空、約50分）
 - 11:55　コンダオ着
 - 12:10頃　タクシーで中心地へ（約10〜15分）、[Con Dao Guest House](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1810275)にチェックイン
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1810275" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/1810275/0/a6b1e29eb87c68f92c602e12447ca686.jpeg?va=1&ce=0&s=1024x768" alt="Con Dao Guest House" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 12:30　中心地の食堂で昼食
 
 **3日目（終日フリー）**
@@ -81,6 +82,7 @@ excerpt: "「ベトナム最後の楽園」と呼ばれる南シナ海の秘島�
 - 11:05　ホーチミン発（ベトナム航空、約50分）
 - 11:55　コンダオ着
 - 12:10頃　タクシーで中心地へ（約10〜15分）、[Con Dao Guest House](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1810275)にチェックイン
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1810275" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/1810275/0/a6b1e29eb87c68f92c602e12447ca686.jpeg?va=1&ce=0&s=1024x768" alt="Con Dao Guest House" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 12:30　中心地の食堂で昼食
 
 **3日目（終日フリー）**
@@ -111,6 +113,7 @@ excerpt: "「ベトナム最後の楽園」と呼ばれる南シナ海の秘島�
 - 11:05　ホーチミン発（ベトナム航空、約50分）
 - 11:55　コンダオ着
 - 12:10頃　タクシーで中心地へ（約10〜15分）、[Tan Son Nhat Con Dao Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D239657)にチェックイン
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D239657" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/239657/0/35952d7c6061c01b64e7c77a95ac7a6c.jpeg?va=1&s=1024x768" alt="Tan Son Nhat Con Dao Resort" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 12:30　中心地の食堂で昼食
 
 **3日目（終日フリー）**
@@ -142,6 +145,7 @@ excerpt: "「ベトナム最後の楽園」と呼ばれる南シナ海の秘島�
 - 11:05　ホーチミン発（ベトナム航空、約50分）
 - 11:55　コンダオ着
 - 12:10頃　タクシーで中心地へ（約10〜15分）、[Tan Son Nhat Con Dao Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D239657)にチェックイン
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D239657" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/239657/0/35952d7c6061c01b64e7c77a95ac7a6c.jpeg?va=1&s=1024x768" alt="Tan Son Nhat Con Dao Resort" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 12:30　中心地の食堂で昼食
 
 **3日目（終日フリー）**
@@ -173,6 +177,7 @@ excerpt: "「ベトナム最後の楽園」と呼ばれる南シナ海の秘島�
 - 11:05　ホーチミン発（ベトナム航空、約50分）
 - 11:55　コンダオ着
 - 12:15頃　リゾート手配の送迎で[Six Senses Con Dao](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D242025)へ、プライベートプールヴィラにチェックイン
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D242025" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/242025/0/de4074ae9f9ec488fbd8fbb95f42b7bb.jpeg?va=1&ce=3&s=1024x768" alt="Six Senses Con Dao" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 12:45　レストランで昼食
 
 **3日目（終日フリー）**
@@ -205,6 +210,7 @@ excerpt: "「ベトナム最後の楽園」と呼ばれる南シナ海の秘島�
 - 11:05　ホーチミン発（ベトナム航空、約50分）
 - 11:55　コンダオ着
 - 12:15頃　リゾート手配の送迎で[Six Senses Con Dao](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D242025)へ、プライベートプールヴィラにチェックイン
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D242025" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/242025/0/de4074ae9f9ec488fbd8fbb95f42b7bb.jpeg?va=1&ce=3&s=1024x768" alt="Six Senses Con Dao" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 12:45　レストランで昼食
 
 **3日目（終日フリー）**

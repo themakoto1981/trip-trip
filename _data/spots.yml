@@ -30,6 +30,7 @@ boracay-guide:
     type: hotel
     letter: "や"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1156853"
+    image: "https://pix8.agoda.net/hotelImages/1156853/0/532f653b8cf395f4248bde627f262e7d.jpeg?va=1&ce=3&s=1024x768"
   - name: "Le Soleil de Boracay Hotel"
     lat: 11.961494
     lng: 121.924553
@@ -37,6 +38,7 @@ boracay-guide:
     type: hotel
     letter: "ゆ"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D65124"
+    image: "https://pix8.agoda.net/hotelImages/65124/0/80b98d3a40065f44abaa4e0a2398beae.jpeg?va=1&s=1024x768"
   - name: "Shangri-La Boracay Resort"
     lat: 11.9870336
     lng: 121.9072287
@@ -44,6 +46,7 @@ boracay-guide:
     type: hotel
     letter: "ら"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D70401264"
+    image: "https://pix8.agoda.net/property/70401264/0/a4411c746a410ae58724a91606557ba2.jpeg?va=1&ce=3&s=1024x768"
 
 phuket-guide:
   - name: パトンビーチ
@@ -88,6 +91,7 @@ phuket-guide:
     type: hotel
     letter: "や"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D836197"
+    image: "https://pix8.agoda.net/hotelImages/836197/0/d70f5447af6e1b90f1364581c937cdc2.jpeg?va=1&ce=3&s=1024x768"
   - name: "The Crib Patong"
     lat: 7.8920134
     lng: 98.301573
@@ -95,6 +99,7 @@ phuket-guide:
     type: hotel
     letter: "ゆ"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D567170"
+    image: "https://pix8.agoda.net/hotelImages/567170/0/bb405141d9c27e5d6f3cd640e2a0f22f.jpeg?va=1&ce=2&s=1024x768"
   - name: "Diamond Cliff Resort and Spa"
     lat: 7.9092336
     lng: 98.2977152
@@ -102,6 +107,7 @@ phuket-guide:
     type: hotel
     letter: "ら"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D10893"
+    image: "https://pix8.agoda.net/hotelImages/10893/0/5e458797b2e8bcb168076b4444343d41.jpeg?va=1&s=1024x768"
 
 langkawi-guide:
   - name: パンタイ・チェナン
@@ -139,6 +145,7 @@ langkawi-guide:
     type: hotel
     letter: "や"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D4461"
+    image: "https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/141433839.jpg?k=7309b4bb0c844690a29a23c71045cba77c6d387866932b4ff89b2ae29232770c&o="
   - name: "Holiday Villa Beach Resort & Spa Langkawi"
     lat: 6.2738287
     lng: 99.7329462
@@ -146,6 +153,7 @@ langkawi-guide:
     type: hotel
     letter: "ゆ"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D43464"
+    image: "https://pix8.agoda.net/hotelImages/43464/0/af3ecf7004ee25dc21a4e2205e0300f2.jpeg?va=1&ce=2&s=1024x768"
   - name: "Pelangi Beach Resort & Spa Langkawi"
     lat: 6.2993042
     lng: 99.7216732
@@ -153,6 +161,7 @@ langkawi-guide:
     type: hotel
     letter: "ら"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D10442"
+    image: "https://pix8.agoda.net/hotelImages/10442/0/0089a0e0b685208e6c5b12515f0ecd25.jpeg?va=1&ce=2&s=1024x768"
 
 bali-guide:
   - name: クタビーチ
@@ -190,6 +199,7 @@ bali-guide:
     type: hotel
     letter: "や"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1235621"
+    image: "https://pix8.agoda.net/hotelImages/1235621/0/27db796ab17ba7e21ff6809f0f4e6c7c.jpeg?va=1&ce=2&s=1024x768"
   - name: "Ramayana Suites & Resort"
     lat: -8.7247654
     lng: 115.171703
@@ -197,6 +207,7 @@ bali-guide:
     type: hotel
     letter: "ゆ"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D45562"
+    image: "https://pix8.agoda.net/hotelImages/45562/0/b718bed681928a698e56f778efc4e182.jpeg?va=1&ce=2&s=1024x768"
   - name: "Sheraton Bali Kuta Resort"
     lat: -8.7185098
     lng: 115.1691262
@@ -204,6 +215,7 @@ bali-guide:
     type: hotel
     letter: "ら"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D407502"
+    image: "https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/612979450.jpg?k=78eea371e3882abe175b7f35a7d6826b19065e7d0fba3149b98fe6b491f384dc&o="
 
 koh-lipe-guide:
   - name: パッタヤビーチ
@@ -241,6 +253,7 @@ koh-lipe-guide:
     type: hotel
     letter: "や"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1120731"
+    image: "https://pix8.agoda.net/hotelImages/1120731/0/33d322c33dbe2bdb51e66e041dcaea49.jpeg?va=1&ce=3&s=1024x768"
   - name: "Sita Beach Resort & Spa"
     lat: 6.48751
     lng: 99.299377
@@ -248,6 +261,7 @@ koh-lipe-guide:
     type: hotel
     letter: "ゆ"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D129587"
+    image: "https://pix8.agoda.net/hotelImages/129587/0/4f257cf62efbd285181d7ca84dc806e4.jpeg?va=1&ce=3&s=1024x768"
   - name: "Idyllic Resort Koh Lipe"
     lat: 6.481796
     lng: 99.310312
@@ -255,6 +269,7 @@ koh-lipe-guide:
     type: hotel
     letter: "ら"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D108588"
+    image: "https://pix8.agoda.net/hotelImages/108588/0/422394e898e60fbb9a5cf6691cae07ae.jpeg?va=1&ce=3&s=1024x768"
 
 redang-guide:
   - name: パシール・パンジャン（ロングビーチ）
@@ -283,6 +298,7 @@ redang-guide:
     type: hotel
     letter: "や"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D869436"
+    image: "https://pix8.agoda.net/hotelImages/869436/0/4551a513cc289cf717b58cedbd77e043.jpeg?va=1&ce=2&s=1024x768"
   - name: "Laguna Redang Island Resort"
     lat: 5.7706757
     lng: 103.0325481
@@ -290,6 +306,7 @@ redang-guide:
     type: hotel
     letter: "ゆ"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D96173708"
+    image: "https://pix8.agoda.net/hotelImages/300772/0/dfc88804a873ef7066ffaaeabd84782a.jpeg?va=1&ce=2&s=1024x768"
   - name: "The Taaras Beach & Spa Resort"
     lat: 5.7842577
     lng: 103.0140242
@@ -297,6 +314,7 @@ redang-guide:
     type: hotel
     letter: "ら"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D44569"
+    image: "https://pix8.agoda.net/hotelImages/44569/0/bfd9775c886b8f0760cb5972cf84a928.jpeg?va=1&ce=3&s=1024x768"
 
 koh-phiphi-guide:
   - name: トンサイ港
@@ -334,6 +352,7 @@ koh-phiphi-guide:
     type: hotel
     letter: "や"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D290271"
+    image: "https://pix8.agoda.net/hotelImages/290271/0/41ff9d2d033ed2b28e711379c6e0018f.jpeg?va=1&ce=3&s=1024x768"
   - name: "Cabana Hotel Phi Phi"
     lat: 7.739166
     lng: 98.769449
@@ -341,6 +360,7 @@ koh-phiphi-guide:
     type: hotel
     letter: "ゆ"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D10869"
+    image: "https://pix8.agoda.net/hotelImages/10869/0/d6ccbf0aa5af7f43a7bcefa091edcf52.jpeg?va=1&ce=2&s=1024x768"
   - name: "Saii Phi Phi Island Village"
     lat: 7.761246
     lng: 98.772595
@@ -348,6 +368,7 @@ koh-phiphi-guide:
     type: hotel
     letter: "ら"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D15725520"
+    image: "https://pix8.agoda.net/property/15725520/1159720592/ea139259c8d74eeae5661a12cb4d03cd.jpeg?va=1&ce=3&s=1024x768"
 
 koh-chang-guide:
   - name: ホワイトサンドビーチ
@@ -385,6 +406,7 @@ koh-chang-guide:
     type: hotel
     letter: "や"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D271454"
+    image: "https://pix8.agoda.net/hotelImages/271454/0/042cc280695fcc34d567268e8a20398e.jpeg?va=1&ce=3&s=1024x768"
   - name: "White Sand Beach Resort"
     lat: 12.10936
     lng: 102.26815
@@ -392,6 +414,7 @@ koh-chang-guide:
     type: hotel
     letter: "ゆ"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D85648"
+    image: "https://pix8.agoda.net/hotelImages/85648/0/b26ceacfe0e1458c3634ee6cdda8ba5f.jpeg?va=1&ce=3&s=1024x768"
   - name: "KC Grande Resort & Spa"
     lat: 12.110997
     lng: 102.269325
@@ -399,6 +422,7 @@ koh-chang-guide:
     type: hotel
     letter: "ら"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D63169"
+    image: "https://pix8.agoda.net/hotelImages/63169/0/54905ca00af93db7e9168a27be0652fe.jpeg?va=1&ce=2&s=1024x768"
 
 pulau-pari-guide:
   - name: パシール・プラワンビーチ
@@ -422,6 +446,7 @@ pulau-pari-guide:
     type: hotel
     letter: "や"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D335359"
+    image: "https://pix8.agoda.net/hotelImages/335359/0/0fcd8fac5243b1fe76095fd3625b96ed.jpeg?va=1&ce=3&s=1024x768"
   - name: "Mercure Convention Center Ancol Jakarta"
     lat: -6.1226
     lng: 106.8370
@@ -429,6 +454,7 @@ pulau-pari-guide:
     type: hotel
     letter: "ゆ"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D49739"
+    image: "https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/936246983.jpg?k=bee3f40270ca7280927594b6b56ab8d3e2be415fe9cddaccf09e4da528ef7a52&o="
   - name: "Mandarin Oriental Jakarta"
     lat: -6.1944
     lng: 106.8229
@@ -436,6 +462,7 @@ pulau-pari-guide:
     type: hotel
     letter: "ら"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D461846"
+    image: "https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/753988632.jpg?k=4c5541c9e9f364b7ec12e5bb3e0418adf3a6e102eca7aa85e65d4a141841502b&o="
 
 phuquoc-guide:
   - name: サオビーチ
@@ -542,6 +569,7 @@ koh-samui-guide:
     type: hotel
     letter: "や"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D5828751"
+    image: "https://pix8.agoda.net/hotelImages/5828751/0/cd2581655e63156af8d323350fab22ad.jpeg?va=1&ce=2&s=1024x768"
   - name: "Chaweng Garden Beach Resort"
     lat: 9.5308614
     lng: 100.0635826
@@ -549,6 +577,7 @@ koh-samui-guide:
     type: hotel
     letter: "ゆ"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D108775"
+    image: "https://pix8.agoda.net/hotelImages/108775/0/2a634b1438dcd8d15efc3aef1a67c5eb.jpeg?va=1&ce=3&s=1024x768"
   - name: "Four Seasons Resort Koh Samui"
     lat: 9.5735091
     lng: 99.9222519
@@ -556,6 +585,7 @@ koh-samui-guide:
     type: hotel
     letter: "ら"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D344587"
+    image: "https://pix8.agoda.net/hotelImages/344587/-1/cd786a95b8d98c2adf78004125d39de2.jpg?va=1&ca=7&ce=1&s=1024x768"
 
 danang-hoian-guide:
   - name: ミーケービーチ
@@ -600,6 +630,7 @@ danang-hoian-guide:
     type: hotel
     letter: "や"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D31559197"
+    image: "https://pix8.agoda.net/hotelImages/31559197/0/3e0e9ad51b325b0e7baf6da5f5d63fac.jpeg?va=1&ce=2&s=1024x768"
   - name: "A La Carte Danang Beach"
     lat: 16.0687157
     lng: 108.2446388
@@ -607,6 +638,7 @@ danang-hoian-guide:
     type: hotel
     letter: "ゆ"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D569663"
+    image: "https://pix8.agoda.net/hotelImages/569663/0/284b58efefa9b20383d4182b7e704be1.jpeg?va=1&ce=2&s=1024x768"
   - name: "Naman Retreat Da Nang"
     lat: 15.96915
     lng: 108.2847535
@@ -614,6 +646,7 @@ danang-hoian-guide:
     type: hotel
     letter: "ら"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D761550"
+    image: "https://pix8.agoda.net/hotelImages/761550/0/5e1ca2559e68a0a59b4c8f6a1e8ef106.jpeg?va=1&ce=2&s=1024x768"
 
 el-nido-guide:
   - name: ナクパンビーチ
@@ -651,6 +684,7 @@ el-nido-guide:
     type: hotel
     letter: "や"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D984523"
+    image: "https://pix8.agoda.net/hotelImages/984523/0/98bc56e1820d3331db8d07738fce4284.jpeg?va=1&ce=3&s=1024x768"
   - name: "Cadlao Resort & Restaurant"
     lat: 11.1858
     lng: 119.395599
@@ -658,6 +692,7 @@ el-nido-guide:
     type: hotel
     letter: "ゆ"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D39409737"
+    image: "https://pix8.agoda.net/hotelImages/39409737/0/a7f2e5ea50e27471f941c8bc57826997.jpg?va=1&ce=0&s=1024x768"
   - name: "Lagen Island Resort"
     lat: 11.0867
     lng: 119.3984
@@ -665,6 +700,7 @@ el-nido-guide:
     type: hotel
     letter: "ら"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D9713"
+    image: "https://pix8.agoda.net/hotelImages/9713/0/4b592af739080bc513c295e1f632c73c.jpeg?va=1&ce=3&s=1024x768"
 
 nusa-penida-guide:
   - name: ケリンキンビーチ
@@ -719,6 +755,7 @@ nusa-penida-guide:
     type: hotel
     letter: や
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D48703"
+    image: "https://pix8.agoda.net/hotelImages/48703/0/35f4f95782c7515015e7516fcf09bc64.jpeg?va=1&ce=2&s=1024x768"
   - name: Prime Plaza Hotel Sanur
     lat: -8.684323
     lng: 115.259656
@@ -726,6 +763,7 @@ nusa-penida-guide:
     type: hotel
     letter: ゆ
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1251"
+    image: "https://pix8.agoda.net/hotelImages/1251/0/9bb1e38a9663f54d21a3a9d2db76c135.jpeg?va=1&ce=2&s=1024x768"
   - name: Hyatt Regency Bali
     lat: -8.7022119
     lng: 115.2632459
@@ -733,6 +771,7 @@ nusa-penida-guide:
     type: hotel
     letter: ら
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D5500759"
+    image: "https://pix8.agoda.net/hotelImages/5500759/0/d0272a3db9d14a1ed219faf22239d050.jpeg?va=1&ce=2&s=1024x768"
   - name: Semabu Hills Hotel
     lat: -8.6878799
     lng: 115.4928259
@@ -740,12 +779,14 @@ nusa-penida-guide:
     type: hotel
     letter: や
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D2347321"
+    image: "https://pix8.agoda.net/hotelImages/2347321/0/83df95fc105bdc90dd49f75e180e1150.jpeg?va=1&ce=2&s=1024x768"
   - name: Penida Bambu Green Suites
     lat: -8.6905244
     lng: 115.5041054
     desc: 竹造りのヴィラが並ぶ高級ホテル（らぐ旅向け）
     type: hotel
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D23125539"
+    image: "https://pix8.agoda.net/hotelImages/23125539/0/e9a3161bc8509b7dd743bc1edc02952b.jpeg?va=1&ce=3&s=1024x768"
     letter: ら
 
 gili-trawangan-guide:
@@ -789,6 +830,7 @@ gili-trawangan-guide:
     type: hotel
     letter: "や"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D251612"
+    image: "https://pix8.agoda.net/hotelImages/251612/0/51905ce9c2e22da0c6cc46e697a63eff.jpeg?va=1&ce=3&s=1024x768"
   - name: "Vila Ombak"
     lat: -8.358213
     lng: 116.041083
@@ -796,6 +838,7 @@ gili-trawangan-guide:
     type: hotel
     letter: "ゆ"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D4355"
+    image: "https://pix8.agoda.net/hotelImages/4355/0/9233d29255c8c1cb051c5e1d868615a1.jpeg?va=1&ce=3&s=1024x768"
   - name: "Pondok Santi Estate"
     lat: -8.361188
     lng: 116.037018
@@ -803,6 +846,7 @@ gili-trawangan-guide:
     type: hotel
     letter: "ら"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D306229"
+    image: "https://pix8.agoda.net/hotelImages/306229/0/24a65ddd42698d78b2d6cff3ab3e84d5.jpeg?va=1&ce=3&s=1024x768"
 
 cebu-guide:
   - name: マクタン・ニュータウン・ビーチウォーク
@@ -843,6 +887,7 @@ cebu-guide:
     type: hotel
     letter: "や"
     url: "https://www.hostelworld.com/"
+    image: "https://pix8.agoda.net/hotelImages/1199805/-1/416580794169456dc1a2f5803d0568ef.jpg?va=1&ca=12&ce=1&s=1024x768"
   - name: "Bluewater Maribago Beach Resort"
     lat: 10.287528
     lng: 124.00031
@@ -850,6 +895,7 @@ cebu-guide:
     type: hotel
     letter: "ゆ"
     url: "https://www.bluewatermaribago.com.ph/"
+    image: "https://pix8.agoda.net/hotelImages/10526/0/7dd2e93d4850f8d573fa2f091b6f365b.jpg?va=1&ce=3&s=1024x768"
   - name: "Shangri-La's Mactan Resort & Spa"
     lat: 10.3079
     lng: 124.0195
@@ -857,6 +903,7 @@ cebu-guide:
     type: hotel
     letter: "ら"
     url: "https://www.shangri-la.com/cebu/mactanresort/"
+    image: "https://pix8.agoda.net/property/85875405/0/306f211d26eeb0925062c24ad844b8a1.jpeg?va=1&ce=3&s=1024x768"
 
 coron-guide:
   - name: カヤンガン湖
@@ -892,6 +939,7 @@ coron-guide:
     type: hotel
     letter: "や"
     url: "https://www.agoda.com/"
+    image: "https://pix8.agoda.net/hotelImages/984/984058/984058_16020604470039693400.jpg?va=1&ca=6&ce=1&s=1024x768"
   - name: "Kokosnuss Garden Resort"
     lat: 12.0079189
     lng: 120.1996948
@@ -899,6 +947,7 @@ coron-guide:
     type: hotel
     letter: "ゆ"
     url: "https://www.booking.com/"
+    image: "https://pix8.agoda.net/hotelImages/271840/0/175ef3f9cebd5f4955d91a69c0f4082a.jpeg?va=1&ce=3&s=1024x768"
   - name: "Huma Island Resort & Spa"
     lat: 12.0534
     lng: 119.9046
@@ -906,6 +955,7 @@ coron-guide:
     type: hotel
     letter: "ら"
     url: "https://www.humaislandresort.com/"
+    image: "https://pix8.agoda.net/hotelImages/529/529494/529494_17021319250050997076.jpg?va=1&ca=6&ce=1&s=1024x768"
 
 nusa-lembongan-guide:
   - name: マッシュルームベイ
@@ -959,6 +1009,7 @@ nusa-lembongan-guide:
     type: hotel
     letter: や
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D48703"
+    image: "https://pix8.agoda.net/hotelImages/48703/0/35f4f95782c7515015e7516fcf09bc64.jpeg?va=1&ce=2&s=1024x768"
   - name: Prime Plaza Hotel Sanur
     lat: -8.684323
     lng: 115.259656
@@ -966,6 +1017,7 @@ nusa-lembongan-guide:
     type: hotel
     letter: ゆ
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1251"
+    image: "https://pix8.agoda.net/hotelImages/1251/0/9bb1e38a9663f54d21a3a9d2db76c135.jpeg?va=1&ce=2&s=1024x768"
   - name: Hyatt Regency Bali
     lat: -8.7022119
     lng: 115.2632459
@@ -973,6 +1025,7 @@ nusa-lembongan-guide:
     type: hotel
     letter: ら
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D5500759"
+    image: "https://pix8.agoda.net/hotelImages/5500759/0/d0272a3db9d14a1ed219faf22239d050.jpeg?va=1&ce=2&s=1024x768"
 
 koh-tao-guide:
   - name: サイリービーチ
@@ -1010,6 +1063,7 @@ koh-tao-guide:
     type: hotel
     letter: "や"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D564845"
+    image: "https://pix8.agoda.net/hotelImages/564845/-1/fcd06bc06b63b7e0c5d23e3f6bd7f135.jpg?va=1&ca=7&ce=1&s=1024x768"
   - name: "Ban's Diving Resort"
     lat: 10.0936
     lng: 99.8278
@@ -1017,6 +1071,7 @@ koh-tao-guide:
     type: hotel
     letter: "ゆ"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D300564"
+    image: "https://pix8.agoda.net/hotelImages/300564/0/7a87ee361e1be629a38650d449a14c76.jpeg?va=1&ce=2&s=1024x768"
   - name: "Phandara Luxury Villas"
     lat: 10.1060
     lng: 99.8290
@@ -1024,6 +1079,7 @@ koh-tao-guide:
     type: hotel
     letter: "ら"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1163323"
+    image: "https://pix8.agoda.net/hotelImages/116/1163323/1163323_17012718090050626801.jpg?va=1&ca=6&ce=1&s=1024x768"
 
 con-dao-guide:
   - name: プーハイ監獄跡
@@ -1065,6 +1121,7 @@ con-dao-guide:
     type: hotel
     letter: "や"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1810275"
+    image: "https://pix8.agoda.net/hotelImages/1810275/0/a6b1e29eb87c68f92c602e12447ca686.jpeg?va=1&ce=0&s=1024x768"
   - name: "Tan Son Nhat Con Dao Resort"
     lat: 8.6779
     lng: 106.6012
@@ -1072,6 +1129,7 @@ con-dao-guide:
     type: hotel
     letter: "ゆ"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D239657"
+    image: "https://pix8.agoda.net/hotelImages/239657/0/35952d7c6061c01b64e7c77a95ac7a6c.jpeg?va=1&s=1024x768"
   - name: "Six Senses Con Dao"
     lat: 8.7010
     lng: 106.6338
@@ -1079,6 +1137,7 @@ con-dao-guide:
     type: hotel
     letter: "ら"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D242025"
+    image: "https://pix8.agoda.net/hotelImages/242025/0/de4074ae9f9ec488fbd8fbb95f42b7bb.jpeg?va=1&ce=3&s=1024x768"
 
 siargao-guide:
   - name: Cloud 9
@@ -1115,6 +1174,7 @@ siargao-guide:
     type: hotel
     letter: "や"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D479246"
+    image: "https://pix8.agoda.net/hotelImages/479246/0/a28411f2069271c75abc86472d234b40.jpeg?va=1&ce=3&s=1024x768"
   - name: "Tropical Temple Siargao Resort"
     lat: 9.801280
     lng: 126.158310
@@ -1122,6 +1182,7 @@ siargao-guide:
     type: hotel
     letter: "ゆ"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D31317941"
+    image: "https://pix8.agoda.net/hotelImages/31317941/0/4d1c7eba29dc22f7d0c2ef8c031aee73.jpeg?va=1&ce=3&s=1024x768"
   - name: "Dedon Island Resort"
     lat: 9.7577
     lng: 126.1227
@@ -1129,6 +1190,7 @@ siargao-guide:
     type: hotel
     letter: "ら"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D69718714"
+    image: "https://pix8.agoda.net/property/27091020/0/605fccf9223bf2fa6c1bc34defbfd8bf.jpg?va=1&ca=21&ce=0&s=1024x768"
 
 camiguin-guide:
   - name: ホワイトアイランド
@@ -1171,6 +1233,7 @@ camiguin-guide:
     type: hotel
     letter: "や"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D12425320"
+    image: "https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/672958840.jpg?k=22fb509f15d511abc9b97b405f881f71a83576f3b1c84716e478982dbd252c3e&o="
   - name: "Agoho Resort"
     lat: 9.2580
     lng: 124.6950
@@ -1178,6 +1241,7 @@ camiguin-guide:
     type: hotel
     letter: "ゆ"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D33077528"
+    image: "https://pix8.agoda.net/hotelImages/33077528/0/cae1eed6e2dc154bd351d85d8e6a1694.jpeg?va=1&ce=3&s=1024x768"
   - name: "Bintana Sa Paraiso"
     lat: 9.2351
     lng: 124.6492
@@ -1185,6 +1249,7 @@ camiguin-guide:
     type: hotel
     letter: "ら"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D3578515"
+    image: "https://pix8.agoda.net/hotelImages/3578515/0/5890777ca53ac3ce2cb349fff3017a1b.jpg?va=1&ce=3&s=1024x768"
 
 nhatrang-guide:
   - name: チャンフービーチ
@@ -1219,6 +1284,7 @@ nhatrang-guide:
     type: hotel
     letter: "や"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D5945444"
+    image: "https://pix8.agoda.net/hotelImages/5945444/0/5867217d6848038811d18b99b8c684c9.jpeg?va=1&ce=2&s=1024x768"
   - name: "Sunrise Nha Trang Beach Hotel & Spa"
     lat: 12.2367
     lng: 109.1973
@@ -1226,6 +1292,7 @@ nhatrang-guide:
     type: hotel
     letter: "ゆ"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D48363"
+    image: "https://pix8.agoda.net/hotelImages/48363/0/b51a8e6c1726c3b8ca83a7e19dfe370f.jpg?va=1&ce=3&s=1024x768"
   - name: "Vinpearl Resort Nha Trang"
     lat: 12.3650
     lng: 109.3980
@@ -1233,6 +1300,7 @@ nhatrang-guide:
     type: hotel
     letter: "ら"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D65153"
+    image: "https://pix8.agoda.net/hotelImages/65153/0/ad695deb623cd7a7f8b73678cea8deb6.jpeg?va=1&ce=2&s=1024x768"
 
 krabi-guide:
   - name: ライレイ・ウェストビーチ
@@ -1269,6 +1337,7 @@ krabi-guide:
     type: hotel
     letter: "や"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D248101"
+    image: "https://pix8.agoda.net/hotelImages/248101/0/aa74570b397ee73937151cf84f25e529.jpeg?va=1&ce=3&s=1024x768"
   - name: "Anyavee Railay Resort"
     lat: 8.0140
     lng: 98.8355
@@ -1276,6 +1345,7 @@ krabi-guide:
     type: hotel
     letter: "ゆ"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D84514"
+    image: "https://pix8.agoda.net/hotelImages/845/84514/84514_15081710300034393536.jpg?va=1&ca=5&ce=1&s=1024x768"
   - name: "Rayavadee"
     lat: 8.0108
     lng: 98.8378
@@ -1283,6 +1353,7 @@ krabi-guide:
     type: hotel
     letter: "ら"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D10835"
+    image: "https://pix8.agoda.net/hotelImages/10835/0/7c9f4c46a7feec39406d5bb213c9d19a.jpeg?va=1&s=1024x768"
 
 tioman-guide:
   - name: テケック
@@ -1317,6 +1388,7 @@ tioman-guide:
     type: hotel
     letter: "ゆ"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D478364"
+    image: "https://pix8.agoda.net/hotelImages/478364/0/75e180490ca58566554d81edd333a66a.jpeg?va=1&ce=0&s=1024x768"
   - name: "Swiss Cottage Tioman"
     lat: 2.8089
     lng: 104.1583
@@ -1331,6 +1403,7 @@ tioman-guide:
     type: hotel
     letter: "ゆ"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D305851"
+    image: "https://pix8.agoda.net/hotelImages/305851/0/543d8f88d787985f3694f86a536fd9a8.jpeg?va=1&ce=3&s=1024x768"
   - name: "Japamala Resort"
     lat: 2.7206
     lng: 104.1494
@@ -1338,6 +1411,7 @@ tioman-guide:
     type: hotel
     letter: "ら"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D63313"
+    image: "https://pix8.agoda.net/hotelImages/63313/0/205feffa043f6bd4749d64c797450a7a.jpeg?va=1&ce=3&s=1024x768"
 
 gili-air-guide:
   - name: サンセットサイドビーチ
@@ -1540,6 +1614,7 @@ koh-larn-guide:
     type: hotel
     letter: "や"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D5367923"
+    image: "https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/118179034.jpg?k=624a6420c8caf5d2283d2433661e3fc779cb5942c6e9cdcf7ab6c32abc0e53ee&o="
   - name: "Rimtalay Resort Koh Larn"
     lat: 12.930870
     lng: 100.789223
@@ -1547,6 +1622,7 @@ koh-larn-guide:
     type: hotel
     letter: "ゆ"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D7892887"
+    image: "https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/538827532.jpg?k=3cc00afba3a134f61fa253f0c300bb3acef728b5ffe23328114b7106d6b0b831&o="
   - name: "The Castello Resort Koh Larn"
     lat: 12.9170
     lng: 100.7740
@@ -1554,6 +1630,7 @@ koh-larn-guide:
     type: hotel
     letter: "ら"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D755983"
+    image: "https://pix8.agoda.net/hotelImages/755983/0/b7d1519a22355d4b23220940721b4019.jpeg?va=1&ce=3&s=1024x768"
 
 perhentian-guide:
   - name: ロングビーチ
@@ -1590,6 +1667,7 @@ perhentian-guide:
     type: hotel
     letter: "や"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D4136838"
+    image: "https://pix8.agoda.net/hotelImages/4136838/0/21011e822f64a61164536032becc949c.jpeg?va=1&ce=3&s=1024x768"
   - name: "Senja Bay Resort"
     lat: 5.9123
     lng: 102.7171
@@ -1597,6 +1675,7 @@ perhentian-guide:
     type: hotel
     letter: "ゆ"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D2078644"
+    image: "https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/92043492.jpg?k=5ccd6c88eba857c00cecf799c09951d4b51f8236896c767f473acc5dfba4bb46&o="
   - name: "Bubu Long Beach Resort"
     lat: 5.9211
     lng: 102.7223
@@ -1604,6 +1683,7 @@ perhentian-guide:
     type: hotel
     letter: "ら"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D94317936"
+    image: "https://pix8.agoda.net/property/94317936/0/655d2c5e54f7d5668c2343a65d079d72.jpeg?va=1&ce=3&s=1024x768"
 
 koh-kood-guide:
   - name: クロンチャオビーチ
@@ -1682,6 +1762,7 @@ koh-kood-guide:
     type: hotel
     letter: "や"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D37281143"
+    image: "https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/643525994.jpg?k=6a769653d3ff2cd746e5005b5964e0cb7096b60ec792c511ceb3f2611ed745c8&o="
   - name: "Koh Kood Beach Resort"
     lat: 11.6090
     lng: 102.5240
@@ -1689,6 +1770,7 @@ koh-kood-guide:
     type: hotel
     letter: "ゆ"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D248041"
+    image: "https://pix8.agoda.net/hotelImages/248041/0/4abcc183c93d557fc2437bbb9453c47d.jpeg?va=1&s=1024x768"
   - name: "Hideout Koh Kood"
     lat: 11.595964
     lng: 102.547028
@@ -1696,6 +1778,7 @@ koh-kood-guide:
     type: hotel
     letter: "ら"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D16912268"
+    image: "https://pix8.agoda.net/hotelImages/16912268/0/f7e9e66db2ec5ed285d1f22b0ec3e26e.jpeg?va=1&ce=2&s=1024x768"
 
 koh-phangan-guide:
   - name: ハートリンビーチ
@@ -1738,6 +1821,7 @@ koh-phangan-guide:
     type: hotel
     letter: "や"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D88362570"
+    image: "https://pix8.agoda.net/hotelImages/88362570/0/f1ee8ad9360ebcbcefb345a957a3a8c2.jpeg?va=1&ce=3&s=1024x768"
   - name: "Haad Yao Bayview Resort & Spa"
     lat: 9.7635
     lng: 99.9685
@@ -1745,6 +1829,7 @@ koh-phangan-guide:
     type: hotel
     letter: "ゆ"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D43987"
+    image: "https://pix8.agoda.net/hotelImages/43987/0/cd0a20babf65e0bb9912170645a2eb34.jpeg?va=1&s=1024x768"
   - name: "Anantara Rasananda Koh Phangan"
     lat: 9.7815
     lng: 100.0565
@@ -1752,6 +1837,7 @@ koh-phangan-guide:
     type: hotel
     letter: "ら"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D301693"
+    image: "https://pix8.agoda.net/hotelImages/301693/0/3ef9ae8704d243aa5d09316a5ec87e5a.jpeg?va=1&ce=3&s=1024x768"
 
 koh-rong-guide:
   - name: ロングビーチ
@@ -1792,6 +1878,7 @@ koh-rong-guide:
     type: hotel
     letter: "や"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D555321"
+    image: "https://pix8.agoda.net/hotelImages/555321/0/6cf432522b83380c54124c1f88b3f909.jpeg?va=1&ce=0&s=1024x768"
   - name: "Long Beach Resort"
     lat: 10.6705
     lng: 103.2105
@@ -1799,6 +1886,7 @@ koh-rong-guide:
     type: hotel
     letter: "ゆ"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D6529522"
+    image: "https://pix8.agoda.net/hotelImages/6529522/0/e15a02ee02cd796c9071fcecaa0623d8.jpeg?va=1&ce=3&s=1024x768"
   - name: "Song Saa Private Island"
     lat: 10.7300
     lng: 103.2700
@@ -1806,6 +1894,7 @@ koh-rong-guide:
     type: hotel
     letter: "ら"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D302866"
+    image: "https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/183945591.jpg?k=bd2e21d35f77068321f140aa46683d8391be4d22359de38d5dd053357be31b1c&o="
 
 koh-rong-samloem-guide:
   - name: サラセン湾
@@ -1840,6 +1929,7 @@ koh-rong-samloem-guide:
     type: hotel
     letter: "や"
     url: "https://www.booking.com/searchresults.html?ss=Island%20Center%20Point%20Koh%20Rong%20Samloem"
+    image: "https://pix8.agoda.net/hotelImages/37036231/0/f7aeb0a1462eae72d49ea0eb9e184b7c.jpg?va=1&ce=3&s=1024x768"
   - name: "Sol Beach Resort"
     lat: 10.5770
     lng: 103.3040
@@ -1891,6 +1981,7 @@ komodo-guide:
     type: hotel
     letter: "や"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D60615009"
+    image: "https://pix8.agoda.net/hotelImages/60615009/0/b406597c9a184a7acf51174ed814c502.jpg?va=1&ce=3&s=1024x768"
   - name: "Loccal Collection Hotel"
     lat: -8.4843838
     lng: 119.8799942
@@ -1898,6 +1989,7 @@ komodo-guide:
     type: hotel
     letter: "ゆ"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D22216836"
+    image: "https://pix8.agoda.net/hotelImages/22216836/0/73b430482336734bad8baacd08851344.jpeg?va=1&ce=2&s=1024x768"
   - name: "Katamaran Hotel & Resort Komodo"
     lat: -8.4714743
     lng: 119.8766698
@@ -1905,6 +1997,7 @@ komodo-guide:
     type: hotel
     letter: "ら"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D59823811"
+    image: "https://pix8.agoda.net/hotelImages/59823811/0/d5ec343c2b4073acb9a66c1fcec2c972.jpeg?va=1&ce=2&s=1024x768"
 
 pulau-weh-guide:
   - name: イボイビーチ
@@ -1941,6 +2034,7 @@ pulau-weh-guide:
     type: hotel
     letter: "や"
     url: "https://www.booking.com/searchresults.html?ss=Iboih%20Inn%20Pulau%20Weh"
+    image: "https://pix8.agoda.net/hotelImages/246231/0/557453b65ef0dc0511f46a2959280b1e.jpeg?va=1&ce=0&s=1024x768"
   - name: "Freddie's Santai Sumur Tiga"
     lat: 5.8923
     lng: 95.3399
@@ -1948,6 +2042,7 @@ pulau-weh-guide:
     type: hotel
     letter: "ゆ"
     url: "https://www.booking.com/searchresults.html?ss=Freddie%27s%20Santai%20Sumur%20Tiga"
+    image: "https://pix8.agoda.net/hotelImages/98963104/0/3a657d7a65838fdb471406b57fef4715.jpg?va=1&ce=3&s=1024x768"
   - name: "Casa Nemo Beach Resort & Spa"
     lat: 5.8923
     lng: 95.3399
@@ -1955,6 +2050,7 @@ pulau-weh-guide:
     type: hotel
     letter: "ら"
     url: "https://www.booking.com/searchresults.html?ss=Casa%20Nemo%20Beach%20Resort%20%26%20Spa%20Sabang"
+    image: "https://pix8.agoda.net/hotelImages/294791/0/b56bfe25fbad20994c9b311135285267.jpg?va=1&ce=3&s=1024x768"
 bohol-guide:
   - name: アロナビーチ
     lat: 9.5484
@@ -2001,6 +2097,7 @@ bohol-guide:
     type: hotel
     letter: "や"
     url: "https://www.booking.com/searchresults.html?ss=Alona%20Bohol%20Backpackers%20Hostel"
+    image: "https://pix8.agoda.net/hotelImages/46135905/-1/057a321f82e2eae243a8f9d87eb44fbc.jpg?va=1&ce=0&s=1024x768"
   - name: "Henann Resort Alona Beach"
     lat: 9.5504
     lng: 123.7747
@@ -2008,6 +2105,7 @@ bohol-guide:
     type: hotel
     letter: "ゆ"
     url: "https://www.booking.com/searchresults.html?ss=Henann%20Resort%20Alona%20Beach"
+    image: "https://pix8.agoda.net/hotelImages/789537/0/874795c114519d1bc4eccb8ece079c11.jpeg?va=1&ce=2&s=1024x768"
   - name: "Amorita Resort"
     lat: 9.5497
     lng: 123.7775
@@ -2015,6 +2113,7 @@ bohol-guide:
     type: hotel
     letter: "ら"
     url: "https://www.booking.com/searchresults.html?ss=Amorita%20Resort%20Panglao"
+    image: "https://pix8.agoda.net/hotelImages/100099/0/3989fe673d8af9d5dd8180cf25b53d7b.jpeg?va=1&ce=2&s=1024x768"
 
 lombok-guide:
   - name: クタビーチ（ロンボク）
@@ -2058,6 +2157,7 @@ lombok-guide:
     type: hotel
     letter: "や"
     url: "https://www.booking.com/searchresults.html?ss=Mad%20Monkey%20Kuta%20Lombok"
+    image: "https://pix8.agoda.net/hotelImages/28187600/0/5c505ab9d36d15228cbd2e77f7c35860.png?va=1&ce=3&s=1024x768"
   - name: "Novotel Lombok Resort and Villas"
     lat: -8.9034994
     lng: 116.2972509
@@ -2065,6 +2165,7 @@ lombok-guide:
     type: hotel
     letter: "ゆ"
     url: "https://www.booking.com/searchresults.html?ss=Novotel%20Lombok%20Resort%20and%20Villas"
+    image: "https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/934427055.jpg?k=9356f0b5ffa3d70e2fb1abbfdf1e9f72f970c52a93ee6e5ac89a8c45adc5d190&o="
   - name: "Pullman Lombok Merujani Mandalika Beach Resort"
     lat: -8.9008975
     lng: 116.2956278
@@ -2072,6 +2173,7 @@ lombok-guide:
     type: hotel
     letter: "ら"
     url: "https://www.booking.com/searchresults.html?ss=Pullman%20Lombok%20Merujani%20Mandalika%20Beach%20Resort"
+    image: "https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/914990933.jpg?k=33ced10acbd11f578a0976e8cd5274aeda3242374cd128f937c218fb2b4fd9c8&o="
 
 pattaya-guide:
   - name: ジョムティエン・ビーチ
@@ -2091,16 +2193,19 @@ pattaya-guide:
     lng: 100.9000
     desc: "やす旅向け、ジョムティエン・ビーチ徒歩圏のホステル"
     type: hotel
+    image: "https://pix8.agoda.net/hotelImages/287670/0/5ac0a44cb0c40f715c77ef3754385b7a.jpeg?va=1&ce=3&s=1024x768"
   - name: Zand Morada Pattaya
     lat: 12.8558
     lng: 100.9088
     desc: "ゆる旅向け、ナーチョムティアンのビーチフロントホテル"
     type: hotel
+    image: "https://pix8.agoda.net/hotelImages/2011272/0/5594b2fe44b2615f5b55c2c3f8954eb4.jpeg?va=1&s=1024x768"
   - name: The Standard, Pattaya Na Jomtien
     lat: 12.8530
     lng: 100.9095
     desc: "らぐ旅向け、ビーチクラブ併設のデザイナーズホテル"
     type: hotel
+    image: "https://pix8.agoda.net/hotelImages/66231082/0/282560d9ab5efa87f5203ff3bf169ee8.jpeg?va=1&ce=3&s=1024x768"
 
 koh-samet-guide:
   - name: サイケオ・ビーチ
@@ -2131,11 +2236,13 @@ koh-samet-guide:
     lng: 101.4500
     desc: "ゆる旅向け、サイケオ・ビーチ沿いのリゾート"
     type: hotel
+    image: "https://pix8.agoda.net/hotelImages/1/0/dd28c2a17a21c150c8ad53a9d1c8227a.jpeg?va=1&ce=2&s=1024x768"
   - name: Paradee Resort
     lat: 12.5500
     lng: 101.4290
     desc: "らぐ旅向け、アオプラオ・ビーチの高級プールヴィラリゾート"
     type: hotel
+    image: "https://pix8.agoda.net/hotelImages/52153/0/ecd43fba9b5cf664cf1075c922d12493.jpeg?va=1&s=1024x768"
 
 mui-ne-guide:
   - name: 赤砂丘（ドイホン）

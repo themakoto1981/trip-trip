@@ -227,6 +227,26 @@ layout: default
     var nightsMatch = (match.recommended_nights || '').match(/(\d+)/);
     var nights = nightsMatch ? parseInt(nightsMatch[1], 10) : 2;
 
+    // 各プラン（やす旅/ゆる旅/らぐ旅）・各発着（東京/関西）の実際の宿泊数は、経由地泊の有無で
+    // プラン/発着ごとに異なりうるため、共通のnightsではなく旅程見出し自身の「X泊」表記から取得する。
+    // 見出しに該当が無い場合のみ、必要日数の最短値（nights）にフォールバックする
+    var nightsByTierDep = {};
+    document.querySelectorAll('.post-content h2').forEach(function (h) {
+      if (h.textContent.indexOf('おすすめ旅程') === -1) { return; }
+      var headingText = h.textContent;
+      var nMatch = headingText.match(/(\d+)泊/);
+      if (!nMatch) { return; }
+      var n = parseInt(nMatch[1], 10);
+      var dep = headingText.indexOf('関西発') !== -1 ? 'kansai' : 'tokyo';
+      (headingText.match(/やす旅|ゆる旅|らぐ旅/g) || []).forEach(function (tierName) {
+        nightsByTierDep[tierName] = nightsByTierDep[tierName] || {};
+        nightsByTierDep[tierName][dep] = n;
+      });
+    });
+    function nightsFor(tierName, dep) {
+      return (nightsByTierDep[tierName] && nightsByTierDep[tierName][dep] != null) ? nightsByTierDep[tierName][dep] : nights;
+    }
+
     // 宿泊・移動・食費はプランごとに実際の金額を確定値として持つ
     // （yasu_hotel等、destinations.ymlで実在ホテルの相場等をもとに設定）
     var yasuDaily = match.yasu_hotel + match.yasu_transport + match.yasu_food;
@@ -297,28 +317,34 @@ layout: default
       { name: 'ゆる旅', airline: 'ANA・JAL', hotel: 'リゾートのスタンダードルーム' },
       { name: 'らぐ旅', airline: 'ANA・JAL', hotel: 'リゾートのオーシャンビュー' }
     ];
-    function buildBudgetTiers(flightMin, flightMax) {
-      var yasuTotal = flightMin + yasuDaily * nights;
-      var yuruTotal = flightMax + yuruDaily * nights;
-      var raguTotal = flightMax + raguDaily * nights;
+    function buildBudgetTiers(flightMin, flightMax, dep) {
+      var yasuNights = nightsFor('やす旅', dep);
+      var yuruNights = nightsFor('ゆる旅', dep);
+      var raguNights = nightsFor('らぐ旅', dep);
+      var yasuTotal = flightMin + yasuDaily * yasuNights;
+      var yuruTotal = flightMax + yuruDaily * yuruNights;
+      var raguTotal = flightMax + raguDaily * raguNights;
       return [
         ['やす旅',
           yasuTotal.toLocaleString() + '円',
-          '航空券' + flightMin.toLocaleString() + '円 ＋ 宿泊/移動/食費（1泊）' + yasuDaily.toLocaleString() + '円 ×' + nights + '泊',
-          'とにかく費用を抑えて、シンプルに楽しみたい方に。'],
+          '航空券' + flightMin.toLocaleString() + '円 ＋ 宿泊/移動/食費（1泊）' + yasuDaily.toLocaleString() + '円 ×' + yasuNights + '泊',
+          'とにかく費用を抑えて、シンプルに楽しみたい方に。',
+          yasuNights],
         ['ゆる旅',
           yuruTotal.toLocaleString() + '円',
-          '航空券' + flightMax.toLocaleString() + '円 ＋ 宿泊/移動/食費（1泊）' + yuruDaily.toLocaleString() + '円 ×' + nights + '泊',
-          '移動も観光も楽しみながら、バランスよく旅をしたい方に。'],
+          '航空券' + flightMax.toLocaleString() + '円 ＋ 宿泊/移動/食費（1泊）' + yuruDaily.toLocaleString() + '円 ×' + yuruNights + '泊',
+          '移動も観光も楽しみながら、バランスよく旅をしたい方に。',
+          yuruNights],
         ['らぐ旅',
           raguTotal.toLocaleString() + '円',
-          '航空券' + flightMax.toLocaleString() + '円 ＋ 上質な宿泊/食費（1泊）' + raguDaily.toLocaleString() + '円 ×' + nights + '泊',
-          '上質な滞在で、ゆったり贅沢に過ごしたい方に。']
+          '航空券' + flightMax.toLocaleString() + '円 ＋ 上質な宿泊/食費（1泊）' + raguDaily.toLocaleString() + '円 ×' + raguNights + '泊',
+          '上質な滞在で、ゆったり贅沢に過ごしたい方に。',
+          raguNights]
       ];
     }
     var budgetTiersByDep = {
-      tokyo: buildBudgetTiers(match.flight_min, match.flight_max),
-      kansai: buildBudgetTiers(kansaiFlightMin, kansaiFlightMax)
+      tokyo: buildBudgetTiers(match.flight_min, match.flight_max, 'tokyo'),
+      kansai: buildBudgetTiers(kansaiFlightMin, kansaiFlightMax, 'kansai')
     };
     var budgetTiers = budgetTiersByDep.tokyo;
 
@@ -393,7 +419,9 @@ layout: default
         tiersHtml += '<div class="budget-tier-head"><span class="budget-tier-name-row"><span class="budget-tier-dot"></span><span class="budget-tier-name">' + t[0] + '</span></span><span class="budget-tier-desc">' + t[3] + '</span></div>';
       }
       var kt = budgetTiersByDep.kansai[i];
-      tiersHtml += '<div class="budget-tier-price-wrap"><span class="budget-tier-amount-row"><span class="budget-tier-amount" data-tokyo-amount="' + escAttr(t[1]) + '" data-kansai-amount="' + escAttr(kt[1]) + '">' + t[1] + '</span><span class="budget-tier-nights">' + nights + '泊' + (nights + 1) + '日</span></span><div class="budget-tier-breakdown" data-tokyo-breakdown="' + escAttr(t[2]) + '" data-kansai-breakdown="' + escAttr(kt[2]) + '">' + t[2] + '</div></div>';
+      var tokyoNightsText = t[4] + '泊' + (t[4] + 1) + '日';
+      var kansaiNightsText = kt[4] + '泊' + (kt[4] + 1) + '日';
+      tiersHtml += '<div class="budget-tier-price-wrap"><span class="budget-tier-amount-row"><span class="budget-tier-amount" data-tokyo-amount="' + escAttr(t[1]) + '" data-kansai-amount="' + escAttr(kt[1]) + '">' + t[1] + '</span><span class="budget-tier-nights" data-tokyo-nights="' + escAttr(tokyoNightsText) + '" data-kansai-nights="' + escAttr(kansaiNightsText) + '">' + tokyoNightsText + '</span></span><div class="budget-tier-breakdown" data-tokyo-breakdown="' + escAttr(t[2]) + '" data-kansai-breakdown="' + escAttr(kt[2]) + '">' + t[2] + '</div></div>';
       tiersHtml += renderBudgetChips(t[0]);
       if (isSlideTrial) { tiersHtml += '</div>'; }
       tiersHtml += '</div>';
@@ -444,6 +472,10 @@ layout: default
             });
             document.querySelectorAll('.budget-tier-breakdown').forEach(function (el) {
               var v = el.getAttribute('data-' + currentDeparture + '-breakdown');
+              if (v) { el.textContent = v; }
+            });
+            document.querySelectorAll('.budget-tier-nights').forEach(function (el) {
+              var v = el.getAttribute('data-' + currentDeparture + '-nights');
               if (v) { el.textContent = v; }
             });
             departureSwitchCallbacks.forEach(function (cb) { cb(); });

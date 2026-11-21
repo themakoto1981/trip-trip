@@ -514,8 +514,8 @@ function renderRoute(dest, countries, osm, sp = false) {
   const shortName = SHORT_NAMES[dest.slug] || dest.name;
   // 文字・線の大きさ
   const K = sp
-    ? { pill: 25, stop: 28, stopIn: 25, pillIn: 22, dest: 28, jp: 32, from: 21, alt: 19, lw: 3.2, lwIn: 3.4, base: 1.7, short: 230 }
-    : { pill: 17, stop: 19, stopIn: 17, pillIn: 14, dest: 19, jp: 22, from: 14, alt: 13, lw: 2.2, lwIn: 2.4, base: 1.2, short: 170 };
+    ? { pill: 25, stop: 28, stopIn: 30, pillIn: 27, dest: 33, jp: 32, from: 21, alt: 22, lw: 3.2, lwIn: 3.8, base: 1.7, short: 260 }
+    : { pill: 20, stop: 22, stopIn: 24, pillIn: 20, dest: 27, jp: 22, from: 14, alt: 17, lw: 2.4, lwIn: 3, base: 1.3, short: 220 };
   const legs = route.legs.map((l) => (l[0] === null ? [shortName, dest.lng, dest.lat, ...l.slice(3)] : l));
   // 最後の飛行機の到着地点までを全体図、そこから先（車・船）を拡大図に描く
   let lastAir = -1;
@@ -535,12 +535,12 @@ function renderRoute(dest, countries, osm, sp = false) {
     // 拡大図は車・船の区間がある行き先だけ（飛行機だけで着く行き先は全体図1枚）。
     altLines = [...(route.local ? wrapJa(`着いてから　${route.local}`, 34) : []), ...(route.alt ? wrapJa(`※${route.alt}`, 34) : [])];
     MX = 0; MY = 0; MW = W; MH = 560;
-    IX = 20; IY = MH + 24; IW = W - 40; IH = 460;
+    IX = 0; IY = MH + 16; IW = W; IH = 560;
     var footY = (hasLocal ? IY + IH : MH) + 40;
     H = footY + altLines.length * 30 + 50;
   } else {
     W = 1500; H = 1000; MX = 0; MY = 0; MW = W; MH = H;
-    IW = 600; IH = 450; IX = W - IW; IY = H - IH; // 右下に端まで寄せる（参考：宮古島の地図）
+    IW = hasLocal ? 720 : 600; IH = hasLocal ? 540 : 450; IX = W - IW; IY = H - IH; // 右下に端まで寄せる（参考：宮古島の地図）
   }
 
   // ---- 全体図の範囲（日本は右上の端に置くので、東南アジア側の地点だけで決める）
@@ -655,8 +655,8 @@ function renderRoute(dest, countries, osm, sp = false) {
   if (hasLocal) {
     let iw = Math.min(ib.west, ...insetPts.map((p) => p[0])), ie = Math.max(ib.east, ...insetPts.map((p) => p[0]));
     let is = Math.min(ib.south, ...insetPts.map((p) => p[1])), inn = Math.max(ib.north, ...insetPts.map((p) => p[1]));
-    const pw = (ie - iw) * 0.3 + 0.03, ph = (inn - is) * 0.25 + 0.03;
-    insetBounds = { west: iw - pw, east: ie + pw, south: is - ph, north: inn + ph * (sp ? 1.6 : 2.2) };
+    const pw = (ie - iw) * 0.22 + 0.03, ph = (inn - is) * 0.2 + 0.03;
+    insetBounds = { west: iw - pw, east: ie + pw, south: is - ph, north: inn + ph * (sp ? 1.3 : 1.5) };
   }
   const insetName = hasLocal ? `拡大図：${insetStart ? insetStart[0] : ""}〜${shortName}` : `拡大図：${shortName}`;
   const headH = sp ? 0 : 36; // PCは枠の中に見出し、スマホは枠の上に見出し

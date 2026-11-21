@@ -47,6 +47,7 @@ excerpt: "アンダマン海に浮かぶタイ最大の島プーケット。ビ�
 - 19:30　ドンムアン空港発（Thai AirAsia、約1時間25分）
 - 20:55　プーケット着
 - 22:00頃　[C&N Hotel Patong](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D836197)にチェックイン（1部屋約6,000円台から）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D836197" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/836197/0/d70f5447af6e1b90f1364581c937cdc2.jpeg?va=1&ce=3&s=1024x768" alt="C&N Hotel Patong" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **2日目（終日フリー）**
 - 09:00　カタビーチでのんびり、またはパラセーリング・ジェットスキーなどのマリンアクティビティ
@@ -79,6 +80,7 @@ excerpt: "アンダマン海に浮かぶタイ最大の島プーケット。ビ�
 - 19:30　ドンムアン空港発（Thai AirAsia、約1時間25分）
 - 20:55　プーケット着
 - 22:00頃　[C&N Hotel Patong](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D836197)にチェックイン（1部屋約6,000円台から）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D836197" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/836197/0/d70f5447af6e1b90f1364581c937cdc2.jpeg?va=1&ce=3&s=1024x768" alt="C&N Hotel Patong" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **2日目（終日フリー）**
 - 09:00　カタビーチでのんびり、またはパラセーリング・ジェットスキーなどのマリンアクティビティ
@@ -108,6 +110,7 @@ excerpt: "アンダマン海に浮かぶタイ最大の島プーケット。ビ�
 - 19:45　バンコク発（バンコクエアウェイズPG279）
 - 21:15　プーケット着
 - 22:00頃　[The Crib Patong](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D567170)にチェックイン
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D567170" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/567170/0/bb405141d9c27e5d6f3cd640e2a0f22f.jpeg?va=1&ce=2&s=1024x768" alt="The Crib Patong" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **2日目（終日フリー）**
 - 09:00　カタビーチでのんびり、またはパラセーリング・ジェットスキーなどのマリンアクティビティ
@@ -137,6 +140,7 @@ excerpt: "アンダマン海に浮かぶタイ最大の島プーケット。ビ�
 - 19:45　バンコク発（バンコクエアウェイズPG279）
 - 21:15　プーケット着
 - 22:00頃　[The Crib Patong](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D567170)にチェックイン
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D567170" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/567170/0/bb405141d9c27e5d6f3cd640e2a0f22f.jpeg?va=1&ce=2&s=1024x768" alt="The Crib Patong" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **2日目（終日フリー）**
 - 09:00　カタビーチでのんびり、またはパラセーリング・ジェットスキーなどのマリンアクティビティ
@@ -166,6 +170,7 @@ excerpt: "アンダマン海に浮かぶタイ最大の島プーケット。ビ�
 - 19:45　バンコク発（バンコクエアウェイズPG279）
 - 21:15　プーケット着
 - 22:00頃　[Diamond Cliff Resort and Spa](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D10893)にチェックイン（パトンビーチまで徒歩10分）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D10893" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/10893/0/5e458797b2e8bcb168076b4444343d41.jpeg?va=1&s=1024x768" alt="Diamond Cliff Resort and Spa" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **2日目（終日フリー）**
 - 09:00　カタビーチでのんびり、またはパラセーリング・ジェットスキーなどのマリンアクティビティ
@@ -195,6 +200,7 @@ excerpt: "アンダマン海に浮かぶタイ最大の島プーケット。ビ�
 - 19:45　バンコク発（バンコクエアウェイズPG279）
 - 21:15　プーケット着
 - 22:00頃　[Diamond Cliff Resort and Spa](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D10893)にチェックイン（パトンビーチまで徒歩10分）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D10893" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/10893/0/5e458797b2e8bcb168076b4444343d41.jpeg?va=1&s=1024x768" alt="Diamond Cliff Resort and Spa" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **2日目（終日フリー）**
 - 09:00　カタビーチでのんびり、またはパラセーリング・ジェットスキーなどのマリンアクティビティ

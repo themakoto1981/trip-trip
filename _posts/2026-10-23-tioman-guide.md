@@ -53,6 +53,7 @@ excerpt: "マレーシア半島の東海岸沖に浮かぶ、ジャングルと�
 - 朝　ホテルでゆっくり休み、Grabカーで空港からTBSへ移動
 - 15:30　TBS発の長距離バスでメルシンへ（約5時間、[12go.asiaで予約可](https://12go.asia/en/travel/kuala-lumpur/mersing?z=17114820)）
 - 20:30　メルシン着。[Timotel Hotel Mersing](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D478364)に1泊
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D478364" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/478364/0/75e180490ca58566554d81edd333a66a.jpeg?va=1&ce=0&s=1024x768" alt="Timotel Hotel Mersing" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **3日目（ティオマン泊）**
 - メルシンの港からフェリーでティオマン島へ（出航は日によって8:00〜11:00、約1.5〜2時間、[12go.asiaで予約可](https://12go.asia/en/travel/mersing/tioman-island?z=17114820)）
@@ -91,6 +92,7 @@ ZipairはKansai発着のクアラルンプール線を運航していないた�
 - 朝　ホテルでゆっくり休み、Grabカーで空港からTBSへ移動
 - 15:30　TBS発の長距離バスでメルシンへ（約5時間、[12go.asiaで予約可](https://12go.asia/en/travel/kuala-lumpur/mersing?z=17114820)）
 - 20:30　メルシン着。[Timotel Hotel Mersing](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D478364)に1泊
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D478364" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/478364/0/75e180490ca58566554d81edd333a66a.jpeg?va=1&ce=0&s=1024x768" alt="Timotel Hotel Mersing" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **3日目（ティオマン泊）**
 - メルシンの港からフェリーでティオマン島へ（出航は日によって8:00〜11:00、約1.5〜2時間、[12go.asiaで予約可](https://12go.asia/en/travel/mersing/tioman-island?z=17114820)）
@@ -126,10 +128,12 @@ ZipairはKansai発着のクアラルンプール線を運航していないた�
 - 朝　ホテルでゆっくり休み、Grabカーで空港からTBSへ移動
 - 10:00　TBS発の長距離バスでメルシンへ（約5時間、[12go.asiaで予約可](https://12go.asia/en/travel/kuala-lumpur/mersing?z=17114820)）
 - 15:00　メルシン着。[Timotel Hotel Mersing](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D478364)にチェックイン。港周辺を散策して1泊
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D478364" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/478364/0/75e180490ca58566554d81edd333a66a.jpeg?va=1&ce=0&s=1024x768" alt="Timotel Hotel Mersing" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **3日目（ティオマン泊）**
 - メルシンの港からフェリーでティオマン島へ（出航は日によって8:00〜11:00、約1.5〜2時間、[12go.asiaで予約可](https://12go.asia/en/travel/mersing/tioman-island?z=17114820)）
 - 昼　ティオマン島着。[Paya Beach Spa & Dive Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D305851)にチェックイン（宿の目の前の海にサンゴ礁が広がる海沿いのリゾート）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D305851" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/305851/0/543d8f88d787985f3694f86a536fd9a8.jpeg?va=1&ce=3&s=1024x768" alt="Paya Beach Spa & Dive Resort" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - ビーチでランチ、午後はシュノーケリング
 
 **4日目（終日フリー）**
@@ -163,10 +167,12 @@ ANAは関西発着のクアラルンプール線を運航していないため�
 - 朝　ホテルでゆっくり休み、Grabカーで空港からTBSへ移動
 - 10:00　TBS発の長距離バスでメルシンへ（約5時間、[12go.asiaで予約可](https://12go.asia/en/travel/kuala-lumpur/mersing?z=17114820)）
 - 15:00　メルシン着。[Timotel Hotel Mersing](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D478364)にチェックイン。港周辺を散策して1泊
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D478364" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/478364/0/75e180490ca58566554d81edd333a66a.jpeg?va=1&ce=0&s=1024x768" alt="Timotel Hotel Mersing" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **3日目（ティオマン泊）**
 - メルシンの港からフェリーでティオマン島へ（出航は日によって8:00〜11:00、約1.5〜2時間、[12go.asiaで予約可](https://12go.asia/en/travel/mersing/tioman-island?z=17114820)）
 - 昼　ティオマン島着。[Paya Beach Spa & Dive Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D305851)にチェックイン（宿の目の前の海にサンゴ礁が広がる海沿いのリゾート）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D305851" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/305851/0/543d8f88d787985f3694f86a536fd9a8.jpeg?va=1&ce=3&s=1024x768" alt="Paya Beach Spa & Dive Resort" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - ビーチでランチ、午後はシュノーケリング
 
 **4日目（終日フリー）**
@@ -197,10 +203,12 @@ ANAは関西発着のクアラルンプール線を運航していないため�
 - 06:00　クアラルンプール着。入国審査後、GrabカーでTBSへ向かう
 - 10:00　TBS発の長距離バスでメルシンへ（約5時間、[12go.asiaで予約可](https://12go.asia/en/travel/kuala-lumpur/mersing?z=17114820)）
 - 15:00　メルシン着。[Timotel Hotel Mersing](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D478364)にチェックイン。港周辺を散策して1泊
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D478364" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/478364/0/75e180490ca58566554d81edd333a66a.jpeg?va=1&ce=0&s=1024x768" alt="Timotel Hotel Mersing" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **3日目（ティオマン泊）**
 - メルシンの港からフェリーでティオマン島へ（出航は日によって8:00〜11:00、約1.5〜2時間、[12go.asiaで予約可](https://12go.asia/en/travel/mersing/tioman-island?z=17114820)）
 - 昼　ティオマン島着。[Japamala Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D63313)にチェックイン（高級リゾート）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D63313" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/63313/0/205feffa043f6bd4749d64c797450a7a.jpeg?va=1&ce=3&s=1024x768" alt="Japamala Resort" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - ビーチでランチ、午後はプライベート感のあるビーチでのんびり
 
 **4日目（終日フリー）**
@@ -234,10 +242,12 @@ ANAは関西発着のクアラルンプール線を運航していないため�
 - 朝　ホテルでゆっくり休み、GrabカーでTBSへ向かう
 - 10:00　TBS発の長距離バスでメルシンへ（約5時間、[12go.asiaで予約可](https://12go.asia/en/travel/kuala-lumpur/mersing?z=17114820)）
 - 15:00　メルシン着。[Timotel Hotel Mersing](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D478364)にチェックイン。港周辺を散策して1泊
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D478364" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/478364/0/75e180490ca58566554d81edd333a66a.jpeg?va=1&ce=0&s=1024x768" alt="Timotel Hotel Mersing" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **3日目（ティオマン泊）**
 - メルシンの港からフェリーでティオマン島へ（出航は日によって8:00〜11:00、約1.5〜2時間、[12go.asiaで予約可](https://12go.asia/en/travel/mersing/tioman-island?z=17114820)）
 - 昼　ティオマン島着。[Japamala Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D63313)にチェックイン（高級リゾート）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D63313" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/63313/0/205feffa043f6bd4749d64c797450a7a.jpeg?va=1&ce=3&s=1024x768" alt="Japamala Resort" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - ビーチでランチ、午後はプライベート感のあるビーチでのんびり
 
 **4日目（終日フリー）**

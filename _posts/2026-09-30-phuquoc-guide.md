@@ -48,6 +48,7 @@ excerpt: "「アジアNo.1リゾート」とも称されるベトナム最大の
 - 11:00　ホーチミン発（Vietjet Air国内線、約55分）
 - 11:55頃　フーコック着
 - 12:30頃　[Sol by Meliá Phu Quoc](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1266957)にチェックイン（5つ星、1泊9,000円前後から）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1266957" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/1266957/0/2de3ea1e87a9027f7417b1bbbc26c4f5.jpeg?va=1&ce=2&s=1024x768" alt="Sol by Meliá Phu Quoc" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **2日目（終日フリー）**
 - 09:00　ロングビーチでのんびり
@@ -77,6 +78,7 @@ excerpt: "「アジアNo.1リゾート」とも称されるベトナム最大の
 - 15:30　ホーチミン発（Vietjet Air国内線、約55分）
 - 16:25頃　フーコック着
 - 17:00頃　[Sol by Meliá Phu Quoc](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1266957)にチェックイン（5つ星、1泊9,000円前後から）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1266957" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/1266957/0/2de3ea1e87a9027f7417b1bbbc26c4f5.jpeg?va=1&ce=2&s=1024x768" alt="Sol by Meliá Phu Quoc" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **2日目（終日フリー）**
 - 09:00　ロングビーチでのんびり
@@ -104,11 +106,13 @@ excerpt: "「アジアNo.1リゾート」とも称されるベトナム最大の
 - 17:15　羽田発（ANA NH891、約6時間35分）
 - 21:50　ホーチミン着。入国審査・荷物受取に1〜1.5時間ほどみておく
 - 23:30頃　[ibis Saigon Airport](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1602693)にチェックイン（空港から車で約10分、1泊）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1602693" rel="nofollow"><img src="https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/882879280.jpg?k=d18fa7e2b6ebdd1d4790dbc15a1c123b585aae8ba578d537c6ce7a40990a77f1&o=" alt="ibis Saigon Airport" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **2日目（フーコック泊）**
 - 11:45　ホーチミン発（ベトナム航空国内線、約55分）
 - 12:40頃　フーコック着
 - 13:00頃　[Seashells Phu Quoc Hotel & Spa](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D2430159)にチェックイン（ズオンドン中心部）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D2430159" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/2430159/0/6d80b5a63eb6145e78315f6ede929a97.jpeg?va=1&ce=2&s=1024x768" alt="Seashells Phu Quoc Hotel & Spa" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **3日目（終日フリー）**
 - 09:00　ロングビーチでのんびり
@@ -138,6 +142,7 @@ excerpt: "「アジアNo.1リゾート」とも称されるベトナム最大の
 - 16:30　ホーチミン発（ベトナム航空国内線、約55分）
 - 17:25頃　フーコック着
 - 18:00頃　[Seashells Phu Quoc Hotel & Spa](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D2430159)にチェックイン（ズオンドン中心部）。関西発は到着が早いため、ホーチミン泊なしでその日のうちに島入りできる
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D2430159" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/2430159/0/6d80b5a63eb6145e78315f6ede929a97.jpeg?va=1&ce=2&s=1024x768" alt="Seashells Phu Quoc Hotel & Spa" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **2日目（終日フリー）**
 - 09:00　ロングビーチでのんびり
@@ -165,11 +170,13 @@ excerpt: "「アジアNo.1リゾート」とも称されるベトナム最大の
 - 17:15　羽田発（ANA NH891、約6時間35分）
 - 21:50　ホーチミン着。入国審査・荷物受取に1〜1.5時間ほどみておく
 - 23:30頃　[ibis Saigon Airport](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1602693)にチェックイン（空港から車で約10分、1泊）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1602693" rel="nofollow"><img src="https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/882879280.jpg?k=d18fa7e2b6ebdd1d4790dbc15a1c123b585aae8ba578d537c6ce7a40990a77f1&o=" alt="ibis Saigon Airport" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **2日目（フーコック泊）**
 - 11:45　ホーチミン発（ベトナム航空国内線、約55分）
 - 12:40頃　フーコック着
 - 13:00頃　[InterContinental Phu Quoc Long Beach Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D3648660)にチェックイン（ロングビーチ沿いの高級リゾート）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D3648660" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/3648660/0/73d2ea2706b2d12deee89a4f9e8565ee.jpeg?va=1&ce=2&s=1024x768" alt="InterContinental Phu Quoc Long Beach Resort" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **3日目（終日フリー）**
 - 09:00　ロングビーチでのんびり
@@ -199,6 +206,7 @@ excerpt: "「アジアNo.1リゾート」とも称されるベトナム最大の
 - 16:30　ホーチミン発（ベトナム航空国内線、約55分）
 - 17:25頃　フーコック着
 - 18:00頃　[InterContinental Phu Quoc Long Beach Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D3648660)にチェックイン（ロングビーチ沿いの高級リゾート）。関西発は到着が早いため、ホーチミン泊なしでその日のうちに島入りできる
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D3648660" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/3648660/0/73d2ea2706b2d12deee89a4f9e8565ee.jpeg?va=1&ce=2&s=1024x768" alt="InterContinental Phu Quoc Long Beach Resort" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **2日目（終日フリー）**
 - 09:00　ロングビーチでのんびり

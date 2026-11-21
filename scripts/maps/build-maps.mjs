@@ -540,7 +540,7 @@ function renderRoute(dest, countries, osm, sp = false) {
     H = footY + altLines.length * 30 + 50;
   } else {
     W = 1500; H = 1000; MX = 0; MY = 0; MW = W; MH = H;
-    IW = 580; IH = 420; IX = W - IW - 30; IY = H - IH - 46;
+    IW = 600; IH = 450; IX = W - IW; IY = H - IH; // 右下に端まで寄せる（参考：宮古島の地図）
   }
 
   // ---- 全体図の範囲（日本は右上の端に置くので、東南アジア側の地点だけで決める）
@@ -552,11 +552,16 @@ function renderRoute(dest, countries, osm, sp = false) {
     ? { west: w - span * 0.3, east: e + span * 0.45, south: so - span * 0.18, north: n + span * 0.35 }
     : { west: w - span * 0.45, east: e + span * 0.95, south: so - span * 0.4, north: n + span * 0.3 };
   // 重ねている要素（PC：拡大図・タイトル・凡例／スマホ：日本マーカー）の下に経由地が隠れないよう範囲を広げる
-  const blocked = sp ? [[MW - 300, 0, MW, 120]] : [[IX - 30, IY - 30, W, H], [0, 0, 460, 150], [0, H - 190, 200, H]];
+  // スマホ版で拡大を地図の右下に重ねる場合は、右下の4割ほども空けておく
+  const blocked = sp ? [[MW - 300, 0, MW, 120], ...(hasLocal ? [] : [[MW * 0.42, MH * 0.42, MW, MH]])] : [[IX - 30, IY - 30, W, H], [0, 0, 460, 150], [0, H - 190, 200, H]];
   for (let k = 0; k < 12; k++) {
     const pj = makeProj(bounds, MW, MH);
     const hitRect = (r) => pts.some((q) => { const [x, y] = pj(q); return x > r[0] && x < r[2] && y > r[1] && y < r[3]; });
-    if (sp) { if (hitRect(blocked[0])) { bounds.north += span * 0.2; bounds.east += span * 0.15; continue; } break; }
+    if (sp) {
+      if (hitRect(blocked[0])) { bounds.north += span * 0.2; bounds.east += span * 0.15; continue; }
+      if (blocked[1] && hitRect(blocked[1])) { bounds.south -= span * 0.2; bounds.east += span * 0.2; continue; }
+      break;
+    }
     if (hitRect(blocked[0])) { bounds.east += span * 0.25; bounds.south -= span * 0.25; continue; }
     if (hitRect(blocked[1])) { bounds.west -= span * 0.15; bounds.north += span * 0.15; continue; }
     if (hitRect(blocked[2])) { bounds.west -= span * 0.2; bounds.south -= span * 0.1; continue; }
@@ -732,10 +737,11 @@ function renderRoute(dest, countries, osm, sp = false) {
   const rw = Math.max(rx1 - rx0, 14), rh = Math.max(ry1 - ry0, 10);
   const rcx = (rx0 + rx1) / 2, rcy = (ry0 + ry1) / 2;
   const box = [rcx - rw / 2, rcy - rh / 2, rw, rh];
-  const showInset = !sp || hasLocal;
-  if (showInset) m += `<rect x="${fmt(box[0])}" y="${fmt(box[1])}" width="${fmt(box[2])}" height="${fmt(box[3])}" fill="none" stroke="${C.route}" stroke-width="${sp ? 2 : 1.2}"/>`;
+  if (hasLocal) m += `<rect x="${fmt(box[0])}" y="${fmt(box[1])}" width="${fmt(box[2])}" height="${fmt(box[3])}" fill="none" stroke="${C.route}" stroke-width="${sp ? 2 : 1.2}"/>`;
   const [dx, dy] = proj([dest.lng, dest.lat]);
   const sq = sp ? 12 : 8;
+  const WEDGE = "<!--wedge-->"; // 白いくさびは行き先の印・名前より下に差し込む
+  m += WEDGE;
   m += `<rect x="${fmt(dx - sq / 2)}" y="${fmt(dy - sq / 2)}" width="${sq}" height="${sq}" fill="${C.dest}"/>`;
   if (sp && !hasLocal) m += `<circle cx="${fmt(dx)}" cy="${fmt(dy)}" r="16" fill="none" stroke="${C.dest}" stroke-width="2.5"/>`;
   // 行き先の名前：左 → 右 → 下 → 上 の順に、経由地の名前と重ならない側へ
@@ -768,42 +774,39 @@ function renderRoute(dest, countries, osm, sp = false) {
     mainBoxes.push(best[2]);
     labelSvg += pill(best[0], best[1], label, null, K.pill, MW);
   }
-  m += labelSvg + japanBadge;
+  // ---- 拡大の引き出し（白い半透明のくさび）。ラベルより下に描く
+  const wedge = (x0, y0, x1, y1, y2) => `<path d="M${fmt(x0)} ${fmt(y0)}L${fmt(x1)} ${fmt(y1)}L${fmt(x1)} ${fmt(y2)}Z" fill="#fff" fill-opacity="0.55"/>` +
+    `<path d="M${fmt(x1)} ${fmt(y1)}L${fmt(x0)} ${fmt(y0)}L${fmt(x1)} ${fmt(y2)}" fill="none" stroke="#fff" stroke-width="1.5"/>`;
+  const fromPt = hasLocal ? [box[0] + box[2], box[1] + box[3] / 2] : [dx, dy];
+  if (!sp) m = m.replace(WEDGE, wedge(fromPt[0], fromPt[1], IX, IY, H));
 
-  // スマホ版で飛行機だけで着く行き先：拡大図（島の形）を全体図の空いている角に小窓で入れる
+  // スマホ版で飛行機だけで着く行き先：島の拡大を全体図の右下（ふさがっていれば左下）に端まで寄せて入れる
   if (sp && !hasLocal) {
-    const mg = 14;
     const hitAny = (B) => mainBoxes.some((Q) => B[0] < Q[2] && B[2] > Q[0] && B[1] < Q[3] && B[3] > Q[1]) ||
-      pts.some((q) => { const [x, y] = proj(q); return x > B[0] - 10 && x < B[2] + 10 && y > B[1] - 10 && y < B[3] + 10; });
-    // 右下 → 左下 → 左上 → 右上（日本からの札の下）の順に、大きめから小さめへ空いている所を探す
-    let cw = 320, ch = 250, cx0 = MW - cw - mg, cy0 = MH - ch - mg;
-    // 角の優先順位を先に、その角で入る一番大きいサイズを選ぶ
-    search: for (const corner of ["br", "bl", "tl", "tr"]) {
-      for (const h of [250, 220, 190, 160]) {
-        const w = Math.round(h * 1.28);
-        const [x, y] = { br: [MW - w - mg, MH - h - mg], bl: [mg, MH - h - mg], tl: [mg, mg + 10], tr: [MW - w - mg, mg + jb.h + 30] }[corner];
-        if (!hitAny([x, y, x + w, y + h])) { cw = w; ch = h; cx0 = x; cy0 = y; break search; }
+      pts.some((q) => { const [x, y] = proj(q); return x > B[0] - 12 && x < B[2] + 12 && y > B[1] - 12 && y < B[3] + 12; });
+    let cw = 340, ch = 280, cx0 = MW - cw, cy0 = MH - ch, side = "br";
+    search: for (const corner of ["br", "bl"]) {
+      for (const h of [300, 270, 240, 210, 180]) {
+        const w = Math.round(h * 1.2);
+        const [x, y] = corner === "br" ? [MW - w, MH - h] : [0, MH - h];
+        if (!hitAny([x, y, x + w, y + h])) { cw = w; ch = h; cx0 = x; cy0 = y; side = corner; break search; }
       }
     }
-    const head = 40;
-    const isl = renderIsland(dest, osm, cw, ch - head, {
-      frame: true, scale: 1.3, bounds: ib, noTitle: true,
-      overlay: (ip) => { const [x, y] = ip([dest.lng, dest.lat]); return `<circle cx="${fmt(x)}" cy="${fmt(y)}" r="13" fill="none" stroke="${C.dest}" stroke-width="2.5"/><circle cx="${fmt(x)}" cy="${fmt(y)}" r="5.5" fill="${C.dest}"/>`; },
+    const nm = SHORT_NAMES[dest.slug] || dest.name;
+    const isl = renderIsland(dest, osm, cw, ch, {
+      frame: true, scale: Math.min(1.25, (cw - 36) / (textW(nm, 26) + nm.length * 3)), bounds: ib,
+      overlay: (ip) => { const [x, y] = ip([dest.lng, dest.lat]); return `<circle cx="${fmt(x)}" cy="${fmt(y)}" r="12" fill="none" stroke="${C.dest}" stroke-width="2.5"/><circle cx="${fmt(x)}" cy="${fmt(y)}" r="5" fill="${C.dest}"/>`; },
     });
-    // 引き出し線（全体図上の行き先の枠 → 小窓の近い2つの角）
-    const bx = box[0] + box[2] / 2, by = box[1] + box[3] / 2;
-    const near = cx0 > bx ? [[cx0, cy0], [cx0, cy0 + ch]] : [[cx0 + cw, cy0], [cx0 + cw, cy0 + ch]];
-    m += `<rect x="${fmt(box[0])}" y="${fmt(box[1])}" width="${fmt(box[2])}" height="${fmt(box[3])}" fill="none" stroke="${C.route}" stroke-width="2"/>`;
-    m += `<path d="M${fmt(box[0] + (cx0 > bx ? box[2] : 0))} ${fmt(box[1])}L${near[0][0]} ${near[0][1]}M${fmt(box[0] + (cx0 > bx ? box[2] : 0))} ${fmt(box[1] + box[3])}L${near[1][0]} ${near[1][1]}" fill="none" stroke="${C.route}" stroke-width="1.5" stroke-opacity="0.7"/>`;
-    m += `<g id="inset-mini" transform="translate(${cx0} ${cy0})"><rect width="${cw}" height="${ch}" fill="#fff" stroke="${C.route}" stroke-width="2"/>` +
-      `<rect width="${cw}" height="${head}" fill="${C.pill}"/>` + text(12, 28, `拡大：${shortName}`, { size: Math.min(22, (cw - 24) / textW(`拡大：${shortName}`, 1)), fill: "#fff", weight: 700, anchor: "start" }) +
-      `<svg x="0" y="${head}" width="${cw}" height="${ch - head}" viewBox="0 0 ${cw} ${ch - head}" overflow="hidden">${isl.body}</svg></g>`;
+    const edgeX = side === "br" ? cx0 : cx0 + cw;
+    m = m.replace(WEDGE, wedge(dx, dy, edgeX, cy0, MH));
+    m += `<g id="inset-mini" transform="translate(${cx0} ${cy0})"><svg width="${cw}" height="${ch}" viewBox="0 0 ${cw} ${ch}" overflow="hidden">${isl.body}</svg></g>`;
   }
+  m += labelSvg + japanBadge;
 
   // ---- 組み立て
   let g = "";
-  const insetSvg = `<g id="inset" transform="translate(${IX} ${IY})"><rect width="${IW}" height="${IH}" fill="#fff" stroke="${C.route}" stroke-width="1.5"/>` +
-    (sp ? "" : text(14, 25, insetName, { size: 16, fill: C.cityText, weight: 700, anchor: "start" })) +
+  const insetSvg = `<g id="inset" transform="translate(${IX} ${IY})"><rect width="${IW}" height="${IH}" fill="#fff"/>` +
+    (sp ? "" : text(18, 27, insetName, { size: 17, fill: C.cityText, font: SERIF, weight: 700, anchor: "start" })) +
     `<svg x="0" y="${headH}" width="${IW}" height="${MAPH}" viewBox="0 0 ${IW} ${MAPH}" overflow="hidden">${island.body}</svg></g>`;
   const legendItems = [["飛行機", "air"], ["車・バス", "car"], ["船", "boat"]];
   const note = "所要時間は目安です。便・船の時刻は季節や運航会社で変わります。";
@@ -815,8 +818,7 @@ function renderRoute(dest, countries, osm, sp = false) {
       g += `<path d="M${fmt(box[0])} ${fmt(MY + box[1] + box[3])}L${IX} ${IY}M${fmt(box[0] + box[2])} ${fmt(MY + box[1] + box[3])}L${IX + IW} ${IY}" fill="none" stroke="${C.route}" stroke-width="1.5" stroke-opacity="0.6"/>`;
       g += `<rect x="0" y="${MY + MH}" width="${W}" height="${IY - MY - MH}" fill="${C.panel}"/>`;
       g += insetSvg;
-      const hw = textW(insetName, 24) + 30;
-      g += `<rect x="${IX}" y="${IY}" width="${fmt(Math.min(hw, IW))}" height="44" fill="${C.pill}"/>` + text(IX + 15, IY + 31, insetName, { size: 24, fill: "#fff", weight: 700, anchor: "start" });
+      g += text(IX + 18, IY + 36, insetName, { size: 25, fill: C.cityText, font: SERIF, weight: 700, anchor: "start", halo: "rgba(255,255,255,0.9)" });
     }
     altLines.forEach((l, i) => { g += text(24, footY + i * 30, l, { size: 21, fill: C.cityText, weight: route.local && l.startsWith("着いてから") ? 700 : 500, anchor: "start" }); });
     const ny = footY + altLines.length * 30;
@@ -824,7 +826,6 @@ function renderRoute(dest, countries, osm, sp = false) {
     g += text(W - 16, H - 10, "地図データ: Natural Earth / GSHHG", { size: 13, fill: "rgba(75,46,30,0.55)", anchor: "end", weight: 400 });
   } else {
     g += m;
-    g += `<path d="M${fmt(box[0] + box[2])} ${fmt(box[1])}L${IX} ${IY}M${fmt(box[0] + box[2])} ${fmt(box[1] + box[3])}L${IX} ${IY + IH}" fill="none" stroke="${C.route}" stroke-width="1.2" stroke-opacity="0.7"/>`;
     g += insetSvg;
     const extra = [...(route.local ? [`着いてから　${route.local}`] : []), ...(route.alt ? [`※${route.alt}`] : [])];
     const tw = Math.max(330, textW(summary, 14) + 40, ...extra.map((t) => textW(t, 13.5) + 60));
@@ -837,7 +838,7 @@ function renderRoute(dest, countries, osm, sp = false) {
     g += `<g id="legend"><rect x="${lx}" y="${ly}" width="150" height="124" rx="4" fill="#fff" fill-opacity="0.95"/>` +
       legendItems.map(([lab, by], i) => `<path d="M${lx + 18} ${ly + 30 + i * 34}h44" fill="none" stroke="${C.route}" stroke-linecap="round" stroke-width="${sw(by, 2.2)}"${dash[by]}/>` +
         text(lx + 74, ly + 35 + i * 34, lab, { size: 15, fill: C.cityText, anchor: "start", weight: 500 })).join("") + `</g>`;
-    g += text(W - 30, H - 18, note, { size: 13, fill: C.cityText, anchor: "end", weight: 400 });
+    g += text(W - 14, H - 12, note, { size: 12, fill: C.cityText, anchor: "end", weight: 400, halo: "rgba(255,255,255,0.9)" });
     g += text(30, H - 18, "地図データ: Natural Earth / GSHHG", { size: 11, fill: "rgba(75,46,30,0.55)", anchor: "start", weight: 400 });
   }
   return svgDoc(W, H, g, { title: `${dest.name}への行き方` });

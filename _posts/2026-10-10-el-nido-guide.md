@@ -52,6 +52,7 @@ excerpt: "石灰岩の断崖とエメラルドグリーンの入り江が広が�
 - 19:05　セブ発（Cebgo、所要1時間45分）
 - 20:50　エルニド・リオ空港着
 - 21:00頃　[Spin Designer Hostel](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D984523)にチェックイン（設備の整ったデザイナーズホステル）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D984523" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/984523/0/98bc56e1820d3331db8d07738fce4284.jpeg?va=1&ce=3&s=1024x768" alt="Spin Designer Hostel" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **2日目（終日フリー）**
 - 09:00　[アイランドホッピングツアーA](https://www.klook.com/search/result/?query=El%20Nido%20Island%20Hopping%20Tour%20A)へ出発（ビッグラグーン、スモールラグーン、シミズ島）
@@ -81,6 +82,7 @@ excerpt: "石灰岩の断崖とエメラルドグリーンの入り江が広が�
 - 19:05　セブ発（Cebgo、所要1時間45分）
 - 20:50　エルニド・リオ空港着
 - 21:00頃　[Spin Designer Hostel](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D984523)にチェックイン（設備の整ったデザイナーズホステル）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D984523" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/984523/0/98bc56e1820d3331db8d07738fce4284.jpeg?va=1&ce=3&s=1024x768" alt="Spin Designer Hostel" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **2日目（終日フリー）**
 - 09:00　[アイランドホッピングツアーA](https://www.klook.com/search/result/?query=El%20Nido%20Island%20Hopping%20Tour%20A)へ出発（ビッグラグーン、スモールラグーン、シミズ島）
@@ -113,6 +115,7 @@ excerpt: "石灰岩の断崖とエメラルドグリーンの入り江が広が�
 - 09:20　セブ発（Cebgo、所要1時間50分）
 - 11:10　エルニド・リオ空港着
 - 11:30頃　空港からトライシクルで約10分、[Cadlao Resort & Restaurant](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D39409737)にチェックイン（プール付きのリゾート）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D39409737" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/39409737/0/a7f2e5ea50e27471f941c8bc57826997.jpg?va=1&ce=0&s=1024x768" alt="Cadlao Resort & Restaurant" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 午後　町を散策
 
 **3日目（終日フリー）**
@@ -145,6 +148,7 @@ excerpt: "石灰岩の断崖とエメラルドグリーンの入り江が広が�
 - 19:05　セブ発（Cebgo、所要1時間45分）
 - 20:50　エルニド・リオ空港着
 - 21:00頃　[Cadlao Resort & Restaurant](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D39409737)にチェックイン（プール付きのリゾート）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D39409737" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/39409737/0/a7f2e5ea50e27471f941c8bc57826997.jpg?va=1&ce=0&s=1024x768" alt="Cadlao Resort & Restaurant" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **2日目（終日フリー）**
 - 09:00　[アイランドホッピングツアーA](https://www.klook.com/search/result/?query=El%20Nido%20Island%20Hopping%20Tour%20A)へ出発（ビッグラグーン、スモールラグーン、シミズ島）
@@ -177,6 +181,7 @@ excerpt: "石灰岩の断崖とエメラルドグリーンの入り江が広が�
 - 09:20　セブ発（Cebgo、所要1時間50分）
 - 11:10　エルニド・リオ空港着
 - 午後　リゾートの送迎ボートで島へ。[Lagen Island Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D9713)にチェックイン（ジャングルと入り江に囲まれた島の高級リゾート）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D9713" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/9713/0/4b592af739080bc513c295e1f632c73c.jpeg?va=1&ce=3&s=1024x768" alt="Lagen Island Resort" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **3日目（終日フリー）**
 - 09:00　リゾートのカヤックやシュノーケリングで入り江へ
@@ -209,6 +214,7 @@ excerpt: "石灰岩の断崖とエメラルドグリーンの入り江が広が�
 - 19:05　セブ発（Cebgo、所要1時間45分）
 - 20:50　エルニド・リオ空港着
 - 21:00頃　リゾートの送迎ボートで島へ。[Lagen Island Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D9713)にチェックイン（ジャングルと入り江に囲まれた島の高級リゾート）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D9713" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/9713/0/4b592af739080bc513c295e1f632c73c.jpeg?va=1&ce=3&s=1024x768" alt="Lagen Island Resort" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **2日目（終日フリー）**
 - 09:00　リゾートのカヤックやシュノーケリングで入り江へ

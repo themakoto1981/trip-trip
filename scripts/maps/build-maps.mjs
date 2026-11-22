@@ -550,14 +550,13 @@ function renderRoute(dest, countries, osm, sp = false) {
   // マージンは「経由地の点」ではなく、そこに付くラベル（点より下・左右にはみ出す分）も含めて
   // 覆われないように広めに取る。スマホ版は文字が大きい分、ラベルも大きく張り出すので特に広く取る
   const blocked = sp
-    ? [[IX - 170, IY - 170, W, H], [0, 0, 480, 190], [0, H - 240, 240, H]]
-    : [[IX - 110, IY - 110, W, H], [0, 0, 460, 150], [0, H - 190, 200, H]];
+    ? [[IX - 170, IY - 170, W, H], [0, 0, 480, 190]]
+    : [[IX - 110, IY - 110, W, H], [0, 0, 460, 150]];
   for (let k = 0; k < 12; k++) {
     const pj = makeProj(bounds, MW, MH);
     const hitRect = (r) => pts.some((q) => { const [x, y] = pj(q); return x > r[0] && x < r[2] && y > r[1] && y < r[3]; });
     if (hitRect(blocked[0])) { bounds.east += span * 0.25; bounds.south -= span * 0.25; continue; }
     if (hitRect(blocked[1])) { bounds.west -= span * 0.15; bounds.north += span * 0.15; continue; }
-    if (hitRect(blocked[2])) { bounds.west -= span * 0.2; bounds.south -= span * 0.1; continue; }
     break;
   }
   const base = renderBase(bounds, MW, MH, { countries, scale: K.base, cities: [] });
@@ -803,8 +802,6 @@ function renderRoute(dest, countries, osm, sp = false) {
   const insetSvg = `<g id="inset" transform="translate(${IX} ${IY})"><rect width="${IW}" height="${IH}" fill="#fff"/>` +
     text(18, headH * 0.75, insetName, { size: sp ? 22 : 17, fill: C.cityText, font: SERIF, weight: 700, anchor: "start" }) +
     `<svg x="0" y="${headH}" width="${IW}" height="${MAPH}" viewBox="0 0 ${IW} ${MAPH}" overflow="hidden">${island.body}</svg></g>`;
-  const legendItems = [["飛行機", "air"], ["車・バス", "car"], ["船", "boat"]];
-  const note = "所要時間は目安です。便・船の時刻は季節や運航会社で変わります。";
   g += m;
   g += insetSvg;
   const extra = [...(route.local ? wrapJa(`着いてから　${route.local}`, sp ? 30 : 46) : []), ...(route.alt ? wrapJa(`※${route.alt}`, sp ? 30 : 46) : [])];
@@ -816,22 +813,6 @@ function renderRoute(dest, countries, osm, sp = false) {
     text(tx0 + 20, ty0 + nameOff, `${shortName}への行き方`, { size: nameSize, fill: C.cityText, weight: 700, anchor: "start" }) +
     text(tx0 + 20, ty0 + sumOff, summary, { size: sumSize, fill: C.cityText, weight: 400, anchor: "start" }) +
     extra.map((t, i) => text(tx0 + 20, ty0 + extraOff + i * extraStep, t, { size: extraSize, fill: C.cityText, weight: t.startsWith("着いてから") ? 700 : 400, anchor: "start" })).join("") + `</g>`;
-  // 凡例ボックスの中に所要時間の注記・出典も収める（地図の地名ラベルと重なって読みにくくならないよう、
-  // 必ず白背景の上に乗せる。裸の地図の上に直接テキストを浮かせない）
-  const lx = sp ? 20 : 24, lw = sp ? 160 : 150;
-  const lRowH = sp ? 40 : 34, lRowY0 = sp ? 36 : 30, lLineW = sp ? 38 : 44, lLineX = sp ? 18 : 18, lTextX = sp ? 66 : 74, lSize = sp ? 17 : 15;
-  const noteSize = sp ? 14 : 11, noteStep = sp ? 19 : 15, creditSize = sp ? 12 : 10;
-  const noteLines = wrapJa(note, sp ? 27 : 48);
-  const rowsBottom = lRowY0 + legendItems.length * lRowH - lRowH * 0.45;
-  const noteY0 = rowsBottom + noteSize * 1.1;
-  const lh = noteY0 + noteLines.length * noteStep + creditSize + 14;
-  const ly = H - lh - (sp ? 40 : 36);
-  g += `<g id="legend"><rect x="${lx}" y="${ly}" width="${lw}" height="${lh}" rx="4" fill="#fff" fill-opacity="0.95"/>` +
-    legendItems.map(([lab, by], i) => `<path d="M${lx + lLineX} ${ly + lRowY0 + i * lRowH}h${lLineW}" fill="none" stroke="${C.route}" stroke-linecap="round" stroke-width="${sw(by, sp ? 2.8 : 2.2)}"${dash[by]}/>` +
-      text(lx + lTextX, ly + lRowY0 + 5 + i * lRowH, lab, { size: lSize, fill: C.cityText, anchor: "start", weight: 500 })).join("") +
-    noteLines.map((t, i) => text(lx + 14, ly + noteY0 + i * noteStep, t, { size: noteSize, fill: C.cityText, anchor: "start", weight: 400 })).join("") +
-    text(lx + 14, ly + lh - 10, "地図データ: Natural Earth / GSHHG", { size: creditSize, fill: "rgba(75,46,30,0.6)", anchor: "start", weight: 400 }) +
-    `</g>`;
   return svgDoc(W, H, g, { title: `${dest.name}への行き方` });
 }
 

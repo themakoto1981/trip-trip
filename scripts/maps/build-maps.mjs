@@ -438,7 +438,7 @@ const INTL_SGN = "国際線 直行 約6時間"; // con-dao-guide・nhatrang-guid
 const INTL_CGK = "国際線 直行 約8時間"; // pulau-pari-guide（ANA直行便→ジャカルタ）
 const INTL_KUL = "国際線 直行 約7〜8時間"; // 記事に記載なし。成田→KL直行の時刻表（7時間15分〜7時間40分）をWebSearchで確認、2026-11-20
 const ROUTES = {
-  "bali-guide": { from: "成田（関西発はKL乗継）", legs: [D("air", "国際線 直行 約7〜8時間")] },
+  "bali-guide": { from: "成田", legs: [D("air", "国際線 直行 約7〜8時間")], altFrom: ["羽田", "関西"], altMain: { via: P.kul, label: "クアラルンプール", note: "ここで乗継 約12〜14時間", inLabel: "国際線 約7時間", outLabel: "国際線 約3時間" } },
   "cebu-guide": { from: "成田・関西", legs: [D("air", "国際線 直行 約5時間")] },
   "danang-hoian-guide": { from: "成田・関西", legs: [D("air", "国際線 直行 約5時間40分")] },
   "boracay-guide": { from: "成田・羽田・関西", legs: [L(P.mnl, "air", INTL_MNL), L(["カティクラン空港", 121.95, 11.93], "air", "国内線"), D("boat", "車＋船 合わせて1〜2時間")] },
@@ -542,6 +542,7 @@ function renderRoute(dest, countries, osm, sp = false) {
 
   // ---- 全体図の範囲（日本は右上の端に置くので、東南アジア側の地点だけで決める）
   const pts = legs.map((l) => [l[1], l[2]]);
+  if (route.altMain) pts.push([route.altMain.via[1], route.altMain.via[2]]);
   let w = Math.min(...pts.map((p) => p[0])), e = Math.max(...pts.map((p) => p[0]));
   let so = Math.min(...pts.map((p) => p[1])), n = Math.max(...pts.map((p) => p[1]));
   const span = Math.max(e - w, n - so, sp ? 9 : 11);
@@ -608,9 +609,31 @@ function renderRoute(dest, countries, osm, sp = false) {
   };
 
   // ---- 全体図：日本（右上の端）→ 経由地
-  // 日本は地図の外にあるので、右上の角に「日本から」の札を置き、そこから線を出す
-  const jb = sp ? { w: 0, h: 74, y: 14, t: 26, f: 19 } : { w: 0, h: 62, y: 24, t: 20, f: 14 };
-  jb.w = Math.max(textW("日本から", jb.t), textW(route.from, jb.f)) + 36;
+  // 日本は地図の外にあるので、右上の角に「日本から」の札を置き、そこから線を出す。
+  // 出発空港によって経由地が変わる行き先（例：バリ島はKL乗継）は、「日本から」という
+  // 大枠の札ではなく「成田から／関西から」と空港名そのものを並べて区別する
+  // （関西も日本なので「日本から」と「関西から」を並べると紛らわしいため）
+  const altFromList = Array.isArray(route.altFrom) ? route.altFrom : route.altFrom ? [route.altFrom] : [];
+  const dualOrigin = altFromList.length > 0;
+  // 直行ルート（成田）は経由地ルート（羽田・関西→KL）よりも地図上を大きく横切るので、
+  // 直行の札を一番下に置くと、線同士が交差しにくい
+  const stackY0 = sp ? 14 : 24, stackGap = sp ? 10 : 8;
+  let altY = stackY0;
+  const altBoxes = [];
+  for (const name of altFromList) {
+    const b = sp ? { w: 0, h: 50, t: 24 } : { w: 0, h: 42, t: 16 };
+    const label = `${name}から`;
+    b.w = textW(label, b.t) + 36;
+    b.x = MW - b.w - (sp ? 14 : 24);
+    b.y = altY;
+    altY += b.h + stackGap;
+    altBoxes.push({ b, label, anchor: [b.x + 14, b.y + b.h] });
+  }
+  const jb = dualOrigin
+    ? (sp ? { w: 0, h: 50, y: altY, t: 24 } : { w: 0, h: 42, y: altY, t: 16 })
+    : (sp ? { w: 0, h: 74, y: 14, t: 26, f: 19 } : { w: 0, h: 62, y: 24, t: 20, f: 14 });
+  const label1 = dualOrigin ? `${route.from}から` : null;
+  jb.w = (dualOrigin ? textW(label1, jb.t) : Math.max(textW("日本から", jb.t), textW(route.from, jb.f))) + 36;
   jb.x = MW - jb.w - (sp ? 14 : 24);
   const jp = [jb.x + 14, jb.y + jb.h];
   let routeSvg = `<g id="routes" fill="none" stroke="${C.route}" stroke-linecap="round">`;
@@ -618,6 +641,7 @@ function renderRoute(dest, countries, osm, sp = false) {
   let prev = jp;
   const mainArcs = [];
   const mainBoxes = [[jb.x - 6, jb.y - 6, jb.x + jb.w + 6, jb.y + jb.h + 6]];
+  for (const { b } of altBoxes) mainBoxes.push([b.x - 6, b.y - 6, b.x + b.w + 6, b.y + b.h + 6]);
   mainLegs.forEach((l, i) => {
     const to = proj([l[1], l[2]]);
     const a = arc(prev, to, i === 0 ? -0.08 : -0.18);
@@ -628,31 +652,55 @@ function renderRoute(dest, countries, osm, sp = false) {
   routeSvg += `</g>`;
   m += routeSvg;
   const japanBadge = `<g id="from-japan"><rect x="${fmt(jb.x)}" y="${jb.y}" width="${fmt(jb.w)}" height="${jb.h}" rx="4" fill="#fff" fill-opacity="0.96" stroke="${C.route}" stroke-width="1.5"/>` +
-    text(jb.x + 18, jb.y + jb.t * 1.15, "日本から", { size: jb.t, fill: C.cityText, weight: 700, anchor: "start" }) +
-    text(jb.x + 18, jb.y + jb.t * 1.15 + jb.f * 1.35, route.from, { size: jb.f, fill: C.cityText, weight: 500, anchor: "start" }) + `</g>`;
-  mainLegs.forEach((l, i) => {
-    if (i === legs.length - 1) return;
-    const [x, y] = proj([l[1], l[2]]);
-    const nt = hasLocal && i === lastAir ? null : l[5];
-    const tw = Math.max(textW(l[0], K.stop), nt ? textW(nt, K.stop * 0.72) : 0), g0 = K.stop * 0.65;
-    const hhBottom = K.stop * (nt ? 1.6 : 0.5), hhTop = K.stop * (nt ? 1.9 : 1.1);
-    const boxFor = (sd) => sd === "r" ? [x + g0, y - K.stop * 0.7, x + g0 + tw, y + hhBottom]
-      : sd === "l" ? [x - g0 - tw, y - K.stop * 0.7, x - g0, y + hhBottom]
+    (dualOrigin
+      ? text(jb.x + 18, jb.y + jb.h / 2 + jb.t * 0.32, label1, { size: jb.t, fill: C.cityText, weight: 700, anchor: "start" })
+      : text(jb.x + 18, jb.y + jb.t * 1.15, "日本から", { size: jb.t, fill: C.cityText, weight: 700, anchor: "start" }) +
+        text(jb.x + 18, jb.y + jb.t * 1.15 + jb.f * 1.35, route.from, { size: jb.f, fill: C.cityText, weight: 500, anchor: "start" })
+    ) + `</g>`;
+  const altBadges = altBoxes.map(({ b, label }, i) =>
+    `<g id="from-alt-${i}"><rect x="${fmt(b.x)}" y="${b.y}" width="${fmt(b.w)}" height="${fmt(b.h)}" rx="4" fill="#fff" fill-opacity="0.96" stroke="${C.route}" stroke-width="1.5" stroke-dasharray="4 3"/>` +
+      text(b.x + 18, b.y + b.h / 2 + b.t * 0.32, label, { size: b.t, fill: C.cityText, weight: 700, anchor: "start" }) + `</g>`
+  ).join("");
+  // 経由地どうしが地図上で近いと、優先方向（画面端を避けるだけの左右判定）だけでは
+  // 別の経由地のラベルと重なったり画面外にはみ出したりすることがあるので、
+  // 上下左右の4方向から、画面内に収まり他のラベルとも重ならないものを探す
+  const placeMainStop = (x, y, label, note, size) => {
+    const tw = Math.max(textW(label, size), note ? textW(note, size * 0.72) : 0), g0 = size * 0.65;
+    const hhBottom = size * (note ? 1.6 : 0.5), hhTop = size * (note ? 1.9 : 1.1);
+    const boxFor = (sd) => sd === "r" ? [x + g0, y - size * 0.7, x + g0 + tw, y + hhBottom]
+      : sd === "l" ? [x - g0 - tw, y - size * 0.7, x - g0, y + hhBottom]
       : sd === "t" ? [x - tw / 2, y - g0 - hhTop, x + tw / 2, y - g0]
       : [x - tw / 2, y + g0, x + tw / 2, y + g0 + hhTop];
     const within = (B) => B[0] > 4 && B[1] > 4 && B[2] < MW - 4 && B[3] < MH - 4;
     const overlapsMain = (B) => mainBoxes.some((Q) => B[0] < Q[2] && B[2] > Q[0] && B[1] < Q[3] && B[3] > Q[1]);
-    // 経由地どうしが地図上で近いと、優先方向（画面端を避けるだけの左右判定）だけでは
-    // 別の経由地のラベルと重なったり画面外にはみ出したりすることがあるので、
-    // 上下左右の4方向から、画面内に収まり他のラベルとも重ならないものを探す
-    const prefSide = x + K.stop + tw > MW - 8 ? "l" : "r";
+    const prefSide = x + size + tw > MW - 8 ? "l" : "r";
     const order = [prefSide, prefSide === "r" ? "l" : "r", "b", "t"];
     let side = order.find((sd) => within(boxFor(sd)) && !overlapsMain(boxFor(sd)));
     if (!side) side = order.find((sd) => within(boxFor(sd))) || prefSide;
-    m += stopMark(x, y, l[0], nt, K.stop, side);
-    mainBoxes.push([x - K.stop * 0.5, y - K.stop * 0.5, x + K.stop * 0.5, y + K.stop * 0.5]);
+    m += stopMark(x, y, label, note, size, side);
+    mainBoxes.push([x - size * 0.5, y - size * 0.5, x + size * 0.5, y + size * 0.5]);
     mainBoxes.push(boxFor(side));
+  };
+  mainLegs.forEach((l, i) => {
+    if (i === legs.length - 1) return;
+    const [x, y] = proj([l[1], l[2]]);
+    const nt = hasLocal && i === lastAir ? null : l[5];
+    placeMainStop(x, y, l[0], nt, K.stop);
   });
+  // 出発空港によって経由地が変わる行き先（例：バリ島は羽田・関西発だとKL乗継）は、
+  // それぞれの出発地からの線を経由地点に集約し、その先は1本の線で目的地まで描く
+  if (route.altMain) {
+    const [x, y] = proj([route.altMain.via[1], route.altMain.via[2]]);
+    const bend = altBoxes.length > 1 ? [-0.08, -0.14, -0.2] : [-0.08];
+    const a1s = altBoxes.map(({ anchor }, i) => arc(anchor, [x, y], bend[i] ?? -0.08));
+    const a2 = arc([x, y], prev, -0.12);
+    m += `<g fill="none" stroke="${C.route}" stroke-linecap="round">` +
+      a1s.map((a) => `<path d="${a.d}" stroke-width="${K.lw}"/>`).join("") +
+      `<path d="${a2.d}" stroke-width="${K.lw}"/></g>`;
+    if (route.altMain.inLabel) a1s.forEach((a) => mainArcs.push([a, route.altMain.inLabel]));
+    if (route.altMain.outLabel) mainArcs.push([a2, route.altMain.outLabel]);
+    placeMainStop(x, y, route.altMain.label, route.altMain.note, K.stop);
+  }
 
   // ---- 拡大図
   const headH = sp ? 46 : 36; // 拡大図の枠の中に見出しを置く（PC・スマホ共通）
@@ -797,7 +845,7 @@ function renderRoute(dest, countries, osm, sp = false) {
   // 拡大図は常にこの地図の右下に埋め込む（PC・スマホ共通。別パネルには分けない）
   const fromPt = hasLocal ? [box[0] + box[2], box[1] + box[3] / 2] : [dx, dy];
   m = m.replace(WEDGE, wedge(fromPt[0], fromPt[1], IX, IY, H));
-  m += labelSvg + japanBadge;
+  m += labelSvg + japanBadge + altBadges;
 
   // ---- 組み立て（PC・スマホ共通：タイトル・凡例・拡大図を1枚の地図に重ねる。別パネル・別枠の注記は作らない）
   let g = "";

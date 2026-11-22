@@ -98,7 +98,7 @@ const ORIGINS = { tokyo: ["東京", 139.77, 35.68], osaka: ["大阪", 135.50, 34
 // marker: 島全体ではなく「島の一部・本土の街」を指す行き先なので赤いピンを立てる
 // highlightKm: 中心からこの距離以内の島をすべて主役色で塗る（諸島の場合）
 const ISLAND_OVERRIDES = {
-  "bali-guide": { spanKm: 175, center: [-8.4, 115.18] },
+  "bali-guide": { spanKm: 260, center: [-8.4, 115.3] },
   "bohol-guide": { local: "港・空港→アロナビーチ：車 約20〜30分", spanKm: 110, center: [9.85, 124.15], targetAt: [[9.85, 124.15], [9.57, 123.78]] },
   "cebu-guide": { spanKm: 230, center: [10.3, 123.85] },
   "lombok-guide": { spanKm: 110, center: [-8.6, 116.35] },
@@ -305,7 +305,7 @@ function svgDoc(W, H, body, { title = "", credit = "" } = {}) {
 
 // ---------------------------------------------------------------- 島マップ
 const KM_PER_DEG = 111.32;
-function islandBounds(dest, osm) {
+function islandBounds(dest, osm, aspect = 1) {
   const ov = ISLAND_OVERRIDES[dest.slug] || {};
   let [clat, clng] = ov.center || [dest.lat, dest.lng];
   let span = ov.spanKm;
@@ -327,7 +327,9 @@ function islandBounds(dest, osm) {
     span = Math.max(span, 8);
     if (Math.max(wKm, hKm) * 1.35 <= 60) { clat = (bb.north + bb.south) / 2; clng = (bb.east + bb.west) / 2; }
   }
-  const dLat = span / 2 / KM_PER_DEG, dLng = span / 2 / (KM_PER_DEG * Math.cos(rad(clat)));
+  // 枠（箱）の縦横比に span を合わせ、正方形の範囲を箱に収めたときに生じる左右・上下の余白をなくす
+  const spanW = span * Math.max(aspect, 1), spanH = span * Math.max(1 / aspect, 1);
+  const dLat = spanH / 2 / KM_PER_DEG, dLng = spanW / 2 / (KM_PER_DEG * Math.cos(rad(clat)));
   return { bounds: { west: clng - dLng, east: clng + dLng, south: clat - dLat, north: clat + dLat }, span };
 }
 
@@ -653,7 +655,9 @@ function renderRoute(dest, countries, osm, sp = false) {
   });
 
   // ---- 拡大図
-  const ib = islandBounds(dest, osm).bounds;
+  const headH = sp ? 46 : 36; // 拡大図の枠の中に見出しを置く（PC・スマホ共通）
+  const MAPH = IH - headH;
+  const ib = islandBounds(dest, osm, IW / MAPH).bounds;
   let insetBounds = ib;
   const insetPts = [...(insetStart ? [insetStart] : []), ...localLegs].map((l) => [l[1], l[2]]);
   if (route.altFrom) insetPts.push([route.altFrom[1], route.altFrom[2]]);
@@ -664,8 +668,6 @@ function renderRoute(dest, countries, osm, sp = false) {
     insetBounds = { west: iw - pw, east: ie + pw, south: is - ph, north: inn + ph * (sp ? 1.3 : 1.5) };
   }
   const insetName = hasLocal ? `拡大図：${insetStart ? insetStart[0] : ""}〜${shortName}` : `拡大図：${shortName}`;
-  const headH = sp ? 46 : 36; // 拡大図の枠の中に見出しを置く（PC・スマホ共通）
-  const MAPH = IH - headH;
   const island = renderIsland(dest, osm, IW, MAPH, {
     frame: true, scale: sp ? 1.7 : 1.1, bounds: insetBounds, noTitle: true,
     overlay: (ip) => {

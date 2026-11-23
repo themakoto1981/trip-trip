@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ボホール島ビーチ完全ガイド｜行き方・ベストシーズン・予算・持ち物まとめ"
+title: "ボホール島ビーチ完全ガイド｜チョコレートヒルズ＆アロナビーチの行き方まとめ"
 date: 2026-11-06
 last_verified: 2026-11-06
 image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Alona_Beach%2C_Panglao_Island_%282052095707%29.jpg/960px-Alona_Beach%2C_Panglao_Island_%282052095707%29.jpg"

@@ -285,14 +285,6 @@ layout: default
       <option value="friends">友人グループ</option>
     </select>
   </div>
-  <div>
-    <label for="waves">波の好みは？</label>
-    <select id="waves">
-      <option value="">指定なし</option>
-      <option value="なし">波なし（穏やかな海）</option>
-      <option value="あり">波あり（サーフィンなど）</option>
-    </select>
-  </div>
   <div class="tag-picker-wrap">
     <label>どんな旅がしたい？（2つ選択）</label>
     <div id="tag-picker">
@@ -490,7 +482,6 @@ layout: default
     var rNights = restoreParams.get('nights'); if (rNights) { document.getElementById('nights').value = rNights; }
     var rBudget = restoreParams.get('budget'); if (rBudget) { document.getElementById('budget').value = rBudget; }
     var rCompanion = restoreParams.get('companion'); if (rCompanion) { document.getElementById('companion').value = rCompanion; }
-    var rWaves = restoreParams.get('waves'); if (rWaves) { document.getElementById('waves').value = rWaves; }
     ['tag1', 'tag2'].forEach(function (key) {
       var t = restoreParams.get(key);
       if (!t) { return; }
@@ -507,13 +498,11 @@ layout: default
     var nights = document.getElementById('nights').value;
     var budget = document.getElementById('budget').value;
     var companion = document.getElementById('companion').value;
-    var waves = document.getElementById('waves').value;
     var params = new URLSearchParams();
     if (month) { params.set('month', month); }
     params.set('nights', nights);
     if (budget) { params.set('budget', budget); }
     if (companion) { params.set('companion', companion); }
-    if (waves) { params.set('waves', waves); }
     if (selectedTags.length === 2) {
       params.set('tag1', selectedTags[0]);
       params.set('tag2', selectedTags[1]);

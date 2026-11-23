@@ -14,6 +14,8 @@ excerpt: "ギリ・トラワンガン島、ギリ・アイール島と並ぶギ�
 
 日本からバリ島へは直行便で約7〜8時間。バリ島のパダンバイ港から高速ボートでギリ・メノ島へ約2時間です。関西発は直行便がないため、クアラルンプール乗継が基本です。下記の予算プランは東京発・関西発を切り替えて確認できます
 
+{% include route-map.html %}
+
 ## ベストシーズン
 
 | 月 | 推し度 | 特徴 |
@@ -45,10 +47,12 @@ excerpt: "ギリ・トラワンガン島、ギリ・アイール島と並ぶギ�
 - 11:00　成田発（ANA＝ガルーダ・インドネシア航空運航、約7時間45分）
 - 17:45　デンパサール着。入国審査と荷物受取を終えたらGrabカーでパダンバイへ
 - 19:30頃　[Topi Inn](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D538732)にチェックイン（港まで徒歩圏の宿）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D538732" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/538732/0/9203bb99a0868d55944f7d561fd5870e.jpeg?ce=3&s=1024x768" alt="Topi Inn" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **2日目（ギリ・メノ泊）**
 - 09:30　パダンバイから高速ボートでギリ・メノ島へ（約2時間）
 - 11:30頃　[The Rabbit Tree Hostel](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1767173)にチェックイン（港・ビーチへ徒歩圏、バー付きの人気ホステル）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1767173" rel="nofollow"><img src="https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/362379826.jpg?k=5e6902df414b79c6f4006cf02ba6d9813795784e567f84f35a10675bbf3218e2&o=" alt="The Rabbit Tree Hostel" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 午後　ビーチでのんびり
 
 **3日目（終日フリー）**
@@ -79,8 +83,10 @@ excerpt: "ギリ・トラワンガン島、ギリ・アイール島と並ぶギ�
 
 **2日目（ギリ・メノ泊）**
 - 00:30頃　[Topi Inn](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D538732)にチェックイン（港まで徒歩圏の宿、仮眠のみ）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D538732" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/538732/0/9203bb99a0868d55944f7d561fd5870e.jpeg?ce=3&s=1024x768" alt="Topi Inn" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 09:30　パダンバイから高速ボートでギリ・メノ島へ（約2時間）
 - 11:30頃　[The Rabbit Tree Hostel](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1767173)にチェックイン（港・ビーチへ徒歩圏、バー付きの人気ホステル）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1767173" rel="nofollow"><img src="https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/362379826.jpg?k=5e6902df414b79c6f4006cf02ba6d9813795784e567f84f35a10675bbf3218e2&o=" alt="The Rabbit Tree Hostel" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 午後　ビーチでのんびり
 
 **3日目（終日フリー）**
@@ -97,6 +103,7 @@ excerpt: "ギリ・トラワンガン島、ギリ・アイール島と並ぶギ�
 - 19:30頃　デンパサール発（AirAsia）
 - 22:30頃　クアラルンプール着
 - 23:00頃　[Tune Hotel klia2](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D3352391)にチェックイン（空港直結）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D3352391" rel="nofollow"><img src="https://pix8.agoda.net/property/3352391/0/a952bcc40ce89b4b38d63787f97fed4f.jpeg?ce=3&s=1024x768" alt="Tune Hotel klia2" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **6日目（帰国日）**
 - 02:15　クアラルンプール発（AirAsia X D7532、約6時間30分）
@@ -108,10 +115,12 @@ excerpt: "ギリ・トラワンガン島、ギリ・アイール島と並ぶギ�
 - 11:00　成田発（ガルーダ・インドネシア航空、約7時間45分）
 - 17:45　デンパサール着。入国審査と荷物受取を終えたらGrabカーでパダンバイへ
 - 19:30頃　[Bloo Lagoon Eco Village](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D2972663)にチェックイン（パダンバイの入り江沿いのヴィラ）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D2972663" rel="nofollow"><img src="https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/351009079.jpg?k=055731da0d9982f3a88f3a4ce5c326f97c95e5d592dac22d2f4f106211ab7dcd&o=" alt="Bloo Lagoon Eco Village" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **2日目（ギリ・メノ泊）**
 - 09:30　パダンバイから高速ボートでギリ・メノ島へ（約2時間）
 - 11:30頃　[The Sunset Gecko on the Beach](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1617811)にチェックイン（日本人オーナーが営む、ビーチに面した小規模リゾート）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1617811" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/161/1617811/1617811_16120723510049521086.jpg?va=1&ca=6&ce=1&s=1024x768" alt="The Sunset Gecko on the Beach" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 午後　ビーチでのんびり
 
 **3日目（終日フリー）**
@@ -142,8 +151,10 @@ excerpt: "ギリ・トラワンガン島、ギリ・アイール島と並ぶギ�
 
 **2日目（ギリ・メノ泊）**
 - 00:30頃　[Bloo Lagoon Eco Village](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D2972663)にチェックイン（パダンバイの入り江沿いのヴィラ、仮眠のみ）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D2972663" rel="nofollow"><img src="https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/351009079.jpg?k=055731da0d9982f3a88f3a4ce5c326f97c95e5d592dac22d2f4f106211ab7dcd&o=" alt="Bloo Lagoon Eco Village" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 09:30　パダンバイから高速ボートでギリ・メノ島へ（約2時間）
 - 11:30頃　[The Sunset Gecko on the Beach](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1617811)にチェックイン（日本人オーナーが営む、ビーチに面した小規模リゾート）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1617811" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/161/1617811/1617811_16120723510049521086.jpg?va=1&ca=6&ce=1&s=1024x768" alt="The Sunset Gecko on the Beach" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 午後　ビーチでのんびり
 
 **3日目（終日フリー）**
@@ -160,6 +171,7 @@ excerpt: "ギリ・トラワンガン島、ギリ・アイール島と並ぶギ�
 - 19:30頃　デンパサール発（AirAsia）
 - 22:30頃　クアラルンプール着
 - 23:00頃　[Tune Hotel klia2](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D3352391)にチェックイン（空港直結）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D3352391" rel="nofollow"><img src="https://pix8.agoda.net/property/3352391/0/a952bcc40ce89b4b38d63787f97fed4f.jpeg?ce=3&s=1024x768" alt="Tune Hotel klia2" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **6日目（帰国日）**
 - 02:15　クアラルンプール発（AirAsia X D7532、約6時間30分）
@@ -171,10 +183,12 @@ excerpt: "ギリ・トラワンガン島、ギリ・アイール島と並ぶギ�
 - 11:00　成田発（ガルーダ・インドネシア航空、約7時間45分）
 - 17:45　デンパサール着。入国審査と荷物受取を終えたらGrabカーでパダンバイへ
 - 19:30頃　[Bloo Lagoon Eco Village](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D2972663)にチェックイン（パダンバイの入り江沿いのヴィラ）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D2972663" rel="nofollow"><img src="https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/351009079.jpg?k=055731da0d9982f3a88f3a4ce5c326f97c95e5d592dac22d2f4f106211ab7dcd&o=" alt="Bloo Lagoon Eco Village" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **2日目（ギリ・メノ泊）**
 - 09:30　パダンバイから高速ボートでギリ・メノ島へ（約2時間）
 - 11:30頃　[MAHAMAYA Resort Gili Meno](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D276068)にチェックイン（プール付きヴィラが並ぶ、島最高クラスのブティックリゾート）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D276068" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/276068/0/5a6da6b6314386c22ced5d3ac6225ef0.jpeg?va=1&ce=3&s=1024x768" alt="MAHAMAYA Resort Gili Meno" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 午後　ヴィラのプールでのんびり
 
 **3日目（終日フリー）**
@@ -205,8 +219,10 @@ excerpt: "ギリ・トラワンガン島、ギリ・アイール島と並ぶギ�
 
 **2日目（ギリ・メノ泊）**
 - 00:30頃　[Bloo Lagoon Eco Village](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D2972663)にチェックイン（パダンバイの入り江沿いのヴィラ、仮眠のみ）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D2972663" rel="nofollow"><img src="https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/351009079.jpg?k=055731da0d9982f3a88f3a4ce5c326f97c95e5d592dac22d2f4f106211ab7dcd&o=" alt="Bloo Lagoon Eco Village" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 09:30　パダンバイから高速ボートでギリ・メノ島へ（約2時間）
 - 11:30頃　[MAHAMAYA Resort Gili Meno](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D276068)にチェックイン（プール付きヴィラが並ぶ、島最高クラスのブティックリゾート）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D276068" rel="nofollow"><img src="https://pix8.agoda.net/hotelImages/276068/0/5a6da6b6314386c22ced5d3ac6225ef0.jpeg?va=1&ce=3&s=1024x768" alt="MAHAMAYA Resort Gili Meno" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 - 午後　ヴィラのプールでのんびり
 
 **3日目（終日フリー）**
@@ -223,6 +239,7 @@ excerpt: "ギリ・トラワンガン島、ギリ・アイール島と並ぶギ�
 - 19:30頃　デンパサール発（AirAsia）
 - 22:30頃　クアラルンプール着
 - 23:00頃　[Tune Hotel klia2](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D3352391)にチェックイン（空港直結）
+  <a href="https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D3352391" rel="nofollow"><img src="https://pix8.agoda.net/property/3352391/0/a952bcc40ce89b4b38d63787f97fed4f.jpeg?ce=3&s=1024x768" alt="Tune Hotel klia2" style="width:100%;max-width:420px;height:230px;object-fit:cover;border-radius:8px;margin:6px 0 10px;display:block;" loading="lazy"></a>
 
 **6日目（帰国日）**
 - 02:15　クアラルンプール発（AirAsia X D7532、約6時間30分）

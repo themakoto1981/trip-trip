@@ -1484,6 +1484,14 @@ gili-meno-guide:
     desc: ウミガメに出会えることもある北側のエリア。トラワンガン島に沈む夕日の名所
     category: spot
     tags: ["夕日", "ウミガメ"]
+  - name: "Topi Inn"
+    lat: -8.5265
+    lng: 115.5125
+    desc: "パダンバイ、港まで徒歩圏の前泊宿"
+    type: hotel
+    letter: "や"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D538732"
+    image: "https://pix8.agoda.net/hotelImages/538732/0/9203bb99a0868d55944f7d561fd5870e.jpeg?ce=3&s=1024x768"
   - name: "The Rabbit Tree Hostel"
     lat: -8.3509
     lng: 116.0572
@@ -1492,6 +1500,14 @@ gili-meno-guide:
     letter: "や"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1767173"
     image: "https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/362379826.jpg?k=5e6902df414b79c6f4006cf02ba6d9813795784e567f84f35a10675bbf3218e2&o="
+  - name: "Bloo Lagoon Eco Village"
+    lat: -8.5260
+    lng: 115.5130
+    desc: "パダンバイの入り江沿いのヴィラ、前泊宿"
+    type: hotel
+    letter: "ゆ"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D2972663"
+    image: "https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/351009079.jpg?k=055731da0d9982f3a88f3a4ce5c326f97c95e5d592dac22d2f4f106211ab7dcd&o="
   - name: "The Sunset Gecko on the Beach"
     lat: -8.3452
     lng: 116.0519
@@ -1508,6 +1524,14 @@ gili-meno-guide:
     letter: "ら"
     url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D276068"
     image: "https://pix8.agoda.net/hotelImages/276068/0/5a6da6b6314386c22ced5d3ac6225ef0.jpeg?va=1&ce=3&s=1024x768"
+  - name: "Tune Hotel klia2"
+    lat: 2.7456
+    lng: 101.7072
+    desc: "クアラルンプール国際空港直結のホテル、乗継泊"
+    type: hotel
+    letter: "ら"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D3352391"
+    image: "https://pix8.agoda.net/property/3352391/0/a952bcc40ce89b4b38d63787f97fed4f.jpeg?ce=3&s=1024x768"
 
 koh-larn-guide:
   - name: タワエンビーチ

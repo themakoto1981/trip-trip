@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ティオマン島ビーチ完全ガイド｜行き方・ベストシーズン・予算・持ち物まとめ"
+title: "ティオマン島ビーチ完全ガイド｜メルシン発フェリーの行き方・予算まとめ"
 date: 2026-10-23
 last_verified: 2026-11-15
 image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Tioman_island_%283678622941%29.jpg/960px-Tioman_island_%283678622941%29.jpg"

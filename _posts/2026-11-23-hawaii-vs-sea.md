@@ -9,6 +9,8 @@ excerpt: "実際にハワイ（オアフ島）へ行ってきたので、これ�
 exclude_from_adjacent_nav: true
 ---
 
+<img src="/assets/images/posts/hawaii-vs-sea/kailua-beach.jpg" alt="カイルア・ビーチ" style="width:100%;border-radius:8px;margin:0 0 1.2rem;display:block;" loading="lazy">
+
 ハワイか、東南アジアか。
 
 海外旅行の行き先に悩んだとき、この二択で迷う人は意外と多いと思う。

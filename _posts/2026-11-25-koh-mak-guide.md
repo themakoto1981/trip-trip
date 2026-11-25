@@ -49,7 +49,7 @@ excerpt: "ジェットスキーを禁止する「低炭素アイランド」と�
 ## おすすめ旅程（やす旅向け／ミニバン＋スピードボートの陸路利用・5泊6日（うち機内1泊）の例）
 
 **1日目（バンコク泊）**
-- 17:00　成田発（ZIPAIR ZG51、約6時間40分）
+- 17:00　成田発（ZIPAIR ZG51、約7時間15分）
 - 21:40　バンコク（スワンナプーム空港）着。入国審査に1〜1.5時間ほどみておく
 - 夜遅く　[Canalis Suvarnabhumi Airport Hotel](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D10561361)にチェックイン、1泊（無料送迎シャトルあり）
 

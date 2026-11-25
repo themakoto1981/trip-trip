@@ -1890,3 +1890,48 @@
   beach_sand: 2
   beach_waves: "あり"
   beach_note: "カイトサーフィン・ウィンドサーフィンで有名"
+- name: コマック島
+  en_name: "Koh Mak, Thailand"
+  slug: koh-mak-guide
+  country: タイ
+  country_slug: thailand
+  description: "ジェットスキーを禁止する「低炭素アイランド」。車はほとんど走らず、移動は自転車が基本で、隣のコクード島よりも静かな時間が流れる。"
+  lat: 11.8194
+  lng: 102.4783
+  flight_min: 50000
+  flight_max: 150000
+  flight_min_kansai: 45000
+  flight_max_kansai: 130000
+  hotel_min: 1800
+  hotel_max: 18000
+  transport_min: 2500
+  transport_max: 6000
+  food_min: 2500
+  food_max: 5500
+  yasu_hotel: 4500
+  yasu_transport: 3000
+  yasu_food: 2800
+  yuru_hotel: 12000
+  yuru_transport: 4500
+  yuru_food: 4000
+  ragu_hotel: 20000
+  ragu_transport: 6000
+  ragu_food: 5200
+  flight_hours: "約9〜11時間（バンコク経由、トラート空港から車＋スピードボートで約1時間20分）"
+  recommended_nights: "4泊以上"
+  visa: "不要（30日以内）"
+  photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Koh_Mak_%28island%29%2C_Thailand%2C_Sandy_beach_with_palm_trees.jpg/960px-Koh_Mak_%28island%29%2C_Thailand%2C_Sandy_beach_with_palm_trees.jpg"
+  photo_credit_url: "https://commons.wikimedia.org/wiki/File:Koh_Mak_(island),_Thailand,_Sandy_beach_with_palm_trees.jpg"
+  suited_for: [couple, solo, friends]
+  best_months: [12, 1, 2, 3]
+  budget_tags:
+    yasu: [TR02, HT01, SC05]
+    yuru: [TR01, TR04, HT03]
+    ragu: [TR01, TR04, HT12]
+  url: /2026/11/25/koh-mak-guide/
+  tags: { beach: 4, resort: 3, island: 5, city_base: 1, sightseeing: 1, relax: 5, party: 1, activity: 2 }
+  beach_name: "アオカオ"
+  beach_visibility: 4
+  beach_underwater: null
+  beach_sand: 4
+  beach_waves: "なし"

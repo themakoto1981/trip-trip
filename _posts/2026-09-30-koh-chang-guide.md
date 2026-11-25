@@ -70,7 +70,7 @@ excerpt: "プーケットに次ぐタイ第2の広さを誇るチャン島。ジ
 ## おすすめ旅程（やす旅向け／空港発着の直行バス利用・5泊6日（うち機内1泊）の例）
 
 **1日目（バンコク泊）**
-- 17:00　成田発（Zipair ZG51、約6時間40分）
+- 17:00　成田発（Zipair ZG51、約7時間15分）
 - 21:40　バンコク（スワンナプーム空港）着。入国審査に1〜1.5時間ほどかかり、この時間からだと出発できるバスがないため、空港近くの格安ホテルへ
 - 23:30頃　[Canalis Suvarnabhumi Airport Hotel](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D10561361)にチェックイン、1泊（無料送迎シャトルあり）
 

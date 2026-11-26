@@ -2352,6 +2352,30 @@ koh-mak-guide:
     ways:
       - "トレイルを歩いて訪れる"
       - "人のいないビーチでのんびりする"
+  - name: "Plub Pla Koh Mak Retreat"
+    lat: 11.8070
+    lng: 102.4660
+    desc: "やす旅向け、アオカオビーチ周辺の素朴なバンガロー"
+    type: hotel
+    letter: "や"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D297315"
+    image: "https://pix8.agoda.net/hotelImages/297315/0/98f3549ab88e577b420f4a035bf1d33b.jpeg?ce=3&s=1024x768"
+  - name: "Seavana Koh Mak Beach Resort"
+    lat: 11.8040
+    lng: 102.4640
+    desc: "ゆる旅向け、アオカオビーチに面したリゾート"
+    type: hotel
+    letter: "ゆ"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D544717"
+    image: "https://pix8.agoda.net/hotelImages/544717/0/88627cc86f799dd14a0fd0f5e68a016c.jpeg?ce=3&s=1024x768"
+  - name: "Islanda Resort Hotel"
+    lat: 11.8290
+    lng: 102.4590
+    desc: "らぐ旅向け、アオプラの高台に建つブティックリゾート"
+    type: hotel
+    letter: "ら"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D276746"
+    image: "https://pix8.agoda.net/hotelImages/276746/0/520635903e284acaed2cb826ee983f67.jpeg?ce=3&s=1024x768"
 
 siquijor-guide:
   - name: パリトンビーチ
@@ -2387,4 +2411,28 @@ siquijor-guide:
     desc: ラジにある樹齢数百年といわれるバレテの巨木。根元に小さな池がある
     category: spot
     tags: ["自然", "観光"]
+  - name: "Apo Diver Beach Accommodation"
+    lat: 9.1520
+    lng: 123.5070
+    desc: "やす旅向け、サンフアン地区ソランゴンビーチのダイビングリゾート"
+    type: hotel
+    letter: "や"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D4914567"
+    image: "https://pix8.agoda.net/hotelImages/491/4914567/4914567_18041710340063444442.jpg?ca=0&ce=1&s=1024x768"
+  - name: "Salamangka Beach and Dive Resort"
+    lat: 9.1450
+    lng: 123.5130
+    desc: "ゆる旅向け、サンフアン地区のビーチサイドリゾート"
+    type: hotel
+    letter: "ゆ"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D62077463"
+    image: "https://pix8.agoda.net/hotelImages/62077463/0/0c42dad6a2183aac1f5813af243fde30.jpeg?ce=3&s=1024x768"
+  - name: "Coco Grove Beach Resort"
+    lat: 9.1480
+    lng: 123.5085
+    desc: "らぐ旅向け、白砂のビーチに面した高級リゾート"
+    type: hotel
+    letter: "ら"
+    url: "https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D503130"
+    image: "https://pix8.agoda.net/hotelImages/503130/0/ed6e654839a698b321804643499435d6.jpeg?ce=2&s=1024x768"
 

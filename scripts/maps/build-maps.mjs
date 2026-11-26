@@ -480,6 +480,8 @@ const ROUTES = {
   "pattaya-guide": { from: "成田・羽田・関西", legs: [L(P.bkk, "air", INTL_BKK), D("car", "直行バス 約2時間30分")] },
   "koh-samet-guide": { from: "成田・羽田・関西", legs: [L(P.bkk, "air", INTL_BKK), L(["バンペー桟橋", 101.44, 12.63], "car", "直行ミニバン 約3時間"), D("boat", "フェリー 約30〜40分")] },
   "mui-ne-guide": { from: "成田・関西", legs: [L(P.sgn, "air", "国際線 直行 約6時間", "ここで1泊"), D("car", "バス 約5.5時間")] },
+  "koh-mak-guide": { from: "成田・羽田・関西", legs: [L(P.bkk, "air", INTL_BKK), L(["トラート", 102.32, 12.27], "air", "国内線"), D("boat", "車＋スピードボート（船は約50分）")] },
+  "siquijor-guide": { from: "成田・関西", legs: [L(P.ceb, "air", INTL_CEB), D("boat", "高速船 約4〜5時間")] },
 };
 
 // 日本語を表示幅（全角=1、半角=0.55）で折り返す。「、」「）」の直後か「（」の直前を優先し、

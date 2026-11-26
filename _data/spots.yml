@@ -2352,3 +2352,39 @@ koh-mak-guide:
     ways:
       - "トレイルを歩いて訪れる"
       - "人のいないビーチでのんびりする"
+
+siquijor-guide:
+  - name: パリトンビーチ
+    lat: 9.1700
+    lng: 123.4950
+    desc: 島の西側、サンファン地区の白砂のビーチ。夕日の名所
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Paliton_Beach%2C_Siquijor%2C_Philippines.JPG/960px-Paliton_Beach%2C_Siquijor%2C_Philippines.JPG"
+    category: beach
+    tags: ["ビーチ", "絶景"]
+  - name: サラグドゥーンビーチ
+    lat: 9.1950
+    lng: 123.6350
+    desc: 東側のマリア地区にあるビーチ。崖からの飛び込みスポット
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Salagdoong_Beach_Siquijor-Daylight.jpg/960px-Salagdoong_Beach_Siquijor-Daylight.jpg"
+    category: beach
+    tags: ["ビーチ", "アクティビティ"]
+  - name: カンブガハイ滝
+    lat: 9.1350
+    lng: 123.6300
+    desc: ラジにある多段の滝。滝つぼにブランコがあり、朝イチが空いている
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Cambugahay_Falls_01.JPG/960px-Cambugahay_Falls_01.JPG"
+    category: spot
+    tags: ["自然", "滝"]
+  - name: ラジ教会
+    lat: 9.1278
+    lng: 123.6333
+    desc: サンゴ石と木材でつくられたバロック様式の教会
+    category: spot
+    tags: ["観光"]
+  - name: エンチャンテッド・バレテの木
+    lat: 9.1330
+    lng: 123.6050
+    desc: ラジにある樹齢数百年といわれるバレテの巨木。根元に小さな池がある
+    category: spot
+    tags: ["自然", "観光"]
+

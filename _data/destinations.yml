@@ -1935,3 +1935,48 @@
   beach_underwater: null
   beach_sand: 4
   beach_waves: "なし"
+- name: シキホール島
+  en_name: "Siquijor, Philippines"
+  slug: siquijor-guide
+  country: フィリピン
+  country_slug: philippines
+  description: "「魔女と癒しの島」と呼ばれる小さな島。滝つぼのブランコ、崖からの飛び込みビーチ、夕日の名所パリトンビーチまで、静かな島時間が流れる。"
+  lat: 9.2000
+  lng: 123.5500
+  flight_min: 40000
+  flight_max: 140000
+  flight_min_kansai: 45000
+  flight_max_kansai: 78000
+  hotel_min: 2500
+  hotel_max: 30000
+  transport_min: 4000
+  transport_max: 12000
+  food_min: 2500
+  food_max: 6000
+  yasu_hotel: 3500
+  yasu_transport: 5000
+  yasu_food: 2500
+  yuru_hotel: 11000
+  yuru_transport: 7500
+  yuru_food: 4000
+  ragu_hotel: 24000
+  ragu_transport: 11000
+  ragu_food: 6000
+  flight_hours: "約5時間（セブ直行便）＋セブからフェリーで約4〜5時間（セブで前泊）"
+  recommended_nights: "5泊以上"
+  visa: "不要（30日以内）"
+  photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Paliton_Beach%2C_Siquijor%2C_Philippines.JPG/960px-Paliton_Beach%2C_Siquijor%2C_Philippines.JPG"
+  photo_credit_url: "https://commons.wikimedia.org/wiki/File:Paliton_Beach,_Siquijor,_Philippines.JPG"
+  suited_for: [couple, solo, friends]
+  best_months: [12, 1, 2, 3, 4]
+  budget_tags:
+    yasu: [TR02, TR04, SC05, HT16]
+    yuru: [TR03, TR04, HT03]
+    ragu: [TR03, TR04, HT11]
+  url: /2026/11/26/siquijor-guide/
+  tags: { beach: 4, resort: 3, island: 5, city_base: 1, sightseeing: 3, relax: 5, party: 1, activity: 3 }
+  beach_name: "パリトンビーチ"
+  beach_visibility: 3
+  beach_underwater: null
+  beach_sand: 4
+  beach_waves: "なし"

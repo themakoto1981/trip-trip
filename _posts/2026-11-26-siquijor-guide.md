@@ -50,14 +50,14 @@ excerpt: "「魔女と癒しの島」と呼ばれるシキホール島。白砂�
 
 **1日目（セブ泊）**
 - 08:55　成田発（セブパシフィック航空 5J5063、約5時間40分）
-- 13:35　セブ着。[Grab](/grab/)でホテルへ移動し、[The Stopover Hostel – Mactan](https://www.booking.com/searchresults.html?ss=The%20Stopover%20Hostel%20Mactan)にチェックイン（空港から1km）
+- 13:35　セブ着。[Grab](/grab/)でホテルへ移動し、[The Stopover Hostel – Mactan](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1199805)にチェックイン（空港から1km）
 - 午後　近くのビーチでのんびり、早めに就寝
 
 **2日目（シキホール泊）**
 - 03:45頃　[Grab](/grab/)でセブ市内のピア1港へ（約40分）
 - 05:10　OceanJetの高速船でシキホール島のラレナ港へ（ボホール島のタグビラン経由、約4〜5時間）。[12go.asiaでフェリーの最新スケジュール](https://12go.asia/en/travel/cebu/siquijor/?z=17114820)
 - 10:00頃　ラレナ港着。トライシクルかバンでサンファン地区へ移動（約45分）
-- 11:00頃　[Kiwi Dive Resort](https://www.booking.com/searchresults.html?ss=Kiwi%20Dive%20Resort%20Siquijor)に荷物を預け、近くのビーチで過ごす
+- 11:00頃　[Apo Diver Beach Accommodation](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D4914567)に荷物を預け、近くのビーチで過ごす
 - 14:00頃　チェックイン
 
 **3日目（終日フリー）**
@@ -76,7 +76,7 @@ excerpt: "「魔女と癒しの島」と呼ばれるシキホール島。白砂�
 - 12:30頃　チェックアウトし、ラレナ港へ（約45分）
 - 14:30　OceanJetの高速船でセブへ（ボホール島のタグビラン経由、約4〜5時間）。[12go.asiaでフェリーの最新スケジュール](https://12go.asia/en/travel/cebu/siquijor/?z=17114820)
 - 19:00頃　セブ・ピア1港着
-- 夕食後　[Grab](/grab/)で[The Stopover Hostel – Mactan](https://www.booking.com/searchresults.html?ss=The%20Stopover%20Hostel%20Mactan)へ移動し、チェックイン（空港から1km）
+- 夕食後　[Grab](/grab/)で[The Stopover Hostel – Mactan](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1199805)へ移動し、チェックイン（空港から1km）
 
 **6日目（帰国日）**
 - 12:30頃　[Grab](/grab/)で空港へ移動（出発2〜3時間前を目安に）
@@ -87,14 +87,14 @@ excerpt: "「魔女と癒しの島」と呼ばれるシキホール島。白砂�
 
 **1日目（セブ泊）**
 - 09:15　関空発（セブパシフィック航空、約4時間25分）
-- 12:40　セブ着。[Grab](/grab/)でホテルへ移動し、[The Stopover Hostel – Mactan](https://www.booking.com/searchresults.html?ss=The%20Stopover%20Hostel%20Mactan)にチェックイン（空港から1km）
+- 12:40　セブ着。[Grab](/grab/)でホテルへ移動し、[The Stopover Hostel – Mactan](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D1199805)にチェックイン（空港から1km）
 - 午後　近くのビーチでのんびり、早めに就寝
 
 **2日目（シキホール泊）**
 - 03:45頃　[Grab](/grab/)でセブ市内のピア1港へ（約40分）
 - 05:10　OceanJetの高速船でシキホール島のラレナ港へ（ボホール島のタグビラン経由、約4〜5時間）。[12go.asiaでフェリーの最新スケジュール](https://12go.asia/en/travel/cebu/siquijor/?z=17114820)
 - 10:00頃　ラレナ港着。トライシクルかバンでサンファン地区へ移動（約45分）
-- 11:00頃　[Kiwi Dive Resort](https://www.booking.com/searchresults.html?ss=Kiwi%20Dive%20Resort%20Siquijor)に荷物を預け、近くのビーチで過ごす
+- 11:00頃　[Apo Diver Beach Accommodation](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D4914567)に荷物を預け、近くのビーチで過ごす
 - 14:00頃　チェックイン
 
 **3日目（終日フリー）**
@@ -124,7 +124,7 @@ excerpt: "「魔女と癒しの島」と呼ばれるシキホール島。白砂�
 
 **1日目（セブ泊）**
 - 15:20　成田発（フィリピン航空 PR433、約5時間15分）
-- 19:35　セブ着。[Grab](/grab/)でホテルへ移動し、[Bluewater Maribago Beach Resort](https://www.booking.com/searchresults.html?ss=Bluewater%20Maribago%20Beach%20Resort)にチェックイン（マクタン島のビーチフロントリゾート）
+- 19:35　セブ着。[Grab](/grab/)でホテルへ移動し、[Bluewater Maribago Beach Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D10526)にチェックイン（マクタン島のビーチフロントリゾート）
 
 **2日目（シキホール泊）**
 - 午前　ホテルのビーチでのんびり
@@ -132,7 +132,7 @@ excerpt: "「魔女と癒しの島」と呼ばれるシキホール島。白砂�
 - 11:30頃　[Grab](/grab/)でセブ市内のピア1港へ（約45分）
 - 13:00　OceanJetの高速船でシキホール島のラレナ港へ（ボホール島のタグビラン経由、約4〜5時間）。[12go.asiaでフェリーの最新スケジュール](https://12go.asia/en/travel/cebu/siquijor/?z=17114820)
 - 17:30頃　ラレナ港着。トライシクルかバンでサンファン地区へ移動（約45分）
-- 18:30頃　[Salamangka Beach and Dive Resort](https://www.booking.com/searchresults.html?ss=Salamangka%20Beach%20and%20Dive%20Resort)にチェックイン（サンファン地区のビーチサイドリゾート、ダイビングも充実）
+- 18:30頃　[Salamangka Beach and Dive Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D62077463)にチェックイン（サンファン地区のビーチサイドリゾート、ダイビングも充実）
 
 **3日目（終日フリー）**
 - 08:00　ホテル手配のバン（ドライバー付き）で島の南側へ。まずはカンブガハイ滝（朝イチが空いている）で滝つぼのブランコジャンプ
@@ -150,7 +150,7 @@ excerpt: "「魔女と癒しの島」と呼ばれるシキホール島。白砂�
 - 12:30頃　チェックアウトし、ラレナ港へ（約45分）
 - 14:30　OceanJetの高速船でセブへ（ボホール島のタグビラン経由、約4〜5時間）。[12go.asiaでフェリーの最新スケジュール](https://12go.asia/en/travel/cebu/siquijor/?z=17114820)
 - 19:00頃　セブ・ピア1港着
-- 夕食後　[Grab](/grab/)で[Bluewater Maribago Beach Resort](https://www.booking.com/searchresults.html?ss=Bluewater%20Maribago%20Beach%20Resort)へ移動し、チェックイン
+- 夕食後　[Grab](/grab/)で[Bluewater Maribago Beach Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D10526)へ移動し、チェックイン
 
 **6日目（帰国日）**
 - 06:00頃　ホテル発、空港へ
@@ -161,7 +161,7 @@ excerpt: "「魔女と癒しの島」と呼ばれるシキホール島。白砂�
 
 **1日目（セブ泊）**
 - 09:15　関空発（セブパシフィック航空、約4時間25分）
-- 12:40　セブ着。[Grab](/grab/)でホテルへ移動し、[Bluewater Maribago Beach Resort](https://www.booking.com/searchresults.html?ss=Bluewater%20Maribago%20Beach%20Resort)にチェックイン（マクタン島のビーチフロントリゾート）
+- 12:40　セブ着。[Grab](/grab/)でホテルへ移動し、[Bluewater Maribago Beach Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D10526)にチェックイン（マクタン島のビーチフロントリゾート）
 
 **2日目（シキホール泊）**
 - 午前　ホテルのビーチでのんびり
@@ -169,7 +169,7 @@ excerpt: "「魔女と癒しの島」と呼ばれるシキホール島。白砂�
 - 11:30頃　[Grab](/grab/)でセブ市内のピア1港へ（約45分）
 - 13:00　OceanJetの高速船でシキホール島のラレナ港へ（ボホール島のタグビラン経由、約4〜5時間）。[12go.asiaでフェリーの最新スケジュール](https://12go.asia/en/travel/cebu/siquijor/?z=17114820)
 - 17:30頃　ラレナ港着。トライシクルかバンでサンファン地区へ移動（約45分）
-- 18:30頃　[Salamangka Beach and Dive Resort](https://www.booking.com/searchresults.html?ss=Salamangka%20Beach%20and%20Dive%20Resort)にチェックイン（サンファン地区のビーチサイドリゾート、ダイビングも充実）
+- 18:30頃　[Salamangka Beach and Dive Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D62077463)にチェックイン（サンファン地区のビーチサイドリゾート、ダイビングも充実）
 
 **3日目（終日フリー）**
 - 08:00　ホテル手配のバン（ドライバー付き）で島の南側へ。まずはカンブガハイ滝（朝イチが空いている）で滝つぼのブランコジャンプ
@@ -198,7 +198,7 @@ excerpt: "「魔女と癒しの島」と呼ばれるシキホール島。白砂�
 
 **1日目（セブ泊）**
 - 15:20　成田発（フィリピン航空 PR433、約5時間15分）
-- 19:35　セブ着。[Grab](/grab/)でホテルへ移動し、[Shangri-La's Mactan Resort & Spa](https://www.booking.com/searchresults.html?ss=Shangri-La%27s%20Mactan%20Resort%20%26%20Spa)にチェックイン（ビーチフロントの高級リゾート、敷地内に魚の保護区あり）
+- 19:35　セブ着。[Grab](/grab/)でホテルへ移動し、[Shangri-La's Mactan Resort & Spa](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D10531)にチェックイン（ビーチフロントの高級リゾート、敷地内に魚の保護区あり）
 
 **2日目（シキホール泊）**
 - 午前　ホテル目の前の魚保護区でシュノーケリング
@@ -206,7 +206,7 @@ excerpt: "「魔女と癒しの島」と呼ばれるシキホール島。白砂�
 - 11:30頃　[Grab](/grab/)でセブ市内のピア1港へ（約45分）
 - 13:00　OceanJetの高速船でシキホール島のラレナ港へ（ボホール島のタグビラン経由、約4〜5時間）。[12go.asiaでフェリーの最新スケジュール](https://12go.asia/en/travel/cebu/siquijor/?z=17114820)
 - 17:30頃　ラレナ港着。ホテル手配の専用車でサンファン地区へ移動（約45分）
-- 18:30頃　[Coco Grove Beach Resort](https://www.booking.com/searchresults.html?ss=Coco%20Grove%20Beach%20Resort)にチェックイン（白砂のビーチに面した静かな高級リゾート）
+- 18:30頃　[Coco Grove Beach Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D503130)にチェックイン（白砂のビーチに面した静かな高級リゾート）
 
 **3日目（終日フリー）**
 - 08:00　専用車（ドライバー付き）で島の南側へ。まずはカンブガハイ滝（朝イチが空いている）で滝つぼのブランコジャンプ
@@ -224,7 +224,7 @@ excerpt: "「魔女と癒しの島」と呼ばれるシキホール島。白砂�
 - 12:30頃　チェックアウトし、専用車でラレナ港へ（約45分）
 - 14:30　OceanJetの高速船でセブへ（ボホール島のタグビラン経由、約4〜5時間）。[12go.asiaでフェリーの最新スケジュール](https://12go.asia/en/travel/cebu/siquijor/?z=17114820)
 - 19:00頃　セブ・ピア1港着
-- 夕食後　[Grab](/grab/)で[Shangri-La's Mactan Resort & Spa](https://www.booking.com/searchresults.html?ss=Shangri-La%27s%20Mactan%20Resort%20%26%20Spa)へ移動し、チェックイン
+- 夕食後　[Grab](/grab/)で[Shangri-La's Mactan Resort & Spa](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D10531)へ移動し、チェックイン
 
 **6日目（帰国日）**
 - 06:00頃　ホテル発、空港へ
@@ -235,7 +235,7 @@ excerpt: "「魔女と癒しの島」と呼ばれるシキホール島。白砂�
 
 **1日目（セブ泊）**
 - 09:15　関空発（セブパシフィック航空、約4時間25分）
-- 12:40　セブ着。[Grab](/grab/)でホテルへ移動し、[Shangri-La's Mactan Resort & Spa](https://www.booking.com/searchresults.html?ss=Shangri-La%27s%20Mactan%20Resort%20%26%20Spa)にチェックイン（ビーチフロントの高級リゾート、敷地内に魚の保護区あり）
+- 12:40　セブ着。[Grab](/grab/)でホテルへ移動し、[Shangri-La's Mactan Resort & Spa](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D10531)にチェックイン（ビーチフロントの高級リゾート、敷地内に魚の保護区あり）
 
 **2日目（シキホール泊）**
 - 午前　ホテル目の前の魚保護区でシュノーケリング
@@ -243,7 +243,7 @@ excerpt: "「魔女と癒しの島」と呼ばれるシキホール島。白砂�
 - 11:30頃　[Grab](/grab/)でセブ市内のピア1港へ（約45分）
 - 13:00　OceanJetの高速船でシキホール島のラレナ港へ（ボホール島のタグビラン経由、約4〜5時間）。[12go.asiaでフェリーの最新スケジュール](https://12go.asia/en/travel/cebu/siquijor/?z=17114820)
 - 17:30頃　ラレナ港着。ホテル手配の専用車でサンファン地区へ移動（約45分）
-- 18:30頃　[Coco Grove Beach Resort](https://www.booking.com/searchresults.html?ss=Coco%20Grove%20Beach%20Resort)にチェックイン（白砂のビーチに面した静かな高級リゾート）
+- 18:30頃　[Coco Grove Beach Resort](https://px.a8.net/svt/ejp?a8mat=4BEMLT+9T22IA+4X1W+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.agoda.com%2Fja-jp%2Faccom%2Fproperty%3FpropertyId%3D503130)にチェックイン（白砂のビーチに面した静かな高級リゾート）
 
 **3日目（終日フリー）**
 - 08:00　専用車（ドライバー付き）で島の南側へ。まずはカンブガハイ滝（朝イチが空いている）で滝つぼのブランコジャンプ

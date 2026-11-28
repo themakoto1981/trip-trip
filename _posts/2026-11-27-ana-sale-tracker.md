@@ -1,5 +1,6 @@
 ---
 layout: post
+published: false
 title: "ANA国際線タイムセール履歴まとめ｜東南アジア行き航空券、一番安いのはいつ？"
 date: 2026-11-27
 last_verified: 2026-11-27
